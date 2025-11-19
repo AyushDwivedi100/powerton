@@ -7140,6 +7140,633 @@
       "High efficiency"
     ]
   },
+  "siemens3su1200Buzzer": {
+    "title": "Siemens 3SU1200-6KB10 Panel Mount Buzzer",
+    "description": "24V AC/DC industrial buzzer with 80 dB sound output and 22mm mounting",
+    "features": [
+      "80 dB @ 10cm",
+      "24V AC/DC universal",
+      "22mm round mount",
+      "IP40 protection",
+      "2.4 kHz frequency"
+    ]
+  },
+  "abbCb1610rBuzzer": {
+    "title": "ABB CB1-610R Illuminated Buzzer",
+    "description": "Industrial pulsating buzzer with red LED indication and IP66 rating",
+    "features": [
+      "90 dB pulsating tone",
+      "Red LED integrated",
+      "IP66/IP67/IP69K rated",
+      "22mm panel mount",
+      "24V AC/DC operation"
+    ]
+  },
+  "siemens8wd4250Buzzer": {
+    "title": "Siemens 8WD4250-0FA Signal Column Buzzer",
+    "description": "230V AC industrial signal buzzer for 50mm signal columns",
+    "features": [
+      "80-85 dB output",
+      "230V AC powered",
+      "50mm column mount",
+      "25 mA current",
+      "Industrial signaling"
+    ]
+  },
+  "polycabLtXlpeArmoured3core25": {
+    "title": "Polycab LT XLPE Armoured Cable 3C x 25 sq.mm",
+    "description": "650/1100V XLPE insulated armoured cable with galvanised steel wire armour",
+    "features": [
+      "650/1100V rated",
+      "Copper stranded conductor",
+      "XLPE insulation",
+      "Steel wire armour",
+      "IS 7098 Part 1"
+    ]
+  },
+  "keiAluminiumArmoured4core70": {
+    "title": "KEI Aluminium Armoured Cable 4C x 70 sq.mm",
+    "description": "1.1 kV XLPE armoured cable with aluminium conductor and steel strip armour",
+    "features": [
+      "1.1 kV LT rated",
+      "Aluminium stranded",
+      "4 core configuration",
+      "Steel strip armour",
+      "IS 7098 standard"
+    ]
+  },
+  "polycabHtXlpe11kvArmoured185": {
+    "title": "Polycab HT XLPE 11kV Armoured Cable 1C x 185 sq.mm",
+    "description": "6.35/11 kV high tension cable with triple extrusion XLPE and copper tape screen",
+    "features": [
+      "6.35/11 kV HT",
+      "Copper compact conductor",
+      "Triple extrusion XLPE",
+      "Copper tape screen",
+      "IEC 60502-2"
+    ]
+  },
+  "polycabFlexibleMulticore4core2-5": {
+    "title": "Polycab Flexible Multicore Cable 4C x 2.5 sq.mm",
+    "description": "650/1100V PVC insulated flexible cable with Class 5 copper conductor",
+    "features": [
+      "650/1100V rated",
+      "Class 5 flexible",
+      "4 core PVC insulated",
+      "-15°C to +70°C",
+      "IS 694:2010"
+    ]
+  },
+  "keiFlexibleFrls6core4": {
+    "title": "KEI Flexible FR-LSH Cable 6C x 4 sq.mm",
+    "description": "1100V flame retardant low smoke halogen-free flexible cable",
+    "features": [
+      "1100V rated",
+      "FR-LSH sheath",
+      "6 core bunched",
+      "Up to 105°C",
+      "IS 694, BS 6500"
+    ]
+  },
+  "polycabFlexibleSingle16": {
+    "title": "Polycab Flexible Single Core Cable 16 sq.mm",
+    "description": "1100V single core flexible cable for control panels and automation",
+    "features": [
+      "1100V rated",
+      "Single core",
+      "Copper flexible",
+      "PVC insulated",
+      "Control applications"
+    ]
+  },
+  "beldenCat6aProfinet": {
+    "title": "Belden Cat6a DataTuff PROFINET Cable",
+    "description": "10 Gbps industrial Ethernet cable with PUR jacket for PROFINET and EtherCAT",
+    "features": [
+      "Cat6a rated",
+      "10 Gbps speed",
+      "Double shielded",
+      "PUR jacket",
+      "PROFINET certified"
+    ]
+  },
+  "lappEtherlineCat5e": {
+    "title": "LAPP ETHERLINE Cat5e PROFINET Cable",
+    "description": "Industrial Cat5e S/FTP cable for PROFINET and EtherNet/IP applications",
+    "features": [
+      "Cat5e certified",
+      "100 Mbps",
+      "S/FTP shielded",
+      "Halogen-free PVC",
+      "IEC 61784-5-3"
+    ]
+  },
+  "siemensFcCat6": {
+    "title": "Siemens SIMATIC NET FastConnect Cat6 Cable",
+    "description": "Industrial Cat6 Ethernet cable with quick assembly system for automation",
+    "features": [
+      "Cat6 standard",
+      "1 Gbps speed",
+      "EMC shielded",
+      "Quick assembly",
+      "Industrial grade"
+    ]
+  },
+  "abbOfafGg125a": {
+    "title": "ABB OFAF gG 125A HRC Fuse 500V",
+    "description": "125A gG-type HRC fuse with 80 kA breaking capacity for general purpose protection",
+    "features": [
+      "125A rated current",
+      "500V AC",
+      "80 kA breaking",
+      "Size 00 fuse",
+      "IEC 60269"
+    ]
+  },
+  "siemens3na3250a": {
+    "title": "Siemens 3NA3 250A DIN HRC Fuse",
+    "description": "250A NH1 size gG fuse with 120 kA breaking capacity",
+    "features": [
+      "250A rated",
+      "500V AC",
+      "NH1 size",
+      "120 kA breaking",
+      "IS 13703"
+    ]
+  },
+  "abbCef100aMv": {
+    "title": "ABB CEF 100A Medium Voltage HRC Fuse",
+    "description": "12 kV back-up current limiting fuse for transformer protection",
+    "features": [
+      "100A rated",
+      "12 kV medium voltage",
+      "Current limiting",
+      "Transformer protection",
+      "IEC 60282-1"
+    ]
+  },
+  "siemensSitopPsu820020a": {
+    "title": "Siemens SITOP PSU8200 24V/20A Power Supply",
+    "description": "480W DIN rail SMPS with 93% efficiency and wide input range",
+    "features": [
+      "480W output",
+      "24V DC / 20A",
+      "93% efficiency",
+      "120-230V AC input",
+      "DIN rail mount"
+    ]
+  },
+  "phoenixQuintPs10a": {
+    "title": "Phoenix Contact QUINT POWER 24V/10A SMPS",
+    "description": "240W power supply with Selective Fuse Breaking technology",
+    "features": [
+      "240W output",
+      "24V DC / 10A",
+      "93% efficient",
+      "SFB technology",
+      "100-240V AC"
+    ]
+  },
+  "siemensSitopPsu100s10a": {
+    "title": "Siemens SITOP PSU100S 24V/10A SMPS",
+    "description": "240W single-phase SMPS with UL and CSA certification",
+    "features": [
+      "240W power",
+      "24V DC / 10A",
+      "Single-phase AC",
+      "UL, CSA, CE",
+      "DIN rail"
+    ]
+  },
+  "siemens3rt202725a": {
+    "title": "Siemens SIRIUS 3RT2027 25A Contactor",
+    "description": "25A AC-3 rated 3-pole contactor with 11 kW power rating at 400V",
+    "features": [
+      "25A @ 400V AC-3",
+      "11 kW @ 400V",
+      "3-pole + 1NO+1NC",
+      "S0 size",
+      "230V AC coil"
+    ]
+  },
+  "abbAf140140a": {
+    "title": "ABB AF140 140A AC Contactor",
+    "description": "140A AC-3 contactor with universal coil and 75 kW power rating",
+    "features": [
+      "140A @ 400V AC-3",
+      "75 kW @ 400V",
+      "Universal coil",
+      "Up to 690V",
+      "200A AC-1"
+    ]
+  },
+  "schneiderLc1d3232a": {
+    "title": "Schneider TeSys LC1D32 32A Contactor",
+    "description": "32A AC-3 rated TeSys D line contactor with 15 kW power rating",
+    "features": [
+      "32A @ 400V AC-3",
+      "15 kW @ 400V",
+      "690V voltage",
+      "Multiple coil options",
+      "50A AC-1"
+    ]
+  },
+  "abbCtMvsTimer": {
+    "title": "ABB CT-MVS.12S Multifunction Timer Relay",
+    "description": "DIN rail timer with 11 timing functions and 0.05s to 100h range",
+    "features": [
+      "11 timing functions",
+      "0.05s to 100h",
+      "24-240V AC/DC",
+      "1C/O relay 6A",
+      "17.5mm width"
+    ]
+  },
+  "schneiderRe17ramuTimer": {
+    "title": "Schneider Harmony RE17RAMU Dual Timer",
+    "description": "ON/OFF-delay dual timer relay with 1s to 100h time range",
+    "features": [
+      "Dual ON/OFF delay",
+      "1s to 100h range",
+      "24-240V AC/DC",
+      "1CO 8A output",
+      "DIN rail mount"
+    ]
+  },
+  "abbCtAhcTimer": {
+    "title": "ABB CT-AHC.12 OFF-Delay Timer",
+    "description": "Single function OFF-delay timer with 7 time ranges up to 100h",
+    "features": [
+      "OFF-delay function",
+      "0.05s to 100h",
+      "7 time ranges",
+      "24-240V AC/DC",
+      "IP50 protection"
+    ]
+  },
+  "abbX4250psf1": {
+    "title": "ABB X4250PSF1 Control Transformer 250VA",
+    "description": "Dual secondary 250VA control transformer with panel mount design",
+    "features": [
+      "250 VA rated",
+      "240/480V primary",
+      "115/24V dual secondary",
+      "50/60 Hz",
+      "UL, CSA, NEMA"
+    ]
+  },
+  "siemensMt0500a": {
+    "title": "Siemens MT0500A Control Transformer 500VA",
+    "description": "500VA Class MT transformer with 55°C temperature rise",
+    "features": [
+      "500 VA power",
+      "240/480V primary",
+      "120/240V secondary",
+      "Class 105°C",
+      "UL, CSA certified"
+    ]
+  },
+  "abbX4100psf1": {
+    "title": "ABB X4100PSF1 Control Transformer 100VA",
+    "description": "100VA epoxy encapsulated transformer with primary and secondary fusing",
+    "features": [
+      "100 VA rated",
+      "208/230/460V primary",
+      "115/24V secondary",
+      "Epoxy encapsulated",
+      "Fused protection"
+    ]
+  },
+  "abbMvCt1005": {
+    "title": "ABB MV Current Transformer 100/5A 5P20",
+    "description": "12 kV medium voltage CT with 5P20 accuracy class for protection",
+    "features": [
+      "100/5A ratio",
+      "5P20 accuracy",
+      "15 VA burden",
+      "12 kV rated",
+      "IEC 61869-2"
+    ]
+  },
+  "siemens4nc5Ct6005": {
+    "title": "Siemens 4NC5 Current Transformer 600/5A",
+    "description": "Metering class 0.5 CT with 10 VA burden for PAC devices",
+    "features": [
+      "600/5A ratio",
+      "Class 0.5 metering",
+      "10 VA burden",
+      "PAC compatible",
+      "IEC 61869"
+    ]
+  },
+  "abbLvCt4005": {
+    "title": "ABB LV Current Transformer 400/5A Class 0.2S",
+    "description": "Precision metering CT with 0.2S accuracy class and dual output options",
+    "features": [
+      "400/5A or 400/1A",
+      "Class 0.2S precision",
+      "10 VA burden",
+      "±0.2% accuracy",
+      "Low voltage"
+    ]
+  },
+  "philipsSmartbright100w": {
+    "title": "Philips SmartBright LED 100W Street Light",
+    "description": "High-efficiency 100W LED street light with 14,000 lm output and IP66 rating",
+    "features": [
+      "14,000 lm output",
+      "140 lm/W efficacy",
+      "IP66 protection",
+      "IK08 impact",
+      "50,000 hours life"
+    ]
+  },
+  "osramAvant150w": {
+    "title": "OSRAM AVANT LED 150W Street Light",
+    "description": "150W industrial street light with asymmetric optics and 15,000 lm",
+    "features": [
+      "15,000 lm output",
+      "130 lm/W efficacy",
+      "IP65 rated",
+      "IK10 impact",
+      "Asymmetric optics"
+    ]
+  },
+  "philipsXitanium40w": {
+    "title": "Philips Xitanium Infinity 40W LED Street Light",
+    "description": "Ultra-efficient 40W street light with 160 lm/W and 100,000 hour lifetime",
+    "features": [
+      "6,400 lm output",
+      "160 lm/W efficacy",
+      "100,000 hrs life",
+      "IP66 protection",
+      "3000K amber"
+    ]
+  },
+  "trinaTsm315pd14": {
+    "title": "Trina Solar TSM-315PD14 Polycrystalline Panel",
+    "description": "315W polycrystalline solar panel with 16.2% efficiency and 25-year warranty",
+    "features": [
+      "315W power",
+      "16.2% efficiency",
+      "72 cells poly",
+      "25 yr warranty",
+      "1960×992×40mm"
+    ]
+  },
+  "canadianCs6p330p": {
+    "title": "Canadian Solar CS6P-330P Polycrystalline Panel",
+    "description": "330W high-efficiency polycrystalline panel with 16.97% efficiency",
+    "features": [
+      "330W output",
+      "16.97% efficiency",
+      "72 cells poly",
+      "1000V max system",
+      "91.89% PTC rating"
+    ]
+  },
+  "canadianCs3k295p": {
+    "title": "Canadian Solar KuPower CS3K-295P Panel",
+    "description": "295W polycrystalline panel with high snow and wind load ratings",
+    "features": [
+      "295W power",
+      "16% efficiency",
+      "60 cells poly",
+      "6000 Pa snow load",
+      "25 yr warranty"
+    ]
+  },
+  "philipsGreenperform100wHighbay": {
+    "title": "Philips GreenPerform LED 100W High Bay",
+    "description": "Industrial 100W LED high bay with 13,000 lm and 120° beam angle",
+    "features": [
+      "13,000 lm output",
+      "130 lm/W efficacy",
+      "IP65 protection",
+      "120° wide beam",
+      "50,000 hours"
+    ]
+  },
+  "osramLedvance150wHighbay": {
+    "title": "OSRAM LEDVANCE LED 150W Industrial High Bay",
+    "description": "150W warehouse high bay light with 21,000 lm and IK08 impact rating",
+    "features": [
+      "21,000 lm output",
+      "140 lm/W efficacy",
+      "IP65/IK08 rated",
+      "4000K neutral",
+      "Warehouse grade"
+    ]
+  },
+  "philipsCoreline200wHighbay": {
+    "title": "Philips CoreLine LED 200W High Bay",
+    "description": "High-power 200W LED high bay for 6-12 meter mounting heights",
+    "features": [
+      "28,000 lm output",
+      "140 lm/W efficacy",
+      "6-12m mounting",
+      "Mean Well driver",
+      "IP65 protection"
+    ]
+  },
+  "philipsSmartbright50wFlood": {
+    "title": "Philips SmartBright LED 50W Floodlight",
+    "description": "50W LED floodlight with 5,500 lm and die-cast aluminum housing",
+    "features": [
+      "5,500 lm output",
+      "110 lm/W efficacy",
+      "IP65 protection",
+      "110° beam",
+      "6500K daylight"
+    ]
+  },
+  "osramFloodlightPro100w": {
+    "title": "OSRAM Floodlight Pro LED 100W",
+    "description": "Professional 100W floodlight with 11,000 lm and IK08 impact rating",
+    "features": [
+      "11,000 lm output",
+      "110 lm/W efficacy",
+      "IP65/IK08 rated",
+      "4000K neutral",
+      "30,000 hours"
+    ]
+  },
+  "philipsTango150wFlood": {
+    "title": "Philips Tango LED 150W Floodlight",
+    "description": "High-power 150W floodlight for sports and outdoor area lighting",
+    "features": [
+      "18,000 lm output",
+      "120 lm/W efficacy",
+      "IP66 protection",
+      "5700K CCT",
+      "Sports lighting"
+    ]
+  },
+  "firstSolarFs680": {
+    "title": "First Solar Series 6 FS-680 Thin-Film Panel",
+    "description": "445W CdTe thin-film bifacial panel with superior temperature coefficient",
+    "features": [
+      "445W output",
+      "18.4% efficiency",
+      "CdTe thin-film",
+      "-0.28%/°C temp coeff",
+      "Bifacial"
+    ]
+  },
+  "solarFrontierSf180s": {
+    "title": "Solar Frontier SF180-S CIS Thin-Film Panel",
+    "description": "180W CIS thin-film panel with superior shade performance",
+    "features": [
+      "180W power",
+      "13.8% efficiency",
+      "CIS technology",
+      "Superior shade tolerance",
+      "25 yr warranty"
+    ]
+  },
+  "miasoleFlex02": {
+    "title": "MiaSolé FLEX-02 CIGS Flexible Thin-Film Panel",
+    "description": "430W flexible CIGS panel for curved surfaces and mobile applications",
+    "features": [
+      "430W output",
+      "17.5% efficiency",
+      "Flexible bendable",
+      "6 kg lightweight",
+      "RVs, boats, curved"
+    ]
+  },
+  "siemensSinamicsG120c5-5kw": {
+    "title": "Siemens SINAMICS G120C VFD 5.5 kW",
+    "description": "Compact 5.5 kW variable frequency drive with USS and Modbus communication",
+    "features": [
+      "5.5 kW power",
+      "380-480V 3-phase",
+      "12A output",
+      "150% overload",
+      "USS, Modbus RTU"
+    ]
+  },
+  "abbAcs58011kw": {
+    "title": "ABB ACS580 Drive 11 kW",
+    "description": "11 kW VFD with built-in PLC and safe torque off function",
+    "features": [
+      "11 kW rated",
+      "380-480V",
+      "Built-in PLC",
+      "Safe torque off",
+      "98% efficiency"
+    ]
+  },
+  "schneiderAtv3207-5kw": {
+    "title": "Schneider Altivar ATV320 VFD 7.5 kW",
+    "description": "7.5 kW variable speed drive with graphic terminal display",
+    "features": [
+      "7.5 kW power",
+      "380-500V 3-phase",
+      "17A output",
+      "Graphic terminal",
+      "150% overload"
+    ]
+  },
+  "siemens3rw4445a": {
+    "title": "Siemens SIRIUS 3RW44 Soft Starter 45A",
+    "description": "45A soft starter with pump control and bypass for 22 kW motors",
+    "features": [
+      "45A rated",
+      "22 kW @ 400V",
+      "200-600V AC",
+      "Pump control",
+      "Overload protection"
+    ]
+  },
+  "abbPse72a": {
+    "title": "ABB PSE Soft Starter 72A",
+    "description": "72A soft starter with internal bypass for 37 kW motor applications",
+    "features": [
+      "72A rated",
+      "37 kW @ 400V",
+      "208-600V",
+      "Internal bypass",
+      "30-90% torque"
+    ]
+  },
+  "schneiderAts2232a": {
+    "title": "Schneider Altistart ATS22 Soft Starter 32A",
+    "description": "32A soft starter with torque control and energy optimization",
+    "features": [
+      "32A rated",
+      "15 kW @ 400V",
+      "208-690V",
+      "Torque control",
+      "Energy optimization"
+    ]
+  },
+  "lappUnitronicProfibus2x22": {
+    "title": "LAPP UNITRONIC BUS PROFIBUS DP Cable",
+    "description": "Industrial PROFIBUS DP cable with 2x22 AWG conductors and purple jacket",
+    "features": [
+      "PROFIBUS DP",
+      "2x22 AWG stranded",
+      "135-165 Ω impedance",
+      "Purple PVC jacket",
+      "IEC 61158-2"
+    ]
+  },
+  "siemensProfibusFC": {
+    "title": "Siemens PROFIBUS FastConnect Standard Cable",
+    "description": "Quick-connect PROFIBUS cable with M12 or DB9 connectors",
+    "features": [
+      "PROFIBUS DP/PA",
+      "2-pair twisted",
+      "Up to 12 Mbps",
+      "Purple violet",
+      "M12 or DB9"
+    ]
+  },
+  "belden3079aProfibus": {
+    "title": "Belden 3079A PROFIBUS Network Cable",
+    "description": "Industrial PROFIBUS cable with foil and braid shielding",
+    "features": [
+      "PROFIBUS certified",
+      "22 AWG solid",
+      "Foil + braid",
+      "150 Ω impedance",
+      "Purple PVC"
+    ]
+  },
+  "lappEtherlineProfinetC": {
+    "title": "LAPP ETHERLINE PN Type C Cat5e Cable",
+    "description": "Continuous flex Cat5e PROFINET cable for cable tracks and drag chains",
+    "features": [
+      "Type C flex",
+      "Cat5e S/FTP",
+      "7.5M flex cycles",
+      "PUR green jacket",
+      "Drag chain rated"
+    ]
+  },
+  "siemensProfinetTypeA": {
+    "title": "Siemens PROFINET Cable Type A Cat5e Fixed",
+    "description": "Cat5e PROFINET cable for fixed stationary installations",
+    "features": [
+      "Type A fixed",
+      "Cat5e shielded",
+      "Solid copper",
+      "Green color",
+      "IEC 61784-5-3"
+    ]
+  },
+  "beldenProfinetCat6a": {
+    "title": "Belden DataTuff PROFINET Cat6a Industrial",
+    "description": "10 Gbps Cat6a PROFINET cable with 10 million flex cycles",
+    "features": [
+      "Cat6a certified",
+      "10 Gbps speed",
+      "S/FTP shielded",
+      "10M flex cycles",
+      "UL PLTC-ER"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - Variant {{number}}",
