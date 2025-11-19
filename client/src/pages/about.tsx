@@ -210,60 +210,9 @@ export default function About() {
         </section>
       </AnimatedSection>
 
-      {/* Mission & Vision */}
-      <AnimatedSection animation="fadeInLeft" delay={0.2} duration={0.9}>
-        <section className="py-12 md:py-16 lg:py-20 bg-muted">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              <motion.div
-                whileHover={{ y: -10, scale: 1.03 }}
-                transition={{ duration: 0.3, ease: "easeOut" }}
-              >
-                <Card className="border-none shadow-lg cursor-pointer">
-                  <CardContent className="p-8">
-                    <div className="flex items-center mb-6">
-                      <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
-                        <Target className="w-6 h-6 text-white" />
-                      </div>
-                      <h3 className="text-2xl font-bold text-primary">
-                        {t("pages:about.mission.title")}
-                      </h3>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      {t("pages:about.mission.description")}
-                    </p>
-                  </CardContent>
-                </Card>
-              </motion.div>
-
-              <motion.div
-                whileHover={{ y: -10, scale: 1.03 }}
-                transition={{ duration: 0.3, ease: "easeOut" }}
-              >
-                <Card className="border-none shadow-lg cursor-pointer">
-                  <CardContent className="p-8">
-                    <div className="flex items-center mb-6">
-                      <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mr-4">
-                        <Eye className="w-6 h-6 text-white" />
-                      </div>
-                      <h3 className="text-2xl font-bold text-primary">
-                        {t("pages:about.vision.title")}
-                      </h3>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      {t("pages:about.vision.description")}
-                    </p>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            </div>
-          </div>
-        </section>
-      </AnimatedSection>
-
       {/* Government A Class Contractor Certificates */}
       <AnimatedSection animation="fadeInUp" delay={0.15} duration={0.8}>
-        <section className="py-12 md:py-16 lg:py-20 bg-background">
+        <section className="py-12 md:py-16 lg:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
@@ -357,9 +306,60 @@ export default function About() {
         </section>
       </AnimatedSection>
 
+      {/* Mission & Vision */}
+      <AnimatedSection animation="fadeInLeft" delay={0.2} duration={0.9}>
+        <section className="py-12 md:py-16 lg:py-20 bg-background">
+          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <motion.div
+                whileHover={{ y: -10, scale: 1.03 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <Card className="border-none shadow-lg cursor-pointer">
+                  <CardContent className="p-8">
+                    <div className="flex items-center mb-6">
+                      <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
+                        <Target className="w-6 h-6 text-white" />
+                      </div>
+                      <h3 className="text-2xl font-bold text-primary">
+                        {t("pages:about.mission.title")}
+                      </h3>
+                    </div>
+                    <p className="text-muted-foreground leading-relaxed">
+                      {t("pages:about.mission.description")}
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+
+              <motion.div
+                whileHover={{ y: -10, scale: 1.03 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <Card className="border-none shadow-lg cursor-pointer">
+                  <CardContent className="p-8">
+                    <div className="flex items-center mb-6">
+                      <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mr-4">
+                        <Eye className="w-6 h-6 text-white" />
+                      </div>
+                      <h3 className="text-2xl font-bold text-primary">
+                        {t("pages:about.vision.title")}
+                      </h3>
+                    </div>
+                    <p className="text-muted-foreground leading-relaxed">
+                      {t("pages:about.vision.description")}
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+      </AnimatedSection>
+
       {/* Core Values */}
       <AnimatedSection animation="scaleIn" delay={0.15} duration={0.7}>
-        <section className="py-12 md:py-16 lg:py-20 bg-background">
+        <section className="py-12 md:py-16 lg:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
@@ -431,7 +431,7 @@ export default function About() {
 
       {/* Awards & Achievements */}
       <AnimatedSection animation="fadeInLeft" delay={0.15} duration={0.7}>
-        <section className="py-12 md:py-16 lg:py-20 bg-background">
+        <section className="py-12 md:py-16 lg:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
