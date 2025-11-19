@@ -60,7 +60,6 @@ export default function About() {
     },
   ];
 
-
   const values = [
     {
       icon: Target,
@@ -231,7 +230,7 @@ export default function About() {
                 <Card className="border-none shadow-lg h-full">
                   <CardContent className="p-8">
                     <div className="flex items-start mb-6">
-                      <div className="w-14 h-14 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                      <div className="w-14 h-14 bg-gradient-to-br from-secondary to-accent rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                         <FileText className="w-7 h-7 text-white" />
                       </div>
                       <div className="flex-1">
@@ -239,7 +238,7 @@ export default function About() {
                           {t("pages:about.licenses.upAClass")}
                         </h3>
                         <Badge variant="secondary" className="mb-4">
-                          A-Class Contractor
+                          {t("pages:about.licenses.AClassBadge")}
                         </Badge>
                       </div>
                     </div>
@@ -275,10 +274,10 @@ export default function About() {
                       </div>
                       <div className="flex-1">
                         <h3 className="text-xl font-bold text-foreground mb-2">
-                          {t("pages:about.licenses.stateAClass")}
+                          {t("pages:about.licenses.gjAClass")}
                         </h3>
                         <Badge variant="secondary" className="mb-4">
-                          A-Class Contractor
+                          {t("pages:about.licenses.AClassBadge")}
                         </Badge>
                       </div>
                     </div>
