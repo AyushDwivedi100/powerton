@@ -295,7 +295,7 @@ export default function About() {
                       </div>
                     </div>
                     <a
-                      href="/attached_assets/up%20licence%20A%20Class_1763534512698.pdf"
+                      href="/certificates/up-license-a-class.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full"
@@ -334,7 +334,7 @@ export default function About() {
                       </div>
                     </div>
                     <a
-                      href="/attached_assets/PEPL%20LICENSE-2_1763534518562.pdf"
+                      href="/certificates/pepl-license-2.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full"

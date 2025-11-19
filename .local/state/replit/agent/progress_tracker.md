@@ -10,16 +10,20 @@
 [x] 7. Uttar Pradesh A-Class certificate integrated with proper styling
 [x] 8. Second state government A-Class certificate integrated
 [x] 9. Removed unused Download icon import
-[x] 10. Workflow restarted successfully - Vite server ready in 251ms
-[x] 11. Application verified running at http://localhost:5000/
+[x] 10. Fixed 404 error by copying PDFs to client/public/certificates folder
+[x] 11. Updated PDF paths to use proper public URLs
+[x] 12. Verified both PDFs are accessible (HTTP 200 OK)
+[x] 13. Workflow restarted successfully - Vite server ready in 287ms
+[x] 14. Application verified running at http://localhost:5000/
 
 **Implementation Details:**
 - **Files Modified**: 
   - client/src/pages/about.tsx (added certificates section, positioned after Mission & Vision)
   - client/public/locales/en/pages.json (added certificates translations)
+  - client/public/certificates/ (new folder with PDF files)
 - **PDF Locations**:
-  - UP Certificate: `/attached_assets/up%20licence%20A%20Class_1763534512698.pdf`
-  - State Certificate: `/attached_assets/PEPL%20LICENSE-2_1763534518562.pdf`
+  - UP Certificate: `/certificates/up-license-a-class.pdf` (16MB)
+  - State Certificate: `/certificates/pepl-license-2.pdf` (139KB)
 - **Section Position**: Appears directly after Mission & Vision section (before Core Values)
 - **Features**: 
   - View Certificate button (opens PDF in new tab)
@@ -27,9 +31,9 @@
   - Animated hover effects
   - A-Class Contractor badges
   - Proper data-testid attributes for testing
-- **Status**: ✅ Both contractor certificates successfully integrated into About page at correct position
+- **Status**: ✅ Both contractor certificates successfully integrated and accessible
 
-**Status**: 🟢 Government A Class Contractor Certificates section completed - Application running at http://localhost:5000/
+**Status**: 🟢 Government A Class Contractor Certificates section completed - PDFs accessible - Application running at http://localhost:5000/
 
 ---
 
