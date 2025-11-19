@@ -237,7 +237,7 @@ const ProductCategoryDynamic: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="flex flex-wrap justify-center gap-2 mb-8"
             >
-              {categoryData.badges.map((badge, index) => (
+              {Array.isArray(categoryData.badges) && categoryData.badges.map((badge, index) => (
                 <motion.div
                   key={badge}
                   variants={badgeVariants}

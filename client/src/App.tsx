@@ -24,17 +24,17 @@ const NotFound = lazy(() => import("@/pages/not-found"));
 
 // Lazy load dynamic service category page
 const ServiceCategoryPage = lazy(
-  () => import("@/pages/service-category-dynamic")
+  () => import("@/pages/service-category-dynamic"),
 );
 
 // Lazy load dynamic product category page
 const ProductCategoryDynamic = lazy(
-  () => import("@/pages/product-category-dynamic")
+  () => import("@/pages/product-category-dynamic"),
 );
 
 // Lazy load dynamic product sub-category page
 const ProductSubCategoryDynamic = lazy(
-  () => import("@/pages/products-sub-category-dynamic")
+  () => import("@/pages/products-sub-category-dynamic"),
 );
 
 // Lazy load dynamic product group page
@@ -42,13 +42,11 @@ const ProductGroupDynamic = lazy(() => import("@/pages/product-group-dynamic"));
 
 // Lazy load dynamic product detail page
 const ProductDetailDynamic = lazy(
-  () => import("@/pages/product-detail-dynamic")
+  () => import("@/pages/product-detail-dynamic"),
 );
 
 // Lazy load feedback form
-const FeedbackForm = lazy(
-  () => import("@/components/forms/feedback-form")
-);
+const FeedbackForm = lazy(() => import("@/components/forms/feedback-form"));
 
 // Loading component for Suspense fallback
 const LoadingSpinner = () => {
@@ -66,7 +64,12 @@ function Router() {
   const [location] = useLocation();
 
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    const scrollElement = document.body;
+    if (scrollElement) {
+      scrollElement.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
   }, [location]);
 
   return (
