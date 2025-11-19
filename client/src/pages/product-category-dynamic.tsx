@@ -269,7 +269,7 @@ const ProductCategoryDynamic: React.FC = () => {
           variants={containerVariants}
           className={`grid ${categoryData.gridCols} gap-8`}
         >
-          {categoryData.subcategories.map((subcategory, index) => {
+          {Array.isArray(categoryData.subcategories) && categoryData.subcategories.map((subcategory, index) => {
             const IconComponent = subcategory.icon;
             // Get parent category slug from subcategory data
             const subcategorySlug =
@@ -318,7 +318,7 @@ const ProductCategoryDynamic: React.FC = () => {
                           {t("common:common.keyFeatures")}:
                         </h4>
                         <ul className="space-y-1">
-                          {subcategory.features.map((feature, featureIndex) => (
+                          {Array.isArray(subcategory.features) && subcategory.features.map((feature, featureIndex) => (
                             <motion.li
                               key={featureIndex}
                               className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors duration-300"
