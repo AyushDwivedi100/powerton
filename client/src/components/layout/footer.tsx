@@ -283,7 +283,7 @@ export default function Footer() {
                   { year: currentYear },
                 )}
               </p>
-              <div className="flex items-center gap-4 text-sm text-slate-400 flex-safe">
+              <div className="relative flex items-center gap-4 text-sm text-slate-400 flex-safe">
                 <LanguageSwitcher />
                 <ThemeToggle />
                 <Link href="/sitemap" data-testid="link-sitemap">
