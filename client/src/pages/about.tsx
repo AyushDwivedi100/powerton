@@ -12,7 +12,6 @@ import {
   Eye,
   Trophy,
   FileText,
-  Download,
   ExternalLink,
 } from "lucide-react";
 import { Link } from "wouter";
@@ -262,6 +261,102 @@ export default function About() {
         </section>
       </AnimatedSection>
 
+      {/* Government A Class Contractor Certificates */}
+      <AnimatedSection animation="fadeInUp" delay={0.15} duration={0.8}>
+        <section className="py-12 md:py-16 lg:py-20 bg-background">
+          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
+                {t("pages:about.licenses.title")}
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                {t("pages:about.licenses.subtitle")}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <motion.div
+                whileHover={{ y: -5, scale: 1.02 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <Card className="border-none shadow-lg h-full">
+                  <CardContent className="p-8">
+                    <div className="flex items-start mb-6">
+                      <div className="w-14 h-14 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                        <FileText className="w-7 h-7 text-white" />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-xl font-bold text-foreground mb-2">
+                          {t("pages:about.licenses.upAClass")}
+                        </h3>
+                        <Badge variant="secondary" className="mb-4">
+                          A-Class Contractor
+                        </Badge>
+                      </div>
+                    </div>
+                    <a
+                      href="/attached_assets/up%20licence%20A%20Class_1763534512698.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full"
+                      data-testid="link-up-license-view"
+                    >
+                      <Button
+                        variant="default"
+                        className="w-full"
+                        data-testid="button-view-up-license"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        {t("pages:about.licenses.viewLicense")}
+                      </Button>
+                    </a>
+                  </CardContent>
+                </Card>
+              </motion.div>
+
+              <motion.div
+                whileHover={{ y: -5, scale: 1.02 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <Card className="border-none shadow-lg h-full">
+                  <CardContent className="p-8">
+                    <div className="flex items-start mb-6">
+                      <div className="w-14 h-14 bg-gradient-to-br from-secondary to-accent rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                        <FileText className="w-7 h-7 text-white" />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-xl font-bold text-foreground mb-2">
+                          {t("pages:about.licenses.stateAClass")}
+                        </h3>
+                        <Badge variant="secondary" className="mb-4">
+                          A-Class Contractor
+                        </Badge>
+                      </div>
+                    </div>
+                    <a
+                      href="/attached_assets/PEPL%20LICENSE-2_1763534518562.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full"
+                      data-testid="link-state-license-view"
+                    >
+                      <Button
+                        variant="default"
+                        className="w-full"
+                        data-testid="button-view-state-license"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        {t("pages:about.licenses.viewLicense")}
+                      </Button>
+                    </a>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+      </AnimatedSection>
+
       {/* Core Values */}
       <AnimatedSection animation="scaleIn" delay={0.15} duration={0.7}>
         <section className="py-12 md:py-16 lg:py-20 bg-background">
@@ -308,7 +403,7 @@ export default function About() {
 
       {/* Certifications & Standards */}
       <AnimatedSection animation="fadeInRight" delay={0.1} duration={0.8}>
-        <section className="py-12 md:py-16 lg:py-20 bg-muted">
+        <section className="py-12 md:py-16 lg:py-20 bg-background">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
@@ -329,136 +424,6 @@ export default function About() {
                   <span className="font-medium text-foreground">{cert}</span>
                 </div>
               ))}
-            </div>
-          </div>
-        </section>
-      </AnimatedSection>
-
-      {/* Government Contractor Licenses */}
-      <AnimatedSection animation="fadeInUp" delay={0.15} duration={0.8}>
-        <section className="py-12 md:py-16 lg:py-20 bg-background">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-                {t("pages:about.licenses.title")}
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                {t("pages:about.licenses.subtitle")}
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <motion.div
-                whileHover={{ y: -5, scale: 1.02 }}
-                transition={{ duration: 0.3, ease: "easeOut" }}
-              >
-                <Card className="border-none shadow-lg h-full">
-                  <CardContent className="p-8">
-                    <div className="flex items-start mb-6">
-                      <div className="w-14 h-14 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                        <FileText className="w-7 h-7 text-white" />
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="text-xl font-bold text-foreground mb-2">
-                          {t("pages:about.licenses.upAClass")}
-                        </h3>
-                        <Badge variant="secondary" className="mb-4">
-                          A-Class Contractor
-                        </Badge>
-                      </div>
-                    </div>
-                    <div className="flex flex-col sm:flex-row gap-3">
-                      <a
-                        href="/attached_assets/up%20licence%20A%20Class_1763534512698.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1"
-                        data-testid="link-up-license-view"
-                      >
-                        <Button
-                          variant="outline"
-                          className="w-full"
-                          data-testid="button-view-up-license"
-                        >
-                          <ExternalLink className="w-4 h-4 mr-2" />
-                          {t("pages:about.licenses.viewLicense")}
-                        </Button>
-                      </a>
-                      <a
-                        href="/attached_assets/up%20licence%20A%20Class_1763534512698.pdf"
-                        download
-                        className="flex-1"
-                        data-testid="link-up-license-download"
-                      >
-                        <Button
-                          variant="default"
-                          className="w-full"
-                          data-testid="button-download-up-license"
-                        >
-                          <Download className="w-4 h-4 mr-2" />
-                          {t("pages:about.licenses.downloadLicense")}
-                        </Button>
-                      </a>
-                    </div>
-                  </CardContent>
-                </Card>
-              </motion.div>
-
-              <motion.div
-                whileHover={{ y: -5, scale: 1.02 }}
-                transition={{ duration: 0.3, ease: "easeOut" }}
-              >
-                <Card className="border-none shadow-lg h-full">
-                  <CardContent className="p-8">
-                    <div className="flex items-start mb-6">
-                      <div className="w-14 h-14 bg-gradient-to-br from-secondary to-accent rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                        <FileText className="w-7 h-7 text-white" />
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="text-xl font-bold text-foreground mb-2">
-                          {t("pages:about.licenses.stateAClass")}
-                        </h3>
-                        <Badge variant="secondary" className="mb-4">
-                          A-Class Contractor
-                        </Badge>
-                      </div>
-                    </div>
-                    <div className="flex flex-col sm:flex-row gap-3">
-                      <a
-                        href="/attached_assets/PEPL%20LICENSE-2_1763534518562.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1"
-                        data-testid="link-state-license-view"
-                      >
-                        <Button
-                          variant="outline"
-                          className="w-full"
-                          data-testid="button-view-state-license"
-                        >
-                          <ExternalLink className="w-4 h-4 mr-2" />
-                          {t("pages:about.licenses.viewLicense")}
-                        </Button>
-                      </a>
-                      <a
-                        href="/attached_assets/PEPL%20LICENSE-2_1763534518562.pdf"
-                        download
-                        className="flex-1"
-                        data-testid="link-state-license-download"
-                      >
-                        <Button
-                          variant="default"
-                          className="w-full"
-                          data-testid="button-download-state-license"
-                        >
-                          <Download className="w-4 h-4 mr-2" />
-                          {t("pages:about.licenses.downloadLicense")}
-                        </Button>
-                      </a>
-                    </div>
-                  </CardContent>
-                </Card>
-              </motion.div>
             </div>
           </div>
         </section>
