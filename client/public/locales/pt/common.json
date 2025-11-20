@@ -53,7 +53,6 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Motores DC sem escovas)",
     "PLC": "PLC (Controlador Lógico Programável)",
     "SCADA": "SCADA (Controle Supervisório e Aquisição de Dados)",
     "HMI": "HMI (Interface Homem-Máquina)",
@@ -79,7 +78,6 @@
     "discussProject": "Discutir projeto",
     "viewDetails": "Ver detalhes",
     "backTo": "Voltar para",
-    "backToBldcProducts": "Voltar aos produtos de motores DC sem escovas (BLDC)",
     "backToProducts": "Voltar aos produtos",
     "backToCategory": "Voltar à Categoria",
     "requestQuote": "Solicitar orçamento",
@@ -252,7 +250,6 @@
   },
   "headings": {
     "phoneNumbers": "Números de telefone",
-    "bldcCeilingFanModels": "Modelos de ventiladores de teto BLDC",
     "ourProducts": "Nossos produtos",
     "specifications": "Especificações",
     "keyFeatures": "Principais características",
@@ -499,7 +496,6 @@
     },
     "categories": {
       "automationControl": "Sistemas de automação e controle",
-      "bldcMotors": "Sistemas de motores BLDC",
       "electricalComponents": "Componentes elétricos",
       "measurementInstrumentation": "Medição e instrumentação",
       "industrialTools": "Ferramentas e equipamentos industriais",
@@ -572,11 +568,7 @@
       "handTools": "Ferramentas manuais",
       "powerTools": "Ferramentas elétricas",
       "cuttingTools": "Ferramentas de corte",
-      "liftingEquipment": "Equipamento de elevação",
-      "bldcCeilingFan": "Ventilador de teto BLDC",
-      "bldcCoolerExhaustMotor": "Motores BLDC para resfriadores e exaustores",
-      "bldcSubmersibleSurfacePump": "Bomba submersível BLDC",
-      "bldcTableFanWallFanMotor": "Motores BLDC para ventiladores de mesa e parede"
+      "liftingEquipment": "Equipamento de elevação"
     },
     "descriptions": {
       "home": "Bem-vindo à Powerton Engineering - Soluções de automação industrial",
@@ -628,10 +620,6 @@
       "powerToolsDescription": "Ferramentas elétricas para trabalhos de construção",
       "cuttingToolsDescription": "Ferramentas de corte para processamento de metal",
       "liftingEquipmentDescription": "Equipamento de elevação para transporte de carga",
-      "bldcCeilingFanDescription": "Ventiladores de teto BLDC com baixo consumo de energia",
-      "bldcCoolerExhaustMotorDescription": "Motores BLDC para resfriadores e ventiladores de exaustão",
-      "bldcSubmersibleSurfacePumpDescription": "Bombas BLDC para aplicações de água",
-      "bldcTableFanWallFanMotorDescription": "Motores BLDC para ventiladores de mesa e parede",
       "requestQuoteDescription": "Obtenha um orçamento para o seu projeto de engenharia",
       "downloadPortfolioDescription": "Baixe um portfólio completo de nossos projetos",
       "customSolutionsDescription": "Soluções de engenharia personalizadas para requisitos industriais exclusivos",

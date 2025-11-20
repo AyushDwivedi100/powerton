@@ -103,11 +103,6 @@ export default function Products() {
       "cutting-tools": "/products/cutting-tools",
       "lifting-equipment": "/products/lifting-equipment",
 
-      // BLDC Products features
-      "energy-efficient": "/products/bldc",
-      "long-lifespan": "/products/bldc-ceiling-fan",
-      "low-maintenance": "/products/bldc-submersible-surface-pump",
-      "variable-speed-control": "/products/bldc-cooler-exhaust-motor",
     };
 
     return featureRoutes[featureId] || `/products/${featureId}`;

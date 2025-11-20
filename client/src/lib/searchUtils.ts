@@ -404,7 +404,6 @@ export function getSearchSuggestions(t: TFunction): string[] {
     t('products:categories.automation-control-systems.features.scada-software', 'SCADA'),
     t('products:categories.electrical-accessories.features.circuit-breakers', 'Circuit Breakers'),
     t('products:categories.solar-products.features.solar-panels', 'Solar Panels'),
-    t('products:categories.bldc.features.energy-efficient', 'BLDC Motors'),
     t('products:categories.mechanical-pumps-spares.features.centrifugal-pumps', 'Pumps'),
     t('products:categories.industrial-measuring-tools.features.digital-multimeters', 'Multimeters')
   ];

@@ -53,7 +53,6 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Injunan DC marasa goga)",
     "PLC": "PLC (Mai Sarrafa Dabaru Mai Iya Shirye-shirye)",
     "SCADA": "SCADA (Sarrafa Kulawa da Tattara Bayanai)",
     "HMI": "HMI (Mu'amalar Mutum da Na'ura)",
@@ -79,7 +78,6 @@
     "discussProject": "Tattauna Aiki",
     "viewDetails": "Duba Cikakkun Bayanai",
     "backTo": "Koma zuwa",
-    "backToBldcProducts": "Koma zuwa Kayayyakin Injinan DC marasa goga (BLDC)",
     "backToProducts": "Koma zuwa Kayayyaki",
     "backToCategory": "Koma zuwa Rukunin",
     "requestQuote": "Nemi Farashi",
@@ -252,7 +250,6 @@
   },
   "headings": {
     "phoneNumbers": "Lambar wayar hannu",
-    "bldcCeilingFanModels": "Samfuran Fanukan Rufin BLDC",
     "ourProducts": "Samfuranmu",
     "specifications": "Takaitaccen bayani",
     "keyFeatures": "Muhimman abubuwa",
@@ -501,7 +498,6 @@
     },
     "categories": {
       "automationControl": "Tsarin sarrafa ta atomatik da sarrafawa",
-      "bldcMotors": "Tsarin injunan BLDC",
       "electricalComponents": "Kayan aikin lantarki",
       "measurementInstrumentation": "Auna da kayan aikin auna",
       "industrialTools": "Kayan aikin masana'antu da kayan aiki",
@@ -574,11 +570,7 @@
       "handTools": "Kayan Aikin Hannu",
       "powerTools": "Kayan Aikin Wutar Lantarki",
       "cuttingTools": "Kayan Aikin Yanke",
-      "liftingEquipment": "Kayan Aikin Ɗagawa",
-      "bldcCeilingFan": "Fanukan Rufin BLDC",
-      "bldcCoolerExhaustMotor": "Injunan BLDC Mai Sanyaya",
-      "bldcSubmersibleSurfacePump": "Famfon BLDC Mai Nutsewa",
-      "bldcTableFanWallFanMotor": "Injunan Fanukan Tebur da Bango BLDC"
+      "liftingEquipment": "Kayan Aikin Ɗagawa"
     },
     "descriptions": {
       "home": "Maraba da Powerton Engineering - Hanyoyin sarrafa masana'antu ta atomatik",
@@ -630,10 +622,6 @@
       "powerToolsDescription": "Kayan aikin wutar lantarki don ayyukan gini",
       "cuttingToolsDescription": "Kayan aikin yanke don sarrafa karfe",
       "liftingEquipmentDescription": "Kayan aikin ɗagawa don jigilar nauyi",
-      "bldcCeilingFanDescription": "Fanukan rufin BLDC masu cin ƙarancin wutar lantarki",
-      "bldcCoolerExhaustMotorDescription": "Injunan BLDC don na'urorin sanyaya da fitar da iska",
-      "bldcSubmersibleSurfacePumpDescription": "Famfon BLDC don ayyukan ruwa",
-      "bldcTableFanWallFanMotorDescription": "Injunan BLDC don fanukan tebur da bango",
       "requestQuoteDescription": "Sami cikakken farashin don aikinku na injiniya",
       "downloadPortfolioDescription": "Sauke cikakkun takaddun ayyukanmu",
       "customSolutionsDescription": "Hanyoyin injiniya da aka keɓance don buƙatu na masana'antu na musamman",

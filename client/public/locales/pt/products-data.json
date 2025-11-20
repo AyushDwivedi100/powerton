@@ -520,19 +520,19 @@
         "contactButtonText": "Contate Nossos Especialistas"
       }
     },
-    "bldc": {
-      "title": "Sistemas de Motor BLDC",
+    "": {
+      "title": "Sistemas de Motor ",
       "description": "Soluções de motor CC sem escovas com eficiência energética para aplicações industriais e comerciais",
       "badges": [
-        "Motores BLDC",
+        "Motores ",
         "Eficiência Energética",
         "Baixa Manutenção",
         "Controle Inteligente"
       ],
-      "sectionTitle": "Soluções BLDC",
+      "sectionTitle": "Soluções ",
       "subcategories": {
-        "bldc-cooler-exhaust-motor": {
-          "title": "Motores BLDC para Resfriadores e Exaustores",
+        "-cooler-exhaust-motor": {
+          "title": "Motores  para Resfriadores e Exaustores",
           "description": "Motores de alta eficiência para aplicações de refrigeração e ventilação",
           "features": [
             "Eficiência Energética",
@@ -541,8 +541,8 @@
             "Velocidade Variável"
           ]
         },
-        "bldc-ceiling-fan": {
-          "title": "Ventiladores de Teto BLDC",
+        "-ceiling-fan": {
+          "title": "Ventiladores de Teto ",
           "description": "Ventiladores de teto inteligentes com tecnologia avançada de economia de energia",
           "features": [
             "Controle Remoto",
@@ -551,9 +551,9 @@
             "Recursos Inteligentes"
           ]
         },
-        "bldc-submersible-surface-pump": {
-          "title": "Bombas Submersíveis e de Superfície BLDC",
-          "description": "Soluções de bombeamento de água com tecnologia de motor BLDC",
+        "-submersible-surface-pump": {
+          "title": "Bombas Submersíveis e de Superfície ",
+          "description": "Soluções de bombeamento de água com tecnologia de motor ",
           "features": [
             "Design Submersível",
             "Alta Eficiência",
@@ -561,9 +561,9 @@
             "Compatível com Energia Solar"
           ]
         },
-        "bldc-table-fan-wall-fan-motor": {
-          "title": "Motores BLDC para Ventiladores de Mesa e Parede",
-          "description": "Motores BLDC compactos para ventiladores portáteis e de parede",
+        "-table-fan-wall-fan-motor": {
+          "title": "Motores  para Ventiladores de Mesa e Parede",
+          "description": "Motores  compactos para ventiladores portáteis e de parede",
           "features": [
             "Tamanho Compacto",
             "Eficiência Energética",
@@ -573,9 +573,9 @@
         }
       },
       "cta": {
-        "title": "Atualizar para a Tecnologia BLDC?",
-        "description": "Nossos especialistas em BLDC podem ajudá-lo a fazer a transição para soluções de motor CC sem escovas com eficiência energética.",
-        "contactButtonText": "Contate Especialistas em BLDC"
+        "title": "Atualizar para a Tecnologia ?",
+        "description": "Nossos especialistas em  podem ajudá-lo a fazer a transição para soluções de motor CC sem escovas com eficiência energética.",
+        "contactButtonText": "Contate Especialistas em "
       }
     }
   },
@@ -3002,11 +3002,11 @@
         "keywords": "medidores de painel, amperímetro analógico, voltímetro analógico, medidores digitais, medidor de fator de potência, medidor multifuncional, medidor de energia, medidor de montagem em painel"
       }
     },
-    "bldc-cooler-exhaust-motor": {
-      "title": "Motores BLDC para Resfriadores e Exaustores",
-      "shortDescription": "Motores BLDC de alta eficiência para resfriadores e ventiladores de exaustão",
-      "fullDescription": "Motores BLDC avançados projetados para resfriadores de deserto e ventiladores de exaustão com eficiência, durabilidade e desempenho superiores.",
-      "parentCategoryTitle": "Produtos BLDC",
+    "-cooler-exhaust-motor": {
+      "title": "Motores  para Resfriadores e Exaustores",
+      "shortDescription": "Motores  de alta eficiência para resfriadores e ventiladores de exaustão",
+      "fullDescription": "Motores  avançados projetados para resfriadores de deserto e ventiladores de exaustão com eficiência, durabilidade e desempenho superiores.",
+      "parentCategoryTitle": "Produtos ",
       "keyBenefits": [
         "Eficiência Energética",
         "Baixo Ruído",
@@ -3038,7 +3038,7 @@
         "Manufatura"
       ],
       "features": [
-        "Tecnologia BLDC",
+        "Tecnologia ",
         "Alta Eficiência",
         "Baixa Manutenção",
         "Resistente à Corrosão",
@@ -3056,16 +3056,16 @@
         "ISO 9001"
       ],
       "seo": {
-        "title": "Motores BLDC para Resfriadores e Exaustores - Motores BLDC de Alta Eficiência | Powerton Engineering",
-        "description": "Motores BLDC de alta eficiência para resfriadores de deserto e ventiladores de exaustão. Motores DC sem escovas economizadores de energia com longa vida útil.",
-        "keywords": "motores BLDC para resfriadores, motores BLDC para exaustores, motores DC sem escovas, motores com eficiência energética, motores para resfriadores, motores para ventiladores de exaustão"
+        "title": "Motores  para Resfriadores e Exaustores - Motores  de Alta Eficiência | Powerton Engineering",
+        "description": "Motores  de alta eficiência para resfriadores de deserto e ventiladores de exaustão. Motores DC sem escovas economizadores de energia com longa vida útil.",
+        "keywords": "motores  para resfriadores, motores  para exaustores, motores DC sem escovas, motores com eficiência energética, motores para resfriadores, motores para ventiladores de exaustão"
       }
     },
-    "bldc-ceiling-fan": {
-      "title": "Ventiladores de Teto BLDC",
+    "-ceiling-fan": {
+      "title": "Ventiladores de Teto ",
       "shortDescription": "Ventiladores de teto DC sem escovas com eficiência energética",
-      "fullDescription": "Ventiladores de teto BLDC de alta eficiência com tecnologia de economia de energia, controles inteligentes e desempenho superior para aplicações residenciais e comerciais.",
-      "parentCategoryTitle": "Produtos BLDC",
+      "fullDescription": "Ventiladores de teto  de alta eficiência com tecnologia de economia de energia, controles inteligentes e desempenho superior para aplicações residenciais e comerciais.",
+      "parentCategoryTitle": "Produtos ",
       "keyBenefits": [
         "Até 65% de Economia de Energia",
         "Operação Silenciosa",
@@ -3097,7 +3097,7 @@
         "Varejo"
       ],
       "features": [
-        "Tecnologia de Motor BLDC",
+        "Tecnologia de Motor ",
         "Controle Remoto",
         "Velocidade Variável",
         "Modo Reverso",
@@ -3115,16 +3115,16 @@
         "ISO 9001"
       ],
       "seo": {
-        "title": "Ventiladores de Teto BLDC - Ventiladores DC sem Escovas com Eficiência Energética | Powerton Engineering",
-        "description": "Ventiladores de teto BLDC com eficiência energética com classificação BEE de 5 estrelas. Controle remoto inteligente, operação silenciosa e até 65% de economia de energia.",
-        "keywords": "ventiladores de teto BLDC, ventiladores com eficiência energética, ventiladores DC sem escovas, ventiladores de teto inteligentes, ventiladores de 5 estrelas, ventiladores com controle remoto"
+        "title": "Ventiladores de Teto  - Ventiladores DC sem Escovas com Eficiência Energética | Powerton Engineering",
+        "description": "Ventiladores de teto  com eficiência energética com classificação BEE de 5 estrelas. Controle remoto inteligente, operação silenciosa e até 65% de economia de energia.",
+        "keywords": "ventiladores de teto , ventiladores com eficiência energética, ventiladores DC sem escovas, ventiladores de teto inteligentes, ventiladores de 5 estrelas, ventiladores com controle remoto"
       }
     },
-    "bldc-submersible-surface-pump": {
-      "title": "Bombas Submersíveis e de Superfície BLDC",
-      "shortDescription": "Bombas de água BLDC compatíveis com energia solar para irrigação e abastecimento de água",
-      "fullDescription": "Bombas submersíveis e de superfície BLDC avançadas com compatibilidade solar, alta eficiência e desempenho confiável para aplicações agrícolas e domésticas.",
-      "parentCategoryTitle": "Produtos BLDC",
+    "-submersible-surface-pump": {
+      "title": "Bombas Submersíveis e de Superfície ",
+      "shortDescription": "Bombas de água  compatíveis com energia solar para irrigação e abastecimento de água",
+      "fullDescription": "Bombas submersíveis e de superfície  avançadas com compatibilidade solar, alta eficiência e desempenho confiável para aplicações agrícolas e domésticas.",
+      "parentCategoryTitle": "Produtos ",
       "keyBenefits": [
         "Compatível com Energia Solar",
         "Eficiência Energética",
@@ -3156,7 +3156,7 @@
         "Gerenciamento de Água"
       ],
       "features": [
-        "Motor BLDC",
+        "Motor ",
         "Compatível com Energia Solar",
         "Tecnologia MPPT",
         "Corpo em Aço Inoxidável",
@@ -3174,16 +3174,16 @@
         "ISO 9001"
       ],
       "seo": {
-        "title": "Bombas de Água BLDC - Bombas Submersíveis e de Superfície Solares | Powerton Engineering",
-        "description": "Bombas de água BLDC compatíveis com energia solar para irrigação e uso doméstico. Bombas submersíveis e de superfície com eficiência energética com tecnologia MPPT.",
-        "keywords": "bombas de água BLDC, bombas de água solares, bombas submersíveis BLDC, bombas solares, bombas DC sem escovas, bombas de irrigação"
+        "title": "Bombas de Água  - Bombas Submersíveis e de Superfície Solares | Powerton Engineering",
+        "description": "Bombas de água  compatíveis com energia solar para irrigação e uso doméstico. Bombas submersíveis e de superfície com eficiência energética com tecnologia MPPT.",
+        "keywords": "bombas de água , bombas de água solares, bombas submersíveis , bombas solares, bombas DC sem escovas, bombas de irrigação"
       }
     },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "Motores BLDC para Ventiladores de Mesa e Parede",
-      "shortDescription": "Motores BLDC compactos para ventiladores de mesa e parede",
-      "fullDescription": "Motores BLDC com eficiência energética projetados para ventiladores de mesa e parede com desempenho superior, baixo ruído e vida útil prolongada.",
-      "parentCategoryTitle": "Produtos BLDC",
+    "-table-fan-wall-fan-motor": {
+      "title": "Motores  para Ventiladores de Mesa e Parede",
+      "shortDescription": "Motores  compactos para ventiladores de mesa e parede",
+      "fullDescription": "Motores  com eficiência energética projetados para ventiladores de mesa e parede com desempenho superior, baixo ruído e vida útil prolongada.",
+      "parentCategoryTitle": "Produtos ",
       "keyBenefits": [
         "Design Compacto",
         "Economia de Energia",
@@ -3215,7 +3215,7 @@
         "Varejo"
       ],
       "features": [
-        "Tecnologia BLDC",
+        "Tecnologia ",
         "Alta Eficiência",
         "Operação Silenciosa",
         "Velocidade Variável",
@@ -3233,9 +3233,9 @@
         "ISO 9001"
       ],
       "seo": {
-        "title": "Motores BLDC para Ventiladores de Mesa e Parede - Motores de Ventilador com Eficiência Energética | Powerton Engineering",
-        "description": "Motores BLDC compactos para ventiladores de mesa e parede. Motores DC sem escovas com eficiência energética com operação silenciosa e longa vida útil.",
-        "keywords": "motores de ventilador BLDC, motores de ventilador de mesa, motores de ventilador de parede, motores com eficiência energética, motores DC sem escovas, motores de ventilador"
+        "title": "Motores  para Ventiladores de Mesa e Parede - Motores de Ventilador com Eficiência Energética | Powerton Engineering",
+        "description": "Motores  compactos para ventiladores de mesa e parede. Motores DC sem escovas com eficiência energética com operação silenciosa e longa vida útil.",
+        "keywords": "motores de ventilador , motores de ventilador de mesa, motores de ventilador de parede, motores com eficiência energética, motores DC sem escovas, motores de ventilador"
       }
     }
   },
@@ -3294,18 +3294,18 @@
     "awg": "Calibre do Fio",
     "temperature": "Temperatura"
   },
-  "bldc-smart1200": {
+  "-smart1200": {
     "seo": {
-      "title": "Ventilador de Teto Inteligente BLDC 1200 RPM - Eficiência Energética | Powerton Engineering",
-      "description": "Ventilador de Teto Inteligente BLDC de alta eficiência 1200 RPM com controle remoto, função timer e tecnologia de economia de energia. Perfeito para casas e escritórios.",
-      "keywords": "Ventilador de teto BLDC, ventilador de teto inteligente, ventilador de baixo consumo de energia, ventilador de teto de 1200 RPM, ventilador com motor DC sem escovas, ventilador com controle remoto"
+      "title": "Ventilador de Teto Inteligente  1200 RPM - Eficiência Energética | Powerton Engineering",
+      "description": "Ventilador de Teto Inteligente  de alta eficiência 1200 RPM com controle remoto, função timer e tecnologia de economia de energia. Perfeito para casas e escritórios.",
+      "keywords": "Ventilador de teto , ventilador de teto inteligente, ventilador de baixo consumo de energia, ventilador de teto de 1200 RPM, ventilador com motor DC sem escovas, ventilador com controle remoto"
     },
     "hero": {
-      "title": "Ventilador de Teto Inteligente BLDC 1200 RPM",
+      "title": "Ventilador de Teto Inteligente  1200 RPM",
       "subtitle": "Ventilador de teto inteligente com baixo consumo de energia e controle remoto"
     },
     "overview": {
-      "fullDescription": "Nosso Ventilador de Teto Inteligente BLDC 1200 RPM combina tecnologia de ponta de motor DC sem escovas com recursos inteligentes para eficiência energética e conforto ideais. Projetado para aplicações residenciais e comerciais leves, este ventilador oferece desempenho superior enquanto consome até 65% menos energia do que os ventiladores tradicionais."
+      "fullDescription": "Nosso Ventilador de Teto Inteligente  1200 RPM combina tecnologia de ponta de motor DC sem escovas com recursos inteligentes para eficiência energética e conforto ideais. Projetado para aplicações residenciais e comerciais leves, este ventilador oferece desempenho superior enquanto consome até 65% menos energia do que os ventiladores tradicionais."
     },
     "keyBenefits": [
       "Até 65% de Economia de Energia",
@@ -3347,8 +3347,8 @@
       "Classificação BEE 5 Estrelas"
     ]
   },
-  "bldc-premium1400": {
-    "title": "Ventilador de Teto BLDC Premium 1400mm",
+  "-premium1400": {
+    "title": "Ventilador de Teto  Premium 1400mm",
     "description": "Ventilador de teto DC sem escovas de alto desempenho de 52W com diâmetro de varredura de 1400mm. Design premium com controles inteligentes, integração de iluminação LED e eficiência energética superior para grandes salas e espaços comerciais.",
     "features": [
       "Motor premium de 52W com classificação de energia de 5 estrelas",
@@ -3360,16 +3360,16 @@
       "Cobertura de garantia premium de 5 anos"
     ],
     "seo": {
-      "title": "Ventilador de Teto BLDC Premium 1400 RPM - Recursos Avançados | Powerton Engineering",
-      "description": "Ventilador de Teto BLDC Premium 1400 RPM com recursos inteligentes avançados, fluxo de ar superior e tecnologia de motor sem escovas com eficiência energética.",
-      "keywords": "ventilador de teto BLDC premium, ventilador de teto de 1400 RPM, ventilador de teto avançado, ventilador de teto inteligente, ventilador de alto fluxo de ar, eficiente em energia"
+      "title": "Ventilador de Teto  Premium 1400 RPM - Recursos Avançados | Powerton Engineering",
+      "description": "Ventilador de Teto  Premium 1400 RPM com recursos inteligentes avançados, fluxo de ar superior e tecnologia de motor sem escovas com eficiência energética.",
+      "keywords": "ventilador de teto  premium, ventilador de teto de 1400 RPM, ventilador de teto avançado, ventilador de teto inteligente, ventilador de alto fluxo de ar, eficiente em energia"
     },
     "hero": {
-      "title": "Ventilador de Teto BLDC Premium 1400 RPM",
+      "title": "Ventilador de Teto  Premium 1400 RPM",
       "subtitle": "Ventilador de teto de alto desempenho com iluminação LED"
     },
     "overview": {
-      "fullDescription": "O Ventilador de Teto BLDC Premium 1400 RPM representa o auge da tecnologia de ventiladores de teto com recursos avançados e qualidade de construção superior. Projetado para desempenho aprimorado com maior entrega de fluxo de ar, mantendo a excepcional eficiência energética para aplicações residenciais e comerciais premium."
+      "fullDescription": "O Ventilador de Teto  Premium 1400 RPM representa o auge da tecnologia de ventiladores de teto com recursos avançados e qualidade de construção superior. Projetado para desempenho aprimorado com maior entrega de fluxo de ar, mantendo a excepcional eficiência energética para aplicações residenciais e comerciais premium."
     },
     "keyBenefits": [
       "Desempenho de Fluxo de Ar Superior",
@@ -3402,8 +3402,8 @@
       "Certificado WiFi Alliance"
     ]
   },
-  "bldc-commercial1500": {
-    "title": "Ventilador de Teto BLDC Comercial 1500mm",
+  "-commercial1500": {
+    "title": "Ventilador de Teto  Comercial 1500mm",
     "description": "Ventilador de teto DC sem escovas de 65W para serviço pesado, projetado para aplicações comerciais e industriais. Capacidade de fluxo de ar superior de 300 CFM com construção robusta para operação contínua em ambientes exigentes.",
     "features": [
       "Motor comercial resistente de 65W",
@@ -3415,16 +3415,16 @@
       "Garantia comercial estendida de 3 anos"
     ],
     "seo": {
-      "title": "Ventilador de Teto BLDC Comercial 1500 RPM - Serviço Pesado | Powerton Engineering",
-      "description": "Ventilador de Teto BLDC Comercial de nível comercial de 1500 RPM projetado para aplicações de serviço pesado com fluxo de ar máximo e confiabilidade industrial.",
-      "keywords": "ventilador de teto BLDC comercial, ventilador de teto industrial, ventilador de 1500 RPM, ventilador de teto resistente, ventilador de nível comercial, alto fluxo de ar"
+      "title": "Ventilador de Teto  Comercial 1500 RPM - Serviço Pesado | Powerton Engineering",
+      "description": "Ventilador de Teto  Comercial de nível comercial de 1500 RPM projetado para aplicações de serviço pesado com fluxo de ar máximo e confiabilidade industrial.",
+      "keywords": "ventilador de teto  comercial, ventilador de teto industrial, ventilador de 1500 RPM, ventilador de teto resistente, ventilador de nível comercial, alto fluxo de ar"
     },
     "hero": {
-      "title": "Ventilador de Teto BLDC Comercial 1500 RPM",
+      "title": "Ventilador de Teto  Comercial 1500 RPM",
       "subtitle": "Ventilador de teto resistente para aplicações comerciais"
     },
     "overview": {
-      "fullDescription": "Nosso Ventilador de Teto BLDC Comercial 1500 RPM foi projetado para aplicações comerciais pesadas que exigem fluxo de ar e confiabilidade máximos. Construído com componentes de nível industrial e tecnologia de motor avançada para fornecer desempenho consistente em ambientes exigentes, mantendo a eficiência energética."
+      "fullDescription": "Nosso Ventilador de Teto  Comercial 1500 RPM foi projetado para aplicações comerciais pesadas que exigem fluxo de ar e confiabilidade máximos. Construído com componentes de nível industrial e tecnologia de motor avançada para fornecer desempenho consistente em ambientes exigentes, mantendo a eficiência energética."
     },
     "keyBenefits": [
       "Entrega Máxima de Fluxo de Ar",
@@ -3457,18 +3457,18 @@
       "Certificado de Grau Comercial"
     ]
   },
-  "solar-bldc-submersible-1hp": {
+  "solar--submersible-1hp": {
     "seo": {
-      "title": "Bomba Submersível Solar BLDC 1HP - Soluções Sustentáveis ​​de Água | Powerton Engineering",
-      "description": "Bomba Submersível Solar BLDC 1HP para irrigação agrícola e abastecimento de água com tecnologia solar avançada e eficiência energética.",
-      "keywords": "Bomba submersível solar, bomba de água BLDC, bomba de água solar, bomba submersível de 1HP, bomba de energia renovável, bomba agrícola"
+      "title": "Bomba Submersível Solar  1HP - Soluções Sustentáveis ​​de Água | Powerton Engineering",
+      "description": "Bomba Submersível Solar  1HP para irrigação agrícola e abastecimento de água com tecnologia solar avançada e eficiência energética.",
+      "keywords": "Bomba submersível solar, bomba de água , bomba de água solar, bomba submersível de 1HP, bomba de energia renovável, bomba agrícola"
     },
     "hero": {
-      "title": "Bomba Submersível Solar BLDC 1HP",
+      "title": "Bomba Submersível Solar  1HP",
       "subtitle": "Solução de bombeamento de água movida a energia solar"
     },
     "overview": {
-      "fullDescription": "Nossa Bomba Submersível Solar BLDC 1HP combina energia solar renovável com tecnologia de motor sem escovas avançada para soluções de bombeamento de água sustentáveis. Projetada para irrigação agrícola, abastecimento doméstico de água e sistemas de água remotos com máxima eficiência e confiabilidade."
+      "fullDescription": "Nossa Bomba Submersível Solar  1HP combina energia solar renovável com tecnologia de motor sem escovas avançada para soluções de bombeamento de água sustentáveis. Projetada para irrigação agrícola, abastecimento doméstico de água e sistemas de água remotos com máxima eficiência e confiabilidade."
     },
     "keyBenefits": [
       "100% movido a energia solar",
@@ -3477,7 +3477,7 @@
       "Compatível com área remota"
     ],
     "features": [
-      "Motor BLDC compatível com energia solar",
+      "Motor  compatível com energia solar",
       "Controlador MPPT incluído",
       "Design refrigerado a água",
       "Proteção contra funcionamento a seco",
@@ -3572,9 +3572,9 @@
       "keywords": "cabos de instrumentação, par trançado blindado, cabos de sinal, cabos de medição, cabos de controle, cabos industriais"
     }
   },
-  "bldcCeilingFan": {
+  "CeilingFan": {
     "smart1200": {
-      "name": "Ventilador de Teto BLDC Inteligente - 1200mm",
+      "name": "Ventilador de Teto  Inteligente - 1200mm",
       "description": "Ventilador de teto inteligente com baixo consumo de energia e controle remoto",
       "features": [
         "Consumo de Energia de 28W",
@@ -3584,7 +3584,7 @@
       ]
     },
     "premium1400": {
-      "name": "Ventilador de Teto BLDC Premium - 1400mm",
+      "name": "Ventilador de Teto  Premium - 1400mm",
       "description": "Ventilador de teto de alto desempenho com iluminação LED",
       "features": [
         "Consumo de Energia de 35W",
@@ -3594,7 +3594,7 @@
       ]
     },
     "commercial1500": {
-      "name": "Ventilador de Teto BLDC Comercial - 1500mm",
+      "name": "Ventilador de Teto  Comercial - 1500mm",
       "description": "Ventilador de teto resistente para aplicações comerciais",
       "features": [
         "Consumo de Energia de 45W",
@@ -3604,9 +3604,9 @@
       ]
     }
   },
-  "bldcCoolerExhaust": {
+  "CoolerExhaust": {
     "exhaustFan": {
-      "name": "Motores de Ventilador de Exaustão BLDC",
+      "name": "Motores de Ventilador de Exaustão ",
       "description": "Motores de alta eficiência para aplicações de ventiladores de exaustão",
       "features": [
         "Velocidade Variável",
@@ -3616,7 +3616,7 @@
       ]
     },
     "coolerMotors": {
-      "name": "Motores de Resfriador BLDC",
+      "name": "Motores de Resfriador ",
       "description": "Motores de baixo consumo de energia para aplicações de resfriadores de ar",
       "features": [
         "Alto Torque",
@@ -3626,7 +3626,7 @@
       ]
     },
     "ventilation": {
-      "name": "Motores de Ventilação BLDC",
+      "name": "Motores de Ventilação ",
       "description": "Motores especializados para sistemas de ventilação industrial",
       "features": [
         "Alto CFM",
@@ -3909,10 +3909,10 @@
       }
     }
   },
-  "bldcSubmersibleSurface": {
+  "SubmersibleSurface": {
     "solar1HP": {
-      "name": "Bomba Submersível Solar BLDC - 1HP",
-      "description": "Bomba submersível BLDC movida a energia solar para poços de água",
+      "name": "Bomba Submersível Solar  - 1HP",
+      "description": "Bomba submersível  movida a energia solar para poços de água",
       "features": [
         "Compatível com Solar",
         "Motor de 1HP",
@@ -3922,7 +3922,7 @@
     },
     "surface2HP": {
       "name": "Bomba de Superfície DC - 2HP",
-      "description": "Bomba de superfície BLDC de alta eficiência para irrigação",
+      "description": "Bomba de superfície  de alta eficiência para irrigação",
       "features": [
         "Potência de 2HP",
         "Autoescorvante",
@@ -3931,7 +3931,7 @@
       ]
     },
     "hybrid": {
-      "name": "Sistema de Bomba BLDC Híbrida",
+      "name": "Sistema de Bomba  Híbrida",
       "description": "Sistema de bomba inteligente com backup solar e de rede",
       "features": [
         "Operação Híbrida",
@@ -3941,10 +3941,10 @@
       ]
     }
   },
-  "bldcTableWallFan": {
+  "TableWallFan": {
     "tableFan": {
-      "name": "Motores de Ventilador de Mesa BLDC",
-      "description": "Motores BLDC compactos para ventiladores de mesa",
+      "name": "Motores de Ventilador de Mesa ",
+      "description": "Motores  compactos para ventiladores de mesa",
       "features": [
         "Design Compacto",
         "Operação Silenciosa",
@@ -3953,8 +3953,8 @@
       ]
     },
     "wallFan": {
-      "name": "Motores de Ventilador de Parede BLDC",
-      "description": "Motores de ventilador de parede com tecnologia BLDC",
+      "name": "Motores de Ventilador de Parede ",
+      "description": "Motores de ventilador de parede com tecnologia ",
       "features": [
         "Design de Montagem na Parede",
         "Função Oscilante",
@@ -3963,7 +3963,7 @@
       ]
     },
     "pedestalFan": {
-      "name": "Motores de Ventilador de Pedestal BLDC",
+      "name": "Motores de Ventilador de Pedestal ",
       "description": "Motores de ventilador de pedestal com altura ajustável",
       "features": [
         "Ajuste de Altura",
@@ -4727,9 +4727,9 @@
       "Quick-acting screw thread coupling"
     ]
   },
-  "atomberg-efficio-1200-bldc": {
-    "title": "Ventilador de Teto BLDC Atomberg Efficio 1200mm",
-    "description": "Ventilador de teto BLDC premium com baixo consumo de energia da Atomberg, com apenas 27W de consumo de energia e fluxo de ar de 236 CMM. Possui valor de serviço superior de 8,7, controle remoto RF e 65% de economia de energia em comparação com os ventiladores tradicionais.",
+  "atomberg-efficio-1200-": {
+    "title": "Ventilador de Teto  Atomberg Efficio 1200mm",
+    "description": "Ventilador de teto  premium com baixo consumo de energia da Atomberg, com apenas 27W de consumo de energia e fluxo de ar de 236 CMM. Possui valor de serviço superior de 8,7, controle remoto RF e 65% de economia de energia em comparação com os ventiladores tradicionais.",
     "features": [
       "Maior valor de serviço de 8,7 CMM/W",
       "Consumo de energia ultrabaixo de 27W",
@@ -4742,8 +4742,8 @@
     ]
   },
   "havells-efficiencia-neo-1200": {
-    "title": "Ventilador de Teto BLDC Havells Efficiencia Neo 1200mm",
-    "description": "Ventilador de teto BLDC premiado da Havells com consumo de energia de 26W e fluxo de ar de 220 CMM. Vencedor do Prêmio Nacional de Conservação de Energia de 2021, com enrolamento 100% em cobre e modos de controle avançados.",
+    "title": "Ventilador de Teto  Havells Efficiencia Neo 1200mm",
+    "description": "Ventilador de teto  premiado da Havells com consumo de energia de 26W e fluxo de ar de 220 CMM. Vencedor do Prêmio Nacional de Conservação de Energia de 2021, com enrolamento 100% em cobre e modos de controle avançados.",
     "features": [
       "Vencedor do Prêmio Nacional de Conservação de Energia de 2021",
       "Consumo de energia ultraeficiente de 26W",
@@ -4755,11 +4755,11 @@
       "Garantia de 2+1 anos (extensível até 5 anos)"
     ]
   },
-  "superfan-superx1-1200-bldc": {
-    "title": "Ventilador de Teto BLDC Superfan SuperX1 1200mm",
-    "description": "O primeiro ventilador de teto BLDC da Índia da Superfan com consumo de energia de 35W e faixa de voltagem ultra-ampla de 90-300V. Possui garantia de 5 anos, controle remoto à prova de quedas e modo de brisa natural para ótimo conforto.",
+  "superfan-superx1-1200-": {
+    "title": "Ventilador de Teto  Superfan SuperX1 1200mm",
+    "description": "O primeiro ventilador de teto  da Índia da Superfan com consumo de energia de 35W e faixa de voltagem ultra-ampla de 90-300V. Possui garantia de 5 anos, controle remoto à prova de quedas e modo de brisa natural para ótimo conforto.",
     "features": [
-      "O primeiro ventilador de teto BLDC da Índia (lançado em 2012)",
+      "O primeiro ventilador de teto  da Índia (lançado em 2012)",
       "Faixa de voltagem ultra-ampla de 90-300V",
       "Entrega de fluxo de ar premium de 230 CMM",
       "Tecnologia de controle remoto à prova de quedas",
@@ -4769,8 +4769,8 @@
       "Garantia de 5 anos líder do setor"
     ]
   },
-  "bldc-deluxe1600": {
-    "title": "Ventilador de Teto BLDC Deluxe 1600mm",
+  "-deluxe1600": {
+    "title": "Ventilador de Teto  Deluxe 1600mm",
     "description": "Ventilador de teto DC sem escovas de 80 W de última geração com diâmetro de varredura de 1600 mm. Recursos premium, incluindo controles inteligentes, aerodinâmica avançada e qualidade de construção excepcional para aplicações de luxo.",
     "features": [
       "Motor premium de 80 W de alto desempenho",
@@ -4782,8 +4782,8 @@
       "Cobertura de garantia premium de 5 anos"
     ]
   },
-  "bldc-industrial1800": {
-    "title": "Ventilador de Teto BLDC Industrial 1800mm",
+  "-industrial1800": {
+    "title": "Ventilador de Teto  Industrial 1800mm",
     "description": "Ventilador de teto DC sem escovas extra grande de 100 W projetado para grandes espaços industriais. Capacidade máxima de fluxo de ar com construção resistente para operação 24 horas por dia, 7 dias por semana em ambientes industriais exigentes.",
     "features": [
       "Motor industrial extra grande de 100 W",
@@ -4795,20 +4795,20 @@
       "Garantia industrial estendida de 5 anos"
     ]
   },
-  "bldc-economy900": {
-    "title": "Ventilador de Teto BLDC Econômico 900mm",
+  "-economy900": {
+    "title": "Ventilador de Teto  Econômico 900mm",
     "description": "Ventilador de teto DC sem escovas acessível de 35 W com diâmetro de varredura de 900 mm. Design com baixo consumo de energia, perfeito para salas pequenas a médias, com controle remoto básico e desempenho confiável.",
     "features": [
       "Design de motor com baixo consumo de energia de 35 W",
       "Varredura compacta de 900 mm para salas menores",
       "Funcionalidade básica de controle remoto",
-      "Tecnologia BLDC econômica",
+      "Tecnologia  econômica",
       "Operação de baixa manutenção",
       "Garantia padrão de 2 anos"
     ]
   },
-  "bldc-exhaust-fan-motor": {
-    "title": "Motor de Ventilador de Exaustão BLDC 25W",
+  "-exhaust-fan-motor": {
+    "title": "Motor de Ventilador de Exaustão  25W",
     "description": "Motor DC sem escovas de 25 W de alta eficiência para aplicações de ventiladores de exaustão. Possui construção com rolamentos de esferas, proteção IP44 e operação silenciosa para sistemas de ventilação residenciais e comerciais.",
     "features": [
       "Motor DC sem escovas de alta eficiência",
@@ -4820,11 +4820,11 @@
       "Cobertura de garantia de 2 anos"
     ]
   },
-  "bldc-cooler-motors": {
-    "title": "Motores de Resfriador BLDC 45W",
+  "-cooler-motors": {
+    "title": "Motores de Resfriador  45W",
     "description": "Motor DC sem escovas de 45 W potente para aplicações de resfriadores de ar. Design avançado com 90% de eficiência, controle de velocidade variável e classificação de proteção aprimorada para desempenho de resfriamento confiável.",
     "features": [
-      "Motor BLDC de 45 W de alto desempenho",
+      "Motor  de 45 W de alto desempenho",
       "90% de eficiência energética",
       "Controle de velocidade variável",
       "Classificação de proteção IP54",
@@ -4833,11 +4833,11 @@
       "Cobertura de garantia de 3 anos"
     ]
   },
-  "bldc-ventilation-system": {
-    "title": "Sistema de Ventilação BLDC 75W",
+  "-ventilation-system": {
+    "title": "Sistema de Ventilação  75W",
     "description": "Motor DC sem escovas de 75 W de nível industrial para sistemas de ventilação. Eficiência superior em 92%, alta capacidade de fluxo de ar e construção robusta para aplicações HVAC exigentes.",
     "features": [
-      "Motor BLDC de 75 W de nível industrial",
+      "Motor  de 75 W de nível industrial",
       "92% de eficiência energética",
       "Alta capacidade de fluxo de ar de 800 CFM",
       "Classificação de proteção IP65",
@@ -4846,8 +4846,8 @@
       "Cobertura de garantia de 5 anos"
     ]
   },
-  "bldc-ventilation-motors": {
-    "title": "Motor de Ventilação BLDC 35W",
+  "-ventilation-motors": {
+    "title": "Motor de Ventilação  35W",
     "description": "Motor DC sem escovas eficiente de 35 W para aplicações de ventilação. Desempenho equilibrado com capacidade de fluxo de ar de 280 CFM, adequado para sistemas de ventilação residenciais e comerciais leves.",
     "features": [
       "Design de motor eficiente de 35 W",
@@ -4859,8 +4859,8 @@
       "Garantia padrão de 2 anos"
     ]
   },
-  "bldc-industrial-exhaust": {
-    "title": "Ventilador de Exaustão BLDC Industrial 120W",
+  "-industrial-exhaust": {
+    "title": "Ventilador de Exaustão  Industrial 120W",
     "description": "Motor DC sem escovas de alta potência de 120 W para aplicações de exaustão industrial. Construção resistente com capacidade de fluxo de ar e confiabilidade excepcionais para ambientes industriais exigentes.",
     "features": [
       "Motor industrial de alta potência de 120 W",
@@ -4872,8 +4872,8 @@
       "Garantia industrial estendida de 3 anos"
     ]
   },
-  "bldc-mini-cooler": {
-    "title": "Mini Motor de Resfriador BLDC 15W",
+  "-mini-cooler": {
+    "title": "Mini Motor de Resfriador  15W",
     "description": "Motor DC sem escovas compacto de 15 W projetado para aplicações de mini resfriadores. Design com baixo consumo de energia, operação silenciosa e desempenho confiável para dispositivos de resfriamento pessoal.",
     "features": [
       "Design de motor compacto de 15 W",
@@ -4898,35 +4898,35 @@
       "Requisitos de baixa manutenção"
     ]
   },
-  "hybrid-bldc-pump": {
-    "title": "Sistema de Bomba BLDC Híbrida",
-    "description": "Sistema de bomba BLDC híbrido avançado que combina capacidades de operação DC e AC. Possui potência de 1,5 HP com taxa de fluxo de 2700 LPH e capacidade de altura de 120 pés, perfeito para aplicações versáteis de bombeamento de água.",
+  "hybrid--pump": {
+    "title": "Sistema de Bomba  Híbrida",
+    "description": "Sistema de bomba  híbrido avançado que combina capacidades de operação DC e AC. Possui potência de 1,5 HP com taxa de fluxo de 2700 LPH e capacidade de altura de 120 pés, perfeito para aplicações versáteis de bombeamento de água.",
     "features": [
       "Operação híbrida DC/AC (48V DC / 230V AC)",
-      "Motor BLDC de 1,5 HP de alta eficiência",
+      "Motor  de 1,5 HP de alta eficiência",
       "Capacidade de fluxo de 2700 LPH",
       "Altura máxima de 120 pés",
       "Operação com baixo consumo de energia",
       "Compatibilidade versátil com fonte de alimentação",
-      "Tecnologia BLDC de baixa manutenção"
+      "Tecnologia  de baixa manutenção"
     ]
   },
-  "bldc-table-fan-motors": {
-    "title": "Motores de Ventilador de Mesa BLDC",
-    "description": "Motores de ventilador de mesa BLDC de alta eficiência com consumo de energia de 28W e velocidade de 2100 RPM. Possui operação de controle remoto e diâmetro de 400 mm para ótima circulação de ar em espaços residenciais e comerciais.",
+  "-table-fan-motors": {
+    "title": "Motores de Ventilador de Mesa ",
+    "description": "Motores de ventilador de mesa  de alta eficiência com consumo de energia de 28W e velocidade de 2100 RPM. Possui operação de controle remoto e diâmetro de 400 mm para ótima circulação de ar em espaços residenciais e comerciais.",
     "features": [
       "Operação com baixo consumo de energia de 28W",
       "Alta velocidade de 2100 RPM",
       "Diâmetro de 400 mm para ótimo fluxo de ar",
       "Operação de 24 V CC",
       "Compatibilidade com controle remoto",
-      "Tecnologia de motor BLDC silenciosa",
+      "Tecnologia de motor  silenciosa",
       "Longa vida útil"
     ]
   },
-  "bldc-wall-fan-motors": {
-    "title": "Motores de Ventilador de Parede BLDC",
-    "description": "Motores de ventilador de parede BLDC potentes com potência de 35 W e velocidade de 1800 RPM. Possui diâmetro de 450 mm e capacidade de oscilação para circulação de ar montada na parede eficaz em vários ambientes internos.",
+  "-wall-fan-motors": {
+    "title": "Motores de Ventilador de Parede ",
+    "description": "Motores de ventilador de parede  potentes com potência de 35 W e velocidade de 1800 RPM. Possui diâmetro de 450 mm e capacidade de oscilação para circulação de ar montada na parede eficaz em vários ambientes internos.",
     "features": [
       "Consumo de energia eficiente de 35 W",
       "Velocidade ideal de 1800 RPM",
@@ -4934,15 +4934,15 @@
       "Operação segura de 24 V CC",
       "Recurso de oscilação para melhor distribuição de ar",
       "Design montado na parede",
-      "Tecnologia BLDC silenciosa"
+      "Tecnologia  silenciosa"
     ]
   },
-  "bldc-pedestal-fan-motors": {
-    "title": "Motores de Ventilador de Pedestal BLDC",
-    "description": "Motores de ventilador de pedestal BLDC de alta eficiência com altura ajustável e oscilação. Fluxo de ar potente com operação com baixo consumo de energia para espaços residenciais e comerciais.",
+  "-pedestal-fan-motors": {
+    "title": "Motores de Ventilador de Pedestal ",
+    "description": "Motores de ventilador de pedestal  de alta eficiência com altura ajustável e oscilação. Fluxo de ar potente com operação com baixo consumo de energia para espaços residenciais e comerciais.",
     "features": [
       "Design de pedestal de altura ajustável",
-      "Motor BLDC com baixo consumo de energia",
+      "Motor  com baixo consumo de energia",
       "Ampla cobertura de oscilação",
       "Várias configurações de velocidade",
       "Operação de controle remoto",
@@ -5803,37 +5803,37 @@
     ]
   },
   "orientalMd6p38": {
-    "title": "Motor de Exaustão BLDC Oriental Motor MD-6P38",
-    "description": "Motor de ventilador axial DC Oriental Motor MD-6P38 com potência de 38W, 24VDC. Design BLDC de 6 polos com proteção IP55 para aplicações de exaustão industrial.",
+    "title": "Motor de Exaustão  Oriental Motor MD-6P38",
+    "description": "Motor de ventilador axial DC Oriental Motor MD-6P38 com potência de 38W, 24VDC. Design  de 6 polos com proteção IP55 para aplicações de exaustão industrial.",
     "features": [
       "Potência de 38W",
       "Operação de 24VDC",
-      "Design BLDC de 6 polos",
+      "Design  de 6 polos",
       "Proteção IP55",
       "Ventilador axial DC",
       "Exaustão industrial"
     ]
   },
   "nidecD12e24ts3": {
-    "title": "Motor BLDC Nidec D12E-24TS3",
-    "description": "Motor BLDC Nidec D12E-24TS3 com tamanho de 12cm fornecendo fluxo de ar de 83 CFM. Operação silenciosa em 24VDC para aplicações de refrigeração.",
+    "title": "Motor  Nidec D12E-24TS3",
+    "description": "Motor  Nidec D12E-24TS3 com tamanho de 12cm fornecendo fluxo de ar de 83 CFM. Operação silenciosa em 24VDC para aplicações de refrigeração.",
     "features": [
       "Operação de 24VDC",
       "Tamanho de 12cm",
       "Fluxo de ar de 83 CFM",
       "Design de baixo ruído",
-      "Tecnologia BLDC",
+      "Tecnologia ",
       "Aplicações de refrigeração"
     ]
   },
   "deltaBfb1224h": {
-    "title": "Motor de Exaustão BLDC Delta Electronics BFB1224H",
-    "description": "Motor de exaustão BLDC Delta Electronics BFB1224H com tamanho de 120mm. Operação de 24VDC com vida útil de 70.000 horas para confiabilidade a longo prazo.",
+    "title": "Motor de Exaustão  Delta Electronics BFB1224H",
+    "description": "Motor de exaustão  Delta Electronics BFB1224H com tamanho de 120mm. Operação de 24VDC com vida útil de 70.000 horas para confiabilidade a longo prazo.",
     "features": [
       "Tamanho de 120mm",
       "Operação de 24VDC",
       "Vida útil de 70.000 horas",
-      "Tecnologia BLDC",
+      "Tecnologia ",
       "Motor de exaustão",
       "Longa vida útil"
     ]
@@ -5851,61 +5851,61 @@
     ]
   },
   "nidecG1238b": {
-    "title": "Motor BLDC Industrial Nidec G1238B",
-    "description": "Motor BLDC axial DC Nidec G1238B com potência de 38W. Tamanho de 12cm com controle de velocidade variável para aplicações de nível industrial.",
+    "title": "Motor  Industrial Nidec G1238B",
+    "description": "Motor  axial DC Nidec G1238B com potência de 38W. Tamanho de 12cm com controle de velocidade variável para aplicações de nível industrial.",
     "features": [
       "Potência de 38W",
       "Tamanho de 12cm",
       "Controle de velocidade variável",
-      "BLDC axial DC",
+      " axial DC",
       "Grau industrial",
       "Operação flexível"
     ]
   },
   "nidecGentletyphoonD1225c12": {
     "title": "Motor de Refrigeração Ultra Silencioso Nidec GentleTyphoon D1225C12",
-    "description": "Motor de refrigeração BLDC Nidec GentleTyphoon D1225C12 operando a 1850 RPM com 12VDC. Operação ultra silenciosa para refrigeração de precisão.",
+    "description": "Motor de refrigeração  Nidec GentleTyphoon D1225C12 operando a 1850 RPM com 12VDC. Operação ultra silenciosa para refrigeração de precisão.",
     "features": [
       "Operação de 12VDC",
       "Velocidade de 1850 RPM",
       "Operação ultra silenciosa",
-      "Motor de refrigeração BLDC",
+      "Motor de refrigeração ",
       "Refrigeração de precisão",
       "Baixa vibração"
     ]
   },
   "orientalBle2m25s5": {
-    "title": "Motor de Refrigeração BLDC Oriental Motor BLE2M25S-5",
-    "description": "Motor BLDC Oriental Motor BLE2M25S-5 com capacidade de 25W e controle de velocidade. Operação de 24VDC para aplicações de refrigeração.",
+    "title": "Motor de Refrigeração  Oriental Motor BLE2M25S-5",
+    "description": "Motor  Oriental Motor BLE2M25S-5 com capacidade de 25W e controle de velocidade. Operação de 24VDC para aplicações de refrigeração.",
     "features": [
       "Potência de 25W",
       "Operação de 24VDC",
       "Controle de velocidade",
-      "Motor BLDC",
+      "Motor ",
       "Aplicação de refrigeração",
       "Velocidade variável"
     ]
   },
   "deltaAfb1212she": {
-    "title": "Motor BLDC de Alta Pressão Delta Electronics AFB1212SHE",
-    "description": "Motor BLDC Delta Electronics AFB1212SHE com tamanho de 120mm. Operação de 12VCC com alta pressão estática para refrigeração exigente.",
+    "title": "Motor  de Alta Pressão Delta Electronics AFB1212SHE",
+    "description": "Motor  Delta Electronics AFB1212SHE com tamanho de 120mm. Operação de 12VCC com alta pressão estática para refrigeração exigente.",
     "features": [
       "Tamanho de 120mm",
       "Operação de 12VCC",
       "Alta pressão estática",
-      "Tecnologia BLDC",
+      "Tecnologia ",
       "Aplicações exigentes",
       "Refrigeração confiável"
     ]
   },
   "nidecBetaVTa450dc": {
     "title": "Motor de Refrigeração PWM Nidec Beta V TA450DC",
-    "description": "Motor de refrigeração BLDC Nidec Beta V TA450DC com controle PWM. Operação de 12VCC a 4500 RPM para refrigeração de alto desempenho.",
+    "description": "Motor de refrigeração  Nidec Beta V TA450DC com controle PWM. Operação de 12VCC a 4500 RPM para refrigeração de alto desempenho.",
     "features": [
       "Operação de 12VCC",
       "Controle PWM",
       "Velocidade de 4500 RPM",
-      "Motor de refrigeração BLDC",
+      "Motor de refrigeração ",
       "Alto desempenho",
       "Velocidade variável"
     ]
@@ -5923,62 +5923,62 @@
     ]
   },
   "orientalMd8p48": {
-    "title": "Motor de Ventilação BLDC Oriental Motor MD-8P48",
-    "description": "Motor de ventilação BLDC Oriental Motor MD-8P48 classificado em 48W com operação de 24VCC. Proteção IP55 fornecendo até 883 CFM.",
+    "title": "Motor de Ventilação  Oriental Motor MD-8P48",
+    "description": "Motor de ventilação  Oriental Motor MD-8P48 classificado em 48W com operação de 24VCC. Proteção IP55 fornecendo até 883 CFM.",
     "features": [
       "Classificação de potência de 48W",
       "Operação de 24VCC",
       "Proteção IP55",
       "Fluxo de ar máximo de 883 CFM",
-      "Ventilação BLDC",
+      "Ventilação ",
       "Alta capacidade"
     ]
   },
   "nidecG1751m": {
-    "title": "Motor de Ventilação BLDC de Alta Capacidade Nidec G1751M",
-    "description": "Motor BLDC Nidec G1751M com tamanho de 17cm e potência de 51W. Operação de 24VCC com alta capacidade e baixa vibração.",
+    "title": "Motor de Ventilação  de Alta Capacidade Nidec G1751M",
+    "description": "Motor  Nidec G1751M com tamanho de 17cm e potência de 51W. Operação de 24VCC com alta capacidade e baixa vibração.",
     "features": [
       "Tamanho de 17cm",
       "Classificação de potência de 51W",
       "Operação de 24VCC",
       "Alta capacidade",
       "Baixa vibração",
-      "Tecnologia BLDC"
+      "Tecnologia "
     ]
   },
   "deltaBfb1512vh": {
-    "title": "Motor de Ventilação BLDC Delta Electronics BFB1512VH",
-    "description": "Motor de ventilação BLDC Delta Electronics BFB1512VH com tamanho de 150mm. Operação de 12VCC fornecendo fluxo de ar de 260 CFM.",
+    "title": "Motor de Ventilação  Delta Electronics BFB1512VH",
+    "description": "Motor de ventilação  Delta Electronics BFB1512VH com tamanho de 150mm. Operação de 12VCC fornecendo fluxo de ar de 260 CFM.",
     "features": [
       "Tamanho de 150mm",
       "Operação de 12VCC",
       "Fluxo de ar de 260 CFM",
-      "Ventilação BLDC",
+      "Ventilação ",
       "Alto desempenho",
       "Operação eficiente"
     ]
   },
   "orientalBmu23005": {
-    "title": "Unidade de Ventilação BLDC Oriental Motor BMU230-05",
-    "description": "Unidade de motor BLDC Oriental Motor BMU230-05 com controle de velocidade. Operação de 230VCA para aplicações de ventilação.",
+    "title": "Unidade de Ventilação  Oriental Motor BMU230-05",
+    "description": "Unidade de motor  Oriental Motor BMU230-05 com controle de velocidade. Operação de 230VCA para aplicações de ventilação.",
     "features": [
       "Operação de 230VCA",
       "Controle de velocidade",
-      "Unidade de motor BLDC",
+      "Unidade de motor ",
       "Aplicação de ventilação",
       "Velocidade variável",
       "Grau industrial"
     ]
   },
   "nidecD08a12ts1": {
-    "title": "Motor BLDC de Detecção de Velocidade Nidec D08A-12TS1",
-    "description": "Motor BLDC Nidec D08A-12TS1 com tamanho de 80mm e saída de pulso. Operação de 12VCC com capacidade de detecção de velocidade.",
+    "title": "Motor  de Detecção de Velocidade Nidec D08A-12TS1",
+    "description": "Motor  Nidec D08A-12TS1 com tamanho de 80mm e saída de pulso. Operação de 12VCC com capacidade de detecção de velocidade.",
     "features": [
       "Tamanho de 80mm",
       "Operação de 12VCC",
       "Saída de pulso",
       "Detecção de velocidade",
-      "Motor BLDC",
+      "Motor ",
       "Controle de feedback"
     ]
   },

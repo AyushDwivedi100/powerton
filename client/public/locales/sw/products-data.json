@@ -115,7 +115,12 @@
         "circuit-breakers-fuses": {
           "title": "Vivunja Mzunguko na Fuses",
           "description": "Vifaa vya ulinzi kwa saketi za umeme na usalama wa vifaa",
-          "features": ["MCBs", "MCCBs", "RCCBs", "Fuses za Viwandani"]
+          "features": [
+            "MCBs",
+            "MCCBs",
+            "RCCBs",
+            "Fuses za Viwandani"
+          ]
         },
         "power-supplies": {
           "title": "Vyanzo vya Nguvu",
@@ -225,7 +230,12 @@
     "automation-control-systems": {
       "title": "Mifumo ya Kiotomatiki na Udhibiti",
       "description": "Suluhisho za hali ya juu za kiotomatiki na udhibiti kwa usimamizi na uboreshaji wa mchakato wa viwandani",
-      "badges": ["PLCs", "SCADA", "DCS", "HMI"],
+      "badges": [
+        "PLCs",
+        "SCADA",
+        "DCS",
+        "HMI"
+      ],
       "sectionTitle": "Suluhisho za Mfumo wa Udhibiti",
       "subcategories": {
         "plcs": {
@@ -518,64 +528,6 @@
         "title": "Unahitaji Zana na Suluhisho za Upimaji?",
         "description": "Wataalamu wetu wanaweza kukusaidia kuchagua zana sahihi na vyombo vya kupimia kwa matumizi yako ya viwandani.",
         "contactButtonText": "Wasiliana na Wataalamu Wetu"
-      }
-    },
-    "bldc": {
-      "title": "Mifumo ya Motor ya BLDC",
-      "description": "Suluhisho za motor za DC zisizo na brashi zinazotumia nishati kwa matumizi ya viwandani na biashara",
-      "badges": [
-        "Motors za BLDC",
-        "Inatumia Nishati Vizuri",
-        "Matengenezo ya Chini",
-        "Udhibiti Mahiri"
-      ],
-      "sectionTitle": "Suluhisho za BLDC",
-      "subcategories": {
-        "bldc-cooler-exhaust-motor": {
-          "title": "Motors za Kipoezi na Kutolea Nje za BLDC",
-          "description": "Motors za ufanisi wa hali ya juu kwa matumizi ya kupoeza na uingizaji hewa",
-          "features": [
-            "Inatumia Nishati Vizuri",
-            "Kelele Chini",
-            "Maisha Marefu",
-            "Kasi Inayobadilika"
-          ]
-        },
-        "bldc-ceiling-fan": {
-          "title": "Feni za Dari za BLDC",
-          "description": "Feni mahiri za dari zenye teknolojia ya hali ya juu ya kuokoa nishati",
-          "features": [
-            "Kidhibiti cha Mbali",
-            "Inaokoa Nishati",
-            "Uendeshaji Kimya",
-            "Vipengele Mahiri"
-          ]
-        },
-        "bldc-submersible-surface-pump": {
-          "title": "Pampu za BLDC za Maji za Ndani na za Juu",
-          "description": "Suluhisho za kusukuma maji na teknolojia ya motor ya BLDC",
-          "features": [
-            "Ubunifu Unaoyozama",
-            "Ufanisi wa Juu",
-            "Inastahimili Kutumia",
-            "Inaoana na Sola"
-          ]
-        },
-        "bldc-table-fan-wall-fan-motor": {
-          "title": "Motors za Feni za Meza na Ukuta za BLDC",
-          "description": "Motors za BLDC kompakt kwa feni zinazobebeka na zilizowekwa ukutani",
-          "features": [
-            "Ukubwa Compact",
-            "Inatumia Nishati Vizuri",
-            "Uendeshaji Kimya",
-            "Udhibiti wa Kasi"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Boresha hadi Teknolojia ya BLDC?",
-        "description": "Wataalamu wetu wa BLDC wanaweza kukusaidia kubadilisha hadi suluhisho za motor za DC zisizo na brashi zinazotumia nishati.",
-        "contactButtonText": "Wasiliana na Wataalamu wa BLDC"
       }
     }
   },
@@ -3001,242 +2953,6 @@
         "description": "Mita za paneli ikiwa ni pamoja na ampea/volti za analogi, mita za dijitali, mita za sababu ya nguvu, na mita za kazi nyingi kwa ufuatiliaji na upimaji wa nguvu za viwandani.",
         "keywords": "mita za paneli, ampea ya analogi, volti ya analogi, mita za dijitali, mita ya sababu ya nguvu, mita ya kazi nyingi, mita ya nishati, mita ya kupachika paneli"
       }
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "Motors za BLDC za Kipoozi na Kutolea Nje",
-      "shortDescription": "Motors za BLDC zenye ufanisi wa juu kwa vipoozi na feni za kutolea nje",
-      "fullDescription": "Motors za hali ya juu za BLDC zilizoundwa kwa vipoozi vya jangwa na feni za kutolea nje na ufanisi bora, uimara, na utendaji.",
-      "parentCategoryTitle": "Bidhaa za BLDC",
-      "keyBenefits": [
-        "Ufanisi wa Nishati",
-        "Kelele Chini",
-        "Uimara wa Juu",
-        "Inayostahimili Hali ya Hewa"
-      ],
-      "specifications": [
-        "Nguvu: 35W hadi 85W",
-        "Volteji: 220V AC",
-        "Kasi: 1400-1800 RPM",
-        "Mtiririko wa Hewa: CFM ya Juu",
-        "Ulinzi: IP44",
-        "Ufanisi: >85%"
-      ],
-      "applications": [
-        "Vipoozi vya Jangwa",
-        "Feni za Kutolea Nje",
-        "Mifumo ya Uingizaji Hewa",
-        "Upൂaji wa Viwandani",
-        "Utoaji wa Jikoni",
-        "Uingizaji Hewa wa Bafuni"
-      ],
-      "industries": [
-        "HVAC",
-        "Makazi",
-        "Majengo ya Biashara",
-        "Uingizaji Hewa wa Viwandani",
-        "Huduma ya Chakula",
-        "Utengenezaji"
-      ],
-      "features": [
-        "Teknolojia ya BLDC",
-        "Ufanisi wa Juu",
-        "Matengenezo ya Chini",
-        "Inayostahimili Kutumia",
-        "Ulinzi wa Joto",
-        "Maisha Marefu ya Huduma",
-        "Uendeshaji Tulivu",
-        "Haitaji Matengenezo"
-      ],
-      "certifications": [
-        "Imethibitishwa na BEE",
-        "Alama ya ISI",
-        "Imeidhinishwa na CE",
-        "Imeorodheshwa IP44",
-        "Inatii RoHS",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Motors za BLDC za Kipoozi na Kutolea Nje - Motors za BLDC Zenye Ufanisi wa Juu | Powerton Engineering",
-        "description": "Motors za BLDC zenye ufanisi wa juu kwa vipoozi vya jangwa na feni za kutolea nje. Motors za DC zisizo na brashi zinazookoa nishati na maisha marefu ya huduma.",
-        "keywords": "motors za BLDC za vipoozi, motors za BLDC za kutolea nje, motors za DC zisizo na brashi, motors zenye ufanisi wa nishati, motors za vipoozi, motors za feni za kutolea nje"
-      }
-    },
-    "bldc-ceiling-fan": {
-      "title": "Feni za Dari za BLDC",
-      "shortDescription": "Feni za dari za DC zisizo na brashi zinazotumia nishati",
-      "fullDescription": "Feni za dari za BLDC zenye ufanisi wa juu na teknolojia ya kuokoa nishati, vidhibiti mahiri, na utendaji bora kwa matumizi ya makazi na biashara.",
-      "parentCategoryTitle": "Bidhaa za BLDC",
-      "keyBenefits": [
-        "Akiba ya Nishati hadi 65%",
-        "Uendeshaji Kimya",
-        "Kidhibiti cha Mbali",
-        "Maisha Marefu ya Huduma"
-      ],
-      "specifications": [
-        "Nguvu ya Motor: 28W hadi 52W",
-        "Kasi: 1200-1600 RPM",
-        "Mtiririko wa Hewa: 200-280 CMM",
-        "Volteji: 220V AC",
-        "Upeo: 1200mm hadi 1600mm",
-        "Ukadiriaji wa Nishati: Nyota 5 BEE"
-      ],
-      "applications": [
-        "Vyumba vya Makazi",
-        "Nafasi za Ofisi",
-        "Majengo ya Biashara",
-        "Ukarimu",
-        "Taasisi za Elimu",
-        "Vituo vya Afya"
-      ],
-      "industries": [
-        "Ujenzi wa Makazi",
-        "Majengo ya Biashara",
-        "Ukarimu",
-        "Huduma ya Afya",
-        "Elimu",
-        "Rejareja"
-      ],
-      "features": [
-        "Teknolojia ya Motor ya BLDC",
-        "Kidhibiti cha Mbali",
-        "Kasi Inayobadilika",
-        "Hali ya Kubadilisha",
-        "Kazi ya Kipima Muda",
-        "Viashiria vya LED",
-        "Vile vya Aerodynamic",
-        "Uendeshaji Tulivu"
-      ],
-      "certifications": [
-        "Imeidhinishwa Nyota 5 na BEE",
-        "Alama ya ISI",
-        "Imeidhinishwa na CE",
-        "Inatii RoHS",
-        "Nyota ya Nishati",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Feni za Dari za BLDC - Feni za DC Zisizo na Brashi Zinazotumia Nishati | Powerton Engineering",
-        "description": "Feni za dari za BLDC zinazotumia nishati na ukadiriaji wa nyota 5 wa BEE. Kidhibiti mahiri cha mbali, uendeshaji tulivu, na akiba ya nishati hadi 65%.",
-        "keywords": "feni za dari za BLDC, feni zinazotumia nishati, feni za DC zisizo na brashi, feni mahiri za dari, feni za nyota 5, feni za kidhibiti cha mbali"
-      }
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "Pampu za BLDC za Maji za Ndani na za Juu",
-      "shortDescription": "Pampu za maji za BLDC zinazooana na sola kwa umwagiliaji na usambazaji wa maji",
-      "fullDescription": "Pampu za hali ya juu za BLDC za maji za ndani na za juu zenye uoanifu wa sola, ufanisi wa juu, na utendaji wa kuaminika kwa matumizi ya kilimo na nyumbani.",
-      "parentCategoryTitle": "Bidhaa za BLDC",
-      "keyBenefits": [
-        "Inaoana na Sola",
-        "Ufanisi wa Nishati",
-        "Matengenezo ya Chini",
-        "Uaminifu wa Juu"
-      ],
-      "specifications": [
-        "Nguvu: 0.5HP hadi 5HP",
-        "Kichwa: 10m hadi 150m",
-        "Mtiririko: 10 hadi 150 LPM",
-        "Volteji: 48V/110V/220V DC",
-        "Sola: Inaoana na MPPT",
-        "Ufanisi: >85%"
-      ],
-      "applications": [
-        "Umwagiliaji wa Kilimo",
-        "Usambazaji wa Maji ya Nyumbani",
-        "Usukumiaji wa Maji wa Sola",
-        "Umwagiliaji wa Mifugo",
-        "Umwagiliaji wa Bustani",
-        "Uhamishaji wa Maji"
-      ],
-      "industries": [
-        "Kilimo",
-        "Nishati ya Sola",
-        "Makazi",
-        "Maendeleo ya Vijijini",
-        "Umwagiliaji",
-        "Usimamizi wa Maji"
-      ],
-      "features": [
-        "Motor ya BLDC",
-        "Inaoana na Sola",
-        "Teknolojia ya MPPT",
-        "Mwili wa Chuma cha pua",
-        "Ulinzi wa Kukauka",
-        "Ulinzi wa Joto",
-        "Ufanisi wa Juu",
-        "Matengenezo ya Chini"
-      ],
-      "certifications": [
-        "Imethibitishwa na BEE",
-        "Alama ya ISI",
-        "Imeidhinishwa na CE",
-        "Imethibitishwa kwa Sola",
-        "Imeorodheshwa IP68",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Pampu za Maji za BLDC - Pampu za Sola za Ndani na za Juu | Powerton Engineering",
-        "description": "Pampu za maji za BLDC zinazooana na sola kwa umwagiliaji na matumizi ya nyumbani. Pampu za maji za ndani na za juu zinazotumia nishati vizuri na teknolojia ya MPPT.",
-        "keywords": "pampu za maji za BLDC, pampu za maji za sola, pampu za maji za ndani za BLDC, pampu za sola, pampu za DC zisizo na brashi, pampu za umwagiliaji"
-      }
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "Motors za BLDC za Feni za Meza na Ukuta",
-      "shortDescription": "Motors za BLDC kompakt kwa feni za meza na ukuta",
-      "fullDescription": "Motors za BLDC zinazotumia nishati vizuri zilizoundwa kwa feni za meza na ukuta na utendaji bora, kelele ya chini, na maisha marefu ya huduma.",
-      "keyBenefits": [
-        "Ubunifu Mdogo",
-        "Kuokoa Nishati",
-        "Uendeshaji Tulivu",
-        "Maisha Marefu"
-      ],
-      "specifications": [
-        "Nguvu: 25W hadi 45W",
-        "Kasi: 1200-1800 RPM",
-        "Volteji: 220V AC",
-        "Mtiririko wa Hewa: 60-90 CMM",
-        "Kelele: <40dB",
-        "Ufanisi: >80%"
-      ],
-      "applications": [
-        "Feni za Meza",
-        "Feni za Ukuta",
-        "Feni za Msingi",
-        "Upൂaji Binafsi",
-        "Uingizaji Hewa wa Ofisi",
-        "Upൂaji wa Chumba"
-      ],
-      "industries": [
-        "Elektroniki za Watumiaji",
-        "Makazi",
-        "Biashara",
-        "Ukarimu",
-        "Vifaa vya Ofisi",
-        "Rejareja"
-      ],
-      "features": [
-        "Teknolojia ya BLDC",
-        "Ufanisi wa Juu",
-        "Uendeshaji Tulivu",
-        "Kasi Inayobadilika",
-        "Ukubwa Kompakt",
-        "Joto Chini",
-        "Maisha Marefu ya Huduma",
-        "Imekadiriwa na Nyota ya Nishati"
-      ],
-      "certifications": [
-        "BEE Nyota 5",
-        "Alama ya ISI",
-        "Imeidhinishwa na CE",
-        "Inatii RoHS",
-        "Nyota ya Nishati",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Motors za BLDC za Feni za Meza na Ukuta - Motors za Feni Zinazotumia Nishati | Powerton Engineering",
-        "description": "Motors za BLDC kompakt kwa feni za meza na ukuta. Motors za DC zisizo na brashi zinazotumia nishati vizuri na uendeshaji tulivu na maisha marefu ya huduma.",
-        "keywords": "motors za feni za BLDC, motors za feni za meza, motors za feni za ukuta, motors zinazotumia nishati, motors za DC zisizo na brashi, motors za feni"
-      },
-      "parentCategoryTitle": "Bidhaa za BLDC"
     }
   },
   "surgeProtectors": {
@@ -3293,223 +3009,6 @@
     "type": "Aina",
     "awg": "Ukubwa wa Kondakta",
     "temperature": "Halijoto"
-  },
-  "bldc-smart1200": {
-    "seo": {
-      "title": "Feni ya Dari ya Smart BLDC 1200 RPM - Inayotumia Nishati | Powerton Engineering",
-      "description": "Feni ya dari ya BLDC Smart yenye ufanisi wa hali ya juu 1200 RPM yenye kidhibiti cha mbali, kipima muda, na teknolojia ya kuokoa nishati. Inafaa kwa nyumba na ofisi.",
-      "keywords": "feni ya dari ya BLDC, feni ya dari smart, feni inayotumia nishati, feni ya dari ya 1200 RPM, feni ya motor isiyo na brashi ya DC, feni ya kidhibiti cha mbali"
-    },
-    "hero": {
-      "title": "Feni ya Dari ya Smart BLDC 1200 RPM",
-      "subtitle": "Feni ya dari smart inayotumia nishati na kidhibiti cha mbali"
-    },
-    "overview": {
-      "fullDescription": "Feni yetu ya Dari ya Smart BLDC 1200 RPM inachanganya teknolojia ya kisasa ya motor isiyo na brashi ya DC na vipengele vya akili kwa ufanisi bora wa nishati na faraja. Iliyoundwa kwa matumizi ya makazi na biashara ndogo, feni hii hutoa utendaji bora huku ikitumia hadi 65% ya nishati kidogo kuliko feni za kawaida."
-    },
-    "keyBenefits": [
-      "Akiba ya Nishati hadi 65%",
-      "Kidhibiti cha Mbali Smart",
-      "Uendeshaji Kimya",
-      "Maisha Marefu ya Huduma"
-    ],
-    "features": [
-      "Teknolojia ya Motor Isiyo na Brashi ya DC",
-      "Kidhibiti cha Mbali Smart na Kipima Muda",
-      "Udhibiti wa Kasi Tofauti",
-      "Kipengele cha Mwelekeo wa Kinyume",
-      "Onyesho la Kiashiria cha LED",
-      "Iliyokadiriwa na Nishati Star",
-      "Motor ya Mviringo wa Shaba",
-      "Muundo wa Blade ya Aerodynamic"
-    ],
-    "applications": [
-      "Vyumba vya Kulala vya Makazi",
-      "Sebule",
-      "Nafasi za Ofisi",
-      "Vyumba vya Masomo",
-      "Vyumba vya Wageni",
-      "Nafasi Ndogo za Biashara"
-    ],
-    "industries": [
-      "Ujenzi wa Makazi",
-      "Ubunifu wa Mambo ya Ndani",
-      "Ukarimu",
-      "Majengo ya Ofisi",
-      "Taasisi za Elimu",
-      "Vituo vya Afya"
-    ],
-    "certifications": [
-      "Imethibitishwa na Nishati Star",
-      "Alama ya ISI",
-      "Imeidhinishwa na CE",
-      "Inatii RoHS",
-      "Ukadiriaji wa Nyota 5 wa BEE"
-    ]
-  },
-  "bldc-premium1400": {
-    "title": "Feni ya Dari ya Premium BLDC 1400mm",
-    "description": "Feni ya dari ya 52W isiyo na brashi ya DC yenye utendaji wa juu na kipenyo cha 1400mm. Ubunifu wa premium unaoangazia vidhibiti mahiri, ujumuishaji wa taa za LED, na ufanisi bora wa nishati kwa vyumba vikubwa na nafasi za kibiashara.",
-    "features": [
-      "Motor ya premium ya 52W yenye ukadiriaji wa nishati wa nyota 5",
-      "Kidhibiti mahiri chenye udhibiti wa taa za LED",
-      "Mtiririko bora wa hewa wa 240 CMM kwa nafasi kubwa",
-      "Taa za LED zilizounganishwa na udhibiti wa dimmer",
-      "Ubunifu wa blade ya aerodynamic ya hali ya juu",
-      "Uendeshaji wa kimya sana chini ya 30dB",
-      "Huduma ya udhamini wa premium ya miaka 5"
-    ],
-    "seo": {
-      "title": "Feni ya Dari ya BLDC Premium 1400 RPM - Vipengele vya Hali ya Juu | Powerton Engineering",
-      "description": "Feni ya Dari ya BLDC Premium 1400 RPM yenye vipengele mahiri vya hali ya juu, mtiririko bora wa hewa, na teknolojia ya motor isiyo na brashi yenye ufanisi wa nishati.",
-      "keywords": "feni ya dari ya BLDC premium, feni ya dari ya 1400 RPM, feni ya dari ya hali ya juu, feni ya dari mahiri, feni ya mtiririko wa hewa wa juu, yenye ufanisi wa nishati"
-    },
-    "hero": {
-      "title": "Feni ya Dari ya BLDC Premium 1400 RPM",
-      "subtitle": "Feni ya dari yenye utendaji wa juu na taa za LED"
-    },
-    "overview": {
-      "fullDescription": "Feni ya Dari ya BLDC Premium 1400 RPM inawakilisha kilele cha teknolojia ya feni ya dari yenye vipengele vya hali ya juu na ubora bora wa kujenga. Imeundwa kwa utendaji ulioimarishwa na utoaji wa mtiririko wa hewa wa juu huku ikidumisha ufanisi wa kipekee wa nishati kwa matumizi ya makazi na biashara ya premium."
-    },
-    "keyBenefits": [
-      "Utendaji Bora wa Mtiririko wa Hewa",
-      "Vidhibiti Mahiri vya Hali ya Juu",
-      "Ubora Bora wa Kujenga",
-      "Ufunikaji wa Udhamini Uliopanuliwa"
-    ],
-    "applications": [
-      "Nafasi za Makazi za Premium",
-      "Vyumba Vikuu vya Kulala",
-      "Sehemu Kubwa za Kuishi",
-      "Ofisi za Watendaji",
-      "Vyumba vya Mikutano",
-      "Hoteli za Anasa"
-    ],
-    "industries": [
-      "Makazi ya Premium",
-      "Ukarimu wa Anasa",
-      "Ofisi za Shirika",
-      "Rejareja ya Juu",
-      "Huduma ya Afya ya Premium",
-      "Elimu ya Juu"
-    ],
-    "certifications": [
-      "Imethibitishwa na Energy Star",
-      "Alama ya ISI",
-      "Imeidhinishwa na CE",
-      "Inatii RoHS",
-      "Ukadiriaji wa Nyota 5 wa BEE",
-      "Imethibitishwa na Muungano wa WiFi"
-    ]
-  },
-  "bldc-commercial1500": {
-    "title": "Feni ya Dari ya Biashara ya BLDC 1500mm",
-    "description": "Feni ya dari ya 65W isiyo na brashi ya DC iliyoundwa kwa matumizi ya kibiashara na viwandani. Uwezo bora wa mtiririko wa hewa wa 300 CFM na ujenzi thabiti kwa uendeshaji unaoendelea katika mazingira yanayohitaji.",
-    "features": [
-      "Motor ya kibiashara ya 65W ya kazi nzito",
-      "Uwezo wa juu wa mtiririko wa hewa 300 CFM",
-      "Ujenzi thabiti kwa uendeshaji unaoendelea",
-      "Eneo la kibiashara la 1500mm",
-      "Uimara na uaminifu ulioimarishwa",
-      "Inafaa kwa maghala na viwanda",
-      "Udhamini wa kibiashara uliopanuliwa wa miaka 3"
-    ],
-    "seo": {
-      "title": "Feni ya Dari ya BLDC ya Biashara 1500 RPM - Kazi Nzito | Powerton Engineering",
-      "description": "Feni ya Dari ya BLDC ya kiwango cha kibiashara 1500 RPM iliyoundwa kwa matumizi ya kazi nzito yenye mtiririko wa juu zaidi wa hewa na uaminifu wa viwandani.",
-      "keywords": "feni ya dari ya BLDC ya kibiashara, feni ya dari ya viwandani, feni ya 1500 RPM, feni ya dari ya kazi nzito, feni ya kiwango cha kibiashara, mtiririko wa juu wa hewa"
-    },
-    "hero": {
-      "title": "Feni ya Dari ya BLDC ya Biashara 1500 RPM",
-      "subtitle": "Feni ya dari ya kazi nzito kwa matumizi ya kibiashara"
-    },
-    "overview": {
-      "fullDescription": "Feni yetu ya Dari ya BLDC ya Biashara 1500 RPM imeundwa kwa matumizi ya kibiashara ya kazi nzito inayohitaji mtiririko wa juu zaidi wa hewa na uaminifu. Imejengwa kwa vipengele vya kiwango cha viwandani na teknolojia ya hali ya juu ya motor ili kutoa utendaji thabiti katika mazingira yanayohitaji huku ikidumisha ufanisi wa nishati."
-    },
-    "keyBenefits": [
-      "Utoaji wa Mtiririko wa Hewa wa Juu",
-      "Uaminifu wa Kiwango cha Viwandani",
-      "Ujenzi wa Kazi Nzito",
-      "Ulinzi wa Udhamini Uliopanuliwa"
-    ],
-    "applications": [
-      "Majengo ya Biashara",
-      "Vituo vya Viwandani",
-      "Nafasi Kubwa za Ofisi",
-      "Vyumba vya Maonyesho vya Rejareja",
-      "Maghala",
-      "Viwanda vya Utengenezaji"
-    ],
-    "industries": [
-      "Majengo ya Biashara",
-      "Utengenezaji wa Viwandani",
-      "Rejareja na Ununuzi",
-      "Uwekaji Ghala na Usafirishaji",
-      "Ukarimu wa Biashara",
-      "Taasisi za Elimu"
-    ],
-    "certifications": [
-      "Imethibitishwa na Energy Star",
-      "Alama ya ISI",
-      "Imeidhinishwa na CE",
-      "Inatii RoHS",
-      "Ukadiriaji wa Nyota 5 wa BEE",
-      "Imethibitishwa kwa Kiwango cha Biashara"
-    ]
-  },
-  "solar-bldc-submersible-1hp": {
-    "seo": {
-      "title": "Pampu ya Maji ya Submersible ya Sola ya BLDC 1HP - Suluhisho Endelevu za Maji | Powerton Engineering",
-      "description": "Pampu ya Submersible ya Sola ya BLDC 1HP kwa umwagiliaji wa kilimo na usambazaji wa maji na teknolojia ya juu ya sola na ufanisi wa nishati.",
-      "keywords": "pampu ya submersible ya sola, pampu ya maji ya BLDC, pampu ya maji ya sola, pampu ya submersible ya 1HP, pampu ya nishati mbadala, pampu ya kilimo"
-    },
-    "hero": {
-      "title": "Pampu ya Submersible ya Sola ya BLDC 1HP",
-      "subtitle": "Suluhisho la kusukuma maji kwa nishati ya sola"
-    },
-    "overview": {
-      "fullDescription": "Pampu yetu ya Submersible ya Sola ya BLDC 1HP inachanganya nishati mbadala ya sola na teknolojia ya juu ya motor isiyo na brashi kwa suluhisho endelevu za kusukuma maji. Iliyoundwa kwa umwagiliaji wa kilimo, usambazaji wa maji ya nyumbani, na mifumo ya maji ya mbali na ufanisi na uaminifu wa hali ya juu."
-    },
-    "keyBenefits": [
-      "Nguvu ya Sola 100%",
-      "Gharama Sifuri za Uendeshaji",
-      "Rafiki kwa Mazingira",
-      "Inaoana na Eneo la Mbali"
-    ],
-    "features": [
-      "Motor ya BLDC Inayooana na Sola",
-      "Kidhibiti cha MPPT Kimejumuishwa",
-      "Muundo Uliopozwa na Maji",
-      "Ulinzi wa Kukauka",
-      "Teknolojia ya Kuanza Laini",
-      "Vifaa Visivyo na Kutu",
-      "Inaoana na Swichi ya Kuelea",
-      "Mfumo wa Ufuatiliaji wa Mbali"
-    ],
-    "applications": [
-      "Umwagiliaji wa Kilimo",
-      "Usambazaji wa Maji ya Nyumbani",
-      "Kumwagilia Mifugo",
-      "Mifumo ya Maji ya Mbali",
-      "Usambazaji wa Maji Vijijini",
-      "Umwagiliaji wa Bustani"
-    ],
-    "industries": [
-      "Kilimo na Ukulima",
-      "Maendeleo ya Vijijini",
-      "Usimamizi wa Maji",
-      "Nishati Mbadala",
-      "Mifumo ya Umwagiliaji",
-      "Teknolojia Endelevu"
-    ],
-    "certifications": [
-      "Imethibitishwa na Nishati ya Sola",
-      "Alama ya ISI",
-      "Imeidhinishwa na CE",
-      "Inatii RoHS",
-      "Ukadiriaji wa IP68",
-      "Imeidhinishwa na MNRE"
-    ]
   },
   "instrumentation-cables": {
     "title": "Kebo za Ala",
@@ -3570,70 +3069,6 @@
       "title": "Kebo za Ala - Usambazaji Sahihi wa Ishara | Powerton Engineering",
       "description": "Kebo za ala za ubora wa juu na muundo uliolindwa kwa usambazaji sahihi wa ishara ya kipimo na udhibiti.",
       "keywords": "kebo za ala, jozi iliyosokotwa iliyolindwa, kebo za ishara, kebo za kipimo, kebo za udhibiti, kebo za viwanda"
-    }
-  },
-  "bldcCeilingFan": {
-    "smart1200": {
-      "name": "Feni ya Dari ya Smart BLDC - 1200mm",
-      "description": "Feni ya dari yenye akili na inayotumia nishati kidogo na kidhibiti cha mbali",
-      "features": [
-        "Matumizi ya Nguvu ya 28W",
-        "Kidhibiti cha Mbali",
-        "Mipangilio 5 ya Kasi",
-        "Kazi ya Kipima Muda"
-      ]
-    },
-    "premium1400": {
-      "name": "Feni ya Dari ya Premium BLDC - 1400mm",
-      "description": "Feni ya dari ya utendaji wa juu na taa ya LED",
-      "features": [
-        "Matumizi ya Nguvu ya 35W",
-        "Taa ya LED Iliyounganishwa",
-        "Motor Inayoweza Kubadilishwa",
-        "Uendeshaji Kimya"
-      ]
-    },
-    "commercial1500": {
-      "name": "Feni ya Dari ya Biashara BLDC - 1500mm",
-      "description": "Feni ya dari ya kazi nzito kwa matumizi ya kibiashara",
-      "features": [
-        "Matumizi ya Nguvu ya 45W",
-        "Motor ya Kazi Nzito",
-        "Mtiririko wa Hewa wa Juu",
-        "Ujenzi Imara"
-      ]
-    }
-  },
-  "bldcCoolerExhaust": {
-    "exhaustFan": {
-      "name": "Motors za Feni ya Kutolea Nje ya BLDC",
-      "description": "Motors za ufanisi wa juu kwa matumizi ya feni ya kutolea nje",
-      "features": [
-        "Kasi Inayobadilika",
-        "Kelele Chini",
-        "Ufanisi wa Nishati",
-        "Maisha Marefu"
-      ]
-    },
-    "coolerMotors": {
-      "name": "Motors za Kipoezi za BLDC",
-      "description": "Motors zinazotumia nishati kidogo kwa matumizi ya vipoezi vya hewa",
-      "features": [
-        "Torque ya Juu",
-        "Inayostahimili Hali ya Hewa",
-        "Udhibiti wa Kasi",
-        "Haitaji Matengenezo"
-      ]
-    },
-    "ventilation": {
-      "name": "Motors za Uingizaji Hewa za BLDC",
-      "description": "Motors maalum kwa mifumo ya uingizaji hewa ya viwandani",
-      "features": [
-        "CFM ya Juu",
-        "Imekadiriwa kwa Joto",
-        "Inayostahimili Mtetemo",
-        "Udhibiti Mahiri"
-      ]
     }
   },
   "cablesWires": {
@@ -3841,11 +3276,24 @@
         "Chakula na Vinywaji",
         "Utengenezaji wa Magari"
       ],
-      "certifications": ["CE", "UL", "CSA", "ATEX", "IECEx", "SIL 2/3"],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C hadi +125°C",
         "protection": "IP65/IP67/IP69K",
-        "communication": ["4-20mA", "HART", "Modbus", "Ethernet", "Wireless"],
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
         "accuracy": "±0.1% hadi ±0.5% ya upeo",
         "power": "24V DC, 115/230V AC, Inaendeshwa na Kitanzi"
       }
@@ -3894,7 +3342,14 @@
         "Pulp na Karatasi",
         "Uchimbaji Madini na Vyuma"
       ],
-      "certifications": ["SIL 2/3", "ATEX", "IECEx", "FM", "CSA", "NEPSI"],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C hadi +85°C",
         "protection": "IP66/IP67",
@@ -3907,70 +3362,6 @@
         "accuracy": "±0.05% hadi ±0.25% ya upeo",
         "power": "10.5-42.4V DC, Inaendeshwa na Kitanzi"
       }
-    }
-  },
-  "bldcSubmersibleSurface": {
-    "solar1HP": {
-      "name": "Pampu ya Maji ya BLDC ya Sola - 1HP",
-      "description": "Pampu ya maji ya BLDC inayotumia sola kwa visima vya maji",
-      "features": [
-        "Inayooana na Sola",
-        "Motor ya 1HP",
-        "Ufanisi wa Juu",
-        "Muundo Uliopozwa na Maji"
-      ]
-    },
-    "surface2HP": {
-      "name": "Pampu ya Uso ya DC - 2HP",
-      "description": "Pampu ya uso ya BLDC yenye ufanisi wa hali ya juu kwa umwagiliaji",
-      "features": [
-        "Nguvu ya 2HP",
-        "Kujijaza",
-        "Ulinzi wa Kukauka",
-        "Kasi Inayobadilika"
-      ]
-    },
-    "hybrid": {
-      "name": "Mfumo wa Pampu ya Mseto ya BLDC",
-      "description": "Mfumo mahiri wa pampu na sola na akiba ya gridi ya taifa",
-      "features": [
-        "Uendeshaji wa Mseto",
-        "Kidhibiti Mahiri",
-        "Ufuatiliaji wa Mbali",
-        "Uboreshaji wa Nishati"
-      ]
-    }
-  },
-  "bldcTableWallFan": {
-    "tableFan": {
-      "name": "Motors za Feni ya Meza ya BLDC",
-      "description": "Motors za BLDC zenye kompakt kwa feni za meza na dawati",
-      "features": [
-        "Muundo Ulioshikamana",
-        "Uendeshaji Kimya",
-        "Udhibiti wa Mbali",
-        "Kazi ya Kipima Muda"
-      ]
-    },
-    "wallFan": {
-      "name": "Motors za Feni ya Ukuta ya BLDC",
-      "description": "Motors za feni zilizowekwa ukutani na teknolojia ya BLDC",
-      "features": [
-        "Muundo wa Ukuta",
-        "Kazi ya Oscillating",
-        "Udhibiti wa Kasi",
-        "Kuokoa Nishati"
-      ]
-    },
-    "pedestalFan": {
-      "name": "Motors za Feni ya Msingi ya BLDC",
-      "description": "Motors za feni ya msingi inayoweza kurekebishwa kwa urefu",
-      "features": [
-        "Marekebisho ya Urefu",
-        "Kazi ya Kuinamisha",
-        "Onyesho la LED",
-        "Hali ya Kulala"
-      ]
     }
   },
   "centrifugalPumps": {
@@ -4727,23 +4118,9 @@
       "Kuunganisha uzi wa screw haraka"
     ]
   },
-  "atomberg-efficio-1200-bldc": {
-    "title": "Feni ya Dari ya Atomberg Efficio 1200mm BLDC",
-    "description": "Feni ya dari ya BLDC ya Atomberg inayotumia nishati vizuri yenye matumizi ya umeme ya 27W pekee na mtiririko wa hewa wa 236 CMM. Ina thamani bora ya huduma ya 8.7, kidhibiti cha mbali cha RF, na akiba ya nishati ya 65% ikilinganishwa na feni za jadi.",
-    "features": [
-      "Thamani ya juu zaidi ya huduma ya 8.7 CMM/W",
-      "Matumizi ya umeme ya chini sana ya 27W",
-      "Utoaji wa mtiririko wa hewa wa 236 CMM",
-      "Kidhibiti cha mbali cha RF na modi za kuongeza nguvu na kulala",
-      "Uvumilivu wa voltage pana 140-285V",
-      "Uendeshaji wa kimya sana <35dB",
-      "Akiba ya nishati ya 65% dhidi ya feni za jadi",
-      "Udhamini wa miaka 3"
-    ]
-  },
   "havells-efficiencia-neo-1200": {
-    "title": "Feni ya Dari ya Havells Efficiencia Neo 1200mm BLDC",
-    "description": "Feni ya dari ya BLDC iliyoshinda tuzo na Havells yenye matumizi ya umeme ya 26W na mtiririko wa hewa wa 220 CMM. Mshindi wa Tuzo ya Kitaifa ya Uhifadhi wa Nishati 2021, iliyo na vilima vya shaba 100% na modi za udhibiti za hali ya juu.",
+    "title": "Feni ya Dari ya Havells Efficiencia Neo 1200mm ",
+    "description": "Feni ya dari ya  iliyoshinda tuzo na Havells yenye matumizi ya umeme ya 26W na mtiririko wa hewa wa 220 CMM. Mshindi wa Tuzo ya Kitaifa ya Uhifadhi wa Nishati 2021, iliyo na vilima vya shaba 100% na modi za udhibiti za hali ya juu.",
     "features": [
       "Mshindi wa Tuzo ya Kitaifa ya Uhifadhi wa Nishati 2021",
       "Matumizi ya umeme ya ufanisi sana ya 26W",
@@ -4753,136 +4130,6 @@
       "Uvumilivu wa voltage pana 140-280V",
       "Uwezo wa mzunguko wa nyuma",
       "Udhamini wa miaka 2+1 (unaweza kuongezwa hadi miaka 5)"
-    ]
-  },
-  "superfan-superx1-1200-bldc": {
-    "title": "Feni ya Dari ya Superfan SuperX1 1200mm BLDC",
-    "description": "Feni ya dari ya kwanza ya BLDC ya India na Superfan yenye matumizi ya umeme ya 35W na kiwango cha voltage pana sana cha 90-300V. Ina udhamini wa miaka 5, kidhibiti cha mbali kisicho na hatari, na modi ya upepo wa asili kwa faraja bora.",
-    "features": [
-      "Feni ya dari ya kwanza ya BLDC ya India (ilizinduliwa 2012)",
-      "Kiwango cha voltage pana sana 90-300V",
-      "Utoaji wa mtiririko wa hewa wa 230 CMM",
-      "Teknolojia ya kidhibiti cha mbali isiyo na hatari",
-      "Uigaji wa modi ya upepo wa asili",
-      "Kazi ya kipima muda na mipangilio mingi",
-      "Akiba ya nishati ya 56% dhidi ya feni za jadi",
-      "Udhamini wa miaka 5"
-    ]
-  },
-  "bldc-deluxe1600": {
-    "title": "Feni ya Dari ya Deluxe BLDC 1600mm",
-    "description": "Feni ya dari ya 80W isiyo na brashi ya DC yenye kipenyo cha 1600mm. Vipengele vya premium ikiwa ni pamoja na udhibiti smart, aerodynamics ya hali ya juu, na ubora wa kipekee wa kujenga kwa matumizi ya anasa.",
-    "features": [
-      "Motor ya premium ya 80W yenye utendaji wa juu",
-      "Kipenyo kikubwa cha 1600mm",
-      "Ujumuishaji wa udhibiti smart",
-      "Ubunifu wa blade ya aerodynamic ya hali ya juu",
-      "Maliza na vifaa vya premium",
-      "Uendeshaji wa anasa wa kimya",
-      "Huduma ya udhamini wa miaka 5"
-    ]
-  },
-  "bldc-industrial1800": {
-    "title": "Feni ya Dari ya Viwanda ya BLDC 1800mm",
-    "description": "Feni ya dari ya ziada ya 100W isiyo na brashi ya DC iliyoundwa kwa nafasi kubwa za viwanda. Uwezo wa juu wa mtiririko wa hewa na ujenzi mzito kwa uendeshaji wa 24/7 katika mazingira magumu ya viwanda.",
-    "features": [
-      "Motor ya ziada ya 100W ya viwanda",
-      "Kipenyo cha juu cha 1800mm",
-      "Ujenzi mzito kwa uendeshaji wa 24/7",
-      "Mtiririko bora wa hewa kwa nafasi kubwa",
-      "Vifaa na kumaliza vya kiwango cha viwanda",
-      "Iliyoundwa kwa mazingira magumu",
-      "Udhamini wa viwanda wa miaka 5"
-    ]
-  },
-  "bldc-economy900": {
-    "title": "Feni ya Dari ya Kiuchumi ya BLDC 900mm",
-    "description": "Feni ya dari ya 35W isiyo na brashi ya DC yenye kipenyo cha 900mm. Ubunifu unaotumia nishati vizuri, bora kwa vyumba vidogo hadi vya kati na kidhibiti cha mbali cha msingi na utendaji wa kuaminika.",
-    "features": [
-      "Ubunifu wa motor ya 35W",
-      "Sweep compact 900mm kwa vyumba vidogo",
-      "Utendaji wa msingi wa kidhibiti cha mbali",
-      "Teknolojia ya BLDC yenye gharama nafuu",
-      "Uendeshaji wa matengenezo ya chini",
-      "Udhamini wa kawaida wa miaka 2"
-    ]
-  },
-  "bldc-exhaust-fan-motor": {
-    "title": "Motor ya Feni ya Kutolea Nje ya BLDC 25W",
-    "description": "Motor ya 25W isiyo na brashi ya DC yenye ufanisi wa juu kwa matumizi ya feni ya kutolea nje. Ina ujenzi wa kuzaa mpira, ulinzi wa IP44, na uendeshaji wa kimya kwa mifumo ya uingizaji hewa ya makazi na biashara.",
-    "features": [
-      "Motor ya DC isiyo na brashi yenye ufanisi wa juu",
-      "Matumizi ya umeme ya 25W",
-      "Kuzaa mpira kwa maisha marefu",
-      "Ukadiriaji wa ulinzi wa IP44",
-      "Uendeshaji wa kelele ya chini",
-      "Uendeshaji wa 12V DC",
-      "Huduma ya udhamini wa miaka 2"
-    ]
-  },
-  "bldc-cooler-motors": {
-    "title": "Motors za Kipoezi za BLDC 45W",
-    "description": "Motor ya 45W isiyo na brashi ya DC yenye nguvu kwa matumizi ya kipoezi cha hewa. Ubunifu wa hali ya juu na ufanisi wa 90%, udhibiti wa kasi inayobadilika, na ukadiriaji wa ulinzi ulioimarishwa kwa utendaji wa kuaminika wa kupoeza.",
-    "features": [
-      "Motor ya BLDC ya 45W yenye utendaji wa juu",
-      "Ufanisi wa nishati ya 90%",
-      "Udhibiti wa kasi inayobadilika",
-      "Ukadiriaji wa ulinzi wa IP54",
-      "Ujenzi wa kuzaa mpira",
-      "Uendeshaji wa 24V DC",
-      "Huduma ya udhamini wa miaka 3"
-    ]
-  },
-  "bldc-ventilation-system": {
-    "title": "Mfumo wa Uingizaji Hewa wa BLDC 75W",
-    "description": "Motor ya 75W isiyo na brashi ya DC ya kiwango cha viwanda kwa mifumo ya uingizaji hewa. Ufanisi bora kwa 92%, uwezo wa juu wa mtiririko wa hewa, na ujenzi thabiti kwa matumizi magumu ya HVAC.",
-    "features": [
-      "Motor ya BLDC ya 75W ya kiwango cha viwanda",
-      "Ufanisi wa nishati ya 92%",
-      "Uwezo wa juu wa mtiririko wa hewa 800 CFM",
-      "Ukadiriaji wa ulinzi wa IP65",
-      "Uendeshaji wa 48V DC",
-      "Kiwango cha joto cha hali ya juu -20°C hadi +80°C",
-      "Huduma ya udhamini wa miaka 5"
-    ]
-  },
-  "bldc-ventilation-motors": {
-    "title": "Motors za Uingizaji Hewa za BLDC 35W",
-    "description": "Motor ya 35W isiyo na brashi ya DC yenye ufanisi kwa matumizi ya uingizaji hewa. Utendaji uliosawazishwa na uwezo wa mtiririko wa hewa wa 280 CFM, unaofaa kwa mifumo ya uingizaji hewa ya makazi na biashara nyepesi.",
-    "features": [
-      "Ubunifu wa motor ya 35W yenye ufanisi",
-      "Uwezo mzuri wa mtiririko wa hewa 280 CFM",
-      "Ufanisi wa nishati ya 88%",
-      "Ujenzi wa kuzaa sleeve",
-      "Ukadiriaji wa ulinzi wa IP44",
-      "Uendeshaji wa 24V DC",
-      "Udhamini wa kawaida wa miaka 2"
-    ]
-  },
-  "bldc-industrial-exhaust": {
-    "title": "Feni ya Kutolea Nje ya Viwanda ya BLDC 120W",
-    "description": "Motor ya 120W isiyo na brashi ya DC yenye nguvu ya juu kwa matumizi ya kutolea nje ya viwanda. Ujenzi mzito na uwezo wa kipekee wa mtiririko wa hewa na uaminifu kwa mazingira magumu ya viwanda.",
-    "features": [
-      "Motor ya 120W ya viwanda yenye nguvu ya juu",
-      "Uwezo wa kipekee wa mtiririko wa hewa 650 CFM",
-      "Ujenzi mzito",
-      "Uendeshaji wa kasi ya juu 3200 RPM",
-      "Ulinzi wa IP67 kwa mazingira magumu",
-      "Uendeshaji wa 48V DC",
-      "Udhamini wa viwanda wa miaka 3"
-    ]
-  },
-  "bldc-mini-cooler": {
-    "title": "Motor Ndogo ya Kipoezi ya BLDC 15W",
-    "description": "Motor compact ya 15W isiyo na brashi ya DC iliyoundwa kwa matumizi ya kipoezi kidogo. Ubunifu unaotumia nishati vizuri na uendeshaji wa kimya na utendaji wa kuaminika kwa vifaa vya kupoeza binafsi.",
-    "features": [
-      "Ubunifu wa motor compact ya 15W",
-      "Uendeshaji unaotumia nishati vizuri",
-      "Kiwango cha kelele ya chini chini ya 25dB",
-      "Uendeshaji wa 12V DC",
-      "Ukadiriaji wa ufanisi wa 82%",
-      "Inafaa kwa vifaa vya kupoeza binafsi",
-      "Huduma ya udhamini wa mwaka 1"
     ]
   },
   "dc-surface-pump-2hp": {
@@ -4896,58 +4143,6 @@
       "Uendeshaji wa 72V DC",
       "Ujenzi thabiti kwa matumizi ya viwanda",
       "Mahitaji ya matengenezo ya chini"
-    ]
-  },
-  "hybrid-bldc-pump": {
-    "title": "Mfumo wa Pampu ya Hybrid BLDC",
-    "description": "Mfumo wa pampu ya hybrid BLDC ya hali ya juu inayochanganya uwezo wa uendeshaji wa DC na AC. Ina nguvu ya 1.5HP na kiwango cha mtiririko wa 2700 LPH na uwezo wa kichwa cha 120ft, bora kwa matumizi mengi ya kusukuma maji.",
-    "features": [
-      "Uendeshaji wa DC/AC (48V DC / 230V AC)",
-      "Motor ya BLDC ya 1.5HP yenye ufanisi wa juu",
-      "Uwezo wa mtiririko wa 2700 LPH",
-      "Urefu wa juu wa 120ft",
-      "Uendeshaji unaotumia nishati vizuri",
-      "Utangamano wa chanzo cha nguvu nyingi",
-      "Teknolojia ya BLDC ya matengenezo ya chini"
-    ]
-  },
-  "bldc-table-fan-motors": {
-    "title": "Motors za Feni ya Meza ya BLDC",
-    "description": "Motors za feni ya meza ya BLDC yenye ufanisi wa juu na matumizi ya umeme ya 28W na kasi ya 2100 RPM. Ina uendeshaji wa kidhibiti cha mbali na kipenyo cha 400mm kwa mzunguko bora wa hewa katika nafasi za makazi na biashara.",
-    "features": [
-      "Uendeshaji wa 28W unaotumia nishati vizuri",
-      "Kasi ya juu ya 2100 RPM",
-      "Kipenyo cha 400mm kwa mtiririko bora wa hewa",
-      "Uendeshaji wa 24V DC",
-      "Utangamano wa kidhibiti cha mbali",
-      "Teknolojia ya motor ya BLDC ya kimya",
-      "Maisha marefu ya huduma"
-    ]
-  },
-  "bldc-wall-fan-motors": {
-    "title": "Motors za Feni ya Ukuta ya BLDC",
-    "description": "Motors za feni ya ukuta ya BLDC yenye nguvu ya 35W na kasi ya 1800 RPM. Ina kipenyo cha 450mm na uwezo wa oscillation kwa mzunguko mzuri wa hewa uliowekwa ukutani katika mazingira mbalimbali ya ndani.",
-    "features": [
-      "Matumizi ya umeme ya 35W",
-      "Kasi bora ya 1800 RPM",
-      "Kipenyo cha 450mm kwa chanjo pana",
-      "Uendeshaji salama wa 24V DC",
-      "Kipengele cha oscillation kwa usambazaji bora wa hewa",
-      "Ubunifu uliowekwa ukutani",
-      "Teknolojia ya BLDC ya kimya"
-    ]
-  },
-  "bldc-pedestal-fan-motors": {
-    "title": "Motors za Feni ya Msingi ya BLDC",
-    "description": "Motors za feni ya msingi ya BLDC yenye ufanisi wa juu na urefu unaoweza kubadilishwa na oscillation. Mtiririko wa hewa wenye nguvu na uendeshaji unaotumia nishati vizuri kwa nafasi za makazi na biashara.",
-    "features": [
-      "Ubunifu wa msingi wa urefu unaoweza kubadilishwa",
-      "Motor ya BLDC yenye ufanisi wa nishati",
-      "Chanjo pana ya oscillation",
-      "Mipangilio mingi ya kasi",
-      "Uendeshaji wa kidhibiti cha mbali",
-      "Teknolojia ya uendeshaji wa kimya",
-      "Utendaji wa muda mrefu"
     ]
   },
   "power-distribution-cables": {
@@ -5803,37 +4998,37 @@
     ]
   },
   "orientalMd6p38": {
-    "title": "Motor ya Kutolea Nje ya BLDC ya Oriental Motor MD-6P38",
-    "description": "Oriental Motor MD-6P38 motor ya feni ya axial ya DC iliyokadiriwa kuwa 38W, 24VDC. Muundo wa BLDC wa nguzo 6 na ulinzi wa IP55 kwa matumizi ya kutolea nje ya viwandani.",
+    "title": "Motor ya Kutolea Nje ya  ya Oriental Motor MD-6P38",
+    "description": "Oriental Motor MD-6P38 motor ya feni ya axial ya DC iliyokadiriwa kuwa 38W, 24VDC. Muundo wa  wa nguzo 6 na ulinzi wa IP55 kwa matumizi ya kutolea nje ya viwandani.",
     "features": [
       "Ukadiriaji wa nguvu wa 38W",
       "Uendeshaji wa 24VDC",
-      "Muundo wa BLDC wa nguzo 6",
+      "Muundo wa  wa nguzo 6",
       "Ulinzi wa IP55",
       "Feni ya axial ya DC",
       "Kutolea nje kwa viwandani"
     ]
   },
   "nidecD12e24ts3": {
-    "title": "Motor ya Nidec D12E-24TS3 BLDC",
-    "description": "Motor ya Nidec D12E-24TS3 BLDC yenye ukubwa wa 12cm inayotoa mtiririko wa hewa wa 83 CFM. Uendeshaji wa kelele ya chini kwa 24VDC kwa matumizi ya kupoeza.",
+    "title": "Motor ya Nidec D12E-24TS3 ",
+    "description": "Motor ya Nidec D12E-24TS3  yenye ukubwa wa 12cm inayotoa mtiririko wa hewa wa 83 CFM. Uendeshaji wa kelele ya chini kwa 24VDC kwa matumizi ya kupoeza.",
     "features": [
       "Uendeshaji wa 24VDC",
       "Ukubwa wa 12cm",
       "Mtiririko wa hewa wa 83 CFM",
       "Muundo wa kelele ya chini",
-      "Teknolojia ya BLDC",
+      "Teknolojia ya ",
       "Matumizi ya kupoeza"
     ]
   },
   "deltaBfb1224h": {
-    "title": "Motor ya Kutolea Nje ya Delta Electronics BFB1224H BLDC",
-    "description": "Motor ya kutolea nje ya Delta Electronics BFB1224H BLDC yenye ukubwa wa 120mm. Uendeshaji wa 24VDC na muda wa maisha wa saa 70,000 kwa uaminifu wa muda mrefu.",
+    "title": "Motor ya Kutolea Nje ya Delta Electronics BFB1224H ",
+    "description": "Motor ya kutolea nje ya Delta Electronics BFB1224H  yenye ukubwa wa 120mm. Uendeshaji wa 24VDC na muda wa maisha wa saa 70,000 kwa uaminifu wa muda mrefu.",
     "features": [
       "Ukubwa wa 120mm",
       "Uendeshaji wa 24VDC",
       "Maisha ya saa 70,000",
-      "Teknolojia ya BLDC",
+      "Teknolojia ya ",
       "Motor ya kutolea nje",
       "Muda mrefu wa maisha"
     ]
@@ -5851,61 +5046,61 @@
     ]
   },
   "nidecG1238b": {
-    "title": "Motor ya Viwandani ya Nidec G1238B BLDC",
+    "title": "Motor ya Viwandani ya Nidec G1238B ",
     "description": "Motor ya axial ya DC ya Nidec G1238B iliyokadiriwa kuwa 38W. Ukubwa wa 12cm na udhibiti wa kasi inayobadilika kwa matumizi ya daraja la viwandani.",
     "features": [
       "Ukadiriaji wa nguvu wa 38W",
       "Ukubwa wa 12cm",
       "Udhibiti wa kasi inayobadilika",
-      "Axial DC BLDC",
+      "Axial DC ",
       "Daraja la viwandani",
       "Uendeshaji rahisi"
     ]
   },
   "nidecGentletyphoonD1225c12": {
     "title": "Motor ya Kipoezi ya Utulivu ya Nidec GentleTyphoon D1225C12",
-    "description": "Motor ya kipoezi ya Nidec GentleTyphoon D1225C12 BLDC inafanya kazi kwa 1850 RPM na 12VDC. Uendeshaji wa utulivu kwa kupoeza kwa usahihi.",
+    "description": "Motor ya kipoezi ya Nidec GentleTyphoon D1225C12  inafanya kazi kwa 1850 RPM na 12VDC. Uendeshaji wa utulivu kwa kupoeza kwa usahihi.",
     "features": [
       "Uendeshaji wa 12VDC",
       "Kasi ya 1850 RPM",
       "Uendeshaji wa utulivu",
-      "Motor ya kipoezi ya BLDC",
+      "Motor ya kipoezi ya ",
       "Kupoeza kwa usahihi",
       "Mtetemo wa chini"
     ]
   },
   "orientalBle2m25s5": {
-    "title": "Motor ya Kupoeza ya BLDC ya Oriental Motor BLE2M25S-5",
-    "description": "Motor ya BLDC ya Oriental Motor BLE2M25S-5 yenye uwezo wa 25W na udhibiti wa kasi. Uendeshaji wa 24VDC kwa matumizi ya kupoeza.",
+    "title": "Motor ya Kupoeza ya  ya Oriental Motor BLE2M25S-5",
+    "description": "Motor ya  ya Oriental Motor BLE2M25S-5 yenye uwezo wa 25W na udhibiti wa kasi. Uendeshaji wa 24VDC kwa matumizi ya kupoeza.",
     "features": [
       "Ukadiriaji wa nguvu wa 25W",
       "Uendeshaji wa 24VDC",
       "Udhibiti wa kasi",
-      "Motor ya BLDC",
+      "Motor ya ",
       "Matumizi ya kupoeza",
       "Kasi inayobadilika"
     ]
   },
   "deltaAfb1212she": {
-    "title": "Motor ya Delta Electronics AFB1212SHE ya Shinikizo la Juu ya BLDC",
-    "description": "Motor ya Delta Electronics AFB1212SHE BLDC yenye ukubwa wa 120mm. Uendeshaji wa 12VDC na shinikizo la juu tuli kwa kupoeza kunakohitajika.",
+    "title": "Motor ya Delta Electronics AFB1212SHE ya Shinikizo la Juu ya ",
+    "description": "Motor ya Delta Electronics AFB1212SHE  yenye ukubwa wa 120mm. Uendeshaji wa 12VDC na shinikizo la juu tuli kwa kupoeza kunakohitajika.",
     "features": [
       "Ukubwa wa 120mm",
       "Uendeshaji wa 12VDC",
       "Shinikizo la juu tuli",
-      "Teknolojia ya BLDC",
+      "Teknolojia ya ",
       "Matumizi yanayohitajika",
       "Kupoeza kwa uhakika"
     ]
   },
   "nidecBetaVTa450dc": {
     "title": "Motor ya Kupoeza ya Nidec Beta V TA450DC PWM",
-    "description": "Motor ya kupoeza ya Nidec Beta V TA450DC BLDC yenye udhibiti wa PWM. Uendeshaji wa 12VDC kwa 4500 RPM kwa kupoeza kwa utendaji wa juu.",
+    "description": "Motor ya kupoeza ya Nidec Beta V TA450DC  yenye udhibiti wa PWM. Uendeshaji wa 12VDC kwa 4500 RPM kwa kupoeza kwa utendaji wa juu.",
     "features": [
       "Uendeshaji wa 12VDC",
       "Udhibiti wa PWM",
       "Kasi ya 4500 RPM",
-      "Motor ya kupoeza ya BLDC",
+      "Motor ya kupoeza ya ",
       "Utendaji wa juu",
       "Kasi inayobadilika"
     ]
@@ -5923,62 +5118,62 @@
     ]
   },
   "orientalMd8p48": {
-    "title": "Motor ya Uingizaji Hewa ya Oriental Motor MD-8P48 BLDC",
-    "description": "Motor ya uingizaji hewa ya Oriental Motor MD-8P48 BLDC iliyokadiriwa kuwa 48W na uendeshaji wa 24VDC. Ulinzi wa IP55 hutoa hadi 883 CFM.",
+    "title": "Motor ya Uingizaji Hewa ya Oriental Motor MD-8P48 ",
+    "description": "Motor ya uingizaji hewa ya Oriental Motor MD-8P48  iliyokadiriwa kuwa 48W na uendeshaji wa 24VDC. Ulinzi wa IP55 hutoa hadi 883 CFM.",
     "features": [
       "Ukadiriaji wa nguvu wa 48W",
       "Uendeshaji wa 24VDC",
       "Ulinzi wa IP55",
       "883 CFM mtiririko wa hewa wa juu",
-      "Uingizaji hewa wa BLDC",
+      "Uingizaji hewa wa ",
       "Uwezo wa juu"
     ]
   },
   "nidecG1751m": {
-    "title": "Motor ya Uingizaji Hewa ya Nidec G1751M ya Uwezo wa Juu ya BLDC",
-    "description": "Motor ya Nidec G1751M BLDC yenye ukubwa wa 17cm na nguvu ya 51W. Uendeshaji wa 24VDC na uwezo wa juu na mtetemo mdogo.",
+    "title": "Motor ya Uingizaji Hewa ya Nidec G1751M ya Uwezo wa Juu ya ",
+    "description": "Motor ya Nidec G1751M  yenye ukubwa wa 17cm na nguvu ya 51W. Uendeshaji wa 24VDC na uwezo wa juu na mtetemo mdogo.",
     "features": [
       "Ukubwa wa 17cm",
       "Ukadiriaji wa nguvu wa 51W",
       "Uendeshaji wa 24VDC",
       "Uwezo wa juu",
       "Mtetemo mdogo",
-      "Teknolojia ya BLDC"
+      "Teknolojia ya "
     ]
   },
   "deltaBfb1512vh": {
-    "title": "Motor ya Uingizaji Hewa ya Delta Electronics BFB1512VH BLDC",
-    "description": "Motor ya uingizaji hewa ya Delta Electronics BFB1512VH BLDC yenye ukubwa wa 150mm. Uendeshaji wa 12VDC hutoa mtiririko wa hewa wa 260 CFM.",
+    "title": "Motor ya Uingizaji Hewa ya Delta Electronics BFB1512VH ",
+    "description": "Motor ya uingizaji hewa ya Delta Electronics BFB1512VH  yenye ukubwa wa 150mm. Uendeshaji wa 12VDC hutoa mtiririko wa hewa wa 260 CFM.",
     "features": [
       "Ukubwa wa 150mm",
       "Uendeshaji wa 12VDC",
       "260 CFM mtiririko wa hewa",
-      "Uingizaji hewa wa BLDC",
+      "Uingizaji hewa wa ",
       "Utendaji wa juu",
       "Uendeshaji bora"
     ]
   },
   "orientalBmu23005": {
-    "title": "Kitengo cha Uingizaji Hewa cha Oriental Motor BMU230-05 BLDC",
-    "description": "Kitengo cha motor ya Oriental Motor BMU230-05 BLDC na udhibiti wa kasi. Uendeshaji wa 230VAC kwa matumizi ya uingizaji hewa.",
+    "title": "Kitengo cha Uingizaji Hewa cha Oriental Motor BMU230-05 ",
+    "description": "Kitengo cha motor ya Oriental Motor BMU230-05  na udhibiti wa kasi. Uendeshaji wa 230VAC kwa matumizi ya uingizaji hewa.",
     "features": [
       "Uendeshaji wa 230VAC",
       "Udhibiti wa kasi",
-      "Kitengo cha motor ya BLDC",
+      "Kitengo cha motor ya ",
       "Matumizi ya uingizaji hewa",
       "Kasi inayobadilika",
       "Daraja la viwandani"
     ]
   },
   "nidecD08a12ts1": {
-    "title": "Motor ya Nidec D08A-12TS1 BLDC ya Kugundua Kasi",
-    "description": "Motor ya Nidec D08A-12TS1 BLDC yenye ukubwa wa 80mm na pato la mapigo. Uendeshaji wa 12VDC na uwezo wa kugundua kasi.",
+    "title": "Motor ya Nidec D08A-12TS1  ya Kugundua Kasi",
+    "description": "Motor ya Nidec D08A-12TS1  yenye ukubwa wa 80mm na pato la mapigo. Uendeshaji wa 12VDC na uwezo wa kugundua kasi.",
     "features": [
       "Ukubwa wa 80mm",
       "Uendeshaji wa 12VDC",
       "Pato la mapigo",
       "Kugundua kasi",
-      "Motor ya BLDC",
+      "Motor ya ",
       "Udhibiti wa maoni"
     ]
   },
@@ -6737,7 +5932,6 @@
       "Ina gharama nafuu"
     ]
   },
-
   "flowserveMark3Pump": {
     "title": "Pampu ya Mchakato ya Flowserve Mark 3",
     "description": "Pampu ya hatua moja ya ANSI B73.1 yenye mtiririko wa 220 GPM, urefu wa futi 985, na ukadiriaji wa 450 psi",
@@ -7640,138 +6834,6 @@
       "UL PLTC-ER"
     ]
   },
-  "abbOfafGg125a": {
-    "title": "Fuse ya ABB OFAF gG 125A HRC 500V",
-    "description": "Fuse ya 125A gG-aina HRC yenye uwezo wa kuvunja 80 kA kwa ulinzi wa madhumuni ya jumla",
-    "features": [
-      "Mkondo uliokadiriwa wa 125A",
-      "500V AC",
-      "80 kA inavunja",
-      "Fuse ya ukubwa wa 00",
-      "IEC 60269"
-    ]
-  },
-  "siemens3na3250a": {
-    "title": "Fuse ya Siemens 3NA3 250A DIN HRC",
-    "description": "Fuse ya 250A NH1 ukubwa gG yenye uwezo wa kuvunja 120 kA",
-    "features": [
-      "Imekadiriwa 250A",
-      "500V AC",
-      "Ukubwa wa NH1",
-      "120 kA inavunja",
-      "IS 13703"
-    ]
-  },
-  "abbCef100aMv": {
-    "title": "Fuse ya ABB CEF 100A ya Mvutano wa Kati HRC",
-    "description": "Fuse ya kikomo cha mkondo wa akiba ya 12 kV kwa ulinzi wa transfoma",
-    "features": [
-      "Imekadiriwa 100A",
-      "Mvutano wa kati wa 12 kV",
-      "Inazuia mkondo",
-      "Ulinzi wa transfoma",
-      "IEC 60282-1"
-    ]
-  },
-  "siemensSitopPsu820020a": {
-    "title": "Ugavi wa Nishati wa Siemens SITOP PSU8200 24V/20A",
-    "description": "480W DIN reli SMPS yenye ufanisi wa 93% na safu pana ya ingizo",
-    "features": [
-      "Pato la 480W",
-      "24V DC / 20A",
-      "Ufanisi wa 93%",
-      "Ingizo la 120-230V AC",
-      "Mlima wa reli ya DIN"
-    ]
-  },
-  "phoenixQuintPs10a": {
-    "title": "Ugavi wa Nishati wa Phoenix Contact QUINT POWER 24V/10A SMPS",
-    "description": "Ugavi wa nishati wa 240W na teknolojia ya Kuvunja Fuse Teule",
-    "features": [
-      "Pato la 240W",
-      "24V DC / 10A",
-      "Ufanisi wa 93%",
-      "Teknolojia ya SFB",
-      "100-240V AC"
-    ]
-  },
-  "siemensSitopPsu100s10a": {
-    "title": "Ugavi wa Nishati wa Siemens SITOP PSU100S 24V/10A SMPS",
-    "description": "240W SMPS ya awamu moja yenye udhibitisho wa UL na CSA",
-    "features": [
-      "Nguvu ya 240W",
-      "24V DC / 10A",
-      "AC ya awamu moja",
-      "UL, CSA, CE",
-      "Reli ya DIN"
-    ]
-  },
-  "siemens3rt202725a": {
-    "title": "Kipitishi cha Siemens SIRIUS 3RT2027 25A",
-    "description": "Kipitishi cha 25A AC-3 kilichokadiriwa nguzo 3 na ukadiriaji wa nguvu wa 11 kW kwa 400V",
-    "features": [
-      "25A @ 400V AC-3",
-      "11 kW @ 400V",
-      "Nguzo 3 + 1NO+1NC",
-      "Ukubwa wa S0",
-      "Koili ya 230V AC"
-    ]
-  },
-  "abbAf140140a": {
-    "title": "Kipitishi cha ABB AF140 140A AC",
-    "description": "Kipitishi cha 140A AC-3 chenye koili ya ulimwengu wote na ukadiriaji wa nguvu wa 75 kW",
-    "features": [
-      "140A @ 400V AC-3",
-      "75 kW @ 400V",
-      "Koili ya ulimwengu wote",
-      "Hadi 690V",
-      "200A AC-1"
-    ]
-  },
-  "schneiderLc1d3232a": {
-    "title": "Kipitishi cha Schneider TeSys LC1D32 32A",
-    "description": "Kipitishi cha laini ya TeSys D cha 32A AC-3 kilichokadiriwa na ukadiriaji wa nguvu wa 15 kW",
-    "features": [
-      "32A @ 400V AC-3",
-      "15 kW @ 400V",
-      "Mvutano wa 690V",
-      "Chaguzi nyingi za koili",
-      "50A AC-1"
-    ]
-  },
-  "abbCtMvsTimer": {
-    "title": "Relay ya Muda ya Multifunction ya ABB CT-MVS.12S",
-    "description": "Kipima muda cha reli ya DIN chenye kazi 11 za muda na safu ya 0.05s hadi 100h",
-    "features": [
-      "Kazi 11 za muda",
-      "0.05s hadi 100h",
-      "24-240V AC/DC",
-      "Relay ya 1C/O 6A",
-      "Upana wa 17.5mm"
-    ]
-  },
-  "schneiderRe17ramuTimer": {
-    "title": "Kipima Muda Maradufu cha Schneider Harmony RE17RAMU",
-    "description": "Relay ya muda maradufu ya kuchelewesha KUWASHA/ZIMA yenye safu ya muda ya 1s hadi 100h",
-    "features": [
-      "Kuchelewesha KUWASHA/ZIMA maradufu",
-      "Safu ya 1s hadi 100h",
-      "24-240V AC/DC",
-      "Pato la 1CO 8A",
-      "Mlima wa reli ya DIN"
-    ]
-  },
-  "abbCtAhcTimer": {
-    "title": "Kipima Muda cha Kuchelewesha ZIMA cha ABB CT-AHC.12",
-    "description": "Kipima muda cha kuchelewesha ZIMA cha kazi moja na safu 7 za muda hadi 100h",
-    "features": [
-      "Kazi ya kuchelewesha ZIMA",
-      "0.05s hadi 100h",
-      "Safu 7 za muda",
-      "24-240V AC/DC",
-      "Ulinzi wa IP50"
-    ]
-  },
   "utilities": {
     "variant": {
       "titleSuffix": " - Toleo la {{number}}",
@@ -7803,8 +6865,16 @@
         "Udhibiti wa Mchakato",
         "Uhakikisho wa Ubora"
       ],
-      "industries": ["Uzalishaji", "Magari", "Dawa", "Chakula na Vinywaji"],
-      "certifications": ["ISO 9001", "Alama ya CE"],
+      "industries": [
+        "Uzalishaji",
+        "Magari",
+        "Dawa",
+        "Chakula na Vinywaji"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Alama ya CE"
+      ],
       "keywords": {
         "industrialAutomation": "automation ya viwandani",
         "processControl": "udhibiti wa mchakato",

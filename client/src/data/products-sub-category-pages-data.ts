@@ -64,10 +64,6 @@ import powerToolsImage from "@assets/generated_images/Industrial_tools_equipment
 import cuttingToolsImage from "@assets/generated_images/Waterjet_cutting_systems_workshop_53180ed7.png";
 import liftingEquipmentImage from "@assets/generated_images/Industrial_lifting_equipment_warehouse_d8f41d49.png";
 import safetyEquipmentImage from "@assets/generated_images/Safety_Equipment_Display_ed04b621.png";
-import bldcCeilingFanImage from "@assets/generated_images/BLDC_products_home_section_e04e1480.png";
-import bldcCoolerMotorImage from "@assets/generated_images/BLDC_motor_manufacturing_facility_76f1e316.png";
-import bldcSubmersiblePumpImage from "@assets/generated_images/BLDC_Motor_Systems_Showcase_3379f405.png";
-import bldcTableFanImage from "@assets/generated_images/BLDC_Motor_Systems_a48f6e6f.png";
 import powerQualityAnalyzerImage from "@assets/generated_images/Power_quality_analyzer_facility_be633cad.png";
 import scadaControlRoomImage from "@assets/generated_images/SCADA_control_room_setup_fe115ec5.png";
 import dcsControlSystemImage from "@assets/generated_images/DCS_control_system_facility_634dd84a.png";

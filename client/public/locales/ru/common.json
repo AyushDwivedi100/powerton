@@ -53,7 +53,6 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Бесщеточные двигатели постоянного тока)",
     "PLC": "PLC (Программируемый логический контроллер)",
     "SCADA": "SCADA (Диспетчерское управление и сбор данных)",
     "HMI": "HMI (Человеко-машинный интерфейс)",
@@ -79,7 +78,6 @@
     "discussProject": "Обсудить проект",
     "viewDetails": "Посмотреть детали",
     "backTo": "Вернуться к",
-    "backToBldcProducts": "Вернуться к продуктам с бесщеточными двигателями постоянного тока (BLDC)",
     "backToProducts": "Вернуться к продуктам",
     "backToCategory": "Вернуться к категории",
     "requestQuote": "Получить предложение",
@@ -252,7 +250,6 @@
   },
   "headings": {
     "phoneNumbers": "Номера телефонов",
-    "bldcCeilingFanModels": "Модели потолочных вентиляторов BLDC",
     "ourProducts": "Наши продукты",
     "specifications": "Характеристики",
     "keyFeatures": "Ключевые особенности",
@@ -499,7 +496,6 @@
     },
     "categories": {
       "automationControl": "Системы автоматизации и управления",
-      "bldcMotors": "Системы двигателей BLDC",
       "electricalComponents": "Электрические компоненты",
       "measurementInstrumentation": "Измерение и контрольно-измерительные приборы",
       "industrialTools": "Промышленные инструменты и оборудование",
@@ -572,11 +568,7 @@
       "handTools": "Ручные инструменты",
       "powerTools": "Электроинструменты",
       "cuttingTools": "Режущие инструменты",
-      "liftingEquipment": "Подъемное оборудование",
-      "bldcCeilingFan": "Потолочные вентиляторы BLDC",
-      "bldcCoolerExhaustMotor": "Двигатели BLDC для охладителей",
-      "bldcSubmersibleSurfacePump": "Погружные насосы BLDC",
-      "bldcTableFanWallFanMotor": "Двигатели BLDC для настольных и настенных вентиляторов"
+      "liftingEquipment": "Подъемное оборудование"
     },
     "descriptions": {
       "home": "Добро пожаловать в Powerton Engineering - Решения по автоматизации промышленности",
@@ -628,10 +620,6 @@
       "powerToolsDescription": "Электроинструменты для строительных работ",
       "cuttingToolsDescription": "Режущие инструменты для обработки металла",
       "liftingEquipmentDescription": "Подъемное оборудование для перемещения тяжелых грузов",
-      "bldcCeilingFanDescription": "Энергоэффективные потолочные вентиляторы BLDC",
-      "bldcCoolerExhaustMotorDescription": "Двигатели BLDC для кулеров и вытяжных устройств",
-      "bldcSubmersibleSurfacePumpDescription": "Насосы BLDC для водных применений",
-      "bldcTableFanWallFanMotorDescription": "Двигатели BLDC для настольных и настенных вентиляторов",
       "requestQuoteDescription": "Получите подробное предложение для вашего инженерного проекта",
       "downloadPortfolioDescription": "Скачайте нашу подробную документацию по проектам",
       "customSolutionsDescription": "Индивидуальные инженерные решения для уникальных промышленных требований",

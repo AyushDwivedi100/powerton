@@ -53,7 +53,6 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC（无刷直流电机）",
     "PLC": "PLC（可编程逻辑控制器）",
     "SCADA": "SCADA（监控和数据采集控制）",
     "HMI": "HMI（人机界面）",
@@ -79,7 +78,6 @@
     "discussProject": "讨论项目",
     "viewDetails": "查看详情",
     "backTo": "返回",
-    "backToBldcProducts": "返回无刷直流电机（BLDC）产品",
     "backToProducts": "返回产品",
     "backToCategory": "返回类别",
     "requestQuote": "询价",
@@ -252,7 +250,6 @@
   },
   "headings": {
     "phoneNumbers": "电话号码",
-    "bldcCeilingFanModels": "BLDC吊扇型号",
     "ourProducts": "我们的产品",
     "specifications": "规格",
     "keyFeatures": "主要特点",
@@ -499,7 +496,6 @@
     },
     "categories": {
       "automationControl": "自动化控制系统",
-      "bldcMotors": "BLDC电机系统",
       "electricalComponents": "电气元件",
       "measurementInstrumentation": "测量与仪器仪表",
       "industrialTools": "工业工具与设备",
@@ -572,11 +568,7 @@
       "handTools": "手动工具",
       "powerTools": "电动工具",
       "cuttingTools": "切割工具",
-      "liftingEquipment": "起重设备",
-      "bldcCeilingFan": "BLDC吊扇",
-      "bldcCoolerExhaustMotor": "BLDC冷却器电机",
-      "bldcSubmersibleSurfacePump": "BLDC潜水泵",
-      "bldcTableFanWallFanMotor": "BLDC桌面风扇电机"
+      "liftingEquipment": "起重设备"
     },
     "descriptions": {
       "home": "欢迎来到Powerton Engineering - 工业自动化解决方案",
@@ -628,10 +620,6 @@
       "powerToolsDescription": "用于建筑应用的电动工具",
       "cuttingToolsDescription": "用于金属加工的切割工具",
       "liftingEquipmentDescription": "用于重物搬运的起重设备",
-      "bldcCeilingFanDescription": "节能的BLDC吊扇",
-      "bldcCoolerExhaustMotorDescription": "用于冷却和排气设备的BLDC电机",
-      "bldcSubmersibleSurfacePumpDescription": "用于水应用的BLDC泵",
-      "bldcTableFanWallFanMotorDescription": "用于桌面和壁扇的BLDC电机",
       "requestQuoteDescription": "获取工程项目的详细报价",
       "downloadPortfolioDescription": "下载我们完整的项目文档",
       "customSolutionsDescription": "为独特的工业需求量身定制的工程解决方案",

@@ -53,7 +53,6 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Brushless DC Motors)",
     "PLC": "PLC (Programmable Logic Controller)",
     "SCADA": "SCADA (Supervisory Control and Data Acquisition)",
     "HMI": "HMI (Human Machine Interface)",
@@ -79,7 +78,6 @@
     "discussProject": "Discuss Project",
     "viewDetails": "View Details",
     "backTo": "Back to",
-    "backToBldcProducts": "Back to Brushless DC (BLDC) Motor Products",
     "backToProducts": "Back to Products",
     "backToCategory": "Back to Category",
     "requestQuote": "Request a Quote",
@@ -252,7 +250,6 @@
   },
   "headings": {
     "phoneNumbers": "Phone Numbers",
-    "bldcCeilingFanModels": "BLDC Ceiling Fan Models",
     "ourProducts": "Our Products",
     "specifications": "Specifications",
     "keyFeatures": "Key Features",
@@ -499,7 +496,6 @@
     },
     "categories": {
       "automationControl": "Automation and Control Systems",
-      "bldcMotors": "BLDC Motor Systems",
       "electricalComponents": "Electrical Components",
       "measurementInstrumentation": "Measurement and Instrumentation",
       "industrialTools": "Industrial Tools and Equipment",
@@ -572,11 +568,7 @@
       "handTools": "Hand Tools",
       "powerTools": "Power Tools",
       "cuttingTools": "Cutting Tools",
-      "liftingEquipment": "Lifting Equipment",
-      "bldcCeilingFan": "BLDC Ceiling Fans",
-      "bldcCoolerExhaustMotor": "BLDC Cooler Exhaust Motors",
-      "bldcSubmersibleSurfacePump": "BLDC Submersible Pumps",
-      "bldcTableFanWallFanMotor": "BLDC Table Fan and Wall Fan Motors"
+      "liftingEquipment": "Lifting Equipment"
     },
     "descriptions": {
       "home": "Welcome to Powerton Engineering - Industrial Automation Solutions",
@@ -628,10 +620,6 @@
       "powerToolsDescription": "Power tools for construction tasks",
       "cuttingToolsDescription": "Cutting tools for metalworking",
       "liftingEquipmentDescription": "Lifting equipment for moving weights",
-      "bldcCeilingFanDescription": "Energy-efficient BLDC ceiling fans",
-      "bldcCoolerExhaustMotorDescription": "BLDC motors for coolers and exhaust",
-      "bldcSubmersibleSurfacePumpDescription": "BLDC pumps for water applications",
-      "bldcTableFanWallFanMotorDescription": "BLDC motors for table and wall fans",
       "requestQuoteDescription": "Get a detailed quote for your engineering project",
       "downloadPortfolioDescription": "Download our comprehensive project documents",
       "customSolutionsDescription": "Tailored engineering solutions for unique industrial requirements",

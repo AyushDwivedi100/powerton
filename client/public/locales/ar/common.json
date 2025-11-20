@@ -53,7 +53,6 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (محركات DC بدون فرش)",
     "PLC": "PLC (وحدة تحكم منطقية قابلة للبرمجة)",
     "SCADA": "SCADA (التحكم الإشرافي والحصول على البيانات)",
     "HMI": "HMI (واجهة الإنسان والآلة)",
@@ -79,7 +78,6 @@
     "discussProject": "ناقش المشروع",
     "viewDetails": "عرض التفاصيل",
     "backTo": "العودة إلى",
-    "backToBldcProducts": "العودة إلى منتجات محركات التيار المستمر بدون فرش (BLDC)",
     "backToProducts": "العودة إلى المنتجات",
     "backToCategory": "العودة إلى الفئة",
     "requestQuote": "طلب عرض أسعار",
@@ -252,7 +250,6 @@
   },
   "headings": {
     "phoneNumbers": "أرقام الهاتف",
-    "bldcCeilingFanModels": "موديلات مراوح السقف BLDC",
     "ourProducts": "منتجاتنا",
     "specifications": "المواصفات",
     "keyFeatures": "الميزات الرئيسية",
@@ -499,7 +496,6 @@
     },
     "categories": {
       "automationControl": "الأتمتة والتحكم",
-      "bldcMotors": "محركات BLDC",
       "electricalComponents": "المكونات الكهربائية",
       "measurementInstrumentation": "أجهزة القياس",
       "industrialTools": "الأدوات والمعدات الصناعية",
@@ -572,11 +568,7 @@
       "handTools": "أدوات يدوية",
       "powerTools": "أدوات كهربائية",
       "cuttingTools": "أدوات القطع",
-      "liftingEquipment": "معدات الرفع",
-      "bldcCeilingFan": "مراوح السقف BLDC",
-      "bldcCoolerExhaustMotor": "محركات تبريد BLDC",
-      "bldcSubmersibleSurfacePump": "مضخات غاطسة BLDC",
-      "bldcTableFanWallFanMotor": "محركات مروحة BLDC"
+      "liftingEquipment": "معدات الرفع"
     },
     "descriptions": {
       "home": "مرحبًا بكم في Powerton Engineering - حلول التحكم الصناعي",
@@ -628,10 +620,6 @@
       "powerToolsDescription": "أدوات كهربائية",
       "cuttingToolsDescription": "أدوات القطع",
       "liftingEquipmentDescription": "معدات الرفع",
-      "bldcCeilingFanDescription": "مراوح سقف",
-      "bldcCoolerExhaustMotorDescription": "محركات تبريد",
-      "bldcSubmersibleSurfacePumpDescription": "مضخات غاطسة",
-      "bldcTableFanWallFanMotorDescription": "محركات مروحة",
       "requestQuoteDescription": "احصل على عرض أسعار لمشروعك الهندسي",
       "downloadPortfolioDescription": "قم بتنزيل مستندات مشاريعنا التفصيلية",
       "customSolutionsDescription": "حلول هندسية مصممة خصيصًا لتلبية المتطلبات الصناعية الفريدة",

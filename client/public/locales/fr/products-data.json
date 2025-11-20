@@ -115,7 +115,12 @@
         "circuit-breakers-fuses": {
           "title": "Disjoncteurs et fusibles",
           "description": "Dispositifs de protection pour les circuits électriques et la sécurité des équipements",
-          "features": ["MCB", "MCCB", "RCCB", "Fusibles industriels"]
+          "features": [
+            "MCB",
+            "MCCB",
+            "RCCB",
+            "Fusibles industriels"
+          ]
         },
         "power-supplies": {
           "title": "Alimentations",
@@ -225,7 +230,12 @@
     "automation-control-systems": {
       "title": "Systèmes d'automatisation et de contrôle",
       "description": "Solutions avancées d'automatisation et de contrôle pour la gestion et l'optimisation des processus industriels",
-      "badges": ["PLC", "SCADA", "DCS", "IHM"],
+      "badges": [
+        "PLC",
+        "SCADA",
+        "DCS",
+        "IHM"
+      ],
       "sectionTitle": "Solutions de systèmes de contrôle",
       "subcategories": {
         "plcs": {
@@ -518,64 +528,6 @@
         "title": "Besoin d'outils et de solutions de mesure?",
         "description": "Nos spécialistes peuvent vous aider à sélectionner les bons outils et instruments de mesure pour vos applications industrielles.",
         "contactButtonText": "Contactez nos experts"
-      }
-    },
-    "bldc": {
-      "title": "Systèmes de moteurs BLDC",
-      "description": "Solutions de moteurs CC sans balais à haut rendement énergétique pour les applications industrielles et commerciales",
-      "badges": [
-        "Moteurs BLDC",
-        "Économe en énergie",
-        "Faible entretien",
-        "Contrôle intelligent"
-      ],
-      "sectionTitle": "Solutions BLDC",
-      "subcategories": {
-        "bldc-cooler-exhaust-motor": {
-          "title": "Moteurs BLDC pour refroidisseurs et ventilateurs d'extraction",
-          "description": "Moteurs à haut rendement pour les applications de refroidissement et de ventilation",
-          "features": [
-            "Économe en énergie",
-            "Faible bruit",
-            "Longue durée de vie",
-            "Vitesse variable"
-          ]
-        },
-        "bldc-ceiling-fan": {
-          "title": "Ventilateurs de plafond BLDC",
-          "description": "Ventilateurs de plafond intelligents dotés d'une technologie avancée d'économie d'énergie",
-          "features": [
-            "Télécommande",
-            "Économie d'énergie",
-            "Fonctionnement silencieux",
-            "Fonctions intelligentes"
-          ]
-        },
-        "bldc-submersible-surface-pump": {
-          "title": "Pompes submersibles et de surface BLDC",
-          "description": "Solutions de pompage d'eau avec la technologie des moteurs BLDC",
-          "features": [
-            "Conception submersible",
-            "Haute efficacité",
-            "Résistant à la corrosion",
-            "Compatible solaire"
-          ]
-        },
-        "bldc-table-fan-wall-fan-motor": {
-          "title": "Moteurs BLDC pour ventilateurs de table et muraux",
-          "description": "Moteurs BLDC compacts pour ventilateurs portables et muraux",
-          "features": [
-            "Taille compacte",
-            "Économe en énergie",
-            "Fonctionnement silencieux",
-            "Contrôle de la vitesse"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Passer à la technologie BLDC?",
-        "description": "Nos spécialistes BLDC peuvent vous aider à passer à des solutions de moteurs CC sans balais à haut rendement énergétique.",
-        "contactButtonText": "Contacter les experts BLDC"
       }
     }
   },
@@ -3001,242 +2953,6 @@
         "description": "Mètres de panneau, y compris les ampèremètres/voltmètres analogiques, les mètres numériques, les mètres de facteur de puissance et les mètres multifonctions pour la surveillance et la mesure de l'alimentation industrielle.",
         "keywords": "mètres de panneau, ampèremètre analogique, voltmètre analogique, mètres numériques, mètre de facteur de puissance, mètre multifonction, compteur d'énergie, mètre de montage sur panneau"
       }
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "Moteurs BLDC pour refroidisseurs et ventilateurs d'extraction",
-      "shortDescription": "Moteurs BLDC à haut rendement pour refroidisseurs et ventilateurs d'extraction",
-      "fullDescription": "Moteurs BLDC avancés conçus pour les refroidisseurs désertiques et les ventilateurs d'extraction avec une efficacité, une durabilité et des performances supérieures.",
-      "parentCategoryTitle": "Produits BLDC",
-      "keyBenefits": [
-        "Économe en énergie",
-        "Faible bruit",
-        "Haute durabilité",
-        "Résistant aux intempéries"
-      ],
-      "specifications": [
-        "Puissance : 35 W à 85 W",
-        "Tension : 220 V CA",
-        "Vitesse : 1 400 à 1 800 tr/min",
-        "Débit d'air : CFM élevé",
-        "Protection : IP44",
-        "Efficacité : >85 %"
-      ],
-      "applications": [
-        "Refroidisseurs désertiques",
-        "Ventilateurs d'extraction",
-        "Systèmes de ventilation",
-        "Refroidissement industriel",
-        "Extraction de cuisine",
-        "Ventilation de salle de bain"
-      ],
-      "industries": [
-        "CVAC",
-        "Résidentiel",
-        "Immeubles commerciaux",
-        "Ventilation industrielle",
-        "Service alimentaire",
-        "Fabrication"
-      ],
-      "features": [
-        "Technologie BLDC",
-        "Haute efficacité",
-        "Faible maintenance",
-        "Résistant à la corrosion",
-        "Protection thermique",
-        "Longue durée de vie",
-        "Fonctionnement silencieux",
-        "Résistant aux intempéries"
-      ],
-      "certifications": [
-        "Certifié BEE",
-        "Marque ISI",
-        "Approuvé CE",
-        "Homologué IP44",
-        "Conforme à la norme RoHS",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Moteurs BLDC pour refroidisseurs et ventilateurs d'extraction - Moteurs BLDC à haut rendement | Powerton Engineering",
-        "description": "Moteurs BLDC à haut rendement pour refroidisseurs désertiques et ventilateurs d'extraction. Moteurs CC sans balais à économie d'énergie avec une longue durée de vie.",
-        "keywords": "moteurs BLDC pour refroidisseurs, moteurs BLDC pour ventilateurs d'extraction, moteurs CC sans balais, moteurs éconergétiques, moteurs pour refroidisseurs, moteurs pour ventilateurs d'extraction"
-      }
-    },
-    "bldc-ceiling-fan": {
-      "title": "Ventilateurs de plafond BLDC",
-      "shortDescription": "Ventilateurs de plafond CC sans balais éconergétiques",
-      "fullDescription": "Ventilateurs de plafond BLDC à haut rendement avec technologie d'économie d'énergie, commandes intelligentes et performances supérieures pour les applications résidentielles et commerciales.",
-      "parentCategoryTitle": "Produits BLDC",
-      "keyBenefits": [
-        "Jusqu'à 65 % d'économies d'énergie",
-        "Fonctionnement silencieux",
-        "Télécommande",
-        "Longue durée de vie"
-      ],
-      "specifications": [
-        "Puissance du moteur : 28 W à 52 W",
-        "Vitesse : 1 200 à 1 600 tr/min",
-        "Débit d'air : 200 à 280 CMM",
-        "Tension : 220 V CA",
-        "Balayage : 1 200 mm à 1 600 mm",
-        "Classe énergétique : 5 étoiles BEE"
-      ],
-      "applications": [
-        "Pièces résidentielles",
-        "Espaces de bureaux",
-        "Immeubles commerciaux",
-        "Hôtellerie",
-        "Établissements d'enseignement",
-        "Établissements de soins de santé"
-      ],
-      "industries": [
-        "Construction résidentielle",
-        "Immobilier commercial",
-        "Hôtellerie",
-        "Soins de santé",
-        "Éducation",
-        "Commerce de détail"
-      ],
-      "features": [
-        "Technologie de moteur BLDC",
-        "Télécommande",
-        "Vitesse variable",
-        "Mode inversé",
-        "Fonction de minuterie",
-        "Indicateurs DEL",
-        "Pales aérodynamiques",
-        "Fonctionnement silencieux"
-      ],
-      "certifications": [
-        "Homologué BEE 5 étoiles",
-        "Marque ISI",
-        "Approuvé CE",
-        "Conforme à la norme RoHS",
-        "Energy Star",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Ventilateurs de plafond BLDC - Ventilateurs CC sans balais éconergétiques | Powerton Engineering",
-        "description": "Ventilateurs de plafond BLDC éconergétiques avec homologation 5 étoiles BEE. Télécommande intelligente, fonctionnement silencieux et jusqu'à 65 % d'économies d'énergie.",
-        "keywords": "ventilateurs de plafond BLDC, ventilateurs éconergétiques, ventilateurs CC sans balais, ventilateurs de plafond intelligents, ventilateurs de plafond 5 étoiles, ventilateurs avec télécommande"
-      }
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "Pompes submersibles et de surface BLDC",
-      "shortDescription": "Pompes à eau BLDC compatibles avec l'énergie solaire pour l'irrigation et l'approvisionnement en eau",
-      "fullDescription": "Pompes submersibles et de surface BLDC avancées avec compatibilité solaire, haut rendement et performances fiables pour les applications agricoles et domestiques.",
-      "parentCategoryTitle": "Produits BLDC",
-      "keyBenefits": [
-        "Compatible avec l'énergie solaire",
-        "Économe en énergie",
-        "Faible maintenance",
-        "Haute fiabilité"
-      ],
-      "specifications": [
-        "Puissance : 0,5 HP à 5 HP",
-        "Hauteur : 10 m à 150 m",
-        "Débit : 10 à 150 L/min",
-        "Tension : 48 V/110 V/220 V CC",
-        "Solaire : Compatible MPPT",
-        "Efficacité : >85 %"
-      ],
-      "applications": [
-        "Irrigation agricole",
-        "Approvisionnement en eau domestique",
-        "Pompage d'eau solaire",
-        "Abreuvement du bétail",
-        "Irrigation de jardin",
-        "Transfert d'eau"
-      ],
-      "industries": [
-        "Agriculture",
-        "Énergie solaire",
-        "Résidentiel",
-        "Développement rural",
-        "Irrigation",
-        "Gestion de l'eau"
-      ],
-      "features": [
-        "Moteur BLDC",
-        "Compatible avec l'énergie solaire",
-        "Technologie MPPT",
-        "Corps en acier inoxydable",
-        "Protection contre la marche à sec",
-        "Protection thermique",
-        "Haut rendement",
-        "Faible maintenance"
-      ],
-      "certifications": [
-        "Certifié BEE",
-        "Marque ISI",
-        "Approuvé CE",
-        "Certifié solaire",
-        "Homologué IP68",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Pompes à eau BLDC - Pompes submersibles et de surface solaires | Powerton Engineering",
-        "description": "Pompes à eau BLDC compatibles avec l'énergie solaire pour l'irrigation et l'usage domestique. Pompes submersibles et de surface éconergétiques avec technologie MPPT.",
-        "keywords": "pompes à eau BLDC, pompes à eau solaires, pompes submersibles BLDC, pompes solaires, pompes CC sans balais, pompes d'irrigation"
-      }
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "Moteurs BLDC pour ventilateurs de table et muraux",
-      "shortDescription": "Moteurs BLDC compacts pour ventilateurs de table et muraux",
-      "fullDescription": "Moteurs BLDC éconergétiques conçus pour les ventilateurs de table et muraux avec des performances supérieures, un faible niveau sonore et une durée de vie prolongée.",
-      "parentCategoryTitle": "Produits BLDC",
-      "keyBenefits": [
-        "Conception compacte",
-        "Économie d'énergie",
-        "Fonctionnement silencieux",
-        "Longue durée de vie"
-      ],
-      "specifications": [
-        "Puissance : 25 W à 45 W",
-        "Vitesse : 1 200 à 1 800 tr/min",
-        "Tension : 220 V CA",
-        "Débit d'air : 60 à 90 CMM",
-        "Bruit : <40 dB",
-        "Efficacité : >80 %"
-      ],
-      "applications": [
-        "Ventilateurs de table",
-        "Ventilateurs muraux",
-        "Ventilateurs sur socle",
-        "Refroidissement personnel",
-        "Ventilation de bureau",
-        "Refroidissement de pièce"
-      ],
-      "industries": [
-        "Électronique grand public",
-        "Résidentiel",
-        "Commercial",
-        "Hôtellerie",
-        "Équipement de bureau",
-        "Commerce de détail"
-      ],
-      "features": [
-        "Technologie BLDC",
-        "Haut rendement",
-        "Fonctionnement silencieux",
-        "Vitesse variable",
-        "Taille compacte",
-        "Faible chaleur",
-        "Longue durée de vie",
-        "Homologué Energy Star"
-      ],
-      "certifications": [
-        "BEE 5 étoiles",
-        "Marque ISI",
-        "Approuvé CE",
-        "Conforme à la norme RoHS",
-        "Energy Star",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Moteurs BLDC pour ventilateurs de table et muraux - Moteurs de ventilateurs éconergétiques | Powerton Engineering",
-        "description": "Moteurs BLDC compacts pour ventilateurs de table et muraux. Moteurs CC sans balais éconergétiques avec fonctionnement silencieux et longue durée de vie.",
-        "keywords": "moteurs de ventilateurs BLDC, moteurs de ventilateurs de table, moteurs de ventilateurs muraux, moteurs éconergétiques, moteurs CC sans balais, moteurs de ventilateurs"
-      }
     }
   },
   "surgeProtectors": {
@@ -3293,223 +3009,6 @@
     "type": "Type de câble",
     "awg": "Taille du conducteur",
     "temperature": "Plage de température"
-  },
-  "bldc-smart1200": {
-    "seo": {
-      "title": "Ventilateur de plafond intelligent BLDC 1200 RPM - Efficacité énergétique | Powerton Engineering",
-      "description": "Ventilateur de plafond intelligent BLDC 1200 RPM à haut rendement avec télécommande, fonction de minuterie et technologie d'économie d'énergie. Parfait pour les maisons et les bureaux.",
-      "keywords": "Ventilateur de plafond BLDC, ventilateur de plafond intelligent, ventilateur économe en énergie, ventilateur de plafond 1200 RPM, ventilateur à moteur CC sans balais, ventilateur à télécommande"
-    },
-    "hero": {
-      "title": "Ventilateur de plafond intelligent BLDC 1200 RPM",
-      "subtitle": "Ventilateur de plafond intelligent économe en énergie avec télécommande"
-    },
-    "overview": {
-      "fullDescription": "Notre ventilateur de plafond intelligent BLDC 1200 RPM combine une technologie de moteur CC sans balais de pointe avec des fonctionnalités intelligentes pour une efficacité énergétique et un confort optimaux. Conçu pour les applications résidentielles et commerciales légères, ce ventilateur offre des performances supérieures tout en consommant jusqu'à 65 % moins d'énergie que les ventilateurs traditionnels."
-    },
-    "keyBenefits": [
-      "Jusqu'à 65 % d'économies d'énergie",
-      "Télécommande intelligente",
-      "Fonctionnement silencieux",
-      "Longue durée de vie"
-    ],
-    "features": [
-      "Technologie de moteur CC sans balais",
-      "Télécommande intelligente avec minuterie",
-      "Contrôle de la vitesse variable",
-      "Fonction de direction inversée",
-      "Affichage à indicateur LED",
-      "Homologué Energy Star",
-      "Moteur à enroulement en cuivre",
-      "Conception de pale aérodynamique"
-    ],
-    "applications": [
-      "Chambres résidentielles",
-      "Salons",
-      "Espaces de bureaux",
-      "Salles d'étude",
-      "Chambres d'amis",
-      "Petits espaces commerciaux"
-    ],
-    "industries": [
-      "Construction résidentielle",
-      "Design d'intérieur",
-      "Hôtellerie",
-      "Immeubles de bureaux",
-      "Établissements d'enseignement",
-      "Établissements de soins de santé"
-    ],
-    "certifications": [
-      "Certifié Energy Star",
-      "Marque ISI",
-      "Approuvé CE",
-      "Conforme à la norme RoHS",
-      "Classement BEE 5 étoiles"
-    ]
-  },
-  "bldc-premium1400": {
-    "title": "Ventilateur de plafond BLDC Premium 1400mm",
-    "description": "Ventilateur de plafond CC sans balais haute performance de 52 W avec un diamètre de balayage de 1400 mm. Conception haut de gamme avec commandes intelligentes, intégration d'éclairage à DEL et efficacité énergétique supérieure pour les grandes pièces et les espaces commerciaux.",
-    "features": [
-      "Moteur haut de gamme de 52 W avec cote énergétique 5 étoiles",
-      "Télécommande intelligente avec commande d'éclairage à DEL",
-      "Débit d'air supérieur de 240 CMM pour les grands espaces",
-      "Éclairage à DEL intégré avec commande de gradateur",
-      "Conception de pale aérodynamique avancée",
-      "Fonctionnement ultra-silencieux en dessous de 30 dB",
-      "Couverture de garantie haut de gamme de 5 ans"
-    ],
-    "seo": {
-      "title": "Ventilateur de plafond BLDC Premium 1400 RPM - Caractéristiques avancées | Powerton Engineering",
-      "description": "Ventilateur de plafond BLDC Premium 1400 RPM avec des caractéristiques intelligentes avancées, un débit d'air supérieur et une technologie de moteur sans balais économe en énergie.",
-      "keywords": "ventilateur de plafond BLDC haut de gamme, ventilateur de plafond 1400 RPM, ventilateur de plafond avancé, ventilateur de plafond intelligent, ventilateur à débit d'air élevé, économe en énergie"
-    },
-    "hero": {
-      "title": "Ventilateur de plafond BLDC Premium 1400 RPM",
-      "subtitle": "Ventilateur de plafond haute performance avec éclairage à DEL"
-    },
-    "overview": {
-      "fullDescription": "Le ventilateur de plafond BLDC Premium 1400 RPM représente le summum de la technologie des ventilateurs de plafond avec des caractéristiques avancées et une qualité de construction supérieure. Conçu pour des performances améliorées avec une distribution d'air plus élevée tout en conservant une efficacité énergétique exceptionnelle pour les applications résidentielles et commerciales haut de gamme."
-    },
-    "keyBenefits": [
-      "Performance de débit d'air supérieure",
-      "Commandes intelligentes avancées",
-      "Qualité de construction haut de gamme",
-      "Couverture de garantie prolongée"
-    ],
-    "applications": [
-      "Espaces résidentiels haut de gamme",
-      "Chambres principales",
-      "Grands espaces de vie",
-      "Bureaux de direction",
-      "Salles de conférence",
-      "Hôtels de luxe"
-    ],
-    "industries": [
-      "Résidentiel haut de gamme",
-      "Hôtellerie de luxe",
-      "Bureaux d'entreprise",
-      "Commerce de détail haut de gamme",
-      "Soins de santé haut de gamme",
-      "Éducation haut de gamme"
-    ],
-    "certifications": [
-      "Certifié Energy Star",
-      "Marque ISI",
-      "Approuvé CE",
-      "Conforme à la norme RoHS",
-      "Cote BEE 5 étoiles",
-      "Certifié WiFi Alliance"
-    ]
-  },
-  "bldc-commercial1500": {
-    "title": "Ventilateur de plafond BLDC commercial 1500mm",
-    "description": "Ventilateur de plafond CC sans balais robuste de 65 W conçu pour les applications commerciales et industrielles. Capacité de débit d'air supérieure de 300 CFM avec une construction robuste pour un fonctionnement continu dans des environnements exigeants.",
-    "features": [
-      "Moteur commercial robuste de 65 W",
-      "Capacité de débit d'air élevée de 300 CFM",
-      "Construction robuste pour un fonctionnement continu",
-      "Balayage de qualité commerciale de 1500 mm",
-      "Durabilité et fiabilité accrues",
-      "Convient aux entrepôts et aux usines",
-      "Garantie commerciale prolongée de 3 ans"
-    ],
-    "seo": {
-      "title": "Ventilateur de plafond BLDC commercial 1500 RPM - Robuste | Powerton Engineering",
-      "description": "Ventilateur de plafond BLDC de qualité commerciale de 1500 RPM conçu pour les applications robustes avec un débit d'air maximal et une fiabilité industrielle.",
-      "keywords": "ventilateur de plafond BLDC commercial, ventilateur de plafond industriel, ventilateur 1500 RPM, ventilateur de plafond robuste, ventilateur de qualité commerciale, débit d'air élevé"
-    },
-    "hero": {
-      "title": "Ventilateur de plafond BLDC commercial 1500 RPM",
-      "subtitle": "Ventilateur de plafond robuste pour les applications commerciales"
-    },
-    "overview": {
-      "fullDescription": "Notre ventilateur de plafond BLDC commercial 1500 RPM est conçu pour les applications commerciales robustes nécessitant un débit d'air et une fiabilité maximum. Construit avec des composants de qualité industrielle et une technologie de moteur avancée pour offrir des performances constantes dans des environnements exigeants tout en maintenant l'efficacité énergétique."
-    },
-    "keyBenefits": [
-      "Distribution d'air maximale",
-      "Fiabilité de qualité industrielle",
-      "Construction robuste",
-      "Protection de garantie prolongée"
-    ],
-    "applications": [
-      "Immeubles commerciaux",
-      "Installations industrielles",
-      "Grands espaces de bureaux",
-      "Salles d'exposition au détail",
-      "Entrepôts",
-      "Usines de fabrication"
-    ],
-    "industries": [
-      "Immobilier commercial",
-      "Fabrication industrielle",
-      "Commerce de détail et centres commerciaux",
-      "Entreposage et logistique",
-      "Hôtellerie commerciale",
-      "Établissements d'enseignement"
-    ],
-    "certifications": [
-      "Certifié Energy Star",
-      "Marque ISI",
-      "Approuvé CE",
-      "Conforme à la norme RoHS",
-      "Cote BEE 5 étoiles",
-      "Certifié de qualité commerciale"
-    ]
-  },
-  "solar-bldc-submersible-1hp": {
-    "seo": {
-      "title": "Pompe submersible solaire BLDC 1 HP - Solutions d'eau durables | Powerton Engineering",
-      "description": "Pompe submersible solaire BLDC 1 HP pour l'irrigation agricole et l'approvisionnement en eau avec une technologie solaire avancée et une efficacité énergétique.",
-      "keywords": "Pompe submersible solaire, pompe à eau BLDC, pompe à eau solaire, pompe submersible 1 HP, pompe à énergie renouvelable, pompe agricole"
-    },
-    "hero": {
-      "title": "Pompe submersible solaire BLDC 1 HP",
-      "subtitle": "Solution de pompage d'eau à énergie solaire"
-    },
-    "overview": {
-      "fullDescription": "Notre pompe submersible solaire BLDC 1 HP combine l'énergie solaire renouvelable avec une technologie de moteur sans balais avancée pour des solutions de pompage d'eau durables. Conçue pour l'irrigation agricole, l'approvisionnement en eau domestique et les systèmes d'eau à distance avec une efficacité et une fiabilité maximales."
-    },
-    "keyBenefits": [
-      "100 % à énergie solaire",
-      "Aucun coût d'exploitation",
-      "Respectueux de l'environnement",
-      "Compatible avec les zones reculées"
-    ],
-    "features": [
-      "Moteur BLDC compatible solaire",
-      "Contrôleur MPPT inclus",
-      "Conception refroidie à l'eau",
-      "Protection contre la marche à sec",
-      "Technologie de démarrage progressif",
-      "Matériaux résistants à la corrosion",
-      "Compatible avec l'interrupteur à flotteur",
-      "Système de surveillance à distance"
-    ],
-    "applications": [
-      "Irrigation agricole",
-      "Approvisionnement en eau domestique",
-      "Abreuvement du bétail",
-      "Systèmes d'eau à distance",
-      "Approvisionnement en eau rurale",
-      "Irrigation de jardin"
-    ],
-    "industries": [
-      "Agriculture et exploitation agricole",
-      "Développement rural",
-      "Gestion de l'eau",
-      "Énergie renouvelable",
-      "Systèmes d'irrigation",
-      "Technologie durable"
-    ],
-    "certifications": [
-      "Certifié énergie solaire",
-      "Marque ISI",
-      "Approuvé CE",
-      "Conforme à la norme RoHS",
-      "Indice de protection IP68",
-      "Approuvé par MNRE"
-    ]
   },
   "instrumentation-cables": {
     "title": "Câbles d'instrumentation",
@@ -3570,70 +3069,6 @@
       "title": "Câbles d'instrumentation - Transmission de signal de précision | Powerton Engineering",
       "description": "Câbles d'instrumentation de haute qualité avec construction blindée pour une transmission précise des signaux de mesure et de contrôle.",
       "keywords": "Câbles d'instrumentation, paire torsadée blindée, câbles de signal, câbles de mesure, câbles de commande, câbles industriels"
-    }
-  },
-  "bldcCeilingFan": {
-    "smart1200": {
-      "name": "Ventilateur de plafond intelligent BLDC - 1200mm",
-      "description": "Ventilateur de plafond intelligent à haut rendement énergétique avec télécommande",
-      "features": [
-        "Consommation électrique de 28 W",
-        "Télécommande",
-        "5 réglages de vitesse",
-        "Fonction de minuterie"
-      ]
-    },
-    "premium1400": {
-      "name": "Ventilateur de plafond BLDC Premium - 1400mm",
-      "description": "Ventilateur de plafond haute performance avec éclairage LED",
-      "features": [
-        "Consommation électrique de 35 W",
-        "Lumière LED intégrée",
-        "Moteur réversible",
-        "Fonctionnement silencieux"
-      ]
-    },
-    "commercial1500": {
-      "name": "Ventilateur de plafond BLDC commercial - 1500mm",
-      "description": "Ventilateur de plafond robuste pour les applications commerciales",
-      "features": [
-        "Consommation électrique de 45 W",
-        "Moteur robuste",
-        "Débit d'air élevé",
-        "Construction durable"
-      ]
-    }
-  },
-  "bldcCoolerExhaust": {
-    "exhaustFan": {
-      "name": "Moteurs de ventilateur d'extraction BLDC",
-      "description": "Moteurs à haut rendement pour les applications de ventilateurs d'extraction",
-      "features": [
-        "Vitesse variable",
-        "Faible bruit",
-        "Efficacité énergétique",
-        "Longue durée de vie"
-      ]
-    },
-    "coolerMotors": {
-      "name": "Moteurs de refroidisseur BLDC",
-      "description": "Moteurs à haut rendement énergétique pour les applications de refroidisseurs d'air",
-      "features": [
-        "Couple élevé",
-        "Résistant aux intempéries",
-        "Contrôle de la vitesse",
-        "Sans entretien"
-      ]
-    },
-    "ventilation": {
-      "name": "Moteurs de ventilation BLDC",
-      "description": "Moteurs spécialisés pour les systèmes de ventilation industrielle",
-      "features": [
-        "CFM élevé",
-        "Température nominale",
-        "Résistant aux vibrations",
-        "Contrôle intelligent"
-      ]
     }
   },
   "cablesWires": {
@@ -3841,11 +3276,24 @@
         "Alimentation et boissons",
         "Fabrication automobile"
       ],
-      "certifications": ["CE", "UL", "CSA", "ATEX", "IECEx", "SIL 2/3"],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C à +125°C",
         "protection": "IP65/IP67/IP69K",
-        "communication": ["4-20mA", "HART", "Modbus", "Ethernet", "Wireless"],
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
         "accuracy": "±0,1 % à ±0,5 % de la portée",
         "power": "24 V CC, 115/230 V CA, alimentation en boucle"
       }
@@ -3894,7 +3342,14 @@
         "Pâtes et papiers",
         "Mines et métaux"
       ],
-      "certifications": ["SIL 2/3", "ATEX", "IECEx", "FM", "CSA", "NEPSI"],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
       "technicalData": {
         "operatingTemp": "-40 °C à +85 °C",
         "protection": "IP66/IP67",
@@ -3907,70 +3362,6 @@
         "accuracy": "±0,05 % à ±0,25 % de la portée",
         "power": "10,5-42,4 V CC, alimentation en boucle"
       }
-    }
-  },
-  "bldcSubmersibleSurface": {
-    "solar1HP": {
-      "name": "Pompe submersible BLDC solaire - 1HP",
-      "description": "Pompe submersible BLDC à énergie solaire pour puits d'eau",
-      "features": [
-        "Compatible solaire",
-        "Moteur 1HP",
-        "Haute efficacité",
-        "Conception refroidie à l'eau"
-      ]
-    },
-    "surface2HP": {
-      "name": "Pompe de surface CC - 2HP",
-      "description": "Pompe de surface BLDC à haut rendement pour l'irrigation",
-      "features": [
-        "Puissance de 2 HP",
-        "Auto-amorçage",
-        "Protection contre la marche à sec",
-        "Vitesse variable"
-      ]
-    },
-    "hybrid": {
-      "name": "Système de pompe BLDC hybride",
-      "description": "Système de pompe intelligent avec secours solaire et réseau",
-      "features": [
-        "Fonctionnement hybride",
-        "Contrôleur intelligent",
-        "Surveillance à distance",
-        "Optimisation énergétique"
-      ]
-    }
-  },
-  "bldcTableWallFan": {
-    "tableFan": {
-      "name": "Moteurs de ventilateur de table BLDC",
-      "description": "Moteurs BLDC compacts pour ventilateurs de table et de bureau",
-      "features": [
-        "Conception compacte",
-        "Fonctionnement silencieux",
-        "Télécommande",
-        "Fonction de minuterie"
-      ]
-    },
-    "wallFan": {
-      "name": "Moteurs de ventilateur mural BLDC",
-      "description": "Moteurs de ventilateur mural avec technologie BLDC",
-      "features": [
-        "Conception pour montage mural",
-        "Fonction oscillante",
-        "Contrôle de la vitesse",
-        "Économie d'énergie"
-      ]
-    },
-    "pedestalFan": {
-      "name": "Moteurs de ventilateur sur pied BLDC",
-      "description": "Moteurs de ventilateur sur pied réglables en hauteur",
-      "features": [
-        "Réglage de la hauteur",
-        "Fonction d'inclinaison",
-        "Écran LED",
-        "Mode veille"
-      ]
     }
   },
   "centrifugalPumps": {
@@ -4727,23 +4118,9 @@
       "Accouplement à vis à action rapide"
     ]
   },
-  "atomberg-efficio-1200-bldc": {
-    "title": "Ventilateur de plafond BLDC Atomberg Efficio 1200mm",
-    "description": "Ventilateur de plafond BLDC haut de gamme à faible consommation d'énergie d'Atomberg avec une consommation de seulement 27 W et un débit d'air de 236 CMM. Offre une valeur de service supérieure de 8,7, une télécommande RF et des économies d'énergie de 65 % par rapport aux ventilateurs traditionnels.",
-    "features": [
-      "Valeur de service la plus élevée de 8,7 CMM/W",
-      "Consommation électrique ultra-faible de 27 W",
-      "Distribution d'air de qualité supérieure de 236 CMM",
-      "Télécommande RF avec modes boost et veille",
-      "Large tolérance de tension de 140 à 285 V",
-      "Fonctionnement silencieux < 35 dB",
-      "Économies d'énergie de 65 % par rapport aux ventilateurs traditionnels",
-      "Garantie complète de 3 ans"
-    ]
-  },
   "havells-efficiencia-neo-1200": {
-    "title": "Ventilateur de plafond BLDC Havells Efficiencia Neo 1200mm",
-    "description": "Ventilateur de plafond BLDC primé de Havells avec une consommation électrique de 26 W et un débit d'air de 220 CMM. Lauréat du prix national de conservation de l'énergie 2021, avec enroulement 100 % cuivre et modes de contrôle avancés.",
+    "title": "Ventilateur de plafond  Havells Efficiencia Neo 1200mm",
+    "description": "Ventilateur de plafond  primé de Havells avec une consommation électrique de 26 W et un débit d'air de 220 CMM. Lauréat du prix national de conservation de l'énergie 2021, avec enroulement 100 % cuivre et modes de contrôle avancés.",
     "features": [
       "Lauréat du prix national de conservation de l'énergie 2021",
       "Consommation électrique ultra-efficace de 26 W",
@@ -4753,136 +4130,6 @@
       "Large tolérance de tension de 140 à 280 V",
       "Capacité de rotation inverse",
       "Garantie de 2+1 ans (extensible à 5 ans)"
-    ]
-  },
-  "superfan-superx1-1200-bldc": {
-    "title": "Ventilateur de plafond BLDC Superfan SuperX1 1200mm",
-    "description": "Premier ventilateur de plafond BLDC d'Inde de Superfan avec une consommation électrique de 35 W et une plage de tension ultra-large de 90 à 300 V. Comprend une garantie de 5 ans, une télécommande résistante aux chutes et un mode brise naturelle pour un confort optimal.",
-    "features": [
-      "Premier ventilateur de plafond BLDC d'Inde (lancé en 2012)",
-      "Plage de tension ultra-large de 90 à 300 V",
-      "Distribution d'air de qualité supérieure de 230 CMM",
-      "Technologie de télécommande résistante aux chutes",
-      "Simulation du mode brise naturelle",
-      "Fonction de minuterie avec plusieurs réglages",
-      "Économies d'énergie de 56 % par rapport aux ventilateurs traditionnels",
-      "Garantie de 5 ans, la meilleure du secteur"
-    ]
-  },
-  "bldc-deluxe1600": {
-    "title": "Ventilateur de plafond BLDC Deluxe 1600mm",
-    "description": "Ventilateur de plafond CC sans balais de 80 W haut de gamme avec un diamètre de balayage de 1600 mm. Caractéristiques haut de gamme, notamment des commandes intelligentes, un aérodynamisme avancé et une qualité de fabrication exceptionnelle pour les applications de luxe.",
-    "features": [
-      "Moteur haute performance de 80 W de qualité supérieure",
-      "Diamètre de balayage extra-large de 1600 mm",
-      "Intégration de commandes intelligentes",
-      "Conception de pale aérodynamique avancée",
-      "Finition et matériaux de qualité supérieure",
-      "Fonctionnement silencieux de luxe",
-      "Couverture de garantie de 5 ans de qualité supérieure"
-    ]
-  },
-  "bldc-industrial1800": {
-    "title": "Ventilateur de plafond BLDC industriel 1800mm",
-    "description": "Ventilateur de plafond CC sans balais extra-large de 100 W conçu pour les grands espaces industriels. Capacité de débit d'air maximal avec une construction robuste pour un fonctionnement 24 h/24 et 7 j/7 dans des environnements industriels exigeants.",
-    "features": [
-      "Moteur industriel extra-large de 100 W",
-      "Diamètre de balayage maximal de 1800 mm",
-      "Construction robuste pour un fonctionnement 24 h/24 et 7 j/7",
-      "Débit d'air supérieur pour les grands espaces",
-      "Matériaux et finition de qualité industrielle",
-      "Conçu pour les environnements exigeants",
-      "Garantie industrielle prolongée de 5 ans"
-    ]
-  },
-  "bldc-economy900": {
-    "title": "Ventilateur de plafond BLDC économique 900mm",
-    "description": "Ventilateur de plafond CC sans balais abordable de 35 W avec un diamètre de balayage de 900 mm. Conception économe en énergie parfaite pour les petites et moyennes pièces avec une télécommande de base et des performances fiables.",
-    "features": [
-      "Conception de moteur économe en énergie de 35 W",
-      "Balayage compact de 900 mm pour les petites pièces",
-      "Fonctionnalité de télécommande de base",
-      "Technologie BLDC rentable",
-      "Fonctionnement nécessitant peu d'entretien",
-      "Garantie standard de 2 ans"
-    ]
-  },
-  "bldc-exhaust-fan-motor": {
-    "title": "Moteur de ventilateur d'extraction BLDC 25W",
-    "description": "Moteur CC sans balais de 25 W à haut rendement pour les applications de ventilateur d'extraction. Comprend une construction à roulement à billes, une protection IP44 et un fonctionnement silencieux pour les systèmes de ventilation résidentiels et commerciaux.",
-    "features": [
-      "Moteur CC sans balais à haut rendement",
-      "Consommation électrique de 25 W",
-      "Roulement à billes pour une longue durée de vie",
-      "Indice de protection IP44",
-      "Fonctionnement à faible bruit",
-      "Fonctionnement en 12 V CC",
-      "Couverture de garantie de 2 ans"
-    ]
-  },
-  "bldc-cooler-motors": {
-    "title": "Moteur de refroidisseur BLDC 45W",
-    "description": "Puissant moteur CC sans balais de 45 W pour les applications de refroidisseur d'air. Conception avancée avec un rendement de 90 %, un contrôle de la vitesse variable et un indice de protection amélioré pour des performances de refroidissement fiables.",
-    "features": [
-      "Moteur BLDC haute performance de 45 W",
-      "Rendement énergétique de 90 %",
-      "Contrôle de la vitesse variable",
-      "Indice de protection IP54",
-      "Construction à roulement à billes",
-      "Fonctionnement en 24 V CC",
-      "Couverture de garantie de 3 ans"
-    ]
-  },
-  "bldc-ventilation-system": {
-    "title": "Système de ventilation BLDC 75W",
-    "description": "Moteur CC sans balais de 75 W de qualité industrielle pour les systèmes de ventilation. Efficacité supérieure à 92 %, capacité de débit d'air élevée et construction robuste pour les applications CVC exigeantes.",
-    "features": [
-      "Moteur BLDC de 75 W de qualité industrielle",
-      "Rendement énergétique de 92 %",
-      "Capacité de débit d'air élevée de 800 CFM",
-      "Indice de protection IP65",
-      "Fonctionnement en 48 V CC",
-      "Plage de température avancée de -20 °C à +80 °C",
-      "Couverture de garantie de 5 ans"
-    ]
-  },
-  "bldc-ventilation-motors": {
-    "title": "Moteur de ventilation BLDC 35W",
-    "description": "Moteur CC sans balais efficace de 35 W pour les applications de ventilation. Performances équilibrées avec une capacité de débit d'air de 280 CFM, adapté aux systèmes de ventilation résidentiels et commerciaux légers.",
-    "features": [
-      "Conception de moteur efficace de 35 W",
-      "Bonne capacité de débit d'air de 280 CFM",
-      "Rendement énergétique de 88 %",
-      "Construction de palier lisse",
-      "Indice de protection IP44",
-      "Fonctionnement en 24 V CC",
-      "Garantie standard de 2 ans"
-    ]
-  },
-  "bldc-industrial-exhaust": {
-    "title": "Ventilateur d'extraction BLDC industriel 120W",
-    "description": "Moteur CC sans balais haute puissance de 120 W pour les applications d'extraction industrielle. Construction robuste avec une capacité de débit d'air et une fiabilité exceptionnelles pour les environnements industriels exigeants.",
-    "features": [
-      "Moteur industriel haute puissance de 120 W",
-      "Capacité de débit d'air exceptionnelle de 650 CFM",
-      "Construction robuste",
-      "Fonctionnement à haute vitesse de 3200 tr/min",
-      "Protection IP67 pour les environnements difficiles",
-      "Fonctionnement en 48 V CC",
-      "Garantie industrielle prolongée de 3 ans"
-    ]
-  },
-  "bldc-mini-cooler": {
-    "title": "Mini moteur de refroidisseur BLDC 15W",
-    "description": "Moteur CC sans balais compact de 15 W conçu pour les mini-refroidisseurs. Conception économe en énergie avec un fonctionnement silencieux et des performances fiables pour les appareils de refroidissement personnels.",
-    "features": [
-      "Conception de moteur compacte de 15 W",
-      "Fonctionnement économe en énergie",
-      "Faible niveau de bruit inférieur à 25 dB",
-      "Fonctionnement en 12 V CC",
-      "Rendement de 82 %",
-      "Convient aux appareils de refroidissement personnels",
-      "Couverture de garantie de 1 an"
     ]
   },
   "dc-surface-pump-2hp": {
@@ -4896,58 +4143,6 @@
       "Fonctionnement en 72 V CC",
       "Construction robuste pour une utilisation industrielle",
       "Faibles exigences d'entretien"
-    ]
-  },
-  "hybrid-bldc-pump": {
-    "title": "Système de pompe BLDC hybride",
-    "description": "Système de pompe BLDC hybride avancé combinant les capacités de fonctionnement CC et CA. Comprend une puissance de 1,5 HP avec un débit de 2700 LPH et une hauteur de refoulement de 120 pi, parfait pour les applications de pompage d'eau polyvalentes.",
-    "features": [
-      "Fonctionnement hybride CC/CA (48 V CC / 230 V CA)",
-      "Moteur BLDC haute efficacité de 1,5 HP",
-      "Capacité de débit de 2700 LPH",
-      "Hauteur de refoulement maximale de 120 pi",
-      "Fonctionnement économe en énergie",
-      "Compatibilité polyvalente des sources d'alimentation",
-      "Technologie BLDC nécessitant peu d'entretien"
-    ]
-  },
-  "bldc-table-fan-motors": {
-    "title": "Moteurs de ventilateur de table BLDC",
-    "description": "Moteurs de ventilateur de table BLDC à haut rendement avec une consommation électrique de 28 W et une vitesse de 2100 tr/min. Comprend un fonctionnement par télécommande et un diamètre de 400 mm pour une circulation d'air optimale dans les espaces résidentiels et commerciaux.",
-    "features": [
-      "Fonctionnement économe en énergie de 28 W",
-      "Vitesse élevée de 2100 tr/min",
-      "Diamètre de 400 mm pour un débit d'air optimal",
-      "Fonctionnement en 24 V CC",
-      "Compatibilité avec la télécommande",
-      "Technologie de moteur BLDC silencieuse",
-      "Longue durée de vie"
-    ]
-  },
-  "bldc-wall-fan-motors": {
-    "title": "Moteurs de ventilateur mural BLDC",
-    "description": "Moteurs de ventilateur mural BLDC puissants avec une puissance de 35 W et une vitesse de 1800 tr/min. Comprend un diamètre de 450 mm et une capacité d'oscillation pour une circulation d'air murale efficace dans divers environnements intérieurs.",
-    "features": [
-      "Consommation électrique efficace de 35 W",
-      "Vitesse optimale de 1800 tr/min",
-      "Diamètre de 450 mm pour une large couverture",
-      "Fonctionnement sûr en 24 V CC",
-      "Fonction d'oscillation pour une meilleure distribution de l'air",
-      "Conception murale",
-      "Technologie BLDC silencieuse"
-    ]
-  },
-  "bldc-pedestal-fan-motors": {
-    "title": "Moteurs de ventilateur sur pied BLDC",
-    "description": "Moteurs de ventilateur sur pied BLDC à haut rendement avec hauteur et oscillation réglables. Débit d'air puissant avec un fonctionnement économe en énergie pour les espaces résidentiels et commerciaux.",
-    "features": [
-      "Conception sur pied à hauteur réglable",
-      "Moteur BLDC économe en énergie",
-      "Large couverture d'oscillation",
-      "Plusieurs réglages de vitesse",
-      "Fonctionnement par télécommande",
-      "Technologie de fonctionnement silencieux",
-      "Performances durables"
     ]
   },
   "power-distribution-cables": {
@@ -5803,37 +4998,37 @@
     ]
   },
   "orientalMd6p38": {
-    "title": "Moteur d'échappement BLDC Oriental Motor MD-6P38",
-    "description": "Moteur de ventilateur axial DC Oriental Motor MD-6P38 d'une puissance de 38 W, 24 V CC. Conception BLDC à 6 pôles avec protection IP55 pour les applications d'échappement industrielles.",
+    "title": "Moteur d'échappement  Oriental Motor MD-6P38",
+    "description": "Moteur de ventilateur axial DC Oriental Motor MD-6P38 d'une puissance de 38 W, 24 V CC. Conception  à 6 pôles avec protection IP55 pour les applications d'échappement industrielles.",
     "features": [
       "Puissance de 38 W",
       "Fonctionnement de 24 V CC",
-      "Conception BLDC à 6 pôles",
+      "Conception  à 6 pôles",
       "Protection IP55",
       "Ventilateur axial DC",
       "Échappement industriel"
     ]
   },
   "nidecD12e24ts3": {
-    "title": "Moteur BLDC Nidec D12E-24TS3",
-    "description": "Moteur BLDC Nidec D12E-24TS3 de 12 cm fournissant un débit d'air de 83 CFM. Fonctionnement silencieux à 24 V CC pour les applications de refroidissement.",
+    "title": "Moteur  Nidec D12E-24TS3",
+    "description": "Moteur  Nidec D12E-24TS3 de 12 cm fournissant un débit d'air de 83 CFM. Fonctionnement silencieux à 24 V CC pour les applications de refroidissement.",
     "features": [
       "Fonctionnement de 24 V CC",
       "Taille de 12 cm",
       "Débit d'air de 83 CFM",
       "Conception silencieuse",
-      "Technologie BLDC",
+      "Technologie ",
       "Applications de refroidissement"
     ]
   },
   "deltaBfb1224h": {
-    "title": "Moteur d'échappement BLDC Delta Electronics BFB1224H",
-    "description": "Moteur d'échappement BLDC Delta Electronics BFB1224H de 120 mm. Fonctionnement de 24 V CC avec une durée de vie de 70 000 heures pour une fiabilité à long terme.",
+    "title": "Moteur d'échappement  Delta Electronics BFB1224H",
+    "description": "Moteur d'échappement  Delta Electronics BFB1224H de 120 mm. Fonctionnement de 24 V CC avec une durée de vie de 70 000 heures pour une fiabilité à long terme.",
     "features": [
       "Taille de 120 mm",
       "Fonctionnement de 24 V CC",
       "Durée de vie de 70 000 heures",
-      "Technologie BLDC",
+      "Technologie ",
       "Moteur d'échappement",
       "Longue durée de vie"
     ]
@@ -5851,61 +5046,61 @@
     ]
   },
   "nidecG1238b": {
-    "title": "Moteur BLDC industriel Nidec G1238B",
-    "description": "Moteur axial BLDC DC Nidec G1238B d'une puissance de 38 W. Taille de 12 cm avec contrôle de la vitesse variable pour les applications de qualité industrielle.",
+    "title": "Moteur  industriel Nidec G1238B",
+    "description": "Moteur axial  DC Nidec G1238B d'une puissance de 38 W. Taille de 12 cm avec contrôle de la vitesse variable pour les applications de qualité industrielle.",
     "features": [
       "Puissance de 38 W",
       "Taille de 12 cm",
       "Contrôle de la vitesse variable",
-      "BLDC axial DC",
+      " axial DC",
       "Qualité industrielle",
       "Fonctionnement flexible"
     ]
   },
   "nidecGentletyphoonD1225c12": {
     "title": "Moteur de refroidissement ultra-silencieux Nidec GentleTyphoon D1225C12",
-    "description": "Moteur de refroidissement BLDC Nidec GentleTyphoon D1225C12 fonctionnant à 1 850 tr/min avec 12 V CC. Fonctionnement ultra-silencieux pour un refroidissement de précision.",
+    "description": "Moteur de refroidissement  Nidec GentleTyphoon D1225C12 fonctionnant à 1 850 tr/min avec 12 V CC. Fonctionnement ultra-silencieux pour un refroidissement de précision.",
     "features": [
       "Fonctionnement de 12 V CC",
       "Vitesse de 1 850 tr/min",
       "Fonctionnement ultra-silencieux",
-      "Moteur de refroidissement BLDC",
+      "Moteur de refroidissement ",
       "Refroidissement de précision",
       "Faible vibration"
     ]
   },
   "orientalBle2m25s5": {
-    "title": "Moteur de refroidissement BLDC Oriental Motor BLE2M25S-5",
-    "description": "Moteur BLDC Oriental Motor BLE2M25S-5 d'une puissance de 25 W avec contrôle de la vitesse. Fonctionnement de 24 V CC pour les applications de refroidissement.",
+    "title": "Moteur de refroidissement  Oriental Motor BLE2M25S-5",
+    "description": "Moteur  Oriental Motor BLE2M25S-5 d'une puissance de 25 W avec contrôle de la vitesse. Fonctionnement de 24 V CC pour les applications de refroidissement.",
     "features": [
       "Puissance de 25 W",
       "Fonctionnement de 24 V CC",
       "Contrôle de la vitesse",
-      "Moteur BLDC",
+      "Moteur ",
       "Application de refroidissement",
       "Vitesse variable"
     ]
   },
   "deltaAfb1212she": {
-    "title": "Moteur BLDC haute pression Delta Electronics AFB1212SHE",
-    "description": "Moteur BLDC Delta Electronics AFB1212SHE de 120 mm. Fonctionnement de 12 V CC avec une pression statique élevée pour un refroidissement exigeant.",
+    "title": "Moteur  haute pression Delta Electronics AFB1212SHE",
+    "description": "Moteur  Delta Electronics AFB1212SHE de 120 mm. Fonctionnement de 12 V CC avec une pression statique élevée pour un refroidissement exigeant.",
     "features": [
       "Taille de 120 mm",
       "Fonctionnement de 12 V CC",
       "Pression statique élevée",
-      "Technologie BLDC",
+      "Technologie ",
       "Applications exigeantes",
       "Refroidissement fiable"
     ]
   },
   "nidecBetaVTa450dc": {
     "title": "Moteur de refroidissement PWM Nidec Beta V TA450DC",
-    "description": "Moteur de refroidissement BLDC Nidec Beta V TA450DC avec contrôle PWM. Fonctionnement de 12 V CC à 4 500 tr/min pour un refroidissement haute performance.",
+    "description": "Moteur de refroidissement  Nidec Beta V TA450DC avec contrôle PWM. Fonctionnement de 12 V CC à 4 500 tr/min pour un refroidissement haute performance.",
     "features": [
       "Fonctionnement de 12 V CC",
       "Contrôle PWM",
       "Vitesse de 4 500 tr/min",
-      "Moteur de refroidissement BLDC",
+      "Moteur de refroidissement ",
       "Haute performance",
       "Vitesse variable"
     ]
@@ -5923,62 +5118,62 @@
     ]
   },
   "orientalMd8p48": {
-    "title": "Moteur de ventilation BLDC Oriental Motor MD-8P48",
-    "description": "Moteur de ventilation BLDC Oriental Motor MD-8P48 d'une puissance nominale de 48 W avec un fonctionnement de 24 V CC. Protection IP55 offrant jusqu'à 883 CFM.",
+    "title": "Moteur de ventilation  Oriental Motor MD-8P48",
+    "description": "Moteur de ventilation  Oriental Motor MD-8P48 d'une puissance nominale de 48 W avec un fonctionnement de 24 V CC. Protection IP55 offrant jusqu'à 883 CFM.",
     "features": [
       "Puissance nominale de 48 W",
       "Fonctionnement de 24 V CC",
       "Protection IP55",
       "Débit d'air maximal de 883 CFM",
-      "Ventilation BLDC",
+      "Ventilation ",
       "Haute capacité"
     ]
   },
   "nidecG1751m": {
-    "title": "Moteur de ventilation BLDC haute capacité Nidec G1751M",
-    "description": "Moteur BLDC Nidec G1751M de 17 cm avec une puissance de 51 W. Fonctionnement de 24 V CC avec une capacité élevée et de faibles vibrations.",
+    "title": "Moteur de ventilation  haute capacité Nidec G1751M",
+    "description": "Moteur  Nidec G1751M de 17 cm avec une puissance de 51 W. Fonctionnement de 24 V CC avec une capacité élevée et de faibles vibrations.",
     "features": [
       "Taille de 17 cm",
       "Puissance nominale de 51 W",
       "Fonctionnement de 24 V CC",
       "Haute capacité",
       "Faibles vibrations",
-      "Technologie BLDC"
+      "Technologie "
     ]
   },
   "deltaBfb1512vh": {
-    "title": "Moteur de ventilation BLDC Delta Electronics BFB1512VH",
-    "description": "Moteur de ventilation BLDC Delta Electronics BFB1512VH de 150 mm. Fonctionnement de 12 V CC offrant un débit d'air de 260 CFM.",
+    "title": "Moteur de ventilation  Delta Electronics BFB1512VH",
+    "description": "Moteur de ventilation  Delta Electronics BFB1512VH de 150 mm. Fonctionnement de 12 V CC offrant un débit d'air de 260 CFM.",
     "features": [
       "Taille de 150 mm",
       "Fonctionnement de 12 V CC",
       "Débit d'air de 260 CFM",
-      "Ventilation BLDC",
+      "Ventilation ",
       "Haute performance",
       "Fonctionnement efficace"
     ]
   },
   "orientalBmu23005": {
-    "title": "Groupe de ventilation BLDC Oriental Motor BMU230-05",
-    "description": "Groupe de moteur BLDC Oriental Motor BMU230-05 avec contrôle de la vitesse. Fonctionnement de 230 V CA pour les applications de ventilation.",
+    "title": "Groupe de ventilation  Oriental Motor BMU230-05",
+    "description": "Groupe de moteur  Oriental Motor BMU230-05 avec contrôle de la vitesse. Fonctionnement de 230 V CA pour les applications de ventilation.",
     "features": [
       "Fonctionnement de 230 V CA",
       "Contrôle de la vitesse",
-      "Groupe de moteur BLDC",
+      "Groupe de moteur ",
       "Application de ventilation",
       "Vitesse variable",
       "Qualité industrielle"
     ]
   },
   "nidecD08a12ts1": {
-    "title": "Moteur BLDC Nidec D08A-12TS1 à détection de vitesse",
-    "description": "Moteur BLDC Nidec D08A-12TS1 de 80 mm avec sortie d'impulsions. Fonctionnement de 12 V CC avec capacité de détection de vitesse.",
+    "title": "Moteur  Nidec D08A-12TS1 à détection de vitesse",
+    "description": "Moteur  Nidec D08A-12TS1 de 80 mm avec sortie d'impulsions. Fonctionnement de 12 V CC avec capacité de détection de vitesse.",
     "features": [
       "Taille de 80 mm",
       "Fonctionnement de 12 V CC",
       "Sortie d'impulsions",
       "Détection de vitesse",
-      "Moteur BLDC",
+      "Moteur ",
       "Contrôle par rétroaction"
     ]
   },
@@ -7676,7 +6871,10 @@
         "Pharmaceutique",
         "Alimentation et boissons"
       ],
-      "certifications": ["ISO 9001", "Marquage CE"],
+      "certifications": [
+        "ISO 9001",
+        "Marquage CE"
+      ],
       "keywords": {
         "industrialAutomation": "automatisation industrielle",
         "processControl": "contrôle de processus",

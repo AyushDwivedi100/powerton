@@ -30,12 +30,10 @@ import automationControlSystemsImage from "@assets/generated_images/Automation_c
 import safetyProtectiveDevicesImage from "@assets/generated_images/Safety_protective_devices_showcase_5e4ee724.png";
 import pumpsMotorsImage from "@assets/generated_images/Pumps_and_motors_showcase_798de33e.png";
 import industrialToolsImage from "@assets/generated_images/Industrial_tools_and_equipment_showcase_bf6580b0.png";
-import bldcHomeImage from "@assets/generated_images/BLDC_products_home_section_e04e1480.png";
 
 // Hero background images (ID-846+)
 import industrialAutomationFacilityHero from "@assets/generated_images/Industrial_Automation_Facility_Interior_32e6d2d7.png";
 import engineeringServicesHero from "@assets/generated_images/Engineering_Services_Professional_Environment_d0cae776.png";
-import bldcMotorSystemsHero from "@assets/generated_images/BLDC_Motor_Systems_Showcase_3379f405.png";
 import industrialProjectHero from "@assets/generated_images/Industrial_Project_Construction_Site_1ae76aba.png";
 import corporateOfficeHero from "@assets/generated_images/Corporate_Office_Meeting_Environment_5f01f890.png";
 import industrialFacilityHero from "@assets/generated_images/Industrial_facility_hero_background_e1a1fcd5.png";
@@ -277,7 +275,6 @@ export const IMAGE_IDS = {
   SAFETY_PROTECTIVE_DEVICES: "ID-046",
   PUMPS_MOTORS: "ID-047",
   INDUSTRIAL_TOOLS: "ID-048",
-  BLDC_MOTORS: "ID-049",
   SENSORS: "ID-050",
   TRANSMITTERS: "ID-051",
 
@@ -286,7 +283,6 @@ export const IMAGE_IDS = {
   HERO_ABOUT: "ID-847",
   HERO_SERVICES: "ID-848",
   HERO_PRODUCTS: "ID-849",
-  HERO_BLDC: "ID-850",
   HERO_PROJECTS: "ID-851",
   HERO_CONTACT: "ID-852",
   HERO_NEWS: "ID-853",
@@ -507,7 +503,7 @@ export const NEXT_AVAILABLE_IDS = {
 } as const;
 
 // Product images mapping
-export const PRODUCT_IMAGES = {
+export const PRODUCT_IMAGE_MAPPING = {
   "instrumentation-accessories": {
     src: instrumentationComponentsImage,
     alt: `${IMAGE_IDS.INSTRUMENTATION_COMPONENTS}: Industrial instrumentation components - High-precision components for measurement and control`,
@@ -545,18 +541,12 @@ export const PRODUCT_IMAGES = {
   },
   "pumps-motors": {
     src: pumpsMotorsImage,
-    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Pumps and motors - Industrial pumps, BLDC motors and drives`,
     id: IMAGE_IDS.PUMPS_MOTORS,
   },
   "mechanical-pumps-spares": {
     src: pumpsMotorsImage,
     alt: `${IMAGE_IDS.PUMPS_MOTORS}: Mechanical pumps and spares - Centrifugal pumps and replacement parts`,
     id: IMAGE_IDS.PUMPS_MOTORS,
-  },
-  bldc: {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC motors - Brushless DC motor systems and controllers`,
-    id: IMAGE_IDS.BLDC_MOTORS,
   },
   sensors: {
     src: proximitySesorImage,
@@ -955,57 +945,6 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.SOLENOID_VALVE_STOCK,
   },
 
-  // BLDC Motor products
-  "bldc-ceiling-fan": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC ceiling fan - Energy efficient brushless DC ceiling fan`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-exhaust-motor": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC exhaust motor - Energy efficient ventilation motor`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-cooler-motor": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC cooler motor - Energy efficient cooling system motor`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-ventilation-motor": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC ventilation motor - Energy efficient air circulation motor`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-submersible-pump": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC submersible pump - Energy efficient water pump`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-surface-pump": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC surface pump - Energy efficient surface water pump`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-hybrid-pump": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC hybrid pump - Solar compatible water pump`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-table-fan-motor": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC table fan motor - Energy efficient personal cooling motor`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-wall-fan-motor": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC wall fan motor - Energy efficient wall mounted fan motor`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-pedestal-fan-motor": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC pedestal fan motor - Energy efficient pedestal fan motor`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
 
   // Electrical components
   "power-cable": {
@@ -1341,22 +1280,6 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.PUMPS_MOTORS,
   },
 
-  // BLDC Motors
-  "bldc-cooler-exhaust-motor": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC cooler exhaust motor - Dual-function cooling and exhaust motor`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-submersible-surface-pump": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC submersible surface pump - Dual-function water pump system`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
-  "bldc-table-fan-wall-fan-motor": {
-    src: bldcHomeImage,
-    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC table fan wall fan motor - Multi-purpose fan motor`,
-    id: IMAGE_IDS.BLDC_MOTORS,
-  },
 
   // Transmitters - manufacturer specific variants
   "dp-transmitter-endress": {
@@ -2253,93 +2176,13 @@ export const LEGACY_IMAGES = {
 } as const;
 
 // Subcategory to main category mapping for product images
-export const SUBCATEGORY_IMAGE_MAPPING = {
-  // BLDC products
-  "bldc-ceiling-fan": "bldc",
-  "bldc-cooler-exhaust-motor": "bldc",
-  "bldc-submersible-surface-pump": "bldc",
-  "bldc-table-fan-wall-fan-motor": "bldc",
-
-  // Solar products
-  "solar-panels": "solar-products",
-  "solar-inverters": "solar-products",
-
-  // Electrical components
-  "electrical-cables": "electrical-components",
-  "connectors-terminals": "electrical-components",
-  "circuit-breakers-fuses": "electrical-components",
-  "power-supplies": "electrical-components",
-  "enclosures-cabinets": "electrical-components",
-  "heating-elements-appliances": "electrical-components",
-
-  // Industrial & Measuring Tools
-  multimeters: "industrial-measuring-tools",
-  "power-quality-analyzers": "industrial-measuring-tools",
-  "calibration-equipment": "industrial-measuring-tools",
-
-  // Automation control systems
-  plcs: "automation-control-systems",
-  scada: "automation-control-systems",
-  dcs: "automation-control-systems",
-  hmi: "automation-control-systems",
-
-  // Safety protective devices
-  "surge-protectors": "safety-protective-devices",
-  "grounding-systems": "safety-protective-devices",
-  "safety-relays-switches": "safety-protective-devices",
-  "intrinsically-safe-equipment": "safety-protective-devices",
-
-  // Mechanical pumps and spares
-  "centrifugal-pumps": "mechanical-pumps-spares",
-  "diaphragm-pumps": "mechanical-pumps-spares",
-  "gear-pumps": "mechanical-pumps-spares",
-  "pump-parts-spares": "mechanical-pumps-spares",
-
-  "hand-tools": "industrial-measuring-tools",
-  "power-tools": "industrial-measuring-tools",
-  "cutting-tools": "industrial-measuring-tools",
-  "lifting-equipment": "industrial-measuring-tools",
-  "safety-equipment": "industrial-measuring-tools",
-
-  // Sensors and transmitters
-  sensors: "sensors",
-  transmitters: "transmitters",
-  
-  // Instrumentation
-  "instrumentation-cables": "instrumentation-accessories",
-} as const;
-
-// Modern helper functions with enhanced features
+export const SUBCATEGORY_IMAGE_MAPPING = {} as const;
 
 /**
- * Get product image with enhanced error handling and fallbacks
+ * Get product image by ID from PRODUCT_IMAGE_MAPPING
  */
 export const getProductImage = (productId: string): ImageMetadata | null => {
-  // Direct category match
-  let image = PRODUCT_IMAGES[productId as keyof typeof PRODUCT_IMAGES];
-
-  // Subcategory mapping fallback
-  if (
-    !image &&
-    SUBCATEGORY_IMAGE_MAPPING[
-      productId as keyof typeof SUBCATEGORY_IMAGE_MAPPING
-    ]
-  ) {
-    const categoryId =
-      SUBCATEGORY_IMAGE_MAPPING[
-        productId as keyof typeof SUBCATEGORY_IMAGE_MAPPING
-      ];
-    image = PRODUCT_IMAGES[categoryId as keyof typeof PRODUCT_IMAGES];
-  }
-
-  return image
-    ? ({
-        ...image,
-        category: "product",
-        loading: "lazy",
-        optimized: true,
-      } as ImageMetadata)
-    : null;
+  return PRODUCT_IMAGE_MAPPING[productId as keyof typeof PRODUCT_IMAGE_MAPPING] || null;
 };
 
 /**
@@ -2437,11 +2280,6 @@ export const HERO_IMAGES = {
     src: productsShowcaseHero,
     alt: `${IMAGE_IDS.HERO_PRODUCTS}: Products Showcase - Industrial equipment and components`,
     id: IMAGE_IDS.HERO_PRODUCTS,
-  },
-  bldc: {
-    src: bldcMotorSystemsHero,
-    alt: `${IMAGE_IDS.HERO_BLDC}: BLDC Motor Systems - Modern motor technology showcase`,
-    id: IMAGE_IDS.HERO_BLDC,
   },
   projects: {
     src: industrialProjectHero,
@@ -2684,7 +2522,6 @@ export const IMAGE_REGISTRY = {
     automation: industrialAutomationFacilityHero,
     services: engineeringServicesHero,
     products: productsShowcaseHero,
-    bldc: bldcMotorSystemsHero,
     projects: industrialProjectHero,
     corporate: corporateOfficeHero,
   },
@@ -2776,7 +2613,6 @@ export {
   industrialAutomationFacilityHero,
   engineeringServicesHero,
   productsShowcaseHero,
-  bldcMotorSystemsHero,
   industrialProjectHero,
   corporateOfficeHero,
 

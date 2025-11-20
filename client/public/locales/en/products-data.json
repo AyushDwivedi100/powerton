@@ -115,7 +115,12 @@
         "circuit-breakers-fuses": {
           "title": "Circuit Breakers & Fuses",
           "description": "Protection devices for electrical circuits and equipment safety",
-          "features": ["MCBs", "MCCBs", "RCCBs", "Industrial Fuses"]
+          "features": [
+            "MCBs",
+            "MCCBs",
+            "RCCBs",
+            "Industrial Fuses"
+          ]
         },
         "power-supplies": {
           "title": "Power Supplies",
@@ -235,7 +240,12 @@
     "automation-control-systems": {
       "title": "Automation & Control Systems",
       "description": "Advanced automation and control solutions for industrial process management and optimization",
-      "badges": ["PLCs", "SCADA", "DCS", "HMI"],
+      "badges": [
+        "PLCs",
+        "SCADA",
+        "DCS",
+        "HMI"
+      ],
       "sectionTitle": "Control System Solutions",
       "subcategories": {
         "plcs": {
@@ -281,7 +291,12 @@
         "motor-controllers-drives": {
           "title": "Motor Controllers & Drives",
           "description": "Variable frequency drives and motor control solutions for efficient motor operation",
-          "features": ["VFD", "Soft Starters", "DOL Starters", "Speed Control"]
+          "features": [
+            "VFD",
+            "Soft Starters",
+            "DOL Starters",
+            "Speed Control"
+          ]
         },
         "io-modules": {
           "title": "I/O Modules",
@@ -533,64 +548,6 @@
         "title": "Need Tools & Measurement Solutions?",
         "description": "Our specialists can help you select the right tools and measurement instruments for your industrial applications.",
         "contactButtonText": "Contact Our Experts"
-      }
-    },
-    "bldc": {
-      "title": "BLDC Motor Systems",
-      "description": "Energy-efficient brushless DC motor solutions for industrial and commercial applications",
-      "badges": [
-        "BLDC Motors",
-        "Energy Efficient",
-        "Low Maintenance",
-        "Smart Control"
-      ],
-      "sectionTitle": "BLDC Solutions",
-      "subcategories": {
-        "bldc-cooler-exhaust-motor": {
-          "title": "BLDC Cooler & Exhaust Motors",
-          "description": "High-efficiency motors for cooling and ventilation applications",
-          "features": [
-            "Energy Efficient",
-            "Low Noise",
-            "Long Life",
-            "Variable Speed"
-          ]
-        },
-        "bldc-ceiling-fan": {
-          "title": "BLDC Ceiling Fans",
-          "description": "Smart ceiling fans with advanced energy-saving technology",
-          "features": [
-            "Remote Control",
-            "Energy Saving",
-            "Quiet Operation",
-            "Smart Features"
-          ]
-        },
-        "bldc-submersible-surface-pump": {
-          "title": "BLDC Submersible & Surface Pumps",
-          "description": "Water pumping solutions with BLDC motor technology",
-          "features": [
-            "Submersible Design",
-            "High Efficiency",
-            "Corrosion Resistant",
-            "Solar Compatible"
-          ]
-        },
-        "bldc-table-fan-wall-fan-motor": {
-          "title": "BLDC Table & Wall Fan Motors",
-          "description": "Compact BLDC motors for portable and wall-mounted fans",
-          "features": [
-            "Compact Size",
-            "Energy Efficient",
-            "Quiet Operation",
-            "Speed Control"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Upgrade to BLDC Technology?",
-        "description": "Our BLDC specialists can help you transition to energy-efficient brushless DC motor solutions.",
-        "contactButtonText": "Contact BLDC Experts"
       }
     }
   },
@@ -3134,242 +3091,6 @@
         "description": "Panel meters including analog ammeters/voltmeters, digital meters, power factor meters, and multifunction meters for industrial power monitoring and measurement.",
         "keywords": "panel meters, analog ammeter, analog voltmeter, digital meters, power factor meter, multifunction meter, energy meter, panel mount meter"
       }
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "BLDC Cooler & Exhaust Motors",
-      "shortDescription": "High-efficiency BLDC motors for coolers and exhaust fans",
-      "fullDescription": "Advanced BLDC motors designed for desert coolers and exhaust fans with superior efficiency, durability, and performance.",
-      "parentCategoryTitle": "BLDC Products",
-      "keyBenefits": [
-        "Energy Efficient",
-        "Low Noise",
-        "High Durability",
-        "Weather Resistant"
-      ],
-      "specifications": [
-        "Power: 35W to 85W",
-        "Voltage: 220V AC",
-        "Speed: 1400-1800 RPM",
-        "Airflow: High CFM",
-        "Protection: IP44",
-        "Efficiency: >85%"
-      ],
-      "applications": [
-        "Desert Coolers",
-        "Exhaust Fans",
-        "Ventilation Systems",
-        "Industrial Cooling",
-        "Kitchen Exhaust",
-        "Bathroom Ventilation"
-      ],
-      "industries": [
-        "HVAC",
-        "Residential",
-        "Commercial Buildings",
-        "Industrial Ventilation",
-        "Food Service",
-        "Manufacturing"
-      ],
-      "features": [
-        "BLDC Technology",
-        "High Efficiency",
-        "Low Maintenance",
-        "Corrosion Resistant",
-        "Thermal Protection",
-        "Long Service Life",
-        "Quiet Operation",
-        "Weather Proof"
-      ],
-      "certifications": [
-        "BEE Certified",
-        "ISI Mark",
-        "CE Approved",
-        "IP44 Rated",
-        "RoHS Compliant",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "BLDC Cooler & Exhaust Motors - High Efficiency BLDC Motors | Powerton Engineering",
-        "description": "High-efficiency BLDC motors for desert coolers and exhaust fans. Energy-saving brushless DC motors with long service life.",
-        "keywords": "BLDC cooler motors, BLDC exhaust motors, brushless DC motors, energy efficient motors, cooler motors, exhaust fan motors"
-      }
-    },
-    "bldc-ceiling-fan": {
-      "title": "BLDC Ceiling Fans",
-      "shortDescription": "Energy-efficient brushless DC ceiling fans",
-      "fullDescription": "High-efficiency BLDC ceiling fans with energy-saving technology, smart controls, and superior performance for residential and commercial applications.",
-      "parentCategoryTitle": "BLDC Products",
-      "keyBenefits": [
-        "Up to 65% Energy Savings",
-        "Silent Operation",
-        "Remote Control",
-        "Long Service Life"
-      ],
-      "specifications": [
-        "Motor Power: 28W to 52W",
-        "Speed: 1200-1600 RPM",
-        "Airflow: 200-280 CMM",
-        "Voltage: 220V AC",
-        "Sweep: 1200mm to 1600mm",
-        "Energy Rating: 5 Star BEE"
-      ],
-      "applications": [
-        "Residential Rooms",
-        "Office Spaces",
-        "Commercial Buildings",
-        "Hospitality",
-        "Educational Institutions",
-        "Healthcare Facilities"
-      ],
-      "industries": [
-        "Residential Construction",
-        "Commercial Real Estate",
-        "Hospitality",
-        "Healthcare",
-        "Education",
-        "Retail"
-      ],
-      "features": [
-        "BLDC Motor Technology",
-        "Remote Control",
-        "Variable Speed",
-        "Reverse Mode",
-        "Timer Function",
-        "LED Indicators",
-        "Aerodynamic Blades",
-        "Silent Operation"
-      ],
-      "certifications": [
-        "BEE 5 Star Rated",
-        "ISI Mark",
-        "CE Approved",
-        "RoHS Compliant",
-        "Energy Star",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "BLDC Ceiling Fans - Energy Efficient Brushless DC Fans | Powerton Engineering",
-        "description": "Energy-efficient BLDC ceiling fans with 5-star BEE rating. Smart remote control, silent operation, and up to 65% energy savings.",
-        "keywords": "BLDC ceiling fans, energy efficient fans, brushless DC fans, smart ceiling fans, 5 star ceiling fans, remote control fans"
-      }
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "BLDC Submersible & Surface Pumps",
-      "shortDescription": "Solar-compatible BLDC water pumps for irrigation and water supply",
-      "fullDescription": "Advanced BLDC submersible and surface pumps with solar compatibility, high efficiency, and reliable performance for agricultural and domestic applications.",
-      "parentCategoryTitle": "BLDC Products",
-      "keyBenefits": [
-        "Solar Compatible",
-        "Energy Efficient",
-        "Low Maintenance",
-        "High Reliability"
-      ],
-      "specifications": [
-        "Power: 0.5HP to 5HP",
-        "Head: 10m to 150m",
-        "Flow: 10 to 150 LPM",
-        "Voltage: 48V/110V/220V DC",
-        "Solar: MPPT Compatible",
-        "Efficiency: >85%"
-      ],
-      "applications": [
-        "Agricultural Irrigation",
-        "Domestic Water Supply",
-        "Solar Water Pumping",
-        "Livestock Watering",
-        "Garden Irrigation",
-        "Water Transfer"
-      ],
-      "industries": [
-        "Agriculture",
-        "Solar Energy",
-        "Residential",
-        "Rural Development",
-        "Irrigation",
-        "Water Management"
-      ],
-      "features": [
-        "BLDC Motor",
-        "Solar Compatible",
-        "MPPT Technology",
-        "Stainless Steel Body",
-        "Dry Run Protection",
-        "Thermal Protection",
-        "High Efficiency",
-        "Low Maintenance"
-      ],
-      "certifications": [
-        "BEE Certified",
-        "ISI Mark",
-        "CE Approved",
-        "Solar Certified",
-        "IP68 Rated",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "BLDC Water Pumps - Solar Submersible & Surface Pumps | Powerton Engineering",
-        "description": "Solar-compatible BLDC water pumps for irrigation and domestic use. Energy-efficient submersible and surface pumps with MPPT technology.",
-        "keywords": "BLDC water pumps, solar water pumps, BLDC submersible pumps, solar pumps, brushless DC pumps, irrigation pumps"
-      }
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC Table & Wall Fan Motors",
-      "shortDescription": "Compact BLDC motors for table and wall fans",
-      "fullDescription": "Energy-efficient BLDC motors designed for table and wall fans with superior performance, low noise, and extended service life.",
-      "parentCategoryTitle": "BLDC Products",
-      "keyBenefits": [
-        "Compact Design",
-        "Energy Saving",
-        "Silent Operation",
-        "Long Life"
-      ],
-      "specifications": [
-        "Power: 25W to 45W",
-        "Speed: 1200-1800 RPM",
-        "Voltage: 220V AC",
-        "Airflow: 60-90 CMM",
-        "Noise: <40dB",
-        "Efficiency: >80%"
-      ],
-      "applications": [
-        "Table Fans",
-        "Wall Fans",
-        "Pedestal Fans",
-        "Personal Cooling",
-        "Office Ventilation",
-        "Room Cooling"
-      ],
-      "industries": [
-        "Consumer Electronics",
-        "Residential",
-        "Commercial",
-        "Hospitality",
-        "Office Equipment",
-        "Retail"
-      ],
-      "features": [
-        "BLDC Technology",
-        "High Efficiency",
-        "Silent Operation",
-        "Variable Speed",
-        "Compact Size",
-        "Low Heat",
-        "Long Service Life",
-        "Energy Star Rated"
-      ],
-      "certifications": [
-        "BEE 5 Star",
-        "ISI Mark",
-        "CE Approved",
-        "RoHS Compliant",
-        "Energy Star",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "BLDC Table & Wall Fan Motors - Energy Efficient Fan Motors | Powerton Engineering",
-        "description": "Compact BLDC motors for table and wall fans. Energy-efficient brushless DC motors with silent operation and long service life.",
-        "keywords": "BLDC fan motors, table fan motors, wall fan motors, energy efficient motors, brushless DC motors, fan motors"
-      }
     }
   },
   "surgeProtectors": {
@@ -3426,223 +3147,6 @@
     "type": "Cable Type",
     "awg": "Conductor Size",
     "temperature": "Temperature Range"
-  },
-  "bldc-smart1200": {
-    "seo": {
-      "title": "BLDC Smart Ceiling Fan 1200 RPM - Energy Efficient | Powerton Engineering",
-      "description": "High-efficiency BLDC Smart Ceiling Fan 1200 RPM with remote control, timer function, and energy-saving technology. Perfect for homes and offices.",
-      "keywords": "BLDC ceiling fan, smart ceiling fan, energy efficient fan, 1200 RPM ceiling fan, brushless DC motor fan, remote control fan"
-    },
-    "hero": {
-      "title": "BLDC Smart Ceiling Fan 1200 RPM",
-      "subtitle": "Energy-efficient smart ceiling fan with remote control"
-    },
-    "overview": {
-      "fullDescription": "Our Smart BLDC Ceiling Fan 1200 RPM combines cutting-edge brushless DC motor technology with intelligent features for optimal energy efficiency and comfort. Designed for residential and light commercial applications, this fan delivers superior performance while consuming up to 65% less energy than traditional fans."
-    },
-    "keyBenefits": [
-      "Up to 65% Energy Savings",
-      "Smart Remote Control",
-      "Silent Operation",
-      "Long Service Life"
-    ],
-    "features": [
-      "Brushless DC Motor Technology",
-      "Smart Remote Control with Timer",
-      "Variable Speed Control",
-      "Reverse Direction Feature",
-      "LED Indicator Display",
-      "Energy Star Rated",
-      "Copper Winding Motor",
-      "Aerodynamic Blade Design"
-    ],
-    "applications": [
-      "Residential Bedrooms",
-      "Living Rooms",
-      "Office Spaces",
-      "Study Rooms",
-      "Guest Rooms",
-      "Small Commercial Spaces"
-    ],
-    "industries": [
-      "Residential Construction",
-      "Interior Design",
-      "Hospitality",
-      "Office Buildings",
-      "Educational Institutions",
-      "Healthcare Facilities"
-    ],
-    "certifications": [
-      "Energy Star Certified",
-      "ISI Mark",
-      "CE Approved",
-      "RoHS Compliant",
-      "BEE 5 Star Rating"
-    ]
-  },
-  "bldc-premium1400": {
-    "title": "Premium BLDC Ceiling Fan 1400mm",
-    "description": "High-performance 52W brushless DC ceiling fan with 1400mm sweep diameter. Premium design featuring smart controls, LED lighting integration, and superior energy efficiency for large rooms and commercial spaces.",
-    "features": [
-      "Premium 52W motor with 5-star energy rating",
-      "Smart remote with LED lighting control",
-      "Superior airflow of 240 CMM for large spaces",
-      "Integrated LED lighting with dimmer control",
-      "Advanced aerodynamic blade design",
-      "Ultra-quiet operation below 30dB",
-      "5-year premium warranty coverage"
-    ],
-    "seo": {
-      "title": "BLDC Premium Ceiling Fan 1400 RPM - Advanced Features | Powerton Engineering",
-      "description": "Premium BLDC Ceiling Fan 1400 RPM with advanced smart features, superior airflow, and energy-efficient brushless motor technology.",
-      "keywords": "premium BLDC ceiling fan, 1400 RPM ceiling fan, advanced ceiling fan, smart ceiling fan, high airflow fan, energy efficient"
-    },
-    "hero": {
-      "title": "BLDC Premium Ceiling Fan 1400 RPM",
-      "subtitle": "High-performance ceiling fan with LED lighting"
-    },
-    "overview": {
-      "fullDescription": "The Premium BLDC Ceiling Fan 1400 RPM represents the pinnacle of ceiling fan technology with advanced features and superior build quality. Engineered for enhanced performance with higher airflow delivery while maintaining exceptional energy efficiency for premium residential and commercial applications."
-    },
-    "keyBenefits": [
-      "Superior Airflow Performance",
-      "Advanced Smart Controls",
-      "Premium Build Quality",
-      "Extended Warranty Coverage"
-    ],
-    "applications": [
-      "Premium Residential Spaces",
-      "Master Bedrooms",
-      "Large Living Areas",
-      "Executive Offices",
-      "Conference Rooms",
-      "Luxury Hotels"
-    ],
-    "industries": [
-      "Premium Residential",
-      "Luxury Hospitality",
-      "Corporate Offices",
-      "High-End Retail",
-      "Premium Healthcare",
-      "Upscale Educational"
-    ],
-    "certifications": [
-      "Energy Star Certified",
-      "ISI Mark",
-      "CE Approved",
-      "RoHS Compliant",
-      "BEE 5 Star Rating",
-      "WiFi Alliance Certified"
-    ]
-  },
-  "bldc-commercial1500": {
-    "title": "Commercial BLDC Ceiling Fan 1500mm",
-    "description": "Heavy-duty 65W brushless DC ceiling fan designed for commercial and industrial applications. Superior airflow capacity of 300 CFM with robust construction for continuous operation in demanding environments.",
-    "features": [
-      "Heavy-duty 65W commercial motor",
-      "High airflow capacity 300 CFM",
-      "Robust construction for continuous operation",
-      "Commercial-grade 1500mm sweep",
-      "Enhanced durability and reliability",
-      "Suitable for warehouses and factories",
-      "Extended 3-year commercial warranty"
-    ],
-    "seo": {
-      "title": "BLDC Commercial Ceiling Fan 1500 RPM - Heavy Duty | Powerton Engineering",
-      "description": "Commercial-grade BLDC Ceiling Fan 1500 RPM designed for heavy-duty applications with maximum airflow and industrial reliability.",
-      "keywords": "commercial BLDC ceiling fan, industrial ceiling fan, 1500 RPM fan, heavy duty ceiling fan, commercial grade fan, high airflow"
-    },
-    "hero": {
-      "title": "BLDC Commercial Ceiling Fan 1500 RPM",
-      "subtitle": "Heavy-duty ceiling fan for commercial applications"
-    },
-    "overview": {
-      "fullDescription": "Our Commercial BLDC Ceiling Fan 1500 RPM is designed for heavy-duty commercial applications requiring maximum airflow and reliability. Built with industrial-grade components and advanced motor technology to deliver consistent performance in demanding environments while maintaining energy efficiency."
-    },
-    "keyBenefits": [
-      "Maximum Airflow Delivery",
-      "Industrial-Grade Reliability",
-      "Heavy-Duty Construction",
-      "Extended Warranty Protection"
-    ],
-    "applications": [
-      "Commercial Buildings",
-      "Industrial Facilities",
-      "Large Office Spaces",
-      "Retail Showrooms",
-      "Warehouses",
-      "Manufacturing Plants"
-    ],
-    "industries": [
-      "Commercial Real Estate",
-      "Industrial Manufacturing",
-      "Retail & Shopping",
-      "Warehousing & Logistics",
-      "Commercial Hospitality",
-      "Educational Institutions"
-    ],
-    "certifications": [
-      "Energy Star Certified",
-      "ISI Mark",
-      "CE Approved",
-      "RoHS Compliant",
-      "BEE 5 Star Rating",
-      "Commercial Grade Certified"
-    ]
-  },
-  "solar-bldc-submersible-1hp": {
-    "seo": {
-      "title": "Solar BLDC Submersible Pump 1HP - Sustainable Water Solutions | Powerton Engineering",
-      "description": "Solar-powered BLDC Submersible Pump 1HP for agricultural irrigation and water supply with advanced solar technology and energy efficiency.",
-      "keywords": "solar submersible pump, BLDC water pump, solar water pump, 1HP submersible pump, renewable energy pump, agricultural pump"
-    },
-    "hero": {
-      "title": "Solar BLDC Submersible Pump 1HP",
-      "subtitle": "Solar-powered water pumping solution"
-    },
-    "overview": {
-      "fullDescription": "Our Solar BLDC Submersible Pump 1HP combines renewable solar energy with advanced brushless motor technology for sustainable water pumping solutions. Designed for agricultural irrigation, domestic water supply, and remote water systems with maximum efficiency and reliability."
-    },
-    "keyBenefits": [
-      "100% Solar Powered",
-      "Zero Operating Costs",
-      "Environmentally Friendly",
-      "Remote Area Compatible"
-    ],
-    "features": [
-      "Solar-Compatible BLDC Motor",
-      "MPPT Controller Included",
-      "Water-Cooled Design",
-      "Dry Run Protection",
-      "Soft Start Technology",
-      "Corrosion-Resistant Materials",
-      "Float Switch Compatible",
-      "Remote Monitoring System"
-    ],
-    "applications": [
-      "Agricultural Irrigation",
-      "Domestic Water Supply",
-      "Livestock Watering",
-      "Remote Water Systems",
-      "Rural Water Supply",
-      "Garden Irrigation"
-    ],
-    "industries": [
-      "Agriculture & Farming",
-      "Rural Development",
-      "Water Management",
-      "Renewable Energy",
-      "Irrigation Systems",
-      "Sustainable Technology"
-    ],
-    "certifications": [
-      "Solar Energy Certified",
-      "ISI Mark",
-      "CE Approved",
-      "RoHS Compliant",
-      "IP68 Rating",
-      "MNRE Approved"
-    ]
   },
   "instrumentation-cables": {
     "title": "Instrumentation Cables",
@@ -3703,70 +3207,6 @@
       "title": "Instrumentation Cables - Precision Signal Transmission | Powerton Engineering",
       "description": "High-quality instrumentation cables with shielded construction for accurate measurement and control signal transmission.",
       "keywords": "instrumentation cables, shielded twisted pair, signal cables, measurement cables, control cables, industrial cables"
-    }
-  },
-  "bldcCeilingFan": {
-    "smart1200": {
-      "name": "Smart BLDC Ceiling Fan - 1200mm",
-      "description": "Energy-efficient smart ceiling fan with remote control",
-      "features": [
-        "28W Power Consumption",
-        "Remote Control",
-        "5 Speed Settings",
-        "Timer Function"
-      ]
-    },
-    "premium1400": {
-      "name": "Premium BLDC Ceiling Fan - 1400mm",
-      "description": "High-performance ceiling fan with LED lighting",
-      "features": [
-        "35W Power Consumption",
-        "LED Light Integrated",
-        "Reversible Motor",
-        "Silent Operation"
-      ]
-    },
-    "commercial1500": {
-      "name": "Commercial BLDC Ceiling Fan - 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial applications",
-      "features": [
-        "45W Power Consumption",
-        "Heavy-Duty Motor",
-        "High Air Flow",
-        "Durable Construction"
-      ]
-    }
-  },
-  "bldcCoolerExhaust": {
-    "exhaustFan": {
-      "name": "BLDC Exhaust Fan Motors",
-      "description": "High-efficiency motors for exhaust fan applications",
-      "features": [
-        "Variable Speed",
-        "Low Noise",
-        "Energy Efficient",
-        "Long Life"
-      ]
-    },
-    "coolerMotors": {
-      "name": "BLDC Cooler Motors",
-      "description": "Energy-efficient motors for air cooler applications",
-      "features": [
-        "High Torque",
-        "Weather Resistant",
-        "Speed Control",
-        "Maintenance Free"
-      ]
-    },
-    "ventilation": {
-      "name": "BLDC Ventilation Motors",
-      "description": "Specialized motors for industrial ventilation systems",
-      "features": [
-        "High CFM",
-        "Temperature Rated",
-        "Vibration Resistant",
-        "Smart Control"
-      ]
     }
   },
   "cablesWires": {
@@ -3974,11 +3414,24 @@
         "Food & Beverage",
         "Automotive Manufacturing"
       ],
-      "certifications": ["CE", "UL", "CSA", "ATEX", "IECEx", "SIL 2/3"],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C to +125°C",
         "protection": "IP65/IP67/IP69K",
-        "communication": ["4-20mA", "HART", "Modbus", "Ethernet", "Wireless"],
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
         "accuracy": "±0.1% to ±0.5% of span",
         "power": "24V DC, 115/230V AC, Loop-powered"
       }
@@ -4027,7 +3480,14 @@
         "Pulp & Paper",
         "Mining & Metals"
       ],
-      "certifications": ["SIL 2/3", "ATEX", "IECEx", "FM", "CSA", "NEPSI"],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C to +85°C",
         "protection": "IP66/IP67",
@@ -4040,70 +3500,6 @@
         "accuracy": "±0.05% to ±0.25% of span",
         "power": "10.5-42.4V DC, Loop-powered"
       }
-    }
-  },
-  "bldcSubmersibleSurface": {
-    "solar1HP": {
-      "name": "Solar BLDC Submersible Pump - 1HP",
-      "description": "Solar-powered BLDC submersible pump for water wells",
-      "features": [
-        "Solar Compatible",
-        "1HP Motor",
-        "High Efficiency",
-        "Water-Cooled Design"
-      ]
-    },
-    "surface2HP": {
-      "name": "DC Surface Pump - 2HP",
-      "description": "High-efficiency BLDC surface pump for irrigation",
-      "features": [
-        "2HP Power",
-        "Self-Priming",
-        "Dry Run Protection",
-        "Variable Speed"
-      ]
-    },
-    "hybrid": {
-      "name": "Hybrid BLDC Pump System",
-      "description": "Intelligent pump system with solar and grid backup",
-      "features": [
-        "Hybrid Operation",
-        "Smart Controller",
-        "Remote Monitoring",
-        "Energy Optimization"
-      ]
-    }
-  },
-  "bldcTableWallFan": {
-    "tableFan": {
-      "name": "BLDC Table Fan Motors",
-      "description": "Compact BLDC motors for table and desk fans",
-      "features": [
-        "Compact Design",
-        "Silent Operation",
-        "Remote Control",
-        "Timer Function"
-      ]
-    },
-    "wallFan": {
-      "name": "BLDC Wall Fan Motors",
-      "description": "Wall-mounted fan motors with BLDC technology",
-      "features": [
-        "Wall Mount Design",
-        "Oscillating Function",
-        "Speed Control",
-        "Energy Saving"
-      ]
-    },
-    "pedestalFan": {
-      "name": "BLDC Pedestal Fan Motors",
-      "description": "Height-adjustable pedestal fan motors",
-      "features": [
-        "Height Adjustment",
-        "Tilt Function",
-        "LED Display",
-        "Sleep Mode"
-      ]
     }
   },
   "centrifugalPumps": {
@@ -4162,7 +3558,12 @@
     "industrialFuses": {
       "name": "Industrial Fuses",
       "description": "High-speed fuses for equipment protection",
-      "features": ["Fast Acting", "Time Delay", "High Voltage", "Ceramic Body"]
+      "features": [
+        "Fast Acting",
+        "Time Delay",
+        "High Voltage",
+        "Ceramic Body"
+      ]
     }
   },
   "connectorsTerminals": {
@@ -4855,23 +4256,9 @@
       "Quick-acting screw thread coupling"
     ]
   },
-  "atomberg-efficio-1200-bldc": {
-    "title": "Atomberg Efficio 1200mm BLDC Ceiling Fan",
-    "description": "Premium energy-efficient BLDC ceiling fan by Atomberg with only 27W power consumption and 236 CMM airflow. Features superior service value of 8.7, RF remote control, and 65% energy savings compared to traditional fans.",
-    "features": [
-      "Highest service value of 8.7 CMM/W",
-      "Ultra-low 27W power consumption",
-      "Premium 236 CMM airflow delivery",
-      "RF remote with boost & sleep modes",
-      "Wide voltage tolerance 140-285V",
-      "Whisper-quiet operation <35dB",
-      "65% energy savings vs traditional fans",
-      "3-year comprehensive warranty"
-    ]
-  },
   "havells-efficiencia-neo-1200": {
-    "title": "Havells Efficiencia Neo 1200mm BLDC Ceiling Fan",
-    "description": "Award-winning BLDC ceiling fan by Havells with 26W power consumption and 220 CMM airflow. Winner of National Energy Conservation Award 2021, featuring 100% copper winding and advanced control modes.",
+    "title": "Havells Efficiencia Neo 1200mm  Ceiling Fan",
+    "description": "Award-winning  ceiling fan by Havells with 26W power consumption and 220 CMM airflow. Winner of National Energy Conservation Award 2021, featuring 100% copper winding and advanced control modes.",
     "features": [
       "National Energy Conservation Award winner 2021",
       "Ultra-efficient 26W power consumption",
@@ -4881,136 +4268,6 @@
       "Wide voltage tolerance 140-280V",
       "Reverse rotation capability",
       "2+1 year warranty (extendable to 5 years)"
-    ]
-  },
-  "superfan-superx1-1200-bldc": {
-    "title": "Superfan SuperX1 1200mm BLDC Ceiling Fan",
-    "description": "India's first BLDC ceiling fan by Superfan with 35W power consumption and ultra-wide voltage range of 90-300V. Features 5-year warranty, drop-safe remote, and natural breeze mode for optimal comfort.",
-    "features": [
-      "India's first BLDC ceiling fan (launched 2012)",
-      "Ultra-wide voltage range 90-300V",
-      "Premium 230 CMM airflow delivery",
-      "Drop-safe remote control technology",
-      "Natural breeze mode simulation",
-      "Timer function with multiple settings",
-      "56% energy savings vs traditional fans",
-      "Industry-leading 5-year warranty"
-    ]
-  },
-  "bldc-deluxe1600": {
-    "title": "Deluxe BLDC Ceiling Fan 1600mm",
-    "description": "Top-of-the-line 80W brushless DC ceiling fan with 1600mm sweep diameter. Premium features including smart controls, advanced aerodynamics, and exceptional build quality for luxury applications.",
-    "features": [
-      "Premium 80W high-performance motor",
-      "Extra-large 1600mm sweep diameter",
-      "Smart control integration",
-      "Advanced aerodynamic blade design",
-      "Premium finish and materials",
-      "Whisper-quiet luxury operation",
-      "Premium 5-year warranty coverage"
-    ]
-  },
-  "bldc-industrial1800": {
-    "title": "Industrial BLDC Ceiling Fan 1800mm",
-    "description": "Extra-large 100W brushless DC ceiling fan designed for large industrial spaces. Maximum airflow capacity with heavy-duty construction for 24/7 operation in demanding industrial environments.",
-    "features": [
-      "Extra-large 100W industrial motor",
-      "Maximum 1800mm sweep diameter",
-      "Heavy-duty construction for 24/7 operation",
-      "Superior airflow for large spaces",
-      "Industrial-grade materials and finish",
-      "Designed for demanding environments",
-      "Extended 5-year industrial warranty"
-    ]
-  },
-  "bldc-economy900": {
-    "title": "Economy BLDC Ceiling Fan 900mm",
-    "description": "Affordable 35W brushless DC ceiling fan with 900mm sweep diameter. Energy-efficient design perfect for small to medium rooms with basic remote control and reliable performance.",
-    "features": [
-      "Energy-efficient 35W motor design",
-      "Compact 900mm sweep for smaller rooms",
-      "Basic remote control functionality",
-      "Cost-effective BLDC technology",
-      "Low maintenance operation",
-      "2-year standard warranty"
-    ]
-  },
-  "bldc-exhaust-fan-motor": {
-    "title": "BLDC Exhaust Fan Motor 25W",
-    "description": "High-efficiency 25W brushless DC motor for exhaust fan applications. Features ball bearing construction, IP44 protection, and quiet operation for residential and commercial ventilation systems.",
-    "features": [
-      "High-efficiency brushless DC motor",
-      "25W power consumption",
-      "Ball bearing for long life",
-      "IP44 protection rating",
-      "Low noise operation",
-      "12V DC operation",
-      "2-year warranty coverage"
-    ]
-  },
-  "bldc-cooler-motors": {
-    "title": "BLDC Cooler Motor 45W",
-    "description": "Powerful 45W brushless DC motor for air cooler applications. Advanced design with 90% efficiency, variable speed control, and enhanced protection rating for reliable cooling performance.",
-    "features": [
-      "High-performance 45W BLDC motor",
-      "90% energy efficiency",
-      "Variable speed control",
-      "IP54 protection rating",
-      "Ball bearing construction",
-      "24V DC operation",
-      "3-year warranty coverage"
-    ]
-  },
-  "bldc-ventilation-system": {
-    "title": "BLDC Ventilation System 75W",
-    "description": "Industrial-grade 75W brushless DC motor for ventilation systems. Superior efficiency at 92%, high airflow capacity, and robust construction for demanding HVAC applications.",
-    "features": [
-      "Industrial-grade 75W BLDC motor",
-      "92% energy efficiency",
-      "High airflow capacity 800 CFM",
-      "IP65 protection rating",
-      "48V DC operation",
-      "Advanced temperature range -20°C to +80°C",
-      "5-year warranty coverage"
-    ]
-  },
-  "bldc-ventilation-motors": {
-    "title": "BLDC Ventilation Motor 35W",
-    "description": "Efficient 35W brushless DC motor for ventilation applications. Balanced performance with 280 CFM airflow capacity, suitable for residential and light commercial ventilation systems.",
-    "features": [
-      "Efficient 35W motor design",
-      "Good airflow capacity 280 CFM",
-      "88% energy efficiency",
-      "Sleeve bearing construction",
-      "IP44 protection rating",
-      "24V DC operation",
-      "2-year standard warranty"
-    ]
-  },
-  "bldc-industrial-exhaust": {
-    "title": "Industrial BLDC Exhaust Fan 120W",
-    "description": "High-power 120W brushless DC motor for industrial exhaust applications. Heavy-duty construction with exceptional airflow capacity and reliability for demanding industrial environments.",
-    "features": [
-      "High-power 120W industrial motor",
-      "Exceptional airflow capacity 650 CFM",
-      "Heavy-duty construction",
-      "High-speed 3200 RPM operation",
-      "IP67 protection for harsh environments",
-      "48V DC operation",
-      "Extended 3-year industrial warranty"
-    ]
-  },
-  "bldc-mini-cooler": {
-    "title": "Mini BLDC Cooler Motor 15W",
-    "description": "Compact 15W brushless DC motor designed for mini cooler applications. Energy-efficient design with quiet operation and reliable performance for personal cooling devices.",
-    "features": [
-      "Compact 15W motor design",
-      "Energy-efficient operation",
-      "Low noise level below 25dB",
-      "12V DC operation",
-      "82% efficiency rating",
-      "Suitable for personal cooling devices",
-      "1-year warranty coverage"
     ]
   },
   "dc-surface-pump-2hp": {
@@ -5024,58 +4281,6 @@
       "72V DC operation",
       "Robust construction for industrial use",
       "Low maintenance requirements"
-    ]
-  },
-  "hybrid-bldc-pump": {
-    "title": "Hybrid BLDC Pump System",
-    "description": "Advanced hybrid BLDC pump system combining DC and AC operation capabilities. Features 1.5HP power with 2700 LPH flow rate and 120ft head capacity, perfect for versatile water pumping applications.",
-    "features": [
-      "Hybrid DC/AC operation (48V DC / 230V AC)",
-      "1.5HP high-efficiency BLDC motor",
-      "2700 LPH flow capacity",
-      "120ft maximum head",
-      "Energy-efficient operation",
-      "Versatile power source compatibility",
-      "Low maintenance BLDC technology"
-    ]
-  },
-  "bldc-table-fan-motors": {
-    "title": "BLDC Table Fan Motors",
-    "description": "High-efficiency BLDC table fan motors with 28W power consumption and 2100 RPM speed. Features remote control operation and 400mm diameter for optimal air circulation in residential and commercial spaces.",
-    "features": [
-      "28W energy-efficient operation",
-      "2100 RPM high speed",
-      "400mm diameter for optimal airflow",
-      "24V DC operation",
-      "Remote control compatibility",
-      "Quiet BLDC motor technology",
-      "Long service life"
-    ]
-  },
-  "bldc-wall-fan-motors": {
-    "title": "BLDC Wall Fan Motors",
-    "description": "Powerful BLDC wall fan motors with 35W power and 1800 RPM speed. Features 450mm diameter and oscillation capability for effective wall-mounted air circulation in various indoor environments.",
-    "features": [
-      "35W efficient power consumption",
-      "1800 RPM optimal speed",
-      "450mm diameter for wide coverage",
-      "24V DC safe operation",
-      "Oscillation feature for better air distribution",
-      "Wall-mounted design",
-      "Silent BLDC technology"
-    ]
-  },
-  "bldc-pedestal-fan-motors": {
-    "title": "BLDC Pedestal Fan Motors",
-    "description": "High-efficiency BLDC pedestal fan motors with adjustable height and oscillation. Powerful airflow with energy-efficient operation for residential and commercial spaces.",
-    "features": [
-      "Adjustable height pedestal design",
-      "Energy-efficient BLDC motor",
-      "Wide oscillation coverage",
-      "Multiple speed settings",
-      "Remote control operation",
-      "Quiet operation technology",
-      "Long-lasting performance"
     ]
   },
   "power-distribution-cables": {
@@ -5931,37 +5136,37 @@
     ]
   },
   "orientalMd6p38": {
-    "title": "Oriental Motor MD-6P38 BLDC Exhaust Motor",
-    "description": "Oriental Motor MD-6P38 DC axial fan motor rated at 38W, 24VDC. 6-pole BLDC design with IP55 protection for industrial exhaust applications.",
+    "title": "Oriental Motor MD-6P38  Exhaust Motor",
+    "description": "Oriental Motor MD-6P38 DC axial fan motor rated at 38W, 24VDC. 6-pole  design with IP55 protection for industrial exhaust applications.",
     "features": [
       "38W power rating",
       "24VDC operation",
-      "6-pole BLDC design",
+      "6-pole  design",
       "IP55 protection",
       "DC axial fan",
       "Industrial exhaust"
     ]
   },
   "nidecD12e24ts3": {
-    "title": "Nidec D12E-24TS3 BLDC Motor",
-    "description": "Nidec D12E-24TS3 BLDC motor with 12cm size delivering 83 CFM airflow. Low noise operation at 24VDC for cooling applications.",
+    "title": "Nidec D12E-24TS3  Motor",
+    "description": "Nidec D12E-24TS3  motor with 12cm size delivering 83 CFM airflow. Low noise operation at 24VDC for cooling applications.",
     "features": [
       "24VDC operation",
       "12cm size",
       "83 CFM airflow",
       "Low noise design",
-      "BLDC technology",
+      " technology",
       "Cooling applications"
     ]
   },
   "deltaBfb1224h": {
-    "title": "Delta Electronics BFB1224H BLDC Exhaust Motor",
-    "description": "Delta Electronics BFB1224H BLDC exhaust motor with 120mm size. 24VDC operation with 70,000 hour lifespan for long-term reliability.",
+    "title": "Delta Electronics BFB1224H  Exhaust Motor",
+    "description": "Delta Electronics BFB1224H  exhaust motor with 120mm size. 24VDC operation with 70,000 hour lifespan for long-term reliability.",
     "features": [
       "120mm size",
       "24VDC operation",
       "70,000 hour life",
-      "BLDC technology",
+      " technology",
       "Exhaust motor",
       "Long lifespan"
     ]
@@ -5979,61 +5184,61 @@
     ]
   },
   "nidecG1238b": {
-    "title": "Nidec G1238B Industrial BLDC Motor",
-    "description": "Nidec G1238B DC axial BLDC motor rated at 38W. 12cm size with variable speed control for industrial grade applications.",
+    "title": "Nidec G1238B Industrial  Motor",
+    "description": "Nidec G1238B DC axial  motor rated at 38W. 12cm size with variable speed control for industrial grade applications.",
     "features": [
       "38W power rating",
       "12cm size",
       "Variable speed control",
-      "DC axial BLDC",
+      "DC axial ",
       "Industrial grade",
       "Flexible operation"
     ]
   },
   "nidecGentletyphoonD1225c12": {
     "title": "Nidec GentleTyphoon D1225C12 Ultra-Quiet Cooler Motor",
-    "description": "Nidec GentleTyphoon D1225C12 BLDC cooler motor operating at 1850 RPM with 12VDC. Ultra-quiet operation for precision cooling.",
+    "description": "Nidec GentleTyphoon D1225C12  cooler motor operating at 1850 RPM with 12VDC. Ultra-quiet operation for precision cooling.",
     "features": [
       "12VDC operation",
       "1850 RPM speed",
       "Ultra-quiet operation",
-      "BLDC cooler motor",
+      " cooler motor",
       "Precision cooling",
       "Low vibration"
     ]
   },
   "orientalBle2m25s5": {
-    "title": "Oriental Motor BLE2M25S-5 BLDC Cooling Motor",
-    "description": "Oriental Motor BLE2M25S-5 BLDC motor with 25W capacity and speed control. 24VDC operation for cooling applications.",
+    "title": "Oriental Motor BLE2M25S-5  Cooling Motor",
+    "description": "Oriental Motor BLE2M25S-5  motor with 25W capacity and speed control. 24VDC operation for cooling applications.",
     "features": [
       "25W power rating",
       "24VDC operation",
       "Speed control",
-      "BLDC motor",
+      " motor",
       "Cooling application",
       "Variable speed"
     ]
   },
   "deltaAfb1212she": {
-    "title": "Delta Electronics AFB1212SHE High Pressure BLDC Motor",
-    "description": "Delta Electronics AFB1212SHE BLDC motor with 120mm size. 12VDC operation with high static pressure for demanding cooling.",
+    "title": "Delta Electronics AFB1212SHE High Pressure  Motor",
+    "description": "Delta Electronics AFB1212SHE  motor with 120mm size. 12VDC operation with high static pressure for demanding cooling.",
     "features": [
       "120mm size",
       "12VDC operation",
       "High static pressure",
-      "BLDC technology",
+      " technology",
       "Demanding applications",
       "Reliable cooling"
     ]
   },
   "nidecBetaVTa450dc": {
     "title": "Nidec Beta V TA450DC PWM Cooling Motor",
-    "description": "Nidec Beta V TA450DC BLDC cooling motor with PWM control. 12VDC operation at 4500 RPM for high performance cooling.",
+    "description": "Nidec Beta V TA450DC  cooling motor with PWM control. 12VDC operation at 4500 RPM for high performance cooling.",
     "features": [
       "12VDC operation",
       "PWM control",
       "4500 RPM speed",
-      "BLDC cooling motor",
+      " cooling motor",
       "High performance",
       "Variable speed"
     ]
@@ -6051,62 +5256,62 @@
     ]
   },
   "orientalMd8p48": {
-    "title": "Oriental Motor MD-8P48 BLDC Ventilation Motor",
-    "description": "Oriental Motor MD-8P48 BLDC ventilation motor rated at 48W with 24VDC operation. IP55 protection delivering up to 883 CFM.",
+    "title": "Oriental Motor MD-8P48  Ventilation Motor",
+    "description": "Oriental Motor MD-8P48  ventilation motor rated at 48W with 24VDC operation. IP55 protection delivering up to 883 CFM.",
     "features": [
       "48W power rating",
       "24VDC operation",
       "IP55 protection",
       "883 CFM max airflow",
-      "BLDC ventilation",
+      " ventilation",
       "High capacity"
     ]
   },
   "nidecG1751m": {
-    "title": "Nidec G1751M High Capacity BLDC Ventilation Motor",
-    "description": "Nidec G1751M BLDC motor with 17cm size and 51W power. 24VDC operation with high capacity and low vibration.",
+    "title": "Nidec G1751M High Capacity  Ventilation Motor",
+    "description": "Nidec G1751M  motor with 17cm size and 51W power. 24VDC operation with high capacity and low vibration.",
     "features": [
       "17cm size",
       "51W power rating",
       "24VDC operation",
       "High capacity",
       "Low vibration",
-      "BLDC technology"
+      " technology"
     ]
   },
   "deltaBfb1512vh": {
-    "title": "Delta Electronics BFB1512VH BLDC Ventilation Motor",
-    "description": "Delta Electronics BFB1512VH BLDC ventilation motor with 150mm size. 12VDC operation delivering 260 CFM airflow.",
+    "title": "Delta Electronics BFB1512VH  Ventilation Motor",
+    "description": "Delta Electronics BFB1512VH  ventilation motor with 150mm size. 12VDC operation delivering 260 CFM airflow.",
     "features": [
       "150mm size",
       "12VDC operation",
       "260 CFM airflow",
-      "BLDC ventilation",
+      " ventilation",
       "High performance",
       "Efficient operation"
     ]
   },
   "orientalBmu23005": {
-    "title": "Oriental Motor BMU230-05 BLDC Ventilation Unit",
-    "description": "Oriental Motor BMU230-05 BLDC motor unit with speed control. 230VAC operation for ventilation applications.",
+    "title": "Oriental Motor BMU230-05  Ventilation Unit",
+    "description": "Oriental Motor BMU230-05  motor unit with speed control. 230VAC operation for ventilation applications.",
     "features": [
       "230VAC operation",
       "Speed control",
-      "BLDC motor unit",
+      " motor unit",
       "Ventilation application",
       "Variable speed",
       "Industrial grade"
     ]
   },
   "nidecD08a12ts1": {
-    "title": "Nidec D08A-12TS1 Speed Detection BLDC Motor",
-    "description": "Nidec D08A-12TS1 BLDC motor with 80mm size and pulse output. 12VDC operation with speed detection capability.",
+    "title": "Nidec D08A-12TS1 Speed Detection  Motor",
+    "description": "Nidec D08A-12TS1  motor with 80mm size and pulse output. 12VDC operation with speed detection capability.",
     "features": [
       "80mm size",
       "12VDC operation",
       "Pulse output",
       "Speed detection",
-      "BLDC motor",
+      " motor",
       "Feedback control"
     ]
   },
@@ -7804,7 +7009,10 @@
         "Pharmaceutical",
         "Food & Beverage"
       ],
-      "certifications": ["ISO 9001", "CE Marking"],
+      "certifications": [
+        "ISO 9001",
+        "CE Marking"
+      ],
       "keywords": {
         "industrialAutomation": "industrial automation",
         "processControl": "process control",

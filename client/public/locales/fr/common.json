@@ -53,7 +53,6 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Moteurs CC sans balais)",
     "PLC": "PLC (Automate programmable)",
     "SCADA": "SCADA (Contrôle de supervision et acquisition de données)",
     "HMI": "HMI (Interface homme-machine)",
@@ -79,7 +78,6 @@
     "discussProject": "Discuter du projet",
     "viewDetails": "Voir les détails",
     "backTo": "Retour à",
-    "backToBldcProducts": "Retour aux produits à moteur CC sans balais (BLDC)",
     "backToProducts": "Retour aux produits",
     "backToCategory": "Retour à la catégorie",
     "requestQuote": "Demander un devis",
@@ -252,7 +250,6 @@
   },
   "headings": {
     "phoneNumbers": "Numéros de téléphone",
-    "bldcCeilingFanModels": "Modèles de ventilateurs de plafond BLDC",
     "ourProducts": "Nos produits",
     "specifications": "Spécifications",
     "keyFeatures": "Principales caractéristiques",
@@ -499,7 +496,6 @@
     },
     "categories": {
       "automationControl": "Systèmes d'automatisation et de contrôle",
-      "bldcMotors": "Systèmes de moteurs BLDC",
       "electricalComponents": "Composants électriques",
       "measurementInstrumentation": "Mesure et instrumentation",
       "industrialTools": "Outils et équipement industriels",
@@ -571,11 +567,7 @@
       "handTools": "Outils manuels",
       "powerTools": "Outils électriques",
       "cuttingTools": "Outils de coupe",
-      "liftingEquipment": "Équipement de levage",
-      "bldcCeilingFan": "Ventilateur de plafond BLDC",
-      "bldcCoolerExhaustMotor": "Moteurs de refroidisseur et d'échappement BLDC",
-      "bldcSubmersibleSurfacePump": "Pompe de surface submersible BLDC",
-      "bldcTableFanWallFanMotor": "Moteurs de ventilateur de table et mural BLDC"
+      "liftingEquipment": "Équipement de levage"
     },
     "descriptions": {
       "home": "Bienvenue chez Powerton Engineering - Solutions d'automatisation industrielle",
@@ -627,10 +619,6 @@
       "powerToolsDescription": "Outils électriques",
       "cuttingToolsDescription": "Outils de coupe",
       "liftingEquipmentDescription": "Équipement de levage",
-      "bldcCeilingFanDescription": "Ventilateurs de plafond BLDC à haut rendement énergétique",
-      "bldcCoolerExhaustMotorDescription": "Moteurs BLDC pour refroidisseurs et extracteurs",
-      "bldcSubmersibleSurfacePumpDescription": "Pompe BLDC",
-      "bldcTableFanWallFanMotorDescription": "Moteurs BLDC pour ventilateurs de table et muraux",
       "requestQuoteDescription": "Obtenez un devis détaillé pour votre projet d'ingénierie",
       "downloadPortfolioDescription": "Téléchargez une liste de projets et des documents",
       "customSolutionsDescription": "Solutions d'ingénierie sur mesure pour des besoins industriels uniques",

@@ -35,7 +35,6 @@ import {
 
 // Import background images
 import automationBgImage from "@assets/generated_images/Industrial_PLC_Control_Panel_54555fe9.png";
-import bldcBgImage from "@assets/generated_images/BLDC_Motor_Systems_a48f6e6f.png";
 import electricalBgImage from "@assets/generated_images/Electrical_Components_Warehouse_31ec85d7.png";
 import instrumentationLabImage from "@assets/generated_images/Instrumentation_components_laboratory_58f97192.png";
 import measurementLabImage from "@assets/generated_images/Precision_measurement_instruments_lab_b82030f8.png";

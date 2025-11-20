@@ -53,7 +53,6 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC（ブラシレスDCモーター）",
     "PLC": "PLC（プログラマブルロジックコントローラー）",
     "SCADA": "SCADA（監視制御およびデータ収集）",
     "HMI": "HMI（ヒューマンマシンインターフェース）",
@@ -79,7 +78,6 @@
     "discussProject": "プロジェクトについて話し合う",
     "viewDetails": "詳細を見る",
     "backTo": "戻る",
-    "backToBldcProducts": "ブラシレスDC（BLDC）モーター製品に戻る",
     "backToProducts": "製品に戻る",
     "backToCategory": "カテゴリに戻る",
     "requestQuote": "お見積もりを依頼する",
@@ -252,7 +250,6 @@
   },
   "headings": {
     "phoneNumbers": "電話番号",
-    "bldcCeilingFanModels": "BLDCシーリングファンモデル",
     "ourProducts": "当社の製品",
     "specifications": "仕様",
     "keyFeatures": "主な機能",
@@ -499,7 +496,6 @@
     },
     "categories": {
       "automationControl": "オートメーションおよび制御システム",
-      "bldcMotors": "BLDCモーターシステム",
       "electricalComponents": "電気部品",
       "measurementInstrumentation": "測定および計装",
       "industrialTools": "産業用ツール",
@@ -572,11 +568,7 @@
       "handTools": "ハンドツール",
       "powerTools": "電動工具",
       "cuttingTools": "切削工具",
-      "liftingEquipment": "吊り上げ装置",
-      "bldcCeilingFan": "BLDCシーリングファン",
-      "bldcCoolerExhaustMotor": "クーラーおよび排気用BLDCモーター",
-      "bldcSubmersibleSurfacePump": "BLDC水中ポンプ",
-      "bldcTableFanWallFanMotor": "BLDCテーブルファンおよびウォールファンモーター"
+      "liftingEquipment": "吊り上げ装置"
     },
     "descriptions": {
       "home": "Powerton Engineeringへようこそ - 産業オートメーションソリューション",
@@ -628,10 +620,6 @@
       "powerToolsDescription": "建設タスク用の電動工具",
       "cuttingToolsDescription": "金属加工用の切削工具",
       "liftingEquipmentDescription": "重量物を移動するための吊り上げ装置",
-      "bldcCeilingFanDescription": "エネルギー効率の高いBLDCシーリングファン",
-      "bldcCoolerExhaustMotorDescription": "クーラーおよび排気用のBLDCモーター",
-      "bldcSubmersibleSurfacePumpDescription": "水用途向けのBLDCポンプ",
-      "bldcTableFanWallFanMotorDescription": "テーブルファンおよびウォールファン用のBLDCモーター",
       "requestQuoteDescription": "エンジニアリングプロジェクトの詳細な見積もりを入手する",
       "downloadPortfolioDescription": "当社の包括的なプロジェクトドキュメントをダウンロードする",
       "customSolutionsDescription": "独自の産業要件に合わせたエンジニアリングソリューション",

@@ -115,7 +115,12 @@
         "circuit-breakers-fuses": {
           "title": "Masu Kariya ta Zagaye & Fuses",
           "description": "Na'urorin kariya don kewayoyin lantarki da amincin kayan aiki",
-          "features": ["MCBs", "MCCBs", "RCCBs", "Fuses na Masana'antu"]
+          "features": [
+            "MCBs",
+            "MCCBs",
+            "RCCBs",
+            "Fuses na Masana'antu"
+          ]
         },
         "power-supplies": {
           "title": "Samar da Wutar Lantarki",
@@ -208,7 +213,12 @@
         "solar-inverters": {
           "title": "Inverters na Hasken Rana",
           "description": "Canza wutar lantarki ta DC zuwa AC don tsarin hasken rana",
-          "features": ["Grid-Tie", "Off-Grid", "Tsarin Hybrid", "Fasahar MPPT"]
+          "features": [
+            "Grid-Tie",
+            "Off-Grid",
+            "Tsarin Hybrid",
+            "Fasahar MPPT"
+          ]
         }
       },
       "cta": {
@@ -220,7 +230,12 @@
     "automation-control-systems": {
       "title": "Tsarin Aiki da Kai & Sarrafawa",
       "description": "Ci-gaban aiki da kai da hanyoyin sarrafawa don sarrafa tsarin masana'antu da haɓakawa",
-      "badges": ["PLCs", "SCADA", "DCS", "HMI"],
+      "badges": [
+        "PLCs",
+        "SCADA",
+        "DCS",
+        "HMI"
+      ],
       "sectionTitle": "Maganin Tsarin Sarrafawa",
       "subcategories": {
         "plcs": {
@@ -513,64 +528,6 @@
         "title": "Kuna Bukatar Kayan Aiki & Maganin Aunawa?",
         "description": "Kwararrunmu za su iya taimaka muku zaɓi kayan aiki da kayan auna kayan aiki masu dacewa don aikace-aikacen masana'antu.",
         "contactButtonText": "Tuntube Kwararrunmu"
-      }
-    },
-    "bldc": {
-      "title": "Tsarin Mota na BLDC",
-      "description": "Ingantattun hanyoyin magance motar DC marasa goge don aikace-aikacen masana'antu da kasuwanci",
-      "badges": [
-        "Motocin BLDC",
-        "Mai Amfani da Makamashi",
-        "Ƙananan Kulawa",
-        "Sarrafa Mai Wayo"
-      ],
-      "sectionTitle": "Maganin BLDC",
-      "subcategories": {
-        "bldc-cooler-exhaust-motor": {
-          "title": "BLDC Motocin Sanyaya & Shayarwa",
-          "description": "Manyan motoci masu inganci don aikace-aikacen sanyaya da samun iska",
-          "features": [
-            "Mai Amfani da Makamashi",
-            "Ƙananan Amooti",
-            "Dogon Rai",
-            "Gudun Bambancin"
-          ]
-        },
-        "bldc-ceiling-fan": {
-          "title": "Fanka Rufi na BLDC",
-          "description": "Fanka rufi masu wayo tare da ci-gaban fasahar ceton makamashi",
-          "features": [
-            "Ramut",
-            "Ajiye Makamashi",
-            "Aiki Mai Shiru",
-            "Fasalolin Wayo"
-          ]
-        },
-        "bldc-submersible-surface-pump": {
-          "title": "BLDC Famfunan Ruwa & na Sama",
-          "description": "Maganin famfon ruwa tare da fasahar motar BLDC",
-          "features": [
-            "Ƙirar Ruwa",
-            "Babban Inganci",
-            "Mai Jure Lalata",
-            "Mai Jituwa da Hasken Rana"
-          ]
-        },
-        "bldc-table-fan-wall-fan-motor": {
-          "title": "BLDC Motocin Fanka na Tebur & Bango",
-          "description": "Ƙananan motocin BLDC don fanka mai ɗaukuwa da na bango",
-          "features": [
-            "Ƙaramin Girma",
-            "Mai Amfani da Makamashi",
-            "Aiki Mai Shiru",
-            "Sarrafa Gudu"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Haɓaka zuwa Fasahar BLDC?",
-        "description": "Kwararrunmu na BLDC za su iya taimaka muku canzawa zuwa ingantattun hanyoyin magance motar DC marasa goge.",
-        "contactButtonText": "Tuntube Kwararrun BLDC"
       }
     }
   },
@@ -2996,242 +2953,6 @@
         "description": "Mitan panel gami da ammeters/voltmeters na analog, mitoci na dijital, mitoci na ƙarfin wuta, da mitoci masu aiki da yawa don kula da aunawa wutar lantarki ta masana'antu.",
         "keywords": "mitan panel, ammeter analog, voltmeter analog, mitoci na dijital, mita ƙarfin wuta, mita mai aiki da yawa, mitar makamashi, mitar hawa panel"
       }
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "BLDC Mai sanyaya & Motocin Shayarwa",
-      "shortDescription": "Babban ingancin motocin BLDC don na'urorin sanyaya da fanka masu shayarwa",
-      "fullDescription": "Motocin BLDC masu ci gaba da aka tsara don na'urorin sanyaya hamada da fanka masu shayarwa tare da inganci mafi girma, dorewa, da aiki.",
-      "parentCategoryTitle": "Kayayyakin BLDC",
-      "keyBenefits": [
-        "Mai Amfani da Makamashi",
-        "Ƙananan Amooti",
-        "Babban Dorewa",
-        "Mai Jure Yanayi"
-      ],
-      "specifications": [
-        "Ƙarfi: 35W zuwa 85W",
-        "Wutar Lantarki: 220V AC",
-        "Gudu: 1400-1800 RPM",
-        "Yawan Iska: Babban CFM",
-        "Kariya: IP44",
-        "Inganci: >85%"
-      ],
-      "applications": [
-        "Na'urorin sanyaya Hamada",
-        "Fanka Masu Shayarwa",
-        "Tsarin Samun Iska",
-        "Sanyaya Masana'antu",
-        "Shayar da Gidan Abinci",
-        "Samun Iskar Banɗaki"
-      ],
-      "industries": [
-        "HVAC",
-        "Zama",
-        "Gine-ginen Kasuwanci",
-        "Samun Iskar Masana'antu",
-        "Sabis na Abinci",
-        "Masana'antu"
-      ],
-      "features": [
-        "Fasahar BLDC",
-        "Babban Inganci",
-        "Ƙananan Kulawa",
-        "Mai Jure Tsatsa",
-        "Kariyar Zafi",
-        "Tsawon Rayuwar Sabis",
-        "Aiki Mai Shiru",
-        "Mai Jure Yanayi"
-      ],
-      "certifications": [
-        "BEE Mai Takarda",
-        "Alamar ISI",
-        "CE Mai Amincewa",
-        "IP44 Rated",
-        "RoHS Mai Yardarwa",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "BLDC Mai sanyaya & Motocin Shayarwa - Babban Ingancin Motocin BLDC | Injiniyan Powerton",
-        "description": "Babban ingancin motocin BLDC don na'urorin sanyaya hamada da fanka masu shayarwa. Motocin DC marasa goge goge masu ceton makamashi tare da tsawon rayuwar sabis.",
-        "keywords": "BLDC motocin sanyaya, BLDC motocin shayarwa, motocin DC marasa goge goge, motocin ceton makamashi, motocin sanyaya, motocin fanka masu shayarwa"
-      }
-    },
-    "bldc-ceiling-fan": {
-      "title": "Fanka Rufi na BLDC",
-      "shortDescription": "Fanka rufi na DC marasa goge goge masu amfani da makamashi",
-      "fullDescription": "Fanka rufi na BLDC masu inganci tare da fasahar ceton makamashi, sarrafa wayo, da aiki mafi girma don aikace-aikacen zama da kasuwanci.",
-      "parentCategoryTitle": "Kayayyakin BLDC",
-      "keyBenefits": [
-        "Har zuwa 65% Tanadin Makamashi",
-        "Aiki Mai Shiru",
-        "Ramut",
-        "Tsawon Rayuwar Sabis"
-      ],
-      "specifications": [
-        "Ƙarfin Mota: 28W zuwa 52W",
-        "Gudu: 1200-1600 RPM",
-        "Yawan Iska: 200-280 CMM",
-        "Wutar Lantarki: 220V AC",
-        "Sweep: 1200mm zuwa 1600mm",
-        "Ƙimar Makamashi: 5 Star BEE"
-      ],
-      "applications": [
-        "Dakunan Zama",
-        "Wuraren Ofis",
-        "Gine-ginen Kasuwanci",
-        "Baƙi",
-        "Cibiyoyin Ilimi",
-        "Cibiyoyin Kiwon Lafiya"
-      ],
-      "industries": [
-        "Ginin Zama",
-        "Kasuwancin Gidaje",
-        "Baƙi",
-        "Kiwon Lafiya",
-        "Ilimi",
-        "Siyayya"
-      ],
-      "features": [
-        "Fasahar Mota ta BLDC",
-        "Ramut",
-        "Gudun Sauyawa",
-        "Yanayin Juyawa",
-        "Aikin Lokaci",
-        "Alamun LED",
-        "Ruwan Aerodynamic",
-        "Aiki Mai Shiru"
-      ],
-      "certifications": [
-        "BEE 5 Star Rated",
-        "Alamar ISI",
-        "CE Mai Amincewa",
-        "RoHS Mai Yardarwa",
-        "Energy Star",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Fanka Rufi na BLDC - Fanka DC marasa goge goge masu Amfani da Makamashi | Injiniyan Powerton",
-        "description": "Fanka rufi na BLDC masu inganci tare da ƙimar BEE mai taurari 5. Ramut mai wayo, aiki mai shiru, da har zuwa 65% tanadin makamashi.",
-        "keywords": "Fanka rufi na BLDC, fanka masu amfani da makamashi, fanka DC marasa goge goge, fanka rufi masu wayo, fanka rufi masu taurari 5, fanka masu ramut"
-      }
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "BLDC Famfunan da ke Ruwa & na Sama",
-      "shortDescription": "Famfunan ruwa na BLDC masu jituwa da hasken rana don ban ruwa da samar da ruwa",
-      "fullDescription": "Ci-gaban famfunan da ke ruwa da na sama na BLDC tare da jituwa da hasken rana, inganci mai girma, da aiki mai aminci don aikace-aikacen noma da na gida.",
-      "parentCategoryTitle": "Kayayyakin BLDC",
-      "keyBenefits": [
-        "Mai Jituwa da Hasken Rana",
-        "Mai Amfani da Makamashi",
-        "Ƙananan Kulawa",
-        "Babban Amincewa"
-      ],
-      "specifications": [
-        "Ƙarfi: 0.5HP zuwa 5HP",
-        "Kai: 10m zuwa 150m",
-        "Yawan Gudun Ruwa: 10 zuwa 150 LPM",
-        "Wutar Lantarki: 48V/110V/220V DC",
-        "Hasken Rana: MPPT Mai Jituwa",
-        "Inganci: >85%"
-      ],
-      "applications": [
-        "Ban Ruwa na Noma",
-        "Samar da Ruwan Gida",
-        "Fitar da Ruwa ta Hasken Rana",
-        "Shayar da Dabbobi",
-        "Ban Ruwa na Lambu",
-        "Canja wurin Ruwa"
-      ],
-      "industries": [
-        "Noma",
-        "Makamashin Hasken Rana",
-        "Zama",
-        "Ci gaban Karkara",
-        "Ban Ruwa",
-        "Gudanar da Ruwa"
-      ],
-      "features": [
-        "Mota ta BLDC",
-        "Mai Jituwa da Hasken Rana",
-        "Fasahar MPPT",
-        "Jikin Bakin Karfe",
-        "Kariyar Bushewar Gudu",
-        "Kariyar Zafi",
-        "Babban Inganci",
-        "Ƙananan Kulawa"
-      ],
-      "certifications": [
-        "BEE Mai Takarda",
-        "Alamar ISI",
-        "CE Mai Amincewa",
-        "Hasken Rana Mai Takarda",
-        "IP68 Rated",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Famfunan Ruwa na BLDC - Famfunan da ke Ruwa & na Sama ta Hasken Rana | Injiniyan Powerton",
-        "description": "Famfunan ruwa na BLDC masu jituwa da hasken rana don ban ruwa da amfanin gida. Famfunan da ke ruwa da na sama masu ceton makamashi tare da fasahar MPPT.",
-        "keywords": "Famfunan ruwa na BLDC, famfunan ruwa na hasken rana, famfunan da ke ruwa na BLDC, famfunan hasken rana, famfunan DC marasa goge goge, famfunan ban ruwa"
-      }
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC Motocin Fanka na Tebur & Bango",
-      "shortDescription": "Ƙananan motocin BLDC don fanka na tebur da bango",
-      "fullDescription": "Motocin BLDC masu amfani da makamashi da aka tsara don fanka na tebur da bango tare da aiki mafi girma, ƙananan amo, da tsawaita rayuwar sabis.",
-      "parentCategoryTitle": "Kayayyakin BLDC",
-      "keyBenefits": [
-        "Ƙirar Ƙarami",
-        "Tanadin Makamashi",
-        "Aiki Mai Shiru",
-        "Tsawon Rai"
-      ],
-      "specifications": [
-        "Ƙarfi: 25W zuwa 45W",
-        "Gudu: 1200-1800 RPM",
-        "Wutar Lantarki: 220V AC",
-        "Yawan Iska: 60-90 CMM",
-        "Amooti: <40dB",
-        "Inganci: >80%"
-      ],
-      "applications": [
-        "Fanka na Tebur",
-        "Fanka na Bango",
-        "Fanka na Tushe",
-        "Sanyaya Kai",
-        "Samun Iskar Ofis",
-        "Sanyaya Ɗaki"
-      ],
-      "industries": [
-        "Kayan Lantarki na Mabukaci",
-        "Zama",
-        "Kasuwanci",
-        "Baƙi",
-        "Kayan Aikin Ofis",
-        "Siyayya"
-      ],
-      "features": [
-        "Fasahar BLDC",
-        "Babban Inganci",
-        "Aiki Mai Shiru",
-        "Gudun Sauyawa",
-        "Girman Ƙarami",
-        "Ƙananan Zafi",
-        "Tsawon Rayuwar Sabis",
-        "Energy Star Rated"
-      ],
-      "certifications": [
-        "BEE 5 Star",
-        "Alamar ISI",
-        "CE Mai Amincewa",
-        "RoHS Mai Yardarwa",
-        "Energy Star",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "BLDC Motocin Fanka na Tebur & Bango - Motocin Fanka Masu Amfani da Makamashi | Injiniyan Powerton",
-        "description": "Ƙananan motocin BLDC don fanka na tebur da bango. Motocin DC marasa goge goge masu ceton makamashi tare da aiki mai shiru da tsawon rayuwar sabis.",
-        "keywords": "BLDC motocin fanka, motocin fanka na tebur, motocin fanka na bango, motocin amfani da makamashi, motocin DC marasa goge goge, motocin fanka"
-      }
     }
   },
   "surgeProtectors": {
@@ -3288,223 +3009,6 @@
     "type": "Nau'in Kebul",
     "awg": "Girman Mai Gudanarwa",
     "temperature": "Matsayin Zafin Jiki"
-  },
-  "bldc-smart1200": {
-    "seo": {
-      "title": "BLDC Smart Fanka Rufi 1200 RPM - Mai Amfani da Wutar Lantarki | Injiniyan Powerton",
-      "description": "Babban ingancin BLDC Smart Fanka Rufi 1200 RPM tare da ramut, aikin lokaci, da fasahar ceton makamashi. Cikakke ga gidaje da ofisoshi.",
-      "keywords": "BLDC fanka rufi, smart fanka rufi, fanka mai amfani da wutar lantarki, 1200 RPM fanka rufi, brushless DC mota fanka, ramut control fanka"
-    },
-    "hero": {
-      "title": "BLDC Smart Fanka Rufi 1200 RPM",
-      "subtitle": "Fanka mai wayo mai amfani da wutar lantarki tare da ramut"
-    },
-    "overview": {
-      "fullDescription": "Smart BLDC Fanka Rufin mu 1200 RPM ya haɗu da sabuwar fasahar motar DC mara goge tare da fasalulluka masu wayo don ingantaccen amfani da wutar lantarki da kwanciyar hankali. An ƙera shi don zama da aikace-aikacen kasuwanci masu sauƙi, wannan fanka yana ba da ingantaccen aiki yayin da yake cinye har zuwa 65% ƙarancin wutar lantarki fiye da fanka na gargajiya."
-    },
-    "keyBenefits": [
-      "Har zuwa 65% Tanadin Makamashi",
-      "Ramut Mai Wayo",
-      "Aiki Mai Shiru",
-      "Tsawon Rayuwa"
-    ],
-    "features": [
-      "Fasahar Mota DC Mara Goge",
-      "Ramut Mai Wayo tare da Lokaci",
-      "Sarrafa Gudun Bambance-bambance",
-      "Siffar Juyawa Baya",
-      "Nuna Alamar LED",
-      "Ƙimar Tauraron Makamashi",
-      "Mota Mai ɗauke da Jan Ƙarfe",
-      "Ƙirar Ruwa Mai Aerodynamic"
-    ],
-    "applications": [
-      "Dakunan Kwanciya na Gida",
-      "Dakunan Zama",
-      "Ofisoshi",
-      "Dakunan Karatu",
-      "Dakunan Baƙi",
-      "Ƙananan Wuraren Kasuwanci"
-    ],
-    "industries": [
-      "Ginin Gida",
-      "Kayan Ciki",
-      "Baƙi",
-      "Gine-ginen Ofisoshi",
-      "Cibiyoyin Ilimi",
-      "Cibiyoyin Kiwon Lafiya"
-    ],
-    "certifications": [
-      "Tauraron Makamashi Mai Takarda",
-      "Alamar ISI",
-      "CE Mai Amincewa",
-      "RoHS Mai Yardarwa",
-      "BEE 5 Taurari"
-    ]
-  },
-  "bldc-premium1400": {
-    "title": "Fanka Rufi Mai Kyau ta BLDC 1400mm",
-    "description": "Babban fanka mai aiki da wutar lantarki ta 52W brushless DC mai diamita mai faɗin 1400mm. Zane mai kyau wanda ke fasalta sarrafa wayo, haɗin hasken LED, da ingantaccen amfani da makamashi don manyan ɗakuna da wuraren kasuwanci.",
-    "features": [
-      "Motar 52W mai kyau tare da ƙimar makamashi mai taurari 5",
-      "Ramut mai wayo tare da sarrafa hasken LED",
-      "Babban iska mai shiga na 240 CMM don manyan wurare",
-      "Hasken LED Haɗe tare da sarrafa dimmer",
-      "Advanced aerodynamic blade design",
-      "Aiki mai shiru sosai ƙasa da 30dB",
-      "Garanti mai kyau na shekaru 5"
-    ],
-    "seo": {
-      "title": "BLDC Premium Fanka Rufi 1400 RPM - Fasali Masu Ci Gaba | Injiniyan Powerton",
-      "description": "Premium BLDC Fanka Rufi 1400 RPM tare da fasalulluka masu wayo, babban iska mai shiga, da fasahar motar brushless mai amfani da makamashi.",
-      "keywords": "premium BLDC fanka rufi, 1400 RPM fanka rufi, fanka mai ci gaba, fanka mai wayo, babban fanka mai iska, mai amfani da makamashi"
-    },
-    "hero": {
-      "title": "BLDC Premium Fanka Rufi 1400 RPM",
-      "subtitle": "Babban fanka mai aiki tare da hasken LED"
-    },
-    "overview": {
-      "fullDescription": "Premium BLDC Fanka Rufi 1400 RPM yana wakiltar kololuwar fasahar fanka rufi tare da fasalulluka masu ci gaba da ingancin gini. An ƙera shi don ingantaccen aiki tare da isar da iska mai girma yayin kiyaye ingantaccen amfani da makamashi don aikace-aikacen zama da kasuwanci masu kyau."
-    },
-    "keyBenefits": [
-      "Babban Ayyukan Iska",
-      "Sarrafa Wayo Mai Ci Gaba",
-      "Ingancin Gina Mai Kyau",
-      "Tsawaita Garanti"
-    ],
-    "applications": [
-      "Wuraren Zama Masu Kyau",
-      "Manyan Dakuna",
-      "Manyan Wuraren Zama",
-      "Ofisoshin Zartarwa",
-      "Dakunan Taro",
-      "Otal-otal Masu Alatu"
-    ],
-    "industries": [
-      "Zama Mai Kyau",
-      "Baƙi Mai Alatu",
-      "Ofisoshin Kamfanoni",
-      "Siyayya Mai Girma",
-      "Kiwon Lafiya Mai Kyau",
-      "Ilimi Mai Girma"
-    ],
-    "certifications": [
-      "Tauraron Makamashi Mai Takarda",
-      "Alamar ISI",
-      "CE Mai Amincewa",
-      "RoHS Mai Yardarwa",
-      "BEE 5 Taurari",
-      "WiFi Alliance Certified"
-    ]
-  },
-  "bldc-commercial1500": {
-    "title": "Fanka Rufi na Kasuwanci ta BLDC 1500mm",
-    "description": "Babban fanka mai nauyin 65W brushless DC wanda aka ƙera don aikace-aikacen kasuwanci da masana'antu. Babban ƙarfin iska mai shiga na 300 CFM tare da ginin ƙarfi don ci gaba da aiki a cikin mahalli masu buƙata.",
-    "features": [
-      "Babban motar kasuwanci mai nauyin 65W",
-      "Babban ƙarfin iska mai shiga 300 CFM",
-      "Ginin ƙarfi don ci gaba da aiki",
-      "Kasuwanci-aji 1500mm sweep",
-      "Ƙarfafa dorewa da aminci",
-      "Ya dace da shaguna da masana'antu",
-      "Tsawaita garanti na kasuwanci na shekaru 3"
-    ],
-    "seo": {
-      "title": "BLDC Fanka Rufi na Kasuwanci 1500 RPM - Mai Nauyi | Injiniyan Powerton",
-      "description": "BLDC Fanka Rufi na Kasuwanci 1500 RPM wanda aka ƙera don aikace-aikace masu nauyi tare da iyakar iska da amincin masana'antu.",
-      "keywords": "kasuwanci BLDC fanka rufi, fanka rufi na masana'antu, 1500 RPM fanka, babban fanka mai nauyi, aji na kasuwanci, babban iska"
-    },
-    "hero": {
-      "title": "BLDC Fanka Rufi na Kasuwanci 1500 RPM",
-      "subtitle": "Babban fanka mai nauyi don aikace-aikacen kasuwanci"
-    },
-    "overview": {
-      "fullDescription": "Fanka Rufi na Kasuwanci ta BLDC 1500 RPM an ƙera shi don aikace-aikace masu nauyi na kasuwanci waɗanda ke buƙatar iyakar iska da aminci. An gina shi da kayan aikin masana'antu da fasahar motar ci gaba don isar da daidaitaccen aiki a cikin mahalli masu buƙata yayin kiyaye amfani da makamashi."
-    },
-    "keyBenefits": [
-      "Isar da Iska Mai Girma",
-      "Amincewa da Aji na Masana'antu",
-      "Gina Mai Nauyi",
-      "Tsawaita Kariyar Garanti"
-    ],
-    "applications": [
-      "Gine-ginen Kasuwanci",
-      "Kayayyakin Masana'antu",
-      "Manyan Wuraren Ofis",
-      "Shagunan Siyayya",
-      "Shaguna",
-      "Masana'antun Samarwa"
-    ],
-    "industries": [
-      "Kasuwancin Gidaje",
-      "Masana'antun Masana'antu",
-      "Siyayya & Siyayya",
-      "Shaguna & Dabaru",
-      "Baƙi na Kasuwanci",
-      "Cibiyoyin Ilimi"
-    ],
-    "certifications": [
-      "Tauraron Makamashi Mai Takarda",
-      "Alamar ISI",
-      "CE Mai Amincewa",
-      "RoHS Mai Yardarwa",
-      "BEE 5 Taurari",
-      "Takaddun Shaida na Kasuwanci"
-    ]
-  },
-  "solar-bldc-submersible-1hp": {
-    "seo": {
-      "title": "Solar BLDC Famfon Ruwa Mai ɗaukar Nau'in 1HP - Maganin Ruwa Mai Dorewa | Injiniyan Powerton",
-      "description": "Famfon Ruwa Mai ɗaukar Nau'in BLDC Mai Amfani da Hasken Rana 1HP don ban ruwa na noma da samar da ruwa tare da ci-gaban fasahar hasken rana da ingancin makamashi.",
-      "keywords": "famfon ruwa mai ɗaukar nau'in hasken rana, famfon ruwa na BLDC, famfon ruwa na hasken rana, famfon ruwa mai ɗaukar nau'in 1HP, famfon makamashi mai sabuntawa, famfon noma"
-    },
-    "hero": {
-      "title": "Solar BLDC Famfon Ruwa Mai ɗaukar Nau'in 1HP",
-      "subtitle": "Magani na famfon ruwa mai amfani da hasken rana"
-    },
-    "overview": {
-      "fullDescription": "Solar BLDC Famfon Ruwa Mai ɗaukar Nau'in 1HP ya haɗu da sabuntawar hasken rana tare da ci-gaban fasahar motar brushless don maganin famfon ruwa mai ɗorewa. An ƙera shi don ban ruwa na noma, samar da ruwan gida, da tsarin ruwa mai nisa tare da iyakar inganci da aminci."
-    },
-    "keyBenefits": [
-      "100% Mai Amfani da Hasken Rana",
-      "Sifili Kudin Aiki",
-      "Abokantaka ga Muhalli",
-      "Mai jituwa da Yankin Nesa"
-    ],
-    "features": [
-      "Mota ta BLDC Mai jituwa da Hasken Rana",
-      "An haɗa da Mai Kula da MPPT",
-      "Ƙirar Sanyaya Ruwa",
-      "Kariyar Bushewar Gudu",
-      "Fasahar Fara Mai Laushi",
-      "Kayan da ke Jure Lalata",
-      "Mai jituwa da Canjin iyo",
-      "Tsarin Kula da Nesa"
-    ],
-    "applications": [
-      "Ban ruwa na Noma",
-      "Samar da Ruwan Gida",
-      "Shayar da Dabbobi",
-      "Tsarin Ruwa Mai Nisa",
-      "Samar da Ruwa na Karkara",
-      "Ban ruwa na Lambu"
-    ],
-    "industries": [
-      "Noma & Noma",
-      "Ci gaban Karkara",
-      "Gudanar da Ruwa",
-      "Sabuwar Makamashi",
-      "Tsarin Ban ruwa",
-      "Fasaha Mai Dorewa"
-    ],
-    "certifications": [
-      "Hasken Rana Mai Takarda",
-      "Alamar ISI",
-      "CE Mai Amincewa",
-      "RoHS Mai Yardarwa",
-      "Ƙimar IP68",
-      "MNRE Mai Amincewa"
-    ]
   },
   "instrumentation-cables": {
     "title": "Kebul na Kayan Aiki",
@@ -3565,70 +3069,6 @@
       "title": "Kebul na Kayan Aiki - Daidaitaccen Watsawa Sigina | Injiniyan Powerton",
       "description": "Kebul na kayan aiki masu inganci tare da garkuwar gini don daidaitaccen aunawa da watsawa siginar sarrafawa.",
       "keywords": "kebul na kayan aiki, garkuwar murɗa biyu, kebul na sigina, kebul na aunawa, kebul na sarrafawa, kebul na masana'antu"
-    }
-  },
-  "bldcCeilingFan": {
-    "smart1200": {
-      "name": "Fanka Mai Wayo ta BLDC - 1200mm",
-      "description": "Fanka mai wayo mai amfani da wutar lantarki tare da ramut",
-      "features": [
-        "Amfani da Wuta 28W",
-        "Ramut",
-        "Saitunan Gudu 5",
-        "Aikin Lokaci"
-      ]
-    },
-    "premium1400": {
-      "name": "Fanka Mai Kyau ta BLDC - 1400mm",
-      "description": "Babban fanka mai aiki tare da hasken LED",
-      "features": [
-        "Amfani da Wuta 35W",
-        "Hasken LED Haɗe",
-        "Motar Juyawa",
-        "Aiki Mai Shiru"
-      ]
-    },
-    "commercial1500": {
-      "name": "Fanka ta Kasuwanci ta BLDC - 1500mm",
-      "description": "Babban fanka don aikace-aikacen kasuwanci",
-      "features": [
-        "Amfani da Wuta 45W",
-        "Babban Mota",
-        "Babban Gudun Iska",
-        "Gina Mai Dorewa"
-      ]
-    }
-  },
-  "bldcCoolerExhaust": {
-    "exhaustFan": {
-      "name": "Motocin Fanka Masu Shayarwa na BLDC",
-      "description": "Manyan motoci masu inganci don aikace-aikacen fanka mai shayarwa",
-      "features": [
-        "Gudun Sauyawa",
-        "Ƙananan Amooti",
-        "Mai Amfani da Wuta",
-        "Tsawon Rai"
-      ]
-    },
-    "coolerMotors": {
-      "name": "Motocin Sanyaya na BLDC",
-      "description": "Motoci masu amfani da wutar lantarki don aikace-aikacen sanyaya iska",
-      "features": [
-        "Babban Karfin Juyi",
-        "Mai Jure Yanayi",
-        "Sarrafa Gudu",
-        "Babu Kulawa"
-      ]
-    },
-    "ventilation": {
-      "name": "Motocin Samun Iska na BLDC",
-      "description": "Motoci na musamman don tsarin samun iska na masana'antu",
-      "features": [
-        "Babban CFM",
-        "Yanayin Zafin Jiki",
-        "Mai Jure Girgiza",
-        "Sarrafa Mai Wayo"
-      ]
     }
   },
   "cablesWires": {
@@ -3836,11 +3276,24 @@
         "Food & Beverage",
         "Automotive Manufacturing"
       ],
-      "certifications": ["CE", "UL", "CSA", "ATEX", "IECEx", "SIL 2/3"],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C to +125°C",
         "protection": "IP65/IP67/IP69K",
-        "communication": ["4-20mA", "HART", "Modbus", "Ethernet", "Wireless"],
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
         "accuracy": "±0.1% to ±0.5% of span",
         "power": "24V DC, 115/230V AC, Loop-powered"
       }
@@ -3889,7 +3342,14 @@
         "Pulp & Paper",
         "Mining & Metals"
       ],
-      "certifications": ["SIL 2/3", "ATEX", "IECEx", "FM", "CSA", "NEPSI"],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C to +85°C",
         "protection": "IP66/IP67",
@@ -3902,70 +3362,6 @@
         "accuracy": "±0.05% to ±0.25% of span",
         "power": "10.5-42.4V DC, Loop-powered"
       }
-    }
-  },
-  "bldcSubmersibleSurface": {
-    "solar1HP": {
-      "name": "Famfon Ruwa Mai ɗaukar Nau'in BLDC Mai Amfani da Hasken Rana - 1HP",
-      "description": "Famfon ruwa mai ɗaukar nau'in BLDC mai amfani da hasken rana don rijiyoyin ruwa",
-      "features": [
-        "Mai jituwa da Hasken Rana",
-        "1HP Motor",
-        "Babban Inganci",
-        "Zane Mai Sanyaya Ruwa"
-      ]
-    },
-    "surface2HP": {
-      "name": "Famfon DC na Sama - 2HP",
-      "description": "Babban famfon BLDC na sama mai inganci don ban ruwa",
-      "features": [
-        "2HP Power",
-        "Mai ɗaukar Kai",
-        "Kariyar Bushewar Gudu",
-        "Gudun Sauyawa"
-      ]
-    },
-    "hybrid": {
-      "name": "Tsarin Famfo na BLDC Hybrid",
-      "description": "Tsarin famfo mai hankali tare da ajiyar hasken rana da grid",
-      "features": [
-        "Ayyukan Hybrid",
-        "Mai Kula da Waya",
-        "Kula da Nesa",
-        "Haɓaka Makamashi"
-      ]
-    }
-  },
-  "bldcTableWallFan": {
-    "tableFan": {
-      "name": "Motocin Fanka na Tebur na BLDC",
-      "description": "Ƙananan motocin BLDC don fanka na tebur da na tebur",
-      "features": [
-        "Ƙirar Ƙarami",
-        "Aiki Mai Shiru",
-        "Sarrafa Nesa",
-        "Aikin Lokaci"
-      ]
-    },
-    "wallFan": {
-      "name": "Motocin Fanka na Bango na BLDC",
-      "description": "Motocin fanka da aka ɗora a bango tare da fasahar BLDC",
-      "features": [
-        "Zane Mai ɗauke da Bango",
-        "Aikin Oscillating",
-        "Sarrafa Gudun",
-        "Ajiye Makamashi"
-      ]
-    },
-    "pedestalFan": {
-      "name": "Motocin Fanka na Pedestal na BLDC",
-      "description": "Motocin fanka na pedestal masu daidaitacce",
-      "features": [
-        "Daidaita Tsawo",
-        "Aikin Karkatarwa",
-        "Nuna LED",
-        "Yanayin Barci"
-      ]
     }
   },
   "centrifugalPumps": {
@@ -4046,7 +3442,12 @@
     "industrialConnectors": {
       "name": "Masu Haɗin Masana'antu",
       "description": "Masu haɗin nauyi don aikace-aikacen masana'antu",
-      "features": ["Ƙimar IP67", "Hanyar Kullewa", "Multi-Pin", "Glands na USB"]
+      "features": [
+        "Ƙimar IP67",
+        "Hanyar Kullewa",
+        "Multi-Pin",
+        "Glands na USB"
+      ]
     },
     "signalConnectors": {
       "name": "Masu Haɗin Sigina",
@@ -4717,23 +4118,9 @@
       "Mai saurin haɗin zaren dunƙule"
     ]
   },
-  "atomberg-efficio-1200-bldc": {
-    "title": "Atomberg Efficio 1200mm Fanka Rufi na BLDC",
-    "description": "Babban fanka mai amfani da wutar lantarki ta BLDC daga Atomberg tare da amfani da wutar lantarki 27W kawai da iska mai shiga 236 CMM. Yana fasalta babban ƙimar sabis na 8.7, RF remote control, da tanadin makamashi 65% idan aka kwatanta da fanka na gargajiya.",
-    "features": [
-      "Mafi girman ƙimar sabis na 8.7 CMM/W",
-      "Amfani da wutar lantarki mai ƙarancin gaske 27W",
-      "Babban iska mai shiga 236 CMM",
-      "RF remote tare da yanayin ƙarfafawa & bacci",
-      "Yawan juriya na wutar lantarki 140-285V",
-      "Aiki mai shiru <35dB",
-      "Tanadin makamashi 65% idan aka kwatanta da fanka na gargajiya",
-      "Garantin shekaru 3"
-    ]
-  },
   "havells-efficiencia-neo-1200": {
-    "title": "Havells Efficiencia Neo 1200mm Fanka Rufi na BLDC",
-    "description": "Fanka mai cin nasara ta BLDC daga Havells tare da amfani da wutar lantarki 26W da iska mai shiga 220 CMM. Wanda ya lashe lambar yabo ta National Energy Conservation Award 2021, wanda ke fasalta 100% jan ƙarfe mai jujjuyawa da yanayin sarrafawa mai ci gaba.",
+    "title": "Havells Efficiencia Neo 1200mm Fanka Rufi na ",
+    "description": "Fanka mai cin nasara ta  daga Havells tare da amfani da wutar lantarki 26W da iska mai shiga 220 CMM. Wanda ya lashe lambar yabo ta National Energy Conservation Award 2021, wanda ke fasalta 100% jan ƙarfe mai jujjuyawa da yanayin sarrafawa mai ci gaba.",
     "features": [
       "Wanda ya lashe lambar yabo ta National Energy Conservation Award 2021",
       "Amfani da wutar lantarki mai inganci 26W",
@@ -4743,136 +4130,6 @@
       "Yawan juriya na wutar lantarki 140-280V",
       "Ikon juyawa baya",
       "Garantin shekaru 2+1 (ana iya tsawaita shi zuwa shekaru 5)"
-    ]
-  },
-  "superfan-superx1-1200-bldc": {
-    "title": "Superfan SuperX1 1200mm Fanka Rufi na BLDC",
-    "description": "Fanka ta farko ta BLDC a Indiya daga Superfan tare da amfani da wutar lantarki 35W da ultra-wide voltage range na 90-300V. Yana fasalta garanti na shekaru 5, remote mai aminci, da yanayin iska na halitta don mafi kyawun jin daɗi.",
-    "features": [
-      "Fanka ta farko ta BLDC a Indiya (an ƙaddamar da ita a 2012)",
-      "Ultra-wide voltage range 90-300V",
-      "Babban iska mai shiga 230 CMM",
-      "Fasahar remote control mai aminci",
-      "Yanayin iska na halitta",
-      "Aikin lokaci tare da saituna da yawa",
-      "Tanadin makamashi 56% idan aka kwatanta da fanka na gargajiya",
-      "Garantin shekaru 5"
-    ]
-  },
-  "bldc-deluxe1600": {
-    "title": "Deluxe BLDC Fanka Rufi 1600mm",
-    "description": "Babban fanka mai nauyin 80W brushless DC tare da diamita mai faɗin 1600mm. Siffofin ƙima ciki har da smart controls, advanced aerodynamics, da kuma keɓantaccen ingancin gini don aikace-aikacen alatu.",
-    "features": [
-      "Babban motar 80W mai aiki",
-      "Diamita mai faɗin 1600mm",
-      "Haɗin smart control",
-      "Advanced aerodynamic blade design",
-      "Babban ƙarewa da kayan aiki",
-      "Ayyukan alatu mai shiru",
-      "Babban garanti na shekaru 5"
-    ]
-  },
-  "bldc-industrial1800": {
-    "title": "Industrial BLDC Fanka Rufi 1800mm",
-    "description": "Fanka mai girma mai nauyin 100W brushless DC wanda aka tsara don manyan wuraren masana'antu. Matsakaicin iska mai shiga tare da ginin nauyi mai nauyi don aiki 24/7 a cikin mahalli masana'antu masu buƙata.",
-    "features": [
-      "Babban motar masana'antu mai nauyin 100W",
-      "Matsakaicin diamita mai faɗin 1800mm",
-      "Ginin nauyi mai nauyi don aiki 24/7",
-      "Babban iska mai shiga don manyan wurare",
-      "Kayan aiki da ƙarewa na masana'antu",
-      "An tsara shi don mahalli masu buƙata",
-      "Tsawaita garanti na masana'antu na shekaru 5"
-    ]
-  },
-  "bldc-economy900": {
-    "title": "Tattalin Arziki BLDC Fanka Rufi 900mm",
-    "description": "Fanka mai araha mai nauyin 35W brushless DC tare da diamita mai faɗin 900mm. Tsarin amfani da wutar lantarki mai inganci cikakke ne don ƙananan matsakaitan dakuna tare da ainihin remote control da aiki mai aminci.",
-    "features": [
-      "Tsarin motar 35W mai amfani da wutar lantarki",
-      "Ƙaramin 900mm sweep don ƙananan dakuna",
-      "Ainihin aikin remote control",
-      "Fasahar BLDC mai tsada",
-      "Ƙananan aikin kulawa",
-      "Garantin shekaru 2"
-    ]
-  },
-  "bldc-exhaust-fan-motor": {
-    "title": "BLDC Exhaust Fan Motor 25W",
-    "description": "Babban motar 25W brushless DC don aikace-aikacen exhaust fan. Yana fasalta ginin ball bearing, kariya ta IP44, da aiki mai shiru don tsarin samun iska na zama da kasuwanci.",
-    "features": [
-      "Babban motar brushless DC",
-      "Amfani da wutar lantarki 25W",
-      "Ball bearing don tsawon rai",
-      "Ƙimar kariya ta IP44",
-      "Ƙananan aikin amo",
-      "Aikin 12V DC",
-      "Garantin shekaru 2"
-    ]
-  },
-  "bldc-cooler-motors": {
-    "title": "BLDC Cooler Motor 45W",
-    "description": "Motar 45W brushless DC mai ƙarfi don aikace-aikacen sanyaya iska. Tsarin ci gaba tare da inganci 90%, sarrafa gudun bambance-bambance, da haɓaka ƙimar kariya don aikin sanyaya mai aminci.",
-    "features": [
-      "Babban motar 45W BLDC",
-      "90% ingancin makamashi",
-      "Sarrafa gudun bambance-bambance",
-      "Ƙimar kariya ta IP54",
-      "Ginin ball bearing",
-      "Aikin 24V DC",
-      "Garantin shekaru 3"
-    ]
-  },
-  "bldc-ventilation-system": {
-    "title": "BLDC Tsarin Samun Iska 75W",
-    "description": "Motar 75W brushless DC na masana'antu don tsarin samun iska. Babban inganci a 92%, babban iska mai shiga, da ginin ƙarfi don aikace-aikacen HVAC masu buƙata.",
-    "features": [
-      "Motar 75W BLDC na masana'antu",
-      "92% ingancin makamashi",
-      "Babban iska mai shiga 800 CFM",
-      "Ƙimar kariya ta IP65",
-      "Aikin 48V DC",
-      "Babban zafin jiki -20°C zuwa +80°C",
-      "Garantin shekaru 5"
-    ]
-  },
-  "bldc-ventilation-motors": {
-    "title": "BLDC Motocin Samun Iska 35W",
-    "description": "Motar 35W brushless DC mai inganci don aikace-aikacen samun iska. Daidaitaccen aiki tare da 280 CFM iska mai shiga, ya dace da tsarin samun iska na zama da kasuwanci mai sauƙi.",
-    "features": [
-      "Tsarin motar 35W mai inganci",
-      "Mai kyau iska mai shiga 280 CFM",
-      "88% ingancin makamashi",
-      "Ginin hannun riga",
-      "Ƙimar kariya ta IP44",
-      "Aikin 24V DC",
-      "Garantin shekaru 2"
-    ]
-  },
-  "bldc-industrial-exhaust": {
-    "title": "Industrial BLDC Exhaust Fan 120W",
-    "description": "Babban motar 120W brushless DC don aikace-aikacen exhaust na masana'antu. Gine-gine mai nauyi tare da keɓantaccen iska mai shiga da aminci don mahalli masana'antu masu buƙata.",
-    "features": [
-      "Babban motar masana'antu mai nauyin 120W",
-      "Keɓantaccen iska mai shiga 650 CFM",
-      "Ginin nauyi mai nauyi",
-      "Babban aiki mai sauri 3200 RPM",
-      "Kariyar IP67 don mahalli masu tsauri",
-      "Aikin 48V DC",
-      "Tsawaita garanti na masana'antu na shekaru 3"
-    ]
-  },
-  "bldc-mini-cooler": {
-    "title": "Ƙaramin BLDC Cooler Motor 15W",
-    "description": "Ƙaramin motar 15W brushless DC wanda aka tsara don aikace-aikacen sanyaya ƙanana. Tsarin amfani da wutar lantarki mai inganci tare da aiki mai shiru da aiki mai aminci don na'urorin sanyaya na sirri.",
-    "features": [
-      "Tsarin motar 15W mai ƙarfi",
-      "Aikin amfani da wutar lantarki mai inganci",
-      "Ƙananan matakin amo ƙasa da 25dB",
-      "Aikin 12V DC",
-      "Ƙimar inganci 82%",
-      "Ya dace da na'urorin sanyaya na sirri",
-      "Garantin shekara 1"
     ]
   },
   "dc-surface-pump-2hp": {
@@ -4886,58 +4143,6 @@
       "Aikin 72V DC",
       "Ginin ƙarfi don amfanin masana'antu",
       "Ƙananan buƙatun kulawa"
-    ]
-  },
-  "hybrid-bldc-pump": {
-    "title": "Tsarin Famfo na Hybrid BLDC",
-    "description": "Tsarin famfo na hybrid BLDC mai ci gaba wanda ke haɗa ikon aiki na DC da AC. Yana fasalta ƙarfin 1.5HP tare da 2700 LPH kwarara da 120ft head capacity, cikakke don aikace-aikacen famfo na ruwa masu yawa.",
-    "features": [
-      "Ayyukan hybrid DC/AC (48V DC / 230V AC)",
-      "Babban motar BLDC mai inganci 1.5HP",
-      "2700 LPH kwarara",
-      "120ft matsakaicin head",
-      "Aikin amfani da wutar lantarki mai inganci",
-      "Dacewa da tushen wutar lantarki mai yawa",
-      "Ƙananan fasahar BLDC"
-    ]
-  },
-  "bldc-table-fan-motors": {
-    "title": "BLDC Motocin Fanka na Tebur",
-    "description": "Babban motocin fanka na tebur na BLDC mai inganci tare da amfani da wutar lantarki 28W da saurin 2100 RPM. Yana fasalta aikin remote control da diamita 400mm don mafi kyawun yaɗuwar iska a wuraren zama da kasuwanci.",
-    "features": [
-      "Aikin amfani da wutar lantarki mai inganci 28W",
-      "2100 RPM babban sauri",
-      "Diamita 400mm don mafi kyawun iska",
-      "Aikin 24V DC",
-      "Dacewa da remote control",
-      "Fasahar motar BLDC mai shiru",
-      "Tsawon sabis"
-    ]
-  },
-  "bldc-wall-fan-motors": {
-    "title": "BLDC Motocin Fanka na Bango",
-    "description": "Motocin fanka na bango na BLDC mai ƙarfi tare da ƙarfin 35W da saurin 1800 RPM. Yana fasalta diamita 450mm da ikon oscillation don yaɗuwar iska mai tasiri a bango a cikin mahalli daban-daban na cikin gida.",
-    "features": [
-      "35W amfani da wutar lantarki mai inganci",
-      "1800 RPM mafi kyawun sauri",
-      "Diamita 450mm don faɗin ɗaukar hoto",
-      "Aikin 24V DC mai aminci",
-      "Aikin oscillation don rarraba iska mafi kyau",
-      "Zane mai ɗauke da bango",
-      "Fasahar BLDC mai shiru"
-    ]
-  },
-  "bldc-pedestal-fan-motors": {
-    "title": "BLDC Motocin Fanka na Tushe",
-    "description": "Babban motocin fanka na tushe na BLDC masu daidaitacce da oscillation. Iska mai ƙarfi tare da aikin amfani da wutar lantarki mai inganci don wuraren zama da kasuwanci.",
-    "features": [
-      "Zane mai daidaitacce na tushe",
-      "Motar BLDC mai amfani da wutar lantarki",
-      "Faɗin ɗaukar hoto",
-      "Saitunan sauri da yawa",
-      "Aikin remote control",
-      "Fasahar aiki mai shiru",
-      "Aikin dindindin"
     ]
   },
   "power-distribution-cables": {
@@ -5793,37 +4998,37 @@
     ]
   },
   "orientalMd6p38": {
-    "title": "Oriental Motor MD-6P38 Motar Shayarwa ta BLDC",
-    "description": "Oriental Motor MD-6P38 DC axial fan motar da aka ƙima a 38W, 24VDC. Zane na sanduna 6 na BLDC tare da kariyar IP55 don aikace-aikacen fitar da masana'antu.",
+    "title": "Oriental Motor MD-6P38 Motar Shayarwa ta ",
+    "description": "Oriental Motor MD-6P38 DC axial fan motar da aka ƙima a 38W, 24VDC. Zane na sanduna 6 na  tare da kariyar IP55 don aikace-aikacen fitar da masana'antu.",
     "features": [
       "Ƙimar wutar lantarki 38W",
       "Ayyukan 24VDC",
-      "Zane na sanduna 6 na BLDC",
+      "Zane na sanduna 6 na ",
       "Kariyar IP55",
       "DC axial fan",
       "Fitar masana'antu"
     ]
   },
   "nidecD12e24ts3": {
-    "title": "Nidec D12E-24TS3 Motar BLDC",
-    "description": "Nidec D12E-24TS3 motar BLDC mai girman 12cm tana samar da iska mai shiga 83 CFM. Ƙananan aiki mai amo a 24VDC don aikace-aikacen sanyaya.",
+    "title": "Nidec D12E-24TS3 Motar ",
+    "description": "Nidec D12E-24TS3 motar  mai girman 12cm tana samar da iska mai shiga 83 CFM. Ƙananan aiki mai amo a 24VDC don aikace-aikacen sanyaya.",
     "features": [
       "Ayyukan 24VDC",
       "Girman 12cm",
       "Iska mai shiga 83 CFM",
       "Zane mai ƙarancin amo",
-      "Fasahar BLDC",
+      "Fasahar ",
       "Aikace-aikacen sanyaya"
     ]
   },
   "deltaBfb1224h": {
-    "title": "Delta Electronics BFB1224H Motar Shayarwa ta BLDC",
-    "description": "Delta Electronics BFB1224H motar shayarwa ta BLDC mai girman 120mm. Ayyukan 24VDC tare da tsawon rayuwa na awanni 70,000 don amincin dogon lokaci.",
+    "title": "Delta Electronics BFB1224H Motar Shayarwa ta ",
+    "description": "Delta Electronics BFB1224H motar shayarwa ta  mai girman 120mm. Ayyukan 24VDC tare da tsawon rayuwa na awanni 70,000 don amincin dogon lokaci.",
     "features": [
       "Girman 120mm",
       "Ayyukan 24VDC",
       "Tsawon rayuwa na awanni 70,000",
-      "Fasahar BLDC",
+      "Fasahar ",
       "Motar shayarwa",
       "Dogon tsawon rayuwa"
     ]
@@ -5841,61 +5046,61 @@
     ]
   },
   "nidecG1238b": {
-    "title": "Nidec G1238B Motar BLDC ta Masana'antu",
-    "description": "Nidec G1238B DC axial BLDC motar da aka ƙima a 38W. Girman 12cm tare da sarrafa gudu mai sauƙi don aikace-aikacen darajar masana'antu.",
+    "title": "Nidec G1238B Motar  ta Masana'antu",
+    "description": "Nidec G1238B DC axial  motar da aka ƙima a 38W. Girman 12cm tare da sarrafa gudu mai sauƙi don aikace-aikacen darajar masana'antu.",
     "features": [
       "Ƙimar wutar lantarki 38W",
       "Girman 12cm",
       "Sarrafa gudu mai sauƙi",
-      "DC axial BLDC",
+      "DC axial ",
       "Darajar masana'antu",
       "Aiki mai sauƙi"
     ]
   },
   "nidecGentletyphoonD1225c12": {
     "title": "Nidec GentleTyphoon D1225C12 Motar Sanyaya Mai Tsitattun Sauti",
-    "description": "Nidec GentleTyphoon D1225C12 BLDC motar sanyaya tana aiki a 1850 RPM tare da 12VDC. Aiki mai tsitattun sauti don sanyaya daidai.",
+    "description": "Nidec GentleTyphoon D1225C12  motar sanyaya tana aiki a 1850 RPM tare da 12VDC. Aiki mai tsitattun sauti don sanyaya daidai.",
     "features": [
       "Ayyukan 12VDC",
       "Gudun 1850 RPM",
       "Aiki mai tsitattun sauti",
-      "BLDC motar sanyaya",
+      " motar sanyaya",
       "Sanyaya daidai",
       "Ƙananan girgiza"
     ]
   },
   "orientalBle2m25s5": {
-    "title": "Oriental Motor BLE2M25S-5 BLDC Cooling Motor",
-    "description": "Oriental Motor BLE2M25S-5 BLDC motor with 25W capacity and speed control. 24VDC operation for cooling applications.",
+    "title": "Oriental Motor BLE2M25S-5  Cooling Motor",
+    "description": "Oriental Motor BLE2M25S-5  motor with 25W capacity and speed control. 24VDC operation for cooling applications.",
     "features": [
       "25W power rating",
       "24VDC operation",
       "Speed control",
-      "BLDC motor",
+      " motor",
       "Cooling application",
       "Variable speed"
     ]
   },
   "deltaAfb1212she": {
-    "title": "Delta Electronics AFB1212SHE Babban Motar BLDC Mai Ƙarfi",
-    "description": "Delta Electronics AFB1212SHE motar BLDC mai girman 120mm. Ayyukan 12VDC tare da babban matsa lamba don buƙatun sanyaya.",
+    "title": "Delta Electronics AFB1212SHE Babban Motar  Mai Ƙarfi",
+    "description": "Delta Electronics AFB1212SHE motar  mai girman 120mm. Ayyukan 12VDC tare da babban matsa lamba don buƙatun sanyaya.",
     "features": [
       "Girma 120mm",
       "Ayyukan 12VDC",
       "Babban matsa lamba",
-      "Fasahar BLDC",
+      "Fasahar ",
       "Aikace-aikacen da ke buƙata",
       "Amintaccen sanyaya"
     ]
   },
   "nidecBetaVTa450dc": {
     "title": "Nidec Beta V TA450DC Motar Sanyaya PWM",
-    "description": "Nidec Beta V TA450DC BLDC motar sanyaya tare da sarrafa PWM. Ayyukan 12VDC a 4500 RPM don babban aikin sanyaya.",
+    "description": "Nidec Beta V TA450DC  motar sanyaya tare da sarrafa PWM. Ayyukan 12VDC a 4500 RPM don babban aikin sanyaya.",
     "features": [
       "Ayyukan 12VDC",
       "Sarrafa PWM",
       "Gudun 4500 RPM",
-      "BLDC motar sanyaya",
+      " motar sanyaya",
       "Babban aiki",
       "Gudun canzawa"
     ]
@@ -5913,62 +5118,62 @@
     ]
   },
   "orientalMd8p48": {
-    "title": "Oriental Motor MD-8P48 BLDC Motar Samun Iska",
-    "description": "Oriental Motor MD-8P48 BLDC motar samun iska da aka ƙima a 48W tare da aikin 24VDC. Kariyar IP55 tana ba da har zuwa 883 CFM.",
+    "title": "Oriental Motor MD-8P48  Motar Samun Iska",
+    "description": "Oriental Motor MD-8P48  motar samun iska da aka ƙima a 48W tare da aikin 24VDC. Kariyar IP55 tana ba da har zuwa 883 CFM.",
     "features": [
       "Ƙimar wutar lantarki 48W",
       "Ayyukan 24VDC",
       "Kariyar IP55",
       "883 CFM max airflow",
-      "BLDC samun iska",
+      " samun iska",
       "Babban ƙarfi"
     ]
   },
   "nidecG1751m": {
-    "title": "Nidec G1751M Babban Ƙarfin BLDC Motar Samun Iska",
-    "description": "Nidec G1751M BLDC motar tare da girman 17cm da wutar lantarki 51W. Ayyukan 24VDC tare da babban ƙarfi da ƙarancin girgiza.",
+    "title": "Nidec G1751M Babban Ƙarfin  Motar Samun Iska",
+    "description": "Nidec G1751M  motar tare da girman 17cm da wutar lantarki 51W. Ayyukan 24VDC tare da babban ƙarfi da ƙarancin girgiza.",
     "features": [
       "Girman 17cm",
       "Ƙimar wutar lantarki 51W",
       "Ayyukan 24VDC",
       "Babban ƙarfi",
       "Ƙananan girgiza",
-      "Fasahar BLDC"
+      "Fasahar "
     ]
   },
   "deltaBfb1512vh": {
-    "title": "Delta Electronics BFB1512VH BLDC Motar Samun Iska",
-    "description": "Delta Electronics BFB1512VH BLDC motar samun iska tare da girman 150mm. Ayyukan 12VDC yana ba da iska mai shiga 260 CFM.",
+    "title": "Delta Electronics BFB1512VH  Motar Samun Iska",
+    "description": "Delta Electronics BFB1512VH  motar samun iska tare da girman 150mm. Ayyukan 12VDC yana ba da iska mai shiga 260 CFM.",
     "features": [
       "Girman 150mm",
       "Ayyukan 12VDC",
       "Iska mai shiga 260 CFM",
-      "BLDC samun iska",
+      " samun iska",
       "Babban aiki",
       "Aiki mai inganci"
     ]
   },
   "orientalBmu23005": {
-    "title": "Oriental Motor BMU230-05 BLDC Rukunin Samun Iska",
-    "description": "Oriental Motor BMU230-05 BLDC rukunin motar tare da sarrafa gudu. Ayyukan 230VAC don aikace-aikacen samun iska.",
+    "title": "Oriental Motor BMU230-05  Rukunin Samun Iska",
+    "description": "Oriental Motor BMU230-05  rukunin motar tare da sarrafa gudu. Ayyukan 230VAC don aikace-aikacen samun iska.",
     "features": [
       "Ayyukan 230VAC",
       "Sarrafa gudu",
-      "BLDC rukunin motar",
+      " rukunin motar",
       "Aikace-aikacen samun iska",
       "Gudun canzawa",
       "Aji na masana'antu"
     ]
   },
   "nidecD08a12ts1": {
-    "title": "Nidec D08A-12TS1 Gano Gudu BLDC Motor",
-    "description": "Nidec D08A-12TS1 BLDC motar tare da girman 80mm da fitarwa mai bugun jini. Ayyukan 12VDC tare da ikon gano gudu.",
+    "title": "Nidec D08A-12TS1 Gano Gudu  Motor",
+    "description": "Nidec D08A-12TS1  motar tare da girman 80mm da fitarwa mai bugun jini. Ayyukan 12VDC tare da ikon gano gudu.",
     "features": [
       "Girman 80mm",
       "Ayyukan 12VDC",
       "Fitarwa mai bugun jini",
       "Gano gudu",
-      "BLDC motar",
+      " motar",
       "Sarrafa amsa"
     ]
   },
@@ -7666,7 +6871,10 @@
         "Pharmaceutical",
         "Food & Beverage"
       ],
-      "certifications": ["ISO 9001", "CE Marking"],
+      "certifications": [
+        "ISO 9001",
+        "CE Marking"
+      ],
       "keywords": {
         "industrialAutomation": "industrial automation",
         "processControl": "process control",

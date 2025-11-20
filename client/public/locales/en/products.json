@@ -1,8 +1,8 @@
 {
   "seo": {
     "title": "Industrial Automation Products & Electrical Components | PLC SCADA Systems, Sensors, Transmitters | Powerton Engineering",
-    "description": "Comprehensive catalog of industrial automation products, electrical control panel components, instrumentation accessories, PLC SCADA DCS systems, pressure transmitters, temperature sensors, flow meters, level sensors, circuit breakers, contactors, relays, VFD drives, motor control centers, solar products, BLDC motors, centrifugal pumps, measuring instruments, safety devices, and industrial tools. Authorized distributor of Siemens, Allen Bradley, Schneider, ABB, Honeywell, Yokogawa, Endress+Hauser, Rosemount. ISO certified supplier serving pharmaceutical, power plant, oil & gas, manufacturing industries across India.",
-    "keywords": "industrial automation products India, electrical control panel components, PLC systems, SCADA systems, DCS systems, HMI panels, pressure transmitters, temperature sensors, flow meters, level sensors, level transmitters, analytical instruments, process instrumentation, control valves, actuators, positioners, circuit breakers, contactors, relays, MCB, MCCB, ACB, VCB, motor starters, overload relays, VFD drives, soft starters, motor control center MCC, power control center PCC, distribution panels, switch disconnectors, industrial automation components, process control instruments, measuring instruments, field instruments, control room instruments, instrumentation accessories, signal conditioners, isolators, barriers, power supplies, solar panels, solar inverters, solar batteries, solar charge controllers, MPPT controllers, grid tie inverters, off grid inverters, hybrid inverters, BLDC ceiling fans, BLDC exhaust fans, BLDC motors, centrifugal pumps, monoblock pumps, submersible pumps, industrial pumps, pump spare parts, safety switches, emergency stop buttons, light curtains, safety relays, industrial tools, hand tools, power tools, measuring tools, multimeters, clamp meters, insulation testers, earth testers, power quality analyzers, calibrators, Siemens products India, Allen Bradley products, Schneider Electric products, ABB automation products, Honeywell instrumentation, Yokogawa transmitters, Endress Hauser sensors, Rosemount transmitters, Emerson products, Rockwell automation, Danfoss VFD, Delta VFD, control panel accessories, panel board components, electrical accessories, automation spare parts, instrumentation spare parts, industrial electrical products, factory automation products, process automation products, pharmaceutical automation products, power plant instrumentation, oil gas instrumentation, chemical plant instruments, water treatment instruments, food processing instrumentation, cement plant automation products, manufacturing automation products"
+    "description": "Comprehensive catalog of industrial automation products, electrical control panel components, instrumentation accessories, PLC SCADA DCS systems, pressure transmitters, temperature sensors, flow meters, level sensors, circuit breakers, contactors, relays, VFD drives, motor control centers, solar products, centrifugal pumps, measuring instruments, safety devices, and industrial tools. Authorized distributor of Siemens, Allen Bradley, Schneider, ABB, Honeywell, Yokogawa, Endress+Hauser, Rosemount. ISO certified supplier serving pharmaceutical, power plant, oil & gas, manufacturing industries across India.",
+    "keywords": "industrial automation products India, electrical control panel components, PLC systems, SCADA systems, DCS systems, HMI panels, pressure transmitters, temperature sensors, flow meters, level sensors, level transmitters, analytical instruments, process instrumentation, control valves, actuators, positioners, circuit breakers, contactors, relays, MCB, MCCB, ACB, VCB, motor starters, overload relays, VFD drives, soft starters, motor control center MCC, power control center PCC, distribution panels, switch disconnectors, industrial automation components, process control instruments, measuring instruments, field instruments, control room instruments, instrumentation accessories, signal conditioners, isolators, barriers, power supplies, solar panels, solar inverters, solar batteries, solar charge controllers, MPPT controllers, grid tie inverters, off grid inverters, hybrid inverters, centrifugal pumps, monoblock pumps, submersible pumps, industrial pumps, pump spare parts, safety switches, emergency stop buttons, light curtains, safety relays, industrial tools, hand tools, power tools, measuring tools, multimeters, clamp meters, insulation testers, earth testers, power quality analyzers, calibrators, Siemens products India, Allen Bradley products, Schneider Electric products, ABB automation products, Honeywell instrumentation, Yokogawa transmitters, Endress Hauser sensors, Rosemount transmitters, Emerson products, Rockwell automation, Danfoss VFD, Delta VFD, control panel accessories, panel board components, electrical accessories, automation spare parts, instrumentation spare parts, industrial electrical products, factory automation products, process automation products, pharmaceutical automation products, power plant instrumentation, oil gas instrumentation, chemical plant instruments, water treatment instruments, food processing instrumentation, cement plant automation products, manufacturing automation products"
   },
   "title": "Our Products",
   "subtitle": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.",
@@ -11,7 +11,7 @@
     "electrical": "Electrical Components",
     "instrumentation": "Instrumentation",
     "solar": "Solar Products",
-    "motors": "BLDC Motor Systems",
+    "motors": "Motor Systems",
     "pumps": "Pumps & Motors",
     "safety": "Safety Equipment",
     "tools": "Industrial Tools",
@@ -85,144 +85,6 @@
         "power-quality-analyzers": "Power Quality Analyzers",
         "calibrators": "Calibrators"
       }
-    },
-    "bldc": {
-      "title": "BLDC Products",
-      "description": "Brushless DC motor products for energy-efficient applications",
-      "features": {
-        "energy-efficient": "Energy Efficient",
-        "long-lifespan": "Long Lifespan",
-        "low-maintenance": "Low Maintenance",
-        "variable-speed-control": "Variable Speed Control"
-      }
-    }
-  },
-  "bldcCeilingFan": {
-    "smart1200": {
-      "title": "Smart BLDC Ceiling Fan 1200mm",
-      "description": "Energy-efficient smart ceiling fan with remote control and timer function",
-      "features": [
-        "28W Power Consumption",
-        "Remote Control",
-        "5 Speed Settings",
-        "Timer Function"
-      ]
-    },
-    "premium1400": {
-      "title": "Premium BLDC Ceiling Fan 1400mm",
-      "description": "High-performance ceiling fan with LED lighting and reversible motor",
-      "features": [
-        "35W Power Consumption",
-        "LED Light Integrated",
-        "Reversible Motor",
-        "Silent Operation"
-      ]
-    },
-    "commercial1500": {
-      "title": "Commercial BLDC Ceiling Fan 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial and industrial applications",
-      "features": [
-        "45W Power Consumption",
-        "Heavy-Duty Motor",
-        "High Air Flow",
-        "Durable Construction"
-      ]
-    }
-  },
-  "bldcCoolerExhaust": {
-    "exhaustFan": {
-      "title": "BLDC Exhaust Fan Motor",
-      "description": "High-efficiency brushless DC motor for exhaust fan applications",
-      "features": [
-        "Variable Speed Control",
-        "Low Noise Operation",
-        "Energy Efficient Design",
-        "Extended Life Span"
-      ]
-    },
-    "coolerMotors": {
-      "title": "BLDC Cooler Motor",
-      "description": "Energy-efficient motor designed for air cooler applications",
-      "features": [
-        "High Torque Output",
-        "Weather Resistant",
-        "Speed Control",
-        "Maintenance Free Operation"
-      ]
-    },
-    "ventilation": {
-      "title": "BLDC Ventilation System Motor",
-      "description": "Specialized motor for industrial ventilation and air handling systems",
-      "features": [
-        "High CFM Rating",
-        "Temperature Rated",
-        "Vibration Resistant",
-        "Smart Control Compatible"
-      ]
-    }
-  },
-  "bldcPumps": {
-    "solarSubmersible1hp": {
-      "title": "Solar BLDC Submersible Pump 1HP",
-      "description": "Solar-powered submersible pump for water wells and borehole applications",
-      "features": [
-        "Solar Compatible Operation",
-        "1HP Motor Power",
-        "High Efficiency Design",
-        "Water-Cooled Construction"
-      ]
-    },
-    "dcSurface2hp": {
-      "title": "DC Surface Pump 2HP",
-      "description": "High-efficiency surface pump for irrigation and water transfer",
-      "features": [
-        "2HP Power Rating",
-        "Self-Priming Design",
-        "Dry Run Protection",
-        "Variable Speed Control"
-      ]
-    },
-    "hybridSystem": {
-      "title": "Hybrid BLDC Pump System",
-      "description": "Intelligent pump system with solar and grid backup capability",
-      "features": [
-        "Hybrid Operation Mode",
-        "Smart Controller",
-        "Remote Monitoring",
-        "Energy Optimization"
-      ]
-    }
-  },
-  "bldcFans": {
-    "tableFan": {
-      "title": "BLDC Table Fan Motor",
-      "description": "Compact brushless DC motor for table and desk fan applications",
-      "features": [
-        "Compact Design",
-        "Silent Operation",
-        "Remote Control",
-        "Timer Function"
-      ]
-    },
-    "wallFan": {
-      "title": "BLDC Wall Fan Motor",
-      "description": "Wall-mounted fan motor with BLDC technology for residential use",
-      "features": [
-        "Wall Mount Design",
-        "Oscillating Function",
-        "Speed Control",
-        "Energy Saving Operation"
-      ]
-    },
-    "pedestalFan": {
-      "title": "BLDC Pedestal Fan Motor",
-      "description": "Height-adjustable pedestal fan motor with LED display",
-      "features": [
-        "Height Adjustment",
-        "Tilt Function",
-        "LED Display",
-        "Sleep Mode Timer"
-      ]
     }
   },
   "electricalCables": {
@@ -752,22 +614,6 @@
     "panel-meters-indicators": {
       "title": "Panel Meters & Indicators",
       "description": "Analog and digital panel meters for voltage, current, and power measurement"
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "BLDC Cooler & Exhaust Motors",
-      "description": "Energy-efficient BLDC motors for coolers and exhaust fans"
-    },
-    "bldc-ceiling-fan": {
-      "title": "BLDC Ceiling Fans",
-      "description": "Ultra-efficient BLDC ceiling fans with remote control"
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "BLDC Submersible & Surface Pumps",
-      "description": "High-efficiency BLDC pumps for water applications"
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC Table & Wall Fan Motors",
-      "description": "Compact BLDC motors for table and wall fans"
     }
   },
   "sections": {
@@ -810,10 +656,6 @@
     "transmitters": {
       "title": "Transmitters",
       "transducers": "Transducers"
-    },
-    "bldcSubmersibleSurfacePump": {
-      "title": "BLDC Submersible & Surface Pumps",
-      "subtitle": "Energy-efficient BLDC pumps for water supply, irrigation, and solar applications"
     },
     "cablesWires": {
       "title": "Cables & Wires",
@@ -987,29 +829,6 @@
         "contactAutomationExperts": "Contact Automation Experts",
         "requestQuote": "Request Quote"
       }
-    },
-    "bldcCeilingFan": {
-      "title": "BLDC Ceiling Fans",
-      "subtitle": "Energy-efficient brushless DC ceiling fans with smart features and superior performance",
-      "upgradeTitle": "Upgrade to BLDC Ceiling Fans?",
-      "upgradeDescription": "Our BLDC specialists can help you choose energy-efficient ceiling fan solutions for your space.",
-      "contactExperts": "Contact BLDC Experts"
-    },
-    "bldcCoolerExhaust": {
-      "title": "BLDC Cooler & Exhaust Motors",
-      "subtitle": "Energy-efficient BLDC motors for cooling, ventilation, and exhaust applications"
-    },
-    "bldcSubmersible": {
-      "title": "BLDC Submersible & Surface Pumps",
-      "subtitle": "Energy-efficient BLDC pumps for water supply, irrigation, and solar applications"
-    },
-    "bldcTableWall": {
-      "title": "BLDC Table & Wall Fan Motors",
-      "subtitle": "Energy-efficient BLDC motors for table fans, wall fans, and pedestal fans"
-    },
-    "bldc": {
-      "title": "BLDC Products",
-      "subtitle": "Brushless DC motor products for energy-efficient cooling, ventilation, and pumping applications"
     },
     "cables": {
       "title": "Cables & Wires",
@@ -1477,8 +1296,7 @@
     "automation-control-systems": "Automation & Control Systems",
     "safety-protective-devices": "Safety & Protective Devices",
     "mechanical-pumps-spares": "Mechanical Pumps & Spares",
-    "industrial-measuring-tools": "Industrial & Measuring Tools",
-    "bldc": "BLDC Products"
+    "industrial-measuring-tools": "Industrial & Measuring Tools"
   },
   "tags": {
     "industrialAutomation": "Industrial Automation",
@@ -2329,51 +2147,51 @@
       "description": "Biochemical Oxygen Demand analyzers for organic pollution measurement in water samples. MANTECH, Hach, and YSI automated systems with optical DO sensors and temperature control."
     },
     "standardCeilingFans": {
-      "title": "Standard BLDC Ceiling Fans",
+      "title": "Standard Ceiling Fans",
       "description": "Energy-efficient brushless DC ceiling fans with variable speed control and silent operation. Featuring modern designs, remote control operation, and exceptional energy savings compared to traditional AC motors."
     },
     "premiumCeilingFans": {
-      "title": "Premium BLDC Ceiling Fans",
+      "title": "Premium Ceiling Fans",
       "description": "High-performance brushless DC ceiling fans with advanced features including smart controls, LED lighting, and superior aerodynamic design. Premium models offer enhanced durability and whisper-quiet operation."
     },
     "commercialCeilingFans": {
-      "title": "Commercial BLDC Ceiling Fans",
+      "title": "Commercial Ceiling Fans",
       "description": "Heavy-duty brushless DC ceiling fans designed for commercial and industrial applications. Robust construction with high airflow capacity, extended operating life, and reduced maintenance requirements."
     },
     "exhaustFanMotors": {
-      "title": "BLDC Exhaust Fan Motors",
+      "title": "Exhaust Fan Motors",
       "description": "High-efficiency brushless DC motors for exhaust fan applications. Designed for continuous operation with excellent speed control, low noise levels, and superior energy efficiency for ventilation systems."
     },
     "coolerMotors": {
-      "title": "BLDC Cooler Motors",
+      "title": "Cooler Motors",
       "description": "Energy-efficient brushless DC motors for air cooler applications. Featuring variable speed control, silent operation, and exceptional reliability for both domestic and commercial cooling systems."
     },
     "ventilationMotors": {
-      "title": "BLDC Ventilation Motors",
+      "title": "Ventilation Motors",
       "description": "Advanced brushless DC motors for ventilation systems with precise speed control and low power consumption. Ideal for HVAC applications requiring quiet operation and energy efficiency."
     },
     "submersiblePumps": {
-      "title": "BLDC Submersible Pumps",
+      "title": "Submersible Pumps",
       "description": "Energy-efficient brushless DC submersible pumps for water supply applications. Featuring corrosion-resistant construction, variable speed operation, and exceptional efficiency for borewell and deep water pumping."
     },
     "surfacePumps": {
-      "title": "BLDC Surface Pumps",
+      "title": "Surface Pumps",
       "description": "High-efficiency brushless DC surface pumps for water transfer and pressure boosting applications. Compact design with intelligent control features and superior energy savings compared to conventional pumps."
     },
     "hybridPumps": {
-      "title": "BLDC Hybrid Pumps",
+      "title": "Hybrid Pumps",
       "description": "Versatile brushless DC hybrid pumps suitable for both submersible and surface applications. Advanced motor technology with adaptive control systems for optimal performance across various operating conditions."
     },
     "tableFanMotors": {
-      "title": "BLDC Table Fan Motors",
+      "title": "Table Fan Motors",
       "description": "Compact brushless DC motors for table fan applications with excellent speed control and whisper-quiet operation. Energy-efficient design with extended operational life and minimal maintenance requirements."
     },
     "wallFanMotors": {
-      "title": "BLDC Wall Fan Motors",
+      "title": "Wall Fan Motors",
       "description": "Space-saving brushless DC motors for wall-mounted fan applications. Featuring remote control compatibility, multiple speed settings, and energy-efficient operation for residential and commercial use."
     },
     "pedestalFanMotors": {
-      "title": "BLDC Pedestal Fan Motors",
+      "title": "Pedestal Fan Motors",
       "description": "Powerful brushless DC motors for pedestal fan applications with adjustable height and oscillation features. Delivering superior airflow with energy-efficient operation and silent performance."
     },
     "vfd": {

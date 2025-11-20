@@ -53,7 +53,6 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (ब्रशलेस डीसी मोटर्स)",
     "PLC": "PLC (प्रोग्रामेबल लॉजिक कंट्रोलर)",
     "SCADA": "SCADA (पर्यवेक्षी नियंत्रण और डेटा अधिग्रहण)",
     "HMI": "HMI (मानव मशीन इंटरफ़ेस)",
@@ -79,7 +78,6 @@
     "discussProject": "परियोजनाओं पर चर्चा करें",
     "viewDetails": "विवरण देखें",
     "backTo": "पर वापस जाएँ",
-    "backToBldcProducts": "ब्रशलेस डीसी मोटर (बीएलडीसी) उत्पादों पर वापस जाएँ",
     "backToProducts": "उत्पादों पर वापस जाएँ",
     "backToCategory": "श्रेणी पर वापस जाएँ",
     "requestQuote": "उद्धरण का अनुरोध करें",
@@ -252,7 +250,6 @@
   },
   "headings": {
     "phoneNumbers": "फोन नंबर",
-    "bldcCeilingFanModels": "बीएलडीसी छत पंखे मॉडल",
     "ourProducts": "हमारे उत्पाद",
     "specifications": "विशेष विवरण",
     "keyFeatures": "मुख्य विशेषताएं",
@@ -499,7 +496,6 @@
     },
     "categories": {
       "automationControl": "स्वचालन और नियंत्रण प्रणालियाँ",
-      "bldcMotors": "बीएलडीसी मोटर प्रणाली",
       "electricalComponents": "विद्युत घटक",
       "measurementInstrumentation": "माप और उपकरण",
       "industrialTools": "औद्योगिक उपकरण और उपकरण",
@@ -572,11 +568,7 @@
       "handTools": "हाथ उपकरण",
       "powerTools": "बिजली उपकरण",
       "cuttingTools": "काटने के उपकरण",
-      "liftingEquipment": "उठाने के उपकरण",
-      "bldcCeilingFan": "बीएलडीसी छत पंखा",
-      "bldcCoolerExhaustMotor": "बीएलडीसी कूलर निकास मोटर",
-      "bldcSubmersibleSurfacePump": "बीएलडीसी पनडुब्बी सतह पंप",
-      "bldcTableFanWallFanMotor": "बीएलडीसी टेबल पंखा दीवार पंखा मोटर"
+      "liftingEquipment": "उठाने के उपकरण"
     },
     "descriptions": {
       "home": "पावरटन इंजीनियरिंग में आपका स्वागत है - औद्योगिक स्वचालन समाधान",
@@ -628,10 +620,6 @@
       "powerToolsDescription": "निर्माण परियोजनाओं के लिए बिजली उपकरण",
       "cuttingToolsDescription": "धातु प्रसंस्करण के लिए काटने के उपकरण",
       "liftingEquipmentDescription": "भारी भार परिवहन के लिए उठाने के उपकरण",
-      "bldcCeilingFanDescription": "कम ऊर्जा खपत वाले बीएलडीसी छत पंखे",
-      "bldcCoolerExhaustMotorDescription": "कूलर और निकास उपकरणों के लिए बीएलडीसी मोटर",
-      "bldcSubmersibleSurfacePumpDescription": "जल अनुप्रयोगों के लिए बीएलडीसी पंप",
-      "bldcTableFanWallFanMotorDescription": "टेबल और दीवार पंखे के लिए बीएलडीसी मोटर",
       "requestQuoteDescription": "अपनी इंजीनियरिंग परियोजना के लिए एक विस्तृत उद्धरण प्राप्त करें",
       "downloadPortfolioDescription": "हमारी परियोजनाओं के विस्तृत क्रेडेंशियल्स डाउनलोड करें",
       "customSolutionsDescription": "अद्वितीय औद्योगिक आवश्यकताओं के लिए अनुकूलित इंजीनियरिंग समाधान",

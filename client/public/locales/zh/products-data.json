@@ -6,38 +6,73 @@
     "instrumentation-accessories": {
       "title": "仪器仪表配件",
       "description": "用于工业过程中精确测量和控制的高精度仪器仪表配件",
-      "badges": ["压力变送器", "温度传感器", "流量计", "液位指示器"],
+      "badges": [
+        "压力变送器",
+        "温度传感器",
+        "流量计",
+        "液位指示器"
+      ],
       "sectionTitle": "产品类别",
       "subcategories": {
         "sensors-transducers": {
           "title": "传感器和变送器",
           "description": "用于温度、压力和流量测量的工业传感器和变送器",
-          "features": ["温度传感器", "压力传感器", "流量传感器", "液位传感器"]
+          "features": [
+            "温度传感器",
+            "压力传感器",
+            "流量传感器",
+            "液位传感器"
+          ]
         },
         "transmitters-flow-meters": {
           "title": "变送器和流量计",
           "description": "用于工业过程测量的信号变送器和流量计",
-          "features": ["压力变送器", "温度变送器", "流量变送器", "液位变送器"]
+          "features": [
+            "压力变送器",
+            "温度变送器",
+            "流量变送器",
+            "液位变送器"
+          ]
         },
         "switches-indicators": {
           "title": "开关和指示器",
           "description": "工业开关、指示器和信号设备",
-          "features": ["按钮开关", "选择开关", "指示灯", "紧急停止"]
+          "features": [
+            "按钮开关",
+            "选择开关",
+            "指示灯",
+            "紧急停止"
+          ]
         },
         "valves-actuators": {
           "title": "阀门和执行器",
           "description": "用于过程控制系统的控制阀和执行器",
-          "features": ["控制阀", "气动执行器", "电动执行器", "阀门定位器"]
+          "features": [
+            "控制阀",
+            "气动执行器",
+            "电动执行器",
+            "阀门定位器"
+          ]
         },
         "analyzers": {
           "title": "分析仪",
           "description": "用于质量控制的气体、液体和过程分析仪",
-          "features": ["气体分析仪", "液体分析仪", "过程分析仪", "多参数系统"]
+          "features": [
+            "气体分析仪",
+            "液体分析仪",
+            "过程分析仪",
+            "多参数系统"
+          ]
         },
         "instrument-transformers": {
           "title": "仪器用变压器",
           "description": "用于测量和保护的电流和电压互感器",
-          "features": ["电流互感器", "电压互感器", "计量精度", "保护等级"]
+          "features": [
+            "电流互感器",
+            "电压互感器",
+            "计量精度",
+            "保护等级"
+          ]
         }
       },
       "cta": {
@@ -49,53 +84,103 @@
     "electrical-accessories": {
       "title": "电气配件",
       "description": "用于配电和控制系统的各种电气元件",
-      "badges": ["配电", "控制系统", "安全组件", "工业级"],
+      "badges": [
+        "配电",
+        "控制系统",
+        "安全组件",
+        "工业级"
+      ],
       "sectionTitle": "电气配件解决方案",
       "subcategories": {
         "electrical-cables": {
           "title": "电气电缆",
           "description": "用于电力传输和配电系统的工业电气电缆",
-          "features": ["电力电缆", "控制电缆", "铠装电缆", "通信电缆"]
+          "features": [
+            "电力电缆",
+            "控制电缆",
+            "铠装电缆",
+            "通信电缆"
+          ]
         },
         "connectors-terminals": {
           "title": "连接器和端子",
           "description": "用于安全连接的电气连接器和端子块",
-          "features": ["接线端子", "电线连接器", "DIN导轨端子", "接线盒"]
+          "features": [
+            "接线端子",
+            "电线连接器",
+            "DIN导轨端子",
+            "接线盒"
+          ]
         },
         "circuit-breakers-fuses": {
           "title": "断路器和熔断器",
           "description": "用于电气电路和设备安全的保护装置",
-          "features": ["MCB", "MCCB", "RCCB", "工业熔断器"]
+          "features": [
+            "MCB",
+            "MCCB",
+            "RCCB",
+            "工业熔断器"
+          ]
         },
         "power-supplies": {
           "title": "电源",
           "description": "用于工业应用的AC/DC电源和转换器",
-          "features": ["开关电源", "DIN导轨电源", "DC-DC转换器", "UPS系统"]
+          "features": [
+            "开关电源",
+            "DIN导轨电源",
+            "DC-DC转换器",
+            "UPS系统"
+          ]
         },
         "enclosures-cabinets": {
           "title": "外壳和机柜",
           "description": "用于设备保护的电气外壳和控制柜",
-          "features": ["控制面板", "配电板", "接线盒", "防风雨外壳"]
+          "features": [
+            "控制面板",
+            "配电板",
+            "接线盒",
+            "防风雨外壳"
+          ]
         },
         "heating-elements-appliances": {
           "title": "加热元件和设备",
           "description": "工业加热元件和电器",
-          "features": ["加热元件", "工业加热器", "温度控制器", "热保护"]
+          "features": [
+            "加热元件",
+            "工业加热器",
+            "温度控制器",
+            "热保护"
+          ]
         },
         "contactors-relays": {
           "title": "接触器和继电器",
           "description": "用于电机和负载控制的电力接触器、计时器和电磁继电器",
-          "features": ["电力接触器", "辅助接触器", "时间继电器", "控制继电器"]
+          "features": [
+            "电力接触器",
+            "辅助接触器",
+            "时间继电器",
+            "控制继电器"
+          ]
         },
         "transformers-power-devices": {
           "title": "变压器和电源设备",
           "description": "控制变压器和电源转换设备",
-          "features": ["控制变压器", "隔离变压器", "1kVA - 5kVA 范围", "工业级"]
+          "features": [
+            "控制变压器",
+            "隔离变压器",
+            "1kVA - 5kVA 范围",
+            "工业级"
+          ]
         },
         "led-lighting": {
           "title": "LED 照明",
           "description": "用于危险区域和普通区域的工业 LED 照明解决方案",
-          "features": ["防爆 LED", "防风雨 LED", "节能", "长寿命"]
+          "features": [
+            "防爆 LED",
+            "防风雨 LED",
+            "节能",
+            "长寿命"
+          ]
         }
       },
       "cta": {
@@ -107,18 +192,33 @@
     "solar-products": {
       "title": "太阳能产品",
       "description": "完整的太阳能解决方案，包括面板、逆变器和储能系统",
-      "badges": ["太阳能板", "逆变器", "安装系统", "能量存储"],
+      "badges": [
+        "太阳能板",
+        "逆变器",
+        "安装系统",
+        "能量存储"
+      ],
       "sectionTitle": "太阳能解决方案",
       "subcategories": {
         "solar-panels": {
           "title": "太阳能板",
           "description": "用于太阳能发电的光伏板",
-          "features": ["单晶硅", "多晶硅", "高效率", "耐候性"]
+          "features": [
+            "单晶硅",
+            "多晶硅",
+            "高效率",
+            "耐候性"
+          ]
         },
         "solar-inverters": {
           "title": "太阳能逆变器",
           "description": "用于太阳能系统的DC到AC电源转换",
-          "features": ["并网", "离网", "混合系统", "MPPT技术"]
+          "features": [
+            "并网",
+            "离网",
+            "混合系统",
+            "MPPT技术"
+          ]
         }
       },
       "cta": {
@@ -130,33 +230,63 @@
     "automation-control-systems": {
       "title": "自动化和控制系统",
       "description": "用于工业过程管理和优化的先进自动化和控制解决方案",
-      "badges": ["PLC", "SCADA", "DCS", "HMI"],
+      "badges": [
+        "PLC",
+        "SCADA",
+        "DCS",
+        "HMI"
+      ],
       "sectionTitle": "控制系统解决方案",
       "subcategories": {
         "plcs": {
           "title": "PLC（可编程逻辑控制器）",
           "description": "用于过程控制的工业自动化控制器",
-          "features": ["数字I/O", "模拟处理", "通信模块", "编程软件"]
+          "features": [
+            "数字I/O",
+            "模拟处理",
+            "通信模块",
+            "编程软件"
+          ]
         },
         "scada": {
           "title": "SCADA系统",
           "description": "监督控制和数据采集系统",
-          "features": ["实时监控", "数据记录", "警报管理", "远程访问"]
+          "features": [
+            "实时监控",
+            "数据记录",
+            "警报管理",
+            "远程访问"
+          ]
         },
         "dcs": {
           "title": "DCS（分布式控制系统）",
           "description": "用于大规模过程的分布式控制系统",
-          "features": ["过程控制", "分布式架构", "冗余", "高级控制"]
+          "features": [
+            "过程控制",
+            "分布式架构",
+            "冗余",
+            "高级控制"
+          ]
         },
         "hmi": {
           "title": "HMI（人机界面）",
           "description": "用于工业控制系统的用户界面",
-          "features": ["触摸屏显示器", "图形界面", "数据可视化", "操作员控制"]
+          "features": [
+            "触摸屏显示器",
+            "图形界面",
+            "数据可视化",
+            "操作员控制"
+          ]
         },
         "motor-controllers-drives": {
           "title": "电机控制器和驱动器",
           "description": "用于高效电机运行的变频驱动器和电机控制解决方案",
-          "features": ["变频驱动器", "软启动器", "直接启动器", "速度控制"]
+          "features": [
+            "变频驱动器",
+            "软启动器",
+            "直接启动器",
+            "速度控制"
+          ]
         }
       },
       "cta": {
@@ -168,38 +298,73 @@
     "safety-protective-devices": {
       "title": "安全和保护装置",
       "description": "全面的安全和保护设备，确保工业环境中人员和设备的安全",
-      "badges": ["浪涌保护", "接地系统", "安全继电器", "本质安全"],
+      "badges": [
+        "浪涌保护",
+        "接地系统",
+        "安全继电器",
+        "本质安全"
+      ],
       "sectionTitle": "安全解决方案",
       "subcategories": {
         "surge-protectors": {
           "title": "浪涌保护器",
           "description": "用于设备安全的电气浪涌保护装置",
-          "features": ["防雷", "电压浪涌保护", "设备安全", "电能质量"]
+          "features": [
+            "防雷",
+            "电压浪涌保护",
+            "设备安全",
+            "电能质量"
+          ]
         },
         "grounding-systems": {
           "title": "接地系统",
           "description": "用于安全的电气接地系统",
-          "features": ["接地电极", "接地棒", "连接导体", "避雷针"]
+          "features": [
+            "接地电极",
+            "接地棒",
+            "连接导体",
+            "避雷针"
+          ]
         },
         "safety-relays-switches": {
           "title": "安全继电器和开关",
           "description": "用于紧急停止系统的安全控制装置",
-          "features": ["紧急停止", "安全监控", "故障安全设计", "认证安全"]
+          "features": [
+            "紧急停止",
+            "安全监控",
+            "故障安全设计",
+            "认证安全"
+          ]
         },
         "intrinsically-safe-equipment": {
           "title": "本质安全设备",
           "description": "用于危险环境的防爆设备",
-          "features": ["ATEX认证", "防爆", "危险区域", "本质安全"]
+          "features": [
+            "ATEX认证",
+            "防爆",
+            "危险区域",
+            "本质安全"
+          ]
         },
         "safety-equipment": {
           "title": "安全设备",
           "description": "个人防护装备和安全装备",
-          "features": ["符合PPE标准", "安全标准", "舒适设计", "耐用性"]
+          "features": [
+            "符合PPE标准",
+            "安全标准",
+            "舒适设计",
+            "耐用性"
+          ]
         },
         "protection-relays": {
           "title": "保护继电器",
           "description": "用于设备安全的电机保护和电压监测继电器",
-          "features": ["电机保护", "电压监测", "过载检测", "缺相保护"]
+          "features": [
+            "电机保护",
+            "电压监测",
+            "过载检测",
+            "缺相保护"
+          ]
         }
       },
       "cta": {
@@ -211,28 +376,53 @@
     "mechanical-pumps-spares": {
       "title": "机械泵和备件",
       "description": "用于流体处理应用的工业泵解决方案和更换零件",
-      "badges": ["离心泵", "隔膜泵", "齿轮泵", "备件"],
+      "badges": [
+        "离心泵",
+        "隔膜泵",
+        "齿轮泵",
+        "备件"
+      ],
       "sectionTitle": "泵解决方案",
       "subcategories": {
         "centrifugal-pumps": {
           "title": "离心泵",
           "description": "用于流体处理的高效离心泵",
-          "features": ["高流量", "自吸", "耐腐蚀", "节能"]
+          "features": [
+            "高流量",
+            "自吸",
+            "耐腐蚀",
+            "节能"
+          ]
         },
         "diaphragm-pumps": {
           "title": "隔膜泵",
           "description": "用于精确流量控制的正排量隔膜泵",
-          "features": ["正排量", "化学兼容性", "干运转", "脉动抑制"]
+          "features": [
+            "正排量",
+            "化学兼容性",
+            "干运转",
+            "脉动抑制"
+          ]
         },
         "gear-pumps": {
           "title": "齿轮泵",
           "description": "用于粘性流体应用的精密齿轮泵",
-          "features": ["高压", "粘性流体", "精确计量", "紧凑设计"]
+          "features": [
+            "高压",
+            "粘性流体",
+            "精确计量",
+            "紧凑设计"
+          ]
         },
         "pump-parts-spares": {
           "title": "泵零件和备件",
           "description": "所有泵类型的更换零件和备用组件",
-          "features": ["OEM零件", "密封件和垫圈", "叶轮", "维护套件"]
+          "features": [
+            "OEM零件",
+            "密封件和垫圈",
+            "叶轮",
+            "维护套件"
+          ]
         }
       },
       "cta": {
@@ -244,87 +434,100 @@
     "industrial-measuring-tools": {
       "title": "工业和测量工具",
       "description": "用于工业维护、建筑、制造操作和精确监控的专业工具、设备和高级测量仪器",
-      "badges": ["手动工具", "电动工具", "数字万用表", "校准器", "安全装备"],
+      "badges": [
+        "手动工具",
+        "电动工具",
+        "数字万用表",
+        "校准器",
+        "安全装备"
+      ],
       "sectionTitle": "工具和仪器类别",
       "subcategories": {
         "hand-tools": {
           "title": "手动工具",
           "description": "用于工业维护的专业手动工具",
-          "features": ["精密工具", "耐用结构", "人体工程学设计", "专业等级"]
+          "features": [
+            "精密工具",
+            "耐用结构",
+            "人体工程学设计",
+            "专业等级"
+          ]
         },
         "power-tools": {
           "title": "电动工具",
           "description": "用于重型应用的电动和气动工具",
-          "features": ["高性能", "变速", "无线选项", "工业职责"]
+          "features": [
+            "高性能",
+            "变速",
+            "无线选项",
+            "工业职责"
+          ]
         },
         "cutting-tools": {
           "title": "切割工具",
           "description": "精密切割工具及配件",
-          "features": ["锋利的边缘", "耐用材料", "精密切割", "持久耐用"]
+          "features": [
+            "锋利的边缘",
+            "耐用材料",
+            "精密切割",
+            "持久耐用"
+          ]
         },
         "lifting-equipment": {
           "title": "起重设备",
           "description": "用于物料搬运的葫芦、起重机和起重配件",
-          "features": ["重型", "安全认证", "负载测试", "各种容量"]
+          "features": [
+            "重型",
+            "安全认证",
+            "负载测试",
+            "各种容量"
+          ]
         },
         "multimeters": {
           "title": "万用表",
           "description": "用于电气测量的数字和模拟万用表",
-          "features": ["AC/DC电压", "电流测量", "电阻测试", "连续性检查"]
+          "features": [
+            "AC/DC电压",
+            "电流测量",
+            "电阻测试",
+            "连续性检查"
+          ]
         },
         "power-quality-analyzers": {
           "title": "电能质量分析仪",
           "description": "用于电能质量监测和分析的仪器",
-          "features": ["电能分析", "谐波检测", "电压监测", "能源测量"]
+          "features": [
+            "电能分析",
+            "谐波检测",
+            "电压监测",
+            "能源测量"
+          ]
         },
         "calibration-equipment": {
           "title": "校准设备",
           "description": "精密校准工具和参考标准",
-          "features": ["参考标准", "精密校准", "可追溯性", "精度验证"]
+          "features": [
+            "参考标准",
+            "精密校准",
+            "可追溯性",
+            "精度验证"
+          ]
         },
         "panel-meters-indicators": {
           "title": "面板仪表和指示器",
           "description": "用于电压、电流和功率因数测量的模拟和数字面板仪表",
-          "features": ["模拟/数字仪表", "电压表", "电流表", "功率因数表"]
+          "features": [
+            "模拟/数字仪表",
+            "电压表",
+            "电流表",
+            "功率因数表"
+          ]
         }
       },
       "cta": {
         "title": "需要工具和测量解决方案？",
         "description": "我们的专家可以帮助您为您的工业应用选择合适的工具和测量仪器。",
         "contactButtonText": "联系我们的专家"
-      }
-    },
-    "bldc": {
-      "title": "BLDC电机系统",
-      "description": "用于工业和商业应用的节能无刷直流电机解决方案",
-      "badges": ["BLDC电机", "节能", "低维护", "智能控制"],
-      "sectionTitle": "BLDC解决方案",
-      "subcategories": {
-        "bldc-cooler-exhaust-motor": {
-          "title": "BLDC冷却器和排气电机",
-          "description": "用于冷却和通风应用的高效电机",
-          "features": ["节能", "低噪音", "寿命长", "变速"]
-        },
-        "bldc-ceiling-fan": {
-          "title": "BLDC吊扇",
-          "description": "具有先进节能技术的智能吊扇",
-          "features": ["遥控", "节能", "静音运行", "智能功能"]
-        },
-        "bldc-submersible-surface-pump": {
-          "title": "BLDC潜水泵和地面泵",
-          "description": "具有BLDC电机技术的水泵解决方案",
-          "features": ["潜水设计", "高效率", "耐腐蚀", "太阳能兼容"]
-        },
-        "bldc-table-fan-wall-fan-motor": {
-          "title": "BLDC台扇和壁扇电机",
-          "description": "用于便携式和壁挂式风扇的紧凑型BLDC电机",
-          "features": ["尺寸紧凑", "节能", "静音运行", "速度控制"]
-        }
-      },
-      "cta": {
-        "title": "升级到BLDC技术？",
-        "description": "我们的BLDC专家可以帮助您过渡到节能无刷直流电机解决方案。",
-        "contactButtonText": "联系BLDC专家"
       }
     }
   },
@@ -749,7 +952,12 @@
       "shortDescription": "用于电力传输和配电系统的工业电气电缆",
       "fullDescription": "完整的电气连接解决方案，包括电力电缆、控制电缆、铠装电缆和通信电缆，用于可靠的电力传输和配电。",
       "parentCategoryTitle": "电气配件",
-      "keyBenefits": ["高载流能力", "卓越的绝缘性能", "阻燃材料", "长使用寿命"],
+      "keyBenefits": [
+        "高载流能力",
+        "卓越的绝缘性能",
+        "阻燃材料",
+        "长使用寿命"
+      ],
       "specifications": [
         "电压等级：300V至33kV",
         "温度等级：-40°C至+90°C",
@@ -802,7 +1010,12 @@
       "title": "连接器和端子",
       "shortDescription": "用于安全连接的电气连接器和端子块",
       "fullDescription": "完整的电气连接解决方案，包括端子块、电线连接器、接线盒和工业连接器，用于可靠的电气连接。",
-      "keyBenefits": ["安全连接", "易于安装", "维护友好", "高载流能力"],
+      "keyBenefits": [
+        "安全连接",
+        "易于安装",
+        "维护友好",
+        "高载流能力"
+      ],
       "specifications": [
         "电流额定值：5A至1000A",
         "电压额定值：300V至1000V",
@@ -856,7 +1069,12 @@
       "title": "断路器和熔断器",
       "shortDescription": "用于工业配电的电气保护装置",
       "fullDescription": "完整的电路保护装置系列，包括MCB、MCCB、ACB和工业熔断器，用于全面的电气系统保护。",
-      "keyBenefits": ["设备保护", "过电流检测", "安全合规性", "可靠的性能"],
+      "keyBenefits": [
+        "设备保护",
+        "过电流检测",
+        "安全合规性",
+        "可靠的性能"
+      ],
       "specifications": [
         "电流额定值：1A至6300A",
         "电压额定值：高达1000VAC",
@@ -910,7 +1128,12 @@
       "title": "电源",
       "shortDescription": "工业电源和DC-DC转换器",
       "fullDescription": "可靠的工业电源，包括AC-DC转换器、DC-DC转换器和UPS系统，适用于关键的工业应用。",
-      "keyBenefits": ["稳定的输出电压", "宽输入范围", "高效率", "紧凑的设计"],
+      "keyBenefits": [
+        "稳定的输出电压",
+        "宽输入范围",
+        "高效率",
+        "紧凑的设计"
+      ],
       "specifications": [
         "输入电压：85-265VAC",
         "输出电压：5V至48VDC",
@@ -964,7 +1187,12 @@
       "title": "外壳和机柜",
       "shortDescription": "工业电气外壳和控制柜",
       "fullDescription": "坚固的电气外壳和控制柜，专为恶劣的工业环境而设计，具有各种防护等级和安装选项。",
-      "keyBenefits": ["设备保护", "环境密封", "模块化设计", "易于访问"],
+      "keyBenefits": [
+        "设备保护",
+        "环境密封",
+        "模块化设计",
+        "易于访问"
+      ],
       "specifications": [
         "材料：钢、不锈钢、聚碳酸酯",
         "防护等级：IP54至IP68",
@@ -1018,7 +1246,12 @@
       "title": "加热元件和设备",
       "shortDescription": "工业加热元件和热控制设备",
       "fullDescription": "各种工业加热解决方案，包括浸入式加热器、带式加热器、筒式加热器和热控制系统。",
-      "keyBenefits": ["精确的温度控制", "节能", "长使用寿命", "快速传热"],
+      "keyBenefits": [
+        "精确的温度控制",
+        "节能",
+        "长使用寿命",
+        "快速传热"
+      ],
       "specifications": [
         "功率等级：100W至100kW",
         "温度范围：高达800°C",
@@ -1132,7 +1365,12 @@
       "shortDescription": "用于配电和计量的控制变压器、电流互感器 (CT) 和电压互感器 (PT)",
       "fullDescription": "精密变压器，包括控制变压器（1kVA-5kVA）、用于测量和保护的电流互感器以及用于工业电力系统中电压监控的电压互感器",
       "parentCategoryTitle": "电气配件",
-      "keyBenefits": ["电压隔离与转换", "精确测量", "设备保护", "紧凑设计"],
+      "keyBenefits": [
+        "电压隔离与转换",
+        "精确测量",
+        "设备保护",
+        "紧凑设计"
+      ],
       "specifications": [
         "控制变压器：1kVA到5kVA",
         "CT比率：5A到3000A/5A",
@@ -1245,7 +1483,12 @@
       "shortDescription": "高效率太阳能板和光伏组件",
       "fullDescription": "优质太阳能板，具有高转换效率、耐用性和性能，适用于住宅、商业和工业应用。",
       "parentCategoryTitle": "太阳能产品",
-      "keyBenefits": ["高效率", "长使用寿命", "耐候性", "低衰减"],
+      "keyBenefits": [
+        "高效率",
+        "长使用寿命",
+        "耐候性",
+        "低衰减"
+      ],
       "specifications": [
         "功率输出：100W至600W",
         "效率：18%至22%",
@@ -1299,7 +1542,12 @@
       "shortDescription": "用于光伏系统的并网和混合太阳能逆变器",
       "fullDescription": "用于并网和混合应用的高效率太阳能逆变器，具有先进的MPPT技术和电池集成。",
       "parentCategoryTitle": "太阳能产品",
-      "keyBenefits": ["最大功率点跟踪", "电网集成", "电池兼容性", "远程监控"],
+      "keyBenefits": [
+        "最大功率点跟踪",
+        "电网集成",
+        "电池兼容性",
+        "远程监控"
+      ],
       "specifications": [
         "功率范围：1kW至100kW",
         "效率：高达98%",
@@ -1353,7 +1601,12 @@
       "shortDescription": "用于过程控制和制造的工业自动化控制器",
       "fullDescription": "具有模块化设计、多种通信协议和集成安全功能的高级PLC系统，可提供全面的工业自动化解决方案。",
       "parentCategoryTitle": "自动化与控制系统",
-      "keyBenefits": ["灵活的编程", "模块化扩展", "实时控制", "集成安全"],
+      "keyBenefits": [
+        "灵活的编程",
+        "模块化扩展",
+        "实时控制",
+        "集成安全"
+      ],
       "specifications": [
         "I/O点：16至40,000以上",
         "内存：512KB至64MB",
@@ -1407,7 +1660,12 @@
       "shortDescription": "用于工业自动化的监督控制和数据采集系统",
       "fullDescription": "全面的SCADA解决方案，用于工业过程中的实时监控、控制和数据采集，具有先进的可视化和报告功能。",
       "parentCategoryTitle": "自动化与控制系统",
-      "keyBenefits": ["实时监控", "集中控制", "数据采集", "历史趋势"],
+      "keyBenefits": [
+        "实时监控",
+        "集中控制",
+        "数据采集",
+        "历史趋势"
+      ],
       "specifications": [
         "并发用户：最多100个",
         "I/O点：无限制",
@@ -1461,7 +1719,12 @@
       "shortDescription": "用于大规模过程自动化的分布式控制系统",
       "fullDescription": "用于复杂过程控制的高级DCS解决方案，具有分布式架构、冗余通信和集成安全系统，适用于关键应用。",
       "parentCategoryTitle": "自动化与控制系统",
-      "keyBenefits": ["分布式架构", "高可靠性", "集成安全", "可扩展设计"],
+      "keyBenefits": [
+        "分布式架构",
+        "高可靠性",
+        "集成安全",
+        "可扩展设计"
+      ],
       "specifications": [
         "控制器节点：最多1000个",
         "I/O容量：50,000+点",
@@ -1515,7 +1778,12 @@
       "shortDescription": "用于过程控制的工业HMI面板和操作员界面",
       "fullDescription": "高级HMI解决方案，包括触摸屏面板、操作员界面和移动HMI系统，适用于工业自动化和过程控制应用。",
       "parentCategoryTitle": "自动化与控制系统",
-      "keyBenefits": ["触摸屏操作", "工业级设计", "实时显示", "多协议支持"],
+      "keyBenefits": [
+        "触摸屏操作",
+        "工业级设计",
+        "实时显示",
+        "多协议支持"
+      ],
       "specifications": [
         "屏幕尺寸：4英寸至21英寸",
         "分辨率：480x272至1920x1080",
@@ -1628,7 +1896,12 @@
       "shortDescription": "用于电气系统保护的工业浪涌保护装置",
       "fullDescription": "全面的浪涌保护解决方案，包括交流电源、直流太阳能和信号线路保护器，用于保护电气设备免受瞬态过电压的影响。",
       "parentCategoryTitle": "安全与保护装置",
-      "keyBenefits": ["瞬态保护", "设备安全", "系统可靠性", "雷电防护"],
+      "keyBenefits": [
+        "瞬态保护",
+        "设备安全",
+        "系统可靠性",
+        "雷电防护"
+      ],
       "specifications": [
         "电压范围：120V至690V AC",
         "额定电流：15kA至100kA",
@@ -1682,7 +1955,12 @@
       "shortDescription": "用于电气安全的工业接地和接地系统",
       "fullDescription": "完整的接地和接地解决方案，包括接地棒、导体和接地监控系统，用于电气安全和系统保护。",
       "parentCategoryTitle": "安全与保护装置",
-      "keyBenefits": ["电气安全", "系统保护", "故障电流路径", "设备保护"],
+      "keyBenefits": [
+        "电气安全",
+        "系统保护",
+        "故障电流路径",
+        "设备保护"
+      ],
       "specifications": [
         "接地棒材料：覆铜钢",
         "导体尺寸：#6 AWG至750 MCM",
@@ -1736,7 +2014,12 @@
       "shortDescription": "用于机械设备安全的工业安全继电器和急停开关",
       "fullDescription": "全面的安全控制装置，包括安全继电器、急停开关和安全控制器，用于机械设备安全和人员保护。",
       "parentCategoryTitle": "安全与保护装置",
-      "keyBenefits": ["机械设备安全", "人员保护", "紧急停车", "安全合规"],
+      "keyBenefits": [
+        "机械设备安全",
+        "人员保护",
+        "紧急停车",
+        "安全合规"
+      ],
       "specifications": [
         "安全类别：符合ISO 13849的Cat 3/4",
         "触点额定值：6A至16A",
@@ -1753,7 +2036,14 @@
         "安全门监控",
         "压力机制动安全"
       ],
-      "industries": ["制造业", "汽车", "包装", "食品加工", "制药", "物料搬运"],
+      "industries": [
+        "制造业",
+        "汽车",
+        "包装",
+        "食品加工",
+        "制药",
+        "物料搬运"
+      ],
       "features": [
         "双通道安全",
         "紧急停止",
@@ -1783,7 +2073,12 @@
       "shortDescription": "用于危险区域的防爆和本质安全设备",
       "fullDescription": "经过认证的本质安 ��和防爆设备，包括用于危险场所应用的屏障、隔离器和外壳。",
       "parentCategoryTitle": "安全与保护装置",
-      "keyBenefits": ["ATEX认证", "防爆", "本质安全", "危险区域批准"],
+      "keyBenefits": [
+        "ATEX认证",
+        "防爆",
+        "本质安全",
+        "危险区域批准"
+      ],
       "specifications": [
         "区域等级：0/1/2区，1/2区",
         "温度等级：T1至T6",
@@ -1837,7 +2132,12 @@
       "shortDescription": "工业安全设备和个人防护装置",
       "fullDescription": "全面的安全解决方案，包括个人防护设备、防坠落系统和气体检测设备，用于工业安全合规。",
       "parentCategoryTitle": "安全与保护装置",
-      "keyBenefits": ["人员安全", "OSHA合规", "防坠落", "气体检测"],
+      "keyBenefits": [
+        "人员安全",
+        "OSHA合规",
+        "防坠落",
+        "气体检测"
+      ],
       "specifications": [
         "防护标准：ANSI、EN、CSA",
         "材料：高抗冲击性",
@@ -1951,7 +2251,12 @@
       "shortDescription": "用于工业流体处理的高效离心泵",
       "fullDescription": "坚固的离心泵设计用于连续运行，具有高流量、耐腐蚀性和节能性能，适用于各种工业应用。",
       "parentCategoryTitle": "机械泵及备件",
-      "keyBenefits": ["高流量能力", "节能", "低维护", "耐腐蚀"],
+      "keyBenefits": [
+        "高流量能力",
+        "节能",
+        "低维护",
+        "耐腐蚀"
+      ],
       "specifications": [
         "流量：10至10,000 GPM",
         "扬程：10至500英尺",
@@ -1968,7 +2273,14 @@
         "工业过程",
         "消防"
       ],
-      "industries": ["水处理", "化学处理", "发电", "暖通空调", "农业", "采矿"],
+      "industries": [
+        "水处理",
+        "化学处理",
+        "发电",
+        "暖通空调",
+        "农业",
+        "采矿"
+      ],
       "features": [
         "高效叶轮",
         "平衡转子",
@@ -1998,7 +2310,12 @@
       "shortDescription": "用于化学品输送的气动和电动隔膜泵",
       "fullDescription": "多功能隔膜泵，用于处理磨蚀性、粘性和腐蚀性流体，具有自吸能力和干运转保护。",
       "parentCategoryTitle": "机械泵及备件",
-      "keyBenefits": ["自吸", "干运转能力", "耐化学腐蚀", "固体处理"],
+      "keyBenefits": [
+        "自吸",
+        "干运转能力",
+        "耐化学腐蚀",
+        "固体处理"
+      ],
       "specifications": [
         "流量：1至250 GPM",
         "压力：高达125 PSI",
@@ -2052,7 +2369,12 @@
       "shortDescription": "用于粘性流体输送的精密齿轮泵",
       "fullDescription": "高精度齿轮泵，设计用于处理粘性液体，在工业应用中具有精确的计量和一致的流量。",
       "parentCategoryTitle": "机械泵及备件",
-      "keyBenefits": ["一致的流量", "高压", "粘性流体处理", "精确计量"],
+      "keyBenefits": [
+        "一致的流量",
+        "高压",
+        "粘性流体处理",
+        "精确计量"
+      ],
       "specifications": [
         "流量：0.1至500 GPM",
         "压力：高达3000 PSI",
@@ -2106,7 +2428,12 @@
       "shortDescription": "原装泵更换零件和维护用品",
       "fullDescription": "全面的泵备件库存，包括适用于所有主要泵制造商的叶轮、密封件、轴承和垫圈。",
       "parentCategoryTitle": "机械泵及备件",
-      "keyBenefits": ["原装零件", "快速供货", "延长泵寿命", "减少停机时间"],
+      "keyBenefits": [
+        "原装零件",
+        "快速供货",
+        "延长泵寿命",
+        "减少停机时间"
+      ],
       "specifications": [
         "材料：根据OEM规格而定",
         "兼容性：多品牌支持",
@@ -2182,7 +2509,14 @@
         "管道",
         "电气工作"
       ],
-      "industries": ["制造业", "汽车", "建筑", "维护", "暖通空调", "管道"],
+      "industries": [
+        "制造业",
+        "汽车",
+        "建筑",
+        "维护",
+        "暖通空调",
+        "管道"
+      ],
       "features": [
         "扳手和套筒",
         "螺丝刀",
@@ -2212,7 +2546,12 @@
       "shortDescription": "用于切割、钻孔和研磨的工业电动工具",
       "fullDescription": "专业级电动工具，包括钻头、研磨机和锯，专为重型工业应用而设计。",
       "parentCategoryTitle": "工业测量工具",
-      "keyBenefits": ["高功率性能", "重型结构", "安全特性", "专业等级"],
+      "keyBenefits": [
+        "高功率性能",
+        "重型结构",
+        "安全特性",
+        "专业等级"
+      ],
       "specifications": [
         "功率：500W至2500W",
         "电压：110V/220V",
@@ -2221,8 +2560,22 @@
         "安全：多种特性",
         "占空比：连续"
       ],
-      "applications": ["金属制造", "木工", "建筑", "维护", "安装", "拆除"],
-      "industries": ["制造业", "建筑", "金属制造", "汽车", "木工", "维护"],
+      "applications": [
+        "金属制造",
+        "木工",
+        "建筑",
+        "维护",
+        "安装",
+        "拆除"
+      ],
+      "industries": [
+        "制造业",
+        "建筑",
+        "金属制造",
+        "汽车",
+        "木工",
+        "维护"
+      ],
       "features": [
         "角磨机",
         "钻头和起子",
@@ -2252,7 +2605,12 @@
       "shortDescription": "用于金属和材料加工的精密切割工具",
       "fullDescription": "高精度切割工具，包括用于机加工和制造应用的立铣刀、钻头、丝锥和模具。",
       "parentCategoryTitle": "工业测量工具",
-      "keyBenefits": ["精密切割", "长刀具寿命", "高速性能", "优质表面处理"],
+      "keyBenefits": [
+        "精密切割",
+        "长刀具寿命",
+        "高速性能",
+        "优质表面处理"
+      ],
       "specifications": [
         "材料：HSS、硬质合金、钴",
         "涂层：TiN、TiCN、AlTiN",
@@ -2306,7 +2664,12 @@
       "shortDescription": "工业起重和物料搬运设备",
       "fullDescription": "重型起重设备，包括葫芦、起重机、吊索和索具硬件，用于在工业环境中安全地搬运物料。",
       "parentCategoryTitle": "工业测量工具",
-      "keyBenefits": ["安全装载处理", "重型结构", "符合法规认证", "多功能应用"],
+      "keyBenefits": [
+        "安全装载处理",
+        "重型结构",
+        "符合法规认证",
+        "多功能应用"
+      ],
       "specifications": [
         "容量：0.5吨至50吨",
         "提升高度：高达100英尺",
@@ -2323,7 +2686,14 @@
         "仓库操作",
         "制造业"
       ],
-      "industries": ["制造业", "建筑", "仓储", "运输和物流", "采矿", "发电"],
+      "industries": [
+        "制造业",
+        "建筑",
+        "仓储",
+        "运输和物流",
+        "采矿",
+        "发电"
+      ],
       "features": [
         "链条葫芦",
         "钢丝绳葫芦",
@@ -2353,7 +2723,12 @@
       "shortDescription": "用于电气测量的数字万用表和钳形表",
       "fullDescription": "具有高级功能的专业数字万用表和钳形表，用于在工业环境中进行精确的电气测量。",
       "parentCategoryTitle": "工业测量工具",
-      "keyBenefits": ["高精度", "多种测量功能", "安全特性", "易于使用"],
+      "keyBenefits": [
+        "高精度",
+        "多种测量功能",
+        "安全特性",
+        "易于使用"
+      ],
       "specifications": [
         "电压范围：0.1mV至1000V",
         "电流范围：0.01mA至1000A",
@@ -2407,7 +2782,12 @@
       "shortDescription": "用于高级电能质量监测和分析的仪器",
       "fullDescription": "用于全面电气系统监测、谐波分析和能源管理的专业电能质量分析仪。",
       "parentCategoryTitle": "工业测量工具",
-      "keyBenefits": ["完整的电源分析", "谐波检测", "能源管理", "数据记录"],
+      "keyBenefits": [
+        "完整的电源分析",
+        "谐波检测",
+        "能源管理",
+        "数据记录"
+      ],
       "specifications": [
         "电压范围：1V至1000V",
         "电流范围：1mA至6000A",
@@ -2461,7 +2841,12 @@
       "shortDescription": "用于工业应用的专业校准和测试仪器",
       "fullDescription": "用于维护工业测量系统中的精度和合规性的全套校准设备和测试仪器。",
       "parentCategoryTitle": "工业测量工具",
-      "keyBenefits": ["精密校准", "可追溯性", "合规性验证", "延长设备寿命"],
+      "keyBenefits": [
+        "精密校准",
+        "可追溯性",
+        "合规性验证",
+        "延长设备寿命"
+      ],
       "specifications": [
         "精度：±0.01%至±0.1%",
         "校准范围：各种",
@@ -2515,7 +2900,12 @@
       "shortDescription": "用于电压、电流、功率因数和多参数测量的模拟和数字面板仪表",
       "fullDescription": "各种面板安装仪表，包括模拟电流表和电压表、数字仪表、功率因数表和用于全面功率监控的先进多功能仪表",
       "parentCategoryTitle": "工业和测量工具",
-      "keyBenefits": ["实时监控", "高精度显示", "易于安装", "经济高效的测量"],
+      "keyBenefits": [
+        "实时监控",
+        "高精度显示",
+        "易于安装",
+        "经济高效的测量"
+      ],
       "specifications": [
         "显示：模拟/数字 LED/LCD",
         "精度：±0.5% 至 ±2% FS",
@@ -2563,232 +2953,38 @@
         "description": "面板仪表，包括模拟电流表/电压表、数字仪表、功率因数表和用于工业电力监控和测量的多功能仪表。",
         "keywords": "面板仪表、模拟电流表、模拟电压表、数字仪表、功率因数表、多功能仪表、电能表、面板安装仪表"
       }
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "BLDC冷风机和排风扇电机",
-      "shortDescription": "用于冷风机和排风扇的高效BLDC电机",
-      "fullDescription": "专为沙漠冷风机和排风扇设计的高级BLDC电机，具有卓越的效率、耐用性和性能。",
-      "parentCategoryTitle": "BLDC产品",
-      "keyBenefits": ["节能", "低噪音", "高耐用性", "耐候性"],
-      "specifications": [
-        "功率：35W至85W",
-        "电压：220V交流",
-        "速度：1400-1800 RPM",
-        "气流：高CFM",
-        "防护等级：IP44",
-        "效率：>85%"
-      ],
-      "applications": [
-        "沙漠冷风机",
-        "排风扇",
-        "通风系统",
-        "工业冷却",
-        "厨房排气",
-        "浴室通风"
-      ],
-      "industries": [
-        "暖通空调",
-        "住宅",
-        "商业建筑",
-        "工业通风",
-        "餐饮服务",
-        "制造业"
-      ],
-      "features": [
-        "BLDC技术",
-        "高效率",
-        "低维护",
-        "耐腐蚀",
-        "热保护",
-        "长使用寿命",
-        "安静运行",
-        "耐候性"
-      ],
-      "certifications": [
-        "BEE认证",
-        "ISI标志",
-        "CE认证",
-        "IP44等级",
-        "符合RoHS标准",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "BLDC冷风机和排风扇电机 - 高效BLDC电机 | Powerton 工程",
-        "description": "用于沙漠冷风机和排风扇的高效BLDC电机。节能无刷直流电机，使用寿命长。",
-        "keywords": "BLDC冷风机电机, BLDC排风扇电机, 无刷直流电机, 节能电机, 冷风机电机, 排风扇电机"
-      }
-    },
-    "bldc-ceiling-fan": {
-      "title": "BLDC吊扇",
-      "shortDescription": "节能无刷直流吊扇",
-      "fullDescription": "高效BLDC吊扇，采用节能技术、智能控制和卓越性能，适用于住宅和商业应用。",
-      "parentCategoryTitle": "BLDC产品",
-      "keyBenefits": ["高达65%的节能", "静音运行", "遥控", "长使用寿命"],
-      "specifications": [
-        "电机功率：28W至52W",
-        "速度：1200-1600 RPM",
-        "气流：200-280 CMM",
-        "电压：220V交流",
-        "扇叶直径：1200mm至1600mm",
-        "能效等级：5星BEE"
-      ],
-      "applications": [
-        "住宅房间",
-        "办公空间",
-        "商业建筑",
-        "酒店",
-        "教育机构",
-        "医疗保健设施"
-      ],
-      "industries": [
-        "住宅建设",
-        "商业房地产",
-        "酒店",
-        "医疗保健",
-        "教育",
-        "零售"
-      ],
-      "features": [
-        "BLDC电机技术",
-        "遥控",
-        "变速",
-        "反向模式",
-        "定时器功能",
-        "LED指示灯",
-        "空气动力学叶片",
-        "静音运行"
-      ],
-      "certifications": [
-        "BEE 5星评级",
-        "ISI标志",
-        "CE认证",
-        "符合RoHS标准",
-        "能源之星",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "BLDC吊扇 - 节能无刷直流风扇 | Powerton 工程",
-        "description": "节能BLDC吊扇，具有5星BEE评级。智能遥控、静音运行和高达65%的节能。",
-        "keywords": "BLDC吊扇, 节能风扇, 无刷直流风扇, 智能吊扇, 5星吊扇, 遥控风扇"
-      }
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "BLDC潜水泵和地面泵",
-      "shortDescription": "用于灌溉和供水的太阳能兼容BLDC水泵",
-      "fullDescription": "先进的BLDC潜水泵和地面泵，具有太阳能兼容性、高效率和可靠的性能，适用于农业和家庭应用。",
-      "parentCategoryTitle": "BLDC产品",
-      "keyBenefits": ["太阳能兼容", "节能", "低维护", "高可靠性"],
-      "specifications": [
-        "功率：0.5HP至5HP",
-        "扬程：10米至150米",
-        "流量：10至150 LPM",
-        "电压：48V/110V/220V 直流",
-        "太阳能：MPPT兼容",
-        "效率：>85%"
-      ],
-      "applications": [
-        "农业灌溉",
-        "家庭供水",
-        "太阳能水泵",
-        "牲畜饮水",
-        "花园灌溉",
-        "输水"
-      ],
-      "industries": [
-        "农业",
-        "太阳能",
-        "住宅",
-        "农村发展",
-        "灌溉",
-        "水资源管理"
-      ],
-      "features": [
-        "BLDC电机",
-        "太阳能兼容",
-        "MPPT技术",
-        "不锈钢机身",
-        "干运转保护",
-        "热保护",
-        "高效率",
-        "低维护"
-      ],
-      "certifications": [
-        "BEE认证",
-        "ISI标志",
-        "CE认证",
-        "太阳能认证",
-        "IP68等级",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "BLDC水泵 - 太阳能潜水泵和地面泵 | Powerton 工程",
-        "description": "用于灌溉和家庭用途的太阳能兼容BLDC水泵。具有MPPT技术的节能潜水泵和地面泵。",
-        "keywords": "BLDC水泵, 太阳能水泵, BLDC潜水泵, 太阳能水泵, 无刷直流电机水泵, 灌溉水泵"
-      }
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC台扇和壁扇电机",
-      "shortDescription": "用于台扇和壁扇的紧凑型BLDC电机",
-      "fullDescription": "专为台扇和壁扇设计的高效BLDC电机，具有卓越的性能、低噪音和延长的使用寿命。",
-      "parentCategoryTitle": "BLDC产品",
-      "keyBenefits": ["紧凑设计", "节能", "静音运行", "长寿命"],
-      "specifications": [
-        "功率：25W至45W",
-        "速度：1200-1800 RPM",
-        "电压：220V交流",
-        "气流：60-90 CMM",
-        "噪音：<40dB",
-        "效率：>80%"
-      ],
-      "applications": [
-        "台扇",
-        "壁扇",
-        "立式风扇",
-        "个人冷却",
-        "办公室通风",
-        "房间冷却"
-      ],
-      "industries": ["消费电子", "住宅", "商业", "酒店", "办公设备", "零售"],
-      "features": [
-        "BLDC技术",
-        "高效率",
-        "静音运行",
-        "变速",
-        "紧凑尺寸",
-        "低发热",
-        "长使用寿命",
-        "能源之星等级"
-      ],
-      "certifications": [
-        "BEE 5星",
-        "ISI标志",
-        "CE认证",
-        "符合RoHS标准",
-        "能源之星",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "BLDC台扇和壁扇电机 - 节能风扇电机 | Powerton 工程",
-        "description": "用于台扇和壁扇的紧凑型BLDC电机。节能无刷直流电机，具有静音运行和长使用寿命。",
-        "keywords": "BLDC风扇电机, 台扇电机, 壁扇电机, 节能电机, 无刷直流电机, 风扇电机"
-      }
     }
   },
   "surgeProtectors": {
     "acPower": {
       "name": "交流电源浪涌保护器",
       "description": "用于交流电源系统的瞬态电压浪涌抑制器",
-      "features": ["I/II/III级", "MOV技术", "状态指示器", "DIN导轨安装"]
+      "features": [
+        "I/II/III级",
+        "MOV技术",
+        "状态指示器",
+        "DIN导轨安装"
+      ]
     },
     "dcSolar": {
       "name": "直流太阳能浪涌保护器",
       "description": "用于太阳能板系统的直流浪涌保护装置",
-      "features": ["1000V直流额定电压", "1+2型保护", "远程指示", "快速断开"]
+      "features": [
+        "1000V直流额定电压",
+        "1+2型保护",
+        "远程指示",
+        "快速断开"
+      ]
     },
     "signalLine": {
       "name": "信号线路保护器",
       "description": "用于通信和控制线路的浪涌保护",
-      "features": ["数据线保护", "低电容", "快速响应", "多通道"]
+      "features": [
+        "数据线保护",
+        "低电容",
+        "快速响应",
+        "多通道"
+      ]
     }
   },
   "labels": {
@@ -2813,218 +3009,6 @@
     "type": "电缆类型",
     "awg": "导体尺寸",
     "temperature": "温度范围"
-  },
-  "bldc-smart1200": {
-    "seo": {
-      "title": "BLDC 智能吊扇 1200 RPM - 节能 | Powerton 工程",
-      "description": "高效 BLDC 智能吊扇 1200 RPM，带遥控、定时器功能和节能技术。 非常适合家庭和办公室。",
-      "keywords": "BLDC 吊扇, 智能吊扇, 节能风扇, 1200 RPM 吊扇, 无刷直流电机风扇, 遥控风扇"
-    },
-    "hero": {
-      "title": "BLDC 智能吊扇 1200 RPM",
-      "subtitle": "带遥控器的节能智能吊扇"
-    },
-    "overview": {
-      "fullDescription": "我们的智能 BLDC 吊扇 1200 RPM 将尖端的无刷直流电机技术与智能功能相结合，以实现最佳的能源效率和舒适度。 这款风扇专为住宅和轻型商业应用而设计，可提供卓越的性能，同时比传统风扇节省高达 65% 的能源。"
-    },
-    "keyBenefits": ["高达 65% 的节能", "智能遥控", "静音运行", "使用寿命长"],
-    "features": [
-      "无刷直流电机技术",
-      "带定时器的智能遥控器",
-      "变速控制",
-      "反向功能",
-      "LED 指示灯显示",
-      "能源之星评级",
-      "铜绕组电机",
-      "空气动力学叶片设计"
-    ],
-    "applications": [
-      "住宅卧室",
-      "客厅",
-      "办公场所",
-      "书房",
-      "客房",
-      "小型商业空间"
-    ],
-    "industries": [
-      "住宅建设",
-      "室内设计",
-      "酒店",
-      "办公楼",
-      "教育机构",
-      "医疗机构"
-    ],
-    "certifications": [
-      "能源之星认证",
-      "ISI 标志",
-      "CE 认证",
-      "符合 RoHS 标准",
-      "BEE 5 星评级"
-    ]
-  },
-  "bldc-premium1400": {
-    "title": "高级 BLDC 吊扇 1400mm",
-    "description": "高性能 52W 无刷直流吊扇，扫掠直径为 1400mm。 采用智能控制、LED 照明集成和卓越的能源效率的优质设计，适用于大型房间和商业空间。",
-    "features": [
-      "高级 52W 电机，具有 5 星能效等级",
-      "带 LED 照明控制的智能遥控器",
-      "240 CMM 的卓越气流，适用于大型空间",
-      "带调光器控制的集成 LED 照明",
-      "先进的空气动力学叶片设计",
-      "低于 30dB 的超静音运行",
-      "5 年高级保修范围"
-    ],
-    "seo": {
-      "title": "BLDC 高级吊扇 1400 RPM - 高级功能 | Powerton 工程",
-      "description": "高级 BLDC 吊扇 1400 RPM，具有先进的智能功能、卓越的气流和节能无刷电机技术。",
-      "keywords": "高级 BLDC 吊扇, 1400 RPM 吊扇, 高级吊扇, 智能吊扇, 高气流风扇, 节能"
-    },
-    "hero": {
-      "title": "BLDC 高级吊扇 1400 RPM",
-      "subtitle": "带 LED 照明的高性能吊扇"
-    },
-    "overview": {
-      "fullDescription": "高级 BLDC 吊扇 1400 RPM 代表了吊扇技术的顶峰，具有先进的功能和卓越的制造质量。 专为增强性能而设计，具有更高的气流输送，同时为高级住宅和商业应用保持卓越的能源效率。"
-    },
-    "keyBenefits": [
-      "卓越的气流性能",
-      "先进的智能控制",
-      "优质的制造质量",
-      "延长的保修范围"
-    ],
-    "applications": [
-      "高级住宅空间",
-      "主卧室",
-      "大型起居区",
-      "行政办公室",
-      "会议室",
-      "豪华酒店"
-    ],
-    "industries": [
-      "高级住宅",
-      "豪华酒店",
-      "公司办公室",
-      "高端零售",
-      "高级医疗保健",
-      "高档教育"
-    ],
-    "certifications": [
-      "能源之星认证",
-      "ISI 标志",
-      "CE 认证",
-      "符合 RoHS 标准",
-      "BEE 5 星评级",
-      "WiFi 联盟认证"
-    ]
-  },
-  "bldc-commercial1500": {
-    "title": "商用 BLDC 吊扇 1500mm",
-    "description": "重型 65W 无刷直流吊扇，专为商业和工业应用而设计。 卓越的气流容量为 300 CFM，结构坚固，可在苛刻的环境中连续运行。",
-    "features": [
-      "重型 65W 商用电机",
-      "高气流容量 300 CFM",
-      "坚固的结构，可连续运行",
-      "商用级 1500mm 扫掠",
-      "增强的耐用性和可靠性",
-      "适用于仓库和工厂",
-      "延长的 3 年商业保修"
-    ],
-    "seo": {
-      "title": "BLDC 商用吊扇 1500 RPM - 重型 | Powerton 工程",
-      "description": "商用级 BLDC 吊扇 1500 RPM，专为重型应用而设计，具有最大的气流和工业可靠性。",
-      "keywords": "商用 BLDC 吊扇, 工业吊扇, 1500 RPM 风扇, 重型吊扇, 商用级风扇, 高气流"
-    },
-    "hero": {
-      "title": "BLDC 商用吊扇 1500 RPM",
-      "subtitle": "用于商业应用的重型吊扇"
-    },
-    "overview": {
-      "fullDescription": "我们的商用 BLDC 吊扇 1500 RPM 专为需要最大气流和可靠性的重型商业应用而设计。 采用工业级组件和先进的电机技术制造，可在苛刻的环境中提供稳定的性能，同时保持能源效率。"
-    },
-    "keyBenefits": [
-      "最大气流输送",
-      "工业级可靠性",
-      "重型结构",
-      "延长的保修保护"
-    ],
-    "applications": [
-      "商业建筑",
-      "工业设施",
-      "大型办公空间",
-      "零售陈列室",
-      "仓库",
-      "制造工厂"
-    ],
-    "industries": [
-      "商业房地产",
-      "工业制造",
-      "零售与购物",
-      "仓储与物流",
-      "商业酒店",
-      "教育机构"
-    ],
-    "certifications": [
-      "能源之星认证",
-      "ISI 标志",
-      "CE 认证",
-      "符合 RoHS 标准",
-      "BEE 5 星评级",
-      "商用级认证"
-    ]
-  },
-  "solar-bldc-submersible-1hp": {
-    "seo": {
-      "title": "太阳能 BLDC 潜水泵 1HP - 可持续水解决方案 | Powerton 工程",
-      "description": "太阳能 BLDC 潜水泵 1HP，用于农业灌溉和供水，具有先进的太阳能技术和能源效率。",
-      "keywords": "太阳能潜水泵, BLDC 水泵, 太阳能水泵, 1HP 潜水泵, 可再生能源泵, 农业泵"
-    },
-    "hero": {
-      "title": "太阳能 BLDC 潜水泵 1HP",
-      "subtitle": "太阳能水泵解决方案"
-    },
-    "overview": {
-      "fullDescription": "我们的太阳能 BLDC 潜水泵 1HP 将可再生太阳能与先进的无刷电机技术相结合，以实现可持续的水泵解决方案。 专为农业灌溉、家庭供水和远程供水系统而设计，具有最高的效率和可靠性。"
-    },
-    "keyBenefits": [
-      "100% 太阳能供电",
-      "零运营成本",
-      "环境友好",
-      "远程区域兼容"
-    ],
-    "features": [
-      "太阳能兼容 BLDC 电机",
-      "包括 MPPT 控制器",
-      "水冷设计",
-      "干运转保护",
-      "软启动技术",
-      "耐腐蚀材料",
-      "浮动开关兼容",
-      "远程监控系统"
-    ],
-    "applications": [
-      "农业灌溉",
-      "家庭供水",
-      "牲畜饮水",
-      "远程供水系统",
-      "农村供水",
-      "花园灌溉"
-    ],
-    "industries": [
-      "农业和农业",
-      "农村发展",
-      "水资源管理",
-      "可再生能源",
-      "灌溉系统",
-      "可持续技术"
-    ],
-    "certifications": [
-      "太阳能认证",
-      "ISI 标志",
-      "CE 认证",
-      "符合 RoHS 标准",
-      "IP68 等级",
-      "MNRE 批准"
-    ]
   },
   "instrumentation-cables": {
     "title": "仪器仪表电缆",
@@ -3087,123 +3071,164 @@
       "keywords": "仪器仪表电缆, 屏蔽双绞线, 信号电缆, 测量电缆, 控制电缆, 工业电缆"
     }
   },
-  "bldcCeilingFan": {
-    "smart1200": {
-      "name": "智能BLDC吊扇 - 1200mm",
-      "description": "具有遥控功能的节能智能吊扇",
-      "features": ["28W功耗", "遥控", "5种速度设置", "定时器功能"]
-    },
-    "premium1400": {
-      "name": "高级BLDC吊扇 - 1400mm",
-      "description": "具有LED照明的高性能吊扇",
-      "features": ["35W功耗", "集成LED灯", "可逆电机", "静音操作"]
-    },
-    "commercial1500": {
-      "name": "商用BLDC吊扇 - 1500mm",
-      "description": "适用于商业应用的重型吊扇",
-      "features": ["45W功耗", "重型电机", "高气流", "耐用结构"]
-    }
-  },
-  "bldcCoolerExhaust": {
-    "exhaustFan": {
-      "name": "BLDC排气扇电机",
-      "description": "用于排气扇应用的高效电机",
-      "features": ["变速", "低噪音", "节能", "寿命长"]
-    },
-    "coolerMotors": {
-      "name": "BLDC冷风机电机",
-      "description": "用于空气冷却器应用的节能电机",
-      "features": ["高扭矩", "耐候性", "速度控制", "免维护"]
-    },
-    "ventilation": {
-      "name": "BLDC通风电机",
-      "description": "用于工业通风系统的专用电机",
-      "features": ["高CFM", "温度额定", "耐振动", "智能控制"]
-    }
-  },
   "cablesWires": {
     "instrumentation": {
       "name": "仪器仪表电缆",
       "description": "用于仪器仪表和控制应用的低压电缆",
-      "features": ["屏蔽结构", "防潮", "温度额定", "多对"]
+      "features": [
+        "屏蔽结构",
+        "防潮",
+        "温度额定",
+        "多对"
+      ]
     },
     "powerDistribution": {
       "name": "配电电缆",
       "description": "用于电力传输和分配的高压电缆",
-      "features": ["XLPE绝缘", "铠装结构", "耐火", "高额定电流"]
+      "features": [
+        "XLPE绝缘",
+        "铠装结构",
+        "耐火",
+        "高额定电流"
+      ]
     },
     "communication": {
       "name": "通信电缆",
       "description": "用于工业通信网络的数据传输电缆",
-      "features": ["Cat5e/Cat6", "光纤", "工业级", "EMI屏蔽"]
+      "features": [
+        "Cat5e/Cat6",
+        "光纤",
+        "工业级",
+        "EMI屏蔽"
+      ]
     }
   },
   "handTools": {
     "wrenchSets": {
       "name": "专业扳手套装",
       "description": "组合和可调扳手的完整套装",
-      "features": ["铬钒钢", "公制和SAE尺寸", "专业级", "终身保修"]
+      "features": [
+        "铬钒钢",
+        "公制和SAE尺寸",
+        "专业级",
+        "终身保修"
+      ]
     },
     "screwdriverSets": {
       "name": "精密螺丝刀套装",
       "description": "用于精密应用的高质量螺丝刀",
-      "features": ["人体工程学手柄", "磁性尖端", "多种头部类型", "防滑 grip"]
+      "features": [
+        "人体工程学手柄",
+        "磁性尖端",
+        "多种头部类型",
+        "防滑 grip"
+      ]
     },
     "toolKits": {
       "name": "工业工具包",
       "description": "用于工业维护的综合工具包",
-      "features": ["完整工具集", "有组织的存储", "重型外壳", "专业质量"]
+      "features": [
+        "完整工具集",
+        "有组织的存储",
+        "重型外壳",
+        "专业质量"
+      ]
     }
   },
   "powerTools": {
     "drillSets": {
       "name": "工业钻头套装",
       "description": "用于工业应用的重型电动和无绳钻",
-      "features": ["高扭矩", "变速", "无绳选项", "卡盘容量：13mm"]
+      "features": [
+        "高扭矩",
+        "变速",
+        "无绳选项",
+        "卡盘容量：13mm"
+      ]
     },
     "angleGrinders": {
       "name": "角磨机",
       "description": "用于切割和研磨操作的专业角磨机",
-      "features": ["多种光盘尺寸", "安全防护装置", "防振动", "强大的电机"]
+      "features": [
+        "多种光盘尺寸",
+        "安全防护装置",
+        "防振动",
+        "强大的电机"
+      ]
     },
     "impactWrenches": {
       "name": "冲击扳手",
       "description": "用于重型紧固的高扭矩冲击扳手",
-      "features": ["高冲击力", "插座兼容性", "前进/后退", "电池供电"]
+      "features": [
+        "高冲击力",
+        "插座兼容性",
+        "前进/后退",
+        "电池供电"
+      ]
     }
   },
   "cuttingTools": {
     "sawBlades": {
       "name": "工业锯片",
       "description": "用于金属和臨材切割的高质量锯片",
-      "features": ["HSS/硬质合金刀头", "多个TPI", "双金属结构", "寿命长"]
+      "features": [
+        "HSS/硬质合金刀头",
+        "多个TPI",
+        "双金属结构",
+        "寿命长"
+      ]
     },
     "drillBits": {
       "name": "钻头和铰刀",
       "description": "精密钻孔和铰孔工具",
-      "features": ["高速钢/钴", "工件长度", "螺旋槽", "分裂点"]
+      "features": [
+        "高速钢/钴",
+        "工件长度",
+        "螺旋槽",
+        "分裂点"
+      ]
     },
     "millingCutters": {
       "name": "铣刀",
       "description": "用于机加工操作的立铣刀和面铣刀",
-      "features": ["硬质合金/高速钢", "多个凹槽", "涂层选项", "各种几何形状"]
+      "features": [
+        "硬质合金/高速钢",
+        "多个凹槽",
+        "涂层选项",
+        "各种几何形状"
+      ]
     }
   },
   "liftingEquipment": {
     "chainHoists": {
       "name": "链式起重机和吊索",
       "description": "用于重型提升的手动和电动链式起重机",
-      "features": ["1-20吨容量", "电动/手动", "安全钩", "过载保护"]
+      "features": [
+        "1-20吨容量",
+        "电动/手动",
+        "安全钩",
+        "过载保护"
+      ]
     },
     "wireRope": {
       "name": "钢丝绳和电缆",
       "description": "用于提升应用的高强度钢丝绳",
-      "features": ["镀锌钢", "多种铺设类型", "各种直径", "IWRC核心"]
+      "features": [
+        "镀锌钢",
+        "多种铺设类型",
+        "各种直径",
+        "IWRC核心"
+      ]
     },
     "liftingHardware": {
       "name": "起重硬件",
       "description": "卸扣、吊钩和索具硬件",
-      "features": ["不锈钢", "安全销", "负载额定", "ANSI/ASME 标准"]
+      "features": [
+        "不锈钢",
+        "安全销",
+        "负载额定",
+        "ANSI/ASME 标准"
+      ]
     }
   },
   "instrumentation": {
@@ -3251,11 +3276,24 @@
         "食品与饮料",
         "汽车制造"
       ],
-      "certifications": ["CE", "UL", "CSA", "ATEX", "IECEx", "SIL 2/3"],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C to +125°C",
         "protection": "IP65/IP67/IP69K",
-        "communication": ["4-20mA", "HART", "Modbus", "Ethernet", "Wireless"],
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
         "accuracy": "±0.1% to ±0.5% of span",
         "power": "24V DC, 115/230V AC, Loop-powered"
       }
@@ -3304,7 +3342,14 @@
         "纸浆和造纸",
         "采矿与金属"
       ],
-      "certifications": ["SIL 2/3", "ATEX", "IECEx", "FM", "CSA", "NEPSI"],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C to +85°C",
         "protection": "IP66/IP67",
@@ -3317,40 +3362,6 @@
         "accuracy": "±0.05% to ±0.25% of span",
         "power": "10.5-42.4V DC, Loop-powered"
       }
-    }
-  },
-  "bldcSubmersibleSurface": {
-    "solar1HP": {
-      "name": "太阳能 BLDC 潜水泵 - 1HP",
-      "description": "用于水井的太阳能 BLDC 潜水泵",
-      "features": ["太阳能兼容", "1HP 电机", "高效率", "水冷设计"]
-    },
-    "surface2HP": {
-      "name": "直流地面泵 - 2HP",
-      "description": "用于灌溉的高效 BLDC 地面泵",
-      "features": ["2HP 功率", "自吸", "干运转保护", "变速"]
-    },
-    "hybrid": {
-      "name": "混合 BLDC 泵系统",
-      "description": "具有太阳能和电网备份的智能泵系统",
-      "features": ["混合操作", "智能控制器", "远程监控", "能量优化"]
-    }
-  },
-  "bldcTableWallFan": {
-    "tableFan": {
-      "name": "BLDC 台扇电机",
-      "description": "用于台扇和书桌风扇的紧凑型 BLDC 电机",
-      "features": ["紧凑设计", "静音操作", "遥控", "定时器功能"]
-    },
-    "wallFan": {
-      "name": "BLDC 壁扇电机",
-      "description": "具有 BLDC 技术的壁挂式风扇电机",
-      "features": ["壁挂式设计", "振荡功能", "速度控制", "节能"]
-    },
-    "pedestalFan": {
-      "name": "BLDC 立式风扇电机",
-      "description": "高度可调的立式风扇电机",
-      "features": ["高度调整", "倾斜功能", "LED 显示屏", "睡眠模式"]
     }
   },
   "centrifugalPumps": {
@@ -3367,12 +3378,22 @@
     "multiStage": {
       "name": "多级离心泵",
       "description": "用于要求苛刻的应用的高压多级泵",
-      "features": ["高压能力", "紧凑设计", "节能", "平衡叶轮"]
+      "features": [
+        "高压能力",
+        "紧凑设计",
+        "节能",
+        "平衡叶轮"
+      ]
     },
     "chemicalProcess": {
       "name": "化学工艺泵",
       "description": "用于化学处理的耐腐蚀泵",
-      "features": ["耐腐蚀", "无密封设计选项", "符合 API 610 标准", "高温"]
+      "features": [
+        "耐腐蚀",
+        "无密封设计选项",
+        "符合 API 610 标准",
+        "高温"
+      ]
     }
   },
   "circuitBreakersFuses": {
@@ -3389,29 +3410,54 @@
     "mccb": {
       "name": "塑壳断路器 (MCCB)",
       "description": "用于电机和电源保护的工业断路器",
-      "features": ["可调跳闸", "高分断能力", "电子跳闸单元", "高达 1600A"]
+      "features": [
+        "可调跳闸",
+        "高分断能力",
+        "电子跳闸单元",
+        "高达 1600A"
+      ]
     },
     "industrialFuses": {
       "name": "工业熔断器",
       "description": "用于设备保护的高速熔断器",
-      "features": ["快速作用", "延时", "高压", "陶瓷体"]
+      "features": [
+        "快速作用",
+        "延时",
+        "高压",
+        "陶瓷体"
+      ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
       "name": "接线端子",
       "description": "用于安全导线连接的工业接线端子",
-      "features": ["弹簧夹", "螺钉型", "DIN 导轨安装", "多种尺寸"]
+      "features": [
+        "弹簧夹",
+        "螺钉型",
+        "DIN 导轨安装",
+        "多种尺寸"
+      ]
     },
     "industrialConnectors": {
       "name": "工业连接器",
       "description": "用于工业应用的重型连接器",
-      "features": ["IP67 等级", "锁定机制", "多针", "电缆密封套"]
+      "features": [
+        "IP67 等级",
+        "锁定机制",
+        "多针",
+        "电缆密封套"
+      ]
     },
     "signalConnectors": {
       "name": "信号连接器",
       "description": "用于仪器仪表信号的精密连接器",
-      "features": ["低噪音", "屏蔽设计", "微型尺寸", "高可靠性"]
+      "features": [
+        "低噪音",
+        "屏蔽设计",
+        "微型尺寸",
+        "高可靠性"
+      ]
     }
   },
   "automation": {
@@ -3461,46 +3507,86 @@
       "operatorInterface": {
         "name": "操作员界面站",
         "description": "用于过程控制的高级操作员工作站",
-        "features": ["高分辨率显示器", "多协议支持", "历史趋势", "报告生成"]
+        "features": [
+          "高分辨率显示器",
+          "多协议支持",
+          "历史趋势",
+          "报告生成"
+        ]
       },
       "mobile": {
         "name": "移动 HMI",
         "description": "用于远程过程监控的移动解决方案",
-        "features": ["无线连接", "移动应用支持", "远程访问", "实时通知"]
+        "features": [
+          "无线连接",
+          "移动应用支持",
+          "远程访问",
+          "实时通知"
+        ]
       }
     },
     "scada": {
       "wonderware": {
         "name": "Wonderware 系统平台",
         "description": "用于工业自动化的综合 SCADA 平台",
-        "features": ["实时数据采集", "历史趋势", "报警管理", "基于 Web 的 HMI"]
+        "features": [
+          "实时数据采集",
+          "历史趋势",
+          "报警管理",
+          "基于 Web 的 HMI"
+        ]
       },
       "geFix": {
         "name": "GE iFIX SCADA",
         "description": "用于过程可视化的高级 SCADA 软件",
-        "features": ["过程图形", "数据记录", "报告生成", "OPC 连接"]
+        "features": [
+          "过程图形",
+          "数据记录",
+          "报告生成",
+          "OPC 连接"
+        ]
       },
       "siemensWinCC": {
         "name": "西门子 WinCC SCADA",
         "description": "用于监控和控制的工业 SCADA 系统",
-        "features": ["TIA 博途集成", "Web 客户端支持", "移动访问", "冗余选项"]
+        "features": [
+          "TIA 博途集成",
+          "Web 客户端支持",
+          "移动访问",
+          "冗余选项"
+        ]
       }
     },
     "dcs": {
       "honeywellExperion": {
         "name": "霍尼韦尔 Experion PKS",
         "description": "用于过程工业的分布式控制系统",
-        "features": ["过程控制", "安全系统", "资产管理", "高级控制"]
+        "features": [
+          "过程控制",
+          "安全系统",
+          "资产管理",
+          "高级控制"
+        ]
       },
       "abbSystem800xA": {
         "name": "ABB System 800xA",
         "description": "用于工业过程的扩展自动化系统",
-        "features": ["集成工程", "安全认证", "网络安全", "生命周期管理"]
+        "features": [
+          "集成工程",
+          "安全认证",
+          "网络安全",
+          "生命周期管理"
+        ]
       },
       "emersonDeltaV": {
         "name": "艾默生 DeltaV",
         "description": "具有数字化转型功能的现代 DCS",
-        "features": ["数字孪生技术", "预测分析", "无线集成", "云连接"]
+        "features": [
+          "数字孪生技术",
+          "预测分析",
+          "无线集成",
+          "云连接"
+        ]
       }
     }
   },
@@ -4032,23 +4118,9 @@
       "快速作用螺纹联轴器"
     ]
   },
-  "atomberg-efficio-1200-bldc": {
-    "title": "Atomberg Efficio 1200mm BLDC 吊扇",
-    "description": "Atomberg 的高级节能 BLDC 吊扇，功耗仅为 27W，气流为 236 CMM。 具有 8.7 的卓越服务价值、RF 遥控器，与传统风扇相比可节省 65% 的能源。",
-    "features": [
-      "最高的 8.7 CMM/W 服务价值",
-      "超低 27W 功耗",
-      "高级 236 CMM 气流输送",
-      "具有增强和睡眠模式的 RF 遥控器",
-      "宽电压容差 140-285V",
-      "耳语般安静的运行 <35dB",
-      "与传统风扇相比可节省 65% 的能源",
-      "3 年全面保修"
-    ]
-  },
   "havells-efficiencia-neo-1200": {
-    "title": "Havells Efficiencia Neo 1200mm BLDC 吊扇",
-    "description": "Havells 的屡获殊荣的 BLDC 吊扇，功耗为 26W，气流为 220 CMM。 2021 年国家节能奖获得者，采用 100% 铜绕组和先进的控制模式。",
+    "title": "Havells Efficiencia Neo 1200mm  吊扇",
+    "description": "Havells 的屡获殊荣的  吊扇，功耗为 26W，气流为 220 CMM。 2021 年国家节能奖获得者，采用 100% 铜绕组和先进的控制模式。",
     "features": [
       "2021 年国家节能奖获得者",
       "超高效 26W 功耗",
@@ -4058,136 +4130,6 @@
       "宽电压容差 140-280V",
       "反向旋转能力",
       "2+1 年保修（可延长至 5 年）"
-    ]
-  },
-  "superfan-superx1-1200-bldc": {
-    "title": "Superfan SuperX1 1200mm BLDC 吊扇",
-    "description": "Superfan 推出的印度首款 BLDC 吊扇，功耗为 35W，超宽电压范围为 90-300V。 具有 5 年保修、防摔遥控器和自然微风模式，可实现最佳舒适度。",
-    "features": [
-      "印度首款 BLDC 吊扇（2012 年推出）",
-      "超宽电压范围 90-300V",
-      "高级 230 CMM 气流输送",
-      "防摔遥控技术",
-      "自然微风模式模拟",
-      "具有多个设置的定时器功能",
-      "与传统风扇相比可节省 56% 的能源",
-      "行业领先的 5 年保修"
-    ]
-  },
-  "bldc-deluxe1600": {
-    "title": "豪华 BLDC 吊扇 1600mm",
-    "description": "顶级 80W 无刷直流吊扇，扫掠直径为 1600mm。 卓越的功能包括智能控制、先进的空气动力学和卓越的制造质量，适用于豪华应用。",
-    "features": [
-      "高级 80W 高性能电机",
-      "超大 1600mm 扫掠直径",
-      "智能控制集成",
-      "先进的空气动力学叶片设计",
-      "优质的表面处理和材料",
-      "耳语般安静的豪华操作",
-      "高级 5 年保修范围"
-    ]
-  },
-  "bldc-industrial1800": {
-    "title": "工业 BLDC 吊扇 1800mm",
-    "description": "专为大型工业空间设计的超大型 100W 无刷直流吊扇。 最大的气流容量和重型结构，可在苛刻的工业环境中 24/7 全天候运行。",
-    "features": [
-      "超大型 100W 工业电机",
-      "最大 1800mm 扫掠直径",
-      "适用于 24/7 全天候运行的重型结构",
-      "适用于大型空间的卓越气流",
-      "工业级材料和表面处理",
-      "专为苛刻环境而设计",
-      "延长 5 年工业保修"
-    ]
-  },
-  "bldc-economy900": {
-    "title": "经济型 BLDC 吊扇 900mm",
-    "description": "经济实惠的 35W 无刷直流吊扇，扫掠直径为 900mm。 节能设计，非常适合带基本遥控器和可靠性能的中小型房间。",
-    "features": [
-      "节能 35W 电机设计",
-      "紧凑型 900mm 扫掠，适用于较小的房间",
-      "基本遥控功能",
-      "经济高效的 BLDC 技术",
-      "低维护操作",
-      "2 年标准保修"
-    ]
-  },
-  "bldc-exhaust-fan-motor": {
-    "title": "BLDC 排气扇电机 25W",
-    "description": "用于排气扇应用的高效 25W 无刷直流电机。 具有滚珠轴承结构、IP44 保护和安静运行，适用于住宅和商业通风系统。",
-    "features": [
-      "高效无刷直流电机",
-      "25W 功耗",
-      "滚珠轴承，经久耐用",
-      "IP44 防护等级",
-      "低噪音运行",
-      "12V 直流操作",
-      "2 年保修范围"
-    ]
-  },
-  "bldc-cooler-motors": {
-    "title": "BLDC 冷风机电机 45W",
-    "description": "用于空气冷却器应用的强大 45W 无刷直流电机。 采用先进设计，效率高达 90%、变速控制和增强的防护等级，可实现可靠的冷却性能。",
-    "features": [
-      "高性能 45W BLDC 电机",
-      "90% 能源效率",
-      "变速控制",
-      "IP54 防护等级",
-      "滚珠轴承结构",
-      "24V 直流操作",
-      "3 年保修范围"
-    ]
-  },
-  "bldc-ventilation-system": {
-    "title": "BLDC 通风系统 75W",
-    "description": "用于通风系统的工业级 75W 无刷直流电机。 卓越的效率（92%）、高气流容量和坚固的结构，适用于要求苛刻的 HVAC 应用。",
-    "features": [
-      "工业级 75W BLDC 电机",
-      "92% 能源效率",
-      "高气流容量 800 CFM",
-      "IP65 防护等级",
-      "48V 直流操作",
-      "先进的温度范围 -20°C 至 +80°C",
-      "5 年保修范围"
-    ]
-  },
-  "bldc-ventilation-motors": {
-    "title": "BLDC 通风电机 35W",
-    "description": "用于通风应用的高效 35W 无刷直流电机。 平衡的性能，具有 280 CFM 的气流容量，适用于住宅和轻型商业通风系统。",
-    "features": [
-      "高效 35W 电机设计",
-      "良好的气流容量 280 CFM",
-      "88% 能源效率",
-      "滑动轴承结构",
-      "IP44 防护等级",
-      "24V 直流操作",
-      "2 年标准保修"
-    ]
-  },
-  "bldc-industrial-exhaust": {
-    "title": "工业 BLDC 排气扇 120W",
-    "description": "用于工业排气应用的高功率 120W 无刷直流电机。 适用于要求苛刻的工业环境的重型结构，具有卓越的气流容量和可靠性。",
-    "features": [
-      "高功率 120W 工业电机",
-      "卓越的气流容量 650 CFM",
-      "重型结构",
-      "高速 3200 RPM 运行",
-      "IP67 防护，适用于恶劣环境",
-      "48V 直流操作",
-      "延长 3 年工业保修"
-    ]
-  },
-  "bldc-mini-cooler": {
-    "title": "迷你 BLDC 冷风机电机 15W",
-    "description": "专为迷你冷风机应用设计的紧凑型 15W 无刷直流电机。 节能设计，运行安静，性能可靠，适用于个人冷却设备。",
-    "features": [
-      "紧凑型 15W 电机设计",
-      "节能运行",
-      "低噪音水平低于 25dB",
-      "12V 直流操作",
-      "82% 效率等级",
-      "适用于个人冷却设备",
-      "1 年保修范围"
     ]
   },
   "dc-surface-pump-2hp": {
@@ -4201,58 +4143,6 @@
       "72V 直流操作",
       "坚固的结构，适合工业用途",
       "低维护要求"
-    ]
-  },
-  "hybrid-bldc-pump": {
-    "title": "混合 BLDC 泵系统",
-    "description": "先进的混合 BLDC 泵系统，结合了直流和交流操作能力。 具有 1.5HP 功率，流量为 2700 LPH，扬程能力为 120 英尺，非常适合各种水泵应用。",
-    "features": [
-      "混合直流/交流操作（48V 直流/230V 交流）",
-      "1.5HP 高效 BLDC 电机",
-      "2700 LPH 流量",
-      "最大扬程 120 英尺",
-      "节能运行",
-      "通用的电源兼容性",
-      "低维护 BLDC 技术"
-    ]
-  },
-  "bldc-table-fan-motors": {
-    "title": "BLDC 台扇电机",
-    "description": "高效 BLDC 台扇电机，功耗为 28W，转速为 2100 RPM。 具有遥控操作和 400mm 直径，可在住宅和商业空间实现最佳空气循环。",
-    "features": [
-      "28W 节能运行",
-      "2100 RPM 高速",
-      "400mm 直径，实现最佳气流",
-      "24V 直流操作",
-      "遥控兼容性",
-      "安静的 BLDC 电机技术",
-      "使用寿命长"
-    ]
-  },
-  "bldc-wall-fan-motors": {
-    "title": "BLDC 壁扇电机",
-    "description": "强大的 BLDC 壁扇电机，功率为 35W，转速为 1800 RPM。 具有 450mm 直径和振荡能力，可在各种室内环境中实现有效的壁挂式空气循环。",
-    "features": [
-      "35W 高效功耗",
-      "1800 RPM 最佳速度",
-      "450mm 直径，覆盖范围广",
-      "24V 直流安全操作",
-      "振荡功能，可实现更好的空气分布",
-      "壁挂式设计",
-      "静音 BLDC 技术"
-    ]
-  },
-  "bldc-pedestal-fan-motors": {
-    "title": "BLDC 立式风扇电机",
-    "description": "具有可调节高度和振荡的高效 BLDC 立式风扇电机。 强大的气流，节能运行，适用于住宅和商业空间。",
-    "features": [
-      "可调节高度的底座设计",
-      "节能 BLDC 电机",
-      "宽振荡覆盖范围",
-      "多个速度设置",
-      "遥控操作",
-      "静音运行技术",
-      "持久的性能"
     ]
   },
   "power-distribution-cables": {
@@ -5108,37 +4998,37 @@
     ]
   },
   "orientalMd6p38": {
-    "title": "Oriental Motor MD-6P38 BLDC 排气电机",
-    "description": "Oriental Motor MD-6P38 DC 轴流风扇电机，额定功率为 38W，24VDC。 6 极 BLDC 设计，具有 IP55 防护等级，适用于工业排气应用。",
+    "title": "Oriental Motor MD-6P38  排气电机",
+    "description": "Oriental Motor MD-6P38 DC 轴流风扇电机，额定功率为 38W，24VDC。 6 极  设计，具有 IP55 防护等级，适用于工业排气应用。",
     "features": [
       "38W 功率额定值",
       "24VDC 操作",
-      "6 极 BLDC 设计",
+      "6 极  设计",
       "IP55 防护等级",
       "DC 轴流风扇",
       "工业排气"
     ]
   },
   "nidecD12e24ts3": {
-    "title": "Nidec D12E-24TS3 BLDC 电机",
-    "description": "Nidec D12E-24TS3 BLDC 电机，尺寸为 12cm，可提供 83 CFM 的气流。 低噪音运行，在 24VDC 下运行，适用于冷却应用。",
+    "title": "Nidec D12E-24TS3  电机",
+    "description": "Nidec D12E-24TS3  电机，尺寸为 12cm，可提供 83 CFM 的气流。 低噪音运行，在 24VDC 下运行，适用于冷却应用。",
     "features": [
       "24VDC 操作",
       "12cm 尺寸",
       "83 CFM 气流",
       "低噪音设计",
-      "BLDC 技术",
+      " 技术",
       "冷却应用"
     ]
   },
   "deltaBfb1224h": {
-    "title": "Delta Electronics BFB1224H BLDC 排气电机",
-    "description": "Delta Electronics BFB1224H BLDC 排气电机，尺寸为 120mm。 24VDC 操作，具有 70,000 小时的使用寿命，可实现长期可靠性。",
+    "title": "Delta Electronics BFB1224H  排气电机",
+    "description": "Delta Electronics BFB1224H  排气电机，尺寸为 120mm。 24VDC 操作，具有 70,000 小时的使用寿命，可实现长期可靠性。",
     "features": [
       "120mm 尺寸",
       "24VDC 操作",
       "70,000 小时寿命",
-      "BLDC 技术",
+      " 技术",
       "排气电机",
       "长寿命"
     ]
@@ -5156,61 +5046,61 @@
     ]
   },
   "nidecG1238b": {
-    "title": "Nidec G1238B 工业 BLDC 电机",
-    "description": "Nidec G1238B DC 轴流 BLDC 电机，额定功率为 38W。 12cm 尺寸，具有可变速度控制，适用于工业级应用。",
+    "title": "Nidec G1238B 工业  电机",
+    "description": "Nidec G1238B DC 轴流  电机，额定功率为 38W。 12cm 尺寸，具有可变速度控制，适用于工业级应用。",
     "features": [
       "38W 功率额定值",
       "12cm 尺寸",
       "可变速度控制",
-      "DC 轴流 BLDC",
+      "DC 轴流 ",
       "工业等级",
       "灵活的操作"
     ]
   },
   "nidecGentletyphoonD1225c12": {
     "title": "Nidec GentleTyphoon D1225C12 超静音散热器电机",
-    "description": "Nidec GentleTyphoon D1225C12 BLDC 散热器电机，在 12VDC 下以 1850 RPM 的速度运行。 超静音操作，实现精确冷却。",
+    "description": "Nidec GentleTyphoon D1225C12  散热器电机，在 12VDC 下以 1850 RPM 的速度运行。 超静音操作，实现精确冷却。",
     "features": [
       "12VDC 操作",
       "1850 RPM 速度",
       "超静音操作",
-      "BLDC 散热器电机",
+      " 散热器电机",
       "精确冷却",
       "低振动"
     ]
   },
   "orientalBle2m25s5": {
-    "title": "东方电机 BLE2M25S-5 BLDC 冷却电机",
-    "description": "东方电机 BLE2M25S-5 BLDC 电机，具有 25W 容量和速度控制。 24VDC 电压，适用于冷却应用。",
+    "title": "东方电机 BLE2M25S-5  冷却电机",
+    "description": "东方电机 BLE2M25S-5  电机，具有 25W 容量和速度控制。 24VDC 电压，适用于冷却应用。",
     "features": [
       "25W 功率额定值",
       "24VDC 电压",
       "速度控制",
-      "BLDC 电机",
+      " 电机",
       "冷却应用",
       "变速"
     ]
   },
   "deltaAfb1212she": {
-    "title": "台达电子 AFB1212SHE 高压 BLDC 电机",
-    "description": "台达电子 AFB1212SHE BLDC 电机，尺寸为 120mm。 12VDC 电压，具有高静压，适用于高要求的冷却。",
+    "title": "台达电子 AFB1212SHE 高压  电机",
+    "description": "台达电子 AFB1212SHE  电机，尺寸为 120mm。 12VDC 电压，具有高静压，适用于高要求的冷却。",
     "features": [
       "120mm 尺寸",
       "12VDC 电压",
       "高静压",
-      "BLDC 技术",
+      " 技术",
       "高要求的应用",
       "可靠的冷却"
     ]
   },
   "nidecBetaVTa450dc": {
     "title": "Nidec Beta V TA450DC PWM 冷却电机",
-    "description": "Nidec Beta V TA450DC BLDC 冷却电机，具有 PWM 控制。 12VDC 电压，4500 RPM 转速，适用于高性能冷却。",
+    "description": "Nidec Beta V TA450DC  冷却电机，具有 PWM 控制。 12VDC 电压，4500 RPM 转速，适用于高性能冷却。",
     "features": [
       "12VDC 电压",
       "PWM 控制",
       "4500 RPM 转速",
-      "BLDC 冷却电机",
+      " 冷却电机",
       "高性能",
       "变速"
     ]
@@ -5228,62 +5118,62 @@
     ]
   },
   "orientalMd8p48": {
-    "title": "东方电机 MD-8P48 BLDC 通风电机",
-    "description": "东方电机 MD-8P48 BLDC 通风电机，额定功率为 48W，24VDC 电压。 IP55 防护等级，可提供高达 883 CFM 的气流。",
+    "title": "东方电机 MD-8P48  通风电机",
+    "description": "东方电机 MD-8P48  通风电机，额定功率为 48W，24VDC 电压。 IP55 防护等级，可提供高达 883 CFM 的气流。",
     "features": [
       "48W 功率额定值",
       "24VDC 电压",
       "IP55 防护等级",
       "883 CFM 最大气流",
-      "BLDC 通风",
+      " 通风",
       "高容量"
     ]
   },
   "nidecG1751m": {
-    "title": "Nidec G1751M 高容量 BLDC 通风电机",
-    "description": "Nidec G1751M BLDC 电机，尺寸为 17cm，功率为 51W。 24VDC 电压，具有高容量和低振动。",
+    "title": "Nidec G1751M 高容量  通风电机",
+    "description": "Nidec G1751M  电机，尺寸为 17cm，功率为 51W。 24VDC 电压，具有高容量和低振动。",
     "features": [
       "17cm 尺寸",
       "51W 功率额定值",
       "24VDC 电压",
       "高容量",
       "低振动",
-      "BLDC 技术"
+      " 技术"
     ]
   },
   "deltaBfb1512vh": {
-    "title": "台达电子 BFB1512VH BLDC 通风电机",
-    "description": "台达电子 BFB1512VH BLDC 通风电机，尺寸为 150mm。 12VDC 电压，可提供 260 CFM 的气流。",
+    "title": "台达电子 BFB1512VH  通风电机",
+    "description": "台达电子 BFB1512VH  通风电机，尺寸为 150mm。 12VDC 电压，可提供 260 CFM 的气流。",
     "features": [
       "150mm 尺寸",
       "12VDC 电压",
       "260 CFM 气流",
-      "BLDC 通风",
+      " 通风",
       "高性能",
       "高效运行"
     ]
   },
   "orientalBmu23005": {
-    "title": "东方电机 BMU230-05 BLDC 通风装置",
-    "description": "东方电机 BMU230-05 BLDC 电机装置，具有速度控制。 230VAC 电压，适用于通风应用。",
+    "title": "东方电机 BMU230-05  通风装置",
+    "description": "东方电机 BMU230-05  电机装置，具有速度控制。 230VAC 电压，适用于通风应用。",
     "features": [
       "230VAC 电压",
       "速度控制",
-      "BLDC 电机装置",
+      " 电机装置",
       "通风应用",
       "变速",
       "工业级"
     ]
   },
   "nidecD08a12ts1": {
-    "title": "Nidec D08A-12TS1 速度检测 BLDC 电机",
-    "description": "Nidec D08A-12TS1 BLDC 电机，尺寸为 80mm，具有脉冲输出。 12VDC 电压，具有速度检测功能。",
+    "title": "Nidec D08A-12TS1 速度检测  电机",
+    "description": "Nidec D08A-12TS1  电机，尺寸为 80mm，具有脉冲输出。 12VDC 电压，具有速度检测功能。",
     "features": [
       "80mm 尺寸",
       "12VDC 电压",
       "脉冲输出",
       "速度检测",
-      "BLDC 电机",
+      " 电机",
       "反馈控制"
     ]
   },
@@ -5781,17 +5671,35 @@
   "rittalTs8Enclosure": {
     "title": "Rittal TS 8 模块化外壳",
     "description": "IP66 不锈钢模块化外壳系统，适用于恶劣的工业环境",
-    "features": ["IP66 防护", "不锈钢", "模块化配置", "耐腐蚀", "多功能安装"]
+    "features": [
+      "IP66 防护",
+      "不锈钢",
+      "模块化配置",
+      "耐腐蚀",
+      "多功能安装"
+    ]
   },
   "schneiderPanelsetsfEnclosure": {
     "title": "施耐德电气 PanelSeT SFN 外壳",
     "description": "IP66 落地式钢制外壳，用于配电和控制面板",
-    "features": ["IP66 级", "钢结构", "落地式", "可用于配电", "标准尺寸"]
+    "features": [
+      "IP66 级",
+      "钢结构",
+      "落地式",
+      "可用于配电",
+      "标准尺寸"
+    ]
   },
   "rittalSeEnclosure": {
     "title": "Rittal SE 系统紧凑型外壳",
     "description": "紧凑型 IP66 钢制外壳，适用于空间受限的工业应用",
-    "features": ["IP66 防护", "紧凑型设计", "钢结构", "节省空间", "快速组装"]
+    "features": [
+      "IP66 防护",
+      "紧凑型设计",
+      "钢结构",
+      "节省空间",
+      "快速组装"
+    ]
   },
   "schneiderSpacialEnclosure": {
     "title": "施耐德电气 Spacial SM 外壳",
@@ -5840,12 +5748,24 @@
   "pilzPnozsigmaRelay": {
     "title": "Pilz PNOZsigma 安全继电器",
     "description": "可配置的 SIL 3 安全继电器，带有 3-9 个安全触点，适用于复杂的应用",
-    "features": ["SIL 3 认证", "3-9 个安全触点", "24VDC", "可配置", "多种功能"]
+    "features": [
+      "SIL 3 认证",
+      "3-9 个安全触点",
+      "24VDC",
+      "可配置",
+      "多种功能"
+    ]
   },
   "phoenixPsrmodularRelay": {
     "title": "菲尼克斯电气 PSRmodular 安全继电器",
     "description": "模块化 SIL 3 安全继电器，带有 8-16 个输入，适用于可扩展的安全系统",
-    "features": ["SIL 3 级", "8-16 个输入", "24VDC", "模块化设计", "可扩展"]
+    "features": [
+      "SIL 3 级",
+      "8-16 个输入",
+      "24VDC",
+      "模块化设计",
+      "可扩展"
+    ]
   },
   "dehnDehnguardSpd": {
     "title": "DEHN DEHNguard M TT 2 型 SPD",
@@ -5993,12 +5913,24 @@
   "ebaraDwoPump": {
     "title": "Ebara DWO 系列工业泵",
     "description": "SS304 工业泵，可处理 19 毫米固体，适用于废水和过程应用",
-    "features": ["SS304 结构", "19 毫米固体", "工业用途", "耐腐蚀", "可靠"]
+    "features": [
+      "SS304 结构",
+      "19 毫米固体",
+      "工业用途",
+      "耐腐蚀",
+      "可靠"
+    ]
   },
   "ebaraPraPump": {
     "title": "Ebara PRA 系列清水泵",
     "description": "0.5-2HP 清水泵，适用于 50Hz 的住宅和轻型商业用途",
-    "features": ["0.5-2HP 范围", "50Hz 频率", "清水", "紧凑", "经济高效"]
+    "features": [
+      "0.5-2HP 范围",
+      "50Hz 频率",
+      "清水",
+      "紧凑",
+      "经济高效"
+    ]
   },
   "flowserveMark3Pump": {
     "title": "Flowserve Mark 3 工艺泵",
@@ -6036,12 +5968,24 @@
   "ksbMegacpkPump": {
     "title": "KSB MegaCPK 工艺泵",
     "description": "用于腐蚀性化学品的不锈钢工艺泵，具有低 NPSH 要求",
-    "features": ["不锈钢材质", "耐化学腐蚀", "低 NPSH", "工艺应用", "可靠性高"]
+    "features": [
+      "不锈钢材质",
+      "耐化学腐蚀",
+      "低 NPSH",
+      "工艺应用",
+      "可靠性高"
+    ]
   },
   "ksbEtablocPump": {
     "title": "KSB Etabloc 紧密耦合泵",
     "description": "EN 733 紧密耦合泵，具有 IE4/IE5 电机效率",
-    "features": ["EN 733 标准", "紧密耦合", "IE4/IE5 电机", "结构紧凑", "节能"]
+    "features": [
+      "EN 733 标准",
+      "紧密耦合",
+      "IE4/IE5 电机",
+      "结构紧凑",
+      "节能"
+    ]
   },
   "siemensKtp400Hmi": {
     "title": "西门子 KTP400 Basic HMI 面板",
@@ -6101,7 +6045,13 @@
   "fluke87vMultimeter": {
     "title": "福禄克 87V 工业万用表",
     "description": "1000V 工业万用表，具有 10A 电流、VFD 测量和 CAT IV 600V 等级",
-    "features": ["1000V DC/AC", "10A 电流", "CAT IV 600V", "VFD 测量", "工业级"]
+    "features": [
+      "1000V DC/AC",
+      "10A 电流",
+      "CAT IV 600V",
+      "VFD 测量",
+      "工业级"
+    ]
   },
   "fluke179Multimeter": {
     "title": "福禄克 179 真有效值万用表",
@@ -6128,12 +6078,24 @@
   "fluke115Multimeter": {
     "title": "福禄克 115 紧凑型万用表",
     "description": "紧凑型 600V 万用表，具有 10A 电流和 6000 字分辨率",
-    "features": ["600V AC/DC", "10A 电流", "6000 字", "真有效值", "现场服务"]
+    "features": [
+      "600V AC/DC",
+      "10A 电流",
+      "6000 字",
+      "真有效值",
+      "现场服务"
+    ]
   },
   "beamexMc2Calibrator": {
     "title": "Beamex MC2 工艺校验仪",
     "description": "紧凑型手持式工艺校验仪，具有图形显示和文档记录功能",
-    "features": ["工艺校验仪", "图形显示", "文档记录", "便携式", "可追溯"]
+    "features": [
+      "工艺校验仪",
+      "图形显示",
+      "文档记录",
+      "便携式",
+      "可追溯"
+    ]
   },
   "3mX5000HelmetType1": {
     "title": "3M SecureFit X5000 I 型安全帽",
@@ -6160,12 +6122,24 @@
   "3mH700HelmetCap": {
     "title": "3M H-700 帽式安全帽",
     "description": "I 型安全帽，带棘轮悬挂和紫外线指示器，适用于工业用途",
-    "features": ["I 型保护", "棘轮悬挂", "紫外线指示器", "帽式", "舒适"]
+    "features": [
+      "I 型保护",
+      "棘轮悬挂",
+      "紫外线指示器",
+      "帽式",
+      "舒适"
+    ]
   },
   "3mH700HelmetBrim": {
     "title": "3M H-700 全帽檐安全帽",
     "description": "I 型全帽檐安全帽，带棘轮悬挂和紫外线防护指示器",
-    "features": ["I 型保护", "全帽檐", "棘轮系统", "紫外线指示器", "全天候"]
+    "features": [
+      "I 型保护",
+      "全帽檐",
+      "棘轮系统",
+      "紫外线指示器",
+      "全天候"
+    ]
   },
   "3mX5014Helmet": {
     "title": "3M X5014-ANSI 高可见度安全帽",
@@ -6192,7 +6166,13 @@
   "enphaseIq8plusInverter": {
     "title": "Enphase IQ8PLUS-72 微型逆变器",
     "description": "用于 235-440W 面板的 300VA 微型逆变器，具有电网形成技术",
-    "features": ["300VA 输出", "235-440W 模块", "25 年保修", "电网形成", "分相"]
+    "features": [
+      "300VA 输出",
+      "235-440W 模块",
+      "25 年保修",
+      "电网形成",
+      "分相"
+    ]
   },
   "apsystemsDs3sInverter": {
     "title": "APsystems DS3-S 双微型逆变器",
@@ -6208,12 +6188,24 @@
   "apsystemsDs3lInverter": {
     "title": "APsystems DS3-L 双微型逆变器",
     "description": "用于高达 480W 面板的 748VA 双模块微型逆变器，效率 97%",
-    "features": ["748VA 输出", "480W 模块", "效率 97%", "2 个通道", "IP67 等级"]
+    "features": [
+      "748VA 输出",
+      "480W 模块",
+      "效率 97%",
+      "2 个通道",
+      "IP67 等级"
+    ]
   },
   "enphaseIq8acInverter": {
     "title": "Enphase IQ8AC 住宅微型逆变器",
     "description": "366VA 住宅微型逆变器，具有 IP67 等级和阳光备用能力",
-    "features": ["366VA 输出", "住宅使用", "IP67 防护", "阳光备用", "高效率"]
+    "features": [
+      "366VA 输出",
+      "住宅使用",
+      "IP67 防护",
+      "阳光备用",
+      "高效率"
+    ]
   },
   "siemens3su1200Buzzer": {
     "title": "Siemens 3SU1200-6KB10 面板安装蜂鸣器",
@@ -6867,9 +6859,22 @@
       ]
     },
     "commonData": {
-      "applications": ["工业自动化", "制造业", "过程控制", "质量保证"],
-      "industries": ["制造业", "汽车行业", "制药业", "食品饮料业"],
-      "certifications": ["ISO 9001", "CE 认证"],
+      "applications": [
+        "工业自动化",
+        "制造业",
+        "过程控制",
+        "质量保证"
+      ],
+      "industries": [
+        "制造业",
+        "汽车行业",
+        "制药业",
+        "食品饮料业"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "CE 认证"
+      ],
       "keywords": {
         "industrialAutomation": "工业自动化",
         "processControl": "过程控制",

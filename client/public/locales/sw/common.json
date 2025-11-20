@@ -53,7 +53,6 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Motors za DC zisizo na brashi)",
     "PLC": "PLC (Kidhibiti cha Mantiki Kinachoweza Kupangwa)",
     "SCADA": "SCADA (Udhibiti wa Usimamizi na Upataji Data)",
     "HMI": "HMI (Mwingiliano wa Mashine ya Binadamu)",
@@ -79,7 +78,6 @@
     "discussProject": "Zungumzia Mradi",
     "viewDetails": "Angalia Maelezo",
     "backTo": "Rudi kwa",
-    "backToBldcProducts": "Rudi kwa Bidhaa za Motor za DC zisizo na Brashi (BLDC)",
     "backToProducts": "Rudi kwa Bidhaa",
     "backToCategory": "Rudi kwa Jamii",
     "requestQuote": "Omba Bei",
@@ -252,7 +250,6 @@
   },
   "headings": {
     "phoneNumbers": "Nambari ya Simu",
-    "bldcCeilingFanModels": "Aina za Feni za Dari za BLDC",
     "ourProducts": "Bidhaa Zetu",
     "specifications": "Maelezo",
     "keyFeatures": "Sifa muhimu",
@@ -499,7 +496,6 @@
     },
     "categories": {
       "automationControl": "Mifumo ya udhibiti na uendeshaji otomatiki",
-      "bldcMotors": "Mifumo ya injini za BLDC",
       "electricalComponents": "Vipengele vya umeme",
       "measurementInstrumentation": "Vifaa vya kupimia na kupima",
       "industrialTools": "Zana na vifaa vya viwandani",
@@ -572,11 +568,7 @@
       "handTools": "Zana za Mkono",
       "powerTools": "Zana za Nguvu",
       "cuttingTools": "Zana za Kukata",
-      "liftingEquipment": "Vifaa vya Kuinua",
-      "bldcCeilingFan": "Feni za Dari za BLDC",
-      "bldcCoolerExhaustMotor": "Injini za BLDC za Kupoza",
-      "bldcSubmersibleSurfacePump": "Pampu za BLDC Zinazozama",
-      "bldcTableFanWallFanMotor": "Injini za Feni za Meza na Ukuta za BLDC"
+      "liftingEquipment": "Vifaa vya Kuinua"
     },
     "descriptions": {
       "home": "Karibu kwenye Powerton Engineering - Suluhisho za udhibiti wa viwanda",
@@ -628,10 +620,6 @@
       "powerToolsDescription": "Zana za nguvu kwa kazi za ujenzi",
       "cuttingToolsDescription": "Zana za kukata kwa usindikaji wa chuma",
       "liftingEquipmentDescription": "Vifaa vya kuinua kwa usafirishaji mzito",
-      "bldcCeilingFanDescription": "Feni za dari za BLDC zinazotumia nishati kidogo",
-      "bldcCoolerExhaustMotorDescription": "Injini za BLDC za vifaa vya kupoza",
-      "bldcSubmersibleSurfacePumpDescription": "Pampu za BLDC za maombi ya maji",
-      "bldcTableFanWallFanMotorDescription": "Injini za BLDC za feni za meza na ukuta",
       "requestQuoteDescription": "Pata nukuu kamili ya mradi wako wa uhandisi",
       "downloadPortfolioDescription": "Pakua hati zetu kamili za mradi",
       "customSolutionsDescription": "Suluhisho za uhandisi zilizobinafsishwa kwa mahitaji ya kipekee ya viwanda",

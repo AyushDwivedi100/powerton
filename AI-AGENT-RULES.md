@@ -424,7 +424,6 @@ Use ONLY these three button patterns:
 
    - Hand Tools, Power Tools, Cutting Tools, Lifting Equipment, Safety Equipment
 
-9. **BLDC** (4 subcategories)
    - Cooler/Exhaust Motors, Ceiling Fans, Submersible Pumps, Table/Wall Fan Motors
 
 ### **PRODUCT ROUTING SYSTEM** (40+ Individual Pages):
@@ -518,7 +517,6 @@ _Next Agent: Follow these rules strictly for consistent, professional B2B indust
 
 - **Core Pages**: Home, About, Services, Products, Projects, Contact, Gallery, News
 - **Service Pages**: 8 detailed service pages with individual routes
-- **Product Categories**: 9 main categories (Instrumentation, Electrical, Solar, BLDC, etc.)
 - **Product Subcategories**: 40+ individual product pages with detailed specifications
 - **Utility Pages**: Quote, Terms of Service, Portfolio Download, Sitemap, 404
 - **News System**: Dynamic news articles with slug-based routing

@@ -418,38 +418,6 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
       },
     ],
   },
-  {
-    path: "/products/bldc",
-    title: "bldcMotors",
-    description: "bldcMotorsDescription",
-    icon: "Zap",
-    products: [
-      {
-        path: "/products/bldc/bldc-ceiling-fan",
-        title: "bldcCeilingFan",
-        description: "bldcCeilingFanDescription",
-        icon: "Fan",
-      },
-      {
-        path: "/products/bldc/bldc-cooler-exhaust-motor",
-        title: "bldcCoolerExhaustMotor",
-        description: "bldcCoolerExhaustMotorDescription",
-        icon: "Wind",
-      },
-      {
-        path: "/products/bldc/bldc-submersible-surface-pump",
-        title: "bldcSubmersibleSurfacePump",
-        description: "bldcSubmersibleSurfacePumpDescription",
-        icon: "Droplets",
-      },
-      {
-        path: "/products/bldc/bldc-table-fan-wall-fan-motor",
-        title: "bldcTableFanWallFanMotor",
-        description: "bldcTableFanWallFanMotorDescription",
-        icon: "Fan",
-      },
-    ],
-  },
 ];
 
 const RESOURCES_ROUTES: SitemapItem[] = [
