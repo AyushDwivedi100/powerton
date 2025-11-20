@@ -1917,3 +1917,120 @@ html {
     padding: 1rem;
   }
 }
+
+/* === PERFORMANCE-OPTIMIZED SCROLL ANIMATIONS === */
+/* Using CSS transforms instead of Framer Motion for better performance */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation utility classes with optimized performance */
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
+  will-change: transform, opacity;
+}
+
+.animate-fadeInDown {
+  animation: fadeInDown 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
+  will-change: transform, opacity;
+}
+
+.animate-fadeInLeft {
+  animation: fadeInLeft 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
+  will-change: transform, opacity;
+}
+
+.animate-fadeInRight {
+  animation: fadeInRight 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
+  will-change: transform, opacity;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
+  will-change: transform, opacity;
+}
+
+.animate-slideInUp {
+  animation: slideInUp 0.7s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
+  will-change: transform, opacity;
+}
+
+/* Initial hidden state for elements that will animate */
+.scroll-animate-hidden {
+  opacity: 0;
+}
+
+/* GPU acceleration for scroll animations */
+.scroll-animate-hidden,
+.animate-fadeInUp,
+.animate-fadeInDown,
+.animate-fadeInLeft,
+.animate-fadeInRight,
+.animate-scaleIn,
+.animate-slideInUp {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}

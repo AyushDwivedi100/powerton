@@ -1,6 +1,22 @@
 # Performance Optimization Progress - Powerton Engineering Website
 
-## Latest Session - Import Migration Verification (November 20, 2025 - 11:14 UTC)
+## Latest Session - Scroll Animation Performance Optimization (November 20, 2025 - 11:14 UTC)
+[x] 1. Add lazy initialization to scroll animations - only create IntersectionObservers after user scrolls
+[ ] 2. Create CSS keyframe animations in index.css for common animations (fadeInUp, fadeInLeft, fadeInRight, scaleIn)
+[ ] 3. Update useScrollAnimation hook to support CSS-based animations alongside Framer Motion
+[ ] 4. Convert About Section from Framer Motion to CSS transforms
+[ ] 5. Convert Services Section from Framer Motion to CSS transforms
+[ ] 6. Convert Projects Section card animations to CSS transforms
+[ ] 7. Update service category pages to use CSS transforms instead of Framer Motion
+[ ] 8. Update product detail pages to use CSS transforms instead of Framer Motion
+[ ] 9. Test website performance - verify smooth scrolling on first visit and no lag
+[ ] 10. Update progress tracker with optimization completion
+
+**Goal**: Eliminate first-visit lag by lazy loading animations and using CSS transforms instead of Framer Motion where possible.
+
+---
+
+## Previous Session - Import Migration Verification (November 20, 2025 - 11:14 UTC)
 [x] 1. Install the required packages - Dependencies verified (tsx@4.20.6, 569 packages)
 [x] 2. Configure workflow with webview output type on port 5000
 [x] 3. Restart the workflow to see if the project is working - Vite server ready in 254ms
