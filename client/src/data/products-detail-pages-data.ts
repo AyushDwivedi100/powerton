@@ -22571,6 +22571,30 @@ export const products: Product[] = [
       logging: "Energy & demand",
     },
   },
+  {
+    id: "siemens-7km-pac-multifunction-meter",
+    slug: "siemens-7km-pac-sentron-power-meter",
+    categoryKey: "electrical-components",
+    subcategoryKey: "test-equipment",
+    typeKey: "multi-function-meters",
+    image: "digital-meter",
+    translationKeys: {
+      title: "products-data:siemens7kmPac.title",
+      description: "products-data:siemens7kmPac.description",
+      featuresKey: "products-data:siemens7kmPac.features",
+    },
+    specs: {
+      manufacturer: "Siemens",
+      model: "SENTRON PAC 7KM",
+      type: "Multifunction Power Meter",
+      measurements: "V, I, P, Q, S, PF, THD, harmonics",
+      accuracy: "Class 0.2S-0.5S",
+      communication: "Modbus, PROFINET, Ethernet/IP",
+      display: "LCD graphical",
+      logging: "Load profile & events",
+      certification: "IEC 61557-12, MID",
+    },
+  },
 
   // POWER FACTOR METERS
   {
@@ -22695,6 +22719,29 @@ export const products: Product[] = [
       material: "Electrolytic grade copper",
     },
   },
+  {
+    id: "havells-earthing-cable-yg",
+    slug: "havells-yellow-green-earthing-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "electrical-cables",
+    typeKey: "earthing-cables",
+    image: "earthing-cable",
+    translationKeys: {
+      title: "products-data:havellsEarthingYg.title",
+      description: "products-data:havellsEarthingYg.description",
+      featuresKey: "products-data:havellsEarthingYg.features",
+    },
+    specs: {
+      manufacturer: "Havells",
+      conductor: "Annealed copper",
+      size: "1.0-16 sq mm",
+      color: "Green/Yellow (YG)",
+      voltage: "650V/1100V",
+      insulation: "PVC Type-A",
+      standard: "IS 694, IS 8130",
+      application: "Residential & commercial earthing",
+    },
+  },
 
   // EARTHING STRIPS
   {
@@ -22744,6 +22791,30 @@ export const products: Product[] = [
       standard: "IS 694",
     },
   },
+  {
+    id: "polycab-frls-appliance-cable",
+    slug: "polycab-frls-flexible-appliance-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "electrical-cables",
+    typeKey: "home-appliance-cables",
+    image: "home-appliance-cable",
+    translationKeys: {
+      title: "products-data:polycabFrlsAppliance.title",
+      description: "products-data:polycabFrlsAppliance.description",
+      featuresKey: "products-data:polycabFrlsAppliance.features",
+    },
+    specs: {
+      manufacturer: "Polycab",
+      type: "FRLS Flexible Cable",
+      conductor: "Tinned copper",
+      voltage: "650/1100V",
+      insulation: "FRLS PVC",
+      size: "0.5-2.5 sq mm",
+      cores: "2, 3, 4 core",
+      standard: "IS 694, IEC 60227",
+      features: "Flame retardant, low smoke",
+    },
+  },
 
   // MULTICORE CABLES ELECTRICAL
   {
@@ -22767,6 +22838,30 @@ export const products: Product[] = [
       insulation: "PVC/XLPE",
       sheath: "PVC",
       standard: "IS 1554 Part 1",
+    },
+  },
+  {
+    id: "havells-multicore-lt-cable",
+    slug: "havells-multicore-lt-power-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "electrical-cables",
+    typeKey: "multicore-cables-electrical",
+    image: "multicore-cable-electrical",
+    translationKeys: {
+      title: "products-data:havellsMulticoreLt.title",
+      description: "products-data:havellsMulticoreLt.description",
+      featuresKey: "products-data:havellsMulticoreLt.features",
+    },
+    specs: {
+      manufacturer: "Havells",
+      type: "LT Multicore Cable",
+      conductor: "Copper/Aluminum",
+      voltage: "1.1 kV",
+      cores: "2-4 core",
+      insulation: "PVC/XLPE",
+      armoring: "Galvanized steel",
+      standard: "IS 1554, IS 7098",
+      application: "Industrial power distribution",
     },
   },
 
@@ -22794,6 +22889,30 @@ export const products: Product[] = [
       application: "Process control",
     },
   },
+  {
+    id: "lapp-olflex-multicore-instrument",
+    slug: "lapp-olflex-multicore-instrumentation-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "instrumentation-cables",
+    typeKey: "multicore-cables-instrumentation",
+    image: "multicore-cable-instrumentation",
+    translationKeys: {
+      title: "products-data:lappOlflexMulticore.title",
+      description: "products-data:lappOlflexMulticore.description",
+      featuresKey: "products-data:lappOlflexMulticore.features",
+    },
+    specs: {
+      manufacturer: "LAPP",
+      type: "OLFLEX CLASSIC Multicore",
+      conductor: "Bare copper",
+      cores: "2-61 cores",
+      shielding: "Tinned copper braid",
+      insulation: "PVC",
+      jacket: "PVC grey",
+      application: "Control and instrumentation",
+      temperature: "-40°C to +80°C",
+    },
+  },
 
   // SHIELDED PAIR CABLES 1P
   {
@@ -22819,6 +22938,30 @@ export const products: Product[] = [
       application: "RS-485, analog signals",
     },
   },
+  {
+    id: "alpha-wire-6711-1pair",
+    slug: "alpha-wire-6711-1-pair-shielded-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "instrumentation-cables",
+    typeKey: "shielded-pair-cables-1p",
+    image: "shielded-pair-1p-cable",
+    translationKeys: {
+      title: "products-data:alphaWire6711.title",
+      description: "products-data:alphaWire6711.description",
+      featuresKey: "products-data:alphaWire6711.features",
+    },
+    specs: {
+      manufacturer: "Alpha Wire",
+      model: "6711",
+      pairs: "1 pair",
+      conductor: "22 AWG stranded TC",
+      shielding: "100% Tinned copper braid",
+      insulation: "PVC",
+      jacket: "PVC",
+      temperature: "-20°C to +80°C",
+      application: "Industrial control, instrumentation",
+    },
+  },
 
   // SHIELDED PAIR CABLES 2P
   {
@@ -22842,6 +22985,30 @@ export const products: Product[] = [
       impedance: "100 Ω",
       jacket: "PVC",
       application: "EIA RS-485",
+    },
+  },
+  {
+    id: "alpha-wire-6712-2pair",
+    slug: "alpha-wire-6712-2-pair-shielded-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "instrumentation-cables",
+    typeKey: "shielded-pair-cables-2p",
+    image: "shielded-pair-2p-cable",
+    translationKeys: {
+      title: "products-data:alphaWire6712.title",
+      description: "products-data:alphaWire6712.description",
+      featuresKey: "products-data:alphaWire6712.features",
+    },
+    specs: {
+      manufacturer: "Alpha Wire",
+      model: "6712",
+      pairs: "2 pair",
+      conductor: "22 AWG stranded",
+      shielding: "Individual foil + overall braid",
+      insulation: "PVC",
+      jacket: "PVC grey",
+      temperature: "-20°C to +80°C",
+      application: "RS-485, fieldbus",
     },
   },
 
@@ -23043,6 +23210,30 @@ export const products: Product[] = [
       poles: "3-pole",
       width: "52.5mm",
       mounting: "DIN 35mm rail",
+    },
+  },
+  {
+    id: "schneider-lu9m1-motor-terminal",
+    slug: "schneider-lu9m1-tesys-u-motor-terminal",
+    categoryKey: "electrical-components",
+    subcategoryKey: "connectors-terminals",
+    typeKey: "motor-terminal-blocks",
+    image: "terminal-block",
+    translationKeys: {
+      title: "products-data:schneiderLu9m1Motor.title",
+      description: "products-data:schneiderLu9m1Motor.description",
+      featuresKey: "products-data:schneiderLu9m1Motor.features",
+    },
+    specs: {
+      manufacturer: "Schneider Electric",
+      series: "TeSys U LU9M1",
+      currentRating: "32A",
+      voltage: "690V AC",
+      wireSize: "0.5-6 sq mm",
+      poles: "Reversing motor starter",
+      connection: "Screw clamp",
+      mounting: "TeSys U base",
+      type: "Plug-in terminal block",
     },
   },
 
@@ -23466,6 +23657,30 @@ export const products: Product[] = [
       communication: "Ethernet, serial, USB",
       software: "Vijeo Designer",
       mounting: "Panel cutout",
+    },
+  },
+  {
+    id: "siemens-tp1500-unified-comfort",
+    slug: "siemens-simatic-tp1500-unified-comfort-panel",
+    categoryKey: "automation-controls",
+    subcategoryKey: "hmi-scada",
+    typeKey: "panel-mount-hmis",
+    image: "panel-hmi",
+    translationKeys: {
+      title: "products-data:siemensTp1500Unified.title",
+      description: "products-data:siemensTp1500Unified.description",
+      featuresKey: "products-data:siemensTp1500Unified.features",
+    },
+    specs: {
+      manufacturer: "Siemens",
+      series: "SIMATIC Unified Comfort TP1500",
+      display: '15.6" widescreen TFT',
+      resolution: "1366x768",
+      touch: "Capacitive multi-touch",
+      memory: "32 GB eMMC",
+      communication: "PROFINET, 4x USB 3.1, RS-485",
+      software: "WinCC Unified",
+      protection: "IP65 front",
     },
   },
 
