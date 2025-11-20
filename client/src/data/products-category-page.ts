@@ -110,10 +110,6 @@ const iconMapping: Record<string, LucideIcon> = {
   "power-quality-analyzers": Activity,
   "calibration-equipment": Settings,
   "panel-meters-indicators": BarChart3,
-  "bldc-cooler-exhaust-motor": Wind,
-  "bldc-ceiling-fan": Fan,
-  "bldc-submersible-surface-pump": Droplet,
-  "bldc-table-fan-wall-fan-motor": Zap,
   "io-modules": Cpu,
   "insulators-insulation-materials": Shield,
 };
@@ -150,10 +146,6 @@ const categoryConfig: Record<
   "industrial-measuring-tools": {
     backgroundImage: measurementLabImage,
     gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
-  },
-  "bldc": {
-    backgroundImage: bldcBgImage,
-    gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-2",
   },
 };
 

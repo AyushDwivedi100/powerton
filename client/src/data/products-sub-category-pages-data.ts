@@ -2005,213 +2005,6 @@ export const getProductsSubCategoryData = (
         "https://powertonengineering.in/products/industrial-measuring-tools/panel-meters-indicators",
     },
   },
-
-  // BLDC Products
-  {
-    slug: "bldc-cooler-exhaust-motor",
-    title: t("products-data:subcategories.bldc-cooler-exhaust-motor.title"),
-    shortDescription: t(
-      "products-data:subcategories.bldc-cooler-exhaust-motor.shortDescription"
-    ),
-    fullDescription: t(
-      "products-data:subcategories.bldc-cooler-exhaust-motor.fullDescription"
-    ),
-    image: bldcCoolerMotorImage,
-    parentCategory: "/products/bldc",
-    parentCategoryTitle: t(
-      "products-data:subcategories.bldc-cooler-exhaust-motor.parentCategoryTitle"
-    ),
-    icon: Wind,
-    keyBenefits: t(
-      "products-data:subcategories.bldc-cooler-exhaust-motor.keyBenefits",
-      { returnObjects: true }
-    ),
-    specifications: t(
-      "products-data:subcategories.bldc-cooler-exhaust-motor.specifications",
-      { returnObjects: true }
-    ),
-    applications: t(
-      "products-data:subcategories.bldc-cooler-exhaust-motor.applications",
-      { returnObjects: true }
-    ),
-    industries: t(
-      "products-data:subcategories.bldc-cooler-exhaust-motor.industries",
-      { returnObjects: true }
-    ),
-    features: t(
-      "products-data:subcategories.bldc-cooler-exhaust-motor.features",
-      { returnObjects: true }
-    ),
-    certifications: t(
-      "products-data:subcategories.bldc-cooler-exhaust-motor.certifications",
-      { returnObjects: true }
-    ),
-    seo: {
-      title: t(
-        "products-data:subcategories.bldc-cooler-exhaust-motor.seo.title"
-      ),
-      description: t(
-        "products-data:subcategories.bldc-cooler-exhaust-motor.seo.description"
-      ),
-      keywords: t(
-        "products-data:subcategories.bldc-cooler-exhaust-motor.seo.keywords"
-      ),
-      canonicalUrl:
-        "https://powertonengineering.in/products/bldc/bldc-cooler-exhaust-motor",
-    },
-  },
-  {
-    slug: "bldc-ceiling-fan",
-    title: t("products-data:subcategories.bldc-ceiling-fan.title"),
-    shortDescription: t(
-      "products-data:subcategories.bldc-ceiling-fan.shortDescription"
-    ),
-    fullDescription: t(
-      "products-data:subcategories.bldc-ceiling-fan.fullDescription"
-    ),
-    image: bldcCeilingFanImage,
-    parentCategory: "/products/bldc",
-    parentCategoryTitle: t(
-      "products-data:subcategories.bldc-ceiling-fan.parentCategoryTitle"
-    ),
-    icon: Fan,
-    keyBenefits: t("products-data:subcategories.bldc-ceiling-fan.keyBenefits", {
-      returnObjects: true,
-    }),
-    specifications: t(
-      "products-data:subcategories.bldc-ceiling-fan.specifications",
-      { returnObjects: true }
-    ),
-    applications: t(
-      "products-data:subcategories.bldc-ceiling-fan.applications",
-      { returnObjects: true }
-    ),
-    industries: t("products-data:subcategories.bldc-ceiling-fan.industries", {
-      returnObjects: true,
-    }),
-    features: t("products-data:subcategories.bldc-ceiling-fan.features", {
-      returnObjects: true,
-    }),
-    certifications: t(
-      "products-data:subcategories.bldc-ceiling-fan.certifications",
-      { returnObjects: true }
-    ),
-    seo: {
-      title: t("products-data:subcategories.bldc-ceiling-fan.seo.title"),
-      description: t(
-        "products-data:subcategories.bldc-ceiling-fan.seo.description"
-      ),
-      keywords: t("products-data:subcategories.bldc-ceiling-fan.seo.keywords"),
-      canonicalUrl:
-        "https://powertonengineering.in/products/bldc/bldc-ceiling-fan",
-    },
-  },
-  {
-    slug: "bldc-submersible-surface-pump",
-    title: t("products-data:subcategories.bldc-submersible-surface-pump.title"),
-    shortDescription: t(
-      "products-data:subcategories.bldc-submersible-surface-pump.shortDescription"
-    ),
-    fullDescription: t(
-      "products-data:subcategories.bldc-submersible-surface-pump.fullDescription"
-    ),
-    image: bldcSubmersiblePumpImage,
-    parentCategory: "/products/bldc",
-    parentCategoryTitle: t(
-      "products-data:subcategories.bldc-submersible-surface-pump.parentCategoryTitle"
-    ),
-    icon: Droplet,
-    keyBenefits: t(
-      "products-data:subcategories.bldc-submersible-surface-pump.keyBenefits",
-      { returnObjects: true }
-    ),
-    specifications: t(
-      "products-data:subcategories.bldc-submersible-surface-pump.specifications",
-      { returnObjects: true }
-    ),
-    applications: t(
-      "products-data:subcategories.bldc-submersible-surface-pump.applications",
-      { returnObjects: true }
-    ),
-    industries: t(
-      "products-data:subcategories.bldc-submersible-surface-pump.industries",
-      { returnObjects: true }
-    ),
-    features: t(
-      "products-data:subcategories.bldc-submersible-surface-pump.features",
-      { returnObjects: true }
-    ),
-    certifications: t(
-      "products-data:subcategories.bldc-submersible-surface-pump.certifications",
-      { returnObjects: true }
-    ),
-    seo: {
-      title: t(
-        "products-data:subcategories.bldc-submersible-surface-pump.seo.title"
-      ),
-      description: t(
-        "products-data:subcategories.bldc-submersible-surface-pump.seo.description"
-      ),
-      keywords: t(
-        "products-data:subcategories.bldc-submersible-surface-pump.seo.keywords"
-      ),
-      canonicalUrl:
-        "https://powertonengineering.in/products/bldc/bldc-submersible-surface-pump",
-    },
-  },
-  {
-    slug: "bldc-table-fan-wall-fan-motor",
-    title: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.title"),
-    shortDescription: t(
-      "products-data:subcategories.bldc-table-fan-wall-fan-motor.shortDescription"
-    ),
-    fullDescription: t(
-      "products-data:subcategories.bldc-table-fan-wall-fan-motor.fullDescription"
-    ),
-    image: bldcTableFanImage,
-    parentCategory: "/products/bldc",
-    parentCategoryTitle: t(
-      "products-data:subcategories.bldc-table-fan-wall-fan-motor.parentCategoryTitle"
-    ),
-    icon: Fan,
-    keyBenefits: t(
-      "products-data:subcategories.bldc-table-fan-wall-fan-motor.keyBenefits",
-      { returnObjects: true }
-    ),
-    specifications: t(
-      "products-data:subcategories.bldc-table-fan-wall-fan-motor.specifications",
-      { returnObjects: true }
-    ),
-    applications: t(
-      "products-data:subcategories.bldc-table-fan-wall-fan-motor.applications",
-      { returnObjects: true }
-    ),
-    industries: t(
-      "products-data:subcategories.bldc-table-fan-wall-fan-motor.industries",
-      { returnObjects: true }
-    ),
-    features: t(
-      "products-data:subcategories.bldc-table-fan-wall-fan-motor.features",
-      { returnObjects: true }
-    ),
-    certifications: t(
-      "products-data:subcategories.bldc-table-fan-wall-fan-motor.certifications",
-      { returnObjects: true }
-    ),
-    seo: {
-      title: t(
-        "products-data:subcategories.bldc-table-fan-wall-fan-motor.seo.title"
-      ),
-      description: t(
-        "products-data:subcategories.bldc-table-fan-wall-fan-motor.seo.description"
-      ),
-      keywords: t(
-        "products-data:subcategories.bldc-table-fan-wall-fan-motor.seo.keywords"
-      ),
-      canonicalUrl:
-        "https://powertonengineering.in/products/bldc/bldc-table-fan-wall-fan-motor",
-    },
-  },
   // I/O Modules (Automation & Control Systems)
   {
     slug: "io-modules",
@@ -2361,10 +2154,6 @@ export const getSubcategorySlugById = (
     multimeters: "multimeters",
     "power-quality-analyzers": "power-quality-analyzers",
     "calibration-equipment": "calibration-equipment",
-    "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
-    "bldc-ceiling-fan": "bldc-ceiling-fan",
-    "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
-    "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor",
     "io-modules": "io-modules",
     "insulators-insulation-materials": "insulators-insulation-materials",
   };
@@ -2382,7 +2171,6 @@ export const getParentCategorySlug = (productCategoryId: string): string => {
     "safety-protective-devices": "safety-protective-devices",
     "mechanical-pumps-spares": "mechanical-pumps-spares",
     "industrial-measuring-tools": "industrial-measuring-tools",
-    bldc: "bldc",
   };
 
   return parentCategoryMapping[productCategoryId] || productCategoryId;
@@ -2451,12 +2239,6 @@ export const getParentCategoryBySubcategoryKey = (
     "power-quality-analyzers": "industrial-measuring-tools",
     "calibration-equipment": "industrial-measuring-tools",
     "panel-meters-indicators": "industrial-measuring-tools",
-
-    // BLDC Motors
-    "bldc-cooler-exhaust-motor": "bldc",
-    "bldc-ceiling-fan": "bldc",
-    "bldc-submersible-surface-pump": "bldc",
-    "bldc-table-fan-wall-fan-motor": "bldc",
   };
 
   return subcategoryToParentMapping[subcategoryKey] || "";
@@ -2505,10 +2287,6 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "power-quality-analyzers": "power-quality-analyzers",
     "calibration-equipment": "calibration-equipment",
     "panel-meters-indicators": "panel-meters-indicators",
-    "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
-    "bldc-ceiling-fan": "bldc-ceiling-fan",
-    "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
-    "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor",
     "io-modules": "io-modules",
     "insulators-insulation-materials": "insulators-insulation-materials",
   };

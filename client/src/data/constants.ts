@@ -448,47 +448,6 @@ export const getProducts = (t: any) => [
       },
     ],
   },
-  {
-    id: "bldc",
-    title: t("products:categories.bldc.title"),
-    description: t("products:categories.bldc.description"),
-    icon: "Zap",
-    image: getProductImage("bldc")?.src || "",
-    features: [
-      t("products:categories.bldc.features.energy-efficient"),
-      t("products:categories.bldc.features.long-lifespan"),
-      t("products:categories.bldc.features.low-maintenance"),
-      t("products:categories.bldc.features.variable-speed-control"),
-    ],
-    subcategories: [
-      {
-        id: "bldc-cooler-exhaust-motor",
-        title: t("products:subcategories.bldc-cooler-exhaust-motor.title"),
-        description: t(
-          "products:subcategories.bldc-cooler-exhaust-motor.description"
-        ),
-      },
-      {
-        id: "bldc-ceiling-fan",
-        title: t("products:subcategories.bldc-ceiling-fan.title"),
-        description: t("products:subcategories.bldc-ceiling-fan.description"),
-      },
-      {
-        id: "bldc-submersible-surface-pump",
-        title: t("products:subcategories.bldc-submersible-surface-pump.title"),
-        description: t(
-          "products:subcategories.bldc-submersible-surface-pump.description"
-        ),
-      },
-      {
-        id: "bldc-table-fan-wall-fan-motor",
-        title: t("products:subcategories.bldc-table-fan-wall-fan-motor.title"),
-        description: t(
-          "products:subcategories.bldc-table-fan-wall-fan-motor.description"
-        ),
-      },
-    ],
-  },
 ];
 
 export const getTestimonials = (t: any) => [
