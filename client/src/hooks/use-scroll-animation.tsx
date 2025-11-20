@@ -1,25 +1,9 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
-// Lazy initialization flag - animations only initialize after first scroll
-let hasScrolled = false;
-const scrollObservers: (() => void)[] = [];
-
-// Listen for first scroll to enable animations
-if (typeof window !== 'undefined') {
-  const enableAnimations = () => {
-    if (!hasScrolled) {
-      hasScrolled = true;
-      scrollObservers.forEach(callback => callback());
-      scrollObservers.length = 0;
-    }
-  };
-  
-  // Listen for scroll with passive listener
-  window.addEventListener('scroll', enableAnimations, { passive: true, once: true });
-  
-  // Also enable after 2 seconds if user hasn't scrolled (for above-fold animations)
-  setTimeout(enableAnimations, 2000);
+// Add js-enabled class to document for progressive enhancement
+if (typeof document !== 'undefined') {
+  document.documentElement.classList.add('js-enabled');
 }
 
 // Simple scroll direction detection for performance
@@ -100,7 +84,7 @@ export const useScrollAnimation = (options: ScrollAnimationOptions = {}) => {
   return [ref, isVisible];
 };
 
-// Advanced hook for multiple elements with stagger - with lazy initialization
+// Advanced hook for multiple elements with stagger - with immediate initialization for above-fold
 export const useScrollAnimations = (staggerDelay = 100) => {
   useEffect(() => {
     let observer: IntersectionObserver | null = null;
@@ -108,6 +92,25 @@ export const useScrollAnimations = (staggerDelay = 100) => {
 
     const initializeObserver = () => {
       elements = document.querySelectorAll("[data-scroll]");
+
+      // Reset animation state: remove any lingering animate-* classes and reapply hidden
+      // This ensures animations restart properly on remount (e.g., language changes, route transitions)
+      const animationClasses = [
+        'animate-fadeInUp',
+        'animate-fadeInDown',
+        'animate-fadeInLeft',
+        'animate-fadeInRight',
+        'animate-scaleIn',
+        'animate-slideInUp'
+      ];
+      
+      elements.forEach((el) => {
+        const element = el as HTMLElement;
+        // Remove any existing animation classes
+        animationClasses.forEach(cls => element.classList.remove(cls));
+        // Reapply hidden state
+        element.classList.add('scroll-animate-hidden');
+      });
 
       observer = new IntersectionObserver(
         (entries) => {
@@ -143,16 +146,16 @@ export const useScrollAnimations = (staggerDelay = 100) => {
       elements.forEach((el) => observer!.observe(el));
     };
 
-    // Lazy initialization - only create observer after scroll or after delay
-    if (hasScrolled) {
+    // Immediate initialization - use requestAnimationFrame for performance
+    // This ensures above-the-fold elements animate immediately
+    requestAnimationFrame(() => {
       initializeObserver();
-    } else {
-      scrollObservers.push(initializeObserver);
-    }
+    });
 
     return () => {
-      if (observer && elements) {
-        elements.forEach((el) => observer!.unobserve(el));
+      if (observer) {
+        observer.disconnect(); // Properly disconnect observer
+        observer = null;
       }
     };
   }, [staggerDelay]);

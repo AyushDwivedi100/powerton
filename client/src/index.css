@@ -2023,6 +2023,35 @@ html {
   opacity: 0;
 }
 
+/* Apply initial hidden state to data-scroll elements only when JS is enabled 
+   This ensures content remains visible if JS fails or prefers-reduced-motion is set */
+.js-enabled [data-scroll]:not(.animate-fadeInUp):not(.animate-fadeInDown):not(.animate-fadeInLeft):not(.animate-fadeInRight):not(.animate-scaleIn):not(.animate-slideInUp) {
+  opacity: 0;
+}
+
+/* Respect user's reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  [data-scroll] {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+  
+  .scroll-animate-hidden {
+    opacity: 1 !important;
+  }
+  
+  .animate-fadeInUp,
+  .animate-fadeInDown,
+  .animate-fadeInLeft,
+  .animate-fadeInRight,
+  .animate-scaleIn,
+  .animate-slideInUp {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
 /* GPU acceleration for scroll animations */
 .scroll-animate-hidden,
 .animate-fadeInUp,

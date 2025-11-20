@@ -121,15 +121,13 @@ export default function AboutSection() {
 
                 <div
                   className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 md:gap-6 mb-4 sm:mb-6 md:mb-8"
-                  data-scroll="fadeInUp"
-                  data-delay="600"
                 >
                   {features.map((feature, index) => {
                     const Icon = feature.icon;
                     return (
                       <div
                         key={feature.title}
-                        className="flex items-start space-x-3 scroll-animate-hidden"
+                        className="flex items-start space-x-3"
                         data-scroll="fadeInUp"
                         data-delay={`${700 + (index * 100)}`}
                       >
@@ -153,12 +151,14 @@ export default function AboutSection() {
                 </div>
 
                 <div
-                  className="scroll-animate-hidden"
                   data-scroll="fadeInUp"
                   data-delay="1100"
                 >
                   <Link href="/about">
-                    <Button className="bg-primary hover:bg-primary/90 text-primary-foreground dark:bg-primary dark:hover:bg-primary/90 dark:text-primary-foreground px-6 py-3 rounded-lg font-semibold transition-all duration-200">
+                    <Button 
+                      data-testid="button-learn-more-about"
+                      className="bg-primary hover:bg-primary/90 text-primary-foreground dark:bg-primary dark:hover:bg-primary/90 dark:text-primary-foreground px-6 py-3 rounded-lg font-semibold transition-all duration-200"
+                    >
                       {t("pages:home.about.button", "Learn More About Us")}
                     </Button>
                   </Link>
