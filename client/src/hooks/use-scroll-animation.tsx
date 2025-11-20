@@ -1,6 +1,27 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
+// Lazy initialization flag - animations only initialize after first scroll
+let hasScrolled = false;
+const scrollObservers: (() => void)[] = [];
+
+// Listen for first scroll to enable animations
+if (typeof window !== 'undefined') {
+  const enableAnimations = () => {
+    if (!hasScrolled) {
+      hasScrolled = true;
+      scrollObservers.forEach(callback => callback());
+      scrollObservers.length = 0;
+    }
+  };
+  
+  // Listen for scroll with passive listener
+  window.addEventListener('scroll', enableAnimations, { passive: true, once: true });
+  
+  // Also enable after 2 seconds if user hasn't scrolled (for above-fold animations)
+  setTimeout(enableAnimations, 2000);
+}
+
 // Simple scroll direction detection for performance
 export const useScrollDirection = () => {
   const [scrollDirection, setScrollDirection] = useState<"up" | "down" | null>(
@@ -79,45 +100,60 @@ export const useScrollAnimation = (options: ScrollAnimationOptions = {}) => {
   return [ref, isVisible];
 };
 
-// Advanced hook for multiple elements with stagger
+// Advanced hook for multiple elements with stagger - with lazy initialization
 export const useScrollAnimations = (staggerDelay = 100) => {
   useEffect(() => {
-    const elements = document.querySelectorAll("[data-scroll]");
+    let observer: IntersectionObserver | null = null;
+    let elements: NodeListOf<Element> | null = null;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry, index) => {
-          if (entry.isIntersecting) {
-            const element = entry.target as HTMLElement;
-            const animation = element.dataset.scroll;
-            const delay =
-              element.dataset.delay || (index * staggerDelay).toString();
+    const initializeObserver = () => {
+      elements = document.querySelectorAll("[data-scroll]");
 
-            setTimeout(() => {
-              try {
-                element.classList.add(`animate-${animation}`);
-              } catch (error) {
-                console.log(
-                  "Animation class addition handled gracefully:",
-                  error
-                );
-              }
-            }, parseInt(delay) || 0);
+      observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+              const element = entry.target as HTMLElement;
+              const animation = element.dataset.scroll;
+              const delay =
+                element.dataset.delay || (index * staggerDelay).toString();
 
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      {
-        threshold: 0.15,
-        rootMargin: "0px 0px -80px 0px",
-      }
-    );
+              setTimeout(() => {
+                try {
+                  element.classList.remove('scroll-animate-hidden');
+                  element.classList.add(`animate-${animation}`);
+                } catch (error) {
+                  console.log(
+                    "Animation class addition handled gracefully:",
+                    error
+                  );
+                }
+              }, parseInt(delay) || 0);
 
-    elements.forEach((el) => observer.observe(el));
+              observer?.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.15,
+          rootMargin: "0px 0px -80px 0px",
+        }
+      );
+
+      elements.forEach((el) => observer!.observe(el));
+    };
+
+    // Lazy initialization - only create observer after scroll or after delay
+    if (hasScrolled) {
+      initializeObserver();
+    } else {
+      scrollObservers.push(initializeObserver);
+    }
 
     return () => {
-      elements.forEach((el) => observer.unobserve(el));
+      if (observer && elements) {
+        elements.forEach((el) => observer!.unobserve(el));
+      }
     };
   }, [staggerDelay]);
 };
@@ -370,7 +406,7 @@ export const useParallax = (speed = 0.5) => {
 
 // Helper function to get animation class names
 export const getAnimationClass = (animation: string, isVisible: boolean) => {
-  if (!isVisible) return "opacity-0 translate-y-8";
+  if (!isVisible) return "scroll-animate-hidden";
 
   const animations = {
     fadeInUp: "animate-fadeInUp",
@@ -383,6 +419,39 @@ export const getAnimationClass = (animation: string, isVisible: boolean) => {
 
   return (
     animations[animation as keyof typeof animations] || animations.fadeInUp
+  );
+};
+
+// CSS-based AnimatedSection - better performance than Framer Motion
+interface CSSAnimatedSectionProps {
+  children: React.ReactNode;
+  animation?: string;
+  className?: string;
+  delay?: number;
+  [key: string]: any;
+}
+
+export const CSSAnimatedSection: React.FC<CSSAnimatedSectionProps> = ({
+  children,
+  animation = "fadeInUp",
+  className = "",
+  delay = 0,
+  ...props
+}) => {
+  const [ref, isVisible] = useScrollAnimation({ threshold: 0.1 });
+  const animationClass = getAnimationClass(animation, isVisible as boolean);
+  
+  const style = delay > 0 ? { animationDelay: `${delay}s` } : {};
+
+  return (
+    <div
+      ref={ref as any}
+      className={`${animationClass} ${className}`}
+      style={style}
+      {...props}
+    >
+      {children}
+    </div>
   );
 };
 
