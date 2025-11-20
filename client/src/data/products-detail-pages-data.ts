@@ -22222,6 +22222,2080 @@ export const products: Product[] = [
       flexLife: "10 million cycles",
     },
   },
+
+  // AIR-OPERATED DIAPHRAGM PUMPS
+  {
+    id: "graco-husky-1050-air-diaphragm-pump",
+    slug: "graco-husky-1050-aodd-pump",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "air-operated-diaphragm",
+    image: "diaphragm-pump",
+    translationKeys: {
+      title: "products-data:gracoHusky1050.title",
+      description: "products-data:gracoHusky1050.description",
+      featuresKey: "products-data:gracoHusky1050.features",
+    },
+    specs: {
+      manufacturer: "Graco",
+      model: "Husky 1050",
+      type: "Air-Operated Double Diaphragm",
+      flowRate: "53 GPM (200 LPM)",
+      maxPressure: "125 PSI (8.6 bar)",
+      portSize: '1"',
+      material: "Aluminum",
+      temperature: "-40°F to 180°F",
+    },
+  },
+
+  // ELECTRIC DIAPHRAGM PUMPS
+  {
+    id: "grundfos-dda-digital-dosing-pump",
+    slug: "grundfos-dda-electric-diaphragm-pump",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "electric-diaphragm",
+    image: "diaphragm-pump",
+    translationKeys: {
+      title: "products-data:grundfosDda.title",
+      description: "products-data:grundfosDda.description",
+      featuresKey: "products-data:grundfosDda.features",
+    },
+    specs: {
+      manufacturer: "Grundfos",
+      model: "DDA",
+      type: "Digital Dosing Pump",
+      flowRate: "0.1-60 L/h",
+      maxPressure: "20 bar",
+      power: "230V AC",
+      control: "Digital Display",
+      accuracy: "±3%",
+    },
+  },
+
+  // HYDRAULIC DIAPHRAGM PUMPS
+  {
+    id: "milton-roy-primeroyal-hydraulic",
+    slug: "milton-roy-primeroyal-hydraulic-diaphragm",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "hydraulic-diaphragm",
+    image: "diaphragm-pump",
+    translationKeys: {
+      title: "products-data:miltonRoyPrimeroyal.title",
+      description: "products-data:miltonRoyPrimeroyal.description",
+      featuresKey: "products-data:miltonRoyPrimeroyal.features",
+    },
+    specs: {
+      manufacturer: "Milton Roy",
+      series: "Primeroyal",
+      type: "Hydraulic Diaphragm Metering Pump",
+      flowRate: "0-2842 LPH",
+      maxPressure: "150 bar",
+      accuracy: "±1%",
+      wetted: "PTFE",
+      application: "Chemical dosing",
+    },
+  },
+
+  // HYBRID PUMPS
+  {
+    id: "xylem-flygt-hybrid-pump-system",
+    slug: "xylem-flygt-hybrid-submersible-pump",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "hybrid-pumps",
+    image: "submersible-pump",
+    translationKeys: {
+      title: "products-data:xylemFlygtHybrid.title",
+      description: "products-data:xylemFlygtHybrid.description",
+      featuresKey: "products-data:xylemFlygtHybrid.features",
+    },
+    specs: {
+      manufacturer: "Xylem",
+      series: "Flygt",
+      type: "Hybrid Submersible Pump",
+      power: "5.5-15 kW",
+      flowRate: "200 m³/h",
+      head: "30 m",
+      efficiency: "Up to 85%",
+      material: "Cast iron",
+    },
+  },
+
+  // INTERNAL GEAR PUMPS
+  {
+    id: "viking-pump-internal-gear-sg",
+    slug: "viking-sg-series-internal-gear-pump",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "internal-gear-pumps",
+    image: "gear-pump",
+    translationKeys: {
+      title: "products-data:vikingSgGear.title",
+      description: "products-data:vikingSgGear.description",
+      featuresKey: "products-data:vikingSgGear.features",
+    },
+    specs: {
+      manufacturer: "Viking Pump",
+      series: "SG",
+      type: "Internal Gear Pump",
+      flowRate: "1-600 GPM",
+      viscosity: "Up to 500,000 SSU",
+      temperature: "-40°F to 450°F",
+      material: "Ductile iron",
+      portSize: '1/2" to 6"',
+    },
+  },
+
+  // EXTERNAL GEAR PUMPS
+  {
+    id: "roper-pump-type-1-external-gear",
+    slug: "roper-type-1-external-gear-pump",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "external-gear-pumps",
+    image: "gear-pump",
+    translationKeys: {
+      title: "products-data:roperType1Gear.title",
+      description: "products-data:roperType1Gear.description",
+      featuresKey: "products-data:roperType1Gear.features",
+    },
+    specs: {
+      manufacturer: "Roper Pump",
+      model: "Type 1",
+      type: "External Gear Pump",
+      flowRate: "1-50 GPM",
+      pressure: "Up to 200 PSI",
+      viscosity: "Up to 15,000 SSU",
+      temperature: "Up to 450°F",
+      construction: "Cast iron",
+    },
+  },
+
+  // MAGNETIC GEAR PUMPS
+  {
+    id: "tapflo-mag-drive-gear-pump",
+    slug: "tapflo-magnetic-drive-gear-pump",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "magnetic-gear-pumps",
+    image: "gear-pump",
+    translationKeys: {
+      title: "products-data:tapfloMagGear.title",
+      description: "products-data:tapfloMagGear.description",
+      featuresKey: "products-data:tapfloMagGear.features",
+    },
+    specs: {
+      manufacturer: "Tapflo",
+      type: "Magnetic Drive Gear Pump",
+      flowRate: "50-500 L/min",
+      pressure: "16 bar",
+      sealType: "Sealless magnetic coupling",
+      material: "PP/PVDF",
+      wetted: "No mechanical seal",
+      application: "Corrosive liquids",
+    },
+  },
+
+  // MULTI-STAGE CENTRIFUGAL PUMPS
+  {
+    id: "grundfos-cr-multistage-pump",
+    slug: "grundfos-cr-vertical-multistage-centrifugal",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "multi-stage-centrifugal",
+    image: "centrifugal-pump",
+    translationKeys: {
+      title: "products-data:grundfosCrMultistage.title",
+      description: "products-data:grundfosCrMultistage.description",
+      featuresKey: "products-data:grundfosCrMultistage.features",
+    },
+    specs: {
+      manufacturer: "Grundfos",
+      series: "CR",
+      stages: "3-30 stages",
+      flowRate: "0.85-125 m³/h",
+      head: "Up to 690 m",
+      power: "0.37-45 kW",
+      material: "Stainless steel",
+      efficiency: "Up to 80%",
+    },
+  },
+
+  // VERTICAL CENTRIFUGAL PUMPS
+  {
+    id: "flowserve-vertical-turbine-pump",
+    slug: "flowserve-vtp-vertical-turbine-centrifugal",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "vertical-centrifugal",
+    image: "centrifugal-pump",
+    translationKeys: {
+      title: "products-data:flowserveVtp.title",
+      description: "products-data:flowserveVtp.description",
+      featuresKey: "products-data:flowserveVtp.features",
+    },
+    specs: {
+      manufacturer: "Flowserve",
+      type: "Vertical Turbine Pump",
+      flowRate: "100-10,000 GPM",
+      head: "Up to 1500 ft",
+      bowls: "Bronze/Stainless",
+      shaft: "Stainless steel",
+      application: "Water supply, irrigation",
+    },
+  },
+
+  // ANALOG AMMETERS
+  {
+    id: "selec-am-series-analog-ammeter",
+    slug: "selec-am-i-96-analog-panel-ammeter",
+    categoryKey: "electrical-components",
+    subcategoryKey: "test-equipment",
+    typeKey: "analog-ammeters",
+    image: "analog-meter",
+    translationKeys: {
+      title: "products-data:selecAmAnalog.title",
+      description: "products-data:selecAmAnalog.description",
+      featuresKey: "products-data:selecAmAnalog.features",
+    },
+    specs: {
+      manufacturer: "Selec",
+      series: "AM-I-96",
+      type: "Analog Ammeter",
+      range: "0-600A with CT",
+      accuracy: "Class 1.5",
+      size: "96x96mm",
+      mounting: "Panel mount",
+      display: "Moving coil",
+    },
+  },
+
+  // ANALOG VOLTMETERS
+  {
+    id: "selec-vm-series-analog-voltmeter",
+    slug: "selec-vm-v-96-analog-panel-voltmeter",
+    categoryKey: "electrical-components",
+    subcategoryKey: "test-equipment",
+    typeKey: "analog-voltmeters",
+    image: "analog-meter",
+    translationKeys: {
+      title: "products-data:selecVmAnalog.title",
+      description: "products-data:selecVmAnalog.description",
+      featuresKey: "products-data:selecVmAnalog.features",
+    },
+    specs: {
+      manufacturer: "Selec",
+      series: "VM-V-96",
+      type: "Analog Voltmeter",
+      range: "0-500V AC",
+      accuracy: "Class 1.5",
+      size: "96x96mm",
+      mounting: "Panel mount",
+      display: "Moving iron",
+    },
+  },
+
+  // DIGITAL AMMETERS
+  {
+    id: "selec-ma23-digital-ammeter",
+    slug: "selec-ma23-digital-panel-ammeter",
+    categoryKey: "electrical-components",
+    subcategoryKey: "test-equipment",
+    typeKey: "digital-ammeters",
+    image: "digital-meter",
+    translationKeys: {
+      title: "products-data:selecMa23Digital.title",
+      description: "products-data:selecMa23Digital.description",
+      featuresKey: "products-data:selecMa23Digital.features",
+    },
+    specs: {
+      manufacturer: "Selec",
+      model: "MA23",
+      type: "Digital Ammeter",
+      range: "0-9999A with CT",
+      accuracy: "±0.5%",
+      display: "LED 3.5 digit",
+      size: "72x36mm",
+      input: "AC current via CT",
+    },
+  },
+
+  // DIGITAL VOLTMETERS
+  {
+    id: "selec-mv23-digital-voltmeter",
+    slug: "selec-mv23-digital-panel-voltmeter",
+    categoryKey: "electrical-components",
+    subcategoryKey: "test-equipment",
+    typeKey: "digital-voltmeters",
+    image: "digital-meter",
+    translationKeys: {
+      title: "products-data:selecMv23Digital.title",
+      description: "products-data:selecMv23Digital.description",
+      featuresKey: "products-data:selecMv23Digital.features",
+    },
+    specs: {
+      manufacturer: "Selec",
+      model: "MV23",
+      type: "Digital Voltmeter",
+      range: "0-600V AC/DC",
+      accuracy: "±0.5%",
+      display: "LED 3.5 digit",
+      size: "72x36mm",
+      input: "Direct/PT",
+    },
+  },
+
+  // MULTI-FUNCTION METERS
+  {
+    id: "schneider-pm5560-multifunction-meter",
+    slug: "schneider-pm5560-power-logic-meter",
+    categoryKey: "electrical-components",
+    subcategoryKey: "test-equipment",
+    typeKey: "multi-function-meters",
+    image: "digital-meter",
+    translationKeys: {
+      title: "products-data:schneiderPm5560.title",
+      description: "products-data:schneiderPm5560.description",
+      featuresKey: "products-data:schneiderPm5560.features",
+    },
+    specs: {
+      manufacturer: "Schneider Electric",
+      model: "PM5560",
+      type: "Multifunction Power Meter",
+      measurements: "V, I, kW, kVAr, kVA, PF, THD",
+      accuracy: "Class 0.5S",
+      communication: "Modbus RTU/TCP",
+      display: "LCD backlit",
+      logging: "Energy & demand",
+    },
+  },
+
+  // POWER FACTOR METERS
+  {
+    id: "selec-pf23-power-factor-meter",
+    slug: "selec-pf23-digital-power-factor-meter",
+    categoryKey: "electrical-components",
+    subcategoryKey: "test-equipment",
+    typeKey: "power-factor-meters",
+    image: "digital-meter",
+    translationKeys: {
+      title: "products-data:selecPf23.title",
+      description: "products-data:selecPf23.description",
+      featuresKey: "products-data:selecPf23.features",
+    },
+    specs: {
+      manufacturer: "Selec",
+      model: "PF23",
+      type: "Digital Power Factor Meter",
+      range: "0-1 lag/lead",
+      accuracy: "±2%",
+      display: "LED 3.5 digit",
+      size: "72x36mm",
+      phase: "Single/Three phase",
+    },
+  },
+
+  // ENERGY LOGGERS
+  {
+    id: "fluke-1730-energy-logger",
+    slug: "fluke-1730-three-phase-energy-logger",
+    categoryKey: "electrical-components",
+    subcategoryKey: "test-equipment",
+    typeKey: "energy-loggers",
+    image: "energy-meter",
+    translationKeys: {
+      title: "products-data:fluke1730.title",
+      description: "products-data:fluke1730.description",
+      featuresKey: "products-data:fluke1730.features",
+    },
+    specs: {
+      manufacturer: "Fluke",
+      model: "1730",
+      type: "Three-Phase Energy Logger",
+      voltage: "1000V",
+      current: "3000A with flex clamps",
+      memory: "4GB SD card",
+      logging: "Continuous",
+      software: "Energy Analyze Plus",
+    },
+  },
+
+  // DIGITAL MOTOR PROTECTION RELAY
+  {
+    id: "siemens-3rr24-motor-protection-relay",
+    slug: "siemens-3rr24-digital-motor-relay",
+    categoryKey: "automation-controls",
+    subcategoryKey: "motor-controls",
+    typeKey: "digital-motor-protection-relay",
+    image: "protection-relay",
+    translationKeys: {
+      title: "products-data:siemens3rr24.title",
+      description: "products-data:siemens3rr24.description",
+      featuresKey: "products-data:siemens3rr24.features",
+    },
+    specs: {
+      manufacturer: "Siemens",
+      model: "3RR24",
+      type: "Electronic Overload Relay",
+      current: "0.3-12A",
+      functions: "Overload, phase loss, imbalance",
+      display: "LED indicators",
+      reset: "Manual/Auto",
+      mounting: "DIN rail",
+    },
+  },
+
+  // VOLTAGE MONITORING RELAY
+  {
+    id: "schneider-rm22ua-voltage-monitoring",
+    slug: "schneider-rm22ua-voltage-control-relay",
+    categoryKey: "automation-controls",
+    subcategoryKey: "motor-controls",
+    typeKey: "voltage-monitoring-relay",
+    image: "protection-relay",
+    translationKeys: {
+      title: "products-data:schneiderRm22ua.title",
+      description: "products-data:schneiderRm22ua.description",
+      featuresKey: "products-data:schneiderRm22ua.features",
+    },
+    specs: {
+      manufacturer: "Schneider Electric",
+      model: "RM22UA",
+      type: "Voltage Control Relay",
+      voltage: "208-480V AC",
+      functions: "Over/under voltage, phase sequence",
+      contacts: "2 C/O",
+      adjustment: "Potentiometer",
+      mounting: "DIN rail",
+    },
+  },
+
+  // EARTHING CABLES
+  {
+    id: "polycab-earthing-cable-copper",
+    slug: "polycab-copper-earthing-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "electrical-cables",
+    typeKey: "earthing-cables",
+    image: "earthing-cable",
+    translationKeys: {
+      title: "products-data:polycabEarthing.title",
+      description: "products-data:polycabEarthing.description",
+      featuresKey: "products-data:polycabEarthing.features",
+    },
+    specs: {
+      manufacturer: "Polycab",
+      conductor: "Bare copper",
+      size: "16-400 sq mm",
+      stranding: "Flexible/Solid",
+      standard: "IS 8130",
+      application: "Grounding",
+      material: "Electrolytic grade copper",
+    },
+  },
+
+  // EARTHING STRIPS
+  {
+    id: "copper-earthing-strip-25x3mm",
+    slug: "copper-earthing-bus-strip-25x3mm",
+    categoryKey: "electrical-components",
+    subcategoryKey: "grounding-protection",
+    typeKey: "earthing-strips",
+    image: "earthing-strip",
+    translationKeys: {
+      title: "products-data:copperEarthingStrip.title",
+      description: "products-data:copperEarthingStrip.description",
+      featuresKey: "products-data:copperEarthingStrip.features",
+    },
+    specs: {
+      material: "Electrolytic copper",
+      size: "25mm x 3mm",
+      length: "Standard 2m/3m",
+      purity: "99.9% Cu",
+      conductivity: "100% IACS",
+      standard: "IS 8130",
+      application: "Earthing bus bars",
+    },
+  },
+
+  // HOME APPLIANCE CABLES
+  {
+    id: "finolex-flex-cable-3-core",
+    slug: "finolex-flex-3-core-appliance-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "electrical-cables",
+    typeKey: "home-appliance-cables",
+    image: "home-appliance-cable",
+    translationKeys: {
+      title: "products-data:finolexFlex3Core.title",
+      description: "products-data:finolexFlex3Core.description",
+      featuresKey: "products-data:finolexFlex3Core.features",
+    },
+    specs: {
+      manufacturer: "Finolex",
+      type: "Flexible Cable 3-Core",
+      conductor: "Copper",
+      voltage: "1100V",
+      insulation: "PVC",
+      size: "0.75-4 sq mm",
+      cores: "3 (L+N+E)",
+      standard: "IS 694",
+    },
+  },
+
+  // MULTICORE CABLES ELECTRICAL
+  {
+    id: "kei-multicore-power-cable",
+    slug: "kei-multicore-electrical-power-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "electrical-cables",
+    typeKey: "multicore-cables-electrical",
+    image: "multicore-cable-electrical",
+    translationKeys: {
+      title: "products-data:keiMulticoreElectrical.title",
+      description: "products-data:keiMulticoreElectrical.description",
+      featuresKey: "products-data:keiMulticoreElectrical.features",
+    },
+    specs: {
+      manufacturer: "KEI",
+      type: "Multicore Power Cable",
+      conductor: "Aluminum/Copper",
+      voltage: "1.1 kV",
+      cores: "2-61 cores",
+      insulation: "PVC/XLPE",
+      sheath: "PVC",
+      standard: "IS 1554 Part 1",
+    },
+  },
+
+  // MULTICORE CABLES INSTRUMENTATION
+  {
+    id: "belden-multicore-instrument-cable",
+    slug: "belden-multicore-instrumentation-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "instrumentation-cables",
+    typeKey: "multicore-cables-instrumentation",
+    image: "multicore-cable-instrumentation",
+    translationKeys: {
+      title: "products-data:beldenMulticoreInst.title",
+      description: "products-data:beldenMulticoreInst.description",
+      featuresKey: "products-data:beldenMulticoreInst.features",
+    },
+    specs: {
+      manufacturer: "Belden",
+      type: "Multicore Instrumentation Cable",
+      conductor: "Tinned copper",
+      cores: "4-24 cores",
+      shielding: "Overall foil + braid",
+      insulation: "PVC",
+      jacket: "PVC",
+      application: "Process control",
+    },
+  },
+
+  // SHIELDED PAIR CABLES 1P
+  {
+    id: "belden-8760-1pair-shielded",
+    slug: "belden-8760-1-pair-shielded-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "instrumentation-cables",
+    typeKey: "shielded-pair-cables-1p",
+    image: "shielded-pair-1p-cable",
+    translationKeys: {
+      title: "products-data:belden8760OnePair.title",
+      description: "products-data:belden8760OnePair.description",
+      featuresKey: "products-data:belden8760OnePair.features",
+    },
+    specs: {
+      manufacturer: "Belden",
+      model: "8760",
+      pairs: "1 pair",
+      conductor: "20 AWG stranded",
+      shielding: "Foil + braid",
+      capacitance: "36 pF/ft",
+      jacket: "PVC",
+      application: "RS-485, analog signals",
+    },
+  },
+
+  // SHIELDED PAIR CABLES 2P
+  {
+    id: "belden-9503-2pair-shielded",
+    slug: "belden-9503-2-pair-shielded-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "instrumentation-cables",
+    typeKey: "shielded-pair-cables-2p",
+    image: "shielded-pair-2p-cable",
+    translationKeys: {
+      title: "products-data:belden9503TwoPair.title",
+      description: "products-data:belden9503TwoPair.description",
+      featuresKey: "products-data:belden9503TwoPair.features",
+    },
+    specs: {
+      manufacturer: "Belden",
+      model: "9503",
+      pairs: "2 pair",
+      conductor: "22 AWG stranded",
+      shielding: "Individual + overall foil",
+      impedance: "100 Ω",
+      jacket: "PVC",
+      application: "EIA RS-485",
+    },
+  },
+
+  // SHIELDED PAIR CABLES 8P
+  {
+    id: "belden-9738-8pair-shielded",
+    slug: "belden-9738-8-pair-shielded-cable",
+    categoryKey: "electrical-components",
+    subcategoryKey: "instrumentation-cables",
+    typeKey: "shielded-pair-cables-8p",
+    image: "shielded-pair-8p-cable",
+    translationKeys: {
+      title: "products-data:belden9738EightPair.title",
+      description: "products-data:belden9738EightPair.description",
+      featuresKey: "products-data:belden9738EightPair.features",
+    },
+    specs: {
+      manufacturer: "Belden",
+      model: "9738",
+      pairs: "8 pair",
+      conductor: "22 AWG stranded",
+      shielding: "Foil + braid 90% coverage",
+      jacket: "PVC",
+      temperature: "80°C",
+      application: "Multi-channel instrumentation",
+    },
+  },
+
+  // PVC DUCT
+  {
+    id: "precision-pvc-cable-duct",
+    slug: "precision-pvc-cable-duct-trunking",
+    categoryKey: "electrical-components",
+    subcategoryKey: "enclosures-cabinets",
+    typeKey: "pvc-duct",
+    image: "pvc-duct",
+    translationKeys: {
+      title: "products-data:precisionPvcDuct.title",
+      description: "products-data:precisionPvcDuct.description",
+      featuresKey: "products-data:precisionPvcDuct.features",
+    },
+    specs: {
+      manufacturer: "Precision",
+      type: "PVC Cable Duct",
+      sizes: "25x25mm to 100x50mm",
+      material: "Rigid PVC",
+      color: "White/Grey",
+      length: "2m standard",
+      fireRating: "Self-extinguishing",
+      standard: "IS 9537",
+    },
+  },
+
+  // DC SURGE PROTECTORS
+  {
+    id: "phoenix-vat-dc-surge-protector",
+    slug: "phoenix-contact-vat-dc-surge-arrestor",
+    categoryKey: "electrical-components",
+    subcategoryKey: "surge-protection",
+    typeKey: "dc-surge-protectors",
+    image: "surge-protector",
+    translationKeys: {
+      title: "products-data:phoenixVatDc.title",
+      description: "products-data:phoenixVatDc.description",
+      featuresKey: "products-data:phoenixVatDc.features",
+    },
+    specs: {
+      manufacturer: "Phoenix Contact",
+      series: "VAL-MS-T1/T2",
+      type: "DC Surge Protection",
+      voltage: "48-1000V DC",
+      discharge: "20kA (8/20µs)",
+      response: "<25ns",
+      mounting: "DIN rail",
+      application: "Solar, battery systems",
+    },
+  },
+
+  // SIGNAL SURGE PROTECTORS
+  {
+    id: "phoenix-tt-signal-surge-protector",
+    slug: "phoenix-contact-tt-signal-line-protection",
+    categoryKey: "electrical-components",
+    subcategoryKey: "surge-protection",
+    typeKey: "signal-surge-protectors",
+    image: "surge-protector",
+    translationKeys: {
+      title: "products-data:phoenixTtSignal.title",
+      description: "products-data:phoenixTtSignal.description",
+      featuresKey: "products-data:phoenixTtSignal.features",
+    },
+    specs: {
+      manufacturer: "Phoenix Contact",
+      series: "TT-2/4-24DC",
+      type: "Signal Surge Protection",
+      voltage: "24V DC",
+      channels: "Single/Multi-channel",
+      discharge: "10kA",
+      application: "4-20mA, 0-10V signals",
+      mounting: "DIN rail",
+    },
+  },
+
+  // FUSE TERMINAL BLOCK ISOLATORS
+  {
+    id: "phoenix-ut-fuse-terminal-block",
+    slug: "phoenix-ut-fuse-disconnect-terminal",
+    categoryKey: "electrical-components",
+    subcategoryKey: "connectors-terminals",
+    typeKey: "fuse-terminal-block-isolators",
+    image: "terminal-block",
+    translationKeys: {
+      title: "products-data:phoenixUtFuse.title",
+      description: "products-data:phoenixUtFuse.description",
+      featuresKey: "products-data:phoenixUtFuse.features",
+    },
+    specs: {
+      manufacturer: "Phoenix Contact",
+      series: "UT 4-HESILED",
+      current: "6.3A",
+      voltage: "250V",
+      fuseType: "5x20mm",
+      indicator: "LED status",
+      width: "6.2mm",
+      mounting: "DIN rail 35mm",
+    },
+  },
+
+  // GLASS FUSES
+  {
+    id: "littelfuse-215-series-glass-fuse",
+    slug: "littelfuse-215-fast-acting-glass-fuse",
+    categoryKey: "electrical-components",
+    subcategoryKey: "circuit-breakers-fuses",
+    typeKey: "glass-fuses",
+    image: "fuse",
+    translationKeys: {
+      title: "products-data:littelfuse215.title",
+      description: "products-data:littelfuse215.description",
+      featuresKey: "products-data:littelfuse215.features",
+    },
+    specs: {
+      manufacturer: "Littelfuse",
+      series: "215",
+      type: "Fast-Acting Glass Fuse",
+      current: "0.1-20A",
+      voltage: "250V",
+      size: "5x20mm",
+      breakingCapacity: "35A at 250V",
+      standard: "IEC 60127-2",
+    },
+  },
+
+  // NON-FUSE TERMINAL BLOCK ISOLATORS
+  {
+    id: "wago-281-knife-disconnect-terminal",
+    slug: "wago-281-series-disconnect-terminal",
+    categoryKey: "electrical-components",
+    subcategoryKey: "connectors-terminals",
+    typeKey: "non-fuse-terminal-block-isolators",
+    image: "terminal-block",
+    translationKeys: {
+      title: "products-data:wago281Disconnect.title",
+      description: "products-data:wago281Disconnect.description",
+      featuresKey: "products-data:wago281Disconnect.features",
+    },
+    specs: {
+      manufacturer: "WAGO",
+      series: "281",
+      type: "Disconnect Terminal Block",
+      current: "24A",
+      voltage: "400V",
+      connection: "Push-in CAGE CLAMP",
+      testPoint: "Integrated",
+      width: "5mm",
+      mounting: "DIN 35mm",
+    },
+  },
+
+  // MOTOR TERMINAL BLOCKS
+  {
+    id: "weidmuller-sak-motor-terminal",
+    slug: "weidmuller-sak-35-motor-connection-terminal",
+    categoryKey: "electrical-components",
+    subcategoryKey: "connectors-terminals",
+    typeKey: "motor-terminal-blocks",
+    image: "terminal-block",
+    translationKeys: {
+      title: "products-data:weidmullerSakMotor.title",
+      description: "products-data:weidmullerSakMotor.description",
+      featuresKey: "products-data:weidmullerSakMotor.features",
+    },
+    specs: {
+      manufacturer: "Weidmüller",
+      series: "SAK 35",
+      currentRating: "150A",
+      voltage: "1000V",
+      wireSize: "1.5-35 sq mm",
+      poles: "3-pole",
+      width: "52.5mm",
+      mounting: "DIN 35mm rail",
+    },
+  },
+
+  // RELAY BOARDS
+  {
+    id: "omron-g2r-relay-board-8ch",
+    slug: "omron-g2r-8-channel-relay-module",
+    categoryKey: "automation-controls",
+    subcategoryKey: "relays-timers",
+    typeKey: "relay-boards",
+    image: "relay-board",
+    translationKeys: {
+      title: "products-data:omronG2rBoard.title",
+      description: "products-data:omronG2rBoard.description",
+      featuresKey: "products-data:omronG2rBoard.features",
+    },
+    specs: {
+      manufacturer: "Omron",
+      model: "G2R",
+      channels: "8 relay",
+      coilVoltage: "12V DC/24V DC",
+      contactRating: "5A 250V AC",
+      contactType: "SPDT",
+      input: "Opto-isolated",
+      mounting: "DIN rail",
+    },
+  },
+
+  // EQUIPMENT GROUNDING
+  {
+    id: "erico-cadweld-grounding-system",
+    slug: "erico-cadweld-exothermic-ground-connection",
+    categoryKey: "electrical-components",
+    subcategoryKey: "grounding-protection",
+    typeKey: "equipment-grounding",
+    image: "grounding-equipment",
+    translationKeys: {
+      title: "products-data:ericoCadweld.title",
+      description: "products-data:ericoCadweld.description",
+      featuresKey: "products-data:ericoCadweld.features",
+    },
+    specs: {
+      manufacturer: "nVent ERICO",
+      type: "Exothermic Welding System",
+      method: "CADWELD",
+      application: "Permanent ground connections",
+      conductors: "Copper to copper/steel",
+      lifespan: "Permanent molecular bond",
+      standard: "IEEE 837",
+    },
+  },
+
+  // SYSTEM GROUNDING
+  {
+    id: "abb-neutral-grounding-resistor",
+    slug: "abb-ngr-neutral-grounding-resistor",
+    categoryKey: "electrical-components",
+    subcategoryKey: "grounding-protection",
+    typeKey: "system-grounding",
+    image: "grounding-resistor",
+    translationKeys: {
+      title: "products-data:abbNgr.title",
+      description: "products-data:abbNgr.description",
+      featuresKey: "products-data:abbNgr.features",
+    },
+    specs: {
+      manufacturer: "ABB",
+      type: "Neutral Grounding Resistor (NGR)",
+      voltage: "Up to 36 kV",
+      resistance: "Custom designed",
+      duration: "10s-continuous",
+      cooling: "Natural/Forced air",
+      application: "System neutral grounding",
+    },
+  },
+
+  // INSULATORS
+  {
+    id: "ngk-polymer-pin-insulator",
+    slug: "ngk-polymer-composite-pin-insulator",
+    categoryKey: "electrical-components",
+    subcategoryKey: "grounding-protection",
+    typeKey: "insulators",
+    image: "insulator",
+    translationKeys: {
+      title: "products-data:ngkPolymerPin.title",
+      description: "products-data:ngkPolymerPin.description",
+      featuresKey: "products-data:ngkPolymerPin.features",
+    },
+    specs: {
+      manufacturer: "NGK",
+      type: "Polymer Pin Insulator",
+      voltage: "11-33 kV",
+      material: "Silicone rubber",
+      core: "Fiberglass rod",
+      creepage: "High tracking resistance",
+      weight: "Lightweight vs porcelain",
+      application: "Distribution lines",
+    },
+  },
+
+  // INTRINSICALLY SAFE BARRIERS
+  {
+    id: "pepperl-fuchs-kfd2-is-barrier",
+    slug: "pepperl-fuchs-kfd2-intrinsic-safety-barrier",
+    categoryKey: "instrumentation-accessories",
+    subcategoryKey: "safety-devices",
+    typeKey: "intrinsically-safe-barriers",
+    image: "safety-barrier",
+    translationKeys: {
+      title: "products-data:pepperlKfd2.title",
+      description: "products-data:pepperlKfd2.description",
+      featuresKey: "products-data:pepperlKfd2.features",
+    },
+    specs: {
+      manufacturer: "Pepperl+Fuchs",
+      series: "KFD2",
+      type: "IS Barrier",
+      channels: "Single/Dual",
+      signal: "4-20mA, HART",
+      certification: "ATEX, IECEx, FM",
+      mounting: "DIN rail",
+      galvanic: "Isolated",
+    },
+  },
+
+  // SAFETY BARRIERS
+  {
+    id: "mtl-7700-safety-barrier",
+    slug: "mtl-7700-series-zener-barrier",
+    categoryKey: "instrumentation-accessories",
+    subcategoryKey: "safety-devices",
+    typeKey: "safety-barriers",
+    image: "safety-barrier",
+    translationKeys: {
+      title: "products-data:mtl7700.title",
+      description: "products-data:mtl7700.description",
+      featuresKey: "products-data:mtl7700.features",
+    },
+    specs: {
+      manufacturer: "MTL (Eaton)",
+      series: "7700+",
+      type: "Zener Barrier",
+      protection: "Short circuit, overvoltage",
+      signal: "Analog/Digital",
+      certification: "FM, CSA, ATEX",
+      mounting: "DIN rail backplane",
+      terminals: "Spring clamp",
+    },
+  },
+
+  // IS FIELD DEVICES
+  {
+    id: "turck-nb-series-is-namur-sensor",
+    slug: "turck-nb-intrinsically-safe-proximity-sensor",
+    categoryKey: "instrumentation-accessories",
+    subcategoryKey: "safety-devices",
+    typeKey: "is-field-devices",
+    image: "is-sensor",
+    translationKeys: {
+      title: "products-data:turckNbIs.title",
+      description: "products-data:turckNbIs.description",
+      featuresKey: "products-data:turckNbIs.features",
+    },
+    specs: {
+      manufacturer: "Turck",
+      series: "NB",
+      type: "IS Inductive Sensor",
+      output: "NAMUR",
+      certification: "ATEX Zone 0",
+      sensing: "4mm",
+      temperature: "-40 to +85°C",
+      housing: "M12 x 1 nickel-plated brass",
+    },
+  },
+
+  // EXPLOSION PROOF EQUIPMENT
+  {
+    id: "appleton-explosion-proof-junction-box",
+    slug: "appleton-grss-explosion-proof-enclosure",
+    categoryKey: "electrical-components",
+    subcategoryKey: "enclosures-cabinets",
+    typeKey: "explosion-proof-equipment",
+    image: "explosion-proof-box",
+    translationKeys: {
+      title: "products-data:appletonGrss.title",
+      description: "products-data:appletonGrss.description",
+      featuresKey: "products-data:appletonGrss.features",
+    },
+    specs: {
+      manufacturer: "Appleton (Emerson)",
+      series: "GRSS",
+      type: "Explosion-Proof Junction Box",
+      rating: "Class I Div 1 & 2",
+      material: "Copper-free aluminum",
+      entries: "Multiple hub options",
+      finish: "Epoxy powder coat",
+      certification: "UL, CSA, IECEx",
+    },
+  },
+
+  // EMERGENCY EQUIPMENT
+  {
+    id: "philips-emergency-exit-light",
+    slug: "philips-chloride-emergency-exit-lighting",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "emergency-equipment",
+    image: "emergency-light",
+    translationKeys: {
+      title: "products-data:philipsEmergencyExit.title",
+      description: "products-data:philipsEmergencyExit.description",
+      featuresKey: "products-data:philipsEmergencyExit.features",
+    },
+    specs: {
+      manufacturer: "Philips (Signify)",
+      series: "Chloride",
+      type: "Emergency Exit Light",
+      battery: "NiCd/LiFePO4",
+      duration: "3 hours",
+      lamp: "LED",
+      mounting: "Wall/Ceiling",
+      standard: "IS 2062",
+    },
+  },
+
+  // DIODE UNITS
+  {
+    id: "semikron-power-diode-module",
+    slug: "semikron-skkd-bridge-rectifier-module",
+    categoryKey: "electrical-components",
+    subcategoryKey: "power-supplies",
+    typeKey: "diode-units",
+    image: "dc-dc-converter",
+    translationKeys: {
+      title: "products-data:semikronSkkd.title",
+      description: "products-data:semikronSkkd.description",
+      featuresKey: "products-data:semikronSkkd.features",
+    },
+    specs: {
+      manufacturer: "Semikron",
+      series: "SKKD",
+      type: "Three-Phase Bridge Rectifier",
+      current: "26-260A",
+      voltage: "800-1600V",
+      package: "Module",
+      mounting: "Screw/Spring",
+      application: "AC-DC conversion",
+    },
+  },
+
+  // DOL STARTER
+  {
+    id: "siemens-3ra6-dol-starter",
+    slug: "siemens-3ra6-direct-online-motor-starter",
+    categoryKey: "automation-controls",
+    subcategoryKey: "motor-controls",
+    typeKey: "dol-starter",
+    image: "motor-starter",
+    translationKeys: {
+      title: "products-data:siemens3ra6Dol.title",
+      description: "products-data:siemens3ra6Dol.description",
+      featuresKey: "products-data:siemens3ra6Dol.features",
+    },
+    specs: {
+      manufacturer: "Siemens",
+      series: "3RA6",
+      type: "DOL Motor Starter",
+      power: "0.55-11 kW at 400V",
+      voltage: "24-690V AC",
+      protection: "Overload, short circuit",
+      enclosure: "IP20/IP55",
+      mounting: "DIN rail/Panel",
+    },
+  },
+
+  // DCS CONTROLLERS
+  {
+    id: "yokogawa-stardom-fcn-rtu",
+    slug: "yokogawa-stardom-fcn-autonomous-controller",
+    categoryKey: "automation-controls",
+    subcategoryKey: "dcs-systems",
+    typeKey: "dcs-controllers",
+    image: "dcs-controller",
+    translationKeys: {
+      title: "products-data:yokogawaStardom.title",
+      description: "products-data:yokogawaStardom.description",
+      featuresKey: "products-data:yokogawaStardom.features",
+    },
+    specs: {
+      manufacturer: "Yokogawa",
+      series: "STARDOM FCN",
+      type: "Autonomous Controller",
+      io: "Modular I/O up to 1024 points",
+      cpu: "Dual redundant option",
+      protocols: "OPC UA, Modbus, HART",
+      programming: "IEC 61131-3",
+      power: "24V DC redundant",
+    },
+  },
+
+  // DCS ENGINEERING STATIONS
+  {
+    id: "abb-system-800xa-engineering-station",
+    slug: "abb-800xa-engineering-workstation",
+    categoryKey: "automation-controls",
+    subcategoryKey: "dcs-systems",
+    typeKey: "dcs-engineering-stations",
+    image: "engineering-workstation",
+    translationKeys: {
+      title: "products-data:abb800xaEng.title",
+      description: "products-data:abb800xaEng.description",
+      featuresKey: "products-data:abb800xaEng.features",
+    },
+    specs: {
+      manufacturer: "ABB",
+      system: "System 800xA",
+      type: "Engineering Station",
+      processor: "Intel Xeon",
+      ram: "32-64 GB",
+      storage: "SSD 512GB+",
+      os: "Windows Server",
+      software: "Control Builder, Asset Optimization",
+    },
+  },
+
+  // DCS OPERATOR STATIONS
+  {
+    id: "honeywell-experion-operator-station",
+    slug: "honeywell-experion-pks-operator-console",
+    categoryKey: "automation-controls",
+    subcategoryKey: "dcs-systems",
+    typeKey: "dcs-operator-stations",
+    image: "operator-station",
+    translationKeys: {
+      title: "products-data:honeywellExperionOp.title",
+      description: "products-data:honeywellExperionOp.description",
+      featuresKey: "products-data:honeywellExperionOp.features",
+    },
+    specs: {
+      manufacturer: "Honeywell",
+      system: "Experion PKS",
+      type: "Operator Station",
+      displays: "Dual monitor support",
+      processor: "Intel Core i7",
+      ram: "16-32 GB",
+      os: "Windows 10 IoT",
+      software: "Experion HMIWeb Display",
+    },
+  },
+
+  // I/O CARDS
+  {
+    id: "allen-bradley-1769-iq16-input-card",
+    slug: "allen-bradley-1769-iq16-dc-input-module",
+    categoryKey: "automation-controls",
+    subcategoryKey: "plc-systems",
+    typeKey: "io-cards",
+    image: "io-module",
+    translationKeys: {
+      title: "products-data:ab1769Iq16.title",
+      description: "products-data:ab1769Iq16.description",
+      featuresKey: "products-data:ab1769Iq16.features",
+    },
+    specs: {
+      manufacturer: "Allen-Bradley (Rockwell)",
+      series: "1769 CompactLogix",
+      model: "1769-IQ16",
+      type: "DC Input Module",
+      points: "16 inputs",
+      voltage: "10-31V DC",
+      current: "7mA per point",
+      isolation: "Channel-to-channel",
+    },
+  },
+
+  // MOBILE HMIS
+  {
+    id: "siemens-simatic-mobile-panel-277f",
+    slug: "siemens-mobile-panel-277f-iwlan",
+    categoryKey: "automation-controls",
+    subcategoryKey: "hmi-scada",
+    typeKey: "mobile-hmis",
+    image: "mobile-hmi",
+    translationKeys: {
+      title: "products-data:siemensMobile277f.title",
+      description: "products-data:siemensMobile277f.description",
+      featuresKey: "products-data:siemensMobile277f.features",
+    },
+    specs: {
+      manufacturer: "Siemens",
+      series: "SIMATIC Mobile Panel 277F IWLAN",
+      display: '10.4" TFT',
+      resolution: "640x480",
+      communication: "WLAN IEEE 802.11",
+      safety: "Fail-safe",
+      battery: "Rechargeable",
+      rating: "IP65 front",
+    },
+  },
+
+  // PANEL MOUNT HMIS
+  {
+    id: "schneider-harmony-gto-advanced-hmi",
+    slug: "schneider-harmony-gto-panel-hmi",
+    categoryKey: "automation-controls",
+    subcategoryKey: "hmi-scada",
+    typeKey: "panel-mount-hmis",
+    image: "panel-hmi",
+    translationKeys: {
+      title: "products-data:schneiderGtoHmi.title",
+      description: "products-data:schneiderGtoHmi.description",
+      featuresKey: "products-data:schneiderGtoHmi.features",
+    },
+    specs: {
+      manufacturer: "Schneider Electric",
+      series: "Harmony GTO Advanced",
+      display: '7"-15" touchscreen',
+      resolution: "Up to 1280x800",
+      memory: "128MB-1GB",
+      communication: "Ethernet, serial, USB",
+      software: "Vijeo Designer",
+      mounting: "Panel cutout",
+    },
+  },
+
+  // SCADA GATEWAYS
+  {
+    id: "kepware-kepserverex-gateway",
+    slug: "kepware-kepserverex-connectivity-platform",
+    categoryKey: "automation-controls",
+    subcategoryKey: "hmi-scada",
+    typeKey: "scada-gateways",
+    image: "scada-gateway",
+    translationKeys: {
+      title: "products-data:kepwareKepserver.title",
+      description: "products-data:kepwareKepserver.description",
+      featuresKey: "products-data:kepwareKepserver.features",
+    },
+    specs: {
+      manufacturer: "Kepware (PTC)",
+      product: "KEPServerEX",
+      type: "OPC/SCADA Gateway",
+      drivers: "150+ protocol drivers",
+      connectivity: "OPC UA, DA, Modbus, EtherNet/IP",
+      clients: "Unlimited",
+      os: "Windows Server",
+      licensing: "Per channel/driver",
+    },
+  },
+
+  // SCADA HARDWARE
+  {
+    id: "dell-edge-gateway-5200-scada",
+    slug: "dell-edge-gateway-5200-industrial-pc",
+    categoryKey: "automation-controls",
+    subcategoryKey: "hmi-scada",
+    typeKey: "scada-hardware",
+    image: "industrial-pc",
+    translationKeys: {
+      title: "products-data:dellEdge5200.title",
+      description: "products-data:dellEdge5200.description",
+      featuresKey: "products-data:dellEdge5200.features",
+    },
+    specs: {
+      manufacturer: "Dell",
+      model: "Edge Gateway 5200",
+      processor: "Intel Atom/Core",
+      ram: "4-16 GB",
+      storage: "128GB SSD",
+      io: "Serial, USB, Ethernet",
+      operating: "-40°C to +70°C",
+      mounting: "DIN rail/Wall",
+    },
+  },
+
+  // SCADA SOFTWARE
+  {
+    id: "aveva-wonderware-intouch-scada",
+    slug: "aveva-wonderware-intouch-scada-software",
+    categoryKey: "automation-controls",
+    subcategoryKey: "hmi-scada",
+    typeKey: "scada-software",
+    image: "scada-software",
+    translationKeys: {
+      title: "products-data:wonderwareIntouch.title",
+      description: "products-data:wonderwareIntouch.description",
+      featuresKey: "products-data:wonderwareIntouch.features",
+    },
+    specs: {
+      manufacturer: "AVEVA (Wonderware)",
+      product: "InTouch HMI",
+      type: "SCADA Visualization",
+      tags: "64-65,000 tags",
+      graphics: "ArchestrA",
+      connectivity: "OPC, DDE, SuiteLink",
+      redundancy: "Built-in",
+      licensing: "Tag-based",
+    },
+  },
+
+  // POTENTIAL TRANSFORMERS
+  {
+    id: "abb-vt-metering-voltage-transformer",
+    slug: "abb-vt-indoor-potential-transformer",
+    categoryKey: "electrical-components",
+    subcategoryKey: "instrument-transformer",
+    typeKey: "potential-transformers",
+    image: "voltage-transformer",
+    translationKeys: {
+      title: "products-data:abbVtPotential.title",
+      description: "products-data:abbVtPotential.description",
+      featuresKey: "products-data:abbVtPotential.features",
+    },
+    specs: {
+      manufacturer: "ABB",
+      type: "Voltage Transformer (VT/PT)",
+      primary: "3.3-36 kV",
+      secondary: "110V/√3",
+      accuracy: "Class 0.5-3P",
+      burden: "15-200 VA",
+      insulation: "Resin cast",
+      application: "Metering & protection",
+    },
+  },
+
+  // IMPELLERS & CASINGS
+  {
+    id: "ksb-spare-impeller-etanorm",
+    slug: "ksb-etanorm-replacement-impeller",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "impellers-casings",
+    image: "pump-impeller",
+    translationKeys: {
+      title: "products-data:ksbImpellerEtanorm.title",
+      description: "products-data:ksbImpellerEtanorm.description",
+      featuresKey: "products-data:ksbImpellerEtanorm.features",
+    },
+    specs: {
+      manufacturer: "KSB",
+      series: "Etanorm",
+      type: "Pump Impeller",
+      material: "Cast iron/Bronze/SS316",
+      sizes: "32-350mm",
+      design: "Closed/Semi-open",
+      balancing: "Dynamically balanced",
+      application: "Centrifugal pump spares",
+    },
+  },
+
+  // SEALS & GASKETS
+  {
+    id: "john-crane-type-1-mechanical-seal",
+    slug: "john-crane-type-1-pump-mechanical-seal",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "pumps",
+    typeKey: "seals-gaskets",
+    image: "mechanical-seal",
+    translationKeys: {
+      title: "products-data:johnCraneType1.title",
+      description: "products-data:johnCraneType1.description",
+      featuresKey: "products-data:johnCraneType1.features",
+    },
+    specs: {
+      manufacturer: "John Crane",
+      model: "Type 1",
+      type: "Single Mechanical Seal",
+      faces: "Carbon vs Ceramic",
+      temperature: "-40°C to +200°C",
+      pressure: "Up to 20 bar",
+      shaftSize: "10-100mm",
+      application: "Clean water, oils",
+    },
+  },
+
+  // BEARINGS & COUPLINGS
+  {
+    id: "skf-deep-groove-ball-bearing",
+    slug: "skf-6000-series-ball-bearing",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "motors-drives",
+    typeKey: "bearings-couplings",
+    image: "bearing",
+    translationKeys: {
+      title: "products-data:skf6000Bearing.title",
+      description: "products-data:skf6000Bearing.description",
+      featuresKey: "products-data:skf6000Bearing.features",
+    },
+    specs: {
+      manufacturer: "SKF",
+      series: "6000",
+      type: "Deep Groove Ball Bearing",
+      bore: "10-110mm",
+      speed: "High speed capability",
+      load: "Radial & limited axial",
+      lubrication: "Grease/Oil",
+      seals: "Open/Shielded/Sealed",
+    },
+  },
+
+  // JIB CRANES
+  {
+    id: "konecranes-jib-crane-clx",
+    slug: "konecranes-clx-chain-hoist-jib-crane",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "material-handling",
+    typeKey: "jib-cranes",
+    image: "jib-crane",
+    translationKeys: {
+      title: "products-data:konecranesJibClx.title",
+      description: "products-data:konecranesJibClx.description",
+      featuresKey: "products-data:konecranesJibClx.features",
+    },
+    specs: {
+      manufacturer: "Konecranes",
+      series: "CLX",
+      type: "Pillar Jib Crane",
+      capacity: "125kg-5000kg",
+      reach: "Up to 7m",
+      rotation: "360°/180°",
+      hoist: "Electric chain",
+      mounting: "Floor/Wall",
+    },
+  },
+
+  // WIRE ROPE HOISTS
+  {
+    id: "demag-dc-pro-wire-rope-hoist",
+    slug: "demag-dc-pro-electric-wire-rope-hoist",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "material-handling",
+    typeKey: "wire-rope-hoists",
+    image: "wire-hoist",
+    translationKeys: {
+      title: "products-data:demagDcProHoist.title",
+      description: "products-data:demagDcProHoist.description",
+      featuresKey: "products-data:demagDcProHoist.features",
+    },
+    specs: {
+      manufacturer: "Demag (Konecranes)",
+      series: "DC-Pro",
+      capacity: "1.6-80 tons",
+      liftHeight: "Up to 100m",
+      speed: "Variable frequency drive",
+      rope: "6-strand steel wire",
+      duty: "M5-M8",
+      control: "Radio/Pendant",
+    },
+  },
+
+  // DRILL BITS
+  {
+    id: "bosch-hss-g-metal-drill-bits",
+    slug: "bosch-hss-g-ground-drill-bit-set",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "tools-equipment",
+    typeKey: "drill-bits",
+    image: "drill-bit",
+    translationKeys: {
+      title: "products-data:boschHssGDrill.title",
+      description: "products-data:boschHssGDrill.description",
+      featuresKey: "products-data:boschHssGDrill.features",
+    },
+    specs: {
+      manufacturer: "Bosch",
+      series: "HSS-G",
+      type: "Metal Drill Bits",
+      material: "High-Speed Steel ground",
+      sizes: "1-13mm",
+      point: "118° split point",
+      finish: "Bright",
+      application: "Steel, iron, non-ferrous metals",
+    },
+  },
+
+  // CUTTING BLADES
+  {
+    id: "dewalt-metal-cutting-saw-blade",
+    slug: "dewalt-dt1926-metal-cutting-circular-blade",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "tools-equipment",
+    typeKey: "cutting-blades",
+    image: "cutting-blade",
+    translationKeys: {
+      title: "products-data:dewaltDt1926Blade.title",
+      description: "products-data:dewaltDt1926Blade.description",
+      featuresKey: "products-data:dewaltDt1926Blade.features",
+    },
+    specs: {
+      manufacturer: "DeWalt",
+      model: "DT1926",
+      type: "Metal Cutting Saw Blade",
+      diameter: "355mm",
+      bore: "25.4mm",
+      teeth: "90T TCG",
+      material: "Carbide-tipped",
+      application: "Steel, aluminum",
+    },
+  },
+
+  // MILLING CUTTERS
+  {
+    id: "sandvik-r390-face-mill-cutter",
+    slug: "sandvik-coromant-r390-face-milling-cutter",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "tools-equipment",
+    typeKey: "milling-cutters",
+    image: "milling-cutter",
+    translationKeys: {
+      title: "products-data:sandvikR390Mill.title",
+      description: "products-data:sandvikR390Mill.description",
+      featuresKey: "products-data:sandvikR390Mill.features",
+    },
+    specs: {
+      manufacturer: "Sandvik Coromant",
+      series: "R390",
+      type: "Face Milling Cutter",
+      diameter: "50-250mm",
+      inserts: "Square/Round",
+      coating: "TiAlN",
+      application: "Steel, cast iron, stainless",
+      coolant: "Through-tool",
+    },
+  },
+
+  // IMPACT DRIVERS
+  {
+    id: "milwaukee-m18-fuel-impact-driver",
+    slug: "milwaukee-2853-20-m18-brushless-impact",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "tools-equipment",
+    typeKey: "impact-drivers",
+    image: "impact-driver",
+    translationKeys: {
+      title: "products-data:milwaukee2853Impact.title",
+      description: "products-data:milwaukee2853Impact.description",
+      featuresKey: "products-data:milwaukee2853Impact.features",
+    },
+    specs: {
+      manufacturer: "Milwaukee",
+      model: "2853-20 M18 FUEL",
+      type: "Cordless Impact Driver",
+      torque: "250 Nm",
+      speed: "0-3,600 RPM",
+      impacts: "0-4,000 IPM",
+      battery: "18V Li-ion",
+      chuck: "1/4\" hex",
+    },
+  },
+
+  // MECHANICAL TOOLS
+  {
+    id: "gedore-socket-set-metric",
+    slug: "gedore-1-2-drive-socket-wrench-set",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "tools-equipment",
+    typeKey: "mechanical-tools",
+    image: "socket-set",
+    translationKeys: {
+      title: "products-data:gedoreSocketSet.title",
+      description: "products-data:gedoreSocketSet.description",
+      featuresKey: "products-data:gedoreSocketSet.features",
+    },
+    specs: {
+      manufacturer: "GEDORE",
+      type: "Socket Set 1/2\" Drive",
+      pieces: "46 pieces",
+      sizes: "10-32mm",
+      material: "Chrome vanadium steel",
+      finish: "Chrome plated",
+      standard: "DIN 3120",
+      case: "Metal tool box",
+    },
+  },
+
+  // ELECTRICAL TOOLS
+  {
+    id: "klein-electrician-tool-kit",
+    slug: "klein-tools-33526-electrician-set",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "tools-equipment",
+    typeKey: "electrical-tools",
+    image: "electrician-tools",
+    translationKeys: {
+      title: "products-data:kleinElectricianKit.title",
+      description: "products-data:kleinElectricianKit.description",
+      featuresKey: "products-data:kleinElectricianKit.features",
+    },
+    specs: {
+      manufacturer: "Klein Tools",
+      model: "33526",
+      type: "Electrician Tool Kit",
+      pieces: "12 tools",
+      includes: "Pliers, cutters, strippers, drivers",
+      handles: "Cushion-grip",
+      voltage: "1000V rated",
+      bag: "Canvas tool bag",
+    },
+  },
+
+  // PRECISION TOOLS
+  {
+    id: "mitutoyo-digital-caliper-500-196",
+    slug: "mitutoyo-500-196-30-absolute-digimatic-caliper",
+    categoryKey: "industrial-equipment",
+    subcategoryKey: "tools-equipment",
+    typeKey: "precision-tools",
+    image: "digital-caliper",
+    translationKeys: {
+      title: "products-data:mitutoyo500196.title",
+      description: "products-data:mitutoyo500196.description",
+      featuresKey: "products-data:mitutoyo500196.features",
+    },
+    specs: {
+      manufacturer: "Mitutoyo",
+      model: "500-196-30",
+      type: "Absolute Digimatic Caliper",
+      range: "0-150mm (0-6\")",
+      resolution: "0.01mm",
+      accuracy: "±0.02mm",
+      display: "LCD",
+      battery: "SR44",
+      output: "SPC data",
+    },
+  },
+
+  // TEST EQUIPMENT
+  {
+    id: "fluke-87v-digital-multimeter",
+    slug: "fluke-87v-industrial-multimeter",
+    categoryKey: "electrical-components",
+    subcategoryKey: "test-equipment",
+    typeKey: "test-equipment",
+    image: "multimeter",
+    translationKeys: {
+      title: "products-data:fluke87v.title",
+      description: "products-data:fluke87v.description",
+      featuresKey: "products-data:fluke87v.features",
+    },
+    specs: {
+      manufacturer: "Fluke",
+      model: "87V",
+      type: "Industrial Digital Multimeter",
+      voltage: "1000V AC/DC",
+      current: "10A",
+      resistance: "50 MΩ",
+      frequency: "200 kHz",
+      accuracy: "0.05% basic VDC",
+      safety: "CAT IV 600V, CAT III 1000V",
+    },
+  },
+
+  // PEDESTAL FAN MOTORS
+  {
+    id: "crompton-greaves-pedestal-fan-motor",
+    slug: "crompton-400mm-pedestal-fan-bldc-motor",
+    categoryKey: "electrical-components",
+    subcategoryKey: "bldc-table-fan-wall-fan-motor",
+    typeKey: "pedestal-fan-motors",
+    image: "bldc-pedestal-fan-motor",
+    translationKeys: {
+      title: "products-data:cromptonPedestalMotor.title",
+      description: "products-data:cromptonPedestalMotor.description",
+      featuresKey: "products-data:cromptonPedestalMotor.features",
+    },
+    specs: {
+      manufacturer: "Crompton Greaves",
+      type: "BLDC Pedestal Fan Motor",
+      power: "55W",
+      voltage: "220-240V AC",
+      speed: "1350 RPM",
+      efficiency: "78%",
+      size: "400mm sweep",
+      mounting: "Pedestal base",
+    },
+  },
+
+  // TABLE FAN MOTORS
+  {
+    id: "orient-table-fan-bldc-motor",
+    slug: "orient-300mm-table-fan-motor",
+    categoryKey: "electrical-components",
+    subcategoryKey: "bldc-table-fan-wall-fan-motor",
+    typeKey: "table-fan-motors",
+    image: "bldc-table-fan-motor",
+    translationKeys: {
+      title: "products-data:orientTableMotor.title",
+      description: "products-data:orientTableMotor.description",
+      featuresKey: "products-data:orientTableMotor.features",
+    },
+    specs: {
+      manufacturer: "Orient Electric",
+      type: "BLDC Table Fan Motor",
+      power: "28W",
+      voltage: "220-240V AC",
+      speed: "1400 RPM",
+      efficiency: "75%",
+      size: "300mm sweep",
+      control: "Remote control capable",
+    },
+  },
+
+  // WALL FAN MOTORS
+  {
+    id: "usha-wall-fan-bldc-motor",
+    slug: "usha-400mm-wall-mount-fan-motor",
+    categoryKey: "electrical-components",
+    subcategoryKey: "bldc-table-fan-wall-fan-motor",
+    typeKey: "wall-fan-motors",
+    image: "bldc-wall-fan-motor",
+    translationKeys: {
+      title: "products-data:ushaWallMotor.title",
+      description: "products-data:ushaWallMotor.description",
+      featuresKey: "products-data:ushaWallMotor.features",
+    },
+    specs: {
+      manufacturer: "Usha",
+      type: "BLDC Wall Fan Motor",
+      power: "50W",
+      voltage: "220-240V AC",
+      speed: "1300 RPM",
+      efficiency: "76%",
+      size: "400mm sweep",
+      mounting: "Wall bracket",
+    },
+  },
+
+  // FLOOD LIGHTS FLAMEPROOF
+  {
+    id: "bajaj-flameproof-led-floodlight",
+    slug: "bajaj-flameproof-zone-1-led-flood-light",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "flood-lights-flameproof",
+    image: "flood-light-flameproof",
+    translationKeys: {
+      title: "products-data:bajajFloodFlameproof.title",
+      description: "products-data:bajajFloodFlameproof.description",
+      featuresKey: "products-data:bajajFloodFlameproof.features",
+    },
+    specs: {
+      manufacturer: "Bajaj Electricals",
+      type: "Flameproof LED Floodlight",
+      power: "50-150W",
+      lumens: "6000-18000 lm",
+      rating: "Ex d IIC T6",
+      zone: "Zone 1 & 2",
+      ip: "IP66",
+      material: "Aluminum LM6",
+    },
+  },
+
+  // FLOOD LIGHTS WEATHERPROOF
+  {
+    id: "philips-bvp150-led-floodlight",
+    slug: "philips-bvp150-weatherproof-led-flood",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "flood-lights-weatherproof",
+    image: "flood-light-weatherproof",
+    translationKeys: {
+      title: "products-data:philipsBvp150Flood.title",
+      description: "products-data:philipsBvp150Flood.description",
+      featuresKey: "products-data:philipsBvp150Flood.features",
+    },
+    specs: {
+      manufacturer: "Philips (Signify)",
+      series: "BVP150",
+      power: "70-200W",
+      lumens: "8400-24000 lm",
+      cct: "4000K/5700K",
+      ip: "IP65",
+      lifespan: "50,000 hours",
+      mounting: "Bracket adjustable",
+    },
+  },
+
+  // HIGH BAY LIGHTS FLAMEPROOF
+  {
+    id: "crompton-flameproof-highbay-led",
+    slug: "crompton-exd-iic-flameproof-high-bay",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "high-bay-lights-flameproof",
+    image: "high-bay-flameproof",
+    translationKeys: {
+      title: "products-data:cromptonHighbayFlameproof.title",
+      description: "products-data:cromptonHighbayFlameproof.description",
+      featuresKey: "products-data:cromptonHighbayFlameproof.features",
+    },
+    specs: {
+      manufacturer: "Crompton Greaves",
+      type: "Flameproof LED High Bay",
+      power: "100-200W",
+      lumens: "13000-26000 lm",
+      rating: "Ex d IIC T6",
+      zone: "Zone 1 & 2",
+      ip: "IP66",
+      mounting: "Hook/Chain",
+    },
+  },
+
+  // HIGH BAY LIGHTS WEATHERPROOF
+  {
+    id: "osram-ledvance-highbay-value",
+    slug: "osram-ledvance-weatherproof-high-bay",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "high-bay-lights-weatherproof",
+    image: "high-bay-weatherproof",
+    translationKeys: {
+      title: "products-data:osramHighbayWeather.title",
+      description: "products-data:osramHighbayWeather.description",
+      featuresKey: "products-data:osramHighbayWeather.features",
+    },
+    specs: {
+      manufacturer: "OSRAM (LEDVANCE)",
+      series: "HIGHBAY VALUE",
+      power: "95-200W",
+      lumens: "13300-28000 lm",
+      cct: "4000K/5000K",
+      ip: "IP65",
+      lifespan: "50,000 hours",
+      dimming: "DALI optional",
+    },
+  },
+
+  // STREET LIGHTS FLAMEPROOF
+  {
+    id: "wipro-flameproof-street-light",
+    slug: "wipro-exd-iic-flameproof-street-light",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "street-lights-flameproof",
+    image: "street-light-flameproof",
+    translationKeys: {
+      title: "products-data:wiproStreetFlameproof.title",
+      description: "products-data:wiproStreetFlameproof.description",
+      featuresKey: "products-data:wiproStreetFlameproof.features",
+    },
+    specs: {
+      manufacturer: "Wipro Lighting",
+      type: "Flameproof LED Street Light",
+      power: "60-120W",
+      lumens: "7800-15600 lm",
+      rating: "Ex d IIC T6",
+      zone: "Zone 1 & 2",
+      ip: "IP66",
+      mounting: "Side-entry pole mount",
+    },
+  },
+
+  // STREET LIGHTS WEATHERPROOF
+  {
+    id: "syska-led-street-light-ssk",
+    slug: "syska-ssk-weatherproof-led-street-light",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "street-lights-weatherproof",
+    image: "street-light-weatherproof",
+    translationKeys: {
+      title: "products-data:syskaStreetWeather.title",
+      description: "products-data:syskaStreetWeather.description",
+      featuresKey: "products-data:syskaStreetWeather.features",
+    },
+    specs: {
+      manufacturer: "Syska",
+      series: "SSK",
+      power: "30-150W",
+      lumens: "3900-19500 lm",
+      cct: "5000K",
+      ip: "IP66",
+      lifespan: "50,000 hours",
+      driver: "Meanwell",
+    },
+  },
+
+  // VESSEL LIGHTS
+  {
+    id: "halonix-led-bulkhead-vessel-light",
+    slug: "halonix-marine-vessel-bulkhead-light",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "vessel-lights",
+    image: "vessel-light",
+    translationKeys: {
+      title: "products-data:halonixVessel.title",
+      description: "products-data:halonixVessel.description",
+      featuresKey: "products-data:halonixVessel.features",
+    },
+    specs: {
+      manufacturer: "Halonix",
+      type: "LED Vessel/Bulkhead Light",
+      power: "8-18W",
+      lumens: "800-1800 lm",
+      ip: "IP65",
+      material: "Die-cast aluminum",
+      mounting: "Surface/Ceiling",
+      application: "Marine, outdoor",
+    },
+  },
+
+  // VESSEL LIGHTS FLAMEPROOF
+  {
+    id: "bajaj-flameproof-vessel-bulkhead",
+    slug: "bajaj-exd-flameproof-vessel-light",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "vessel-lights-flameproof",
+    image: "vessel-light-flameproof",
+    translationKeys: {
+      title: "products-data:bajajVesselFlameproof.title",
+      description: "products-data:bajajVesselFlameproof.description",
+      featuresKey: "products-data:bajajVesselFlameproof.features",
+    },
+    specs: {
+      manufacturer: "Bajaj Electricals",
+      type: "Flameproof Vessel Light",
+      power: "18-36W LED",
+      rating: "Ex d IIC T6",
+      zone: "Zone 1 & 2",
+      ip: "IP66",
+      material: "LM6 aluminum",
+      glass: "Toughened",
+    },
+  },
+
+  // VESSEL LIGHTS WEATHERPROOF
+  {
+    id: "surya-weatherproof-bulkhead-light",
+    slug: "surya-ip65-weatherproof-vessel-light",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "vessel-lights-weatherproof",
+    image: "vessel-light-weatherproof",
+    translationKeys: {
+      title: "products-data:suryaVesselWeather.title",
+      description: "products-data:suryaVesselWeather.description",
+      featuresKey: "products-data:suryaVesselWeather.features",
+    },
+    specs: {
+      manufacturer: "Surya",
+      type: "Weatherproof Bulkhead Light",
+      power: "12-20W LED",
+      lumens: "1200-2000 lm",
+      ip: "IP65",
+      material: "Polycarbonate",
+      diffuser: "Opal PC",
+      mounting: "Wall/Ceiling",
+    },
+  },
+
+  // WELL GLASS LIGHTS
+  {
+    id: "polycab-well-glass-light-round",
+    slug: "polycab-led-well-glass-light",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "well-glass-lights",
+    image: "well-glass-light",
+    translationKeys: {
+      title: "products-data:polycabWellGlass.title",
+      description: "products-data:polycabWellGlass.description",
+      featuresKey: "products-data:polycabWellGlass.features",
+    },
+    specs: {
+      manufacturer: "Polycab",
+      type: "LED Well Glass Light",
+      power: "5-12W",
+      lumens: "500-1200 lm",
+      ip: "IP44",
+      material: "Die-cast aluminum",
+      glass: "Frosted glass",
+      mounting: "Surface ceiling",
+    },
+  },
+
+  // WELL GLASS LIGHTS FLAMEPROOF
+  {
+    id: "bajaj-flameproof-well-glass",
+    slug: "bajaj-exd-flameproof-well-glass-light",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "well-glass-lights-flameproof",
+    image: "well-glass-flameproof",
+    translationKeys: {
+      title: "products-data:bajajWellGlassFlameproof.title",
+      description: "products-data:bajajWellGlassFlameproof.description",
+      featuresKey: "products-data:bajajWellGlassFlameproof.features",
+    },
+    specs: {
+      manufacturer: "Bajaj Electricals",
+      type: "Flameproof Well Glass Light",
+      power: "18-36W LED",
+      rating: "Ex d IIC T6",
+      zone: "Zone 1 & 2",
+      ip: "IP66",
+      material: "Aluminum LM6",
+      glass: "Toughened borosilicate",
+    },
+  },
+
+  // WELL GLASS LIGHTS WEATHERPROOF
+  {
+    id: "havells-weatherproof-well-glass",
+    slug: "havells-ip54-weatherproof-well-glass",
+    categoryKey: "electrical-components",
+    subcategoryKey: "lighting",
+    typeKey: "well-glass-lights-weatherproof",
+    image: "well-glass-weatherproof",
+    translationKeys: {
+      title: "products-data:havellsWellGlassWeather.title",
+      description: "products-data:havellsWellGlassWeather.description",
+      featuresKey: "products-data:havellsWellGlassWeather.features",
+    },
+    specs: {
+      manufacturer: "Havells",
+      type: "Weatherproof Well Glass Light",
+      power: "7-15W LED",
+      lumens: "700-1500 lm",
+      ip: "IP54",
+      material: "Aluminum die-cast",
+      diffuser: "Polycarbonate",
+      warranty: "2 years",
+    },
+  },
+
+  // POWER OPTIMIZERS
+  {
+    id: "solaredge-p370-power-optimizer",
+    slug: "solaredge-p370-module-level-optimizer",
+    categoryKey: "solar-products",
+    subcategoryKey: "solar-inverters",
+    typeKey: "power-optimizers",
+    image: "power-optimizer",
+    translationKeys: {
+      title: "products-data:solaredgeP370.title",
+      description: "products-data:solaredgeP370.description",
+      featuresKey: "products-data:solaredgeP370.features",
+    },
+    specs: {
+      manufacturer: "SolarEdge",
+      model: "P370",
+      type: "Power Optimizer",
+      maxPower: "370W",
+      efficiency: "99.5%",
+      mppt: "Module-level MPPT",
+      voltage: "12.5-105V",
+      monitoring: "Module-level",
+      warranty: "25 years",
+    },
+  },
 ];
 
 // Category structure
