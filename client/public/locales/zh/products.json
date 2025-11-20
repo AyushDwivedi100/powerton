@@ -382,122 +382,6 @@
     }
   },
   "subcategories": {
-    "sensors": {
-      "title": "传感器与变送器",
-      "description": "用于测量和控制的工业传感器"
-    },
-    "transmitters": {
-      "title": "变送器与流量计",
-      "description": "过程变送器和信号转换设备"
-    },
-    "controllers": {
-      "title": "控制器与记录器",
-      "description": "工业控制系统和自动化控制器"
-    },
-    "switches": {
-      "title": "开关与指示器",
-      "description": "工业开关和控制设备"
-    },
-    "valves": {
-      "title": "阀门与执行器",
-      "description": "工业阀门和流量控制系统"
-    },
-    "analyzers": {
-      "title": "分析仪",
-      "description": "用于质量控制的过程分析仪"
-    },
-    "signal-conditioners": {
-      "title": "信号调理器",
-      "description": "信号处理和调理设备"
-    },
-    "electrical-cables": {
-      "title": "电气电缆",
-      "description": "用于电气系统的工业电力和控制电缆"
-    },
-    "instrumentation-cables": {
-      "title": "仪器仪表电缆",
-      "description": "用于过程控制和测量系统的精密电缆"
-    },
-    "connectors-terminals": {
-      "title": "连接器与端子",
-      "description": "电气连接器和端子解决方案"
-    },
-    "circuit-breakers-fuses": {
-      "title": "断路器与保险丝",
-      "description": "用于电路安全的电气保护设备"
-    },
-    "contactorsRelays": {
-      "title": "接触器与继电器",
-      "description": "用于电机控制的工业接触器和控制继电器"
-    },
-    "power-supplies": {
-      "title": "电源",
-      "description": "工业电源单元和转换器"
-    },
-    "enclosures-cabinets": {
-      "title": "外壳与机柜",
-      "description": "电气外壳和控制柜解决方案"
-    },
-    "heating-elements-appliances": {
-      "title": "加热元件与电器",
-      "description": "工业加热解决方案和热力设备"
-    },
-    "multimeters": {
-      "title": "万用表",
-      "description": "用于电气测试的数字和模拟万用表"
-    },
-    "power-quality-analyzers": {
-      "title": "电能质量分析仪",
-      "description": "电能质量测量与分析仪器"
-    },
-    "solar-batteries-energy-storage": {
-      "title": "太阳能电池与储能",
-      "description": "用于太阳能应用的电池储能系统"
-    },
-    "surge-protectors": {
-      "title": "浪涌保护器",
-      "description": "用于设备安全的电气浪涌保护设备"
-    },
-    "safety-relays-switches": {
-      "title": "安全继电器与开关",
-      "description": "用于工业安全的安全继电器和紧急停止开关"
-    },
-    "intrinsically-safe-equipment": {
-      "title": "本质安全设备",
-      "description": "用于危险区域的防爆和本质安全设备"
-    },
-    "centrifugal-pumps": {
-      "title": "离心泵",
-      "description": "用于流体传输的高效离心泵"
-    },
-    "diaphragm-pumps": {
-      "title": "隔膜泵",
-      "description": "用于化学应用的容积式隔膜泵"
-    },
-    "gear-pumps": {
-      "title": "齿轮泵",
-      "description": "用于粘性流体的精密齿轮泵"
-    },
-    "pump-parts-spares": {
-      "title": "泵零件与备件",
-      "description": "用于工业泵的更换零件和备用组件"
-    },
-    "hand-tools": {
-      "title": "手动工具",
-      "description": "用于工业维护和组装的专业手动工具"
-    },
-    "power-tools": {
-      "title": "电动工具",
-      "description": "用于重型应用的工业电动工具"
-    },
-    "cutting-tools": {
-      "title": "切削工具",
-      "description": "用于金属加工的精密切削工具和设备"
-    },
-    "lifting-equipment": {
-      "title": "起重设备",
-      "description": "用于物料搬运的起重机、起重机和起重设备"
-    },
     "sensors-transducers": {
       "title": "传感器与变送器",
       "description": "用于测量和控制的工业传感器和变送器"
@@ -513,6 +397,161 @@
     "valves-actuators": {
       "title": "阀门与执行器",
       "description": "工业阀门和流量控制系统"
+    },
+    "analyzers": {
+      "title": "分析仪",
+      "description": "用于质量控制的过程分析仪"
+    },
+    "instrument-transformers": {
+      "title": "仪表互感器",
+      "description": "用于测量和保护的电流互感器和电压互感器"
+    },
+    "instrumentation-cables": {
+      "title": "仪器仪表电缆",
+      "description": "用于过程控制和测量系统的精密电缆"
+    },
+    "electrical-cables": {
+      "title": "电气电缆",
+      "description": "用于电气系统的工业电力电缆和控制电缆"
+    },
+    "connectors-terminals": {
+      "title": "连接器与端子",
+      "description": "电气连接器和端子解决方案"
+    },
+    "circuit-breakers-fuses": {
+      "title": "断路器与保险丝",
+      "description": "用于电路安全的电气保护设备"
+    },
+    "power-supplies": {
+      "title": "电源",
+      "description": "工业电源单元和转换器"
+    },
+    "enclosures-cabinets": {
+      "title": "外壳与机柜",
+      "description": "电气外壳和控制柜解决方案"
+    },
+    "heating-elements-appliances": {
+      "title": "加热元件与电器",
+      "description": "工业加热解决方案和热力设备"
+    },
+    "contactors-relays": {
+      "title": "接触器与继电器",
+      "description": "用于电机控制的电力接触器和电磁继电器"
+    },
+    "transformers-power-devices": {
+      "title": "变压器与电源设备",
+      "description": "控制变压器和电源转换设备"
+    },
+    "industrial-lighting": {
+      "title": "工业照明",
+      "description": "全面的工业照明解决方案，包括标准型、防爆型和防风雨型路灯、高棚灯、船用灯、泛光灯和工矿灯"
+    },
+    "insulators-insulation-materials": {
+      "title": "绝缘子与绝缘材料",
+      "description": "用于电力系统和电气设备的高品质电气绝缘子和绝缘材料"
+    },
+    "solar-panels": {
+      "title": "太阳能电池板",
+      "description": "高效太阳能电池板和光伏系统"
+    },
+    "solar-inverters": {
+      "title": "太阳能逆变器",
+      "description": "用于住宅和商业应用的高效太阳能逆变器"
+    },
+    "plcs": {
+      "title": "PLC（可编程逻辑控制器）",
+      "description": "用于工业自动化的可编程逻辑控制器"
+    },
+    "scada": {
+      "title": "SCADA 系统",
+      "description": "监控与数据采集系统"
+    },
+    "dcs": {
+      "title": "DCS（分布式控制系统）",
+      "description": "用于过程自动化的分布式控制系统"
+    },
+    "hmi": {
+      "title": "HMI（人机界面）",
+      "description": "用于工业控制的人机界面系统"
+    },
+    "motor-controllers-drives": {
+      "title": "电机控制器与驱动器",
+      "description": "变频驱动器和电机控制解决方案"
+    },
+    "io-modules": {
+      "title": "I/O 模块",
+      "description": "用于 PLC 系统和工业自动化的输入/输出模块"
+    },
+    "surge-protectors": {
+      "title": "浪涌保护器",
+      "description": "用于设备安全的电气浪涌保护设备"
+    },
+    "grounding-systems": {
+      "title": "接地系统",
+      "description": "用于安全和设备保护的电气接地和接地系统",
+      "subtitle": "用于安全和设备保护的电气接地和接地系统",
+      "backButton": "返回安全与防护设备",
+      "badges": {
+        "groundRods": "接地棒",
+        "conductors": "导体",
+        "clampsLugs": "夹具与接线片",
+        "safetyGrounding": "安全接地"
+      },
+      "componentsSection": {
+        "title": "接地组件"
+      },
+      "products": {
+        "electrodes": {
+          "name": "接地电极",
+          "description": "用于电气安全的铜和钢接地棒",
+          "features": {
+            "copperBonded": "铜结合",
+            "steelCore": "钢芯",
+            "multipleLengths": "多种长度",
+            "ulListed": "UL 认证"
+          }
+        },
+        "conductors": {
+          "name": "接地导体",
+          "description": "用于接地系统的裸铜导体",
+          "features": {
+            "solidStranded": "实心/绞线",
+            "highConductivity": "高电导率",
+            "corrosionResistant": "耐腐蚀",
+            "multipleSizes": "多种尺寸"
+          }
+        },
+        "accessories": {
+          "name": "接地配件",
+          "description": "用于接地安装的夹具、接线片和配件",
+          "features": {
+            "groundClamps": "接地夹",
+            "compressionLugs": "压缩接线片",
+            "testWells": "测试井",
+            "bondsJumpers": "连接线与跳线"
+          }
+        }
+      },
+      "cta": {
+        "title": "需要接地解决方案吗？",
+        "description": "我们的接地专家可以为您的工厂设计安全且符合规范的接地系统。",
+        "contactButton": "联系接地专家",
+        "quoteButton": "询价"
+      },
+      "keyFeatures": "主要特点：",
+      "seo": {
+        "title": "接地系统 - 电气安全设备 | Powerton Engineering",
+        "description": "用于电气安全的专业接地和接地系统。来自领先制造商的铜接地棒、导体、夹具和配件。",
+        "keywords": "接地系统, 电气接地, 接地系统, 接地棒, 接地导体, 电气安全设备, 铜接地棒, 接地配件, 工业接地"
+      }
+    },
+    "safety-relays-switches": {
+      "title": "安全继电器与开关",
+      "description": "用于工业安全的安继电器和紧急停止开关"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "本质安全设备",
+      "description": "用于危险区域的防爆和本质安全设备"
     },
     "safety-equipment": {
       "title": "安全设备",
@@ -554,16 +593,68 @@
         "title": "需要安全设备吗？",
         "description": "我们的安全专家可以提供全面的安全解决方案来保护您的员工。",
         "contactExpertsCta": "联系安全专家",
-        "requestQuoteCta": "请求报价"
+        "requestQuoteCta": "询价"
       }
+    },
+    "protection-relays": {
+      "title": "保护继电器",
+      "description": "电机保护和电压监控继电器"
+    },
+    "centrifugal-pumps": {
+      "title": "离心泵",
+      "description": "用于流体输送的高效离心泵"
+    },
+    "diaphragm-pumps": {
+      "title": "隔膜泵",
+      "description": "用于化学应用的容积式隔膜泵"
+    },
+    "gear-pumps": {
+      "title": "齿轮泵",
+      "description": "用于粘性流体的精密齿轮泵"
+    },
+    "pump-parts-spares": {
+      "title": "泵零件与备件",
+      "description": "用于工业泵的更换零件和备用组件"
+    },
+    "hand-tools": {
+      "title": "手动工具",
+      "description": "用于工业维护和组装的专业手动工具"
+    },
+    "power-tools": {
+      "title": "电动工具",
+      "description": "用于重型应用的工业电动工具"
+    },
+    "cutting-tools": {
+      "title": "切削工具",
+      "description": "用于金属加工的精密切削工具和设备"
+    },
+    "lifting-equipment": {
+      "title": "起重设备",
+      "description": "用于物料搬运的起重机、起重机和起重设备"
+    },
+    "multimeters": {
+      "title": "万用表",
+      "description": "用于电气测试的数字和模拟万用表"
+    },
+    "power-quality-analyzers": {
+      "title": "电能质量分析仪",
+      "description": "电能质量测量和分析仪器"
+    },
+    "calibration-equipment": {
+      "title": "校准设备",
+      "description": "精密校准仪器和测试设备"
+    },
+    "panel-meters-indicators": {
+      "title": "面板仪表与指示器",
+      "description": "用于电压、电流和功率测量的模拟和数字面板仪表"
     },
     "bldc-cooler-exhaust-motor": {
       "title": "BLDC 冷风机与排风电机",
-      "description": "用于冷风机和排风扇的节能 BLDC 电机"
+      "description": "用于冷风机和排气扇的节能 BLDC 电机"
     },
     "bldc-ceiling-fan": {
       "title": "BLDC 吊扇",
-      "description": "具有遥控功能的超高效 BLDC 吊扇"
+      "description": "具有遥控器的超高效 BLDC 吊扇"
     },
     "bldc-submersible-surface-pump": {
       "title": "BLDC 潜水泵与地面泵",
@@ -572,121 +663,6 @@
     "bldc-table-fan-wall-fan-motor": {
       "title": "BLDC 台扇与壁扇电机",
       "description": "用于台扇和壁扇的紧凑型 BLDC 电机"
-    },
-    "solar-inverters": {
-      "title": "太阳能逆变器",
-      "description": "用于住宅和商业应用的高效太阳能逆变器"
-    },
-    "plcs": {
-      "title": "PLC（可编程逻辑控制器）",
-      "description": "用于工业自动化的可编程逻辑控制器"
-    },
-    "scada": {
-      "title": "SCADA 系统",
-      "description": "监控与数据采集系统"
-    },
-    "dcs": {
-      "title": "DCS（分布式控制系统）",
-      "description": "用于过程自动化的分布式控制系统"
-    },
-    "hmi": {
-      "title": "HMI（人机界面）",
-      "description": "用于工业控制的人机界面系统"
-    },
-    "grounding-systems": {
-      "title": "接地系统",
-      "description": "用于安全的电气接地和接地系统",
-      "subtitle": "用于安全和设备保护的电气接地和接地系统",
-      "backButton": "返回安全与防护设备",
-      "badges": {
-        "groundRods": "接地棒",
-        "conductors": "导体",
-        "clampsLugs": "夹具与接线片",
-        "safetyGrounding": "安全接地"
-      },
-      "componentsSection": {
-        "title": "接地组件"
-      },
-      "products": {
-        "electrodes": {
-          "name": "接地电极",
-          "description": "用于电气安全的铜和钢接地棒",
-          "features": {
-            "copperBonded": "铜结合",
-            "steelCore": "钢芯",
-            "multipleLengths": "多种长度",
-            "ulListed": "UL认证"
-          }
-        },
-        "conductors": {
-          "name": "接地导体",
-          "description": "用于接地系统的裸铜导体",
-          "features": {
-            "solidStranded": "实心/绞合",
-            "highConductivity": "高导电性",
-            "corrosionResistant": "耐腐蚀",
-            "multipleSizes": "多种尺寸"
-          }
-        },
-        "accessories": {
-          "name": "接地配件",
-          "description": "用于接地安装的夹具、接线片和配件",
-          "features": {
-            "groundClamps": "接地夹",
-            "compressionLugs": "压缩接线片",
-            "testWells": "测试井",
-            "bondsJumpers": "连接线与跳线"
-          }
-        }
-      },
-      "cta": {
-        "title": "需要接地解决方案吗？",
-        "description": "我们的接地专家可以为您的工厂设计安全且符合规范的接地系统。",
-        "contactButton": "联系接地专家",
-        "quoteButton": "请求报价"
-      },
-      "keyFeatures": "主要特点：",
-      "seo": {
-        "title": "接地系统 - 电气安全设备 | Powerton Engineering",
-        "description": "用于电气安全的专业接地和接地系统。来自领先制造商的铜接地棒、导体、夹具和配件。",
-        "keywords": "接地系统, 电气接地, 接地系统, 接地棒, 接地导体, 电气安全设备, 铜接地棒, 接地配件, 工业接地"
-      }
-    },
-    "calibration-equipment": {
-      "title": "校准设备",
-      "description": "精密校准仪器和测试设备"
-    },
-    "solar-panels": {
-      "title": "太阳能电池板",
-      "description": "高效太阳能电池板和光伏系统"
-    },
-    "instrument-transformers": {
-      "title": "仪器互感器",
-      "description": "用于测量和保护的电流互感器和电压互感器"
-    },
-    "contactors-relays": {
-      "title": "接触器与继电器",
-      "description": "用于电机控制的电力接触器和电磁继电器"
-    },
-    "transformers-power-devices": {
-      "title": "变压器与电力设备",
-      "description": "控制变压器和电力转换设备"
-    },
-    "led-lighting": {
-      "title": "LED照明",
-      "description": "用于危险区域和一般区域的工业LED照明解决方案"
-    },
-    "motor-controllers-drives": {
-      "title": "电机控制器与驱动器",
-      "description": "变频驱动器和电机控制解决方案"
-    },
-    "protection-relays": {
-      "title": "保护继电器",
-      "description": "电机保护和电压监控继电器"
-    },
-    "panel-meters-indicators": {
-      "title": "面板仪表与指示器",
-      "description": "用于电压、电流和功率测量的模拟和数字面板仪表"
     }
   },
   "sections": {

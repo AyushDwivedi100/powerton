@@ -487,137 +487,176 @@
     }
   },
   "subcategories": {
-    "sensors": {
-      "title": "Sensorer na Transducer",
-      "description": "Sensorer za viwandani kwa ajili ya kupima na kudhibiti"
+    "sensors-transducers": {
+      "title": "Sensorer & Transducers",
+      "description": "Sensorer za viwandani na transducers kwa ajili ya kupima na udhibiti"
     },
-    "transmitters": {
-      "title": "Transmita na Mita za Mtiririko",
-      "description": "Transmita za mchakato na vifaa vya kubadilisha mawimbi"
+    "transmitters-flow-meters": {
+      "title": "Vipeleka & Mita za Mtiririko",
+      "description": "Vipeleka vya viwandani na mita za mtiririko kwa ajili ya ufuatiliaji wa mchakato"
     },
-    "controllers": {
-      "title": "Vidhibiti na Virekodi",
-      "description": "Mifumo ya udhibiti wa viwandani na vidhibiti vya otomatiki"
+    "switches-indicators": {
+      "title": "Swichi & Viashiria",
+      "description": "Swichi za viwandani na vifaa vya udhibiti"
     },
-    "switches": {
-      "title": "Swichi na Viashiria",
-      "description": "Swichi za viwandani na vifaa vya kudhibiti"
-    },
-    "valves": {
-      "title": "Vali na Viendeshaji",
-      "description": "Vali za viwandani na mifumo ya kudhibiti mtiririko"
+    "valves-actuators": {
+      "title": "Vali & Viendeshaji",
+      "description": "Vali za viwandani na mifumo ya udhibiti wa mtiririko"
     },
     "analyzers": {
       "title": "Vichanganuzi",
       "description": "Vichanganuzi vya mchakato kwa udhibiti wa ubora"
     },
-    "signal-conditioners": {
-      "title": "Viyoyozi vya Mawimbi",
-      "description": "Vifaa vya kuchakata na kurekebisha mawimbi"
-    },
-    "electrical-cables": {
-      "title": "Kebo za Umeme",
-      "description": "Kebo za nguvu na udhibiti za viwanda kwa mifumo ya umeme"
+    "instrument-transformers": {
+      "title": "Transfoma za Ala",
+      "description": "Transfoma za sasa na uwezo kwa ajili ya kupima na ulinzi"
     },
     "instrumentation-cables": {
       "title": "Kebo za Ala",
-      "description": "Kebo sahihi kwa mifumo ya udhibiti wa mchakato na kupima"
+      "description": "Kebo za usahihi kwa udhibiti wa mchakato na mifumo ya kupima"
+    },
+    "electrical-cables": {
+      "title": "Kebo za Umeme",
+      "description": "Nguvu za viwandani na kebo za udhibiti kwa mifumo ya umeme"
     },
     "connectors-terminals": {
-      "title": "Viunganishi na Vituo",
-      "description": "Viunganishi vya umeme na suluhisho za vituo"
+      "title": "Viunganishi & Vituo",
+      "description": "Viunganishi vya umeme na ufumbuzi wa vituo"
     },
     "circuit-breakers-fuses": {
-      "title": "Vivunja Mzunguko na Fuses",
+      "title": "Vivunja Mzunguko & Fuses",
       "description": "Vifaa vya ulinzi wa umeme kwa usalama wa mzunguko"
-    },
-    "contactorsRelays": {
-      "title": "Viwasilishi na Relays",
-      "description": "Viwasilishi vya viwandani na relays za kudhibiti kwa udhibiti wa motor"
     },
     "power-supplies": {
       "title": "Vifaa vya Nguvu",
       "description": "Vitengo vya usambazaji wa umeme vya viwandani na vibadilishaji"
     },
     "enclosures-cabinets": {
-      "title": "Vizuizi na Kabati",
-      "description": "Vizuizi vya umeme na suluhisho za kabati za kudhibiti"
+      "title": "Vifungo & Makabati",
+      "description": "Vifungo vya umeme na ufumbuzi wa baraza la mawaziri la udhibiti"
     },
     "heating-elements-appliances": {
-      "title": "Vipengele vya Kupokanzwa na Vifaa",
-      "description": "Suluhisho za kupokanzwa za viwandani na vifaa vya joto"
+      "title": "Vipengele vya Kupokanzwa & Vifaa",
+      "description": "Ufumbuzi wa joto wa viwandani na vifaa vya joto"
     },
-    "multimeters": {
-      "title": "Multimita",
-      "description": "Multimita za dijitali na analogi kwa majaribio ya umeme"
+    "contactors-relays": {
+      "title": "Viwasilishi & Relays",
+      "description": "Viwasilishi vya nguvu na relays za sumakuumeme kwa udhibiti wa motor"
     },
-    "power-quality-analyzers": {
-      "title": "Vichanganuzi vya Ubora wa Nguvu",
-      "description": "Vyombo vya kupima na kuchambua ubora wa nguvu"
+    "transformers-power-devices": {
+      "title": "Transfoma & Vifaa vya Nguvu",
+      "description": "Transfoma za udhibiti na vifaa vya uongofu wa nguvu"
     },
-    "solar-batteries-energy-storage": {
-      "title": "Betri za Sola na Hifadhi ya Nishati",
-      "description": "Mifumo ya kuhifadhi betri kwa matumizi ya nishati ya jua"
+    "industrial-lighting": {
+      "title": "Taa za Viwandani",
+      "description": "Ufumbuzi kamili wa taa za viwandani ikiwa ni pamoja na taa za mitaani, taa za ghuba ya juu, taa za chombo, taa za mafuriko, na taa za glasi vizuri katika usanidi wa kawaida, usio na moto, na usio na hali ya hewa"
+    },
+    "insulators-insulation-materials": {
+      "title": "Vizio & Vifaa vya Insulation",
+      "description": "Vizio vya umeme vya ubora wa juu na vifaa vya insulation kwa mifumo ya nguvu na vifaa vya umeme"
+    },
+    "solar-panels": {
+      "title": "Paneli za Sola",
+      "description": "Paneli za sola za ufanisi wa juu na mifumo ya photovoltaic"
+    },
+    "solar-inverters": {
+      "title": "Inverters za Sola",
+      "description": "Inverters za sola za ufanisi wa juu kwa matumizi ya makazi na biashara"
+    },
+    "plcs": {
+      "title": "PLCs (Vidhibiti vya Mantiki Vinavyoweza Kupangwa)",
+      "description": "Vidhibiti vya Mantiki Vinavyoweza Kupangwa kwa otomatiki ya viwandani"
+    },
+    "scada": {
+      "title": "Mifumo ya SCADA",
+      "description": "Mifumo ya Udhibiti wa Usimamizi na Upataji Data"
+    },
+    "dcs": {
+      "title": "DCS (Mifumo ya Udhibiti Iliyosambazwa)",
+      "description": "Mifumo ya udhibiti iliyosambazwa kwa otomatiki ya mchakato"
+    },
+    "hmi": {
+      "title": "HMI (Kiolesura cha Mashine ya Binadamu)",
+      "description": "Mifumo ya kiolesura cha mashine ya binadamu kwa udhibiti wa viwandani"
+    },
+    "motor-controllers-drives": {
+      "title": "Vidhibiti vya Motor & Hifadhi",
+      "description": "Hifadhi za mzunguko tofauti na ufumbuzi wa udhibiti wa motor"
+    },
+    "io-modules": {
+      "title": "Moduli za I/O",
+      "description": "Moduli za Input/Output kwa mifumo ya PLC na otomatiki ya viwandani"
     },
     "surge-protectors": {
       "title": "Vilinda Mawimbi",
       "description": "Vifaa vya ulinzi wa mawimbi ya umeme kwa usalama wa vifaa"
     },
+    "grounding-systems": {
+      "title": "Mifumo ya Kutuliza",
+      "description": "Mifumo ya kutuliza umeme na kuweka udongo",
+      "subtitle": "Mifumo ya kutuliza umeme na kuweka udongo kwa usalama na ulinzi wa vifaa",
+      "backButton": "Rudi kwa Vifaa vya Usalama & Kinga",
+      "badges": {
+        "groundRods": "Fimbo za Ardhi",
+        "conductors": "Viongozi",
+        "clampsLugs": "Clamps & Lugs",
+        "safetyGrounding": "Kutuliza Usalama"
+      },
+      "componentsSection": {
+        "title": "Vipengele vya Kutuliza"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Electrodes za Kutuliza",
+          "description": "Shaba na fimbo za kutuliza chuma kwa usalama wa umeme",
+          "features": {
+            "copperBonded": "Iliyofungwa na Shaba",
+            "steelCore": "Msingi wa Chuma",
+            "multipleLengths": "Urefu Nyingi",
+            "ulListed": "Imeorodheshwa na UL"
+          }
+        },
+        "conductors": {
+          "name": "Viongozi wa Kutuliza",
+          "description": "Viongozi wa shaba tupu kwa mifumo ya kutuliza",
+          "features": {
+            "solidStranded": "Mango/Uliokwama",
+            "highConductivity": "Uendeshaji wa Juu",
+            "corrosionResistant": "Inayostahimili Kutu",
+            "multipleSizes": "Ukubwa Nyingi"
+          }
+        },
+        "accessories": {
+          "name": "Vifaa vya Kutuliza",
+          "description": "Clamps, lugs, na fittings kwa mitambo ya kutuliza",
+          "features": {
+            "groundClamps": "Clamps za Ardhi",
+            "compressionLugs": "Lugs za Compression",
+            "testWells": "Visima vya Mtihani",
+            "bondsJumpers": "Bonds & Jumpers"
+          }
+        }
+      },
+      "cta": {
+        "title": "Unahitaji Suluhisho za Kutuliza?",
+        "description": "Wataalamu wetu wa kutuliza wanaweza kubuni mifumo salama ya kutuliza na inayozingatia kanuni kwa kituo chako.",
+        "contactButton": "Wasiliana na Wataalamu wa Kutuliza",
+        "quoteButton": "Omba Nukuu"
+      },
+      "keyFeatures": "Sifa Muhimu:",
+      "seo": {
+        "title": "Mifumo ya Kutuliza - Vifaa vya Usalama vya Umeme | Uhandisi wa Powerton",
+        "description": "Mifumo ya kutuliza kitaalamu na kuweka udongo kwa usalama wa umeme. Fimbo za kutuliza shaba, viongozi, clamps & vifaa kutoka kwa wazalishaji wanaoongoza.",
+        "keywords": "mifumo ya kutuliza, kutuliza umeme, mifumo ya kuweka udongo, fimbo za ardhi, viongozi wa kutuliza, vifaa vya usalama vya umeme, fimbo za kutuliza shaba, vifaa vya kutuliza, kutuliza viwandani"
+      }
+    },
     "safety-relays-switches": {
-      "title": "Relays za Usalama na Swichi",
-      "description": "Relays za usalama na swichi za dharura kwa usalama wa viwandani"
+      "title": "Relays za Usalama & Swichi",
+      "description": "Relays za usalama na swichi za kusimamisha dharura kwa usalama wa viwandani"
     },
     "intrinsically-safe-equipment": {
       "title": "Vifaa Salama Kiasili",
       "description": "Vifaa visivyolipuka na salama kiasili kwa maeneo hatarishi"
-    },
-    "centrifugal-pumps": {
-      "title": "Pampu za Katijaja",
-      "description": "Pampu za katijaja za ufanisi wa hali ya juu kwa uhamishaji wa maji"
-    },
-    "diaphragm-pumps": {
-      "title": "Pampu za Diaphragm",
-      "description": "Pampu za diaphragm za uhamishaji chanya kwa matumizi ya kemikali"
-    },
-    "gear-pumps": {
-      "title": "Pampu za Gia",
-      "description": "Pampu za gia za usahihi kwa maji maji yenye mnato"
-    },
-    "pump-parts-spares": {
-      "title": "Sehemu za Pampu na Vipuri",
-      "description": "Sehemu za uingizwaji na vipengele vya vipuri kwa pampu za viwandani"
-    },
-    "hand-tools": {
-      "title": "Zana za Mkono",
-      "description": "Zana za mkono za kitaalamu kwa matengenezo na kusanyiko la viwandani"
-    },
-    "power-tools": {
-      "title": "Zana za Nguvu",
-      "description": "Zana za nguvu za viwandani kwa matumizi mazito"
-    },
-    "cutting-tools": {
-      "title": "Zana za Kukata",
-      "description": "Zana na vifaa vya kukata usahihi kwa ajili ya usindikaji wa chuma"
-    },
-    "lifting-equipment": {
-      "title": "Vifaa vya Kuinua",
-      "description": "Hoists, cranes, na vifaa vya kuinua kwa utunzaji wa nyenzo"
-    },
-    "sensors-transducers": {
-      "title": "Sensorer na Transducer",
-      "description": "Sensorer za viwandani na transducer kwa ajili ya kupima na kudhibiti"
-    },
-    "transmitters-flow-meters": {
-      "title": "Transmita na Mita za Mtiririko",
-      "description": "Transmita za viwandani na mita za mtiririko kwa ajili ya ufuatiliaji wa mchakato"
-    },
-    "switches-indicators": {
-      "title": "Swichi na Viashiria",
-      "description": "Swichi za viwandani na vifaa vya kudhibiti"
-    },
-    "valves-actuators": {
-      "title": "Vali na Viendeshaji",
-      "description": "Vali za viwandani na mifumo ya kudhibiti mtiririko"
     },
     "safety-equipment": {
       "title": "Vifaa vya Usalama",
@@ -629,13 +668,13 @@
           "description": "Vifaa vya usalama kwa ulinzi wa mfanyakazi",
           "features": {
             "hardHats": "Kofia Ngumu",
-            "safetyGlasses": "Miwan ya Usalama",
+            "safetyGlasses": "Miwani ya Usalama",
             "hearingProtection": "Ulinzi wa Kusikia",
             "workGloves": "Gloves za Kazi"
           }
         },
         "fallProtection": {
-          "name": "Mifumo ya Ulinzi Dhidi ya Kuanguka",
+          "name": "Mifumo ya Ulinzi wa Kuanguka",
           "description": "Harnesses na vifaa vya kukamata kuanguka",
           "features": {
             "fullBodyHarness": "Harness ya Mwili Kamili",
@@ -657,141 +696,78 @@
       },
       "cta": {
         "title": "Unahitaji Vifaa vya Usalama?",
-        "description": "Wataalamu wetu wa usalama wanaweza kutoa suluhisho kamili za usalama ili kulinda wafanyikazi wako.",
+        "description": "Wataalamu wetu wa usalama wanaweza kutoa ufumbuzi kamili wa usalama ili kulinda wafanyakazi wako.",
         "contactExpertsCta": "Wasiliana na Wataalamu wa Usalama",
         "requestQuoteCta": "Omba Nukuu"
       }
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "BLDC Motors za Kipoezi na Kutolea Nje",
-      "description": "Motors za BLDC zinazotumia nishati kwa ajili ya vipoezi na feni za kutolea nje"
-    },
-    "bldc-ceiling-fan": {
-      "title": "Feni za Dari za BLDC",
-      "description": "Feni za dari za BLDC zenye ufanisi wa hali ya juu na udhibiti wa mbali"
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "Pampu za BLDC za Submersible na Surface",
-      "description": "Pampu za BLDC za ufanisi wa hali ya juu kwa matumizi ya maji"
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "Motors za BLDC za Feni ya Meza na Feni ya Ukutani",
-      "description": "Motors za BLDC za kompakt kwa feni za meza na ukuta"
-    },
-    "solar-inverters": {
-      "title": "Vigeuzi vya Sola",
-      "description": "Vigeuzi vya sola vya ufanisi wa hali ya juu kwa matumizi ya makazi na biashara"
-    },
-    "plcs": {
-      "title": "PLCs (Vidhibiti vya Mantiki Vinavyoweza Kupangwa)",
-      "description": "Vidhibiti vya Mantiki Vinavyoweza Kupangwa kwa otomatiki ya viwandani"
-    },
-    "scada": {
-      "title": "Mifumo ya SCADA",
-      "description": "Mifumo ya Udhibiti wa Usimamizi na Upataji Data"
-    },
-    "dcs": {
-      "title": "DCS (Mifumo ya Udhibiti Iliyosambazwa)",
-      "description": "Mifumo ya udhibiti iliyosambazwa kwa otomatiki ya mchakato"
-    },
-    "hmi": {
-      "title": "HMI (Kiolesura cha Mashine ya Binadamu)",
-      "description": "Mifumo ya kiolesura cha mashine ya binadamu kwa udhibiti wa viwandani"
-    },
-    "grounding-systems": {
-      "title": "Mifumo ya Kutuliza",
-      "description": "Mifumo ya kutuliza umeme na kuweka udongo",
-      "subtitle": "Mifumo ya kutuliza umeme na kuweka udongo kwa usalama na ulinzi wa vifaa",
-      "backButton": "Rudi kwa Vifaa vya Usalama na Kinga",
-      "badges": {
-        "groundRods": "Vifaa vya Kutuliza",
-        "conductors": "Viongozi",
-        "clampsLugs": "Clamps & Lugs",
-        "safetyGrounding": "Kutuliza Usalama"
-      },
-      "componentsSection": {
-        "title": "Vipengele vya Kutuliza"
-      },
-      "products": {
-        "electrodes": {
-          "name": "Vifaa vya Kutuliza",
-          "description": "Vifaa vya kutuliza vya shaba na chuma kwa usalama wa umeme",
-          "features": {
-            "copperBonded": "Shaba Iliyounganishwa",
-            "steelCore": "Msingi wa Chuma",
-            "multipleLengths": "Urefu Nyingi",
-            "ulListed": "Imeorodheshwa na UL"
-          }
-        },
-        "conductors": {
-          "name": "Viongozi wa Kutuliza",
-          "description": "Viongozi wa shaba tupu kwa mifumo ya kutuliza",
-          "features": {
-            "solidStranded": "Imara/Iliyokwama",
-            "highConductivity": "Uendeshaji wa Juu",
-            "corrosionResistant": "Inayostahimili Kutu",
-            "multipleSizes": "Ukubwa Nyingi"
-          }
-        },
-        "accessories": {
-          "name": "Vifaa vya Kutuliza",
-          "description": "Clamps, lugs, na fittings kwa ajili ya mitambo ya kutuliza",
-          "features": {
-            "groundClamps": "Clamps za Kutuliza",
-            "compressionLugs": "Lugs za Kubana",
-            "testWells": "Visima vya Majaribio",
-            "bondsJumpers": "Bonds & Jumpers"
-          }
-        }
-      },
-      "cta": {
-        "title": "Unahitaji Suluhisho za Kutuliza?",
-        "description": "Wataalamu wetu wa kutuliza wanaweza kubuni mifumo salama na inayofuata kanuni za kutuliza kwa kituo chako.",
-        "contactButton": "Wasiliana na Wataalamu wa Kutuliza",
-        "quoteButton": "Omba Nukuu"
-      },
-      "keyFeatures": "Sifa Muhimu:",
-      "seo": {
-        "title": "Mifumo ya Kutuliza - Vifaa vya Usalama vya Umeme | Powerton Engineering",
-        "description": "Mifumo ya kitaalamu ya kutuliza na kuweka udongo kwa usalama wa umeme. Vifaa vya kutuliza vya shaba, viongozi, clamps & vifaa kutoka kwa wazalishaji wakuu.",
-        "keywords": "mifumo ya kutuliza, kutuliza umeme, mifumo ya kuweka udongo, fimbo za kutuliza, viongozi wa kutuliza, vifaa vya usalama vya umeme, fimbo za kutuliza za shaba, vifaa vya kutuliza, kutuliza viwandani"
-      }
-    },
-    "calibration-equipment": {
-      "title": "Vifaa vya Upimaji",
-      "description": "Vyombo vya upimaji wa usahihi na vifaa vya kupima"
-    },
-    "solar-panels": {
-      "title": "Paneli za Sola",
-      "description": "Paneli za sola za ufanisi wa hali ya juu na mifumo ya photovoltaic"
-    },
-    "instrument-transformers": {
-      "title": "Vigeuzi vya Vyombo",
-      "description": "Vigeuzi vya sasa na uwezo kwa ajili ya kupima na ulinzi"
-    },
-    "contactors-relays": {
-      "title": "Viwasilishi na Relays",
-      "description": "Viwasilishi vya nguvu na relays za umeme kwa ajili ya udhibiti wa motor"
-    },
-    "transformers-power-devices": {
-      "title": "Vigeuzi na Vifaa vya Nguvu",
-      "description": "Vigeuzi vya kudhibiti na vifaa vya ubadilishaji wa nguvu"
-    },
-    "led-lighting": {
-      "title": "Taa za LED",
-      "description": "Suluhisho za taa za LED za viwandani kwa maeneo hatarishi na ya jumla"
-    },
-    "motor-controllers-drives": {
-      "title": "Vidhibiti vya Motor na Drives",
-      "description": "Drives za mzunguko tofauti na suluhisho za udhibiti wa motor"
     },
     "protection-relays": {
       "title": "Relays za Ulinzi",
       "description": "Ulinzi wa motor na relays za ufuatiliaji wa voltage"
     },
+    "centrifugal-pumps": {
+      "title": "Pampu za Katijaja",
+      "description": "Pampu za katijaja za ufanisi wa juu kwa uhamisho wa maji"
+    },
+    "diaphragm-pumps": {
+      "title": "Pampu za Diaphragm",
+      "description": "Pampu za uhamishaji chanya za diaphragm kwa matumizi ya kemikali"
+    },
+    "gear-pumps": {
+      "title": "Pampu za Gia",
+      "description": "Pampu za gia za usahihi kwa maji yenye viscous"
+    },
+    "pump-parts-spares": {
+      "title": "Sehemu za Pampu & Vipuri",
+      "description": "Sehemu za uingizwaji na vipengele vya vipuri kwa pampu za viwandani"
+    },
+    "hand-tools": {
+      "title": "Zana za Mkono",
+      "description": "Zana za mkono za kitaalamu kwa matengenezo ya viwandani na mkusanyiko"
+    },
+    "power-tools": {
+      "title": "Zana za Nguvu",
+      "description": "Zana za nguvu za viwandani kwa matumizi mazito"
+    },
+    "cutting-tools": {
+      "title": "Zana za Kukata",
+      "description": "Zana za kukata usahihi na vifaa kwa ajili ya usindikaji wa chuma"
+    },
+    "lifting-equipment": {
+      "title": "Vifaa vya Kuinua",
+      "description": "Hoists, cranes, na vifaa vya kuinua kwa utunzaji wa nyenzo"
+    },
+    "multimeters": {
+      "title": "Multimita",
+      "description": "Multimita za dijitali na analogi kwa upimaji wa umeme"
+    },
+    "power-quality-analyzers": {
+      "title": "Vichanganuzi vya Ubora wa Nguvu",
+      "description": "Vipimo vya ubora wa nguvu na vyombo vya uchambuzi"
+    },
+    "calibration-equipment": {
+      "title": "Vifaa vya Calibration",
+      "description": "Vyombo vya calibration sahihi na vifaa vya kupima"
+    },
     "panel-meters-indicators": {
-      "title": "Mita za Paneli na Viashiria",
-      "description": "Mita za paneli za analogi na dijitali kwa voltage, sasa, na upimaji wa nguvu"
+      "title": "Mita za Paneli & Viashiria",
+      "description": "Mita za paneli za analogi na dijitali kwa voltage, sasa, na kipimo cha nguvu"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Cooler & Motors za Kutolea Nje",
+      "description": "Motors za BLDC zenye ufanisi wa nishati kwa coolers na mashabiki wa kutolea nje"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Mashabiki wa Dari wa BLDC",
+      "description": "Mashabiki wa dari wa BLDC wenye ufanisi mkubwa na udhibiti wa kijijini"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Pampu za Submersible & Surface za BLDC",
+      "description": "Pampu za BLDC za ufanisi wa juu kwa matumizi ya maji"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Motors za Shabiki za Jedwali & Ukuta",
+      "description": "Motors za BLDC Compact kwa mashabiki wa meza na ukuta"
     }
   },
   "sections": {

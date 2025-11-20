@@ -6719,6 +6719,633 @@
       "高効率"
     ]
   },
+  "siemens3su1200Buzzer": {
+    "title": "シーメンス3SU1200-6KB10パネルマウントブザー",
+    "description": "80 dBのサウンド出力と22mmの取り付けを備えた24V AC/DC産業用ブザー",
+    "features": [
+      "80 dB @ 10cm",
+      "24V AC/DCユニバーサル",
+      "22mm丸型マウント",
+      "IP40保護",
+      "2.4 kHz周波数"
+    ]
+  },
+  "abbCb1610rBuzzer": {
+    "title": "ABB CB1-610R照光式ブザー",
+    "description": "赤色LED表示とIP66定格を備えた産業用パルスブザー",
+    "features": [
+      "90 dBパルス音",
+      "赤色LED内蔵",
+      "IP66/IP67/IP69K定格",
+      "22mmパネルマウント",
+      "24V AC/DC動作"
+    ]
+  },
+  "siemens8wd4250Buzzer": {
+    "title": "シーメンス8WD4250-0FA信号コラムブザー",
+    "description": "50mm信号コラム用の230V AC産業用信号ブザー",
+    "features": [
+      "80-85 dB出力",
+      "230V AC電源",
+      "50mmコラムマウント",
+      "25 mA電流",
+      "産業用信号"
+    ]
+  },
+  "polycabLtXlpeArmoured3core25": {
+    "title": "Polycab LT XLPE装甲ケーブル3C x 25 sq.mm",
+    "description": "亜鉛メッキ鋼線装甲を備えた650/1100V XLPE絶縁装甲ケーブル",
+    "features": [
+      "650/1100V定格",
+      "銅より線導体",
+      "XLPE絶縁",
+      "鋼線装甲",
+      "IS 7098パート1"
+    ]
+  },
+  "keiAluminiumArmoured4core70": {
+    "title": "KEIアルミニウム装甲ケーブル4C x 70 sq.mm",
+    "description": "アルミニウム導体と鋼帯装甲を備えた1.1 kV XLPE装甲ケーブル",
+    "features": [
+      "1.1 kV LT定格",
+      "アルミニウムより線",
+      "4芯構成",
+      "鋼帯装甲",
+      "IS 7098規格"
+    ]
+  },
+  "polycabHtXlpe11kvArmoured185": {
+    "title": "Polycab HT XLPE 11kV装甲ケーブル1C x 185 sq.mm",
+    "description": "トリプルエクストルージョンXLPEと銅テープシールドを備えた6.35/11 kV高張力ケーブル",
+    "features": [
+      "6.35/11 kV HT",
+      "銅コンパクト導体",
+      "トリプルエクストルージョンXLPE",
+      "銅テープシールド",
+      "IEC 60502-2"
+    ]
+  },
+  "polycabFlexibleMulticore4core2-5": {
+    "title": "Polycabフレキシブルマルチコアケーブル4C x 2.5 sq.mm",
+    "description": "クラス5銅導体を備えた650/1100V PVC絶縁フレキシブルケーブル",
+    "features": [
+      "650/1100V定格",
+      "クラス5フレキシブル",
+      "4芯PVC絶縁",
+      "-15°C〜+70°C",
+      "IS 694:2010"
+    ]
+  },
+  "keiFlexibleFrls6core4": {
+    "title": "KEIフレキシブルFR-LSHケーブル6C x 4 sq.mm",
+    "description": "1100V難燃性低煙ハロゲンフリーフレキシブルケーブル",
+    "features": [
+      "1100V定格",
+      "FR-LSHシース",
+      "6芯束ね",
+      "最大105°C",
+      "IS 694、BS 6500"
+    ]
+  },
+  "polycabFlexibleSingle16": {
+    "title": "Polycabフレキシブルシングルコアケーブル16 sq.mm",
+    "description": "制御パネルとオートメーション用の1100Vシングルコアフレキシブルケーブル",
+    "features": [
+      "1100V定格",
+      "シングルコア",
+      "銅フレキシブル",
+      "PVC絶縁",
+      "制御アプリケーション"
+    ]
+  },
+  "beldenCat6aProfinet": {
+    "title": "Belden Cat6a DataTuff PROFINETケーブル",
+    "description": "PROFINETおよびEtherCAT用のPURジャケット付き10 Gbps産業用イーサネットケーブル",
+    "features": [
+      "Cat6a定格",
+      "10 Gbps速度",
+      "二重シールド",
+      "PURジャケット",
+      "PROFINET認定"
+    ]
+  },
+  "lappEtherlineCat5e": {
+    "title": "LAPP ETHERLINE Cat5e PROFINETケーブル",
+    "description": "PROFINETおよびEtherNet/IPアプリケーション用の産業用Cat5e S/FTPケーブル",
+    "features": [
+      "Cat5e認定",
+      "100 Mbps",
+      "S/FTPシールド",
+      "ハロゲンフリーPVC",
+      "IEC 61784-5-3"
+    ]
+  },
+  "siemensFcCat6": {
+    "title": "シーメンスSIMATIC NET FastConnect Cat6ケーブル",
+    "description": "オートメーション用の高速アセンブリシステムを備えた産業用Cat6イーサネットケーブル",
+    "features": [
+      "Cat6規格",
+      "1 Gbps速度",
+      "EMCシールド",
+      "高速アセンブリ",
+      "産業グレード"
+    ]
+  },
+  "abbOfafGg125a": {
+    "title": "ABB OFAF gG 125A HRCヒューズ500V",
+    "description": "一般的な保護のための80 kA遮断容量を備えた125A gGタイプHRCヒューズ",
+    "features": [
+      "125A定格電流",
+      "500V AC",
+      "80 kA遮断",
+      "サイズ00ヒューズ",
+      "IEC 60269"
+    ]
+  },
+  "siemens3na3250a": {
+    "title": "シーメンス3NA3 250A DIN HRCヒューズ",
+    "description": "120 kA遮断容量を備えた250A NH1サイズgGヒューズ",
+    "features": [
+      "250A定格",
+      "500V AC",
+      "NH1サイズ",
+      "120 kA遮断",
+      "IS 13703"
+    ]
+  },
+  "abbCef100aMv": {
+    "title": "ABB CEF 100A中電圧HRCヒューズ",
+    "description": "変圧器保護用の12 kVバックアップ電流制限ヒューズ",
+    "features": [
+      "100A定格",
+      "12 kV中電圧",
+      "電流制限",
+      "変圧器保護",
+      "IEC 60282-1"
+    ]
+  },
+  "siemensSitopPsu820020a": {
+    "title": "シーメンスSITOP PSU8200 24V/20A電源",
+    "description": "93%の効率と広い入力範囲を備えた480W DINレールSMPS",
+    "features": [
+      "480W出力",
+      "24V DC / 20A",
+      "93%効率",
+      "120-230V AC入力",
+      "DINレールマウント"
+    ]
+  },
+  "phoenixQuintPs10a": {
+    "title": "Phoenix Contact QUINT POWER 24V/10A SMPS",
+    "description": "選択的ヒューズブレーキング技術を備えた240W電源",
+    "features": [
+      "240W出力",
+      "24V DC / 10A",
+      "93%効率",
+      "SFB技術",
+      "100-240V AC"
+    ]
+  },
+  "siemensSitopPsu100s10a": {
+    "title": "シーメンスSITOP PSU100S 24V/10A SMPS",
+    "description": "ULおよびCSA認証を備えた240W単相SMPS",
+    "features": [
+      "240W電力",
+      "24V DC / 10A",
+      "単相AC",
+      "UL、CSA、CE",
+      "DINレール"
+    ]
+  },
+  "siemens3rt202725a": {
+    "title": "シーメンスSIRIUS 3RT2027 25A接触器",
+    "description": "400Vで11 kWの電力定格を備えた25A AC-3定格3極接触器",
+    "features": [
+      "400V AC-3で25A",
+      "400Vで11 kW",
+      "3極 + 1NO+1NC",
+      "S0サイズ",
+      "230V ACコイル"
+    ]
+  },
+  "abbAf140140a": {
+    "title": "ABB AF140 140A AC接触器",
+    "description": "ユニバーサルコイルと75 kWの電力定格を備えた140A AC-3接触器",
+    "features": [
+      "400V AC-3で140A",
+      "400Vで75 kW",
+      "ユニバーサルコイル",
+      "最大690V",
+      "200A AC-1"
+    ]
+  },
+  "schneiderLc1d3232a": {
+    "title": "シュナイダーTeSys LC1D32 32A接触器",
+    "description": "15 kWの電力定格を備えた32A AC-3定格TeSys Dライン接触器",
+    "features": [
+      "400V AC-3で32A",
+      "400Vで15 kW",
+      "690V電圧",
+      "複数のコイルオプション",
+      "50A AC-1"
+    ]
+  },
+  "abbCtMvsTimer": {
+    "title": "ABB CT-MVS.12S多機能タイマーリレー",
+    "description": "11のタイミング機能と0.05秒から100時間の範囲を備えたDINレールタイマー",
+    "features": [
+      "11のタイミング機能",
+      "0.05秒から100時間",
+      "24-240V AC/DC",
+      "1C/Oリレー6A",
+      "17.5mm幅"
+    ]
+  },
+  "schneiderRe17ramuTimer": {
+    "title": "シュナイダーHarmony RE17RAMUデュアルタイマー",
+    "description": "1秒から100時間の時間範囲を備えたON/OFF遅延デュアルタイマーリレー",
+    "features": [
+      "デュアルON/OFF遅延",
+      "1秒から100時間範囲",
+      "24-240V AC/DC",
+      "1CO 8A出力",
+      "DINレールマウント"
+    ]
+  },
+  "abbCtAhcTimer": {
+    "title": "ABB CT-AHC.12 OFF遅延タイマー",
+    "description": "最大100時間の7つの時間範囲を備えた単機能OFF遅延タイマー",
+    "features": [
+      "OFF遅延機能",
+      "0.05秒から100時間",
+      "7つの時間範囲",
+      "24-240V AC/DC",
+      "IP50保護"
+    ]
+  },
+  "abbX4250psf1": {
+    "title": "ABB X4250PSF1制御トランス250VA",
+    "description": "パネルマウント設計のデュアルセカンダリ250VA制御トランス",
+    "features": [
+      "250 VA定格",
+      "240/480Vプライマリ",
+      "115/24Vデュアルセカンダリ",
+      "50/60 Hz",
+      "UL、CSA、NEMA"
+    ]
+  },
+  "siemensMt0500a": {
+    "title": "シーメンスMT0500A制御トランス500VA",
+    "description": "55°Cの温度上昇を備えた500VAクラスMTトランス",
+    "features": [
+      "500 VA電力",
+      "240/480Vプライマリ",
+      "120/240Vセカンダリ",
+      "クラス105°C",
+      "UL、CSA認定"
+    ]
+  },
+  "abbX4100psf1": {
+    "title": "ABB X4100PSF1制御トランス100VA",
+    "description": "プライマリおよびセカンダリヒューズを備えた100VAエポキシカプセル化トランス",
+    "features": [
+      "100 VA定格",
+      "208/230/460Vプライマリ",
+      "115/24Vセカンダリ",
+      "エポキシカプセル化",
+      "ヒューズ保護"
+    ]
+  },
+  "abbMvCt1005": {
+    "title": "ABB MV変流器100/5A 5P20",
+    "description": "保護用の5P20精度クラスを備えた12 kV中電圧CT",
+    "features": [
+      "100/5A比",
+      "5P20精度",
+      "15 VA負荷",
+      "12 kV定格",
+      "IEC 61869-2"
+    ]
+  },
+  "siemens4nc5Ct6005": {
+    "title": "シーメンス4NC5変流器600/5A",
+    "description": "PACデバイス用の10 VA負荷を備えた計量クラス0.5 CT",
+    "features": [
+      "600/5A比",
+      "クラス0.5計量",
+      "10 VA負荷",
+      "PAC互換",
+      "IEC 61869"
+    ]
+  },
+  "abbLvCt4005": {
+    "title": "ABB LV変流器400/5Aクラス0.2S",
+    "description": "0.2S精度クラスとデュアル出力オプションを備えた精密計量CT",
+    "features": [
+      "400/5Aまたは400/1A",
+      "クラス0.2S精度",
+      "10 VA負荷",
+      "±0.2%精度",
+      "低電圧"
+    ]
+  },
+  "philipsSmartbright100w": {
+    "title": "フィリップスSmartBright LED 100W街路灯",
+    "description": "14,000 lmの出力とIP66定格を備えた高効率100W LED街路灯",
+    "features": [
+      "14,000 lm出力",
+      "140 lm/W効率",
+      "IP66保護",
+      "IK08衝撃",
+      "50,000時間寿命"
+    ]
+  },
+  "osramAvant150w": {
+    "title": "OSRAM AVANT LED 150W街路灯",
+    "description": "非対称光学系と15,000 lmを備えた150W産業用街路灯",
+    "features": [
+      "15,000 lm出力",
+      "130 lm/W効率",
+      "IP65定格",
+      "IK10衝撃",
+      "非対称光学系"
+    ]
+  },
+  "philipsXitanium40w": {
+    "title": "フィリップスXitanium Infinity 40W LED街路灯",
+    "description": "160 lm/Wと100,000時間の寿命を備えた超効率40W街路灯",
+    "features": [
+      "6,400 lm出力",
+      "160 lm/W効率",
+      "100,000時間寿命",
+      "IP66保護",
+      "3000Kアンバー"
+    ]
+  },
+  "trinaTsm315pd14": {
+    "title": "Trina Solar TSM-315PD14多結晶パネル",
+    "description": "16.2%の効率と25年間の保証を備えた315W多結晶ソーラーパネル",
+    "features": [
+      "315W電力",
+      "16.2%効率",
+      "72セルポリ",
+      "25年保証",
+      "1960×992×40mm"
+    ]
+  },
+  "canadianCs6p330p": {
+    "title": "Canadian Solar CS6P-330P多結晶パネル",
+    "description": "16.97%の効率を備えた330W高効率多結晶パネル",
+    "features": [
+      "330W出力",
+      "16.97%効率",
+      "72セルポリ",
+      "1000V最大システム",
+      "91.89% PTC定格"
+    ]
+  },
+  "canadianCs3k295p": {
+    "title": "Canadian Solar KuPower CS3K-295Pパネル",
+    "description": "高い雪と風の負荷定格を備えた295W多結晶パネル",
+    "features": [
+      "295W電力",
+      "16%効率",
+      "60セルポリ",
+      "6000 Pa雪負荷",
+      "25年保証"
+    ]
+  },
+  "philipsGreenperform100wHighbay": {
+    "title": "フィリップスGreenPerform LED 100W高天井灯",
+    "description": "13,000 lmと120°のビーム角を備えた産業用100W LED高天井灯",
+    "features": [
+      "13,000 lm出力",
+      "130 lm/W効率",
+      "IP65保護",
+      "120°広角ビーム",
+      "50,000時間"
+    ]
+  },
+  "osramLedvance150wHighbay": {
+    "title": "OSRAM LEDVANCE LED 150W産業用高天井灯",
+    "description": "21,000 lmとIK08衝撃定格を備えた150W倉庫高天井灯",
+    "features": [
+      "21,000 lm出力",
+      "140 lm/W効率",
+      "IP65/IK08定格",
+      "4000Kニュートラル",
+      "倉庫グレード"
+    ]
+  },
+  "philipsCoreline200wHighbay": {
+    "title": "フィリップスCoreLine LED 200W高天井灯",
+    "description": "6〜12メートルの取り付け高さ用の高出力200W LED高天井灯",
+    "features": [
+      "28,000 lm出力",
+      "140 lm/W効率",
+      "6-12m取り付け",
+      "Mean Wellドライバー",
+      "IP65保護"
+    ]
+  },
+  "philipsSmartbright50wFlood": {
+    "title": "フィリップスSmartBright LED 50W投光器",
+    "description": "5,500 lmとダイカストアルミニウムハウジングを備えた50W LED投光器",
+    "features": [
+      "5,500 lm出力",
+      "110 lm/W効率",
+      "IP65保護",
+      "110°ビーム",
+      "6500K昼光色"
+    ]
+  },
+  "osramFloodlightPro100w": {
+    "title": "OSRAM投光器Pro LED 100W",
+    "description": "11,000 lmとIK08衝撃定格を備えたプロフェッショナル100W投光器",
+    "features": [
+      "11,000 lm出力",
+      "110 lm/W効率",
+      "IP65/IK08定格",
+      "4000Kニュートラル",
+      "30,000時間"
+    ]
+  },
+  "philipsTango150wFlood": {
+    "title": "フィリップスTango LED 150W投光器",
+    "description": "スポーツおよび屋外エリア照明用の高出力150W投光器",
+    "features": [
+      "18,000 lm出力",
+      "120 lm/W効率",
+      "IP66保護",
+      "5700K CCT",
+      "スポーツ照明"
+    ]
+  },
+  "firstSolarFs680": {
+    "title": "First Solar Series 6 FS-680薄膜パネル",
+    "description": "優れた温度係数を持つ445W CdTe薄膜両面パネル",
+    "features": [
+      "445W出力",
+      "18.4%効率",
+      "CdTe薄膜",
+      "-0.28%/°C温度係数",
+      "両面"
+    ]
+  },
+  "solarFrontierSf180s": {
+    "title": "Solar Frontier SF180-S CIS薄膜パネル",
+    "description": "優れたシェード性能を備えた180W CIS薄膜パネル",
+    "features": [
+      "180W電力",
+      "13.8%効率",
+      "CIS技術",
+      "優れたシェード耐性",
+      "25年保証"
+    ]
+  },
+  "miasoleFlex02": {
+    "title": "MiaSoléFLEX-02 CIGSフレキシブル薄膜パネル",
+    "description": "曲面およびモバイルアプリケーション用の430WフレキシブルCIGSパネル",
+    "features": [
+      "430W出力",
+      "17.5%効率",
+      "フレキシブル曲げ可能",
+      "6 kg軽量",
+      "RV、ボート、曲面"
+    ]
+  },
+  "siemensSinamicsG120c5-5kw": {
+    "title": "シーメンスSINAMICS G120C VFD 5.5 kW",
+    "description": "USSおよびModbus通信を備えたコンパクトな5.5 kW可変周波数ドライブ",
+    "features": [
+      "5.5 kW電力",
+      "380-480V 3相",
+      "12A出力",
+      "150%過負荷",
+      "USS、Modbus RTU"
+    ]
+  },
+  "abbAcs58011kw": {
+    "title": "ABB ACS580ドライブ11 kW",
+    "description": "内蔵PLCと安全トルクオフ機能を備えた11 kW VFD",
+    "features": [
+      "11 kW定格",
+      "380-480V",
+      "内蔵PLC",
+      "安全トルクオフ",
+      "98%効率"
+    ]
+  },
+  "schneiderAtv3207-5kw": {
+    "title": "シュナイダーAltivar ATV320 VFD 7.5 kW",
+    "description": "グラフィックターミナルディスプレイを備えた7.5 kW可変速度ドライブ",
+    "features": [
+      "7.5 kW電力",
+      "380-500V 3相",
+      "17A出力",
+      "グラフィックターミナル",
+      "150%過負荷"
+    ]
+  },
+  "siemens3rw4445a": {
+    "title": "シーメンスSIRIUS 3RW44ソフトスターター45A",
+    "description": "22 kWモーター用のポンプ制御とバイパスを備えた45Aソフトスターター",
+    "features": [
+      "45A定格",
+      "400Vで22 kW",
+      "200-600V AC",
+      "ポンプ制御",
+      "過負荷保護"
+    ]
+  },
+  "abbPse72a": {
+    "title": "ABB PSEソフトスターター72A",
+    "description": "37 kWモーターアプリケーション用の内部バイパスを備えた72Aソフトスターター",
+    "features": [
+      "72A定格",
+      "400Vで37 kW",
+      "208-600V",
+      "内部バイパス",
+      "30-90%トルク"
+    ]
+  },
+  "schneiderAts2232a": {
+    "title": "シュナイダーAltistart ATS22ソフトスターター32A",
+    "description": "トルク制御とエネルギー最適化を備えた32Aソフトスターター",
+    "features": [
+      "32A定格",
+      "400Vで15 kW",
+      "208-690V",
+      "トルク制御",
+      "エネルギー最適化"
+    ]
+  },
+  "lappUnitronicProfibus2x22": {
+    "title": "LAPP UNITRONIC BUS PROFIBUS DPケーブル",
+    "description": "2x22 AWG導体と紫色のジャケットを備えた産業用PROFIBUS DPケーブル",
+    "features": [
+      "PROFIBUS DP",
+      "2x22 AWGより線",
+      "135-165Ωインピーダンス",
+      "紫色のPVCジャケット",
+      "IEC 61158-2"
+    ]
+  },
+  "siemensProfibusFC": {
+    "title": "シーメンスPROFIBUS FastConnect標準ケーブル",
+    "description": "M12またはDB9コネクタを備えたクイックコネクトPROFIBUSケーブル",
+    "features": [
+      "PROFIBUS DP/PA",
+      "2ペアツイスト",
+      "最大12 Mbps",
+      "紫色バイオレット",
+      "M12またはDB9"
+    ]
+  },
+  "belden3079aProfibus": {
+    "title": "Belden 3079A PROFIBUSネットワークケーブル",
+    "description": "フォイルとブレードシールドを備えた産業用PROFIBUSケーブル",
+    "features": [
+      "PROFIBUS認定",
+      "22 AWGソリッド",
+      "フォイル + ブレード",
+      "150Ωインピーダンス",
+      "紫色のPVC"
+    ]
+  },
+  "lappEtherlineProfinetC": {
+    "title": "LAPP ETHERLINE PNタイプC Cat5eケーブル",
+    "description": "ケーブルトラックおよびドラッグチェーン用の連続屈曲Cat5e PROFINETケーブル",
+    "features": [
+      "タイプCフレックス",
+      "Cat5e S/FTP",
+      "7.5Mフレックスサイクル",
+      "PURグリーンジャケット",
+      "ドラッグチェーン定格"
+    ]
+  },
+  "siemensProfinetTypeA": {
+    "title": "シーメンスPROFINETケーブルタイプA Cat5e固定",
+    "description": "固定定置設置用のCat5e PROFINETケーブル",
+    "features": [
+      "タイプA固定",
+      "Cat5eシールド",
+      "ソリッド銅",
+      "緑色",
+      "IEC 61784-5-3"
+    ]
+  },
+  "beldenProfinetCat6a": {
+    "title": "Belden DataTuff PROFINET Cat6a産業用",
+    "description": "1000万回の屈曲サイクルを備えた10 Gbps Cat6a PROFINETケーブル",
+    "features": [
+      "Cat6a認定",
+      "10 Gbps速度",
+      "S/FTPシールド",
+      "10Mフレックスサイクル",
+      "UL PLTC-ER"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - バリアント{{number}}",

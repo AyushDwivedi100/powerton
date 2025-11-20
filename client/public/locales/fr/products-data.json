@@ -7012,6 +7012,633 @@
       "Rendement élevé"
     ]
   },
+  "siemens3su1200Buzzer": {
+    "title": "Avertisseur de montage sur panneau Siemens 3SU1200-6KB10",
+    "description": "Avertisseur industriel 24V AC/DC avec sortie sonore de 80 dB et montage de 22mm",
+    "features": [
+      "80 dB @ 10cm",
+      "24V AC/DC universel",
+      "Montage rond de 22mm",
+      "Protection IP40",
+      "Fréquence de 2,4 kHz"
+    ]
+  },
+  "abbCb1610rBuzzer": {
+    "title": "Avertisseur lumineux ABB CB1-610R",
+    "description": "Avertisseur industriel pulsant avec indication LED rouge et indice de protection IP66",
+    "features": [
+      "Son pulsant de 90 dB",
+      "LED rouge intégrée",
+      "Homologué IP66/IP67/IP69K",
+      "Montage sur panneau de 22mm",
+      "Fonctionnement 24V AC/DC"
+    ]
+  },
+  "siemens8wd4250Buzzer": {
+    "title": "Avertisseur de colonne de signal Siemens 8WD4250-0FA",
+    "description": "Avertisseur de signal industriel 230V AC pour colonnes de signal de 50mm",
+    "features": [
+      "Sortie de 80-85 dB",
+      "Alimentation 230V AC",
+      "Montage sur colonne de 50mm",
+      "Courant de 25 mA",
+      "Signalisation industrielle"
+    ]
+  },
+  "polycabLtXlpeArmoured3core25": {
+    "title": "Câble blindé Polycab LT XLPE 3C x 25 sq.mm",
+    "description": "Câble blindé isolé XLPE 650/1100V avec armure de fil d'acier galvanisé",
+    "features": [
+      "Homologué 650/1100V",
+      "Conducteur toronné en cuivre",
+      "Isolation XLPE",
+      "Armure de fil d'acier",
+      "IS 7098 Partie 1"
+    ]
+  },
+  "keiAluminiumArmoured4core70": {
+    "title": "Câble blindé en aluminium KEI 4C x 70 sq.mm",
+    "description": "Câble blindé XLPE 1.1 kV avec conducteur en aluminium et armure de bande d'acier",
+    "features": [
+      "Homologué LT 1.1 kV",
+      "Aluminium toronné",
+      "Configuration à 4 conducteurs",
+      "Armure de bande d'acier",
+      "Norme IS 7098"
+    ]
+  },
+  "polycabHtXlpe11kvArmoured185": {
+    "title": "Câble blindé Polycab HT XLPE 11kV 1C x 185 sq.mm",
+    "description": "Câble haute tension 6.35/11 kV avec XLPE à triple extrusion et écran de bande de cuivre",
+    "features": [
+      "HT 6.35/11 kV",
+      "Conducteur compact en cuivre",
+      "XLPE à triple extrusion",
+      "Écran de bande de cuivre",
+      "CEI 60502-2"
+    ]
+  },
+  "polycabFlexibleMulticore4core2-5": {
+    "title": "Câble flexible multiconducteur Polycab 4C x 2.5 sq.mm",
+    "description": "Câble flexible isolé PVC 650/1100V avec conducteur en cuivre de classe 5",
+    "features": [
+      "Homologué 650/1100V",
+      "Flexible de classe 5",
+      "4 conducteurs isolés PVC",
+      "-15°C à +70°C",
+      "IS 694:2010"
+    ]
+  },
+  "keiFlexibleFrls6core4": {
+    "title": "Câble flexible KEI FR-LSH 6C x 4 sq.mm",
+    "description": "Câble flexible sans halogène à faible émission de fumée ignifuge 1100V",
+    "features": [
+      "Homologué 1100V",
+      "Gaine FR-LSH",
+      "6 conducteurs groupés",
+      "Jusqu'à 105°C",
+      "IS 694, BS 6500"
+    ]
+  },
+  "polycabFlexibleSingle16": {
+    "title": "Câble flexible à un conducteur Polycab 16 sq.mm",
+    "description": "Câble flexible à un conducteur 1100V pour panneaux de commande et automatisation",
+    "features": [
+      "Homologué 1100V",
+      "Un seul conducteur",
+      "Cuivre flexible",
+      "Isolé PVC",
+      "Applications de contrôle"
+    ]
+  },
+  "beldenCat6aProfinet": {
+    "title": "Câble Belden Cat6a DataTuff PROFINET",
+    "description": "Câble Ethernet industriel 10 Gbps avec gaine PUR pour PROFINET et EtherCAT",
+    "features": [
+      "Homologué Cat6a",
+      "Vitesse de 10 Gbps",
+      "Double blindage",
+      "Gaine PUR",
+      "Certifié PROFINET"
+    ]
+  },
+  "lappEtherlineCat5e": {
+    "title": "Câble LAPP ETHERLINE Cat5e PROFINET",
+    "description": "Câble S/FTP Cat5e industriel pour applications PROFINET et EtherNet/IP",
+    "features": [
+      "Certifié Cat5e",
+      "100 Mbps",
+      "Blindage S/FTP",
+      "PVC sans halogène",
+      "CEI 61784-5-3"
+    ]
+  },
+  "siemensFcCat6": {
+    "title": "Câble standard Siemens SIMATIC NET FastConnect Cat6",
+    "description": "Câble Ethernet industriel Cat6 avec système d'assemblage rapide pour automatisation",
+    "features": [
+      "Norme Cat6",
+      "Vitesse de 1 Gbps",
+      "Blindage CEM",
+      "Assemblage rapide",
+      "Qualité industrielle"
+    ]
+  },
+  "abbOfafGg125a": {
+    "title": "Fusible HRC ABB OFAF gG 125A 500V",
+    "description": "Fusible HRC de type gG de 125A avec capacité de coupure de 80 kA pour protection à usage général",
+    "features": [
+      "Courant nominal de 125A",
+      "500V AC",
+      "Coupure de 80 kA",
+      "Fusible de taille 00",
+      "CEI 60269"
+    ]
+  },
+  "siemens3na3250a": {
+    "title": "Fusible HRC DIN Siemens 3NA3 250A",
+    "description": "Fusible gG de taille NH1 de 250A avec capacité de coupure de 120 kA",
+    "features": [
+      "Homologué 250A",
+      "500V AC",
+      "Taille NH1",
+      "Coupure de 120 kA",
+      "IS 13703"
+    ]
+  },
+  "abbCef100aMv": {
+    "title": "Fusible HRC moyenne tension ABB CEF 100A",
+    "description": "Fusible limiteur de courant de secours 12 kV pour la protection du transformateur",
+    "features": [
+      "Homologué 100A",
+      "Moyenne tension de 12 kV",
+      "Limiteur de courant",
+      "Protection du transformateur",
+      "CEI 60282-1"
+    ]
+  },
+  "siemensSitopPsu820020a": {
+    "title": "Alimentation Siemens SITOP PSU8200 24V/20A",
+    "description": "SMPS sur rail DIN de 480W avec une efficacité de 93% et une large plage d'entrée",
+    "features": [
+      "Sortie de 480W",
+      "24V DC / 20A",
+      "Efficacité de 93%",
+      "Entrée 120-230V AC",
+      "Montage sur rail DIN"
+    ]
+  },
+  "phoenixQuintPs10a": {
+    "title": "SMPS Phoenix Contact QUINT POWER 24V/10A",
+    "description": "Alimentation de 240W avec technologie de coupure sélective de fusible",
+    "features": [
+      "Sortie de 240W",
+      "24V DC / 10A",
+      "Efficace à 93%",
+      "Technologie SFB",
+      "100-240V AC"
+    ]
+  },
+  "siemensSitopPsu100s10a": {
+    "title": "SMPS Siemens SITOP PSU100S 24V/10A",
+    "description": "SMPS monophasé de 240W avec certification UL et CSA",
+    "features": [
+      "Puissance de 240W",
+      "24V DC / 10A",
+      "AC monophasé",
+      "UL, CSA, CE",
+      "Rail DIN"
+    ]
+  },
+  "siemens3rt202725a": {
+    "title": "Contacteur Siemens SIRIUS 3RT2027 25A",
+    "description": "Contacteur triphasé homologué 25A AC-3 avec une puissance nominale de 11 kW à 400V",
+    "features": [
+      "25A @ 400V AC-3",
+      "11 kW @ 400V",
+      "3 pôles + 1NO+1NF",
+      "Taille S0",
+      "Bobine 230V AC"
+    ]
+  },
+  "abbAf140140a": {
+    "title": "Contacteur AC ABB AF140 140A",
+    "description": "Contacteur AC 140A AC-3 avec bobine universelle et puissance nominale de 75 kW",
+    "features": [
+      "140A @ 400V AC-3",
+      "75 kW @ 400V",
+      "Bobine universelle",
+      "Jusqu'à 690V",
+      "200A AC-1"
+    ]
+  },
+  "schneiderLc1d3232a": {
+    "title": "Contacteur Schneider TeSys LC1D32 32A",
+    "description": "Contacteur de ligne TeSys D homologué 32A AC-3 avec une puissance nominale de 15 kW",
+    "features": [
+      "32A @ 400V AC-3",
+      "15 kW @ 400V",
+      "Tension de 690V",
+      "Plusieurs options de bobine",
+      "50A AC-1"
+    ]
+  },
+  "abbCtMvsTimer": {
+    "title": "Relais temporisé multifonction ABB CT-MVS.12S",
+    "description": "Relais temporisé sur rail DIN avec 11 fonctions de temporisation et une plage de 0.05s à 100h",
+    "features": [
+      "11 fonctions de temporisation",
+      "0.05s à 100h",
+      "24-240V AC/DC",
+      "Relais 1C/O 6A",
+      "Largeur de 17.5mm"
+    ]
+  },
+  "schneiderRe17ramuTimer": {
+    "title": "Relais temporisé double Schneider Harmony RE17RAMU",
+    "description": "Relais temporisé double ON/OFF-delay avec une plage de temps de 1s à 100h",
+    "features": [
+      "Double retard ON/OFF",
+      "Plage de 1s à 100h",
+      "24-240V AC/DC",
+      "Sortie 1CO 8A",
+      "Montage sur rail DIN"
+    ]
+  },
+  "abbCtAhcTimer": {
+    "title": "Relais temporisé OFF-Delay ABB CT-AHC.12",
+    "description": "Relais temporisé OFF-delay à fonction unique avec 7 plages de temps jusqu'à 100h",
+    "features": [
+      "Fonction OFF-delay",
+      "0.05s à 100h",
+      "7 plages de temps",
+      "24-240V AC/DC",
+      "Protection IP50"
+    ]
+  },
+  "abbX4250psf1": {
+    "title": "Transformateur de commande ABB X4250PSF1 250VA",
+    "description": "Transformateur de commande secondaire double 250VA avec conception de montage sur panneau",
+    "features": [
+      "Homologué 250 VA",
+      "Primaire 240/480V",
+      "Secondaire double 115/24V",
+      "50/60 Hz",
+      "UL, CSA, NEMA"
+    ]
+  },
+  "siemensMt0500a": {
+    "title": "Transformateur de commande Siemens MT0500A 500VA",
+    "description": "Transformateur de classe MT 500VA avec une augmentation de température de 55°C",
+    "features": [
+      "Puissance de 500 VA",
+      "Primaire 240/480V",
+      "Secondaire 120/240V",
+      "Classe 105°C",
+      "Certifié UL, CSA"
+    ]
+  },
+  "abbX4100psf1": {
+    "title": "Transformateur de commande ABB X4100PSF1 100VA",
+    "description": "Transformateur encapsulé époxy 100VA avec fusion primaire et secondaire",
+    "features": [
+      "Homologué 100 VA",
+      "Primaire 208/230/460V",
+      "Secondaire 115/24V",
+      "Encapsulé époxy",
+      "Protection fusionnée"
+    ]
+  },
+  "abbMvCt1005": {
+    "title": "Transformateur de courant moyenne tension ABB MV 100/5A 5P20",
+    "description": "TC moyenne tension de 12 kV avec classe de précision 5P20 pour la protection",
+    "features": [
+      "Rapport 100/5A",
+      "Précision 5P20",
+      "Charge de 15 VA",
+      "Homologué 12 kV",
+      "CEI 61869-2"
+    ]
+  },
+  "siemens4nc5Ct6005": {
+    "title": "Transformateur de courant Siemens 4NC5 600/5A",
+    "description": "TC de classe de mesure 0.5 avec charge de 10 VA pour les appareils PAC",
+    "features": [
+      "Rapport 600/5A",
+      "Mesure de classe 0.5",
+      "Charge de 10 VA",
+      "Compatible PAC",
+      "CEI 61869"
+    ]
+  },
+  "abbLvCt4005": {
+    "title": "Transformateur de courant basse tension ABB 400/5A Classe 0.2S",
+    "description": "TC de mesure de précision avec classe de précision 0.2S et options de sortie doubles",
+    "features": [
+      "400/5A ou 400/1A",
+      "Précision de classe 0.2S",
+      "Charge de 10 VA",
+      "Précision de ±0.2%",
+      "Basse tension"
+    ]
+  },
+  "philipsSmartbright100w": {
+    "title": "Réverbère LED Philips SmartBright 100W",
+    "description": "Réverbère LED 100W à haut rendement avec sortie de 14,000 lm et indice de protection IP66",
+    "features": [
+      "Sortie de 14,000 lm",
+      "Efficacité de 140 lm/W",
+      "Protection IP66",
+      "Impact IK08",
+      "Durée de vie de 50,000 heures"
+    ]
+  },
+  "osramAvant150w": {
+    "title": "Réverbère OSRAM AVANT LED 150W",
+    "description": "Réverbère industriel 150W avec optique asymétrique et 15,000 lm",
+    "features": [
+      "Sortie de 15,000 lm",
+      "Efficacité de 130 lm/W",
+      "Homologué IP65",
+      "Impact IK10",
+      "Optique asymétrique"
+    ]
+  },
+  "philipsXitanium40w": {
+    "title": "Réverbère LED Philips Xitanium Infinity 40W",
+    "description": "Réverbère 40W ultra-efficace avec 160 lm/W et une durée de vie de 100,000 heures",
+    "features": [
+      "Sortie de 6,400 lm",
+      "Efficacité de 160 lm/W",
+      "Durée de vie de 100,000 hrs",
+      "Protection IP66",
+      "Ambre 3000K"
+    ]
+  },
+  "trinaTsm315pd14": {
+    "title": "Panneau polycristallin Trina Solar TSM-315PD14",
+    "description": "Panneau solaire polycristallin 315W avec une efficacité de 16.2% et une garantie de 25 ans",
+    "features": [
+      "Puissance de 315W",
+      "Efficacité de 16.2%",
+      "72 cellules poly",
+      "Garantie de 25 ans",
+      "1960×992×40mm"
+    ]
+  },
+  "canadianCs6p330p": {
+    "title": "Panneau polycristallin Canadian Solar CS6P-330P",
+    "description": "Panneau polycristallin 330W à haut rendement avec une efficacité de 16.97%",
+    "features": [
+      "Sortie de 330W",
+      "Efficacité de 16.97%",
+      "72 cellules poly",
+      "Système maximal de 1000V",
+      "Cote PTC de 91.89%"
+    ]
+  },
+  "canadianCs3k295p": {
+    "title": "Panneau Canadian Solar KuPower CS3K-295P",
+    "description": "Panneau polycristallin 295W avec des cotes de charge de neige et de vent élevées",
+    "features": [
+      "Puissance de 295W",
+      "Efficacité de 16%",
+      "60 cellules poly",
+      "Charge de neige de 6000 Pa",
+      "Garantie de 25 ans"
+    ]
+  },
+  "philipsGreenperform100wHighbay": {
+    "title": "Luminaire industriel LED Philips GreenPerform 100W",
+    "description": "Luminaire industriel LED 100W avec 13,000 lm et un angle de faisceau de 120°",
+    "features": [
+      "Sortie de 13,000 lm",
+      "Efficacité de 130 lm/W",
+      "Protection IP65",
+      "Faisceau large de 120°",
+      "50,000 heures"
+    ]
+  },
+  "osramLedvance150wHighbay": {
+    "title": "Luminaire industriel OSRAM LEDVANCE LED 150W",
+    "description": "Luminaire industriel 150W pour entrepôt avec 21,000 lm et un indice d'impact IK08",
+    "features": [
+      "Sortie de 21,000 lm",
+      "Efficacité de 140 lm/W",
+      "Homologué IP65/IK08",
+      "Neutre 4000K",
+      "Qualité entrepôt"
+    ]
+  },
+  "philipsCoreline200wHighbay": {
+    "title": "Luminaire industriel Philips CoreLine LED 200W",
+    "description": "Luminaire industriel LED haute puissance 200W pour des hauteurs de montage de 6 à 12 mètres",
+    "features": [
+      "Sortie de 28,000 lm",
+      "Efficacité de 140 lm/W",
+      "Montage de 6-12m",
+      "Pilote Mean Well",
+      "Protection IP65"
+    ]
+  },
+  "philipsSmartbright50wFlood": {
+    "title": "Projecteur LED Philips SmartBright 50W",
+    "description": "Projecteur LED 50W avec 5,500 lm et boîtier en aluminium moulé sous pression",
+    "features": [
+      "Sortie de 5,500 lm",
+      "Efficacité de 110 lm/W",
+      "Protection IP65",
+      "Faisceau de 110°",
+      "Lumière du jour 6500K"
+    ]
+  },
+  "osramFloodlightPro100w": {
+    "title": "Projecteur OSRAM Floodlight Pro LED 100W",
+    "description": "Projecteur professionnel 100W avec 11,000 lm et indice d'impact IK08",
+    "features": [
+      "Sortie de 11,000 lm",
+      "Efficacité de 110 lm/W",
+      "Homologué IP65/IK08",
+      "Neutre 4000K",
+      "30,000 heures"
+    ]
+  },
+  "philipsTango150wFlood": {
+    "title": "Projecteur LED Philips Tango 150W",
+    "description": "Projecteur haute puissance 150W pour l'éclairage de terrains de sport et d'espaces extérieurs",
+    "features": [
+      "Sortie de 18,000 lm",
+      "Efficacité de 120 lm/W",
+      "Protection IP66",
+      "CCT 5700K",
+      "Éclairage sportif"
+    ]
+  },
+  "firstSolarFs680": {
+    "title": "Panneau à couche mince First Solar Series 6 FS-680",
+    "description": "Panneau bifacial à couche mince CdTe 445W avec un coefficient de température supérieur",
+    "features": [
+      "Sortie de 445W",
+      "Efficacité de 18.4%",
+      "Couche mince CdTe",
+      "Coefficient de température de -0.28%/°C",
+      "Bifacial"
+    ]
+  },
+  "solarFrontierSf180s": {
+    "title": "Panneau à couche mince CIS Solar Frontier SF180-S",
+    "description": "Panneau à couche mince CIS 180W avec des performances d'ombrage supérieures",
+    "features": [
+      "Puissance de 180W",
+      "Efficacité de 13.8%",
+      "Technologie CIS",
+      "Tolérance d'ombrage supérieure",
+      "Garantie de 25 ans"
+    ]
+  },
+  "miasoleFlex02": {
+    "title": "Panneau flexible à couche mince MiaSolé FLEX-02 CIGS",
+    "description": "Panneau CIGS flexible 430W pour les surfaces incurvées et les applications mobiles",
+    "features": [
+      "Sortie de 430W",
+      "Efficacité de 17.5%",
+      "Flexible pliable",
+      "6 kg léger",
+      "VR, bateaux, incurvés"
+    ]
+  },
+  "siemensSinamicsG120c5-5kw": {
+    "title": "VFD Siemens SINAMICS G120C 5.5 kW",
+    "description": "Entraînement à fréquence variable compact de 5.5 kW avec communication USS et Modbus",
+    "features": [
+      "Puissance de 5.5 kW",
+      "Triphasé 380-480V",
+      "Sortie de 12A",
+      "Surcharge de 150%",
+      "USS, Modbus RTU"
+    ]
+  },
+  "abbAcs58011kw": {
+    "title": "Entraînement ABB ACS580 11 kW",
+    "description": "VFD de 11 kW avec API intégrée et fonction d'arrêt de couple sûr",
+    "features": [
+      "Homologué 11 kW",
+      "380-480V",
+      "API intégrée",
+      "Arrêt de couple sûr",
+      "Efficacité de 98%"
+    ]
+  },
+  "schneiderAtv3207-5kw": {
+    "title": "VFD Schneider Altivar ATV320 7.5 kW",
+    "description": "Entraînement à vitesse variable de 7.5 kW avec affichage de terminal graphique",
+    "features": [
+      "Puissance de 7.5 kW",
+      "Triphasé 380-500V",
+      "Sortie de 17A",
+      "Terminal graphique",
+      "Surcharge de 150%"
+    ]
+  },
+  "siemens3rw4445a": {
+    "title": "Démarreur progressif Siemens SIRIUS 3RW44 45A",
+    "description": "Démarreur progressif 45A avec contrôle de pompe et dérivation pour moteurs de 22 kW",
+    "features": [
+      "Homologué 45A",
+      "22 kW @ 400V",
+      "200-600V AC",
+      "Contrôle de pompe",
+      "Protection contre les surcharges"
+    ]
+  },
+  "abbPse72a": {
+    "title": "Démarreur progressif ABB PSE 72A",
+    "description": "Démarreur progressif 72A avec dérivation interne pour les applications de moteur de 37 kW",
+    "features": [
+      "Homologué 72A",
+      "37 kW @ 400V",
+      "208-600V",
+      "Dérivation interne",
+      "Couple de 30-90%"
+    ]
+  },
+  "schneiderAts2232a": {
+    "title": "Démarreur progressif Schneider Altistart ATS22 32A",
+    "description": "Démarreur progressif 32A avec contrôle de couple et optimisation de l'énergie",
+    "features": [
+      "Homologué 32A",
+      "15 kW @ 400V",
+      "208-690V",
+      "Contrôle de couple",
+      "Optimisation de l'énergie"
+    ]
+  },
+  "lappUnitronicProfibus2x22": {
+    "title": "Câble LAPP UNITRONIC BUS PROFIBUS DP",
+    "description": "Câble PROFIBUS DP industriel avec conducteurs 2x22 AWG et gaine violette",
+    "features": [
+      "PROFIBUS DP",
+      "Toronné 2x22 AWG",
+      "Impédance de 135-165 Ω",
+      "Gaine en PVC violet",
+      "CEI 61158-2"
+    ]
+  },
+  "siemensProfibusFC": {
+    "title": "Câble standard Siemens PROFIBUS FastConnect",
+    "description": "Câble PROFIBUS à connexion rapide avec connecteurs M12 ou DB9",
+    "features": [
+      "PROFIBUS DP/PA",
+      "Paire torsadée à 2 conducteurs",
+      "Jusqu'à 12 Mbps",
+      "Violet violet",
+      "M12 ou DB9"
+    ]
+  },
+  "belden3079aProfibus": {
+    "title": "Câble réseau Belden 3079A PROFIBUS",
+    "description": "Câble PROFIBUS industriel avec blindage à feuille et tresse",
+    "features": [
+      "Certifié PROFIBUS",
+      "22 AWG solide",
+      "Feuille + tresse",
+      "Impédance de 150 Ω",
+      "PVC violet"
+    ]
+  },
+  "lappEtherlineProfinetC": {
+    "title": "Câble Cat5e LAPP ETHERLINE PN Type C",
+    "description": "Câble PROFINET Cat5e à flexion continue pour chemins de câbles et chaînes porte-câbles",
+    "features": [
+      "Flexion de type C",
+      "Cat5e S/FTP",
+      "7,5M cycles de flexion",
+      "Gaine PUR verte",
+      "Homologué chaîne porte-câbles"
+    ]
+  },
+  "siemensProfinetTypeA": {
+    "title": "Câble PROFINET Siemens Type A Cat5e Fixe",
+    "description": "Câble PROFINET Cat5e pour installations stationnaires fixes",
+    "features": [
+      "Type A fixe",
+      "Cat5e blindé",
+      "Cuivre massif",
+      "Couleur verte",
+      "CEI 61784-5-3"
+    ]
+  },
+  "beldenProfinetCat6a": {
+    "title": "Belden DataTuff PROFINET Cat6a Industrial",
+    "description": "Câble PROFINET 10 Gbps Cat6a avec 10 millions de cycles de flexion",
+    "features": [
+      "Certifié Cat6a",
+      "Vitesse de 10 Gbps",
+      "Blindage S/FTP",
+      "10M cycles de flexion",
+      "UL PLTC-ER"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - Variante {{number}}",

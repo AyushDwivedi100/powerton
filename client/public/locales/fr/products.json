@@ -487,122 +487,6 @@
     }
   },
   "subcategories": {
-    "sensors": {
-      "title": "Capteurs et transducteurs",
-      "description": "Capteurs industriels pour la mesure et le contrôle"
-    },
-    "transmitters": {
-      "title": "Transmetteurs et débitmètres",
-      "description": "Transmetteurs de processus et équipements de conversion de signaux"
-    },
-    "controllers": {
-      "title": "Contrôleurs et enregistreurs",
-      "description": "Systèmes de contrôle industriels et contrôleurs d'automatisation"
-    },
-    "switches": {
-      "title": "Interrupteurs et indicateurs",
-      "description": "Interrupteurs industriels et équipements de contrôle"
-    },
-    "valves": {
-      "title": "Vannes et actionneurs",
-      "description": "Vannes industrielles et systèmes de contrôle de débit"
-    },
-    "analyzers": {
-      "title": "Analyseurs",
-      "description": "Analyseurs de processus pour le contrôle qualité"
-    },
-    "signal-conditioners": {
-      "title": "Conditionneurs de signaux",
-      "description": "Équipement de traitement et de conditionnement du signal"
-    },
-    "electrical-cables": {
-      "title": "Câbles électriques",
-      "description": "Câbles d'alimentation et de contrôle industriels pour systèmes électriques"
-    },
-    "instrumentation-cables": {
-      "title": "Câbles d'instrumentation",
-      "description": "Câbles de précision pour les systèmes de contrôle de processus et de mesure"
-    },
-    "connectors-terminals": {
-      "title": "Connecteurs et bornes",
-      "description": "Connecteurs électriques et solutions de bornes"
-    },
-    "circuit-breakers-fuses": {
-      "title": "Disjoncteurs et fusibles",
-      "description": "Dispositifs de protection électrique pour la sécurité des circuits"
-    },
-    "contactorsRelays": {
-      "title": "Contacteurs et relais",
-      "description": "Contacteurs industriels et relais de contrôle pour le contrôle moteur"
-    },
-    "power-supplies": {
-      "title": "Alimentations électriques",
-      "description": "Unités d'alimentation et convertisseurs industriels"
-    },
-    "enclosures-cabinets": {
-      "title": "Boîtiers et armoires",
-      "description": "Boîtiers électriques et solutions d'armoires de commande"
-    },
-    "heating-elements-appliances": {
-      "title": "Éléments chauffants et appareils",
-      "description": "Solutions de chauffage industriel et équipements thermiques"
-    },
-    "multimeters": {
-      "title": "Multimètres",
-      "description": "Multimètres numériques et analogiques pour les tests électriques"
-    },
-    "power-quality-analyzers": {
-      "title": "Analyseurs de qualité de l'énergie",
-      "description": "Instruments de mesure et d'analyse de la qualité de l'énergie"
-    },
-    "solar-batteries-energy-storage": {
-      "title": "Batteries solaires et stockage d'énergie",
-      "description": "Systèmes de stockage de batteries pour les applications d'énergie solaire"
-    },
-    "surge-protectors": {
-      "title": "Parafoudres",
-      "description": "Dispositifs de protection contre les surtensions électriques pour la sécurité des équipements"
-    },
-    "safety-relays-switches": {
-      "title": "Relais et interrupteurs de sécurité",
-      "description": "Relais de sécurité et interrupteurs d'arrêt d'urgence pour la sécurité industrielle"
-    },
-    "intrinsically-safe-equipment": {
-      "title": "Équipement de sécurité intrinsèque",
-      "description": "Équipement antidéflagrant et à sécurité intrinsèque pour les zones dangereuses"
-    },
-    "centrifugal-pumps": {
-      "title": "Pompes centrifuges",
-      "description": "Pompes centrifuges à haut rendement pour le transfert de fluides"
-    },
-    "diaphragm-pumps": {
-      "title": "Pompes à membrane",
-      "description": "Pompes volumétriques à membrane pour les applications chimiques"
-    },
-    "gear-pumps": {
-      "title": "Pompes à engrenages",
-      "description": "Pompes à engrenages de précision pour les fluides visqueux"
-    },
-    "pump-parts-spares": {
-      "title": "Pièces et accessoires de pompe",
-      "description": "Pièces de rechange et composants de rechange pour les pompes industrielles"
-    },
-    "hand-tools": {
-      "title": "Outils manuels",
-      "description": "Outils manuels professionnels pour la maintenance et l'assemblage industriels"
-    },
-    "power-tools": {
-      "title": "Outils électriques",
-      "description": "Outils électriques industriels pour les applications lourdes"
-    },
-    "cutting-tools": {
-      "title": "Outils de coupe",
-      "description": "Outils et équipements de coupe de précision pour le travail des métaux"
-    },
-    "lifting-equipment": {
-      "title": "Équipement de levage",
-      "description": "Palans, grues et équipements de levage pour la manutention"
-    },
     "sensors-transducers": {
       "title": "Capteurs et transducteurs",
       "description": "Capteurs et transducteurs industriels pour la mesure et le contrôle"
@@ -619,64 +503,61 @@
       "title": "Vannes et actionneurs",
       "description": "Vannes industrielles et systèmes de contrôle de débit"
     },
-    "safety-equipment": {
-      "title": "Équipement de sécurité",
-      "description": "Équipement de sécurité complet et équipement de protection individuelle pour les applications industrielles",
-      "sectionsTitle": "Solutions de sécurité",
-      "products": {
-        "ppe": {
-          "name": "Équipement de protection individuelle (EPI)",
-          "description": "Équipement de sécurité pour la protection des travailleurs",
-          "features": {
-            "hardHats": "Casques de sécurité",
-            "safetyGlasses": "Lunettes de sécurité",
-            "hearingProtection": "Protection auditive",
-            "workGloves": "Gants de travail"
-          }
-        },
-        "fallProtection": {
-          "name": "Systèmes de protection contre les chutes",
-          "description": "Harnais et équipements antichute",
-          "features": {
-            "fullBodyHarness": "Harnais complet",
-            "lanyards": "Longes",
-            "anchorPoints": "Points d'ancrage",
-            "selfRetracting": "Auto-rétractables"
-          }
-        },
-        "gasDetection": {
-          "name": "Équipement de détection de gaz",
-          "description": "Systèmes de surveillance de gaz portables et fixes",
-          "features": {
-            "multiGasDetectors": "Détecteurs multi-gaz",
-            "singleGas": "Gaz unique",
-            "wirelessMonitoring": "Surveillance sans fil",
-            "dataLogging": "Enregistrement de données"
-          }
-        }
-      },
-      "cta": {
-        "title": "Besoin d'équipement de sécurité ?",
-        "description": "Nos spécialistes en sécurité peuvent fournir des solutions de sécurité complètes pour protéger votre personnel.",
-        "contactExpertsCta": "Contacter les experts en sécurité",
-        "requestQuoteCta": "Demander un devis"
-      }
+    "analyzers": {
+      "title": "Analyseurs",
+      "description": "Analyseurs de processus pour le contrôle de la qualité"
     },
-    "bldc-cooler-exhaust-motor": {
-      "title": "Moteurs BLDC pour refroidisseur et échappement",
-      "description": "Moteurs BLDC à haut rendement énergétique pour refroidisseurs et ventilateurs d'extraction"
+    "instrument-transformers": {
+      "title": "Transformateurs d'instrument",
+      "description": "Transformateurs de courant et de potentiel pour la mesure et la protection"
     },
-    "bldc-ceiling-fan": {
-      "title": "Ventilateurs de plafond BLDC",
-      "description": "Ventilateurs de plafond BLDC ultra-efficaces avec télécommande"
+    "instrumentation-cables": {
+      "title": "Câbles d'instrumentation",
+      "description": "Câbles de précision pour les systèmes de contrôle de processus et de mesure"
     },
-    "bldc-submersible-surface-pump": {
-      "title": "Pompes submersibles et de surface BLDC",
-      "description": "Pompes BLDC à haut rendement pour les applications hydrauliques"
+    "electrical-cables": {
+      "title": "Câbles électriques",
+      "description": "Câbles d'alimentation et de contrôle industriels pour les systèmes électriques"
     },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "Moteurs BLDC pour ventilateurs de table et muraux",
-      "description": "Moteurs BLDC compacts pour ventilateurs de table et muraux"
+    "connectors-terminals": {
+      "title": "Connecteurs et bornes",
+      "description": "Connecteurs électriques et solutions de bornes"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Disjoncteurs et fusibles",
+      "description": "Dispositifs de protection électrique pour la sécurité des circuits"
+    },
+    "power-supplies": {
+      "title": "Alimentations électriques",
+      "description": "Unités d'alimentation et convertisseurs industriels"
+    },
+    "enclosures-cabinets": {
+      "title": "Boîtiers et armoires",
+      "description": "Boîtiers électriques et solutions d'armoires de commande"
+    },
+    "heating-elements-appliances": {
+      "title": "Éléments chauffants et appareils",
+      "description": "Solutions de chauffage industriel et équipements thermiques"
+    },
+    "contactors-relays": {
+      "title": "Contacteurs et relais",
+      "description": "Contacteurs de puissance et relais électromagnétiques pour la commande de moteur"
+    },
+    "transformers-power-devices": {
+      "title": "Transformateurs et dispositifs d'alimentation",
+      "description": "Transformateurs de commande et équipements de conversion de puissance"
+    },
+    "industrial-lighting": {
+      "title": "Éclairage industriel",
+      "description": "Solutions complètes d'éclairage industriel, y compris les lampadaires, les luminaires industriels à grande hauteur, les luminaires pour cuves, les projecteurs et les luminaires Well Glass dans des configurations standard, antidéflagrantes et résistantes aux intempéries"
+    },
+    "insulators-insulation-materials": {
+      "title": "Isolateurs et matériaux d'isolation",
+      "description": "Isolateurs électriques et matériaux d'isolation de haute qualité pour les systèmes d'alimentation et les équipements électriques"
+    },
+    "solar-panels": {
+      "title": "Panneaux solaires",
+      "description": "Panneaux solaires à haut rendement et systèmes photovoltaïques"
     },
     "solar-inverters": {
       "title": "Onduleurs solaires",
@@ -698,9 +579,21 @@
       "title": "IHM (Interface Homme-Machine)",
       "description": "Systèmes d'interface homme-machine pour le contrôle industriel"
     },
+    "motor-controllers-drives": {
+      "title": "Contrôleurs de moteurs et entraînements",
+      "description": "Entraînements à fréquence variable et solutions de commande de moteurs"
+    },
+    "io-modules": {
+      "title": "Modules d'E/S",
+      "description": "Modules d'entrée/sortie pour les systèmes PLC et l'automatisation industrielle"
+    },
+    "surge-protectors": {
+      "title": "Parafoudres",
+      "description": "Dispositifs de protection contre les surtensions électriques pour la sécurité des équipements"
+    },
     "grounding-systems": {
       "title": "Systèmes de mise à la terre",
-      "description": "Systèmes de mise à la terre électriques pour la sécurité et la protection des équipements",
+      "description": "Systèmes de mise à la terre électriques",
       "subtitle": "Systèmes de mise à la terre électriques pour la sécurité et la protection des équipements",
       "backButton": "Retour aux dispositifs de sécurité et de protection",
       "badges": {
@@ -717,10 +610,10 @@
           "name": "Électrodes de mise à la terre",
           "description": "Tiges de terre en cuivre et en acier pour la sécurité électrique",
           "features": {
-            "copperBonded": "Cuivre lié",
+            "copperBonded": "Liées au cuivre",
             "steelCore": "Noyau en acier",
             "multipleLengths": "Longueurs multiples",
-            "ulListed": "Listé UL"
+            "ulListed": "Listées UL"
           }
         },
         "conductors": {
@@ -745,53 +638,136 @@
         }
       },
       "cta": {
-        "title": "Besoin de solutions de mise à la terre ?",
-        "description": "Nos spécialistes de la mise à la terre peuvent concevoir des systèmes de mise à la terre sûrs et conformes aux codes pour votre installation.",
-        "contactButton": "Contacter les experts en mise à la terre",
+        "title": "Besoin de solutions de mise à la terre ?",
+        "description": "Nos spécialistes en mise à la terre peuvent concevoir des systèmes de mise à la terre sûrs et conformes au code pour votre installation.",
+        "contactButton": "Contacter des experts en mise à la terre",
         "quoteButton": "Demander un devis"
       },
-      "keyFeatures": "Principales caractéristiques :",
+      "keyFeatures": "Principales caractéristiques :",
       "seo": {
         "title": "Systèmes de mise à la terre - Équipement de sécurité électrique | Powerton Engineering",
         "description": "Systèmes de mise à la terre professionnels pour la sécurité électrique. Tiges de terre en cuivre, conducteurs, pinces et accessoires des principaux fabricants.",
         "keywords": "systèmes de mise à la terre, mise à la terre électrique, systèmes de mise à la terre, tiges de terre, conducteurs de mise à la terre, équipement de sécurité électrique, tiges de terre en cuivre, accessoires de mise à la terre, mise à la terre industrielle"
       }
     },
-    "calibration-equipment": {
-      "title": "Équipement d'étalonnage",
-      "description": "Instruments d'étalonnage de précision et équipement d'essai"
+    "safety-relays-switches": {
+      "title": "Relais et interrupteurs de sécurité",
+      "description": "Relais de sécurité et interrupteurs d'arrêt d'urgence pour la sécurité industrielle"
     },
-    "solar-panels": {
-      "title": "Panneaux solaires",
-      "description": "Panneaux solaires à haut rendement et systèmes photovoltaïques"
+    "intrinsically-safe-equipment": {
+      "title": "Équipement de sécurité intrinsèque",
+      "description": "Équipement antidéflagrant et de sécurité intrinsèque pour les zones dangereuses"
     },
-    "instrument-transformers": {
-      "title": "Transformateurs de mesure",
-      "description": "Transformateurs de courant et de tension pour la mesure et la protection"
-    },
-    "contactors-relays": {
-      "title": "Contacteurs et relais",
-      "description": "Contacteurs de puissance et relais électromagnétiques pour le contrôle des moteurs"
-    },
-    "transformers-power-devices": {
-      "title": "Transformateurs et dispositifs de puissance",
-      "description": "Transformateurs de commande et équipement de conversion de puissance"
-    },
-    "led-lighting": {
-      "title": "Éclairage LED",
-      "description": "Solutions d'éclairage LED industrielles pour les zones dangereuses et générales"
-    },
-    "motor-controllers-drives": {
-      "title": "Contrôleurs et variateurs de moteurs",
-      "description": "Variateurs de fréquence et solutions de contrôle de moteurs"
+    "safety-equipment": {
+      "title": "Équipement de sécurité",
+      "description": "Équipement de sécurité complet et équipement de protection individuelle pour les applications industrielles",
+      "sectionsTitle": "Solutions de sécurité",
+      "products": {
+        "ppe": {
+          "name": "Équipement de protection individuelle (EPI)",
+          "description": "Équipement de sécurité pour la protection des travailleurs",
+          "features": {
+            "hardHats": "Casques de sécurité",
+            "safetyGlasses": "Lunettes de sécurité",
+            "hearingProtection": "Protection auditive",
+            "workGloves": "Gants de travail"
+          }
+        },
+        "fallProtection": {
+          "name": "Systèmes de protection contre les chutes",
+          "description": "Harnais et équipement d'arrêt de chute",
+          "features": {
+            "fullBodyHarness": "Harnais complet",
+            "lanyards": "Longes",
+            "anchorPoints": "Points d'ancrage",
+            "selfRetracting": "Auto-rétractables"
+          }
+        },
+        "gasDetection": {
+          "name": "Équipement de détection de gaz",
+          "description": "Systèmes de surveillance de gaz portables et fixes",
+          "features": {
+            "multiGasDetectors": "Détecteurs multi-gaz",
+            "singleGas": "Gaz unique",
+            "wirelessMonitoring": "Surveillance sans fil",
+            "dataLogging": "Enregistrement de données"
+          }
+        }
+      },
+      "cta": {
+        "title": "Besoin d'équipement de sécurité ?",
+        "description": "Nos spécialistes en sécurité peuvent fournir des solutions de sécurité complètes pour protéger votre personnel.",
+        "contactExpertsCta": "Contacter des experts en sécurité",
+        "requestQuoteCta": "Demander un devis"
+      }
     },
     "protection-relays": {
       "title": "Relais de protection",
-      "description": "Relais de protection de moteur et de surveillance de la tension"
+      "description": "Relais de protection de moteur et relais de surveillance de tension"
+    },
+    "centrifugal-pumps": {
+      "title": "Pompes centrifuges",
+      "description": "Pompes centrifuges à haut rendement pour le transfert de fluides"
+    },
+    "diaphragm-pumps": {
+      "title": "Pompes à membrane",
+      "description": "Pompes à membrane volumétriques pour les applications chimiques"
+    },
+    "gear-pumps": {
+      "title": "Pompes à engrenages",
+      "description": "Pompes à engrenages de précision pour les fluides visqueux"
+    },
+    "pump-parts-spares": {
+      "title": "Pièces et accessoires de pompe",
+      "description": "Pièces de rechange et composants de rechange pour les pompes industrielles"
+    },
+    "hand-tools": {
+      "title": "Outils à main",
+      "description": "Outils à main professionnels pour l'assemblage et la maintenance industriels"
+    },
+    "power-tools": {
+      "title": "Outils électriques",
+      "description": "Outils électriques industriels pour les applications intensives"
+    },
+    "cutting-tools": {
+      "title": "Outils de coupe",
+      "description": "Outils et équipements de coupe de précision pour le travail des métaux"
+    },
+    "lifting-equipment": {
+      "title": "Équipement de levage",
+      "description": "Palans, grues et équipements de levage pour la manutention"
+    },
+    "multimeters": {
+      "title": "Multimètres",
+      "description": "Multimètres numériques et analogiques pour les tests électriques"
+    },
+    "power-quality-analyzers": {
+      "title": "Analyseurs de qualité de l'énergie",
+      "description": "Instruments de mesure et d'analyse de la qualité de l'énergie"
+    },
+    "calibration-equipment": {
+      "title": "Équipement d'étalonnage",
+      "description": "Instruments d'étalonnage et équipements de test de précision"
     },
     "panel-meters-indicators": {
-      "title": "Compteurs et indicateurs de panneau",
-      "description": "Compteurs de panneau analogiques et numériques pour la mesure de la tension, du courant et de la puissance"
+      "title": "Panneaux de mesure et indicateurs",
+      "description": "Panneaux de mesure analogiques et numériques pour la mesure de la tension, du courant et de la puissance"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "Moteurs de refroidisseur et d'échappement BLDC",
+      "description": "Moteurs BLDC écoénergétiques pour les refroidisseurs et les ventilateurs d'extraction"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Ventilateurs de plafond BLDC",
+      "description": "Ventilateurs de plafond BLDC ultra-efficaces avec télécommande"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Pompes submersibles et de surface BLDC",
+      "description": "Pompes BLDC à haut rendement pour les applications d'eau"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Moteurs de ventilateur de table et de ventilateur mural BLDC",
+      "description": "Moteurs BLDC compacts pour les ventilateurs de table et les ventilateurs muraux"
     }
   },
   "productPages": {

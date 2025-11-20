@@ -7002,6 +7002,633 @@
       "Babban inganci"
     ]
   },
+  "siemens3su1200Buzzer": {
+    "title": "Siemens 3SU1200-6KB10 Ƙararrawar Dutsen Panel",
+    "description": "24V AC/DC ƙararrawar masana'antu tare da fitarwar sauti 80 dB da hawan 22mm",
+    "features": [
+      "80 dB @ 10cm",
+      "24V AC/DC na duniya",
+      "Hawan zagaye 22mm",
+      "Kariyar IP40",
+      "Mitar 2.4 kHz"
+    ]
+  },
+  "abbCb1610rBuzzer": {
+    "title": "ABB CB1-610R Ƙararrawa Mai Haske",
+    "description": "Ƙararrawar masana'antu mai bugun jini tare da jan alamar LED da ƙimar IP66",
+    "features": [
+      "Sautin bugun jini 90 dB",
+      "Jan LED an haɗa",
+      "IP66/IP67/IP69K mai ƙima",
+      "Dutsen panel 22mm",
+      "Aikin 24V AC/DC"
+    ]
+  },
+  "siemens8wd4250Buzzer": {
+    "title": "Siemens 8WD4250-0FA Ƙararrawar Ginshiƙin Sigina",
+    "description": "230V AC ƙararrawar sigina na masana'antu don ginshiƙan sigina 50mm",
+    "features": [
+      "Fitarwa 80-85 dB",
+      "230V AC mai ƙarfi",
+      "Dutsen ginshiƙi 50mm",
+      "25 mA halin yanzu",
+      "Siginar masana'antu"
+    ]
+  },
+  "polycabLtXlpeArmoured3core25": {
+    "title": "Polycab LT XLPE Kebul Mai Sulke 3C x 25 sq.mm",
+    "description": "650/1100V XLPE kebul mai sulke mai ruɓaɓɓen waya mai ƙarfe",
+    "features": [
+      "650/1100V mai ƙima",
+      "Jan jan mai jan gora",
+      "XLPE rufi",
+      "Sarkar waya mai ƙarfe",
+      "IS 7098 Sashe na 1"
+    ]
+  },
+  "keiAluminiumArmoured4core70": {
+    "title": "KEI Kebul Mai Sulke na Aluminium 4C x 70 sq.mm",
+    "description": "1.1 kV XLPE kebul mai sulke tare da mai gudanarwa aluminium da sulken band ɗin ƙarfe",
+    "features": [
+      "1.1 kV LT mai ƙima",
+      "Aluminium mai jan gora",
+      "Tsarin ainihi 4",
+      "Sulken band ɗin ƙarfe",
+      "Matsayin IS 7098"
+    ]
+  },
+  "polycabHtXlpe11kvArmoured185": {
+    "title": "Polycab HT XLPE 11kV Kebul Mai Sulke 1C x 185 sq.mm",
+    "description": "6.35/11 kV kebul mai ƙarfi tare da fitarwa uku XLPE da tagulla allo",
+    "features": [
+      "6.35/11 kV HT",
+      "Jan gudanarwa mai cike da cunkoso",
+      "Fitarwa uku XLPE",
+      "Allon tagulla",
+      "IEC 60502-2"
+    ]
+  },
+  "polycabFlexibleMulticore4core2-5": {
+    "title": "Polycab Kebul Mai Sauƙi Mai Yawa 4C x 2.5 sq.mm",
+    "description": "650/1100V PVC kebul mai sassauƙa mai ruɓi tare da aji 5 jan gudanarwa",
+    "features": [
+      "650/1100V mai ƙima",
+      "Aji 5 mai sassauƙa",
+      "4 PVC mai ruɓi",
+      "-15°C zuwa +70°C",
+      "IS 694:2010"
+    ]
+  },
+  "keiFlexibleFrls6core4": {
+    "title": "KEI Kebul FR-LSH Mai Sauƙi 6C x 4 sq.mm",
+    "description": "1100V mai jinkirin wuta ƙaramin hayaki kebul mai sassauƙa mara halogen",
+    "features": [
+      "1100V mai ƙima",
+      "FR-LSH sheath",
+      "Ainihi 6 an haɗa",
+      "Har zuwa 105°C",
+      "IS 694, BS 6500"
+    ]
+  },
+  "polycabFlexibleSingle16": {
+    "title": "Polycab Kebul Mai Sauƙi Mai Ainihi 16 sq.mm",
+    "description": "1100V kebul mai sassauƙa mai ainihi ɗaya don bangarori masu sarrafawa da aiki da kai",
+    "features": [
+      "1100V mai ƙima",
+      "Ainihi ɗaya",
+      "Jan mai sassauƙa",
+      "PVC mai ruɓi",
+      "Aikace-aikacen sarrafawa"
+    ]
+  },
+  "beldenCat6aProfinet": {
+    "title": "Belden Cat6a DataTuff PROFINET Kebul",
+    "description": "10 Gbps kebul na masana'antu na Ethernet tare da PUR jaket don PROFINET da EtherCAT",
+    "features": [
+      "Cat6a mai ƙima",
+      "Gudun 10 Gbps",
+      "An kariya sau biyu",
+      "PUR jaket",
+      "PROFINET mai tabbatarwa"
+    ]
+  },
+  "lappEtherlineCat5e": {
+    "title": "LAPP ETHERLINE Cat5e PROFINET Kebul",
+    "description": "Kebul na Cat5e S/FTP na masana'antu don aikace-aikacen PROFINET da EtherNet/IP",
+    "features": [
+      "Cat5e mai tabbatarwa",
+      "100 Mbps",
+      "S/FTP mai kariya",
+      "PVC mara Halogen",
+      "IEC 61784-5-3"
+    ]
+  },
+  "siemensFcCat6": {
+    "title": "Siemens SIMATIC NET FastConnect Cat6 Kebul",
+    "description": "Kebul na Cat6 Ethernet na masana'antu tare da tsarin haɗuwa mai sauri don aiki da kai",
+    "features": [
+      "Matsayin Cat6",
+      "Gudun 1 Gbps",
+      "EMC mai kariya",
+      "Haɗuwa mai sauri",
+      "Darajar masana'antu"
+    ]
+  },
+  "abbOfafGg125a": {
+    "title": "ABB OFAF gG 125A HRC Fuse 500V",
+    "description": "125A gG-type HRC fuse tare da 80 kA ƙarfin karya don kariya ta gabaɗaya",
+    "features": [
+      "125A mai ƙima",
+      "500V AC",
+      "80 kA karya",
+      "Fuse mai girman 00",
+      "IEC 60269"
+    ]
+  },
+  "siemens3na3250a": {
+    "title": "Siemens 3NA3 250A DIN HRC Fuse",
+    "description": "250A NH1 girman gG fuse tare da 120 kA ƙarfin karya",
+    "features": [
+      "250A mai ƙima",
+      "500V AC",
+      "NH1 girman",
+      "120 kA karya",
+      "IS 13703"
+    ]
+  },
+  "abbCef100aMv": {
+    "title": "ABB CEF 100A Fuse na Matsakaicin Wutar Lantarki HRC",
+    "description": "12 kV kebul na iyakacin halin yanzu don kariyar transfoma",
+    "features": [
+      "100A mai ƙima",
+      "Matsakaicin wutar lantarki 12 kV",
+      "Iyakan halin yanzu",
+      "Kariyar transfoma",
+      "IEC 60282-1"
+    ]
+  },
+  "siemensSitopPsu820020a": {
+    "title": "Siemens SITOP PSU8200 24V/20A Samar da Wutar Lantarki",
+    "description": "480W DIN rail SMPS tare da inganci 93% da faɗin kewayon shigarwa",
+    "features": [
+      "Fitarwa 480W",
+      "24V DC / 20A",
+      "Inganci 93%",
+      "Shigar AC 120-230V",
+      "Dutsen DIN rail"
+    ]
+  },
+  "phoenixQuintPs10a": {
+    "title": "Phoenix Contact QUINT POWER 24V/10A SMPS",
+    "description": "Samar da wutar lantarki 240W tare da fasahar Zaɓin Karya Fuse",
+    "features": [
+      "Fitarwa 240W",
+      "24V DC / 10A",
+      "93% mai inganci",
+      "Fasahar SFB",
+      "100-240V AC"
+    ]
+  },
+  "siemensSitopPsu100s10a": {
+    "title": "Siemens SITOP PSU100S 24V/10A SMPS",
+    "description": "SMPS mai mataki ɗaya 240W tare da takardar shaidar UL da CSA",
+    "features": [
+      "Wutar lantarki 240W",
+      "24V DC / 10A",
+      "AC mai mataki ɗaya",
+      "UL, CSA, CE",
+      "DIN rail"
+    ]
+  },
+  "siemens3rt202725a": {
+    "title": "Siemens SIRIUS 3RT2027 25A Contactor",
+    "description": "25A AC-3 mai ƙima mai lambobi 3 tare da 11 kW ƙarfin ƙima a 400V",
+    "features": [
+      "25A @ 400V AC-3",
+      "11 kW @ 400V",
+      "Sanduna 3 + 1NO+1NC",
+      "Girma S0",
+      "Coil 230V AC"
+    ]
+  },
+  "abbAf140140a": {
+    "title": "ABB AF140 140A AC Contactor",
+    "description": "140A AC-3 contactor tare da coil na duniya da ƙarfin ƙima 75 kW",
+    "features": [
+      "140A @ 400V AC-3",
+      "75 kW @ 400V",
+      "Coil na duniya",
+      "Har zuwa 690V",
+      "200A AC-1"
+    ]
+  },
+  "schneiderLc1d3232a": {
+    "title": "Schneider TeSys LC1D32 32A Contactor",
+    "description": "32A AC-3 TeSys D line contactor tare da 15 kW ƙarfin ƙima",
+    "features": [
+      "32A @ 400V AC-3",
+      "15 kW @ 400V",
+      "Wutar lantarki 690V",
+      "Zaɓuɓɓukan coil da yawa",
+      "50A AC-1"
+    ]
+  },
+  "abbCtMvsTimer": {
+    "title": "ABB CT-MVS.12S Relay Mai Ayyuka Da yawa",
+    "description": "Lokacin DIN rail tare da ayyukan lokaci 11 da kewayon 0.05s zuwa 100h",
+    "features": [
+      "Ayyukan lokaci 11",
+      "0.05s zuwa 100h",
+      "24-240V AC/DC",
+      "1C/O relay 6A",
+      "Faɗin 17.5mm"
+    ]
+  },
+  "schneiderRe17ramuTimer": {
+    "title": "Schneider Harmony RE17RAMU Timer Biyu",
+    "description": "ON/OFF-jinkirin relay mai lokaci biyu tare da kewayon lokaci 1s zuwa 100h",
+    "features": [
+      "Jinkirin ON/OFF Biyu",
+      "Kewayon 1s zuwa 100h",
+      "24-240V AC/DC",
+      "Fitarwa 1CO 8A",
+      "Dutsen DIN rail"
+    ]
+  },
+  "abbCtAhcTimer": {
+    "title": "ABB CT-AHC.12 Jinkirin Kashewa",
+    "description": "Aikin lokaci ɗaya jinkirin kashewa tare da kewayo 7 har zuwa 100h",
+    "features": [
+      "Aikin jinkirin kashewa",
+      "0.05s zuwa 100h",
+      "Kewayo 7",
+      "24-240V AC/DC",
+      "Kariyar IP50"
+    ]
+  },
+  "abbX4250psf1": {
+    "title": "ABB X4250PSF1 Sarrafa Canjin 250VA",
+    "description": "Canjin 250VA mai sakandare biyu tare da ƙirar dutsen panel",
+    "features": [
+      "250 VA mai ƙima",
+      "Firamare 240/480V",
+      "Sakandare 115/24V Biyu",
+      "50/60 Hz",
+      "UL, CSA, NEMA"
+    ]
+  },
+  "siemensMt0500a": {
+    "title": "Siemens MT0500A Sarrafa Canjin 500VA",
+    "description": "500VA aji MT transfoma tare da hawan zafin jiki 55°C",
+    "features": [
+      "Ƙarfi 500 VA",
+      "Firamare 240/480V",
+      "Sakandare 120/240V",
+      "Aji 105°C",
+      "UL, CSA mai tabbatarwa"
+    ]
+  },
+  "abbX4100psf1": {
+    "title": "ABB X4100PSF1 Sarrafa Canjin 100VA",
+    "description": "100VA epoxy transfoma mai ɗaukar nauyi tare da firamare da sakandare hadawa",
+    "features": [
+      "100 VA mai ƙima",
+      "Firamare 208/230/460V",
+      "Sakandare 115/24V",
+      "An ɗauke ta epoxy",
+      "Kariyar hadawa"
+    ]
+  },
+  "abbMvCt1005": {
+    "title": "ABB MV Canjin Halin Yanzu 100/5A 5P20",
+    "description": "12 kV matsakaiciyar wutar lantarki CT tare da aji daidaito 5P20 don kariya",
+    "features": [
+      "Rabo 100/5A",
+      "Daidaito 5P20",
+      "Nauyi 15 VA",
+      "12 kV mai ƙima",
+      "IEC 61869-2"
+    ]
+  },
+  "siemens4nc5Ct6005": {
+    "title": "Siemens 4NC5 Canjin Halin Yanzu 600/5A",
+    "description": "Auna aji 0.5 CT tare da nauyin 10 VA don na'urorin PAC",
+    "features": [
+      "Rabo 600/5A",
+      "Auna aji 0.5",
+      "Nauyi 10 VA",
+      "PAC mai jituwa",
+      "IEC 61869"
+    ]
+  },
+  "abbLvCt4005": {
+    "title": "ABB LV Canjin Halin Yanzu 400/5A Aji 0.2S",
+    "description": "Madaidaicin auna CT tare da aji daidaito 0.2S da zaɓuɓɓukan fitarwa biyu",
+    "features": [
+      "400/5A ko 400/1A",
+      "Daidaito Aji 0.2S",
+      "Nauyi 10 VA",
+      "Daidaito ±0.2%",
+      "Ƙananan wutar lantarki"
+    ]
+  },
+  "philipsSmartbright100w": {
+    "title": "Philips SmartBright LED 100W Hasken Titi",
+    "description": "Babban inganci 100W LED hasken titi tare da fitarwa 14,000 lm da ƙimar IP66",
+    "features": [
+      "Fitarwa 14,000 lm",
+      "140 lm/W tasiri",
+      "Kariyar IP66",
+      "Tasirin IK08",
+      "Rayuwar awanni 50,000"
+    ]
+  },
+  "osramAvant150w": {
+    "title": "OSRAM AVANT LED 150W Hasken Titi",
+    "description": "Fitilar titi na masana'antu 150W tare da asymmetric optics da 15,000 lm",
+    "features": [
+      "Fitarwa 15,000 lm",
+      "130 lm/W tasiri",
+      "IP65 mai ƙima",
+      "Tasirin IK10",
+      "Asymmetric optics"
+    ]
+  },
+  "philipsXitanium40w": {
+    "title": "Philips Xitanium Infinity 40W LED Hasken Titi",
+    "description": "Babban inganci 40W hasken titi tare da 160 lm/W da rayuwar awanni 100,000",
+    "features": [
+      "Fitarwa 6,400 lm",
+      "160 lm/W tasiri",
+      "Rayuwar awanni 100,000",
+      "Kariyar IP66",
+      "Amber 3000K"
+    ]
+  },
+  "trinaTsm315pd14": {
+    "title": "Trina Solar TSM-315PD14 Panel Polycrystalline",
+    "description": "Panel hasken rana mai 315W polycrystalline tare da inganci 16.2% da garanti na shekaru 25",
+    "features": [
+      "Ƙarfin 315W",
+      "Inganci 16.2%",
+      "Kwayoyin 72 poly",
+      "Garantin shekaru 25",
+      "1960×992×40mm"
+    ]
+  },
+  "canadianCs6p330p": {
+    "title": "Canadian Solar CS6P-330P Panel Polycrystalline",
+    "description": "330W babban inganci panel mai yawa tare da inganci 16.97%",
+    "features": [
+      "Fitarwa 330W",
+      "Inganci 16.97%",
+      "Kwayoyin 72 poly",
+      "Max tsarin 1000V",
+      "91.89% PTC rating"
+    ]
+  },
+  "canadianCs3k295p": {
+    "title": "Canadian Solar KuPower CS3K-295P Panel",
+    "description": "295W polycrystalline panel tare da babban dusar ƙanƙara da ƙimar ɗaukar iska",
+    "features": [
+      "Ƙarfin 295W",
+      "Inganci 16%",
+      "Kwayoyin 60 poly",
+      "Nauyin dusar ƙanƙara 6000 Pa",
+      "Garantin shekaru 25"
+    ]
+  },
+  "philipsGreenperform100wHighbay": {
+    "title": "Philips GreenPerform LED 100W Babban Wuri",
+    "description": "Masana'antu 100W LED babban wuri tare da 13,000 lm da kusurwar katako 120°",
+    "features": [
+      "Fitarwa 13,000 lm",
+      "130 lm/W tasiri",
+      "Kariyar IP65",
+      "Katako mai faɗi 120°",
+      "Awanni 50,000"
+    ]
+  },
+  "osramLedvance150wHighbay": {
+    "title": "OSRAM LEDVANCE LED 150W Babban Wurin Masana'antu",
+    "description": "Fitilar babban wurin ajiya 150W tare da 21,000 lm da tasirin IK08",
+    "features": [
+      "Fitarwa 21,000 lm",
+      "140 lm/W tasiri",
+      "IP65/IK08 mai ƙima",
+      "Tsaka tsaki 4000K",
+      "Darajar ajiya"
+    ]
+  },
+  "philipsCoreline200wHighbay": {
+    "title": "Philips CoreLine LED 200W Babban Wuri",
+    "description": "Babban wutar lantarki 200W LED babban wuri don tsayin hawa 6-12 mita",
+    "features": [
+      "Fitarwa 28,000 lm",
+      "140 lm/W tasiri",
+      "Hawan 6-12m",
+      "Direban Ma'anar Rijiyar",
+      "Kariyar IP65"
+    ]
+  },
+  "philipsSmartbright50wFlood": {
+    "title": "Philips SmartBright LED 50W Hasken Ambaliya",
+    "description": "50W LED fitilar ambaliya tare da 5,500 lm da gidaje aluminum simintin mutu",
+    "features": [
+      "Fitarwa 5,500 lm",
+      "110 lm/W tasiri",
+      "Kariyar IP65",
+      "Katako 110°",
+      "Hasken rana 6500K"
+    ]
+  },
+  "osramFloodlightPro100w": {
+    "title": "OSRAM Hasken Ambaliya Pro LED 100W",
+    "description": "Ƙwararriyar fitilar ambaliya 100W tare da 11,000 lm da tasirin IK08",
+    "features": [
+      "Fitarwa 11,000 lm",
+      "110 lm/W tasiri",
+      "IP65/IK08 mai ƙima",
+      "Tsaka tsaki 4000K",
+      "Awanni 30,000"
+    ]
+  },
+  "philipsTango150wFlood": {
+    "title": "Philips Tango LED 150W Hasken Ambaliya",
+    "description": "Babban wutar lantarki 150W fitilar ambaliya don wasanni da hasken waje",
+    "features": [
+      "Fitarwa 18,000 lm",
+      "120 lm/W tasiri",
+      "Kariyar IP66",
+      "5700K CCT",
+      "Hasken wasanni"
+    ]
+  },
+  "firstSolarFs680": {
+    "title": "First Solar Series 6 FS-680 Panel Mai Bakin Fim",
+    "description": "445W CdTe bakin-fim panel mai fuska biyu tare da mafi kyawun coefficient zafin jiki",
+    "features": [
+      "Fitarwa 445W",
+      "Inganci 18.4%",
+      "CdTe bakin-fim",
+      "Coefficient zafin jiki -0.28%/°C",
+      "Fuska biyu"
+    ]
+  },
+  "solarFrontierSf180s": {
+    "title": "Solar Frontier SF180-S CIS Panel Mai Bakin Fim",
+    "description": "180W CIS bakin-fim panel tare da mafi kyawun aikin inuwa",
+    "features": [
+      "Ƙarfin 180W",
+      "Inganci 13.8%",
+      "Fasahar CIS",
+      "Mafi kyawun jure inuwa",
+      "Garantin shekaru 25"
+    ]
+  },
+  "miasoleFlex02": {
+    "title": "MiaSolé FLEX-02 CIGS Panel Mai Bakin Fim Mai Sauƙi",
+    "description": "430W CIGS panel mai sassauƙa don saman mai lankwasa da aikace-aikacen wayar hannu",
+    "features": [
+      "Fitarwa 430W",
+      "Inganci 17.5%",
+      "Mai sassauƙa mai lanƙwasa",
+      "6 kg mai sauƙi",
+      "RVs, jiragen ruwa, mai lankwasa"
+    ]
+  },
+  "siemensSinamicsG120c5-5kw": {
+    "title": "Siemens SINAMICS G120C VFD 5.5 kW",
+    "description": "5.5 kW madaidaicin mitar mita tare da USS da sadarwa ta Modbus",
+    "features": [
+      "Ƙarfin 5.5 kW",
+      "Matakai 3 na 380-480V",
+      "Fitarwa 12A",
+      "Yawan lodin 150%",
+      "USS, Modbus RTU"
+    ]
+  },
+  "abbAcs58011kw": {
+    "title": "ABB ACS580 Drive 11 kW",
+    "description": "11 kW VFD tare da PLC da aka gina a ciki da aikin tsayawa mai aminci",
+    "features": [
+      "11 kW mai ƙima",
+      "380-480V",
+      "PLC da aka gina a ciki",
+      "Tsaya mai aminci",
+      "Inganci 98%"
+    ]
+  },
+  "schneiderAtv3207-5kw": {
+    "title": "Schneider Altivar ATV320 VFD 7.5 kW",
+    "description": "7.5 kW mitar sauri mai canzawa tare da nunin tashar hoto",
+    "features": [
+      "Ƙarfin 7.5 kW",
+      "Matakai 3 na 380-500V",
+      "Fitarwa 17A",
+      "Tashar hoto",
+      "Yawan lodin 150%"
+    ]
+  },
+  "siemens3rw4445a": {
+    "title": "Siemens SIRIUS 3RW44 Mai Farawa Mai Taushi 45A",
+    "description": "Mai farawa mai taushi 45A tare da sarrafa famfo da wucewa don injinan 22 kW",
+    "features": [
+      "45A mai ƙima",
+      "22 kW @ 400V",
+      "200-600V AC",
+      "Sarrafa famfo",
+      "Kariyar yawan lodi"
+    ]
+  },
+  "abbPse72a": {
+    "title": "ABB PSE Mai Farawa Mai Taushi 72A",
+    "description": "Mai farawa mai taushi 72A tare da wucewa ta ciki don aikace-aikacen mota 37 kW",
+    "features": [
+      "72A mai ƙima",
+      "37 kW @ 400V",
+      "208-600V",
+      "Wucewa ta ciki",
+      "Torque 30-90%"
+    ]
+  },
+  "schneiderAts2232a": {
+    "title": "Schneider Altistart ATS22 Mai Farawa Mai Taushi 32A",
+    "description": "Mai farawa mai taushi 32A tare da sarrafa torque da haɓaka makamashi",
+    "features": [
+      "32A mai ƙima",
+      "15 kW @ 400V",
+      "208-690V",
+      "Sarrafa torque",
+      "Haɓaka makamashi"
+    ]
+  },
+  "lappUnitronicProfibus2x22": {
+    "title": "LAPP UNITRONIC BUS PROFIBUS DP Kebul",
+    "description": "Kebul na PROFIBUS DP na masana'antu tare da masu gudanarwa 2x22 AWG da jaket mai launin shunayya",
+    "features": [
+      "PROFIBUS DP",
+      "2x22 AWG mai tsayi",
+      "135-165 Ω impedance",
+      "Jaket PVC mai launin shunayya",
+      "IEC 61158-2"
+    ]
+  },
+  "siemensProfibusFC": {
+    "title": "Siemens PROFIBUS FastConnect Kebul Mai Daidaitacce",
+    "description": "Kebul PROFIBUS mai haɗawa da sauri tare da M12 ko DB9 masu haɗawa",
+    "features": [
+      "PROFIBUS DP/PA",
+      "Madauki-biyu mai karkatarwa",
+      "Har zuwa 12 Mbps",
+      "Shunayya mai haske",
+      "M12 ko DB9"
+    ]
+  },
+  "belden3079aProfibus": {
+    "title": "Belden 3079A Kebul na Sadarwar PROFIBUS",
+    "description": "Kebul PROFIBUS na masana'antu tare da foil da kariya",
+    "features": [
+      "PROFIBUS mai tabbatarwa",
+      "22 AWG m",
+      "Foil + kariya",
+      "150 Ω impedance",
+      "PVC mai launin shunayya"
+    ]
+  },
+  "lappEtherlineProfinetC": {
+    "title": "LAPP ETHERLINE PN Nau'in Cat5e Kebul",
+    "description": "Kebul na Cat5e PROFINET mai sassauƙa mai ci gaba don waƙoƙin kebul da sarƙoƙin ja",
+    "features": [
+      "Nau'in C mai sassauƙa",
+      "Cat5e S/FTP",
+      "Zagayowar sassauƙa 7.5M",
+      "Jaket PUR kore",
+      "Sarkar ja mai ƙima"
+    ]
+  },
+  "siemensProfinetTypeA": {
+    "title": "Siemens PROFINET Kebul Nau'in A Cat5e An Gyara",
+    "description": "Cat5e kebul na PROFINET don kafaffen shigarwar tsaye",
+    "features": [
+      "Nau'in A an gyara",
+      "Cat5e mai kariya",
+      "Jan ƙarfe m",
+      "Launin kore",
+      "IEC 61784-5-3"
+    ]
+  },
+  "beldenProfinetCat6a": {
+    "title": "Belden DataTuff PROFINET Cat6a Masana'antu",
+    "description": "10 Gbps Cat6a kebul na PROFINET tare da zagayowar sassauƙa miliyan 10",
+    "features": [
+      "Cat6a mai tabbatarwa",
+      "Gudun 10 Gbps",
+      "S/FTP mai kariya",
+      "Zagayowar sassauƙa 10M",
+      "UL PLTC-ER"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - Variant {{number}}",

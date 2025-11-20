@@ -6215,6 +6215,633 @@
     "description": "366VA 住宅微型逆变器，具有 IP67 等级和阳光备用能力",
     "features": ["366VA 输出", "住宅使用", "IP67 防护", "阳光备用", "高效率"]
   },
+  "siemens3su1200Buzzer": {
+    "title": "Siemens 3SU1200-6KB10 面板安装蜂鸣器",
+    "description": "24V AC/DC 工业蜂鸣器，具有 80 dB 的声音输出和 22mm 的安装",
+    "features": [
+      "80 dB @ 10cm",
+      "24V AC/DC 通用",
+      "22mm 圆形安装",
+      "IP40 防护",
+      "2.4 kHz 频率"
+    ]
+  },
+  "abbCb1610rBuzzer": {
+    "title": "ABB CB1-610R 照明蜂鸣器",
+    "description": "具有红色 LED 指示和 IP66 等级的工业脉动蜂鸣器",
+    "features": [
+      "90 dB 脉动音调",
+      "集成红色 LED",
+      "IP66/IP67/IP69K 额定值",
+      "22mm 面板安装",
+      "24V AC/DC 操作"
+    ]
+  },
+  "siemens8wd4250Buzzer": {
+    "title": "西门子 8WD4250-0FA 信号柱蜂鸣器",
+    "description": "用于 50mm 信号柱的 230V AC 工业信号蜂鸣器",
+    "features": [
+      "80-85 dB 输出",
+      "230V 交流供电",
+      "50mm 柱安装",
+      "25 mA 电流",
+      "工业信号"
+    ]
+  },
+  "polycabLtXlpeArmoured3core25": {
+    "title": "Polycab LT XLPE 铠装电缆 3 芯 x 25 平方毫米",
+    "description": "650/1100V XLPE 绝缘铠装电缆，带镀锌钢丝铠装",
+    "features": [
+      "650/1100V 额定值",
+      "铜绞线导体",
+      "XLPE 绝缘",
+      "钢丝铠装",
+      "IS 7098 第 1 部分"
+    ]
+  },
+  "keiAluminiumArmoured4core70": {
+    "title": "KEI 铝铠装电缆 4 芯 x 70 平方毫米",
+    "description": "1.1 kV XLPE 铠装电缆，带铝导体和钢带铠装",
+    "features": [
+      "1.1 kV LT 额定值",
+      "铝绞线",
+      "4 芯配置",
+      "钢带铠装",
+      "IS 7098 标准"
+    ]
+  },
+  "polycabHtXlpe11kvArmoured185": {
+    "title": "Polycab HT XLPE 11kV 铠装电缆 1 芯 x 185 平方毫米",
+    "description": "6.35/11 kV 高压电缆，具有三重挤压 XLPE 和铜带屏蔽",
+    "features": [
+      "6.35/11 kV HT",
+      "铜紧凑导体",
+      "三重挤压 XLPE",
+      "铜带屏蔽",
+      "IEC 60502-2"
+    ]
+  },
+  "polycabFlexibleMulticore4core2-5": {
+    "title": "Polycab 柔性多芯电缆 4 芯 x 2.5 平方毫米",
+    "description": "650/1100V PVC 绝缘柔性电缆，带 5 类铜导体",
+    "features": [
+      "650/1100V 额定值",
+      "5 类柔性",
+      "4 芯 PVC 绝缘",
+      "-15°C 至 +70°C",
+      "IS 694:2010"
+    ]
+  },
+  "keiFlexibleFrls6core4": {
+    "title": "KEI 柔性 FR-LSH 电缆 6 芯 x 4 平方毫米",
+    "description": "1100V 阻燃低烟无卤柔性电缆",
+    "features": [
+      "1100V 额定值",
+      "FR-LSH 护套",
+      "6 芯束",
+      "高达 105°C",
+      "IS 694, BS 6500"
+    ]
+  },
+  "polycabFlexibleSingle16": {
+    "title": "Polycab 柔性单芯电缆 16 平方毫米",
+    "description": "用于控制面板和自动化的 1100V 单芯柔性电缆",
+    "features": [
+      "1100V 额定值",
+      "单芯",
+      "铜柔性",
+      "PVC 绝缘",
+      "控制应用"
+    ]
+  },
+  "beldenCat6aProfinet": {
+    "title": "Belden Cat6a DataTuff PROFINET 电缆",
+    "description": "具有 PUR 护套的 10 Gbps 工业以太网电缆，适用于 PROFINET 和 EtherCAT",
+    "features": [
+      "Cat6a 额定值",
+      "10 Gbps 速度",
+      "双重屏蔽",
+      "PUR 护套",
+      "PROFINET 认证"
+    ]
+  },
+  "lappEtherlineCat5e": {
+    "title": "LAPP ETHERLINE Cat5e PROFINET 电缆",
+    "description": "用于 PROFINET 和 EtherNet/IP 应用的工业 Cat5e S/FTP 电缆",
+    "features": [
+      "Cat5e 认证",
+      "100 Mbps",
+      "S/FTP 屏蔽",
+      "无卤 PVC",
+      "IEC 61784-5-3"
+    ]
+  },
+  "siemensFcCat6": {
+    "title": "西门子 SIMATIC NET FastConnect Cat6 电缆",
+    "description": "具有快速组装系统的工业 Cat6 以太网电缆，用于自动化",
+    "features": [
+      "Cat6 标准",
+      "1 Gbps 速度",
+      "EMC 屏蔽",
+      "快速组装",
+      "工业级"
+    ]
+  },
+  "abbOfafGg125a": {
+    "title": "ABB OFAF gG 125A HRC 熔断器 500V",
+    "description": "125A gG 型 HRC 熔断器，具有 80 kA 分断能力，用于通用保护",
+    "features": [
+      "125A 额定电流",
+      "500V 交流",
+      "80 kA 分断",
+      "00 尺寸熔断器",
+      "IEC 60269"
+    ]
+  },
+  "siemens3na3250a": {
+    "title": "西门子 3NA3 250A DIN HRC 熔断器",
+    "description": "250A NH1 尺寸 gG 熔断器，具有 120 kA 分断能力",
+    "features": [
+      "250A 额定值",
+      "500V 交流",
+      "NH1 尺寸",
+      "120 kA 分断",
+      "IS 13703"
+    ]
+  },
+  "abbCef100aMv": {
+    "title": "ABB CEF 100A 中压 HRC 熔断器",
+    "description": "用于变压器保护的 12 kV 后备限流熔断器",
+    "features": [
+      "100A 额定值",
+      "12 kV 中压",
+      "限流",
+      "变压器保护",
+      "IEC 60282-1"
+    ]
+  },
+  "siemensSitopPsu820020a": {
+    "title": "西门子 SITOP PSU8200 24V/20A 电源",
+    "description": "480W DIN 导轨 SMPS，具有 93% 的效率和宽输入范围",
+    "features": [
+      "480W 输出",
+      "24V 直流 / 20A",
+      "93% 效率",
+      "120-230V 交流输入",
+      "DIN 导轨安装"
+    ]
+  },
+  "phoenixQuintPs10a": {
+    "title": "菲尼克斯电气 QUINT POWER 24V/10A SMPS",
+    "description": "具有选择性熔断器跳闸技术的 240W 电源",
+    "features": [
+      "240W 输出",
+      "24V 直流 / 10A",
+      "93% 高效",
+      "SFB 技术",
+      "100-240V 交流"
+    ]
+  },
+  "siemensSitopPsu100s10a": {
+    "title": "西门子 SITOP PSU100S 24V/10A SMPS",
+    "description": "具有 UL 和 CSA 认证的 240W 单相 SMPS",
+    "features": [
+      "240W 功率",
+      "24V 直流 / 10A",
+      "单相交流",
+      "UL, CSA, CE",
+      "DIN 导轨"
+    ]
+  },
+  "siemens3rt202725a": {
+    "title": "西门子 SIRIUS 3RT2027 25A 接触器",
+    "description": "25A AC-3 额定 3 极接触器，在 400V 时具有 11 kW 功率",
+    "features": [
+      "25A @ 400V AC-3",
+      "11 kW @ 400V",
+      "3 极 + 1NO+1NC",
+      "S0 尺寸",
+      "230V 交流线圈"
+    ]
+  },
+  "abbAf140140a": {
+    "title": "ABB AF140 140A 交流接触器",
+    "description": "具有通用线圈和 75 kW 功率的 140A AC-3 接触器",
+    "features": [
+      "140A @ 400V AC-3",
+      "75 kW @ 400V",
+      "通用线圈",
+      "高达 690V",
+      "200A AC-1"
+    ]
+  },
+  "schneiderLc1d3232a": {
+    "title": "施耐德 TeSys LC1D32 32A 接触器",
+    "description": "32A AC-3 额定 TeSys D 系列接触器，具有 15 kW 功率",
+    "features": [
+      "32A @ 400V AC-3",
+      "15 kW @ 400V",
+      "690V 电压",
+      "多个线圈选项",
+      "50A AC-1"
+    ]
+  },
+  "abbCtMvsTimer": {
+    "title": "ABB CT-MVS.12S 多功能定时器继电器",
+    "description": "具有 11 个定时功能和 0.05 秒至 100 小时范围的 DIN 导轨定时器",
+    "features": [
+      "11 个定时功能",
+      "0.05 秒至 100 小时",
+      "24-240V AC/DC",
+      "1C/O 继电器 6A",
+      "17.5mm 宽度"
+    ]
+  },
+  "schneiderRe17ramuTimer": {
+    "title": "施耐德 Harmony RE17RAMU 双定时器",
+    "description": "具有 1 秒至 100 小时时间范围的 ON/OFF 延迟双定时器继电器",
+    "features": [
+      "双 ON/OFF 延迟",
+      "1 秒至 100 小时范围",
+      "24-240V AC/DC",
+      "1CO 8A 输出",
+      "DIN 导轨安装"
+    ]
+  },
+  "abbCtAhcTimer": {
+    "title": "ABB CT-AHC.12 OFF-延迟定时器",
+    "description": "具有 7 个时间范围（高达 100 小时）的单功能 OFF-延迟定时器",
+    "features": [
+      "OFF-延迟功能",
+      "0.05 秒至 100 小时",
+      "7 个时间范围",
+      "24-240V AC/DC",
+      "IP50 防护"
+    ]
+  },
+  "abbX4250psf1": {
+    "title": "ABB X4250PSF1 控制变压器 250VA",
+    "description": "具有面板安装设计的双二次 250VA 控制变压器",
+    "features": [
+      "250 VA 额定值",
+      "240/480V 初级",
+      "115/24V 双二次",
+      "50/60 Hz",
+      "UL, CSA, NEMA"
+    ]
+  },
+  "siemensMt0500a": {
+    "title": "西门子 MT0500A 控制变压器 500VA",
+    "description": "500VA MT 类变压器，温度升高 55°C",
+    "features": [
+      "500 VA 功率",
+      "240/480V 初级",
+      "120/240V 二次",
+      "105°C 类",
+      "UL, CSA 认证"
+    ]
+  },
+  "abbX4100psf1": {
+    "title": "ABB X4100PSF1 控制变压器 100VA",
+    "description": "具有初级和次级熔断的 100VA 环氧封装变压器",
+    "features": [
+      "100 VA 额定值",
+      "208/230/460V 初级",
+      "115/24V 二次",
+      "环氧封装",
+      "熔断保护"
+    ]
+  },
+  "abbMvCt1005": {
+    "title": "ABB MV 电流互感器 100/5A 5P20",
+    "description": "具有 5P20 精度等级的 12 kV 中压 CT，用于保护",
+    "features": [
+      "100/5A 比率",
+      "5P20 精度",
+      "15 VA 负担",
+      "12 kV 额定值",
+      "IEC 61869-2"
+    ]
+  },
+  "siemens4nc5Ct6005": {
+    "title": "西门子 4NC5 电流互感器 600/5A",
+    "description": "用于 PAC 设备的 0.5 计量等级 CT，具有 10 VA 负担",
+    "features": [
+      "600/5A 比率",
+      "0.5 级计量",
+      "10 VA 负担",
+      "PAC 兼容",
+      "IEC 61869"
+    ]
+  },
+  "abbLvCt4005": {
+    "title": "ABB LV 电流互感器 400/5A 0.2S 级",
+    "description": "具有 0.2S 精度等级和双输出选项的精密计量 CT",
+    "features": [
+      "400/5A 或 400/1A",
+      "0.2S 级精度",
+      "10 VA 负担",
+      "±0.2% 精度",
+      "低压"
+    ]
+  },
+  "philipsSmartbright100w": {
+    "title": "飞利浦 SmartBright LED 100W 街道照明灯",
+    "description": "具有 14,000 lm 输出和 IP66 等级的高效 100W LED 街道照明灯",
+    "features": [
+      "14,000 lm 输出",
+      "140 lm/W 功效",
+      "IP66 防护",
+      "IK08 冲击",
+      "50,000 小时寿命"
+    ]
+  },
+  "osramAvant150w": {
+    "title": "欧司朗 AVANT LED 150W 街道照明灯",
+    "description": "具有非对称光学器件和 15,000 lm 的 150W 工业街道照明灯",
+    "features": [
+      "15,000 lm 输出",
+      "130 lm/W 功效",
+      "IP65 额定值",
+      "IK10 冲击",
+      "非对称光学器件"
+    ]
+  },
+  "philipsXitanium40w": {
+    "title": "飞利浦 Xitanium Infinity 40W LED 街道照明灯",
+    "description": "具有 160 lm/W 和 100,000 小时寿命的超高效 40W 街道照明灯",
+    "features": [
+      "6,400 lm 输出",
+      "160 lm/W 功效",
+      "100,000 小时寿命",
+      "IP66 防护",
+      "3000K 琥珀色"
+    ]
+  },
+  "trinaTsm315pd14": {
+    "title": "天合光能 TSM-315PD14 多晶硅面板",
+    "description": "具有 16.2% 效率和 25 年保修的 315W 多晶硅太阳能电池板",
+    "features": [
+      "315W 功率",
+      "16.2% 效率",
+      "72 个晶格多晶",
+      "25 年保修",
+      "1960×992×40mm"
+    ]
+  },
+  "canadianCs6p330p": {
+    "title": "加拿大太阳能 CS6P-330P 多晶硅面板",
+    "description": "具有 16.97% 效率的 330W 高效多晶硅面板",
+    "features": [
+      "330W 输出",
+      "16.97% 效率",
+      "72 个晶格多晶",
+      "1000V 最大系统",
+      "91.89% PTC 额定值"
+    ]
+  },
+  "canadianCs3k295p": {
+    "title": "加拿大太阳能 KuPower CS3K-295P 面板",
+    "description": "具有高雪和风荷载额定值的 295W 多晶硅面板",
+    "features": [
+      "295W 功率",
+      "16% 效率",
+      "60 个晶格多晶",
+      "6000 Pa 雪荷载",
+      "25 年保修"
+    ]
+  },
+  "philipsGreenperform100wHighbay": {
+    "title": "飞利浦 GreenPerform LED 100W 高天棚灯",
+    "description": "具有 13,000 lm 和 120° 光束角的工业 100W LED 高天棚灯",
+    "features": [
+      "13,000 lm 输出",
+      "130 lm/W 功效",
+      "IP65 防护",
+      "120° 宽光束",
+      "50,000 小时"
+    ]
+  },
+  "osramLedvance150wHighbay": {
+    "title": "欧司朗 LEDVANCE LED 150W 工业高天棚灯",
+    "description": "具有 21,000 lm 和 IK08 冲击额定值的 150W 仓库高天棚灯",
+    "features": [
+      "21,000 lm 输出",
+      "140 lm/W 功效",
+      "IP65/IK08 额定值",
+      "4000K 中性",
+      "仓库等级"
+    ]
+  },
+  "philipsCoreline200wHighbay": {
+    "title": "飞利浦 CoreLine LED 200W 高天棚灯",
+    "description": "用于 6-12 米安装高度的高功率 200W LED 高天棚灯",
+    "features": [
+      "28,000 lm 输出",
+      "140 lm/W 功效",
+      "6-12m 安装",
+      "明纬驱动器",
+      "IP65 防护"
+    ]
+  },
+  "philipsSmartbright50wFlood": {
+    "title": "飞利浦 SmartBright LED 50W 泛光灯",
+    "description": "具有 5,500 lm 和压铸铝外壳的 50W LED 泛光灯",
+    "features": [
+      "5,500 lm 输出",
+      "110 lm/W 功效",
+      "IP65 防护",
+      "110° 光束",
+      "6500K 日光"
+    ]
+  },
+  "osramFloodlightPro100w": {
+    "title": "欧司朗 Floodlight Pro LED 100W",
+    "description": "具有 11,000 lm 和 IK08 冲击额定值的专业 100W 泛光灯",
+    "features": [
+      "11,000 lm 输出",
+      "110 lm/W 功效",
+      "IP65/IK08 额定值",
+      "4000K 中性",
+      "30,000 小时"
+    ]
+  },
+  "philipsTango150wFlood": {
+    "title": "飞利浦 Tango LED 150W 泛光灯",
+    "description": "用于运动和户外区域照明的高功率 150W 泛光灯",
+    "features": [
+      "18,000 lm 输出",
+      "120 lm/W 功效",
+      "IP66 防护",
+      "5700K CCT",
+      "运动照明"
+    ]
+  },
+  "firstSolarFs680": {
+    "title": "First Solar Series 6 FS-680 薄膜面板",
+    "description": "具有卓越温度系数的 445W CdTe 薄膜双面面板",
+    "features": [
+      "445W 输出",
+      "18.4% 效率",
+      "CdTe 薄膜",
+      "-0.28%/°C 温度系数",
+      "双面"
+    ]
+  },
+  "solarFrontierSf180s": {
+    "title": "Solar Frontier SF180-S CIS 薄膜面板",
+    "description": "具有卓越阴影性能的 180W CIS 薄膜面板",
+    "features": [
+      "180W 功率",
+      "13.8% 效率",
+      "CIS 技术",
+      "卓越的阴影容差",
+      "25 年保修"
+    ]
+  },
+  "miasoleFlex02": {
+    "title": "MiaSolé FLEX-02 CIGS 柔性薄膜面板",
+    "description": "用于曲面和移动应用的 430W 柔性 CIGS 面板",
+    "features": [
+      "430W 输出",
+      "17.5% 效率",
+      "柔性可弯曲",
+      "6 kg 轻量级",
+      "房车、船只、弯曲"
+    ]
+  },
+  "siemensSinamicsG120c5-5kw": {
+    "title": "西门子 SINAMICS G120C VFD 5.5 kW",
+    "description": "具有 USS 和 Modbus 通信的紧凑型 5.5 kW 变频驱动器",
+    "features": [
+      "5.5 kW 功率",
+      "380-480V 3 相",
+      "12A 输出",
+      "150% 过载",
+      "USS, Modbus RTU"
+    ]
+  },
+  "abbAcs58011kw": {
+    "title": "ABB ACS580 驱动器 11 kW",
+    "description": "具有内置 PLC 和安全转矩关闭功能的 11 kW VFD",
+    "features": [
+      "11 kW 额定值",
+      "380-480V",
+      "内置 PLC",
+      "安全转矩关闭",
+      "98% 效率"
+    ]
+  },
+  "schneiderAtv3207-5kw": {
+    "title": "施耐德 Altivar ATV320 VFD 7.5 kW",
+    "description": "具有图形终端显示器的 7.5 kW 变速驱动器",
+    "features": [
+      "7.5 kW 功率",
+      "380-500V 3 相",
+      "17A 输出",
+      "图形终端",
+      "150% 过载"
+    ]
+  },
+  "siemens3rw4445a": {
+    "title": "西门子 SIRIUS 3RW44 软启动器 45A",
+    "description": "具有泵控制和旁路的 45A 软启动器，适用于 22 kW 电机",
+    "features": [
+      "45A 额定值",
+      "22 kW @ 400V",
+      "200-600V 交流",
+      "泵控制",
+      "过载保护"
+    ]
+  },
+  "abbPse72a": {
+    "title": "ABB PSE 软启动器 72A",
+    "description": "具有内部旁路的 72A 软启动器，适用于 37 kW 电机应用",
+    "features": [
+      "72A 额定值",
+      "37 kW @ 400V",
+      "208-600V",
+      "内部旁路",
+      "30-90% 扭矩"
+    ]
+  },
+  "schneiderAts2232a": {
+    "title": "施耐德 Altistart ATS22 软启动器 32A",
+    "description": "具有扭矩控制和能量优化的 32A 软启动器",
+    "features": [
+      "32A 额定值",
+      "15 kW @ 400V",
+      "208-690V",
+      "扭矩控制",
+      "能量优化"
+    ]
+  },
+  "lappUnitronicProfibus2x22": {
+    "title": "LAPP UNITRONIC BUS PROFIBUS DP 电缆",
+    "description": "具有 2x22 AWG 导体和紫色护套的工业 PROFIBUS DP 电缆",
+    "features": [
+      "PROFIBUS DP",
+      "2x22 AWG 绞线",
+      "135-165 Ω 阻抗",
+      "紫色 PVC 护套",
+      "IEC 61158-2"
+    ]
+  },
+  "siemensProfibusFC": {
+    "title": "西门子 PROFIBUS FastConnect 标准电缆",
+    "description": "具有 M12 或 DB9 连接器的快速连接 PROFIBUS 电缆",
+    "features": [
+      "PROFIBUS DP/PA",
+      "2 线对绞线",
+      "高达 12 Mbps",
+      "紫罗兰色",
+      "M12 或 DB9"
+    ]
+  },
+  "belden3079aProfibus": {
+    "title": "Belden 3079A PROFIBUS 网络电缆",
+    "description": "具有箔和编织屏蔽的工业 PROFIBUS 电缆",
+    "features": [
+      "PROFIBUS 认证",
+      "22 AWG 实心",
+      "箔 + 编织",
+      "150 Ω 阻抗",
+      "紫色 PVC"
+    ]
+  },
+  "lappEtherlineProfinetC": {
+    "title": "LAPP ETHERLINE PN C 型 Cat5e 电缆",
+    "description": "用于电缆滑轨和拖链的连续柔性 Cat5e PROFINET 电缆",
+    "features": [
+      "C 型柔性",
+      "Cat5e S/FTP",
+      "7.5M 柔性循环",
+      "PUR 绿色护套",
+      "拖链额定"
+    ]
+  },
+  "siemensProfinetTypeA": {
+    "title": "西门子 PROFINET A 型 Cat5e 固定电缆",
+    "description": "用于固定式安装的 Cat5e PROFINET 电缆",
+    "features": [
+      "A 型固定",
+      "Cat5e 屏蔽",
+      "实心铜",
+      "绿色",
+      "IEC 61784-5-3"
+    ]
+  },
+  "beldenProfinetCat6a": {
+    "title": "Belden DataTuff PROFINET Cat6a 工业电缆",
+    "description": "具有 1000 万次柔性循环的 10 Gbps Cat6a PROFINET 电缆",
+    "features": [
+      "Cat6a 认证",
+      "10 Gbps 速度",
+      "S/FTP 屏蔽",
+      "10M 柔性循环",
+      "UL PLTC-ER"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - 型号变体 {{number}}",

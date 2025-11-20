@@ -447,122 +447,6 @@
     }
   },
   "subcategories": {
-    "sensors": {
-      "title": "センサーとトランスデューサー",
-      "description": "測定と制御のための産業用センサー"
-    },
-    "transmitters": {
-      "title": "トランスミッターと流量計",
-      "description": "プロセストランスミッターと信号変換装置"
-    },
-    "controllers": {
-      "title": "コントローラーとレコーダー",
-      "description": "産業用制御システムとオートメーションコントローラー"
-    },
-    "switches": {
-      "title": "スイッチとインジケーター",
-      "description": "産業用スイッチと制御機器"
-    },
-    "valves": {
-      "title": "バルブとアクチュエーター",
-      "description": "産業用バルブと流量制御システム"
-    },
-    "analyzers": {
-      "title": "アナライザー",
-      "description": "品質管理のためのプロセスアナライザー"
-    },
-    "signal-conditioners": {
-      "title": "シグナルコンディショナー",
-      "description": "信号処理およびコンディショニング装置"
-    },
-    "electrical-cables": {
-      "title": "電気ケーブル",
-      "description": "電気システム用の産業用電源ケーブルと制御ケーブル"
-    },
-    "instrumentation-cables": {
-      "title": "計装ケーブル",
-      "description": "プロセス制御および測定システム用の精密ケーブル"
-    },
-    "connectors-terminals": {
-      "title": "コネクターと端子",
-      "description": "電気コネクターと端子ソリューション"
-    },
-    "circuit-breakers-fuses": {
-      "title": "回路ブレーカーとヒューズ",
-      "description": "回路安全のための電気保護デバイス"
-    },
-    "contactorsRelays": {
-      "title": "接触器とリレー",
-      "description": "モーター制御用の産業用接触器と制御リレー"
-    },
-    "power-supplies": {
-      "title": "電源",
-      "description": "産業用電源ユニットとコンバーター"
-    },
-    "enclosures-cabinets": {
-      "title": "エンクロージャーとキャビネット",
-      "description": "電気エンクロージャーと制御キャビネットソリューション"
-    },
-    "heating-elements-appliances": {
-      "title": "発熱体と器具",
-      "description": "産業用加熱ソリューションと熱機器"
-    },
-    "multimeters": {
-      "title": "マルチメーター",
-      "description": "電気テスト用のデジタルおよびアナログマルチメーター"
-    },
-    "power-quality-analyzers": {
-      "title": "電力品質アナライザー",
-      "description": "電力品質測定および分析機器"
-    },
-    "solar-batteries-energy-storage": {
-      "title": "ソーラーバッテリーとエネルギー貯蔵",
-      "description": "太陽エネルギーアプリケーション向けのバッテリー貯蔵システム"
-    },
-    "surge-protectors": {
-      "title": "サージプロテクター",
-      "description": "機器安全のための電気サージ保護デバイス"
-    },
-    "safety-relays-switches": {
-      "title": "安全リレーとスイッチ",
-      "description": "産業安全のための安全リレーと非常停止スイッチ"
-    },
-    "intrinsically-safe-equipment": {
-      "title": "本質安全防爆機器",
-      "description": "危険場所用の防爆および本質安全防爆機器"
-    },
-    "centrifugal-pumps": {
-      "title": "遠心ポンプ",
-      "description": "流体移送用の高効率遠心ポンプ"
-    },
-    "diaphragm-pumps": {
-      "title": "ダイヤフラムポンプ",
-      "description": "化学アプリケーション用の容積式ダイヤフラムポンプ"
-    },
-    "gear-pumps": {
-      "title": "ギアポンプ",
-      "description": "粘性流体用の精密ギアポンプ"
-    },
-    "pump-parts-spares": {
-      "title": "ポンプ部品とスペア",
-      "description": "産業用ポンプの交換部品とスペアコンポーネント"
-    },
-    "hand-tools": {
-      "title": "ハンドツール",
-      "description": "産業保守および組立用のプロフェッショナルハンドツール"
-    },
-    "power-tools": {
-      "title": "電動工具",
-      "description": "ヘビーデューティーアプリケーション用の産業用電動工具"
-    },
-    "cutting-tools": {
-      "title": "切削工具",
-      "description": "金属加工用の精密切削工具および機器"
-    },
-    "lifting-equipment": {
-      "title": "吊り上げ装置",
-      "description": "マテリアルハンドリング用のホイスト、クレーン、および吊り上げ装置"
-    },
     "sensors-transducers": {
       "title": "センサーとトランスデューサー",
       "description": "測定と制御のための産業用センサーとトランスデューサー"
@@ -579,68 +463,65 @@
       "title": "バルブとアクチュエーター",
       "description": "産業用バルブと流量制御システム"
     },
-    "safety-equipment": {
-      "title": "安全装備",
-      "description": "産業用途向けの包括的な安全装備および個人用保護具",
-      "sectionsTitle": "安全ソリューション",
-      "products": {
-        "ppe": {
-          "name": "個人用保護具（PPE）",
-          "description": "作業者保護のための安全装備",
-          "features": {
-            "hardHats": "ヘルメット",
-            "safetyGlasses": "安全メガネ",
-            "hearingProtection": "聴覚保護",
-            "workGloves": "作業手袋"
-          }
-        },
-        "fallProtection": {
-          "name": "転倒防止システム",
-          "description": "ハーネスと墜落制止装置",
-          "features": {
-            "fullBodyHarness": "全身ハーネス",
-            "lanyards": "ランヤード",
-            "anchorPoints": "アンカーポイント",
-            "selfRetracting": "自己収縮式"
-          }
-        },
-        "gasDetection": {
-          "name": "ガス検知装置",
-          "description": "ポータブルおよび固定ガス監視システム",
-          "features": {
-            "multiGasDetectors": "複合ガス検知器",
-            "singleGas": "単一ガス",
-            "wirelessMonitoring": "ワイヤレス監視",
-            "dataLogging": "データロギング"
-          }
-        }
-      },
-      "cta": {
-        "title": "安全装備が必要ですか？",
-        "description": "当社の安全スペシャリストが、お客様の従業員を保護するための包括的な安全ソリューションを提供します。",
-        "contactExpertsCta": "安全のエキスパートに連絡する",
-        "requestQuoteCta": "見積もりをリクエストする"
-      }
+    "analyzers": {
+      "title": "分析装置",
+      "description": "品質管理のためのプロセス分析装置"
     },
-    "bldc-cooler-exhaust-motor": {
-      "title": "BLDCクーラーおよび排気モーター",
-      "description": "クーラーおよび排気ファン用のエネルギー効率の高いBLDCモーター"
+    "instrument-transformers": {
+      "title": "計器用変圧器",
+      "description": "測定と保護のための変流器と計器用変圧器"
     },
-    "bldc-ceiling-fan": {
-      "title": "BLDCシーリングファン",
-      "description": "リモコン付きの超効率的なBLDCシーリングファン"
+    "instrumentation-cables": {
+      "title": "計装ケーブル",
+      "description": "プロセス制御および測定システム用の精密ケーブル"
     },
-    "bldc-submersible-surface-pump": {
-      "title": "BLDC水中ポンプと地上ポンプ",
-      "description": "水アプリケーション用の高効率BLDCポンプ"
+    "electrical-cables": {
+      "title": "電気ケーブル",
+      "description": "電気システム用の産業用電力ケーブルと制御ケーブル"
     },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDCテーブルファンとウォールファンモーター",
-      "description": "テーブルファンとウォールファン用のコンパクトBLDCモーター"
+    "connectors-terminals": {
+      "title": "コネクターと端子",
+      "description": "電気コネクターと端子ソリューション"
+    },
+    "circuit-breakers-fuses": {
+      "title": "回路ブレーカーとヒューズ",
+      "description": "回路の安全のための電気保護デバイス"
+    },
+    "power-supplies": {
+      "title": "電源",
+      "description": "産業用電源ユニットとコンバーター"
+    },
+    "enclosures-cabinets": {
+      "title": "エンクロージャーとキャビネット",
+      "description": "電気エンクロージャーと制御キャビネットソリューション"
+    },
+    "heating-elements-appliances": {
+      "title": "発熱体と器具",
+      "description": "産業用加熱ソリューションと熱機器"
+    },
+    "contactors-relays": {
+      "title": "接触器とリレー",
+      "description": "モーター制御用の電力接触器と電磁リレー"
+    },
+    "transformers-power-devices": {
+      "title": "変圧器と電力デバイス",
+      "description": "制御変圧器と電力変換装置"
+    },
+    "industrial-lighting": {
+      "title": "産業用照明",
+      "description": "標準、防炎、耐候性構成の街路灯、ハイベイライト、船舶灯、投光器、井戸ガラスライトを含む包括的な産業用照明ソリューション"
+    },
+    "insulators-insulation-materials": {
+      "title": "絶縁体と絶縁材料",
+      "description": "電力システムおよび電気機器用の高品質電気絶縁体および絶縁材料"
+    },
+    "solar-panels": {
+      "title": "ソーラーパネル",
+      "description": "高効率ソーラーパネルと太陽光発電システム"
     },
     "solar-inverters": {
       "title": "ソーラーインバーター",
-      "description": "住宅および商業アプリケーション向けの高効率ソーラーインバーター"
+      "description": "住宅および商業アプリケーション用の高効率ソーラーインバーター"
     },
     "plcs": {
       "title": "PLC（プログラマブルロジックコントローラー）",
@@ -657,6 +538,18 @@
     "hmi": {
       "title": "HMI（ヒューマンマシンインターフェース）",
       "description": "産業制御用のヒューマンマシンインターフェースシステム"
+    },
+    "motor-controllers-drives": {
+      "title": "モーターコントローラーとドライブ",
+      "description": "可変周波数ドライブとモーター制御ソリューション"
+    },
+    "io-modules": {
+      "title": "I/Oモジュール",
+      "description": "PLCシステムおよび産業オートメーション用の入力/出力モジュール"
+    },
+    "surge-protectors": {
+      "title": "サージプロテクター",
+      "description": "機器の安全のための電気サージ保護デバイス"
     },
     "grounding-systems": {
       "title": "接地システム",
@@ -677,8 +570,8 @@
           "name": "接地電極",
           "description": "電気安全のための銅および鋼の接地棒",
           "features": {
-            "copperBonded": "銅結合",
-            "steelCore": "スチールコア",
+            "copperBonded": "銅接合",
+            "steelCore": "鋼鉄心",
             "multipleLengths": "複数の長さ",
             "ulListed": "ULリスト"
           }
@@ -687,7 +580,7 @@
           "name": "接地導体",
           "description": "接地システム用の裸銅導体",
           "features": {
-            "solidStranded": "ソリッド/ストランド",
+            "solidStranded": "単線/より線",
             "highConductivity": "高導電性",
             "corrosionResistant": "耐腐食性",
             "multipleSizes": "複数のサイズ"
@@ -695,7 +588,7 @@
         },
         "accessories": {
           "name": "接地アクセサリ",
-          "description": "接地設置用のクランプ、ラグ、およびフィッティング",
+          "description": "接地設置用のクランプ、ラグ、および継手",
           "features": {
             "groundClamps": "接地クランプ",
             "compressionLugs": "圧縮ラグ",
@@ -706,9 +599,9 @@
       },
       "cta": {
         "title": "接地ソリューションが必要ですか？",
-        "description": "当社の接地スペシャリストが、お客様の施設向けに安全で法令に準拠した接地システムを設計します。",
-        "contactButton": "接地のエキスパートに連絡する",
-        "quoteButton": "見積もりをリクエストする"
+        "description": "当社の接地スペシャリストが、お客様の施設向けに安全でコード準拠の接地システムを設計できます。",
+        "contactButton": "接地エキスパートにお問い合わせください",
+        "quoteButton": "見積もりをリクエスト"
       },
       "keyFeatures": "主な機能：",
       "seo": {
@@ -717,41 +610,124 @@
         "keywords": "接地システム、電気接地、アースシステム、接地棒、接地導体、電気安全機器、銅接地棒、接地アクセサリ、産業用接地"
       }
     },
-    "calibration-equipment": {
-      "title": "校正装置",
-      "description": "精密校正機器および試験装置"
+    "safety-relays-switches": {
+      "title": "安全リレーとスイッチ",
+      "description": "産業安全のための安全リレーと非常停止スイッチ"
     },
-    "solar-panels": {
-      "title": "ソーラーパネル",
-      "description": "高効率ソーラーパネルおよび太陽光発電システム"
+    "intrinsically-safe-equipment": {
+      "title": "本質安全防爆機器",
+      "description": "危険場所用の防爆および本質安全防爆機器"
     },
-    "instrument-transformers": {
-      "title": "計器用変成器",
-      "description": "測定および保護用の変流器および計器用変圧器"
-    },
-    "contactors-relays": {
-      "title": "接触器とリレー",
-      "description": "モーター制御用の電力接触器および電磁リレー"
-    },
-    "transformers-power-devices": {
-      "title": "変圧器と電力機器",
-      "description": "制御変圧器および電力変換機器"
-    },
-    "industrial-lighting": {
-      "title": "産業用照明",
-      "description": "標準、耐火性、耐候性を備えた街路灯、ハイベイライト、船舶灯、投光器、および井戸型ガラス灯を含む、包括的な産業用照明ソリューション"
-    },
-    "motor-controllers-drives": {
-      "title": "モーターコントローラーとドライブ",
-      "description": "可変周波数ド���イブおよびモーター制御ソリューション"
+    "safety-equipment": {
+      "title": "安全装備",
+      "description": "産業用アプリケーション向けの包括的な安全装備と個人用保護具",
+      "sectionsTitle": "安全ソリューション",
+      "products": {
+        "ppe": {
+          "name": "個人用保護具（PPE）",
+          "description": "作業員保護のための安全装備",
+          "features": {
+            "hardHats": "ヘルメット",
+            "safetyGlasses": "安全メガネ",
+            "hearingProtection": "聴覚保護",
+            "workGloves": "作業用手袋"
+          }
+        },
+        "fallProtection": {
+          "name": "転倒防止システム",
+          "description": "ハーネスと転倒防止機器",
+          "features": {
+            "fullBodyHarness": "全身ハーネス",
+            "lanyards": "ランヤード",
+            "anchorPoints": "アンカーポイント",
+            "selfRetracting": "自己収縮式"
+          }
+        },
+        "gasDetection": {
+          "name": "ガス検知機器",
+          "description": "ポータブルおよび固定ガス監視システム",
+          "features": {
+            "multiGasDetectors": "複合ガス検知器",
+            "singleGas": "単一ガス",
+            "wirelessMonitoring": "ワイヤレス監視",
+            "dataLogging": "データロギング"
+          }
+        }
+      },
+      "cta": {
+        "title": "安全装備が必要ですか？",
+        "description": "当社の安全スペシャリストが、お客様の従業員を保護するための包括的な安全ソリューションを提供できます。",
+        "contactExpertsCta": "安全のエキスパートにお問い合わせください",
+        "requestQuoteCta": "見積もりをリクエスト"
+      }
     },
     "protection-relays": {
       "title": "保護リレー",
       "description": "モーター保護および電圧監視リレー"
     },
+    "centrifugal-pumps": {
+      "title": "遠心ポンプ",
+      "description": "流体移送用の高効率遠心ポンプ"
+    },
+    "diaphragm-pumps": {
+      "title": "ダイヤフラムポンプ",
+      "description": "化学アプリケーション用の容積式ダイヤフラムポンプ"
+    },
+    "gear-pumps": {
+      "title": "ギアポンプ",
+      "description": "粘性流体用の精密ギアポンプ"
+    },
+    "pump-parts-spares": {
+      "title": "ポンプ部品とスペア",
+      "description": "産業用ポンプの交換部品とスペアコンポーネント"
+    },
+    "hand-tools": {
+      "title": "ハンドツール",
+      "description": "産業保守および組み立て用のプロフェッショナルハンドツール"
+    },
+    "power-tools": {
+      "title": "電動工具",
+      "description": "ヘビーデューティーアプリケーション用の産業用電動工具"
+    },
+    "cutting-tools": {
+      "title": "切削工具",
+      "description": "金属加工用の精密切削工具と機器"
+    },
+    "lifting-equipment": {
+      "title": "吊り上げ装置",
+      "description": "マテリアルハンドリング用のホイスト、クレーン、および吊り上げ装置"
+    },
+    "multimeters": {
+      "title": "マルチメーター",
+      "description": "電気テスト用のデジタルおよびアナログマルチメーター"
+    },
+    "power-quality-analyzers": {
+      "title": "電力品質アナライザー",
+      "description": "電力品質測定および分析機器"
+    },
+    "calibration-equipment": {
+      "title": "校正装置",
+      "description": "精密校正機器と試験装置"
+    },
     "panel-meters-indicators": {
       "title": "パネルメーターとインジケーター",
       "description": "電圧、電流、および電力測定用のアナログおよびデジタルパネルメーター"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDCクーラーおよび排気モーター",
+      "description": "クーラーおよび排気ファン用のエネルギー効率の高いBLDCモーター"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDCシーリングファン",
+      "description": "リモコン付きの超効率BLDCシーリングファン"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC水中ポンプと地上ポンプ",
+      "description": "水アプリケーション用の高効率BLDCポンプ"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDCテーブルファンと壁掛けファンモーター",
+      "description": "テーブルファンと壁掛けファン用のコンパクトBLDCモーター"
     }
   },
   "sections": {

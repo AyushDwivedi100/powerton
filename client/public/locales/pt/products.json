@@ -487,53 +487,45 @@
     }
   },
   "subcategories": {
-    "sensors": {
+    "sensors-transducers": {
       "title": "Sensores e Transdutores",
-      "description": "Sensores industriais para medição e controle"
+      "description": "Sensores e transdutores industriais para medição e controle"
     },
-    "transmitters": {
+    "transmitters-flow-meters": {
       "title": "Transmissores e Medidores de Vazão",
-      "description": "Transmissores de processo e equipamentos de conversão de sinal"
+      "description": "Transmissores e medidores de vazão industriais para monitoramento de processo"
     },
-    "controllers": {
-      "title": "Controladores e Gravadores",
-      "description": "Sistemas de controle industrial e controladores de automação"
+    "switches-indicators": {
+      "title": "Chaves e Indicadores",
+      "description": "Chaves industriais e equipamentos de controle"
     },
-    "switches": {
-      "title": "Interruptores e Indicadores",
-      "description": "Interruptores industriais e equipamentos de controle"
-    },
-    "valves": {
+    "valves-actuators": {
       "title": "Válvulas e Atuadores",
-      "description": "Válvulas industriais e sistemas de controle de fluxo"
+      "description": "Válvulas industriais e sistemas de controle de vazão"
     },
     "analyzers": {
       "title": "Analisadores",
       "description": "Analisadores de processo para controle de qualidade"
     },
-    "signal-conditioners": {
-      "title": "Condicionadores de Sinal",
-      "description": "Equipamentos de processamento e condicionamento de sinal"
-    },
-    "electrical-cables": {
-      "title": "Cabos Elétricos",
-      "description": "Cabos de energia e controle industriais para sistemas elétricos"
+    "instrument-transformers": {
+      "title": "Transformadores de Instrumento",
+      "description": "Transformadores de corrente e potencial para medição e proteção"
     },
     "instrumentation-cables": {
       "title": "Cabos de Instrumentação",
       "description": "Cabos de precisão para sistemas de controle de processo e medição"
     },
+    "electrical-cables": {
+      "title": "Cabos Elétricos",
+      "description": "Cabos de energia e controle industrial para sistemas elétricos"
+    },
     "connectors-terminals": {
       "title": "Conectores e Terminais",
-      "description": "Conectores elétricos e soluções de terminais"
+      "description": "Conectores elétricos e soluções de terminal"
     },
     "circuit-breakers-fuses": {
       "title": "Disjuntores e Fusíveis",
-      "description": "Dispositivos de proteção elétrica para segurança de circuito"
-    },
-    "contactorsRelays": {
-      "title": "Contatores e Relés",
-      "description": "Contatores industriais e relés de controle para controle de motor"
+      "description": "Dispositivos de proteção elétrica para segurança do circuito"
     },
     "power-supplies": {
       "title": "Fontes de Alimentação",
@@ -541,35 +533,177 @@
     },
     "enclosures-cabinets": {
       "title": "Invólucros e Gabinetes",
-      "description": "Invólucros elétricos e soluções de gabinete de controle"
+      "description": "Invólucros elétricos e soluções de gabinetes de controle"
     },
     "heating-elements-appliances": {
       "title": "Elementos de Aquecimento e Aparelhos",
       "description": "Soluções de aquecimento industrial e equipamentos térmicos"
     },
-    "multimeters": {
-      "title": "Multímetros",
-      "description": "Multímetros digitais e analógicos para testes elétricos"
+    "contactors-relays": {
+      "title": "Contatores e Relés",
+      "description": "Contatores de potência e relés eletromagnéticos para controle de motor"
     },
-    "power-quality-analyzers": {
-      "title": "Analisadores de Qualidade de Energia",
-      "description": "Instrumentos de medição e análise de qualidade de energia"
+    "transformers-power-devices": {
+      "title": "Transformadores e Dispositivos de Potência",
+      "description": "Transformadores de controle e equipamentos de conversão de energia"
     },
-    "solar-batteries-energy-storage": {
-      "title": "Baterias Solares e Armazenamento de Energia",
-      "description": "Sistemas de armazenamento de bateria para aplicações de energia solar"
+    "industrial-lighting": {
+      "title": "Iluminação Industrial",
+      "description": "Soluções abrangentes de iluminação industrial, incluindo luminárias de rua, luminárias high bay, luminárias para embarcações, refletores e luminárias well glass em configurações padrão, à prova de explosão e à prova de intempéries"
+    },
+    "insulators-insulation-materials": {
+      "title": "Isoladores e Materiais de Isolamento",
+      "description": "Isoladores elétricos e materiais de isolamento de alta qualidade para sistemas de energia e equipamentos elétricos"
+    },
+    "solar-panels": {
+      "title": "Painéis Solares",
+      "description": "Painéis solares de alta eficiência e sistemas fotovoltaicos"
+    },
+    "solar-inverters": {
+      "title": "Inversores Solares",
+      "description": "Inversores solares de alta eficiência para aplicações residenciais e comerciais"
+    },
+    "plcs": {
+      "title": "CLPs (Controladores Lógicos Programáveis)",
+      "description": "Controladores Lógicos Programáveis para automação industrial"
+    },
+    "scada": {
+      "title": "Sistemas SCADA",
+      "description": "Sistemas de Supervisão, Controle e Aquisição de Dados"
+    },
+    "dcs": {
+      "title": "SCD (Sistemas de Controle Distribuído)",
+      "description": "Sistemas de controle distribuído para automação de processos"
+    },
+    "hmi": {
+      "title": "IHM (Interface Homem-Máquina)",
+      "description": "Sistemas de interface homem-máquina para controle industrial"
+    },
+    "motor-controllers-drives": {
+      "title": "Controladores e Acionamentos de Motor",
+      "description": "Acionamentos de frequência variável e soluções de controle de motor"
+    },
+    "io-modules": {
+      "title": "Módulos de E/S",
+      "description": "Módulos de Entrada/Saída para sistemas CLP e automação industrial"
     },
     "surge-protectors": {
       "title": "Protetores de Surto",
       "description": "Dispositivos de proteção contra surtos elétricos para segurança de equipamentos"
     },
+    "grounding-systems": {
+      "title": "Sistemas de Aterramento",
+      "description": "Sistemas de aterramento elétrico e aterramento",
+      "subtitle": "Sistemas de aterramento elétrico e aterramento para segurança e proteção de equipamentos",
+      "backButton": "Voltar para Dispositivos de Segurança e Proteção",
+      "badges": {
+        "groundRods": "Hastes de Aterramento",
+        "conductors": "Condutores",
+        "clampsLugs": "Braçadeiras e Terminais",
+        "safetyGrounding": "Aterramento de Segurança"
+      },
+      "componentsSection": {
+        "title": "Componentes de Aterramento"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Eletrodos de Aterramento",
+          "description": "Hastes de aterramento de cobre e aço para segurança elétrica",
+          "features": {
+            "copperBonded": "Ligação de Cobre",
+            "steelCore": "Núcleo de Aço",
+            "multipleLengths": "Vários Comprimentos",
+            "ulListed": "Listado pela UL"
+          }
+        },
+        "conductors": {
+          "name": "Condutores de Aterramento",
+          "description": "Condutores de cobre desencapados para sistemas de aterramento",
+          "features": {
+            "solidStranded": "Sólido/Encalhado",
+            "highConductivity": "Alta Condutividade",
+            "corrosionResistant": "Resistente à Corrosão",
+            "multipleSizes": "Vários Tamanhos"
+          }
+        },
+        "accessories": {
+          "name": "Acessórios de Aterramento",
+          "description": "Braçadeiras, terminais e acessórios para instalações de aterramento",
+          "features": {
+            "groundClamps": "Braçadeiras de Aterramento",
+            "compressionLugs": "Terminais de Compressão",
+            "testWells": "Poços de Teste",
+            "bondsJumpers": "Ligações e Jumpers"
+          }
+        }
+      },
+      "cta": {
+        "title": "Precisa de Soluções de Aterramento?",
+        "description": "Nossos especialistas em aterramento podem projetar sistemas de aterramento seguros e compatíveis com o código para sua instalação.",
+        "contactButton": "Contate Especialistas em Aterramento",
+        "quoteButton": "Solicitar Cotação"
+      },
+      "keyFeatures": "Características Principais:",
+      "seo": {
+        "title": "Sistemas de Aterramento - Equipamentos de Segurança Elétrica | Powerton Engineering",
+        "description": "Sistemas de aterramento e aterramento profissional para segurança elétrica. Hastes de aterramento de cobre, condutores, braçadeiras e acessórios de fabricantes líderes.",
+        "keywords": "sistemas de aterramento, aterramento elétrico, sistemas de aterramento, hastes de aterramento, condutores de aterramento, equipamentos de segurança elétrica, hastes de aterramento de cobre, acessórios de aterramento, aterramento industrial"
+      }
+    },
     "safety-relays-switches": {
-      "title": "Relés e Interruptores de Segurança",
-      "description": "Relés de segurança e interruptores de parada de emergência para segurança industrial"
+      "title": "Relés e Chaves de Segurança",
+      "description": "Relés de segurança e chaves de parada de emergência para segurança industrial"
     },
     "intrinsically-safe-equipment": {
-      "title": "Equipamento Intrinsicamente Seguro",
+      "title": "Equipamento Intrínseco Seguro",
       "description": "Equipamento à prova de explosão e intrinsecamente seguro para áreas perigosas"
+    },
+    "safety-equipment": {
+      "title": "Equipamento de Segurança",
+      "description": "Equipamento de segurança abrangente e equipamento de proteção individual para aplicações industriais",
+      "sectionsTitle": "Soluções de Segurança",
+      "products": {
+        "ppe": {
+          "name": "Equipamento de Proteção Individual (EPI)",
+          "description": "Equipamento de segurança para proteção do trabalhador",
+          "features": {
+            "hardHats": "Capacetes",
+            "safetyGlasses": "Óculos de Segurança",
+            "hearingProtection": "Proteção Auditiva",
+            "workGloves": "Luvas de Trabalho"
+          }
+        },
+        "fallProtection": {
+          "name": "Sistemas de Proteção Contra Quedas",
+          "description": "Arneses e equipamento de proteção contra quedas",
+          "features": {
+            "fullBodyHarness": "Arnés de Corpo Inteiro",
+            "lanyards": "Talabartes",
+            "anchorPoints": "Pontos de Ancoragem",
+            "selfRetracting": "Autorretrátil"
+          }
+        },
+        "gasDetection": {
+          "name": "Equipamento de Detecção de Gás",
+          "description": "Sistemas portáteis e fixos de monitoramento de gás",
+          "features": {
+            "multiGasDetectors": "Detectores Multigás",
+            "singleGas": "Gás Único",
+            "wirelessMonitoring": "Monitoramento Sem Fio",
+            "dataLogging": "Registro de Dados"
+          }
+        }
+      },
+      "cta": {
+        "title": "Precisa de Equipamento de Segurança?",
+        "description": "Nossos especialistas em segurança podem fornecer soluções de segurança abrangentes para proteger sua força de trabalho.",
+        "contactExpertsCta": "Contate Especialistas em Segurança",
+        "requestQuoteCta": "Solicitar Cotação"
+      }
+    },
+    "protection-relays": {
+      "title": "Relés de Proteção",
+      "description": "Relés de proteção de motor e monitoramento de tensão"
     },
     "centrifugal-pumps": {
       "title": "Bombas Centrífugas",
@@ -601,70 +735,27 @@
     },
     "lifting-equipment": {
       "title": "Equipamento de Elevação",
-      "description": "Guinchos, guindastes e equipamentos de elevação para manuseio de materiais"
+      "description": "Talhas, guindastes e equipamentos de elevação para manuseio de materiais"
     },
-    "sensors-transducers": {
-      "title": "Sensores e Transdutores",
-      "description": "Sensores e transdutores industriais para medição e controle"
+    "multimeters": {
+      "title": "Multímetros",
+      "description": "Multímetros digitais e analógicos para testes elétricos"
     },
-    "transmitters-flow-meters": {
-      "title": "Transmissores e Medidores de Vazão",
-      "description": "Transmissores industriais e medidores de vazão para monitoramento de processo"
+    "power-quality-analyzers": {
+      "title": "Analisadores de Qualidade de Energia",
+      "description": "Instrumentos de medição e análise da qualidade de energia"
     },
-    "switches-indicators": {
-      "title": "Interruptores e Indicadores",
-      "description": "Interruptores industriais e equipamentos de controle"
+    "calibration-equipment": {
+      "title": "Equipamento de Calibração",
+      "description": "Instrumentos de calibração de precisão e equipamentos de teste"
     },
-    "valves-actuators": {
-      "title": "Válvulas e Atuadores",
-      "description": "Válvulas industriais e sistemas de controle de fluxo"
-    },
-    "safety-equipment": {
-      "title": "Equipamento de Segurança",
-      "description": "Equipamento de segurança abrangente e equipamento de proteção pessoal para aplicações industriais",
-      "sectionsTitle": "Soluções de Segurança",
-      "products": {
-        "ppe": {
-          "name": "Equipamento de Proteção Pessoal (EPI)",
-          "description": "Equipamento de segurança para proteção do trabalhador",
-          "features": {
-            "hardHats": "Capacetes de Segurança",
-            "safetyGlasses": "Óculos de Segurança",
-            "hearingProtection": "Proteção Auditiva",
-            "workGloves": "Luvas de Trabalho"
-          }
-        },
-        "fallProtection": {
-          "name": "Sistemas de Proteção Contra Quedas",
-          "description": "Arneses e equipamentos de proteção contra quedas",
-          "features": {
-            "fullBodyHarness": "Arnés de Corpo Inteiro",
-            "lanyards": "Talabartes",
-            "anchorPoints": "Pontos de Ancoragem",
-            "selfRetracting": "Autorretrátil"
-          }
-        },
-        "gasDetection": {
-          "name": "Equipamento de Detecção de Gás",
-          "description": "Sistemas de monitoramento de gás portáteis e fixos",
-          "features": {
-            "multiGasDetectors": "Detectores Multigás",
-            "singleGas": "Gás Único",
-            "wirelessMonitoring": "Monitoramento Sem Fio",
-            "dataLogging": "Registro de Dados"
-          }
-        }
-      },
-      "cta": {
-        "title": "Precisa de Equipamento de Segurança?",
-        "description": "Nossos especialistas em segurança podem fornecer soluções de segurança abrangentes para proteger sua força de trabalho.",
-        "contactExpertsCta": "Contate Especialistas em Segurança",
-        "requestQuoteCta": "Solicitar Cotação"
-      }
+    "panel-meters-indicators": {
+      "title": "Medidores e Indicadores de Painel",
+      "description": "Medidores de painel analógicos e digitais para medição de tensão, corrente e potência"
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "Motores BLDC para Refrigerador e Exaustor",
-      "description": "Motores BLDC energeticamente eficientes para refrigeradores e ventiladores de exaustão"
+      "title": "Motores BLDC para Resfriadores e Exaustores",
+      "description": "Motores BLDC com eficiência energética para resfriadores e ventiladores de exaustão"
     },
     "bldc-ceiling-fan": {
       "title": "Ventiladores de Teto BLDC",
@@ -675,123 +766,8 @@
       "description": "Bombas BLDC de alta eficiência para aplicações de água"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "Motores BLDC para Ventilador de Mesa e Parede",
+      "title": "Motores BLDC para Ventiladores de Mesa e Parede",
       "description": "Motores BLDC compactos para ventiladores de mesa e parede"
-    },
-    "solar-inverters": {
-      "title": "Inversores Solares",
-      "description": "Inversores solares de alta eficiência para aplicações residenciais e comerciais"
-    },
-    "plcs": {
-      "title": "CLPs (Controladores Lógicos Programáveis)",
-      "description": "Controladores Lógicos Programáveis para automação industrial"
-    },
-    "scada": {
-      "title": "Sistemas SCADA",
-      "description": "Sistemas de Supervisão, Controle e Aquisição de Dados"
-    },
-    "dcs": {
-      "title": "SCD (Sistemas de Controle Distribuído)",
-      "description": "Sistemas de controle distribuído para automação de processos"
-    },
-    "hmi": {
-      "title": "IHM (Interface Homem-Máquina)",
-      "description": "Sistemas de interface homem-máquina para controle industrial"
-    },
-    "grounding-systems": {
-      "title": "Sistemas de Aterramento",
-      "description": "Sistemas de aterramento elétrico para segurança e proteção de equipamentos",
-      "subtitle": "Sistemas de aterramento elétrico para segurança e proteção de equipamentos",
-      "backButton": "Voltar para Dispositivos de Segurança e Proteção",
-      "badges": {
-        "groundRods": "Hastes de Aterramento",
-        "conductors": "Condutores",
-        "clampsLugs": "Grampos e Terminais",
-        "safetyGrounding": "Aterramento de Segurança"
-      },
-      "componentsSection": {
-        "title": "Componentes de Aterramento"
-      },
-      "products": {
-        "electrodes": {
-          "name": "Eletrodos de Aterramento",
-          "description": "Hastes de aterramento de cobre e aço para segurança elétrica",
-          "features": {
-            "copperBonded": "Ligação de Cobre",
-            "steelCore": "Núcleo de Aço",
-            "multipleLengths": "Múltiplos Comprimentos",
-            "ulListed": "Listado pela UL"
-          }
-        },
-        "conductors": {
-          "name": "Condutores de Aterramento",
-          "description": "Condutores de cobre desencapados para sistemas de aterramento",
-          "features": {
-            "solidStranded": "Sólido/Trançado",
-            "highConductivity": "Alta Condutividade",
-            "corrosionResistant": "Resistente à Corrosão",
-            "multipleSizes": "Múltiplos Tamanhos"
-          }
-        },
-        "accessories": {
-          "name": "Acessórios de Aterramento",
-          "description": "Grampos, terminais e acessórios para instalações de aterramento",
-          "features": {
-            "groundClamps": "Grampos de Aterramento",
-            "compressionLugs": "Terminais de Compressão",
-            "testWells": "Poços de Teste",
-            "bondsJumpers": "Ligações e Jumpers"
-          }
-        }
-      },
-      "cta": {
-        "title": "Precisa de Soluções de Aterramento?",
-        "description": "Nossos especialistas em aterramento podem projetar sistemas de aterramento seguros e em conformidade com os códigos para sua instalação.",
-        "contactButton": "Contate Especialistas em Aterramento",
-        "quoteButton": "Solicitar Cotação"
-      },
-      "keyFeatures": "Características Principais:",
-      "seo": {
-        "title": "Sistemas de Aterramento - Equipamentos de Segurança Elétrica | Powerton Engineering",
-        "description": "Sistemas de aterramento elétrico profissionais para segurança. Hastes de aterramento de cobre, condutores, grampos e acessórios de fabricantes líderes.",
-        "keywords": "sistemas de aterramento, aterramento elétrico, sistemas de aterramento, hastes de aterramento, condutores de aterramento, equipamentos de segurança elétrica, hastes de aterramento de cobre, acessórios de aterramento, aterramento industrial"
-      }
-    },
-    "calibration-equipment": {
-      "title": "Equipamento de Calibração",
-      "description": "Instrumentos de calibração de precisão e equipamentos de teste"
-    },
-    "solar-panels": {
-      "title": "Painéis Solares",
-      "description": "Painéis solares de alta eficiência e sistemas fotovoltaicos"
-    },
-    "instrument-transformers": {
-      "title": "Transformadores de Instrumento",
-      "description": "Transformadores de corrente e potencial para medição e proteção"
-    },
-    "contactors-relays": {
-      "title": "Contatores e Relés",
-      "description": "Contatores de potência e relés eletromagnéticos para controle de motor"
-    },
-    "transformers-power-devices": {
-      "title": "Transformadores e Dispositivos de Potência",
-      "description": "Transformadores de controle e equipamentos de conversão de energia"
-    },
-    "led-lighting": {
-      "title": "Iluminação LED",
-      "description": "Soluções de iluminação LED industrial para áreas perigosas e gerais"
-    },
-    "motor-controllers-drives": {
-      "title": "Controladores e Acionamentos de Motor",
-      "description": "Acionamentos de frequência variável e soluções de controle de motor"
-    },
-    "protection-relays": {
-      "title": "Relés de Proteção",
-      "description": "Relés de proteção de motor e monitoramento de tensão"
-    },
-    "panel-meters-indicators": {
-      "title": "Medidores de Painel e Indicadores",
-      "description": "Medidores de painel analógicos e digitais para medição de tensão, corrente e potência"
     }
   },
   "sections": {

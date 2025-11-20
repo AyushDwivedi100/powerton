@@ -487,122 +487,6 @@
     }
   },
   "subcategories": {
-    "sensors": {
-      "title": "Sensors & Transducers",
-      "description": "Industrial sensors for measurement and control"
-    },
-    "transmitters": {
-      "title": "Transmitters & Flow Meters",
-      "description": "Process transmitters and signal conversion equipment"
-    },
-    "controllers": {
-      "title": "Controllers & Recorders",
-      "description": "Industrial control systems and automation controllers"
-    },
-    "switches": {
-      "title": "Switches & Indicators",
-      "description": "Industrial switches and control equipment"
-    },
-    "valves": {
-      "title": "Valves & Actuators",
-      "description": "Industrial valves and flow control systems"
-    },
-    "analyzers": {
-      "title": "Analyzers",
-      "description": "Process analyzers for quality control"
-    },
-    "signal-conditioners": {
-      "title": "Signal Conditioners",
-      "description": "Signal processing and conditioning equipment"
-    },
-    "electrical-cables": {
-      "title": "Electrical Cables",
-      "description": "Industrial power and control cables for electrical systems"
-    },
-    "instrumentation-cables": {
-      "title": "Instrumentation Cables",
-      "description": "Precision cables for process control and measurement systems"
-    },
-    "connectors-terminals": {
-      "title": "Connectors & Terminals",
-      "description": "Electrical connectors and terminal solutions"
-    },
-    "circuit-breakers-fuses": {
-      "title": "Circuit Breakers & Fuses",
-      "description": "Electrical protection devices for circuit safety"
-    },
-    "contactorsRelays": {
-      "title": "Contactors & Relays",
-      "description": "Industrial contactors and control relays for motor control"
-    },
-    "power-supplies": {
-      "title": "Power Supplies",
-      "description": "Industrial power supply units and converters"
-    },
-    "enclosures-cabinets": {
-      "title": "Enclosures & Cabinets",
-      "description": "Electrical enclosures and control cabinet solutions"
-    },
-    "heating-elements-appliances": {
-      "title": "Heating Elements & Appliances",
-      "description": "Industrial heating solutions and thermal equipment"
-    },
-    "multimeters": {
-      "title": "Multimeters",
-      "description": "Digital and analog multimeters for electrical testing"
-    },
-    "power-quality-analyzers": {
-      "title": "Power Quality Analyzers",
-      "description": "Power quality measurement and analysis instruments"
-    },
-    "solar-batteries-energy-storage": {
-      "title": "Solar Batteries & Energy Storage",
-      "description": "Battery storage systems for solar energy applications"
-    },
-    "surge-protectors": {
-      "title": "Surge Protectors",
-      "description": "Electrical surge protection devices for equipment safety"
-    },
-    "safety-relays-switches": {
-      "title": "Safety Relays & Switches",
-      "description": "Safety relays and emergency stop switches for industrial safety"
-    },
-    "intrinsically-safe-equipment": {
-      "title": "Intrinsically Safe Equipment",
-      "description": "Explosion-proof and intrinsically safe equipment for hazardous areas"
-    },
-    "centrifugal-pumps": {
-      "title": "Centrifugal Pumps",
-      "description": "High-efficiency centrifugal pumps for fluid transfer"
-    },
-    "diaphragm-pumps": {
-      "title": "Diaphragm Pumps",
-      "description": "Positive displacement diaphragm pumps for chemical applications"
-    },
-    "gear-pumps": {
-      "title": "Gear Pumps",
-      "description": "Precision gear pumps for viscous fluids"
-    },
-    "pump-parts-spares": {
-      "title": "Pump Parts & Spares",
-      "description": "Replacement parts and spare components for industrial pumps"
-    },
-    "hand-tools": {
-      "title": "Hand Tools",
-      "description": "Professional hand tools for industrial maintenance and assembly"
-    },
-    "power-tools": {
-      "title": "Power Tools",
-      "description": "Industrial power tools for heavy-duty applications"
-    },
-    "cutting-tools": {
-      "title": "Cutting Tools",
-      "description": "Precision cutting tools and equipment for metalworking"
-    },
-    "lifting-equipment": {
-      "title": "Lifting Equipment",
-      "description": "Hoists, cranes, and lifting equipment for material handling"
-    },
     "sensors-transducers": {
       "title": "Sensors & Transducers",
       "description": "Industrial sensors and transducers for measurement and control"
@@ -619,64 +503,61 @@
       "title": "Valves & Actuators",
       "description": "Industrial valves and flow control systems"
     },
-    "safety-equipment": {
-      "title": "Safety Equipment",
-      "description": "Comprehensive safety equipment and personal protective equipment for industrial applications",
-      "sectionsTitle": "Safety Solutions",
-      "products": {
-        "ppe": {
-          "name": "Personal Protective Equipment (PPE)",
-          "description": "Safety equipment for worker protection",
-          "features": {
-            "hardHats": "Hard Hats",
-            "safetyGlasses": "Safety Glasses",
-            "hearingProtection": "Hearing Protection",
-            "workGloves": "Work Gloves"
-          }
-        },
-        "fallProtection": {
-          "name": "Fall Protection Systems",
-          "description": "Harnesses and fall arrest equipment",
-          "features": {
-            "fullBodyHarness": "Full Body Harness",
-            "lanyards": "Lanyards",
-            "anchorPoints": "Anchor Points",
-            "selfRetracting": "Self-Retracting"
-          }
-        },
-        "gasDetection": {
-          "name": "Gas Detection Equipment",
-          "description": "Portable and fixed gas monitoring systems",
-          "features": {
-            "multiGasDetectors": "Multi-Gas Detectors",
-            "singleGas": "Single Gas",
-            "wirelessMonitoring": "Wireless Monitoring",
-            "dataLogging": "Data Logging"
-          }
-        }
-      },
-      "cta": {
-        "title": "Need Safety Equipment?",
-        "description": "Our safety specialists can provide comprehensive safety solutions to protect your workforce.",
-        "contactExpertsCta": "Contact Safety Experts",
-        "requestQuoteCta": "Request Quote"
-      }
+    "analyzers": {
+      "title": "Analyzers",
+      "description": "Process analyzers for quality control"
     },
-    "bldc-cooler-exhaust-motor": {
-      "title": "BLDC Cooler & Exhaust Motors",
-      "description": "Energy-efficient BLDC motors for coolers and exhaust fans"
+    "instrument-transformers": {
+      "title": "Instrument Transformers",
+      "description": "Current and potential transformers for measurement and protection"
     },
-    "bldc-ceiling-fan": {
-      "title": "BLDC Ceiling Fans",
-      "description": "Ultra-efficient BLDC ceiling fans with remote control"
+    "instrumentation-cables": {
+      "title": "Instrumentation Cables",
+      "description": "Precision cables for process control and measurement systems"
     },
-    "bldc-submersible-surface-pump": {
-      "title": "BLDC Submersible & Surface Pumps",
-      "description": "High-efficiency BLDC pumps for water applications"
+    "electrical-cables": {
+      "title": "Electrical Cables",
+      "description": "Industrial power and control cables for electrical systems"
     },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC Table & Wall Fan Motors",
-      "description": "Compact BLDC motors for table and wall fans"
+    "connectors-terminals": {
+      "title": "Connectors & Terminals",
+      "description": "Electrical connectors and terminal solutions"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Circuit Breakers & Fuses",
+      "description": "Electrical protection devices for circuit safety"
+    },
+    "power-supplies": {
+      "title": "Power Supplies",
+      "description": "Industrial power supply units and converters"
+    },
+    "enclosures-cabinets": {
+      "title": "Enclosures & Cabinets",
+      "description": "Electrical enclosures and control cabinet solutions"
+    },
+    "heating-elements-appliances": {
+      "title": "Heating Elements & Appliances",
+      "description": "Industrial heating solutions and thermal equipment"
+    },
+    "contactors-relays": {
+      "title": "Contactors & Relays",
+      "description": "Power contactors and electromagnetic relays for motor control"
+    },
+    "transformers-power-devices": {
+      "title": "Transformers & Power Devices",
+      "description": "Control transformers and power conversion equipment"
+    },
+    "industrial-lighting": {
+      "title": "Industrial Lighting",
+      "description": "Comprehensive industrial lighting solutions including street lights, high bay lights, vessel lights, flood lights, and well glass lights in standard, flameproof, and weatherproof configurations"
+    },
+    "insulators-insulation-materials": {
+      "title": "Insulators & Insulation Materials",
+      "description": "High-quality electrical insulators and insulation materials for power systems and electrical equipment"
+    },
+    "solar-panels": {
+      "title": "Solar Panels",
+      "description": "High-efficiency solar panels and photovoltaic systems"
     },
     "solar-inverters": {
       "title": "Solar Inverters",
@@ -697,6 +578,18 @@
     "hmi": {
       "title": "HMI (Human Machine Interface)",
       "description": "Human machine interface systems for industrial control"
+    },
+    "motor-controllers-drives": {
+      "title": "Motor Controllers & Drives",
+      "description": "Variable frequency drives and motor control solutions"
+    },
+    "io-modules": {
+      "title": "I/O Modules",
+      "description": "Input/Output modules for PLC systems and industrial automation"
+    },
+    "surge-protectors": {
+      "title": "Surge Protectors",
+      "description": "Electrical surge protection devices for equipment safety"
     },
     "grounding-systems": {
       "title": "Grounding Systems",
@@ -757,49 +650,124 @@
         "keywords": "grounding systems, electrical grounding, earthing systems, ground rods, grounding conductors, electrical safety equipment, copper grounding rods, grounding accessories, industrial grounding"
       }
     },
-    "calibration-equipment": {
-      "title": "Calibration Equipment",
-      "description": "Precision calibration instruments and testing equipment"
+    "safety-relays-switches": {
+      "title": "Safety Relays & Switches",
+      "description": "Safety relays and emergency stop switches for industrial safety"
     },
-    "solar-panels": {
-      "title": "Solar Panels",
-      "description": "High-efficiency solar panels and photovoltaic systems"
+    "intrinsically-safe-equipment": {
+      "title": "Intrinsically Safe Equipment",
+      "description": "Explosion-proof and intrinsically safe equipment for hazardous areas"
     },
-    "instrument-transformers": {
-      "title": "Instrument Transformers",
-      "description": "Current and potential transformers for measurement and protection"
-    },
-    "contactors-relays": {
-      "title": "Contactors & Relays",
-      "description": "Power contactors and electromagnetic relays for motor control"
-    },
-    "transformers-power-devices": {
-      "title": "Transformers & Power Devices",
-      "description": "Control transformers and power conversion equipment"
-    },
-    "industrial-lighting": {
-      "title": "Industrial Lighting",
-      "description": "Comprehensive industrial lighting solutions including street lights, high bay lights, vessel lights, flood lights, and well glass lights in standard, flameproof, and weatherproof configurations"
-    },
-    "insulators-insulation-materials": {
-      "title": "Insulators & Insulation Materials",
-      "description": "High-quality electrical insulators and insulation materials for power systems and electrical equipment"
-    },
-    "motor-controllers-drives": {
-      "title": "Motor Controllers & Drives",
-      "description": "Variable frequency drives and motor control solutions"
-    },
-    "io-modules": {
-      "title": "I/O Modules",
-      "description": "Input/Output modules for PLC systems and industrial automation"
+    "safety-equipment": {
+      "title": "Safety Equipment",
+      "description": "Comprehensive safety equipment and personal protective equipment for industrial applications",
+      "sectionsTitle": "Safety Solutions",
+      "products": {
+        "ppe": {
+          "name": "Personal Protective Equipment (PPE)",
+          "description": "Safety equipment for worker protection",
+          "features": {
+            "hardHats": "Hard Hats",
+            "safetyGlasses": "Safety Glasses",
+            "hearingProtection": "Hearing Protection",
+            "workGloves": "Work Gloves"
+          }
+        },
+        "fallProtection": {
+          "name": "Fall Protection Systems",
+          "description": "Harnesses and fall arrest equipment",
+          "features": {
+            "fullBodyHarness": "Full Body Harness",
+            "lanyards": "Lanyards",
+            "anchorPoints": "Anchor Points",
+            "selfRetracting": "Self-Retracting"
+          }
+        },
+        "gasDetection": {
+          "name": "Gas Detection Equipment",
+          "description": "Portable and fixed gas monitoring systems",
+          "features": {
+            "multiGasDetectors": "Multi-Gas Detectors",
+            "singleGas": "Single Gas",
+            "wirelessMonitoring": "Wireless Monitoring",
+            "dataLogging": "Data Logging"
+          }
+        }
+      },
+      "cta": {
+        "title": "Need Safety Equipment?",
+        "description": "Our safety specialists can provide comprehensive safety solutions to protect your workforce.",
+        "contactExpertsCta": "Contact Safety Experts",
+        "requestQuoteCta": "Request Quote"
+      }
     },
     "protection-relays": {
       "title": "Protection Relays",
       "description": "Motor protection and voltage monitoring relays"
     },
+    "centrifugal-pumps": {
+      "title": "Centrifugal Pumps",
+      "description": "High-efficiency centrifugal pumps for fluid transfer"
+    },
+    "diaphragm-pumps": {
+      "title": "Diaphragm Pumps",
+      "description": "Positive displacement diaphragm pumps for chemical applications"
+    },
+    "gear-pumps": {
+      "title": "Gear Pumps",
+      "description": "Precision gear pumps for viscous fluids"
+    },
+    "pump-parts-spares": {
+      "title": "Pump Parts & Spares",
+      "description": "Replacement parts and spare components for industrial pumps"
+    },
+    "hand-tools": {
+      "title": "Hand Tools",
+      "description": "Professional hand tools for industrial maintenance and assembly"
+    },
+    "power-tools": {
+      "title": "Power Tools",
+      "description": "Industrial power tools for heavy-duty applications"
+    },
+    "cutting-tools": {
+      "title": "Cutting Tools",
+      "description": "Precision cutting tools and equipment for metalworking"
+    },
+    "lifting-equipment": {
+      "title": "Lifting Equipment",
+      "description": "Hoists, cranes, and lifting equipment for material handling"
+    },
+    "multimeters": {
+      "title": "Multimeters",
+      "description": "Digital and analog multimeters for electrical testing"
+    },
+    "power-quality-analyzers": {
+      "title": "Power Quality Analyzers",
+      "description": "Power quality measurement and analysis instruments"
+    },
+    "calibration-equipment": {
+      "title": "Calibration Equipment",
+      "description": "Precision calibration instruments and testing equipment"
+    },
     "panel-meters-indicators": {
       "title": "Panel Meters & Indicators",
       "description": "Analog and digital panel meters for voltage, current, and power measurement"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Cooler & Exhaust Motors",
+      "description": "Energy-efficient BLDC motors for coolers and exhaust fans"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC Ceiling Fans",
+      "description": "Ultra-efficient BLDC ceiling fans with remote control"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC Submersible & Surface Pumps",
+      "description": "High-efficiency BLDC pumps for water applications"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Table & Wall Fan Motors",
+      "description": "Compact BLDC motors for table and wall fans"
     }
   },
   "sections": {

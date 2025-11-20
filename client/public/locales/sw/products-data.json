@@ -7013,6 +7013,765 @@
       "Ufanisi wa juu"
     ]
   },
+  "siemens3su1200Buzzer": {
+    "title": "Siren ya Kupachika Paneli ya Siemens 3SU1200-6KB10",
+    "description": "Siren ya viwandani ya 24V AC/DC yenye pato la sauti la 80 dB na upachikaji wa 22mm",
+    "features": [
+      "80 dB @ 10cm",
+      "24V AC/DC zima",
+      "Upachikaji wa mviringo wa 22mm",
+      "Ulinzi wa IP40",
+      "Marudio ya 2.4 kHz"
+    ]
+  },
+  "abbCb1610rBuzzer": {
+    "title": "ABB CB1-610R King'ora Chenye Mwangaza",
+    "description": "King'ora cha viwandani kinachopiga na kiashiria chekundu cha LED na ukadiriaji wa IP66",
+    "features": [
+      "Toni ya 90 dB inayopiga",
+      "LED nyekundu iliyojumuishwa",
+      "Imekadiriwa IP66/IP67/IP69K",
+      "Upachikaji wa paneli ya 22mm",
+      "Uendeshaji wa 24V AC/DC"
+    ]
+  },
+  "siemens8wd4250Buzzer": {
+    "title": "Nguzo ya Ishara ya Siemens 8WD4250-0FA",
+    "description": "King'ora cha ishara cha viwandani cha 230V AC kwa nguzo za ishara za 50mm",
+    "features": [
+      "Pato la 80-85 dB",
+      "Inaendeshwa na 230V AC",
+      "Upachikaji wa nguzo ya 50mm",
+      "Mkondo wa 25 mA",
+      "Utoaji wa ishara wa viwandani"
+    ]
+  },
+  "polycabLtXlpeArmoured3core25": {
+    "title": "Kebo ya Polycab LT XLPE yenye Silaha 3C x 25 sq.mm",
+    "description": "Kebo ya 650/1100V XLPE iliyo na silaha yenye kondakta ya waya ya chuma iliyoingizwa",
+    "features": [
+      "Imekadiriwa 650/1100V",
+      "Kondakta iliyokwama ya shaba",
+      "Insulation ya XLPE",
+      "Silaha ya waya ya chuma",
+      "IS 7098 Sehemu ya 1"
+    ]
+  },
+  "keiAluminiumArmoured4core70": {
+    "title": "Kebo ya KEI ya Alumini yenye Silaha 4C x 70 sq.mm",
+    "description": "Kebo ya 1.1 kV XLPE yenye silaha yenye kondakta ya alumini na silaha ya ukanda wa chuma",
+    "features": [
+      "LT iliyokadiriwa 1.1 kV",
+      "Alumini iliyokwama",
+      "Usanidi wa msingi 4",
+      "Silaha ya ukanda wa chuma",
+      "Kiwango cha IS 7098"
+    ]
+  },
+  "polycabHtXlpe11kvArmoured185": {
+    "title": "Kebo ya Polycab HT XLPE 11kV yenye Silaha 1C x 185 sq.mm",
+    "description": "Kebo ya mvutano wa juu ya 6.35/11 kV yenye XLPE ya extrusion tatu na skrini ya mkanda wa shaba",
+    "features": [
+      "HT ya 6.35/11 kV",
+      "Kondakta ya kompakt ya shaba",
+      "XLPE ya extrusion tatu",
+      "Skrini ya mkanda wa shaba",
+      "IEC 60502-2"
+    ]
+  },
+  "polycabFlexibleMulticore4core2-5": {
+    "title": "Kebo ya Polycab Inayonyumbulika ya Msingi Nyingi 4C x 2.5 sq.mm",
+    "description": "Kebo ya 650/1100V PVC iliyoingizwa yenye kubadilika na kondakta ya shaba ya Daraja la 5",
+    "features": [
+      "Imekadiriwa 650/1100V",
+      "Inayonyumbulika ya Daraja la 5",
+      "Msingi 4 PVC iliyoingizwa",
+      "-15°C hadi +70°C",
+      "IS 694:2010"
+    ]
+  },
+  "keiFlexibleFrls6core4": {
+    "title": "Kebo ya KEI Inayonyumbulika ya FR-LSH 6C x 4 sq.mm",
+    "description": "Kebo ya 1100V inayozuia moto isiyo na halogeni",
+    "features": [
+      "Imekadiriwa 1100V",
+      "Sheath ya FR-LSH",
+      "Msingi 6 umefungwa",
+      "Hadi 105°C",
+      "IS 694, BS 6500"
+    ]
+  },
+  "polycabFlexibleSingle16": {
+    "title": "Kebo ya Polycab Inayonyumbulika ya Msingi Mmoja 16 sq.mm",
+    "description": "Kebo ya 1100V ya msingi mmoja inayonyumbulika kwa paneli za udhibiti na otomatiki",
+    "features": [
+      "Imekadiriwa 1100V",
+      "Msingi mmoja",
+      "Shaba inyumbufu",
+      "PVC iliyoingizwa",
+      "Matumizi ya udhibiti"
+    ]
+  },
+  "beldenCat6aProfinet": {
+    "title": "Kebo ya Belden Cat6a DataTuff PROFINET",
+    "description": "Kebo ya 10 Gbps ya Ethaneti ya viwandani yenye koti ya PUR kwa PROFINET na EtherCAT",
+    "features": [
+      "Imekadiriwa Cat6a",
+      "Kasi ya 10 Gbps",
+      "Imelindwa mara mbili",
+      "Koti ya PUR",
+      "Imethibitishwa na PROFINET"
+    ]
+  },
+  "lappEtherlineCat5e": {
+    "title": "Kebo ya LAPP ETHERLINE Cat5e PROFINET",
+    "description": "Kebo ya Cat5e S/FTP ya viwandani kwa matumizi ya PROFINET na EtherNet/IP",
+    "features": [
+      "Imethibitishwa na Cat5e",
+      "100 Mbps",
+      "Imelindwa na S/FTP",
+      "PVC isiyo na Halogeni",
+      "IEC 61784-5-3"
+    ]
+  },
+  "siemensFcCat6": {
+    "title": "Kebo ya Siemens SIMATIC NET FastConnect Cat6",
+    "description": "Kebo ya Ethaneti ya Cat6 ya viwandani yenye mfumo wa mkusanyiko wa haraka kwa otomatiki",
+    "features": [
+      "Kiwango cha Cat6",
+      "Kasi ya 1 Gbps",
+      "Imelindwa na EMC",
+      "Mkusanyiko wa haraka",
+      "Daraja la viwandani"
+    ]
+  },
+  "abbOfafGg125a": {
+    "title": "Fuse ya ABB OFAF gG 125A HRC 500V",
+    "description": "Fuse ya 125A gG-aina HRC yenye uwezo wa kuvunja 80 kA kwa ulinzi wa madhumuni ya jumla",
+    "features": [
+      "Mkondo uliokadiriwa wa 125A",
+      "500V AC",
+      "80 kA inavunja",
+      "Fuse ya ukubwa wa 00",
+      "IEC 60269"
+    ]
+  },
+  "siemens3na3250a": {
+    "title": "Fuse ya Siemens 3NA3 250A DIN HRC",
+    "description": "Fuse ya 250A NH1 ukubwa gG yenye uwezo wa kuvunja 120 kA",
+    "features": [
+      "Imekadiriwa 250A",
+      "500V AC",
+      "Ukubwa wa NH1",
+      "120 kA inavunja",
+      "IS 13703"
+    ]
+  },
+  "abbCef100aMv": {
+    "title": "Fuse ya ABB CEF 100A ya Mvutano wa Kati HRC",
+    "description": "Fuse ya kikomo cha mkondo wa akiba ya 12 kV kwa ulinzi wa transfoma",
+    "features": [
+      "Imekadiriwa 100A",
+      "Mvutano wa kati wa 12 kV",
+      "Inazuia mkondo",
+      "Ulinzi wa transfoma",
+      "IEC 60282-1"
+    ]
+  },
+  "siemensSitopPsu820020a": {
+    "title": "Ugavi wa Nishati wa Siemens SITOP PSU8200 24V/20A",
+    "description": "480W DIN reli SMPS yenye ufanisi wa 93% na safu pana ya ingizo",
+    "features": [
+      "Pato la 480W",
+      "24V DC / 20A",
+      "Ufanisi wa 93%",
+      "Ingizo la 120-230V AC",
+      "Mlima wa reli ya DIN"
+    ]
+  },
+  "phoenixQuintPs10a": {
+    "title": "Ugavi wa Nishati wa Phoenix Contact QUINT POWER 24V/10A SMPS",
+    "description": "Ugavi wa nishati wa 240W na teknolojia ya Kuvunja Fuse Teule",
+    "features": [
+      "Pato la 240W",
+      "24V DC / 10A",
+      "Ufanisi wa 93%",
+      "Teknolojia ya SFB",
+      "100-240V AC"
+    ]
+  },
+  "siemensSitopPsu100s10a": {
+    "title": "Ugavi wa Nishati wa Siemens SITOP PSU100S 24V/10A SMPS",
+    "description": "240W SMPS ya awamu moja yenye udhibitisho wa UL na CSA",
+    "features": [
+      "Nguvu ya 240W",
+      "24V DC / 10A",
+      "AC ya awamu moja",
+      "UL, CSA, CE",
+      "Reli ya DIN"
+    ]
+  },
+  "siemens3rt202725a": {
+    "title": "Kipitishi cha Siemens SIRIUS 3RT2027 25A",
+    "description": "Kipitishi cha 25A AC-3 kilichokadiriwa nguzo 3 na ukadiriaji wa nguvu wa 11 kW kwa 400V",
+    "features": [
+      "25A @ 400V AC-3",
+      "11 kW @ 400V",
+      "Nguzo 3 + 1NO+1NC",
+      "Ukubwa wa S0",
+      "Koili ya 230V AC"
+    ]
+  },
+  "abbAf140140a": {
+    "title": "Kipitishi cha ABB AF140 140A AC",
+    "description": "Kipitishi cha 140A AC-3 chenye koili ya ulimwengu wote na ukadiriaji wa nguvu wa 75 kW",
+    "features": [
+      "140A @ 400V AC-3",
+      "75 kW @ 400V",
+      "Koili ya ulimwengu wote",
+      "Hadi 690V",
+      "200A AC-1"
+    ]
+  },
+  "schneiderLc1d3232a": {
+    "title": "Kipitishi cha Schneider TeSys LC1D32 32A",
+    "description": "Kipitishi cha laini ya TeSys D cha 32A AC-3 kilichokadiriwa na ukadiriaji wa nguvu wa 15 kW",
+    "features": [
+      "32A @ 400V AC-3",
+      "15 kW @ 400V",
+      "Mvutano wa 690V",
+      "Chaguzi nyingi za koili",
+      "50A AC-1"
+    ]
+  },
+  "abbCtMvsTimer": {
+    "title": "Relay ya Muda ya Multifunction ya ABB CT-MVS.12S",
+    "description": "Kipima muda cha reli ya DIN chenye kazi 11 za muda na safu ya 0.05s hadi 100h",
+    "features": [
+      "Kazi 11 za muda",
+      "0.05s hadi 100h",
+      "24-240V AC/DC",
+      "Relay ya 1C/O 6A",
+      "Upana wa 17.5mm"
+    ]
+  },
+  "schneiderRe17ramuTimer": {
+    "title": "Kipima Muda Maradufu cha Schneider Harmony RE17RAMU",
+    "description": "Relay ya muda maradufu ya kuchelewesha KUWASHA/ZIMA yenye safu ya muda ya 1s hadi 100h",
+    "features": [
+      "Kuchelewesha KUWASHA/ZIMA maradufu",
+      "Safu ya 1s hadi 100h",
+      "24-240V AC/DC",
+      "Pato la 1CO 8A",
+      "Mlima wa reli ya DIN"
+    ]
+  },
+  "abbCtAhcTimer": {
+    "title": "Kipima Muda cha Kuchelewesha ZIMA cha ABB CT-AHC.12",
+    "description": "Kipima muda cha kuchelewesha ZIMA cha kazi moja na safu 7 za muda hadi 100h",
+    "features": [
+      "Kazi ya kuchelewesha ZIMA",
+      "0.05s hadi 100h",
+      "Safu 7 za muda",
+      "24-240V AC/DC",
+      "Ulinzi wa IP50"
+    ]
+  },
+  "abbX4250psf1": {
+    "title": "Transfoma ya Udhibiti ya ABB X4250PSF1 250VA",
+    "description": "Transfoma ya udhibiti ya sekondari mbili ya 250VA yenye muundo wa kupachika paneli",
+    "features": [
+      "Imekadiriwa 250 VA",
+      "Msingi wa 240/480V",
+      "Sekondari mbili ya 115/24V",
+      "50/60 Hz",
+      "UL, CSA, NEMA"
+    ]
+  },
+  "siemensMt0500a": {
+    "title": "Transfoma ya Udhibiti ya Siemens MT0500A 500VA",
+    "description": "Transfoma ya 500VA Class MT yenye ongezeko la joto la 55°C",
+    "features": [
+      "Nguvu ya 500 VA",
+      "Msingi wa 240/480V",
+      "Sekondari ya 120/240V",
+      "Darasa la 105°C",
+      "Imethibitishwa na UL, CSA"
+    ]
+  },
+  "abbX4100psf1": {
+    "title": "Transfoma ya Udhibiti ya ABB X4100PSF1 100VA",
+    "description": "Transfoma ya 100VA iliyofunikwa na epoxy yenye ulinzi wa msingi na sekondari",
+    "features": [
+      "Imekadiriwa 100 VA",
+      "Msingi wa 208/230/460V",
+      "Sekondari ya 115/24V",
+      "Iliyofunikwa na epoxy",
+      "Ulinzi wa fuse"
+    ]
+  },
+  "abbMvCt1005": {
+    "title": "Transfoma ya Sasa ya ABB MV 100/5A 5P20",
+    "description": "CT ya volti ya kati ya 12 kV yenye darasa la usahihi la 5P20 kwa ulinzi",
+    "features": [
+      "Uwiano wa 100/5A",
+      "Usahihi wa 5P20",
+      "Mzigo wa 15 VA",
+      "Imekadiriwa 12 kV",
+      "IEC 61869-2"
+    ]
+  },
+  "siemens4nc5Ct6005": {
+    "title": "Transfoma ya Sasa ya Siemens 4NC5 600/5A",
+    "description": "CT ya darasa la upimaji 0.5 yenye mzigo wa 10 VA kwa vifaa vya PAC",
+    "features": [
+      "Uwiano wa 600/5A",
+      "Upimaji wa Darasa la 0.5",
+      "Mzigo wa 10 VA",
+      "Inaoana na PAC",
+      "IEC 61869"
+    ]
+  },
+  "abbLvCt4005": {
+    "title": "Transfoma ya Sasa ya ABB LV 400/5A Darasa la 0.2S",
+    "description": "CT ya upimaji sahihi yenye darasa la usahihi la 0.2S na chaguo za pato mbili",
+    "features": [
+      "400/5A au 400/1A",
+      "Usahihi wa Darasa la 0.2S",
+      "Mzigo wa 10 VA",
+      "Usahihi wa ±0.2%",
+      "Volti ya chini"
+    ]
+  },
+  "philipsSmartbright100w": {
+    "title": "Taa ya Barabarani ya Philips SmartBright LED 100W",
+    "description": "Taa ya barabarani ya LED ya ufanisi wa juu ya 100W yenye pato la 14,000 lm na ukadiriaji wa IP66",
+    "features": [
+      "Pato la 14,000 lm",
+      "Ufanisi wa 140 lm/W",
+      "Ulinzi wa IP66",
+      "Athari ya IK08",
+      "Maisha ya saa 50,000"
+    ]
+  },
+  "osramAvant150w": {
+    "title": "Taa ya Barabarani ya OSRAM AVANT LED 150W",
+    "description": "Taa ya barabarani ya viwandani ya 150W yenye lenzi za asymmetric na 15,000 lm",
+    "features": [
+      "Pato la 15,000 lm",
+      "Ufanisi wa 130 lm/W",
+      "Imekadiriwa IP65",
+      "Athari ya IK10",
+      "Lenzi za Asymmetric"
+    ]
+  },
+  "philipsXitanium40w": {
+    "title": "Taa ya Barabarani ya Philips Xitanium Infinity 40W LED",
+    "description": "Taa ya barabarani ya 40W yenye ufanisi wa hali ya juu yenye 160 lm/W na maisha ya saa 100,000",
+    "features": [
+      "Pato la 6,400 lm",
+      "Ufanisi wa 160 lm/W",
+      "Maisha ya saa 100,000",
+      "Ulinzi wa IP66",
+      "3000K amber"
+    ]
+  },
+  "trinaTsm315pd14": {
+    "title": "Paneli ya Polycrystalline ya Trina Solar TSM-315PD14",
+    "description": "Paneli ya sola ya polycrystalline ya 315W yenye ufanisi wa 16.2% na udhamini wa miaka 25",
+    "features": [
+      "Nguvu ya 315W",
+      "Ufanisi wa 16.2%",
+      "Seli 72 poly",
+      "Udhamini wa miaka 25",
+      "1960×992×40mm"
+    ]
+  },
+  "canadianCs6p330p": {
+    "title": "Paneli ya Polycrystalline ya Canadian Solar CS6P-330P",
+    "description": "Paneli ya polycrystalline yenye ufanisi wa juu ya 330W yenye ufanisi wa 16.97%",
+    "features": [
+      "Pato la 330W",
+      "Ufanisi wa 16.97%",
+      "Seli 72 poly",
+      "Mfumo wa juu wa 1000V",
+      "Ukadiriaji wa 91.89% PTC"
+    ]
+  },
+  "canadianCs3k295p": {
+    "title": "Paneli ya Canadian Solar KuPower CS3K-295P",
+    "description": "Paneli ya polycrystalline ya 295W yenye viwango vya juu vya mzigo wa theluji na upepo",
+    "features": [
+      "Nguvu ya 295W",
+      "Ufanisi wa 16%",
+      "Seli 60 poly",
+      "Mzigo wa theluji wa 6000 Pa",
+      "Udhamini wa miaka 25"
+    ]
+  },
+  "philipsGreenperform100wHighbay": {
+    "title": "Philips GreenPerform LED 100W High Bay",
+    "description": "LED ya viwandani ya 100W yenye pato la 13,000 lm na pembe ya boriti ya 120°",
+    "features": [
+      "Pato la 13,000 lm",
+      "Ufanisi wa 130 lm/W",
+      "Ulinzi wa IP65",
+      "Boriti pana ya 120°",
+      "Saa 50,000"
+    ]
+  },
+  "osramLedvance150wHighbay": {
+    "title": "OSRAM LEDVANCE LED 150W High Bay ya Viwandani",
+    "description": "Taa ya ghala ya 150W yenye 21,000 lm na ukadiriaji wa athari ya IK08",
+    "features": [
+      "Pato la 21,000 lm",
+      "Ufanisi wa 140 lm/W",
+      "Imekadiriwa IP65/IK08",
+      "4000K neutral",
+      "Daraja la ghala"
+    ]
+  },
+  "philipsCoreline200wHighbay": {
+    "title": "Philips CoreLine LED 200W High Bay",
+    "description": "LED ya nguvu ya juu ya 200W kwa urefu wa kupachika wa mita 6-12",
+    "features": [
+      "Pato la 28,000 lm",
+      "Ufanisi wa 140 lm/W",
+      "Mlima wa 6-12m",
+      "Dereva wa Mean Well",
+      "Ulinzi wa IP65"
+    ]
+  },
+  "philipsSmartbright50wFlood": {
+    "title": "Taa ya Philips SmartBright LED 50W",
+    "description": "Taa ya 50W LED yenye 5,500 lm na nyumba ya alumini iliyokufa",
+    "features": [
+      "Pato la 5,500 lm",
+      "Ufanisi wa 110 lm/W",
+      "Ulinzi wa IP65",
+      "Boriti ya 110°",
+      "6500K mchana"
+    ]
+  },
+  "osramFloodlightPro100w": {
+    "title": "Taa ya OSRAM Floodlight Pro LED 100W",
+    "description": "Taa ya kitaalamu ya 100W yenye 11,000 lm na ukadiriaji wa athari ya IK08",
+    "features": [
+      "Pato la 11,000 lm",
+      "Ufanisi wa 110 lm/W",
+      "Imekadiriwa IP65/IK08",
+      "4000K neutral",
+      "Saa 30,000"
+    ]
+  },
+  "philipsTango150wFlood": {
+    "title": "Taa ya Philips Tango LED 150W",
+    "description": "Taa ya nguvu ya juu ya 150W kwa taa za michezo na eneo la nje",
+    "features": [
+      "Pato la 18,000 lm",
+      "Ufanisi wa 120 lm/W",
+      "Ulinzi wa IP66",
+      "5700K CCT",
+      "Taa za michezo"
+    ]
+  },
+  "firstSolarFs680": {
+    "title": "Paneli Nyembamba ya Filamu ya First Solar Series 6 FS-680",
+    "description": "Paneli ya CdTe nyembamba ya filamu ya 445W yenye mgawo bora wa halijoto",
+    "features": [
+      "Pato la 445W",
+      "Ufanisi wa 18.4%",
+      "CdTe nyembamba ya filamu",
+      "Mgawo wa halijoto wa -0.28%/°C",
+      "Bifacial"
+    ]
+  },
+  "solarFrontierSf180s": {
+    "title": "Paneli Nyembamba ya Filamu ya Solar Frontier SF180-S CIS",
+    "description": "Paneli nyembamba ya filamu ya 180W CIS yenye utendaji bora wa kivuli",
+    "features": [
+      "Nguvu ya 180W",
+      "Ufanisi wa 13.8%",
+      "Teknolojia ya CIS",
+      "Uvumilivu bora wa kivuli",
+      "Udhamini wa miaka 25"
+    ]
+  },
+  "miasoleFlex02": {
+    "title": "Paneli Inayonyumbulika ya MiaSolé FLEX-02 CIGS",
+    "description": "Paneli ya 430W CIGS inayonyumbulika kwa nyuso zilizopindwa na matumizi ya simu",
+    "features": [
+      "Pato la 430W",
+      "Ufanisi wa 17.5%",
+      "Inayonyumbulika inayoweza kukunjwa",
+      "Uzito mwepesi wa kilo 6",
+      "RV, boti, zilizopindwa"
+    ]
+  },
+  "siemensSinamicsG120c5-5kw": {
+    "title": "VFD ya Siemens SINAMICS G120C 5.5 kW",
+    "description": "Hifadhi ya mzunguko wa kubadilisha ya 5.5 kW yenye mawasiliano ya USS na Modbus",
+    "features": [
+      "Nguvu ya 5.5 kW",
+      "Awamu 3 ya 380-480V",
+      "Pato la 12A",
+      "Upakiaji mwingi wa 150%",
+      "USS, Modbus RTU"
+    ]
+  },
+  "abbAcs58011kw": {
+    "title": "Hifadhi ya ABB ACS580 11 kW",
+    "description": "11 kW VFD yenye PLC iliyojengwa ndani na kitendakazi salama cha torque off",
+    "features": [
+      "Imekadiriwa 11 kW",
+      "380-480V",
+      "PLC iliyojengwa ndani",
+      "Torque off salama",
+      "Ufanisi wa 98%"
+    ]
+  },
+  "schneiderAtv3207-5kw": {
+    "title": "Schneider Altivar ATV320 VFD 7.5 kW",
+    "description": "Hifadhi ya kasi ya kubadilisha ya 7.5 kW yenye onyesho la terminali la picha",
+    "features": [
+      "Nguvu ya 7.5 kW",
+      "Awamu 3 ya 380-500V",
+      "Pato la 17A",
+      "Terminal ya picha",
+      "Upakiaji mwingi wa 150%"
+    ]
+  },
+  "siemens3rw4445a": {
+    "title": "Kianzilishi Laini cha Siemens SIRIUS 3RW44 45A",
+    "description": "Kianzilishi laini cha 45A chenye udhibiti wa pampu na bypass kwa motors za 22 kW",
+    "features": [
+      "Imekadiriwa 45A",
+      "22 kW @ 400V",
+      "200-600V AC",
+      "Udhibiti wa pampu",
+      "Ulinzi wa upakiaji mwingi"
+    ]
+  },
+  "abbPse72a": {
+    "title": "Kianzilishi Laini cha ABB PSE 72A",
+    "description": "Kianzilishi laini cha 72A chenye bypass ya ndani kwa matumizi ya motor ya 37 kW",
+    "features": [
+      "Imekadiriwa 72A",
+      "37 kW @ 400V",
+      "208-600V",
+      "Bypass ya ndani",
+      "Torque 30-90%"
+    ]
+  },
+  "schneiderAts2232a": {
+    "title": "Kianzilishi Laini cha Schneider Altistart ATS22 32A",
+    "description": "Kianzilishi laini cha 32A chenye udhibiti wa torque na uboreshaji wa nishati",
+    "features": [
+      "Imekadiriwa 32A",
+      "15 kW @ 400V",
+      "208-690V",
+      "Udhibiti wa Torque",
+      "Uboreshaji wa nishati"
+    ]
+  },
+  "lappUnitronicProfibus2x22": {
+    "title": "Kebo ya LAPP UNITRONIC BUS PROFIBUS DP",
+    "description": "Kebo ya viwandani ya PROFIBUS DP yenye kondakta za 2x22 AWG na koti ya zambarau",
+    "features": [
+      "PROFIBUS DP",
+      "2x22 AWG iliyokwama",
+      "Uzuiaji wa 135-165 Ω",
+      "Koti ya PVC ya zambarau",
+      "IEC 61158-2"
+    ]
+  },
+  "siemensProfibusFC": {
+    "title": "Kebo ya Kawaida ya Siemens PROFIBUS FastConnect",
+    "description": "Kebo ya PROFIBUS yenye muunganisho wa haraka na viunganishi vya M12 au DB9",
+    "features": [
+      "PROFIBUS DP/PA",
+      "Iliyosokotwa mara 2",
+      "Hadi 12 Mbps",
+      "Zambarau violet",
+      "M12 au DB9"
+    ]
+  },
+  "belden3079aProfibus": {
+    "title": "Kebo ya Mtandao ya Belden 3079A PROFIBUS",
+    "description": "Kebo ya viwandani ya PROFIBUS yenye ulinzi wa foil na braid",
+    "features": [
+      "Imethibitishwa na PROFIBUS",
+      "22 AWG imara",
+      "Foil + braid",
+      "Uzuiaji wa 150 Ω",
+      "PVC ya zambarau"
+    ]
+  },
+  "lappEtherlineProfinetC": {
+    "title": "Kebo ya LAPP ETHERLINE PN Aina ya C Cat5e",
+    "description": "Kebo inayoendelea ya Cat5e PROFINET kwa nyaya na minyororo ya kuburuta",
+    "features": [
+      "Aina C flex",
+      "Cat5e S/FTP",
+      "Mizunguko 7.5M flex",
+      "Koti ya PUR ya kijani",
+      "Imekadiriwa mnyororo wa kuburuta"
+    ]
+  },
+  "siemensProfinetTypeA": {
+    "title": "Kebo ya Siemens PROFINET Aina ya A Cat5e Imefumwa",
+    "description": "Kebo ya Cat5e PROFINET kwa mitambo isiyobadilika ya stationary",
+    "features": [
+      "Aina A imefumwa",
+      "Cat5e imelindwa",
+      "Shaba imara",
+      "Rangi ya kijani",
+      "IEC 61784-5-3"
+    ]
+  },
+  "beldenProfinetCat6a": {
+    "title": "Belden DataTuff PROFINET Cat6a ya Viwandani",
+    "description": "Kebo ya 10 Gbps Cat6a PROFINET yenye mizunguko milioni 10 ya flex",
+    "features": [
+      "Imethibitishwa na Cat6a",
+      "Kasi ya 10 Gbps",
+      "S/FTP imelindwa",
+      "Mizunguko ya 10M flex",
+      "UL PLTC-ER"
+    ]
+  },
+  "abbOfafGg125a": {
+    "title": "Fuse ya ABB OFAF gG 125A HRC 500V",
+    "description": "Fuse ya 125A gG-aina HRC yenye uwezo wa kuvunja 80 kA kwa ulinzi wa madhumuni ya jumla",
+    "features": [
+      "Mkondo uliokadiriwa wa 125A",
+      "500V AC",
+      "80 kA inavunja",
+      "Fuse ya ukubwa wa 00",
+      "IEC 60269"
+    ]
+  },
+  "siemens3na3250a": {
+    "title": "Fuse ya Siemens 3NA3 250A DIN HRC",
+    "description": "Fuse ya 250A NH1 ukubwa gG yenye uwezo wa kuvunja 120 kA",
+    "features": [
+      "Imekadiriwa 250A",
+      "500V AC",
+      "Ukubwa wa NH1",
+      "120 kA inavunja",
+      "IS 13703"
+    ]
+  },
+  "abbCef100aMv": {
+    "title": "Fuse ya ABB CEF 100A ya Mvutano wa Kati HRC",
+    "description": "Fuse ya kikomo cha mkondo wa akiba ya 12 kV kwa ulinzi wa transfoma",
+    "features": [
+      "Imekadiriwa 100A",
+      "Mvutano wa kati wa 12 kV",
+      "Inazuia mkondo",
+      "Ulinzi wa transfoma",
+      "IEC 60282-1"
+    ]
+  },
+  "siemensSitopPsu820020a": {
+    "title": "Ugavi wa Nishati wa Siemens SITOP PSU8200 24V/20A",
+    "description": "480W DIN reli SMPS yenye ufanisi wa 93% na safu pana ya ingizo",
+    "features": [
+      "Pato la 480W",
+      "24V DC / 20A",
+      "Ufanisi wa 93%",
+      "Ingizo la 120-230V AC",
+      "Mlima wa reli ya DIN"
+    ]
+  },
+  "phoenixQuintPs10a": {
+    "title": "Ugavi wa Nishati wa Phoenix Contact QUINT POWER 24V/10A SMPS",
+    "description": "Ugavi wa nishati wa 240W na teknolojia ya Kuvunja Fuse Teule",
+    "features": [
+      "Pato la 240W",
+      "24V DC / 10A",
+      "Ufanisi wa 93%",
+      "Teknolojia ya SFB",
+      "100-240V AC"
+    ]
+  },
+  "siemensSitopPsu100s10a": {
+    "title": "Ugavi wa Nishati wa Siemens SITOP PSU100S 24V/10A SMPS",
+    "description": "240W SMPS ya awamu moja yenye udhibitisho wa UL na CSA",
+    "features": [
+      "Nguvu ya 240W",
+      "24V DC / 10A",
+      "AC ya awamu moja",
+      "UL, CSA, CE",
+      "Reli ya DIN"
+    ]
+  },
+  "siemens3rt202725a": {
+    "title": "Kipitishi cha Siemens SIRIUS 3RT2027 25A",
+    "description": "Kipitishi cha 25A AC-3 kilichokadiriwa nguzo 3 na ukadiriaji wa nguvu wa 11 kW kwa 400V",
+    "features": [
+      "25A @ 400V AC-3",
+      "11 kW @ 400V",
+      "Nguzo 3 + 1NO+1NC",
+      "Ukubwa wa S0",
+      "Koili ya 230V AC"
+    ]
+  },
+  "abbAf140140a": {
+    "title": "Kipitishi cha ABB AF140 140A AC",
+    "description": "Kipitishi cha 140A AC-3 chenye koili ya ulimwengu wote na ukadiriaji wa nguvu wa 75 kW",
+    "features": [
+      "140A @ 400V AC-3",
+      "75 kW @ 400V",
+      "Koili ya ulimwengu wote",
+      "Hadi 690V",
+      "200A AC-1"
+    ]
+  },
+  "schneiderLc1d3232a": {
+    "title": "Kipitishi cha Schneider TeSys LC1D32 32A",
+    "description": "Kipitishi cha laini ya TeSys D cha 32A AC-3 kilichokadiriwa na ukadiriaji wa nguvu wa 15 kW",
+    "features": [
+      "32A @ 400V AC-3",
+      "15 kW @ 400V",
+      "Mvutano wa 690V",
+      "Chaguzi nyingi za koili",
+      "50A AC-1"
+    ]
+  },
+  "abbCtMvsTimer": {
+    "title": "Relay ya Muda ya Multifunction ya ABB CT-MVS.12S",
+    "description": "Kipima muda cha reli ya DIN chenye kazi 11 za muda na safu ya 0.05s hadi 100h",
+    "features": [
+      "Kazi 11 za muda",
+      "0.05s hadi 100h",
+      "24-240V AC/DC",
+      "Relay ya 1C/O 6A",
+      "Upana wa 17.5mm"
+    ]
+  },
+  "schneiderRe17ramuTimer": {
+    "title": "Kipima Muda Maradufu cha Schneider Harmony RE17RAMU",
+    "description": "Relay ya muda maradufu ya kuchelewesha KUWASHA/ZIMA yenye safu ya muda ya 1s hadi 100h",
+    "features": [
+      "Kuchelewesha KUWASHA/ZIMA maradufu",
+      "Safu ya 1s hadi 100h",
+      "24-240V AC/DC",
+      "Pato la 1CO 8A",
+      "Mlima wa reli ya DIN"
+    ]
+  },
+  "abbCtAhcTimer": {
+    "title": "Kipima Muda cha Kuchelewesha ZIMA cha ABB CT-AHC.12",
+    "description": "Kipima muda cha kuchelewesha ZIMA cha kazi moja na safu 7 za muda hadi 100h",
+    "features": [
+      "Kazi ya kuchelewesha ZIMA",
+      "0.05s hadi 100h",
+      "Safu 7 za muda",
+      "24-240V AC/DC",
+      "Ulinzi wa IP50"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - Toleo la {{number}}",

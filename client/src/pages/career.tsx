@@ -179,7 +179,7 @@ export default function Career() {
                 <Button
                   data-testid="link-view-openings"
                   variant="outline"
-                  className="border-2 border-white text-foreground hover:bg-white hover:text-primary text-lg px-8 py-4"
+                  className="border-2 border-border text-foreground hover:bg-white hover:text-primary text-lg px-8 py-4"
                 >
                   {t("pages:career.cta.viewOpenings")}
                 </Button>
