@@ -9,10 +9,13 @@ export interface Project {
   title: string;
   client: string;
   category: string;
+  categoryId?: string; // Stable identifier for filtering
   industry: string;
+  industryId?: string; // Stable identifier for filtering
   description: string;
   location: string;
   status: string;
+  statusId?: string; // Stable identifier for filtering
   year: number;
   month: string;
   featured: boolean;
@@ -24,6 +27,7 @@ export interface Project {
     [key: string]: string;
   };
   complexity: string;
+  complexityId?: string; // Stable identifier for filtering
 }
 
 // Real projects completed by Powerton Engineering
@@ -282,15 +286,76 @@ export const PROJECTS: Project[] = [
   }
 ];
 
+// Translation helper function for projects
+export const getProjects = (t: any): Project[] => PROJECTS.map(project => ({
+  ...project,
+  title: t(`pages:projects.items.${project.id}.title`),
+  // Translated label for display
+  category: t(`pages:projects.categories.${project.category.toLowerCase().replace(/\s+/g, '-')}`),
+  // Stable ID for filtering (kebab-case)
+  categoryId: project.category.toLowerCase().replace(/\s+/g, '-'),
+  // Translated label for display
+  industry: t(`pages:projects.industries.${project.industry.toLowerCase().replace(/[\s/&]/g, '-').replace(/-+/g, '-')}`),
+  // Stable ID for filtering (kebab-case, normalize multiple dashes)
+  industryId: project.industry.toLowerCase().replace(/[\s/&]/g, '-').replace(/-+/g, '-'),
+  description: t(`pages:projects.items.${project.id}.description`),
+  // Translated label for display
+  status: t(`pages:projects.status.${project.status.toLowerCase()}`),
+  // Stable ID for filtering
+  statusId: project.status.toLowerCase(),
+  month: t(`common:months.${project.month.toLowerCase()}`),
+  technologies: project.technologies.map(tech => 
+    t(`pages:projects.items.${project.id}.technologies.${tech.toLowerCase().replace(/\s+/g, '-')}`)
+  ),
+  highlights: project.highlights.map((_, index) => 
+    t(`pages:projects.items.${project.id}.highlights.${index}`)
+  ),
+  results: Object.keys(project.results).reduce((acc, key) => ({
+    ...acc,
+    [key]: t(`pages:projects.items.${project.id}.results.${key}`)
+  }), {}),
+  // Translated label for display
+  complexity: t(`pages:projects.complexity.${project.complexity.toLowerCase()}`),
+  // Stable ID for filtering
+  complexityId: project.complexity.toLowerCase()
+}));
+
 // Helper functions for project filtering and management
 export const getFeaturedProjects = (): Project[] =>
   PROJECTS.filter((project) => project.featured).sort((a, b) => a.priority - b.priority);
+
+export const getTranslatedFeaturedProjects = (t: any): Project[] =>
+  getProjects(t).filter((project) => project.featured).sort((a, b) => a.priority - b.priority);
 
 export const getAllProjects = (): Project[] =>
   PROJECTS.sort((a, b) => {
     // Sort by year (descending), then month (descending), then priority
     if (b.year !== a.year) return b.year - a.year;
     const monthOrder = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const aMonthIndex = monthOrder.indexOf(a.month);
+    const bMonthIndex = monthOrder.indexOf(b.month);
+    if (bMonthIndex !== aMonthIndex) return bMonthIndex - aMonthIndex;
+    return a.priority - b.priority;
+  });
+
+export const getTranslatedAllProjects = (t: any): Project[] =>
+  getProjects(t).sort((a, b) => {
+    // Sort by year (descending), then month (descending), then priority
+    if (b.year !== a.year) return b.year - a.year;
+    const monthOrder = [
+      t("common:months.january"),
+      t("common:months.february"),
+      t("common:months.march"),
+      t("common:months.april"),
+      t("common:months.may"),
+      t("common:months.june"),
+      t("common:months.july"),
+      t("common:months.august"),
+      t("common:months.september"),
+      t("common:months.october"),
+      t("common:months.november"),
+      t("common:months.december")
+    ];
     const aMonthIndex = monthOrder.indexOf(a.month);
     const bMonthIndex = monthOrder.indexOf(b.month);
     if (bMonthIndex !== aMonthIndex) return bMonthIndex - aMonthIndex;
@@ -308,3 +373,8 @@ export const getProjectsByIndustry = (industry: string): Project[] =>
 
 export const getProjectById = (id: string): Project | undefined =>
   PROJECTS.find((project) => project.id === id);
+
+export const getTranslatedProjectById = (t: any, id: string): Project | undefined => {
+  const projects = getProjects(t);
+  return projects.find((project) => project.id === id);
+};

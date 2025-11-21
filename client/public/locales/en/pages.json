@@ -110,7 +110,229 @@
       "completed": "Completed",
       "viewDetails": "View Details",
       "viewAllProjects": "View All Projects",
-      "downloadPortfolio": "Download Portfolio"
+      "downloadPortfolio": "Download Portfolio",
+      "categories": {
+        "process-automation": "Process Automation",
+        "solar-solutions": "Solar Solutions",
+        "power-systems": "Power Systems",
+        "water-systems": "Water Systems"
+      },
+      "industries": {
+        "beverage-manufacturing": "Beverage Manufacturing",
+        "renewable-energy": "Renewable Energy",
+        "sugar---distillery": "Sugar & Distillery",
+        "beverage-distillery": "Beverage/Distillery",
+        "steel-manufacturing": "Steel Manufacturing",
+        "ev-infrastructure": "EV Infrastructure",
+        "water-treatment": "Water Treatment"
+      },
+      "status": {
+        "completed": "Completed"
+      },
+      "complexity": {
+        "advanced": "Advanced",
+        "intermediate": "Intermediate"
+      },
+      "items": {
+        "sikkim-spirit-bottling": {
+          "title": "Bottling Plant Automation & Control System",
+          "description": "Complete instrumentation installation with advanced HMI, PLC, and SCADA systems for automated bottling operations. Integrated control systems ensuring precise filling, capping, and quality monitoring with real-time process visualization.",
+          "technologies": {
+            "plc-programming": "PLC Programming",
+            "scada-systems": "SCADA Systems",
+            "hmi-interface": "HMI Interface",
+            "instrumentation": "Instrumentation",
+            "process-control": "Process Control"
+          },
+          "highlights": {
+            "0": "Advanced SCADA Implementation",
+            "1": "Real-time Process Monitoring",
+            "2": "Automated Quality Control",
+            "3": "Remote System Management"
+          },
+          "results": {
+            "efficiency": "35% production efficiency improvement",
+            "accuracy": "99.5% filling accuracy achieved",
+            "uptime": "98% operational uptime"
+          }
+        },
+        "hindustan-cocacola-odisha": {
+          "title": "Beverage Plant Installation & Commissioning",
+          "description": "Comprehensive installation and commissioning of electrical and instrumentation systems for large-scale beverage manufacturing facility. Implemented complete automation infrastructure with advanced process controls and monitoring systems.",
+          "technologies": {
+            "installation---commissioning": "Installation & Commissioning",
+            "electrical-systems": "Electrical Systems",
+            "instrumentation": "Instrumentation",
+            "control-panels": "Control Panels",
+            "automation-networks": "Automation Networks"
+          },
+          "highlights": {
+            "0": "Full Facility Commissioning",
+            "1": "Integrated Control Systems",
+            "2": "Process Optimization",
+            "3": "Safety System Integration"
+          },
+          "results": {
+            "timeline": "Completed on schedule",
+            "compliance": "100% safety standards met",
+            "reliability": "99.2% system reliability"
+          }
+        },
+        "iocl-solar-jasidih": {
+          "title": "Solar Power Plant Electrical & Instrumentation",
+          "description": "Complete electrical and instrumentation setup for solar power generation facility including solar panel installation, comprehensive earthing systems, and advanced monitoring instrumentation. Grid-synchronized renewable energy solution with real-time performance tracking.",
+          "technologies": {
+            "solar-panel-systems": "Solar Panel Systems",
+            "earthing---protection": "Earthing & Protection",
+            "grid-synchronization": "Grid Synchronization",
+            "electrical-infrastructure": "Electrical Infrastructure",
+            "monitoring-systems": "Monitoring Systems"
+          },
+          "highlights": {
+            "0": "Solar Array Installation",
+            "1": "Advanced Earthing Systems",
+            "2": "Grid Integration",
+            "3": "Performance Monitoring"
+          },
+          "results": {
+            "capacity": "Multi-MW solar installation",
+            "safety": "Zero safety incidents",
+            "efficiency": "Optimal energy generation"
+          }
+        },
+        "dalmia-sugar-distillery": {
+          "title": "Distillery Plant Electrical & Programming",
+          "description": "Advanced PLC programming and complete electrical & instrumentation solution for distillery operations. Implemented automated process control systems with precise temperature, pressure, and flow monitoring for optimal production efficiency.",
+          "technologies": {
+            "plc-programming": "PLC Programming",
+            "process-automation": "Process Automation",
+            "electrical-systems": "Electrical Systems",
+            "instrumentation": "Instrumentation",
+            "control-logic": "Control Logic"
+          },
+          "highlights": {
+            "0": "Custom PLC Programming",
+            "1": "Process Parameter Control",
+            "2": "Safety Interlocks",
+            "3": "Quality Monitoring Systems"
+          },
+          "results": {
+            "automation": "90% process automation achieved",
+            "consistency": "Improved product consistency",
+            "efficiency": "25% efficiency improvement"
+          }
+        },
+        "bokaro-spirit-jharkhand": {
+          "title": "Distillery Electrical & Instrumentation",
+          "description": "Complete electrical and instrumentation package for distillery facility including power distribution, control systems, and process instrumentation. Integrated solution ensuring safe and efficient distillation operations.",
+          "technologies": {
+            "electrical-infrastructure": "Electrical Infrastructure",
+            "process-instrumentation": "Process Instrumentation",
+            "control-systems": "Control Systems",
+            "power-distribution": "Power Distribution",
+            "safety-systems": "Safety Systems"
+          },
+          "highlights": {
+            "0": "Power Distribution Setup",
+            "1": "Instrumentation Installation",
+            "2": "Process Control Integration",
+            "3": "Safety Compliance"
+          },
+          "results": {
+            "reliability": "98% system uptime",
+            "safety": "Enhanced safety protocols",
+            "operations": "Streamlined operations"
+          }
+        },
+        "vanya-steel-turbine": {
+          "title": "Turbine Electrical & Instrumentation Systems",
+          "description": "Specialized electrical and instrumentation systems for industrial turbine operations in steel manufacturing. Complete integration of turbine control systems, monitoring equipment, and power management solutions.",
+          "technologies": {
+            "turbine-control-systems": "Turbine Control Systems",
+            "electrical-infrastructure": "Electrical Infrastructure",
+            "instrumentation": "Instrumentation",
+            "vibration-monitoring": "Vibration Monitoring",
+            "power-management": "Power Management"
+          },
+          "highlights": {
+            "0": "Turbine Control Integration",
+            "1": "Vibration Monitoring Systems",
+            "2": "Power Optimization",
+            "3": "Preventive Maintenance Setup"
+          },
+          "results": {
+            "performance": "Optimized turbine performance",
+            "monitoring": "Real-time condition monitoring",
+            "efficiency": "Improved power generation efficiency"
+          }
+        },
+        "reliance-ev-charging-meerut": {
+          "title": "EV Charging Station Infrastructure",
+          "description": "End-to-end EV charging station setup including civil structure, electrical panel installation, and EV charging equipment integration. Complete infrastructure solution for modern electric vehicle charging facility.",
+          "technologies": {
+            "civil-infrastructure": "Civil Infrastructure",
+            "ev-charging-systems": "EV Charging Systems",
+            "electrical-panels": "Electrical Panels",
+            "power-distribution": "Power Distribution",
+            "smart-metering": "Smart Metering"
+          },
+          "highlights": {
+            "0": "Civil Structure Construction",
+            "1": "EV Charger Installation",
+            "2": "Electrical Panel Integration",
+            "3": "Smart Charging Management"
+          },
+          "results": {
+            "capacity": "Multi-vehicle charging capability",
+            "efficiency": "Fast charging implementation",
+            "compliance": "All safety standards met"
+          }
+        },
+        "bk-builder-distillery-bihar": {
+          "title": "Distillery Plant Electrical & Instrumentation",
+          "description": "Comprehensive electrical and instrumentation solution for distillery plant operations. Implemented complete electrical infrastructure and process instrumentation ensuring efficient and safe production processes.",
+          "technologies": {
+            "electrical-systems": "Electrical Systems",
+            "process-instrumentation": "Process Instrumentation",
+            "control-panels": "Control Panels",
+            "distribution-systems": "Distribution Systems",
+            "monitoring-equipment": "Monitoring Equipment"
+          },
+          "highlights": {
+            "0": "Electrical Infrastructure Setup",
+            "1": "Process Instrumentation",
+            "2": "Control Panel Installation",
+            "3": "Safety Systems Integration"
+          },
+          "results": {
+            "commissioning": "Successful commissioning",
+            "safety": "Enhanced safety measures",
+            "reliability": "High system reliability"
+          }
+        },
+        "iit-bhubaneswar-stp": {
+          "title": "Sewage Treatment Plant Automation",
+          "description": "Advanced PLC-based automation system for sewage treatment plant with complete electrical and instrumentation setup. Implemented intelligent process control for efficient wastewater treatment with real-time monitoring and control.",
+          "technologies": {
+            "plc-systems": "PLC Systems",
+            "electrical-infrastructure": "Electrical Infrastructure",
+            "process-instrumentation": "Process Instrumentation",
+            "scada": "SCADA",
+            "water-quality-monitoring": "Water Quality Monitoring"
+          },
+          "highlights": {
+            "0": "PLC-Based Automation",
+            "1": "Process Optimization",
+            "2": "Water Quality Monitoring",
+            "3": "Remote Management System"
+          },
+          "results": {
+            "automation": "Full process automation",
+            "efficiency": "Improved treatment efficiency",
+            "monitoring": "24/7 system monitoring"
+          }
+        }
+      }
     }
   },
   "backToProducts": "Back to Products",

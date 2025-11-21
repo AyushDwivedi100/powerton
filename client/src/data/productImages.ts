@@ -159,6 +159,14 @@ export const productImages: ProductImage[] = [
   },
 ];
 
+// Translation helper function for product images
+export const getProductImages = (t: any): ProductImage[] => 
+  productImages.map(image => ({
+    ...image,
+    title: t(`products:productImages.${image.id}.title`),
+    category: t(`products:productImages.${image.id}.category`)
+  }));
+
 // Helper function to get newest products for popup (within last 30 days)
 export function getNewestProducts(maxCount: number = 6): ProductImage[] {
   const thirtyDaysAgo = new Date();
@@ -177,9 +185,37 @@ export function getNewestProducts(maxCount: number = 6): ProductImage[] {
   return maxCount === Infinity ? sorted : sorted.slice(0, maxCount);
 }
 
+// Translated version of getNewestProducts
+export function getTranslatedNewestProducts(t: any, maxCount: number = 6): ProductImage[] {
+  const thirtyDaysAgo = new Date();
+  thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+  
+  const translatedImages = getProductImages(t);
+  
+  // Filter products added in the last 30 days
+  const recentProducts = translatedImages.filter(product => {
+    const productDate = new Date(product.dateAdded);
+    return productDate >= thirtyDaysAgo;
+  });
+  
+  // Sort by date (newest first) and return top N (or all if maxCount is Infinity)
+  const sorted = recentProducts
+    .sort((a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime());
+  
+  return maxCount === Infinity ? sorted : sorted.slice(0, maxCount);
+}
+
 // Helper function to get all products for stock alert (sorted by newest first)
 export function getAllProductsForStockAlert(): ProductImage[] {
   return [...productImages].sort((a, b) => 
+    new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
+  );
+}
+
+// Translated version of getAllProductsForStockAlert
+export function getTranslatedAllProductsForStockAlert(t: any): ProductImage[] {
+  const translatedImages = getProductImages(t);
+  return [...translatedImages].sort((a, b) => 
     new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
   );
 }
@@ -193,6 +229,14 @@ export function shouldShowPopup(): boolean {
 // Helper function to get all products for gallery (sorted by newest first)
 export function getAllProductsForGallery(): ProductImage[] {
   return [...productImages].sort((a, b) => 
+    new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
+  );
+}
+
+// Translated version of getAllProductsForGallery
+export function getTranslatedAllProductsForGallery(t: any): ProductImage[] {
+  const translatedImages = getProductImages(t);
+  return [...translatedImages].sort((a, b) => 
     new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
   );
 }

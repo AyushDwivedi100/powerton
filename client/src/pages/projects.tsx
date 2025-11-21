@@ -45,34 +45,32 @@ import { getHeroImage } from "@/assets/images";
 import {
   getAllProjects,
   getFeaturedProjects,
+  getTranslatedAllProjects,
   Project,
 } from "@/data/projects-data";
 
-// Use centralized project data from projects-data.ts
-const PORTFOLIO_PROJECTS = getAllProjects();
-
-// Stable identifiers for filtering (must match project data)
+// Stable identifiers for filtering (kebab-case slugs that match project data IDs)
 const FILTER_IDS = {
   industries: {
-    all: "All",
-    beverageManufacturing: "Beverage Manufacturing",
-    beverageDistillery: "Beverage/Distillery",
-    sugarDistillery: "Sugar & Distillery",
-    renewableEnergy: "Renewable Energy",
-    evInfrastructure: "EV Infrastructure",
-    steelManufacturing: "Steel Manufacturing",
-    waterTreatment: "Water Treatment",
+    all: "all",
+    beverageManufacturing: "beverage-manufacturing",
+    beverageDistillery: "beverage-distillery",
+    sugarDistillery: "sugar-distillery",
+    renewableEnergy: "renewable-energy",
+    evInfrastructure: "ev-infrastructure",
+    steelManufacturing: "steel-manufacturing",
+    waterTreatment: "water-treatment",
   },
   categories: {
-    all: "All",
-    processAutomation: "Process Automation",
-    powerSystems: "Power Systems",
-    solarSolutions: "Solar Solutions",
-    waterSystems: "Water Systems",
+    all: "all",
+    processAutomation: "process-automation",
+    powerSystems: "power-systems",
+    solarSolutions: "solar-solutions",
+    waterSystems: "water-systems",
   },
   statuses: {
-    all: "All",
-    completed: "Completed",
+    all: "all",
+    completed: "completed",
   },
 };
 
@@ -149,6 +147,10 @@ const getFilterOptions = (t: any) => ({
 export default function Projects() {
   const { t, i18n, ready } = useTranslation(["pages", "common"]);
   const filterOptions = getFilterOptions(t);
+  
+  // Use translated projects data
+  const PORTFOLIO_PROJECTS = getTranslatedAllProjects(t);
+  
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedIndustry, setSelectedIndustry] = useState(
     filterOptions.industries[0].id,
@@ -170,15 +172,16 @@ export default function Projects() {
       project.location.toLowerCase().includes(searchTerm.toLowerCase()) ||
       project.month.toLowerCase().includes(searchTerm.toLowerCase()) ||
       project.year.toString().includes(searchTerm);
+    // Use stable IDs for filtering instead of localized labels
     const matchesIndustry =
       selectedIndustry === FILTER_IDS.industries.all ||
-      project.industry === selectedIndustry;
+      project.industryId === selectedIndustry;
     const matchesCategory =
       selectedCategory === FILTER_IDS.categories.all ||
-      project.category === selectedCategory;
+      project.categoryId === selectedCategory;
     const matchesStatus =
       selectedStatus === FILTER_IDS.statuses.all ||
-      project.status === selectedStatus;
+      project.statusId === selectedStatus;
 
     return matchesSearch && matchesIndustry && matchesCategory && matchesStatus;
   });
@@ -187,24 +190,24 @@ export default function Projects() {
   const statsAnimation = useScrollAnimation();
   const projectsAnimation = useStaggeredAnimation(filteredProjects.length);
 
-  const getStatusIcon = (status: string) => {
-    switch (status) {
-      case "Completed":
+  const getStatusIcon = (statusId: string) => {
+    switch (statusId) {
+      case "completed":
         return <CheckCircle className="w-4 h-4 text-green-600" />;
       default:
         return <CheckCircle className="w-4 h-4 text-green-600" />;
     }
   };
 
-  const getCategoryIcon = (category: string) => {
-    switch (category) {
-      case "Process Automation":
+  const getCategoryIcon = (categoryId: string) => {
+    switch (categoryId) {
+      case "process-automation":
         return <Cog className="w-5 h-5" />;
-      case "Power Systems":
+      case "power-systems":
         return <Zap className="w-5 h-5" />;
-      case "Solar Solutions":
+      case "solar-solutions":
         return <Building className="w-5 h-5" />;
-      case "Water Systems":
+      case "water-systems":
         return <Factory className="w-5 h-5" />;
       default:
         return <Cog className="w-5 h-5" />;
@@ -479,7 +482,7 @@ export default function Projects() {
           {/* Project Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-6 xl:gap-6">
             {filteredProjects.map((project, index) => {
-              const Icon = getCategoryIcon(project.category);
+              const Icon = getCategoryIcon(project.categoryId || '');
               return (
                 <motion.div
                   whileHover={{ y: -8, scale: 1.02 }}
@@ -525,13 +528,9 @@ export default function Projects() {
                           </div>
                           <span className="text-muted-foreground/40">•</span>
                           <div className="flex items-center gap-2">
-                            {getStatusIcon(project.status)}
+                            {getStatusIcon(project.statusId || '')}
                             <span className="text-green-600 font-medium">
-                              {t(
-                                `pages:projects.statuses.${project.status
-                                  .toLowerCase()
-                                  .replace(/\s+/g, "")}`,
-                              )}
+                              {project.status}
                             </span>
                           </div>
                         </div>
@@ -551,11 +550,7 @@ export default function Projects() {
                           variant="outline"
                           className="bg-primary/10 text-primary border-primary/20 px-3 py-1.5"
                         >
-                          {t(
-                            `pages:projects.categories.${project.category
-                              .toLowerCase()
-                              .replace(/\s+/g, "")}`,
-                          )}
+                          {project.category}
                         </Badge>
                         <Badge
                           variant="outline"

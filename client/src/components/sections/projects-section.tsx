@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { getFeaturedProjects } from "@/data/projects-data";
+import { getTranslatedFeaturedProjects } from "@/data/projects-data";
 import { MapPin, Calendar, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
@@ -10,13 +10,14 @@ import { useTranslation } from "react-i18next";
 export default function ProjectsSection() {
   const { t } = useTranslation();
 
-  // Get featured projects from the new data structure
-  const projects = getFeaturedProjects();
-  const categoryColors = {
-    "Power Systems": "bg-secondary/10 text-secondary",
-    Manufacturing: "bg-primary/10 text-primary",
-    Solar: "bg-secondary/10 text-secondary",
-    "Water Treatment": "bg-primary/10 text-primary",
+  // Get translated featured projects
+  const projects = getTranslatedFeaturedProjects(t);
+  // Use stable IDs for badge colors
+  const categoryColors: Record<string, string> = {
+    "power-systems": "bg-secondary/10 text-secondary",
+    "process-automation": "bg-primary/10 text-primary",
+    "solar-solutions": "bg-secondary/10 text-secondary",
+    "water-systems": "bg-primary/10 text-primary",
   };
 
   return (
@@ -50,9 +51,7 @@ export default function ProjectsSection() {
                   <div className="flex items-center mb-4">
                     <Badge
                       className={`mr-4 ${
-                        categoryColors[
-                          project.category as keyof typeof categoryColors
-                        ] || "bg-muted text-foreground"
+                        categoryColors[project.categoryId || ''] || "bg-muted text-foreground"
                       }`}
                     >
                       {project.category}
@@ -64,14 +63,14 @@ export default function ProjectsSection() {
 
                   <div className="flex items-start justify-between mb-4">
                     <h3 className="text-xl font-bold text-foreground">
-                      {t(`pages:projects.items.${project.id}.title`)}
+                      {project.title}
                     </h3>
                     <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2 flex-shrink-0">
                       {t("pages:home.projects.featured")}
                     </Badge>
                   </div>
                   <p className="text-muted-foreground mb-6">
-                    {t(`pages:projects.items.${project.id}.description`)}
+                    {project.description}
                   </p>
 
                   {/* Project Highlights */}
