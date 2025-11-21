@@ -2736,5 +2736,71 @@
   "messages": {
     "noProductsInGroup": "इस समूह में कोई उत्पाद नहीं मिला।",
     "noProductGroups": "इस श्रेणी में कोई उत्पाद समूह उपलब्ध नहीं है।"
+  },
+  "productImages": {
+    "krohne-optiflux-6300": {
+      "title": "क्रोहन ऑप्टिफ्लक्स 6300 इलेक्ट्रोमैग्नेटिक फ्लो मीटर",
+      "category": "प्रवाह माप"
+    },
+    "krohne-optiflux-2300": {
+      "title": "क्रोहन ऑप्टिफ्लक्स 2300 सी फ्लो मीटर",
+      "category": "प्रवाह माप"
+    },
+    "pressure-transmitter-1": {
+      "title": "औद्योगिक दबाव ट्रांसमीटर",
+      "category": "दबाव माप"
+    },
+    "pressure-transmitter-2": {
+      "title": "उच्च-परिशुद्धता दबाव ट्रांसमीटर",
+      "category": "दबाव माप"
+    },
+    "pressure-transmitter-3": {
+      "title": "डिस्प्ले के साथ स्मार्ट प्रेशर ट्रांसमीटर",
+      "category": "दबाव माप"
+    },
+    "circuit-board-pcb": {
+      "title": "औद्योगिक पीसीबी नियंत्रण बोर्ड",
+      "category": "नियंत्रण प्रणाली"
+    },
+    "circuit-board-front": {
+      "title": "उन्नत सर्किट बोर्ड असेंबली",
+      "category": "नियंत्रण प्रणाली"
+    },
+    "circuit-board-back": {
+      "title": "सर्किट बोर्ड बैक असेंबली",
+      "category": "नियंत्रण प्रणाली"
+    },
+    "rosemount-display": {
+      "title": "रोजमाउंट डिजिटल डिस्प्ले यूनिट",
+      "category": "डिस्प्ले यूनिट"
+    },
+    "samson-component": {
+      "title": "सैमसन कंट्रोल वाल्व घटक",
+      "category": "वाल्व घटक"
+    },
+    "honeywell-transmitter": {
+      "title": "हनीवेल एसटीजी74एल स्मार्ट ट्रांसमीटर",
+      "category": "ट्रांसमीटर"
+    },
+    "butterfly-valve": {
+      "title": "औद्योगिक बटरफ्लाई वाल्व",
+      "category": "वाल्व"
+    },
+    "control-boxes-inventory": {
+      "title": "विद्युत नियंत्रण बॉक्स इन्वेंटरी",
+      "category": "नियंत्रण पैनल"
+    },
+    "krohne-flow-meter-front": {
+      "title": "क्रोहन फ्लो मीटर फ्रंट व्यू",
+      "category": "प्रवाह माप"
+    },
+    "krohne-flow-meters-set": {
+      "title": "क्रोहन फ्लो मीटर सेट",
+      "category": "प्रवाह माप"
+    },
+    "wrapped-sensors-inventory": {
+      "title": "संरक्षित सेंसर इन्वेंटरी",
+      "category": "इंस्ट्रूमेंटेशन"
+    }
   }
 }

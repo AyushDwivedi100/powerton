@@ -2776,5 +2776,71 @@
   "messages": {
     "noProductsInGroup": "此组中没有找到产品。",
     "noProductGroups": "此类别中没有可用的产品组。"
+  },
+  "productImages": {
+    "krohne-optiflux-6300": {
+      "title": "KROHNE OPTIFLUX 6300 电磁流量计",
+      "category": "流量测量"
+    },
+    "krohne-optiflux-2300": {
+      "title": "KROHNE OPTIFLUX 2300 C 流量计",
+      "category": "流量测量"
+    },
+    "pressure-transmitter-1": {
+      "title": "工业压力变送器",
+      "category": "压力测量"
+    },
+    "pressure-transmitter-2": {
+      "title": "高精度压力变送器",
+      "category": "压力测量"
+    },
+    "pressure-transmitter-3": {
+      "title": "带显示的智能压力变送器",
+      "category": "压力测量"
+    },
+    "circuit-board-pcb": {
+      "title": "工业 PCB 控制板",
+      "category": "控制系统"
+    },
+    "circuit-board-front": {
+      "title": "高级电路板组件",
+      "category": "控制系统"
+    },
+    "circuit-board-back": {
+      "title": "电路板背面组件",
+      "category": "控制系统"
+    },
+    "rosemount-display": {
+      "title": "ROSEMOUNT 数字显示单元",
+      "category": "显示单元"
+    },
+    "samson-component": {
+      "title": "SAMSON 控制阀组件",
+      "category": "阀门组件"
+    },
+    "honeywell-transmitter": {
+      "title": "霍尼韦尔 STG74L 智能变送器",
+      "category": "变送器"
+    },
+    "butterfly-valve": {
+      "title": "工业蝶阀",
+      "category": "阀门"
+    },
+    "control-boxes-inventory": {
+      "title": "电气控制箱库存",
+      "category": "控制面板"
+    },
+    "krohne-flow-meter-front": {
+      "title": "KROHNE 流量计正面图",
+      "category": "流量测量"
+    },
+    "krohne-flow-meters-set": {
+      "title": "KROHNE 流量计套装",
+      "category": "流量测量"
+    },
+    "wrapped-sensors-inventory": {
+      "title": "受保护的传感器库存",
+      "category": "仪器仪表"
+    }
   }
 }

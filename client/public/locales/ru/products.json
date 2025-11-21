@@ -2776,5 +2776,71 @@
   "messages": {
     "noProductsInGroup": "В этой группе не найдено ни одного продукта.",
     "noProductGroups": "В этой категории нет доступных групп продуктов."
+  },
+  "productImages": {
+    "krohne-optiflux-6300": {
+      "title": "Электромагнитный расходомер KROHNE OPTIFLUX 6300",
+      "category": "Измерение расхода"
+    },
+    "krohne-optiflux-2300": {
+      "title": "Расходомер KROHNE OPTIFLUX 2300 C",
+      "category": "Измерение расхода"
+    },
+    "pressure-transmitter-1": {
+      "title": "Промышленный датчик давления",
+      "category": "Измерение давления"
+    },
+    "pressure-transmitter-2": {
+      "title": "Высокоточный датчик давления",
+      "category": "Измерение давления"
+    },
+    "pressure-transmitter-3": {
+      "title": "Интеллектуальный датчик давления с дисплеем",
+      "category": "Измерение давления"
+    },
+    "circuit-board-pcb": {
+      "title": "Промышленная плата управления PCB",
+      "category": "Системы управления"
+    },
+    "circuit-board-front": {
+      "title": "Усовершенствованная сборка печатной платы",
+      "category": "Системы управления"
+    },
+    "circuit-board-back": {
+      "title": "Задняя сборка печатной платы",
+      "category": "Системы управления"
+    },
+    "rosemount-display": {
+      "title": "Блок цифрового дисплея ROSEMOUNT",
+      "category": "Блоки дисплея"
+    },
+    "samson-component": {
+      "title": "Компонент регулирующего клапана SAMSON",
+      "category": "Компоненты клапанов"
+    },
+    "honeywell-transmitter": {
+      "title": "Интеллектуальный датчик Honeywell STG74L",
+      "category": "Датчики"
+    },
+    "butterfly-valve": {
+      "title": "Промышленный дисковый затвор",
+      "category": "Клапаны"
+    },
+    "control-boxes-inventory": {
+      "title": "Инвентарь электрических коробок управления",
+      "category": "Панели управления"
+    },
+    "krohne-flow-meter-front": {
+      "title": "Вид спереди расходомера KROHNE",
+      "category": "Измерение расхода"
+    },
+    "krohne-flow-meters-set": {
+      "title": "Набор расходомеров KROHNE",
+      "category": "Измерение расхода"
+    },
+    "wrapped-sensors-inventory": {
+      "title": "Инвентарь защищенных датчиков",
+      "category": "Контрольно-измерительные приборы"
+    }
   }
 }

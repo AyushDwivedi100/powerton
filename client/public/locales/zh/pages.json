@@ -111,6 +111,228 @@
       "viewDetails": "查看详情",
       "viewAllProjects": "查看所有项目",
       "downloadPortfolio": "下载作品集"
+      "categories": {
+        "process-automation": "过程自动化",
+        "solar-solutions": "太阳能解决方案",
+        "power-systems": "电力系统",
+        "water-systems": "水系统"
+      },
+      "industries": {
+        "beverage-manufacturing": "饮料制造",
+        "renewable-energy": "可再生能源",
+        "sugar-distillery": "糖和酿酒",
+        "beverage-distillery": "饮料/酿酒",
+        "steel-manufacturing": "钢铁制造",
+        "ev-infrastructure": "电动汽车基础设施",
+        "water-treatment": "水处理"
+      },
+      "status": {
+        "completed": "已完成"
+      },
+      "complexity": {
+        "advanced": "高级",
+        "intermediate": "中级"
+      },
+      "items": {
+        "sikkim-spirit-bottling": {
+          "title": "装瓶厂自动化和控制系统",
+          "description": "完整的仪表安装，配备先进的HMI、PLC和SCADA系统，用于自动化装瓶操作。集成控制系统，确保精确灌装、封盖和质量监控，并具有实时过程可视化。",
+          "technologies": {
+            "plc-programming": "PLC 编程",
+            "scada-systems": "SCADA 系统",
+            "hmi-interface": "HMI 界面",
+            "instrumentation": "仪器仪表",
+            "process-control": "过程控制"
+          },
+          "highlights": {
+            "0": "高级 SCADA 实施",
+            "1": "实时过程监控",
+            "2": "自动化质量控制",
+            "3": "远程系统管理"
+          },
+          "results": {
+            "efficiency": "生产效率提高 35%",
+            "accuracy": "实现 99.5% 的灌装精度",
+            "uptime": "98% 的运营正常运行时间"
+          }
+        },
+        "hindustan-cocacola-odisha": {
+          "title": "饮料厂安装和调试",
+          "description": "大型饮料制造工厂的电气和仪表系统的全面安装和调试。实施了完整的自动化基础设施，具有先进的过程控制和监控系统。",
+          "technologies": {
+            "installation-commissioning": "安装与调试",
+            "electrical-systems": "电气系统",
+            "instrumentation": "仪器仪表",
+            "control-panels": "控制面板",
+            "automation-networks": "自动化网络"
+          },
+          "highlights": {
+            "0": "全厂调试",
+            "1": "集成控制系统",
+            "2": "过程优化",
+            "3": "安全系统集成"
+          },
+          "results": {
+            "timeline": "按计划完成",
+            "compliance": "满足 100% 安全标准",
+            "reliability": "99.2% 的系统可靠性"
+          }
+        },
+        "iocl-solar-jasidih": {
+          "title": "太阳能发电厂电气和仪表",
+          "description": "太阳能发电设施的完整电气和仪表设置，包括太阳能电池板安装、综合接地系统和先进的监控仪表。具有实时性能跟踪的并网可再生能源解决方案。",
+          "technologies": {
+            "solar-panel-systems": "太阳能电池板系统",
+            "earthing-protection": "接地与保护",
+            "grid-synchronization": "电网同步",
+            "electrical-infrastructure": "电气基础设施",
+            "monitoring-systems": "监控系统"
+          },
+          "highlights": {
+            "0": "太阳能阵列安装",
+            "1": "高级接地系统",
+            "2": "电网集成",
+            "3": "性能监控"
+          },
+          "results": {
+            "capacity": "多兆瓦太阳能装置",
+            "safety": "零安全事故",
+            "efficiency": "最佳能源生产"
+          }
+        },
+        "dalmia-sugar-distillery": {
+          "title": "酿酒厂电气和编程",
+          "description": "用于酿酒厂运营的先进 PLC 编程和完整的电气与仪表解决方案。实施了自动过程控制系统，具有精确的温度、压力和流量监控，以实现最佳生产效率。",
+          "technologies": {
+            "plc-programming": "PLC 编程",
+            "process-automation": "过程自动化",
+            "electrical-systems": "电气系统",
+            "instrumentation": "仪器仪表",
+            "control-logic": "控制逻辑"
+          },
+          "highlights": {
+            "0": "定制 PLC 编程",
+            "1": "过程参数控制",
+            "2": "安全联锁",
+            "3": "质量监控系统"
+          },
+          "results": {
+            "automation": "实现 90% 的过程自动化",
+            "consistency": "提高产品一致性",
+            "efficiency": "效率提高 25%"
+          }
+        },
+        "bokaro-spirit-jharkhand": {
+          "title": "酿酒厂电气和仪表",
+          "description": "酿酒厂设施的完整电气和仪表包，包括配电、控制系统和过程仪表。集成解决方案，确保安全高效的蒸馏操作。",
+          "technologies": {
+            "electrical-infrastructure": "电气基础设施",
+            "process-instrumentation": "过程仪表",
+            "control-systems": "控制系统",
+            "power-distribution": "配电",
+            "safety-systems": "安全系统"
+          },
+          "highlights": {
+            "0": "配电设置",
+            "1": "仪表安装",
+            "2": "过程控制集成",
+            "3": "安全合规"
+          },
+          "results": {
+            "reliability": "98% 的系统正常运行时间",
+            "safety": "增强的安全协议",
+            "operations": "简化运营"
+          }
+        },
+        "vanya-steel-turbine": {
+          "title": "涡轮机电气和仪表系统",
+          "description": "用于钢铁制造中工业涡轮机运行的专用电气和仪表系统。涡轮机控制系统、监控设备和电源管理解决方案的完整集成。",
+          "technologies": {
+            "turbine-control-systems": "涡轮控制系统",
+            "electrical-infrastructure": "电气基础设施",
+            "instrumentation": "仪器仪表",
+            "vibration-monitoring": "振动监测",
+            "power-management": "电源管理"
+          },
+          "highlights": {
+            "0": "涡轮控制集成",
+            "1": "振动监测系统",
+            "2": "电源优化",
+            "3": "预防性维护设置"
+          },
+          "results": {
+            "performance": "优化的涡轮机性能",
+            "monitoring": "实时状态监控",
+            "efficiency": "提高发电效率"
+          }
+        },
+        "reliance-ev-charging-meerut": {
+          "title": "电动汽车充电站基础设施",
+          "description": "端到端电动汽车充电站设置，包括土建设施、电气面板安装和电动汽车充电设备集成。现代电动汽车充电设施的完整基础设施解决方案。",
+          "technologies": {
+            "civil-infrastructure": "土建设施",
+            "ev-charging-systems": "电动汽车充电系统",
+            "electrical-panels": "电气面板",
+            "power-distribution": "配电",
+            "smart-metering": "智能计量"
+          },
+          "highlights": {
+            "0": "土建设施建设",
+            "1": "电动汽车充电器安装",
+            "2": "电气面板集成",
+            "3": "智能充电管理"
+          },
+          "results": {
+            "capacity": "多车辆充电能力",
+            "efficiency": "快速充电实施",
+            "compliance": "满足所有安全标准"
+          }
+        },
+        "bk-builder-distillery-bihar": {
+          "title": "酿酒厂电气和仪表",
+          "description": "酿酒厂运营的综合电气和仪表解决方案。实施了完整的电气基础设施和过程仪表，确保高效安全的生产过程。",
+          "technologies": {
+            "electrical-systems": "电气系统",
+            "process-instrumentation": "过程仪表",
+            "control-panels": "控制面板",
+            "distribution-systems": "配电系统",
+            "monitoring-equipment": "监控设备"
+          },
+          "highlights": {
+            "0": "电气基础设施设置",
+            "1": "过程仪表",
+            "2": "控制面板安装",
+            "3": "安全系统集成"
+          },
+          "results": {
+            "commissioning": "成功调试",
+            "safety": "增强的安全措施",
+            "reliability": "高系统可靠性"
+          }
+        },
+        "iit-bhubaneswar-stp": {
+          "title": "污水处理厂自动化",
+          "description": "基于 PLC 的先进污水处理厂自动化系统，具有完整的电气和仪表设置。实施了智能过程控制，通过实时监控和控制实现高效的废水处理。",
+          "technologies": {
+            "plc-systems": "PLC 系统",
+            "electrical-infrastructure": "电气基础设施",
+            "process-instrumentation": "过程仪表",
+            "scada": "SCADA",
+            "water-quality-monitoring": "水质监测"
+          },
+          "highlights": {
+            "0": "基于 PLC 的自动化",
+            "1": "过程优化",
+            "2": "水质监测",
+            "3": "远程管理系统"
+          },
+          "results": {
+            "automation": "全过程自动化",
+            "efficiency": "提高处理效率",
+            "monitoring": "24/7 系统监控"
+          }
+        }
+      }
     }
   },
   "backToProducts": "返回产品",

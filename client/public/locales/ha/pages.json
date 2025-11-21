@@ -111,6 +111,228 @@
       "viewDetails": "Duba Cikakkun Bayanai",
       "viewAllProjects": "Duba Duk Ayyuka",
       "downloadPortfolio": "Zazzage Fayil"
+      "categories": {
+        "process-automation": "Sarrafa Tsari",
+        "solar-solutions": "Maganin Rana",
+        "power-systems": "Tsarin Wuta",
+        "water-systems": "Tsarin Ruwa"
+      },
+      "industries": {
+        "beverage-manufacturing": "Kera Abin Sha",
+        "renewable-energy": "Makamashi Mai Sabuntawa",
+        "sugar-distillery": "Sukari & Barasa",
+        "beverage-distillery": "Abin Sha/Barasa",
+        "steel-manufacturing": "Kera Karfe",
+        "ev-infrastructure": "Kayayyakin More Rayuwa na EV",
+        "water-treatment": "Tsarkake Ruwa"
+      },
+      "status": {
+        "completed": "An Kammala"
+      },
+      "complexity": {
+        "advanced": "Na ci gaba",
+        "intermediate": "Matsakaici"
+      },
+      "items": {
+        "sikkim-spirit-bottling": {
+          "title": "Kera Kayan Aiki da Tsarin Kula da Bottling",
+          "description": "Cikakken shigar kayan aiki tare da HMI mai ci gaba, PLC, da tsarin SCADA don ayyukan sarrafa kwalba ta atomatik. Haɗaɗɗen tsarin kulawa yana tabbatar da cikawa daidai, rufewa, da sa ido kan inganci tare da hangen nesa na ainihi.",
+          "technologies": {
+            "plc-programming": "Shirye-shiryen PLC",
+            "scada-systems": "Tsarin SCADA",
+            "hmi-interface": "Hanyar Sadarwa ta HMI",
+            "instrumentation": "Kayan Aiki",
+            "process-control": "Sarrafa Tsari"
+          },
+          "highlights": {
+            "0": "Babban Aiwatar SCADA",
+            "1": "Kula da Tsari na Ainihin Lokaci",
+            "2": "Sarrafa Inganci ta atomatik",
+            "3": "Gudanar da Tsarin Nesa"
+          },
+          "results": {
+            "efficiency": "Cigaban ingancin samarwa na 35%",
+            "accuracy": "An cimma daidaiton cikawa na 99.5%",
+            "uptime": "98% lokacin aiki"
+          }
+        },
+        "hindustan-cocacola-odisha": {
+          "title": "Shigar da Kayan Shuka da Ƙaddamarwa",
+          "description": "Cikakken shigarwa da ƙaddamar da tsarin lantarki da kayan aiki don babban wurin kera abin sha. An aiwatar da cikakken tsarin sarrafa kansa tare da ci-gaba mai sarrafa tsari da tsarin sa ido.",
+          "technologies": {
+            "installation-commissioning": "Shigarwa & Ƙaddamarwa",
+            "electrical-systems": "Tsarin Lantarki",
+            "instrumentation": "Kayan Aiki",
+            "control-panels": "Kwamfutocin Kulawa",
+            "automation-networks": " hanyoyin sadarwa na atomatik"
+          },
+          "highlights": {
+            "0": "Cikakken Ƙaddamar da Kayayyakin",
+            "1": "Haɗaɗɗen Tsarin Kulawa",
+            "2": "Inganta Tsari",
+            "3": "Haɗin Tsarin Tsaro"
+          },
+          "results": {
+            "timeline": "An kammala akan jadawalin lokaci",
+            "compliance": "An cika 100% ka'idojin aminci",
+            "reliability": "99.2% amincin tsarin"
+          }
+        },
+        "iocl-solar-jasidih": {
+          "title": "Wutar Lantarki & Kayan Aiki na Tashar Wutar Lantarki ta Rana",
+          "description": "Cikakken saitin lantarki da kayan aiki don wurin samar da wutar lantarki ta rana gami da shigar da panel na hasken rana, tsarin ƙasa mai ƙarfi, da kayan aikin sa ido mai ci gaba. Maganin makamashi mai sabuntawa mai daidaitawa tare da aikin bin diddigin ainihin lokaci.",
+          "technologies": {
+            "solar-panel-systems": "Tsarin Panel na Rana",
+            "earthing-protection": "Ƙasa & Kariyar",
+            "grid-synchronization": "Haɗin Grid",
+            "electrical-infrastructure": "Kayayyakin Lantarki",
+            "monitoring-systems": "Tsarin Kula"
+          },
+          "highlights": {
+            "0": "Shigar Solar Array",
+            "1": "Tsarin Ƙasa Mai Ci Gaba",
+            "2": "Haɗin Grid",
+            "3": "Kula da Aiki"
+          },
+          "results": {
+            "capacity": "Shigarwar hasken rana mai yawa",
+            "safety": "Babu abubuwan da suka faru na aminci",
+            "efficiency": "Samar da makamashi mai kyau"
+          }
+        },
+        "dalmia-sugar-distillery": {
+          "title": "Shuka Distillery Lantarki & Shirye-shirye",
+          "description": "Shirye-shiryen PLC mai ci gaba da cikakken mafita na lantarki & kayan aiki don ayyukan distillery. An aiwatar da tsarin sarrafa tsari ta atomatik tare da daidaitaccen zafin jiki, matsa lamba, da sa ido kan kwarara don ingantaccen ingancin samarwa.",
+          "technologies": {
+            "plc-programming": "Shirye-shiryen PLC",
+            "process-automation": "Kera Tsari ta atomatik",
+            "electrical-systems": "Tsarin Lantarki",
+            "instrumentation": "Kayan Aiki",
+            "control-logic": "Manufar Kulawa"
+          },
+          "highlights": {
+            "0": "Shirye-shiryen PLC na Musamman",
+            "1": "Sarrafa Parameter Tsari",
+            "2": "Kulawar Tsaro",
+            "3": "Tsarin Kula da Inganci"
+          },
+          "results": {
+            "automation": "An cimma 90% na sarrafa tsari",
+            "consistency": "Ingantacciyar daidaiton samfur",
+            "efficiency": "Cigaban inganci na 25%"
+          }
+        },
+        "bokaro-spirit-jharkhand": {
+          "title": "Distillery Lantarki & Kayan Aiki",
+          "description": "Cikakken kunshin lantarki da kayan aiki don wurin distillery gami da rarraba wutar lantarki, tsarin kulawa, da kayan aikin tsari. Haɗaɗɗen bayani yana tabbatar da ayyukan distillation masu aminci da inganci.",
+          "technologies": {
+            "electrical-infrastructure": "Kayayyakin Lantarki",
+            "process-instrumentation": "Kayan Aikin Tsari",
+            "control-systems": "Tsarin Kulawa",
+            "power-distribution": "Rarraba Wuta",
+            "safety-systems": "Tsarin Tsaro"
+          },
+          "highlights": {
+            "0": "Saitin Rarraba Wuta",
+            "1": "Shigar Kayan Aiki",
+            "2": "Haɗin Sarrafa Tsari",
+            "3": "Amincewa da Tsaro"
+          },
+          "results": {
+            "reliability": "98% lokacin aiki",
+            "safety": "Ƙarin ƙa'idodin aminci",
+            "operations": "Ayyuka masu inganci"
+          }
+        },
+        "vanya-steel-turbine": {
+          "title": "Tsarin Lantarki & Kayan Aiki na Turbine",
+          "description": "Tsarin lantarki da kayan aiki na musamman don ayyukan turbine na masana'antu a cikin kera karfe. Cikakken haɗin tsarin kula da turbine, kayan aikin sa ido, da hanyoyin magance wutar lantarki.",
+          "technologies": {
+            "turbine-control-systems": "Tsarin Kula da Turbine",
+            "electrical-infrastructure": "Kayayyakin Lantarki",
+            "instrumentation": "Kayan Aiki",
+            "vibration-monitoring": "Kula da Vibration",
+            "power-management": "Gudanar da Wuta"
+          },
+          "highlights": {
+            "0": "Haɗin Kula da Turbine",
+            "1": "Tsarin Kula da Vibration",
+            "2": "Inganta Wuta",
+            "3": "Saitin Kula da Rigakafi"
+          },
+          "results": {
+            "performance": "Ayyukan turbine da aka inganta",
+            "monitoring": "Kula da yanayin ainihin lokaci",
+            "efficiency": "Ingantacciyar ingancin samar da wutar lantarki"
+          }
+        },
+        "reliance-ev-charging-meerut": {
+          "title": "Kayayyakin More Rayuwa na Tashar Cajin EV",
+          "description": "Ƙarshen-zuwa-ƙarshen saitin tashar cajin EV gami da tsarin farar hula, shigar da panel na lantarki, da haɗin kayan aikin cajin EV. Cikakken bayani na kayayyakin more rayuwa don wurin cajin motocin lantarki na zamani.",
+          "technologies": {
+            "civil-infrastructure": "Kayayyakin More Rayuwa",
+            "ev-charging-systems": "Tsarin Cajin EV",
+            "electrical-panels": "Panel ɗin Lantarki",
+            "power-distribution": "Rarraba Wuta",
+            "smart-metering": "Ma'aunin Wayo"
+          },
+          "highlights": {
+            "0": "Ginin Tsarin Farar Hula",
+            "1": "Shigar Cajin EV",
+            "2": "Haɗin Panel na Lantarki",
+            "3": "Gudanar da Cajin Wayo"
+          },
+          "results": {
+            "capacity": "Ikon cajin abin hawa da yawa",
+            "efficiency": "Saurin aiwatar da caji",
+            "compliance": "Duk ka'idojin aminci sun cika"
+          }
+        },
+        "bk-builder-distillery-bihar": {
+          "title": "Shuka Distillery Lantarki & Kayan Aiki",
+          "description": "Cikakken mafita na lantarki da kayan aiki don ayyukan shuka distillery. An aiwatar da cikakken tsarin lantarki da kayan aikin tsari da ke tabbatar da ingantattun hanyoyin samarwa masu aminci.",
+          "technologies": {
+            "electrical-systems": "Tsarin Lantarki",
+            "process-instrumentation": "Kayan Aikin Tsari",
+            "control-panels": "Kwamfutocin Kulawa",
+            "distribution-systems": "Tsarin Rarraba",
+            "monitoring-equipment": "Kayan Kula"
+          },
+          "highlights": {
+            "0": "Saitin Kayayyakin Lantarki",
+            "1": "Kayan Aikin Tsari",
+            "2": "Shigar Panel na Kulawa",
+            "3": "Haɗin Tsarin Tsaro"
+          },
+          "results": {
+            "commissioning": "Nasara mai nasara",
+            "safety": "Ƙarin matakan tsaro",
+            "reliability": "Babban amincin tsarin"
+          }
+        },
+        "iit-bhubaneswar-stp": {
+          "title": "Kera Magudanar Ruwa ta atomatik",
+          "description": "Tsarin sarrafa kansa na PLC mai ci gaba don wurin kula da magudanar ruwa tare da cikakken saitin lantarki da kayan aiki. An aiwatar da sarrafa tsari mai hankali don ingantaccen kula da ruwan sharar gida tare da sa ido da kulawa na ainihin lokaci.",
+          "technologies": {
+            "plc-systems": "Tsarin PLC",
+            "electrical-infrastructure": "Kayayyakin Lantarki",
+            "process-instrumentation": "Kayan Aikin Tsari",
+            "scada": "SCADA",
+            "water-quality-monitoring": "Kula da Ingancin Ruwa"
+          },
+          "highlights": {
+            "0": "Sarrafa Kansa ta PLC",
+            "1": "Inganta Tsari",
+            "2": "Kula da Ingancin Ruwa",
+            "3": "Tsarin Gudanarwa na Nesa"
+          },
+          "results": {
+            "automation": "Cikakken sarrafa tsari",
+            "efficiency": "Ingantacciyar ingancin jiyya",
+            "monitoring": "Kula da tsarin 24/7"
+          }
+        }
+      }
     }
   },
   "backToProducts": "Komawa zuwa Kayayyaki",

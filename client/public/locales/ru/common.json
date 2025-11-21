@@ -730,11 +730,16 @@
     "needAssistance": "Нужна помощь?"
   },
   "ui": {
+    "loading": "Загрузка...",
     "skipToMainContent": "Перейти к основному содержанию",
     "selectLanguage": "Выбрать язык",
     "close": "Закрыть",
     "dismiss": "Отклонить",
     "toast": "Уведомление",
+    "contactBadges":{
+      "whatsapp": "WhatsApp",
+      "justDial": "Just Dial"
+    },
     "ariaLabels": {
       "callUs": "Позвоните нам по телефону {{phone}}",
       "goToHomepage": "Перейти на главную страницу Powerton Engineering",
@@ -789,5 +794,19 @@
       "newStock": "Новый товар",
       "viewProducts": "Посмотреть товары"
     }
+  },
+  "months": {
+    "january": "Январь",
+    "february": "Февраль",
+    "march": "Март",
+    "april": "Апрель",
+    "may": "Май",
+    "june": "Июнь",
+    "july": "Июль",
+    "august": "Август",
+    "september": "Сентябрь",
+    "october": "Октябрь",
+    "november": "Ноябрь",
+    "december": "Декабрь"
   }
 }

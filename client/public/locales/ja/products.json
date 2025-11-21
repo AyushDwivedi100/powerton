@@ -2772,5 +2772,71 @@
   "messages": {
     "noProductsInGroup": "このグループに製品は見つかりませんでした。",
     "noProductGroups": "このカテゴリーには利用可能な製品グループはありません。"
+  },
+  "productImages": {
+    "krohne-optiflux-6300": {
+      "title": "KROHNE OPTIFLUX 6300電磁流量計",
+      "category": "流量測定"
+    },
+    "krohne-optiflux-2300": {
+      "title": "KROHNE OPTIFLUX 2300 C流量計",
+      "category": "流量測定"
+    },
+    "pressure-transmitter-1": {
+      "title": "産業用圧力トランスミッター",
+      "category": "圧力測定"
+    },
+    "pressure-transmitter-2": {
+      "title": "高精度圧力トランスミッター",
+      "category": "圧力測定"
+    },
+    "pressure-transmitter-3": {
+      "title": "ディスプレイ付きスマート圧力トランスミッター",
+      "category": "圧力測定"
+    },
+    "circuit-board-pcb": {
+      "title": "産業用PCB制御盤",
+      "category": "制御システム"
+    },
+    "circuit-board-front": {
+      "title": "高度な回路基板アセンブリ",
+      "category": "制御システム"
+    },
+    "circuit-board-back": {
+      "title": "回路基板バックアセンブリ",
+      "category": "制御システム"
+    },
+    "rosemount-display": {
+      "title": "ROSEMOUNTデジタル表示ユニット",
+      "category": "表示ユニット"
+    },
+    "samson-component": {
+      "title": "SAMSONコントロールバルブコンポーネント",
+      "category": "バルブコンポーネント"
+    },
+    "honeywell-transmitter": {
+      "title": "ハネウェルSTG74Lスマートトランスミッター",
+      "category": "トランスミッター"
+    },
+    "butterfly-valve": {
+      "title": "産業用バタフライバルブ",
+      "category": "バルブ"
+    },
+    "control-boxes-inventory": {
+      "title": "電気制御ボックス在庫",
+      "category": "制御盤"
+    },
+    "krohne-flow-meter-front": {
+      "title": "KROHNE流量計正面図",
+      "category": "流量測定"
+    },
+    "krohne-flow-meters-set": {
+      "title": "KROHNE流量計セット",
+      "category": "流量測定"
+    },
+    "wrapped-sensors-inventory": {
+      "title": "保護されたセンサー在庫",
+      "category": "計装"
+    }
   }
 }

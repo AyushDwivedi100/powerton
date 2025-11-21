@@ -111,6 +111,228 @@
       "viewDetails": "Angalia Maelezo",
       "viewAllProjects": "Angalia Miradi Yote",
       "downloadPortfolio": "Pakua Kwingineko"
+      "categories": {
+        "process-automation": "Uendeshaji wa Mchakato",
+        "solar-solutions": "Suluhisho za Jua",
+        "power-systems": "Mifumo ya Nguvu",
+        "water-systems": "Mifumo ya Maji"
+      },
+      "industries": {
+        "beverage-manufacturing": "Utengenezaji wa Vinywaji",
+        "renewable-energy": "Nishati Mbadala",
+        "sugar-distillery": "Sukari na Pombe",
+        "beverage-distillery": "Vinywaji/Kiwanda cha Pombe",
+        "steel-manufacturing": "Utengenezaji wa Chuma",
+        "ev-infrastructure": "Miundombinu ya EV",
+        "water-treatment": "Usafishaji wa Maji"
+      },
+      "status": {
+        "completed": "Imekamilika"
+      },
+      "complexity": {
+        "advanced": "Imeendelea",
+        "intermediate": "Kati"
+      },
+      "items": {
+        "sikkim-spirit-bottling": {
+          "title": "Mfumo wa Uendeshaji na Udhibiti wa Kiwanda cha Kupakia Chupa",
+          "description": "Ufungaji kamili wa ala na mifumo ya hali ya juu ya HMI, PLC, na SCADA kwa shughuli za upakiaji chupa otomatiki. Mifumo jumuishi ya udhibiti inahakikisha ujazaji sahihi, ufungaji, na ufuatiliaji wa ubora na taswira ya mchakato wa wakati halisi.",
+          "technologies": {
+            "plc-programming": "Programu ya PLC",
+            "scada-systems": "Mifumo ya SCADA",
+            "hmi-interface": "Kiolesura cha HMI",
+            "instrumentation": "Ala",
+            "process-control": "Udhibiti wa Mchakato"
+          },
+          "highlights": {
+            "0": "Utekelezaji wa Juu wa SCADA",
+            "1": "Ufuatiliaji wa Mchakato wa Wakati Halisi",
+            "2": "Udhibiti wa Ubora Kiotomatiki",
+            "3": "Usimamizi wa Mfumo wa Mbali"
+          },
+          "results": {
+            "efficiency": "Uboreshaji wa ufanisi wa uzalishaji wa 35%",
+            "accuracy": "Usahihi wa ujazaji wa 99.5% umefikiwa",
+            "uptime": "Muda wa kufanya kazi wa 98%"
+          }
+        },
+        "hindustan-cocacola-odisha": {
+          "title": "Ufungaji na Uanzishaji wa Kiwanda cha Vinywaji",
+          "description": "Ufungaji kamili na uanzishaji wa mifumo ya umeme na ala kwa kituo kikubwa cha utengenezaji wa vinywaji. Utekelezaji wa miundombinu kamili ya otomatiki na udhibiti wa mchakato wa hali ya juu na mifumo ya ufuatiliaji.",
+          "technologies": {
+            "installation-commissioning": "Ufungaji na Uanzishaji",
+            "electrical-systems": "Mifumo ya Umeme",
+            "instrumentation": "Ala",
+            "control-panels": "Paneli za Udhibiti",
+            "automation-networks": "Mitandao ya Otomatiki"
+          },
+          "highlights": {
+            "0": "Uanzishaji Kamili wa Kituo",
+            "1": "Mifumo Jumuishi ya Udhibiti",
+            "2": "Uboreshaji wa Mchakato",
+            "3": "Ujumuishaji wa Mfumo wa Usalama"
+          },
+          "results": {
+            "timeline": "Imekamilika kwa wakati",
+            "compliance": "Viwango vya usalama 100% vimefikiwa",
+            "reliability": "Uaminifu wa mfumo wa 99.2%"
+          }
+        },
+        "iocl-solar-jasidih": {
+          "title": "Umeme na Ala ya Mtambo wa Umeme wa Jua",
+          "description": "Usanidi kamili wa umeme na ala kwa kituo cha kuzalisha umeme wa jua ikijumuisha ufungaji wa paneli za jua, mifumo kamili ya kutuliza, na ala ya ufuatiliaji wa hali ya juu. Suluhisho la nishati mbadala iliyosawazishwa na gridi ya taifa na ufuatiliaji wa utendaji wa wakati halisi.",
+          "technologies": {
+            "solar-panel-systems": "Mifumo ya Paneli za Jua",
+            "earthing-protection": "Kutuliza na Ulinzi",
+            "grid-synchronization": "Usawazishaji wa Gridi",
+            "electrical-infrastructure": "Miundombinu ya Umeme",
+            "monitoring-systems": "Mifumo ya Ufuatiliaji"
+          },
+          "highlights": {
+            "0": "Ufungaji wa Safu ya Jua",
+            "1": "Mifumo ya Juu ya Kutuliza",
+            "2": "Ujumuishaji wa Gridi",
+            "3": "Ufuatiliaji wa Utendaji"
+          },
+          "results": {
+            "capacity": "Ufungaji wa jua wa MW nyingi",
+            "safety": "Hakuna matukio ya usalama",
+            "efficiency": "Uzalishaji bora wa nishati"
+          }
+        },
+        "dalmia-sugar-distillery": {
+          "title": "Umeme na Programu ya Kiwanda cha Pombe",
+          "description": "Programu ya hali ya juu ya PLC na suluhisho kamili la umeme na ala kwa shughuli za kiwanda cha pombe. Utekelezaji wa mifumo ya udhibiti wa mchakato otomatiki na halijoto sahihi, shinikizo, na ufuatiliaji wa mtiririko kwa ufanisi bora wa uzalishaji.",
+          "technologies": {
+            "plc-programming": "Programu ya PLC",
+            "process-automation": "Uendeshaji wa Mchakato",
+            "electrical-systems": "Mifumo ya Umeme",
+            "instrumentation": "Ala",
+            "control-logic": "Mantiki ya Udhibiti"
+          },
+          "highlights": {
+            "0": "Programu Maalum ya PLC",
+            "1": "Udhibiti wa Parameta ya Mchakato",
+            "2": "Vizuizi vya Usalama",
+            "3": "Mifumo ya Ufuatiliaji wa Ubora"
+          },
+          "results": {
+            "automation": "Uendeshaji wa mchakato wa 90% umefikiwa",
+            "consistency": "Uboreshaji wa uthabiti wa bidhaa",
+            "efficiency": "Uboreshaji wa ufanisi wa 25%"
+          }
+        },
+        "bokaro-spirit-jharkhand": {
+          "title": "Umeme na Ala ya Kiwanda cha Pombe",
+          "description": "Kifurushi kamili cha umeme na ala kwa kituo cha kiwanda cha pombe ikijumuisha usambazaji wa umeme, mifumo ya udhibiti, na ala ya mchakato. Suluhisho jumuishi linalohakikisha shughuli salama na bora za kunereka.",
+          "technologies": {
+            "electrical-infrastructure": "Miundombinu ya Umeme",
+            "process-instrumentation": "Ala ya Mchakato",
+            "control-systems": "Mifumo ya Udhibiti",
+            "power-distribution": "Usambazaji wa Nguvu",
+            "safety-systems": "Mifumo ya Usalama"
+          },
+          "highlights": {
+            "0": "Usanidi wa Usambazaji wa Nguvu",
+            "1": "Ufungaji wa Ala",
+            "2": "Ujumuishaji wa Udhibiti wa Mchakato",
+            "3": "Uzingatiaji wa Usalama"
+          },
+          "results": {
+            "reliability": "Muda wa kufanya kazi wa mfumo wa 98%",
+            "safety": "Itifaki za usalama zilizoimarishwa",
+            "operations": "Uendeshaji uliorahisishwa"
+          }
+        },
+        "vanya-steel-turbine": {
+          "title": "Mifumo ya Umeme na Ala ya Turbine",
+          "description": "Mifumo maalum ya umeme na ala kwa shughuli za turbine za viwandani katika utengenezaji wa chuma. Ujumuishaji kamili wa mifumo ya udhibiti wa turbine, vifaa vya ufuatiliaji, na suluhisho za usimamizi wa nguvu.",
+          "technologies": {
+            "turbine-control-systems": "Mifumo ya Udhibiti wa Turbine",
+            "electrical-infrastructure": "Miundombinu ya Umeme",
+            "instrumentation": "Ala",
+            "vibration-monitoring": "Ufuatiliaji wa Mtetemo",
+            "power-management": "Usimamizi wa Nguvu"
+          },
+          "highlights": {
+            "0": "Ujumuishaji wa Udhibiti wa Turbine",
+            "1": "Mifumo ya Ufuatiliaji wa Mtetemo",
+            "2": "Uboreshaji wa Nguvu",
+            "3": "Usanidi wa Matengenezo ya Kinga"
+          },
+          "results": {
+            "performance": "Utendaji bora wa turbine",
+            "monitoring": "Ufuatiliaji wa hali ya wakati halisi",
+            "efficiency": "Uboreshaji wa ufanisi wa uzalishaji wa nguvu"
+          }
+        },
+        "reliance-ev-charging-meerut": {
+          "title": "Miundombinu ya Kituo cha Kuchaji EV",
+          "description": "Usanidi wa kituo cha kuchaji EV cha mwisho hadi mwisho ikijumuisha muundo wa kiraia, ufungaji wa paneli za umeme, na ujumuishaji wa vifaa vya kuchaji EV. Suluhisho kamili la miundombinu kwa kituo cha kisasa cha kuchaji magari ya umeme.",
+          "technologies": {
+            "civil-infrastructure": "Miundombinu ya Kiraia",
+            "ev-charging-systems": "Mifumo ya Kuchaji EV",
+            "electrical-panels": "Paneli za Umeme",
+            "power-distribution": "Usambazaji wa Nguvu",
+            "smart-metering": "Upimaji Mahiri"
+          },
+          "highlights": {
+            "0": "Ujenzi wa Muundo wa Kiraia",
+            "1": "Ufungaji wa Chaja ya EV",
+            "2": "Ujumuishaji wa Paneli ya Umeme",
+            "3": "Usimamizi Mahiri wa Kuchaji"
+          },
+          "results": {
+            "capacity": "Uwezo wa kuchaji magari mengi",
+            "efficiency": "Utekelezaji wa kuchaji haraka",
+            "compliance": "Viwango vyote vya usalama vimefikiwa"
+          }
+        },
+        "bk-builder-distillery-bihar": {
+          "title": "Umeme na Ala ya Kiwanda cha Pombe",
+          "description": "Suluhisho kamili la umeme na ala kwa shughuli za kiwanda cha pombe. Utekelezaji wa miundombinu kamili ya umeme na ala ya mchakato kuhakikisha michakato bora na salama ya uzalishaji.",
+          "technologies": {
+            "electrical-systems": "Mifumo ya Umeme",
+            "process-instrumentation": "Ala ya Mchakato",
+            "control-panels": "Paneli za Udhibiti",
+            "distribution-systems": "Mifumo ya Usambazaji",
+            "monitoring-equipment": "Vifaa vya Ufuatiliaji"
+          },
+          "highlights": {
+            "0": "Usanidi wa Miundombinu ya Umeme",
+            "1": "Ala ya Mchakato",
+            "2": "Ufungaji wa Paneli ya Udhibiti",
+            "3": "Ujumuishaji wa Mifumo ya Usalama"
+          },
+          "results": {
+            "commissioning": "Uanzishaji uliofanikiwa",
+            "safety": "Hatua za usalama zilizoimarishwa",
+            "reliability": "Uaminifu wa juu wa mfumo"
+          }
+        },
+        "iit-bhubaneswar-stp": {
+          "title": "Uendeshaji wa Kiwanda cha Kutibu Maji Taka",
+          "description": "Mfumo wa hali ya juu wa uendeshaji unaotegemea PLC kwa kiwanda cha kutibu maji taka na usanidi kamili wa umeme na ala. Utekelezaji wa udhibiti wa mchakato wa akili kwa matibabu bora ya maji machafu na ufuatiliaji na udhibiti wa wakati halisi.",
+          "technologies": {
+            "plc-systems": "Mifumo ya PLC",
+            "electrical-infrastructure": "Miundombinu ya Umeme",
+            "process-instrumentation": "Ala ya Mchakato",
+            "scada": "SCADA",
+            "water-quality-monitoring": "Ufuatiliaji wa Ubora wa Maji"
+          },
+          "highlights": {
+            "0": "Uendeshaji Unaotegemea PLC",
+            "1": "Uboreshaji wa Mchakato",
+            "2": "Ufuatiliaji wa Ubora wa Maji",
+            "3": "Mfumo wa Usimamizi wa Mbali"
+          },
+          "results": {
+            "automation": "Uendeshaji kamili wa mchakato",
+            "efficiency": "Uboreshaji wa ufanisi wa matibabu",
+            "monitoring": "Ufuatiliaji wa mfumo wa 24/7"
+          }
+        }
+      }
     }
   },
   "backToProducts": "Rudi kwa Bidhaa",

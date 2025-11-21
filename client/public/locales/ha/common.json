@@ -732,11 +732,16 @@
     "needAssistance": "Kuna buƙatar Tallafin?"
   },
   "ui": {
+    "loading": "Ana lodawa...",
     "skipToMainContent": "Tsallake zuwa babban abun ciki",
     "selectLanguage": "Zaɓi Harshe",
     "close": "Rufe",
     "dismiss": "Watsi",
     "toast": "Toast",
+    "contactBadges":{
+      "whatsapp": "WhatsApp",
+      "justDial": "Just Dial"
+    },
     "ariaLabels": {
       "callUs": "Kira mu a {{phone}}",
       "goToHomepage": "Tafi zuwa shafin gida na Powerton Engineering",
@@ -792,5 +797,19 @@
       "newStock": "Sabuwar Kaya",
       "viewProducts": "Duba Kayayyaki"
     }
+  },
+  "months": {
+    "january": "Janairu",
+    "february": "Fabrairu",
+    "march": "Maris",
+    "april": "Afrilu",
+    "may": "Mayu",
+    "june": "Yuni",
+    "july": "Yuli",
+    "august": "Agusta",
+    "september": "Satumba",
+    "october": "Oktoba",
+    "november": "Nuwamba",
+    "december": "Disamba"
   }
 }

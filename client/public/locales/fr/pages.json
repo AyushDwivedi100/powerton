@@ -111,6 +111,228 @@
       "viewDetails": "Voir les détails",
       "viewAllProjects": "Voir tous les projets",
       "downloadPortfolio": "Télécharger le portfolio"
+      "categories": {
+        "process-automation": "Automatisation des processus",
+        "solar-solutions": "Solutions solaires",
+        "power-systems": "Systèmes électriques",
+        "water-systems": "Systèmes d'eau"
+      },
+      "industries": {
+        "beverage-manufacturing": "Fabrication de boissons",
+        "renewable-energy": "Énergie renouvelable",
+        "sugar-distillery": "Sucre et Distillerie",
+        "beverage-distillery": "Boissons/Distillerie",
+        "steel-manufacturing": "Fabrication de l'acier",
+        "ev-infrastructure": "Infrastructure de véhicules électriques",
+        "water-treatment": "Traitement de l'eau"
+      },
+      "status": {
+        "completed": "Terminé"
+      },
+      "complexity": {
+        "advanced": "Avancé",
+        "intermediate": "Intermédiaire"
+      },
+      "items": {
+        "sikkim-spirit-bottling": {
+          "title": "Système d'automatisation et de contrôle de l'usine d'embouteillage",
+          "description": "Installation complète d'instrumentation avec des systèmes IHM, PLC et SCADA avancés pour les opérations d'embouteillage automatisées. Systèmes de contrôle intégrés assurant un remplissage précis, un bouchage et une surveillance de la qualité avec visualisation des processus en temps réel.",
+          "technologies": {
+            "plc-programming": "Programmation PLC",
+            "scada-systems": "Systèmes SCADA",
+            "hmi-interface": "Interface IHM",
+            "instrumentation": "Instrumentation",
+            "process-control": "Contrôle de processus"
+          },
+          "highlights": {
+            "0": "Implémentation SCADA avancée",
+            "1": "Surveillance des processus en temps réel",
+            "2": "Contrôle qualité automatisé",
+            "3": "Gestion de système à distance"
+          },
+          "results": {
+            "efficiency": "Amélioration de l'efficacité de la production de 35 %",
+            "accuracy": "Précision de remplissage de 99,5 % atteinte",
+            "uptime": "Temps de disponibilité opérationnel de 98 %"
+          }
+        },
+        "hindustan-cocacola-odisha": {
+          "title": "Installation et mise en service d'une usine de boissons",
+          "description": "Installation et mise en service complètes des systèmes électriques et d'instrumentation pour une usine de fabrication de boissons à grande échelle. Infrastructure d'automatisation complète mise en œuvre avec des systèmes avancés de contrôle des processus et de surveillance.",
+          "technologies": {
+            "installation-commissioning": "Installation et mise en service",
+            "electrical-systems": "Systèmes électriques",
+            "instrumentation": "Instrumentation",
+            "control-panels": "Panneaux de contrôle",
+            "automation-networks": "Réseaux d'automatisation"
+          },
+          "highlights": {
+            "0": "Mise en service complète de l'installation",
+            "1": "Systèmes de contrôle intégrés",
+            "2": "Optimisation des processus",
+            "3": "Intégration du système de sécurité"
+          },
+          "results": {
+            "timeline": "Terminé dans les délais",
+            "compliance": "100 % des normes de sécurité respectées",
+            "reliability": "Fiabilité du système de 99,2 %"
+          }
+        },
+        "iocl-solar-jasidih": {
+          "title": "Électricité et instrumentation de la centrale solaire",
+          "description": "Configuration électrique et d'instrumentation complète pour l'installation de production d'énergie solaire, y compris l'installation de panneaux solaires, des systèmes de mise à la terre complets et une instrumentation de surveillance avancée. Solution d'énergie renouvelable synchronisée au réseau avec suivi des performances en temps réel.",
+          "technologies": {
+            "solar-panel-systems": "Systèmes de panneaux solaires",
+            "earthing-protection": "Mise à la terre et protection",
+            "grid-synchronization": "Synchronisation du réseau",
+            "electrical-infrastructure": "Infrastructure électrique",
+            "monitoring-systems": "Systèmes de surveillance"
+          },
+          "highlights": {
+            "0": "Installation de panneaux solaires",
+            "1": "Systèmes de mise à la terre avancés",
+            "2": "Intégration au réseau",
+            "3": "Surveillance des performances"
+          },
+          "results": {
+            "capacity": "Installation solaire multi-MW",
+            "safety": "Zéro incident de sécurité",
+            "efficiency": "Production d'énergie optimale"
+          }
+        },
+        "dalmia-sugar-distillery": {
+          "title": "Électricité et programmation de l'usine de distillerie",
+          "description": "Programmation PLC avancée et solution électrique et d'instrumentation complète pour les opérations de distillerie. Systèmes de contrôle de processus automatisés mis en œuvre avec une surveillance précise de la température, de la pression et du débit pour une efficacité de production optimale.",
+          "technologies": {
+            "plc-programming": "Programmation PLC",
+            "process-automation": "Automatisation des processus",
+            "electrical-systems": "Systèmes électriques",
+            "instrumentation": "Instrumentation",
+            "control-logic": "Logique de contrôle"
+          },
+          "highlights": {
+            "0": "Programmation PLC personnalisée",
+            "1": "Contrôle des paramètres de processus",
+            "2": "Verrous de sécurité",
+            "3": "Systèmes de surveillance de la qualité"
+          },
+          "results": {
+            "automation": "Automatisation des processus à 90 % atteinte",
+            "consistency": "Amélioration de la cohérence des produits",
+            "efficiency": "Amélioration de l'efficacité de 25 %"
+          }
+        },
+        "bokaro-spirit-jharkhand": {
+          "title": "Électricité et instrumentation de distillerie",
+          "description": "Ensemble complet d'électricité et d'instrumentation pour l'installation de distillerie, y compris la distribution d'énergie, les systèmes de contrôle et l'instrumentation de processus. Solution intégrée assurant des opérations de distillation sûres et efficaces.",
+          "technologies": {
+            "electrical-infrastructure": "Infrastructure électrique",
+            "process-instrumentation": "Instrumentation de processus",
+            "control-systems": "Systèmes de contrôle",
+            "power-distribution": "Distribution d'énergie",
+            "safety-systems": "Systèmes de sécurité"
+          },
+          "highlights": {
+            "0": "Configuration de la distribution d'énergie",
+            "1": "Installation d'instrumentation",
+            "2": "Intégration du contrôle des processus",
+            "3": "Conformité en matière de sécurité"
+          },
+          "results": {
+            "reliability": "Temps de disponibilité du système de 98 %",
+            "safety": "Protocoles de sécurité améliorés",
+            "operations": "Opérations rationalisées"
+          }
+        },
+        "vanya-steel-turbine": {
+          "title": "Systèmes électriques et d'instrumentation de turbine",
+          "description": "Systèmes électriques et d'instrumentation spécialisés pour les opérations de turbines industrielles dans la fabrication de l'acier. Intégration complète des systèmes de contrôle de turbine, des équipements de surveillance et des solutions de gestion de l'énergie.",
+          "technologies": {
+            "turbine-control-systems": "Systèmes de contrôle de turbine",
+            "electrical-infrastructure": "Infrastructure électrique",
+            "instrumentation": "Instrumentation",
+            "vibration-monitoring": "Surveillance des vibrations",
+            "power-management": "Gestion de l'énergie"
+          },
+          "highlights": {
+            "0": "Intégration du contrôle de turbine",
+            "1": "Systèmes de surveillance des vibrations",
+            "2": "Optimisation de l'énergie",
+            "3": "Configuration de la maintenance préventive"
+          },
+          "results": {
+            "performance": "Performance de la turbine optimisée",
+            "monitoring": "Surveillance de l'état en temps réel",
+            "efficiency": "Amélioration de l'efficacité de la production d'énergie"
+          }
+        },
+        "reliance-ev-charging-meerut": {
+          "title": "Infrastructure de station de recharge pour véhicules électriques",
+          "description": "Installation de station de recharge pour véhicules électriques de bout en bout, y compris la structure civile, l'installation de panneaux électriques et l'intégration d'équipements de recharge pour véhicules électriques. Solution d'infrastructure complète pour une installation de recharge moderne de véhicules électriques.",
+          "technologies": {
+            "civil-infrastructure": "Infrastructure civile",
+            "ev-charging-systems": "Systèmes de recharge pour véhicules électriques",
+            "electrical-panels": "Panneaux électriques",
+            "power-distribution": "Distribution d'énergie",
+            "smart-metering": "Comptage intelligent"
+          },
+          "highlights": {
+            "0": "Construction d'une structure civile",
+            "1": "Installation d'un chargeur pour véhicules électriques",
+            "2": "Intégration de panneaux électriques",
+            "3": "Gestion intelligente de la recharge"
+          },
+          "results": {
+            "capacity": "Capacité de recharge multi-véhicules",
+            "efficiency": "Mise en œuvre de la recharge rapide",
+            "compliance": "Toutes les normes de sécurité respectées"
+          }
+        },
+        "bk-builder-distillery-bihar": {
+          "title": "Électricité et instrumentation de l'usine de distillerie",
+          "description": "Solution complète d'électricité et d'instrumentation pour les opérations de l'usine de distillerie. Infrastructure électrique complète mise en œuvre et instrumentation de processus assurant des processus de production efficaces et sûrs.",
+          "technologies": {
+            "electrical-systems": "Systèmes électriques",
+            "process-instrumentation": "Instrumentation de processus",
+            "control-panels": "Panneaux de contrôle",
+            "distribution-systems": "Systèmes de distribution",
+            "monitoring-equipment": "Équipement de surveillance"
+          },
+          "highlights": {
+            "0": "Configuration de l'infrastructure électrique",
+            "1": "Instrumentation de processus",
+            "2": "Installation de panneaux de contrôle",
+            "3": "Intégration des systèmes de sécurité"
+          },
+          "results": {
+            "commissioning": "Mise en service réussie",
+            "safety": "Mesures de sécurité améliorées",
+            "reliability": "Fiabilité élevée du système"
+          }
+        },
+        "iit-bhubaneswar-stp": {
+          "title": "Automatisation de la station d'épuration des eaux usées",
+          "description": "Système d'automatisation avancé basé sur PLC pour la station d'épuration des eaux usées avec installation électrique et d'instrumentation complète. Contrôle de processus intelligent mis en œuvre pour un traitement efficace des eaux usées avec surveillance et contrôle en temps réel.",
+          "technologies": {
+            "plc-systems": "Systèmes PLC",
+            "electrical-infrastructure": "Infrastructure électrique",
+            "process-instrumentation": "Instrumentation de processus",
+            "scada": "SCADA",
+            "water-quality-monitoring": "Surveillance de la qualité de l'eau"
+          },
+          "highlights": {
+            "0": "Automatisation basée sur PLC",
+            "1": "Optimisation des processus",
+            "2": "Surveillance de la qualité de l'eau",
+            "3": "Système de gestion à distance"
+          },
+          "results": {
+            "automation": "Automatisation complète des processus",
+            "efficiency": "Amélioration de l'efficacité du traitement",
+            "monitoring": "Surveillance du système 24 h/24 et 7 j/7"
+          }
+        }
+      }
     }
   },
   "backToProducts": "Retour aux produits",

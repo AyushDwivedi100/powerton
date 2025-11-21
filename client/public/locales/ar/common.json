@@ -731,10 +731,16 @@
     "needAssistance": "هل تحتاج إلى مساعدة؟"
   },
   "ui": {
+    "loading": "جار التحميل...",
     "skipToMainContent": "تخط إلى المحتوى الرئيسي",
     "selectLanguage": "اختر اللغة",
     "close": "إغلاق",
     "dismiss": "رفض",
+    "toast": "خبز محمص",
+    "contactBadges": {
+      "whatsapp": "واتساب",
+      "justDial": "جاست ديال"
+    },
     "ariaLabels": {
       "callUs": "اتصل بنا على {{phone}}",
       "goToHomepage": "اذهب إلى الصفحة الرئيسية لـ Powerton Engineering",
@@ -790,5 +796,19 @@
       "newStock": "مخزون جديد",
       "viewProducts": "عرض المنتجات"
     }
+  },
+  "months": {
+    "january": "يناير",
+    "february": "فبراير",
+    "march": "مارس",
+    "april": "أبريل",
+    "may": "مايو",
+    "june": "يونيو",
+    "july": "يوليو",
+    "august": "أغسطس",
+    "september": "سبتمبر",
+    "october": "أكتوبر",
+    "november": "نوفمبر",
+    "december": "ديسمبر"
   }
 }

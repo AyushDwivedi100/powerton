@@ -326,6 +326,11 @@
   "feedback": {
     "title": "Tunapenda Maoni Yako!",
     "description": "Tusaidie kuboresha uzoefu wako. Maoni yako ni muhimu kwetu.",
+    "validation": {
+      "ratingRequired": "Tafadhali toa ukadiriaji",
+      "fieldRequired": "Sehemu hii inahitajika",
+      "invalidEmail": "Barua pepe batili"
+    },
     "fields": {
       "rating": {
         "label": "Unawezaje kukadiria uzoefu wako? *",

@@ -326,6 +326,11 @@
   "feedback": {
     "title": "¡Nos encantaría recibir sus comentarios!",
     "description": "Ayúdenos a mejorar su experiencia. Sus comentarios son valiosos para nosotros.",
+    "validation": {
+      "ratingRequired": "Por favor, proporcione una calificación",
+      "fieldRequired": "Este campo es obligatorio",
+      "invalidEmail": "Correo electrónico inválido"
+    },
     "fields": {
       "rating": {
         "label": "¿Cómo calificaría su experiencia? *",

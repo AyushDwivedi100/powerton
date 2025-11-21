@@ -2772,5 +2772,71 @@
   "messages": {
     "noProductsInGroup": "Hakuna bidhaa zilizopatikana katika kundi hili.",
     "noProductGroups": "Hakuna makundi ya bidhaa yanayopatikana katika jamii hii."
+  },
+  "productImages": {
+    "krohne-optiflux-6300": {
+      "title": "KROHNE OPTIFLUX 6300 Electromagnetic Flow Meter",
+      "category": "Flow Measurement"
+    },
+    "krohne-optiflux-2300": {
+      "title": "KROHNE OPTIFLUX 2300 C Flow Meter",
+      "category": "Flow Measurement"
+    },
+    "pressure-transmitter-1": {
+      "title": "Industrial Pressure Transmitter",
+      "category": "Pressure Measurement"
+    },
+    "pressure-transmitter-2": {
+      "title": "High-Precision Pressure Transmitter",
+      "category": "Pressure Measurement"
+    },
+    "pressure-transmitter-3": {
+      "title": "Smart Pressure Transmitter with Display",
+      "category": "Pressure Measurement"
+    },
+    "circuit-board-pcb": {
+      "title": "Industrial PCB Control Board",
+      "category": "Control Systems"
+    },
+    "circuit-board-front": {
+      "title": "Advanced Circuit Board Assembly",
+      "category": "Control Systems"
+    },
+    "circuit-board-back": {
+      "title": "Circuit Board Back Assembly",
+      "category": "Control Systems"
+    },
+    "rosemount-display": {
+      "title": "ROSEMOUNT Digital Display Unit",
+      "category": "Display Units"
+    },
+    "samson-component": {
+      "title": "SAMSON Control Valve Component",
+      "category": "Valve Components"
+    },
+    "honeywell-transmitter": {
+      "title": "Honeywell STG74L Smart Transmitter",
+      "category": "Transmitters"
+    },
+    "butterfly-valve": {
+      "title": "Industrial Butterfly Valve",
+      "category": "Valves"
+    },
+    "control-boxes-inventory": {
+      "title": "Electrical Control Box Inventory",
+      "category": "Control Panels"
+    },
+    "krohne-flow-meter-front": {
+      "title": "KROHNE Flow Meter Front View",
+      "category": "Flow Measurement"
+    },
+    "krohne-flow-meters-set": {
+      "title": "KROHNE Flow Meters Set",
+      "category": "Flow Measurement"
+    },
+    "wrapped-sensors-inventory": {
+      "title": "Protected Sensors Inventory",
+      "category": "Instrumentation"
+    }
   }
 }

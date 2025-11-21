@@ -2801,5 +2801,71 @@
   "messages": {
     "noProductsInGroup": "لم يتم العثور على منتجات في هذه المجموعة.",
     "noProductGroups": "لا توجد مجموعات منتجات متاحة في هذه الفئة."
+  },
+  "productImages": {
+    "krohne-optiflux-6300": {
+      "title": "مقياس التدفق الكهرومغناطيسي KROHNE OPTIFLUX 6300",
+      "category": "قياس التدفق"
+    },
+    "krohne-optiflux-2300": {
+      "title": "مقياس التدفق C KROHNE OPTIFLUX 2300",
+      "category": "قياس التدفق"
+    },
+    "pressure-transmitter-1": {
+      "title": "جهاز إرسال الضغط الصناعي",
+      "category": "قياس الضغط"
+    },
+    "pressure-transmitter-2": {
+      "title": "جهاز إرسال الضغط عالي الدقة",
+      "category": "قياس الضغط"
+    },
+    "pressure-transmitter-3": {
+      "title": "جهاز إرسال الضغط الذكي مع شاشة عرض",
+      "category": "قياس الضغط"
+    },
+    "circuit-board-pcb": {
+      "title": "لوحة التحكم PCB الصناعية",
+      "category": "أنظمة التحكم"
+    },
+    "circuit-board-front": {
+      "title": "تجميع لوحة الدوائر المتقدمة",
+      "category": "أنظمة التحكم"
+    },
+    "circuit-board-back": {
+      "title": "تجميع الجزء الخلفي من لوحة الدوائر",
+      "category": "أنظمة التحكم"
+    },
+    "rosemount-display": {
+      "title": "وحدة العرض الرقمية ROSEMOUNT",
+      "category": "وحدات العرض"
+    },
+    "samson-component": {
+      "title": "مكون صمام التحكم SAMSON",
+      "category": "مكونات الصمام"
+    },
+    "honeywell-transmitter": {
+      "title": "جهاز الإرسال الذكي Honeywell STG74L",
+      "category": "أجهزة الإرسال"
+    },
+    "butterfly-valve": {
+      "title": "صمام فراشة صناعي",
+      "category": "الصمامات"
+    },
+    "control-boxes-inventory": {
+      "title": "مخزون صناديق التحكم الكهربائية",
+      "category": "لوحات التحكم"
+    },
+    "krohne-flow-meter-front": {
+      "title": "منظر أمامي لمقياس التدفق KROHNE",
+      "category": "قياس التدفق"
+    },
+    "krohne-flow-meters-set": {
+      "title": "مجموعة عدادات التدفق KROHNE",
+      "category": "قياس التدفق"
+    },
+    "wrapped-sensors-inventory": {
+      "title": "مخزون المستشعرات المحمية",
+      "category": "الأجهزة"
+    }
   }
 }

@@ -326,6 +326,11 @@
   "feedback": {
     "title": "Muna Son Ra'ayinku!",
     "description": "Taimaka mana inganta ƙwarewarku. Ra'ayinku yana da mahimmanci a gare mu.",
+    "validation": {
+      "ratingRequired": "Da fatan za a ba da ƙima",
+      "fieldRequired": "Wannan filin ya zama dole",
+      "invalidEmail": "Imel ba daidai ba"
+    },
     "fields": {
       "rating": {
         "label": "Yaya za ku kimanta ƙwarewarku? *",

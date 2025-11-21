@@ -111,6 +111,228 @@
       "viewDetails": "詳細を見る",
       "viewAllProjects": "すべてのプロジェクトを見る",
       "downloadPortfolio": "ポートフォリオをダウンロード"
+      "categories": {
+        "process-automation": "プロセスオートメーション",
+        "solar-solutions": "ソーラーソリューション",
+        "power-systems": "電力システム",
+        "water-systems": "水システム"
+      },
+      "industries": {
+        "beverage-manufacturing": "飲料製造",
+        "renewable-energy": "再生可能エネルギー",
+        "sugar-distillery": "砂糖・蒸留所",
+        "beverage-distillery": "飲料・蒸留所",
+        "steel-manufacturing": "鉄鋼製造",
+        "ev-infrastructure": "EVインフラ",
+        "water-treatment": "水処理"
+      },
+      "status": {
+        "completed": "完了"
+      },
+      "complexity": {
+        "advanced": "高度",
+        "intermediate": "中級"
+      },
+      "items": {
+        "sikkim-spirit-bottling": {
+          "title": "ボトリングプラントの自動化および制御システム",
+          "description": "自動化されたボトリング操作のための高度なHMI、PLC、およびSCADAシステムを備えた完全な計装設備。リアルタイムのプロセス視覚化により、正確な充填、キャッピング、および品質監視を保証する統合制御システム。",
+          "technologies": {
+            "plc-programming": "PLCプログラミング",
+            "scada-systems": "SCADAシステム",
+            "hmi-interface": "HMIインターフェース",
+            "instrumentation": "計装",
+            "process-control": "プロセス制御"
+          },
+          "highlights": {
+            "0": "高度なSCADAの実装",
+            "1": "リアルタイムプロセス監視",
+            "2": "自動化された品質管理",
+            "3": "リモートシステム管理"
+          },
+          "results": {
+            "efficiency": "35％の生産効率の向上",
+            "accuracy": "99.5％の充填精度を達成",
+            "uptime": "98％の稼働時間"
+          }
+        },
+        "hindustan-cocacola-odisha": {
+          "title": "飲料プラントの設置と試運転",
+          "description": "大規模な飲料製造施設向けの電気および計装システムの包括的な設置および試運転。高度なプロセス制御および監視システムを備えた完全な自動化インフラストラクチャを実装。",
+          "technologies": {
+            "installation-commissioning": "設置と試運転",
+            "electrical-systems": "電気システム",
+            "instrumentation": "計装",
+            "control-panels": "制御盤",
+            "automation-networks": "自動化ネットワーク"
+          },
+          "highlights": {
+            "0": "フル設備の試運転",
+            "1": "統合制御システム",
+            "2": "プロセス最適化",
+            "3": "安全システム統合"
+          },
+          "results": {
+            "timeline": "予定通りに完了",
+            "compliance": "100％の安全基準を満たす",
+            "reliability": "99.2％のシステム信頼性"
+          }
+        },
+        "iocl-solar-jasidih": {
+          "title": "太陽光発電所の電気および計装",
+          "description": "太陽光パネルの設置、包括的な接地システム、および高度な監視機器を含む、太陽光発電施設向けの完全な電気および計装セットアップ。リアルタイムのパフォーマンストラッキングを備えたグリッド同期再生可能エネルギーソリューション。",
+          "technologies": {
+            "solar-panel-systems": "ソーラーパネルシステム",
+            "earthing-protection": "接地と保護",
+            "grid-synchronization": "グリッド同期",
+            "electrical-infrastructure": "電気インフラ",
+            "monitoring-systems": "監視システム"
+          },
+          "highlights": {
+            "0": "ソーラーアレイの設置",
+            "1": "高度な接地システム",
+            "2": "グリッド統合",
+            "3": "パフォーマンス監視"
+          },
+          "results": {
+            "capacity": "マルチMWソーラー設置",
+            "safety": "安全事故ゼロ",
+            "efficiency": "最適なエネルギー生成"
+          }
+        },
+        "dalmia-sugar-distillery": {
+          "title": "蒸留所プラントの電気およびプログラミング",
+          "description": "蒸留所運営のための高度なPLCプログラミングと完全な電気・計装ソリューション。最適な生産効率のために、正確な温度、圧力、および流量監視を備えた自動化されたプロセス制御システムを実装。",
+          "technologies": {
+            "plc-programming": "PLCプログラミング",
+            "process-automation": "プロセスオートメーション",
+            "electrical-systems": "電気システム",
+            "instrumentation": "計装",
+            "control-logic": "制御ロジック"
+          },
+          "highlights": {
+            "0": "カスタムPLCプログラミング",
+            "1": "プロセスパラメータ制御",
+            "2": "安全インターロック",
+            "3": "品質監視システム"
+          },
+          "results": {
+            "automation": "90％のプロセス自動化を達成",
+            "consistency": "製品の一貫性の向上",
+            "efficiency": "25％の効率向上"
+          }
+        },
+        "bokaro-spirit-jharkhand": {
+          "title": "蒸留所の電気および計装",
+          "description": "配電、制御システム、およびプロセス計装を含む、蒸留所施設向けの完全な電気および計装パッケージ。安全で効率的な蒸留操作を保証する統合ソリューション。",
+          "technologies": {
+            "electrical-infrastructure": "電気インフラ",
+            "process-instrumentation": "プロセス計装",
+            "control-systems": "制御システム",
+            "power-distribution": "配電",
+            "safety-systems": "安全システム"
+          },
+          "highlights": {
+            "0": "配電設定",
+            "1": "計装の設置",
+            "2": "プロセス制御の統合",
+            "3": "安全コンプライアンス"
+          },
+          "results": {
+            "reliability": "98％のシステム稼働時間",
+            "safety": "強化された安全プロトコル",
+            "operations": "合理化されたオペレーション"
+          }
+        },
+        "vanya-steel-turbine": {
+          "title": "タービンの電気および計装システム",
+          "description": "鉄鋼製造における産業用タービンの運転のための特殊な電気および計装システム。タービン制御システム、監視機器、および電力管理ソリューションの完全な統合。",
+          "technologies": {
+            "turbine-control-systems": "タービン制御システム",
+            "electrical-infrastructure": "電気インフラ",
+            "instrumentation": "計装",
+            "vibration-monitoring": "振動監視",
+            "power-management": "電力管理"
+          },
+          "highlights": {
+            "0": "タービン制御の統合",
+            "1": "振動監視システム",
+            "2": "電力の最適化",
+            "3": "予防メンテナンスの設定"
+          },
+          "results": {
+            "performance": "最適化されたタービン性能",
+            "monitoring": "リアルタイムの状態監視",
+            "efficiency": "発電効率の向上"
+          }
+        },
+        "reliance-ev-charging-meerut": {
+          "title": "EV充電ステーションのインフラストラクチャ",
+          "description": "土木構造、電気パネルの設置、およびEV充電機器の統合を含む、エンドツーエンドのEV充電ステーションのセットアップ。最新の電気自動車充電施設向けの完全なインフラストラクチャソリューション。",
+          "technologies": {
+            "civil-infrastructure": "土木インフラ",
+            "ev-charging-systems": "EV充電システム",
+            "electrical-panels": "電気パネル",
+            "power-distribution": "配電",
+            "smart-metering": "スマートメーター"
+          },
+          "highlights": {
+            "0": "土木構造の建設",
+            "1": "EV充電器の設置",
+            "2": "電気パネルの統合",
+            "3": "スマート充電管理"
+          },
+          "results": {
+            "capacity": "複数車両の充電機能",
+            "efficiency": "急速充電の実装",
+            "compliance": "すべての安全基準を満たす"
+          }
+        },
+        "bk-builder-distillery-bihar": {
+          "title": "蒸留所プラントの電気および計装",
+          "description": "蒸留所プラントの運転のための包括的な電気および計装ソリューション。効率的で安全な生産プロセスを保証する完全な電気インフラストラクチャおよびプロセス計装を実装。",
+          "technologies": {
+            "electrical-systems": "電気システム",
+            "process-instrumentation": "プロセス計装",
+            "control-panels": "制御盤",
+            "distribution-systems": "配電システム",
+            "monitoring-equipment": "監視装置"
+          },
+          "highlights": {
+            "0": "電気インフラストラクチャのセットアップ",
+            "1": "プロセス計装",
+            "2": "制御盤の設置",
+            "3": "安全システム統合"
+          },
+          "results": {
+            "commissioning": "試運転の成功",
+            "safety": "強化された安全対策",
+            "reliability": "高いシステム信頼性"
+          }
+        },
+        "iit-bhubaneswar-stp": {
+          "title": "下水処理プラントの自動化",
+          "description": "完全な電気および計装セットアップを備えた下水処理プラント用の高度なPLCベースの自動化システム。リアルタイムの監視と制御による効率的な廃水処理のためのインテリジェントなプロセス制御を実装。",
+          "technologies": {
+            "plc-systems": "PLCシステム",
+            "electrical-infrastructure": "電気インフラ",
+            "process-instrumentation": "プロセス計装",
+            "scada": "SCADA",
+            "water-quality-monitoring": "水質監視"
+          },
+          "highlights": {
+            "0": "PLCベースの自動化",
+            "1": "プロセス最適化",
+            "2": "水質監視",
+            "3": "リモート管理システム"
+          },
+          "results": {
+            "automation": "完全なプロセス自動化",
+            "efficiency": "処理効率の向上",
+            "monitoring": "24時間365日のシステム監視"
+          }
+        }
+      }
     }
   },
   "backToProducts": "製品に戻る",

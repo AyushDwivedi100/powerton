@@ -326,6 +326,11 @@
   "feedback": {
     "title": "フィードバックをお寄せください！",
     "description": "お客様のエクスペリエンスを向上させるためにご協力ください。お客様のフィードバックは私たちにとって貴重です。",
+    "validation": {
+      "ratingRequired": "評価を入力してください",
+      "fieldRequired": "このフィールドは必須です",
+      "invalidEmail": "無効なメールアドレス"
+    },
     "fields": {
       "rating": {
         "label": "あなたの経験をどのように評価しますか？ *",

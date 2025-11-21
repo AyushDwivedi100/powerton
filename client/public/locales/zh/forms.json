@@ -326,6 +326,11 @@
   "feedback": {
     "title": "我们很乐意听取您的反馈！",
     "description": "帮助我们改善您的体验。您的反馈对我们很有价值。",
+    "validation": {
+      "ratingRequired": "请提供评分",
+      "fieldRequired": "此字段是必需的",
+      "invalidEmail": "无效的电子邮件"
+    },
     "fields": {
       "rating": {
         "label": "您如何评价您的体验？ *",

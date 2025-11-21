@@ -326,6 +326,11 @@
   "feedback": {
     "title": "نحن نحب ملاحظاتك!",
     "description": "ساعدنا في تحسين تجربتك. ملاحظاتك قيمة بالنسبة لنا.",
+    "validation": {
+      "ratingRequired": "الرجاء تقديم تقييم",
+      "fieldRequired": "هذا الحقل مطلوب",
+      "invalidEmail": "بريد إلكتروني خاطئ"
+    },
     "fields": {
       "rating": {
         "label": "كيف تقيم تجربتك؟ *",

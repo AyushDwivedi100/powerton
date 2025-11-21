@@ -730,11 +730,16 @@
     "needAssistance": "क्या आपको सहायता की आवश्यकता है?"
   },
   "ui": {
+    "loading": "लोड हो रहा है...",
     "skipToMainContent": "मुख्य सामग्री पर जाएँ",
     "selectLanguage": "भाषा का चयन करें",
     "close": "बंद करें",
     "dismiss": "खारिज करें",
     "toast": "टोस्ट",
+    "contactBadges":{
+      "whatsapp": "व्हाट्सएप",
+      "justDial": "जस्ट डायल"
+    },
     "ariaLabels": {
       "callUs": "हमें {{phone}} पर कॉल करें",
       "goToHomepage": "पावरटन इंजीनियरिंग के होमपेज पर जाएं",
@@ -789,5 +794,19 @@
       "newStock": "नया स्टॉक",
       "viewProducts": "उत्पाद देखें"
     }
+  },
+  "months": {
+    "january": "जनवरी",
+    "february": "फरवरी",
+    "march": "मार्च",
+    "april": "अप्रैल",
+    "may": "मई",
+    "june": "जून",
+    "july": "जुलाई",
+    "august": "अगस्त",
+    "september": "सितंबर",
+    "october": "अक्टूबर",
+    "november": "नवंबर",
+    "december": "दिसंबर"
   }
 }

@@ -731,11 +731,16 @@
     "needAssistance": "技術支援が必要ですか？"
   },
   "ui": {
+    "loading": "読み込み中...",
     "skipToMainContent": "メインコンテンツにスキップ",
     "selectLanguage": "言語を選択",
     "close": "閉じる",
     "dismiss": "却下",
     "toast": "トースト",
+    "contactBadges":{
+      "whatsapp": "ワッツアップ",
+      "justDial": "ジャストダイヤル"
+    },
     "ariaLabels": {
       "callUs": "{{phone}}までお電話ください",
       "goToHomepage": "Powerton Engineeringのホームページに移動",
@@ -790,5 +795,19 @@
       "newStock": "新しい在庫",
       "viewProducts": "製品を見る"
     }
+  },
+  "months": {
+    "january": "1月",
+    "february": "2月",
+    "march": "3月",
+    "april": "4月",
+    "may": "5月",
+    "june": "6月",
+    "july": "7月",
+    "august": "8月",
+    "september": "9月",
+    "october": "10月",
+    "november": "11月",
+    "december": "12月"
   }
 }

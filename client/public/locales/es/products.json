@@ -2772,5 +2772,71 @@
   "messages": {
     "noProductsInGroup": "No se encontraron productos en este grupo.",
     "noProductGroups": "No hay grupos de productos disponibles en esta categoría."
+  },
+  "productImages": {
+    "krohne-optiflux-6300": {
+      "title": "Medidor de Flujo Electromagnético KROHNE OPTIFLUX 6300",
+      "category": "Medición de Flujo"
+    },
+    "krohne-optiflux-2300": {
+      "title": "Medidor de Flujo KROHNE OPTIFLUX 2300 C",
+      "category": "Medición de Flujo"
+    },
+    "pressure-transmitter-1": {
+      "title": "Transmisor de Presión Industrial",
+      "category": "Medición de Presión"
+    },
+    "pressure-transmitter-2": {
+      "title": "Transmisor de Presión de Alta Precisión",
+      "category": "Medición de Presión"
+    },
+    "pressure-transmitter-3": {
+      "title": "Transmisor de Presión Inteligente con Pantalla",
+      "category": "Medición de Presión"
+    },
+    "circuit-board-pcb": {
+      "title": "Tablero de Control de PCB Industrial",
+      "category": "Sistemas de Control"
+    },
+    "circuit-board-front": {
+      "title": "Ensamblaje de Tablero de Circuito Avanzado",
+      "category": "Sistemas de Control"
+    },
+    "circuit-board-back": {
+      "title": "Ensamblaje Trasero de Tablero de Circuito",
+      "category": "Sistemas de Control"
+    },
+    "rosemount-display": {
+      "title": "Unidad de Pantalla Digital ROSEMOUNT",
+      "category": "Unidades de Pantalla"
+    },
+    "samson-component": {
+      "title": "Componente de Válvula de Control SAMSON",
+      "category": "Componentes de Válvula"
+    },
+    "honeywell-transmitter": {
+      "title": "Transmisor Inteligente Honeywell STG74L",
+      "category": "Transmisores"
+    },
+    "butterfly-valve": {
+      "title": "Válvula de Mariposa Industrial",
+      "category": "Válvulas"
+    },
+    "control-boxes-inventory": {
+      "title": "Inventario de Cajas de Control Eléctrico",
+      "category": "Paneles de Control"
+    },
+    "krohne-flow-meter-front": {
+      "title": "Vista Frontal del Medidor de Flujo KROHNE",
+      "category": "Medición de Flujo"
+    },
+    "krohne-flow-meters-set": {
+      "title": "Conjunto de Medidores de Flujo KROHNE",
+      "category": "Medición de Flujo"
+    },
+    "wrapped-sensors-inventory": {
+      "title": "Inventario de Sensores Protegidos",
+      "category": "Instrumentación"
+    }
   }
 }

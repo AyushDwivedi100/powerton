@@ -730,10 +730,16 @@
     "needAssistance": "¿Necesita ayuda?"
   },
   "ui": {
+    "loading": "Cargando...",
     "skipToMainContent": "Ir al contenido principal",
     "selectLanguage": "Seleccionar idioma",
     "close": "Cerrar",
     "dismiss": "Descartar",
+    "toast": "Toast",
+    "contactBadges": {
+      "whatsapp": "WhatsApp",
+      "justDial": "Just Dial"
+    },
     "ariaLabels": {
       "callUs": "Llámenos al {{phone}}",
       "goToHomepage": "Ir a la página de inicio de Powerton Engineering",
@@ -789,5 +795,19 @@
       "newStock": "Nuevo Stock",
       "viewProducts": "Ver Productos"
     }
+  },
+  "months": {
+    "january": "Enero",
+    "february": "Febrero",
+    "march": "Marzo",
+    "april": "Abril",
+    "may": "Mayo",
+    "june": "Junio",
+    "july": "Julio",
+    "august": "Agosto",
+    "september": "Septiembre",
+    "october": "Octubre",
+    "november": "Noviembre",
+    "december": "Diciembre"
   }
 }

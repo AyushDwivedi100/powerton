@@ -2772,5 +2772,71 @@
   "messages": {
     "noProductsInGroup": "Nenhum produto encontrado neste grupo.",
     "noProductGroups": "Nenhum grupo de produtos disponível nesta categoria."
+  },
+  "productImages": {
+    "krohne-optiflux-6300": {
+      "title": "Medidor de Vazão Eletromagnético KROHNE OPTIFLUX 6300",
+      "category": "Medição de Vazão"
+    },
+    "krohne-optiflux-2300": {
+      "title": "Medidor de Vazão KROHNE OPTIFLUX 2300 C",
+      "category": "Medição de Vazão"
+    },
+    "pressure-transmitter-1": {
+      "title": "Transmissor de Pressão Industrial",
+      "category": "Medição de Pressão"
+    },
+    "pressure-transmitter-2": {
+      "title": "Transmissor de Pressão de Alta Precisão",
+      "category": "Medição de Pressão"
+    },
+    "pressure-transmitter-3": {
+      "title": "Transmissor de Pressão Inteligente com Display",
+      "category": "Medição de Pressão"
+    },
+    "circuit-board-pcb": {
+      "title": "Placa de Controle PCB Industrial",
+      "category": "Sistemas de Controle"
+    },
+    "circuit-board-front": {
+      "title": "Montagem de Placa de Circuito Avançada",
+      "category": "Sistemas de Controle"
+    },
+    "circuit-board-back": {
+      "title": "Montagem Traseira da Placa de Circuito",
+      "category": "Sistemas de Controle"
+    },
+    "rosemount-display": {
+      "title": "Unidade de Display Digital ROSEMOUNT",
+      "category": "Unidades de Display"
+    },
+    "samson-component": {
+      "title": "Componente da Válvula de Controle SAMSON",
+      "category": "Componentes da Válvula"
+    },
+    "honeywell-transmitter": {
+      "title": "Transmissor Inteligente Honeywell STG74L",
+      "category": "Transmissores"
+    },
+    "butterfly-valve": {
+      "title": "Válvula Borboleta Industrial",
+      "category": "Válvulas"
+    },
+    "control-boxes-inventory": {
+      "title": "Inventário de Caixas de Controle Elétrico",
+      "category": "Painéis de Controle"
+    },
+    "krohne-flow-meter-front": {
+      "title": "Visão Frontal do Medidor de Vazão KROHNE",
+      "category": "Medição de Vazão"
+    },
+    "krohne-flow-meters-set": {
+      "title": "Conjunto de Medidores de Vazão KROHNE",
+      "category": "Medição de Vazão"
+    },
+    "wrapped-sensors-inventory": {
+      "title": "Inventário de Sensores Protegidos",
+      "category": "Instrumentação"
+    }
   }
 }

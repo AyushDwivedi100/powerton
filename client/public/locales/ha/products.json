@@ -2736,5 +2736,71 @@
   "messages": {
     "noProductsInGroup": "Ba a sami kayayyaki a cikin wannan rukunin ba.",
     "noProductGroups": "Babu rukunin samfura da ke akwai a cikin wannan nau'in."
+  },
+  "productImages": {
+    "krohne-optiflux-6300": {
+      "title": "KROHNE OPTIFLUX 6300 Mitar Gudun Ruwa ta Lantarki",
+      "category": "Auna Gudun Ruwa"
+    },
+    "krohne-optiflux-2300": {
+      "title": "KROHNE OPTIFLUX 2300 C Mitar Gudun Ruwa",
+      "category": "Auna Gudun Ruwa"
+    },
+    "pressure-transmitter-1": {
+      "title": "Mai Watsa Matsi na Masana'antu",
+      "category": "Auna Matsi"
+    },
+    "pressure-transmitter-2": {
+      "title": "Babban Mai Watsa Matsi Mai Daidaito",
+      "category": "Auna Matsi"
+    },
+    "pressure-transmitter-3": {
+      "title": "Mai Watsa Matsi Mai Wayo tare da Nunin",
+      "category": "Auna Matsi"
+    },
+    "circuit-board-pcb": {
+      "title": "Allon Sarrafa PCB na Masana'antu",
+      "category": "Tsarin Sarrafawa"
+    },
+    "circuit-board-front": {
+      "title": "Babban Taron Allon Kewaye",
+      "category": "Tsarin Sarrafawa"
+    },
+    "circuit-board-back": {
+      "title": "Taron Baya na Allon Kewaye",
+      "category": "Tsarin Sarrafawa"
+    },
+    "rosemount-display": {
+      "title": "ROSEMOUNT Sashin Nunin Dijital",
+      "category": "Rukunin Nunin"
+    },
+    "samson-component": {
+      "title": "SAMSON Bangaren Bawuloli Mai Sarrafawa",
+      "category": "Bangaren Bawuloli"
+    },
+    "honeywell-transmitter": {
+      "title": "Honeywell STG74L Mai Watsawa Mai Wayo",
+      "category": "Masu Watsawa"
+    },
+    "butterfly-valve": {
+      "title": "Bawulolin Malam buɗe ido na Masana'antu",
+      "category": "Bawuloli"
+    },
+    "control-boxes-inventory": {
+      "title": "Kayan Akwatin Sarrafa Wutar Lantarki",
+      "category": "Bangaren Sarrafawa"
+    },
+    "krohne-flow-meter-front": {
+      "title": "KROHNE Mitar Gudun Ruwa Duban Gaba",
+      "category": "Auna Gudun Ruwa"
+    },
+    "krohne-flow-meters-set": {
+      "title": "KROHNE Saitin Mitar Gudun Ruwa",
+      "category": "Auna Gudun Ruwa"
+    },
+    "wrapped-sensors-inventory": {
+      "title": "Kayan Masu auna firikwensin da Aka Kare",
+      "category": "Kayan Aiki"
+    }
   }
 }
