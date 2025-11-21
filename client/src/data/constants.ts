@@ -9,8 +9,7 @@ import { productGroups, ProductGroup } from "./products-detail-pages-data";
 
 export const COMPANY_INFO = {
   name: "Powerton Engineering Pvt. Ltd.",
-  tagline:
-    "Your trusted partner in industrial automation and electrical engineering",
+  tagline: "common:company.tagline",
   phoneNumbers: {
     primary: "+91-94627-71662",
     secondary: "+91-82997-27291",
@@ -25,8 +24,8 @@ export const COMPANY_INFO = {
     landmark: "nearest metro-Sector 15",
   },
   businessHours: {
-    weekdays: "Monday - Saturday: 9:00 AM - 6:00 PM",
-    sunday: "Sunday: Emergency Support Only",
+    weekdays: "common:company.businessHours.weekdays",
+    sunday: "common:company.businessHours.sunday",
   },
   socialMedia: {
     linkedin: "https://www.linkedin.com/company/powerton-engineering/",
@@ -35,10 +34,10 @@ export const COMPANY_INFO = {
     youtube: "https://youtube.com/@powertonengineering7485?si=SpJesD7qxsYVGEiH",
   },
   stats: {
-    projectsCompleted: "500+",
-    clientsServed: "200+",
-    yearsExperience: "15+",
-    responseTime: "2 hours",
+    projectsCompleted: "common:company.stats.projectsCompleted",
+    clientsServed: "common:company.stats.clientsServed",
+    yearsExperience: "common:company.stats.yearsExperience",
+    responseTime: "common:company.stats.responseTime",
   },
 };
 
@@ -110,13 +109,13 @@ export const getProducts = (t: any) => [
       },
       {
         id: "switches-indicators",
-        title: t("products:subcategories.switches.title"),
-        description: t("products:subcategories.switches.description"),
+        title: t("products:subcategories.switches-indicators.title"),
+        description: t("products:subcategories.switches-indicators.description"),
       },
       {
         id: "valves-actuators",
-        title: t("products:subcategories.valves.title"),
-        description: t("products:subcategories.valves.description"),
+        title: t("products:subcategories.valves-actuators.title"),
+        description: t("products:subcategories.valves-actuators.description"),
       },
       {
         id: "analyzers",
