@@ -199,7 +199,7 @@ export default function About() {
                   src={industryFacilityImage}
                   alt={t(
                     "common:altTexts.aboutBackground",
-                    "ID-004: Powerton Engineering industrial automation facility with modern control systems"
+                    "ID-004: Powerton Engineering industrial automation facility with modern control systems",
                   )}
                   className="rounded-xl shadow-2xl w-full"
                 />
@@ -422,60 +422,6 @@ export default function About() {
                   <CheckCircle className="w-6 h-6 text-secondary mr-4 flex-shrink-0" />
                   <span className="font-medium text-foreground">{cert}</span>
                 </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      </AnimatedSection>
-
-      {/* Awards & Achievements */}
-      <AnimatedSection animation="fadeInLeft" delay={0.15} duration={0.7}>
-        <section className="py-12 md:py-16 lg:py-20 bg-muted">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-                {t("pages:about.achievements.title")}
-              </h2>
-              <p className="text-xl text-muted-foreground mb-8">
-                {t("pages:about.achievements.subtitle")}
-              </p>
-            </div>
-
-            <div className="space-y-8">
-              {ACHIEVEMENTS.map((yearData) => (
-                <motion.div
-                  key={yearData.year}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <Card
-                    key={yearData.year}
-                    className="bg-card border border-border rounded-lg shadow-sm"
-                  >
-                    <CardHeader className="p-6">
-                      <CardTitle className="text-2xl font-bold text-primary flex items-center gap-2">
-                        <Trophy className="w-6 h-6 text-secondary" />
-                        {yearData.year}
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent className="p-6 pt-0">
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {yearData.awards.map((award, index) => (
-                          <div
-                            key={index}
-                            className="flex items-start gap-3 p-4 bg-muted rounded-lg"
-                          >
-                            <Award className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
-                            <span className="text-foreground font-medium">
-                              {award}
-                            </span>
-                          </div>
-                        ))}
-                      </div>
-                    </CardContent>
-                  </Card>
-                </motion.div>
               ))}
             </div>
           </div>
