@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -24,17 +24,15 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { useTranslation } from "react-i18next";
 
-const feedbackSchema = z.object({
-  rating: z.number().min(1, "Please provide a rating").max(5),
-  didNotLike: z.string().min(1, "This field is required"),
-  whyNoQuote: z.string().min(1, "This field is required"),
-  missingInfo: z.string().min(1, "This field is required"),
-  name: z.string().optional(),
-  email: z.string().email("Invalid email").optional().or(z.literal("")),
-  company: z.string().optional(),
-});
-
-type FeedbackFormData = z.infer<typeof feedbackSchema>;
+type FeedbackFormData = {
+  rating: number;
+  didNotLike: string;
+  whyNoQuote: string;
+  missingInfo: string;
+  name?: string;
+  email?: string;
+  company?: string;
+};
 
 export default function FeedbackForm() {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,6 +41,16 @@ export default function FeedbackForm() {
   const [hoveredStar, setHoveredStar] = useState(0);
   const { toast } = useToast();
   const { t } = useTranslation("forms");
+
+  const feedbackSchema = useMemo(() => z.object({
+    rating: z.number().min(1, t("feedback.validation.ratingRequired")).max(5),
+    didNotLike: z.string().min(1, t("feedback.validation.fieldRequired")),
+    whyNoQuote: z.string().min(1, t("feedback.validation.fieldRequired")),
+    missingInfo: z.string().min(1, t("feedback.validation.fieldRequired")),
+    name: z.string().optional(),
+    email: z.string().email(t("feedback.validation.invalidEmail")).optional().or(z.literal("")),
+    company: z.string().optional(),
+  }), [t]);
 
   const form = useForm<FeedbackFormData>({
     resolver: zodResolver(feedbackSchema),

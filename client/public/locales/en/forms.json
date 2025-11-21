@@ -326,6 +326,11 @@
   "feedback": {
     "title": "We'd Love Your Feedback!",
     "description": "Help us improve your experience. Your feedback is valuable to us.",
+    "validation": {
+      "ratingRequired": "Please provide a rating",
+      "fieldRequired": "This field is required",
+      "invalidEmail": "Invalid email"
+    },
     "fields": {
       "rating": {
         "label": "How would you rate your experience? *",

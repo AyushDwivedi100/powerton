@@ -731,11 +731,16 @@
     "needAssistance": "Need Technical Assistance?"
   },
   "ui": {
+    "loading": "Loading...",
     "skipToMainContent": "Skip to main content",
     "selectLanguage": "Select Language",
     "close": "Close",
     "dismiss": "Dismiss",
     "toast": "Toast",
+    "contactBadges": {
+      "whatsapp": "WhatsApp",
+      "justDial": "JustDial"
+    },
     "ariaLabels": {
       "callUs": "Call us at {{phone}}",
       "goToHomepage": "Go to Powerton Engineering homepage",

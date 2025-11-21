@@ -1,4 +1,5 @@
 import { ReactNode, useState, useEffect, lazy, Suspense } from "react";
+import { useTranslation } from "react-i18next";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import { StockAlertSidebar } from "@/components/ui/StockAlertSidebar";
@@ -13,6 +14,7 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
+  const { t } = useTranslation();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [headerHeight, setHeaderHeight] = useState(0);
 
@@ -78,7 +80,7 @@ export default function Layout({ children }: LayoutProps) {
         id="main-content"
         className="flex-1 w-full"
         role="main"
-        aria-label="Main content area"
+        aria-label={t("common:ui.ariaLabels.mainContent")}
       >
         {children}
       </main>
