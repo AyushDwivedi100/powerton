@@ -1039,141 +1039,7 @@ body.sidebar-open [data-radix-sheet-content] {
   color: hsl(0, 0%, 100%) !important;
 }
 
-/* Enhanced Scroll Animations with Better Easing */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px) scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-40px) scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-50px) scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0) scale(1);
-  }
-}
-
-@keyframes fadeInRight {
-  from {
-    opacity: 0;
-    transform: translateX(50px) scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0) scale(1);
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.98);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes slideInUp {
-  from {
-    opacity: 0;
-    transform: translateY(60px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/* New Enhanced Animations */
-@keyframes bounceInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(50px) scale(0.9);
-  }
-  60% {
-    opacity: 1;
-    transform: translateY(-8px) scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-@keyframes slideInUpSoft {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes flipInX {
-  from {
-    opacity: 0;
-    transform: perspective(400px) rotateX(90deg);
-  }
-  40% {
-    transform: perspective(400px) rotateX(-20deg);
-  }
-  60% {
-    transform: perspective(400px) rotateX(10deg);
-  }
-  80% {
-    transform: perspective(400px) rotateX(-5deg);
-  }
-  to {
-    opacity: 1;
-    transform: perspective(400px) rotateX(0deg);
-  }
-}
-
-@keyframes slideInScale {
-  from {
-    opacity: 0;
-    transform: translateY(30px) scale(0.9);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
+/* SCROLL ANIMATIONS DISABLED - All animation keyframes removed */
 
 /* Light mode scrollbar - explicit colors */
 :root {
@@ -1471,125 +1337,7 @@ select:focus-visible {
   @apply animate-pulse bg-gradient-to-r from-transparent via-white/20 to-transparent;
 }
 
-@keyframes floatIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px) scale(0.95);
-    filter: blur(2px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    filter: blur(0px);
-  }
-}
-
-@keyframes staggerFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(25px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Enhanced Animation Classes with Better Timing */
-.animate-fade-in-up {
-  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-fade-in-down {
-  animation: fadeInDown 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-fade-in-left {
-  animation: fadeInLeft 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-fade-in-right {
-  animation: fadeInRight 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-fade-in {
-  animation: fadeIn 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-slide-in-up {
-  animation: slideInUp 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-zoom-in {
-  animation: zoomIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-  opacity: 0;
-}
-
-/* New Animation Classes */
-.animate-bounce-in-up {
-  animation: bounceInUp 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-slide-in-up-soft {
-  animation: slideInUpSoft 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-flip-in-x {
-  animation: flipInX 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-slide-in-scale {
-  animation: slideInScale 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-float-in {
-  animation: floatIn 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-.animate-stagger {
-  animation: staggerFadeIn 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  opacity: 0;
-}
-
-/* Enhanced Staggered Animation Delays */
-.animate-delay-0 {
-  animation-delay: 0ms;
-}
-.animate-delay-100 {
-  animation-delay: 100ms;
-}
-.animate-delay-200 {
-  animation-delay: 200ms;
-}
-.animate-delay-300 {
-  animation-delay: 300ms;
-}
-.animate-delay-400 {
-  animation-delay: 400ms;
-}
-.animate-delay-500 {
-  animation-delay: 500ms;
-}
-.animate-delay-600 {
-  animation-delay: 600ms;
-}
-.animate-delay-700 {
-  animation-delay: 700ms;
-}
-.animate-delay-800 {
-  animation-delay: 800ms;
-}
+/* SCROLL ANIMATIONS DISABLED - All animation keyframes and classes removed */
 
 /* Hover Animations */
 .hover-scale {
@@ -1617,7 +1365,7 @@ html {
   @apply scroll-smooth;
 }
 
-/* Animate in viewport */
+/* SCROLL ANIMATIONS DISABLED
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1633,7 +1381,6 @@ html {
   animation: fadeInUp 0.6s ease-out forwards;
 }
 
-/* Scroll reveal animation */
 .scroll-reveal {
   opacity: 0;
   transform: translateY(30px);
@@ -1644,6 +1391,7 @@ html {
   opacity: 1;
   transform: translateY(0);
 }
+*/
 
 @layer base {
   * {
@@ -1918,148 +1666,5 @@ html {
   }
 }
 
-/* === PERFORMANCE-OPTIMIZED SCROLL ANIMATIONS === */
-/* Using CSS transforms instead of Framer Motion for better performance */
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes fadeInRight {
-  from {
-    opacity: 0;
-    transform: translateX(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes scaleIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes slideInUp {
-  from {
-    opacity: 0;
-    transform: translateY(60px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Animation utility classes with optimized performance */
-.animate-fadeInUp {
-  animation: fadeInUp 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
-  will-change: transform, opacity;
-}
-
-.animate-fadeInDown {
-  animation: fadeInDown 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
-  will-change: transform, opacity;
-}
-
-.animate-fadeInLeft {
-  animation: fadeInLeft 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
-  will-change: transform, opacity;
-}
-
-.animate-fadeInRight {
-  animation: fadeInRight 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
-  will-change: transform, opacity;
-}
-
-.animate-scaleIn {
-  animation: scaleIn 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
-  will-change: transform, opacity;
-}
-
-.animate-slideInUp {
-  animation: slideInUp 0.7s cubic-bezier(0.21, 1.11, 0.81, 0.99) forwards;
-  will-change: transform, opacity;
-}
-
-/* Initial hidden state for elements that will animate */
-.scroll-animate-hidden {
-  opacity: 0;
-}
-
-/* Apply initial hidden state to data-scroll elements only when JS is enabled 
-   This ensures content remains visible if JS fails or prefers-reduced-motion is set */
-.js-enabled [data-scroll]:not(.animate-fadeInUp):not(.animate-fadeInDown):not(.animate-fadeInLeft):not(.animate-fadeInRight):not(.animate-scaleIn):not(.animate-slideInUp) {
-  opacity: 0;
-}
-
-/* Respect user's reduced motion preference */
-@media (prefers-reduced-motion: reduce) {
-  [data-scroll] {
-    opacity: 1 !important;
-    animation: none !important;
-  }
-  
-  .scroll-animate-hidden {
-    opacity: 1 !important;
-  }
-  
-  .animate-fadeInUp,
-  .animate-fadeInDown,
-  .animate-fadeInLeft,
-  .animate-fadeInRight,
-  .animate-scaleIn,
-  .animate-slideInUp {
-    animation: none !important;
-    opacity: 1 !important;
-    transform: none !important;
-  }
-}
-
-/* GPU acceleration for scroll animations */
-.scroll-animate-hidden,
-.animate-fadeInUp,
-.animate-fadeInDown,
-.animate-fadeInLeft,
-.animate-fadeInRight,
-.animate-scaleIn,
-.animate-slideInUp {
-  transform: translateZ(0);
-  backface-visibility: hidden;
-}
+/* === SCROLL ANIMATIONS COMPLETELY DISABLED === */
+/* All scroll animations have been removed per user request */
