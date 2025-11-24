@@ -248,18 +248,18 @@ const ProductDetailDynamic: React.FC = () => {
 
             {/* Compact Grid Section: All Specifications & Details Visible at Once */}
             <AnimatedSection>
-              <div className="space-y-8">
-                <div className="flex items-center gap-3">
-                  <div className="p-2 rounded-xl bg-primary/10">
-                    <Zap className="w-6 h-6 text-primary" />
+              <div className="space-y-6 sm:space-y-8">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="p-1.5 sm:p-2 rounded-xl bg-primary/10 flex-shrink-0">
+                    <Zap className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
                   </div>
-                  <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
+                  <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground">
                     {t("products:sections.productDetails")}
                   </h2>
                 </div>
 
-                {/* 3-Column Grid Layout */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {/* Fully Responsive 3-Column Grid Layout - Optimized for all screen sizes */}
+                <div className="grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6 w-full">
                   {/* Column 1: Technical Specifications */}
                   {productData.specifications &&
                     productData.specifications.length > 0 && (
@@ -268,12 +268,12 @@ const ProductDetailDynamic: React.FC = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "-50px" }}
                         transition={{ duration: 0.4 }}
-                        className="space-y-3"
+                        className="space-y-2 sm:space-y-3 min-w-0"
                         data-testid="section-specifications"
                       >
-                        <div className="flex items-center gap-2 mb-4">
-                          <Award className="w-5 h-5 text-secondary" />
-                          <h3 className="text-lg font-semibold text-foreground">
+                        <div className="flex items-center gap-1.5 sm:gap-2 mb-3 sm:mb-4">
+                          <Award className="w-4 h-4 sm:w-5 sm:h-5 text-secondary flex-shrink-0" />
+                          <h3 className="text-base sm:text-lg font-semibold text-foreground truncate">
                             {t("products:sections.technicalSpecifications")}
                           </h3>
                         </div>
@@ -287,8 +287,8 @@ const ProductDetailDynamic: React.FC = () => {
                             className="group"
                             data-testid={`spec-${index}`}
                           >
-                            <div className="p-2.5 rounded-md border border-border/40 bg-gradient-to-br from-background to-muted/10 hover:border-secondary/40 hover:shadow-sm transition-all duration-300">
-                              <dt className="text-xs font-medium text-muted-foreground mb-0.5">
+                            <div className="p-2 sm:p-2.5 rounded-md border border-border/40 bg-gradient-to-br from-background to-muted/10 hover:border-secondary/40 hover:shadow-sm transition-all duration-300">
+                              <dt className="text-xs font-medium text-muted-foreground mb-0.5 truncate">
                                 {spec.label}
                               </dt>
                               <dd className="text-xs font-medium text-foreground truncate">
@@ -301,7 +301,7 @@ const ProductDetailDynamic: React.FC = () => {
                     )}
 
                   {/* Column 2: Features & Applications */}
-                  <div className="space-y-6">
+                  <div className="space-y-4 sm:space-y-6">
                     {/* Key Features */}
                     {productData.keyBenefits &&
                       productData.keyBenefits.length > 0 && (
@@ -310,12 +310,12 @@ const ProductDetailDynamic: React.FC = () => {
                           whileInView={{ opacity: 1, y: 0 }}
                           viewport={{ once: true, margin: "-50px" }}
                           transition={{ duration: 0.4, delay: 0.1 }}
-                          className="space-y-2"
+                          className="space-y-1.5 sm:space-y-2"
                           data-testid="section-features"
                         >
-                          <div className="flex items-center gap-2 mb-3">
-                            <CheckCircle className="w-5 h-5 text-primary" />
-                            <h3 className="text-lg font-semibold text-foreground">
+                          <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
+                            <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0" />
+                            <h3 className="text-base sm:text-lg font-semibold text-foreground truncate">
                               {t("products:sections.keyFeatures")}
                             </h3>
                           </div>
@@ -329,8 +329,8 @@ const ProductDetailDynamic: React.FC = () => {
                               className="group"
                               data-testid={`feature-${index}`}
                             >
-                              <div className="flex items-start gap-2 p-2 rounded-md hover:bg-primary/5 transition-all">
-                                <div className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1.5"></div>
+                              <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-primary/5 transition-all">
+                                <div className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1"></div>
                                 <span className="text-xs text-foreground leading-tight">
                                   {benefit}
                                 </span>
@@ -348,12 +348,12 @@ const ProductDetailDynamic: React.FC = () => {
                           whileInView={{ opacity: 1, y: 0 }}
                           viewport={{ once: true, margin: "-50px" }}
                           transition={{ duration: 0.4, delay: 0.15 }}
-                          className="space-y-2"
+                          className="space-y-1.5 sm:space-y-2"
                           data-testid="section-applications"
                         >
-                          <div className="flex items-center gap-2 mb-3">
-                            <Box className="w-5 h-5 text-accent" />
-                            <h3 className="text-lg font-semibold text-foreground">
+                          <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
+                            <Box className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" />
+                            <h3 className="text-base sm:text-lg font-semibold text-foreground truncate">
                               {t("products:sections.applications")}
                             </h3>
                           </div>
@@ -367,8 +367,8 @@ const ProductDetailDynamic: React.FC = () => {
                               className="group"
                               data-testid={`application-${index}`}
                             >
-                              <div className="flex items-start gap-2 p-2 rounded-md hover:bg-accent/5 transition-all">
-                                <div className="h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0 mt-1.5"></div>
+                              <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-accent/5 transition-all">
+                                <div className="h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0 mt-1"></div>
                                 <span className="text-xs text-foreground">
                                   {application}
                                 </span>
@@ -380,7 +380,7 @@ const ProductDetailDynamic: React.FC = () => {
                   </div>
 
                   {/* Column 3: Industries & Certifications */}
-                  <div className="space-y-6">
+                  <div className="space-y-4 sm:space-y-6">
                     {/* Industries Served */}
                     {productData.industries &&
                       productData.industries.length > 0 && (
@@ -389,12 +389,12 @@ const ProductDetailDynamic: React.FC = () => {
                           whileInView={{ opacity: 1, y: 0 }}
                           viewport={{ once: true, margin: "-50px" }}
                           transition={{ duration: 0.4, delay: 0.2 }}
-                          className="space-y-2"
+                          className="space-y-1.5 sm:space-y-2"
                           data-testid="section-industries"
                         >
-                          <div className="flex items-center gap-2 mb-3">
-                            <Building2 className="w-5 h-5 text-warning" />
-                            <h3 className="text-lg font-semibold text-foreground">
+                          <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
+                            <Building2 className="w-4 h-4 sm:w-5 sm:h-5 text-warning flex-shrink-0" />
+                            <h3 className="text-base sm:text-lg font-semibold text-foreground truncate">
                               {t("products:sections.industriesServed")}
                             </h3>
                           </div>
@@ -408,8 +408,8 @@ const ProductDetailDynamic: React.FC = () => {
                               className="group"
                               data-testid={`industry-${index}`}
                             >
-                              <div className="flex items-start gap-2 p-2 rounded-md hover:bg-warning/5 transition-all">
-                                <div className="h-1.5 w-1.5 rounded-full bg-warning flex-shrink-0 mt-1.5"></div>
+                              <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-warning/5 transition-all">
+                                <div className="h-1.5 w-1.5 rounded-full bg-warning flex-shrink-0 mt-1"></div>
                                 <span className="text-xs text-foreground">
                                   {industry}
                                 </span>
@@ -427,16 +427,16 @@ const ProductDetailDynamic: React.FC = () => {
                           whileInView={{ opacity: 1, y: 0 }}
                           viewport={{ once: true, margin: "-50px" }}
                           transition={{ duration: 0.4, delay: 0.25 }}
-                          className="space-y-3"
+                          className="space-y-2 sm:space-y-3"
                           data-testid="section-certifications"
                         >
-                          <div className="flex items-center gap-2 mb-3">
-                            <Shield className="w-5 h-5 text-green-600 dark:text-green-400" />
-                            <h3 className="text-lg font-semibold text-foreground">
+                          <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
+                            <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-green-600 dark:text-green-400 flex-shrink-0" />
+                            <h3 className="text-base sm:text-lg font-semibold text-foreground truncate">
                               {t("products:sections.certificationsCompliance")}
                             </h3>
                           </div>
-                          <div className="flex flex-wrap gap-1.5">
+                          <div className="flex flex-wrap gap-1 sm:gap-1.5">
                             {productData.certifications.map((cert, index) => (
                               <motion.div
                                 key={index}
@@ -450,7 +450,7 @@ const ProductDetailDynamic: React.FC = () => {
                                 className="group"
                                 data-testid={`cert-${index}`}
                               >
-                                <div className="px-2.5 py-1.5 rounded-full border border-green-300/40 dark:border-green-600/40 bg-green-50 dark:bg-green-950/20 font-medium text-xs hover:border-green-400/60 transition-all">
+                                <div className="px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-full border border-green-300/40 dark:border-green-600/40 bg-green-50 dark:bg-green-950/20 font-medium text-xs hover:border-green-400/60 transition-all whitespace-nowrap">
                                   {cert}
                                 </div>
                               </motion.div>
