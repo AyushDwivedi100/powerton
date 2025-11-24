@@ -18,7 +18,7 @@ import honeywellTransmitter from "@assets/products-images/honeywell-transmitter.
 import butterflyValve from "@assets/products-images/butterfly-valve.jpg";
 import controlBoxesInventory from "@assets/products-images/control-boxes-inventory.jpg";
 import krohneFlowMeterFront from "@assets/products-images/krohne-flow-meter-front.jpg";
-import krohneFlowMetersSet from "@assets/products-images/krohne-flow-meters-set.jpg";
+import pumpImpeller from "@assets/products-images/pump-impeller.jpg";
 import wrappedSensorsInventory from "@assets/products-images/wrapped-sensors-inventory.jpg";
 
 export interface ProductImage {
@@ -144,9 +144,9 @@ export const productImages: ProductImage[] = [
     dateAdded: "2025-10-28"
   },
   {
-    id: "krohne-flow-meters-set",
-    title: "KROHNE Flow Meters Set",
-    image: krohneFlowMetersSet,
+    id: "pump-impeller",
+    title: "Pump Impeller",
+    image: pumpImpeller,
     category: "Flow Measurement",
     dateAdded: "2025-10-28"
   },
