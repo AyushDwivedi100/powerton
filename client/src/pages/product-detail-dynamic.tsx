@@ -1,6 +1,5 @@
 import { Link, useParams } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getProductDetailBySlug } from "@/data/products-detail-pages-data";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/lib/seo";
@@ -247,10 +246,10 @@ const ProductDetailDynamic: React.FC = () => {
               </AnimatedSection>
             )}
 
-            {/* Compact Tabbed Section: All Specifications & Compliance Info */}
+            {/* Compact Grid Section: All Specifications & Details Visible at Once */}
             <AnimatedSection>
-              <div className="max-w-4xl">
-                <div className="flex items-center gap-3 mb-8">
+              <div className="space-y-8">
+                <div className="flex items-center gap-3">
                   <div className="p-2 rounded-xl bg-primary/10">
                     <Zap className="w-6 h-6 text-primary" />
                   </div>
@@ -259,220 +258,208 @@ const ProductDetailDynamic: React.FC = () => {
                   </h2>
                 </div>
 
-                <Tabs defaultValue="specifications" className="w-full">
-                  <TabsList className="grid w-full grid-cols-2 md:grid-cols-5 gap-2 mb-6 h-auto p-1 bg-muted">
-                    <TabsTrigger
-                      value="specifications"
-                      className="flex items-center gap-2 text-xs md:text-sm"
-                      data-testid="tab-specifications"
-                    >
-                      <Award className="w-4 h-4" />
-                      <span className="hidden sm:inline">
-                        {t("products:sections.technicalSpecifications")}
-                      </span>
-                      <span className="sm:hidden">Specs</span>
-                    </TabsTrigger>
-
-                    <TabsTrigger
-                      value="features"
-                      className="flex items-center gap-2 text-xs md:text-sm"
-                      data-testid="tab-features"
-                    >
-                      <CheckCircle className="w-4 h-4" />
-                      <span className="hidden sm:inline">
-                        {t("products:sections.keyFeatures")}
-                      </span>
-                      <span className="sm:hidden">Features</span>
-                    </TabsTrigger>
-
-                    <TabsTrigger
-                      value="applications"
-                      className="flex items-center gap-2 text-xs md:text-sm"
-                      data-testid="tab-applications"
-                    >
-                      <Box className="w-4 h-4" />
-                      <span className="hidden sm:inline">
-                        {t("products:sections.applications")}
-                      </span>
-                      <span className="sm:hidden">Apps</span>
-                    </TabsTrigger>
-
-                    <TabsTrigger
-                      value="industries"
-                      className="flex items-center gap-2 text-xs md:text-sm"
-                      data-testid="tab-industries"
-                    >
-                      <Building2 className="w-4 h-4" />
-                      <span className="hidden sm:inline">
-                        {t("products:sections.industriesServed")}
-                      </span>
-                      <span className="sm:hidden">Industries</span>
-                    </TabsTrigger>
-
-                    <TabsTrigger
-                      value="certifications"
-                      className="flex items-center gap-2 text-xs md:text-sm"
-                      data-testid="tab-certifications"
-                    >
-                      <Shield className="w-4 h-4" />
-                      <span className="hidden sm:inline">
-                        {t("products:sections.certificationsCompliance")}
-                      </span>
-                      <span className="sm:hidden">Certs</span>
-                    </TabsTrigger>
-                  </TabsList>
-
-                  {/* Specifications Tab */}
+                {/* 3-Column Grid Layout */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {/* Column 1: Technical Specifications */}
                   {productData.specifications &&
                     productData.specifications.length > 0 && (
-                      <TabsContent
-                        value="specifications"
-                        className="space-y-4"
-                        data-testid="content-specifications"
+                      <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        transition={{ duration: 0.4 }}
+                        className="space-y-3"
+                        data-testid="section-specifications"
                       >
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                          {productData.specifications.map((spec, index) => (
+                        <div className="flex items-center gap-2 mb-4">
+                          <Award className="w-5 h-5 text-secondary" />
+                          <h3 className="text-lg font-semibold text-foreground">
+                            {t("products:sections.technicalSpecifications")}
+                          </h3>
+                        </div>
+                        {productData.specifications.map((spec, index) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ duration: 0.3, delay: index * 0.02 }}
+                            className="group"
+                            data-testid={`spec-${index}`}
+                          >
+                            <div className="p-2.5 rounded-md border border-border/40 bg-gradient-to-br from-background to-muted/10 hover:border-secondary/40 hover:shadow-sm transition-all duration-300">
+                              <dt className="text-xs font-medium text-muted-foreground mb-0.5">
+                                {spec.label}
+                              </dt>
+                              <dd className="text-xs font-medium text-foreground truncate">
+                                {spec.value}
+                              </dd>
+                            </div>
+                          </motion.div>
+                        ))}
+                      </motion.div>
+                    )}
+
+                  {/* Column 2: Features & Applications */}
+                  <div className="space-y-6">
+                    {/* Key Features */}
+                    {productData.keyBenefits &&
+                      productData.keyBenefits.length > 0 && (
+                        <motion.div
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          viewport={{ once: true, margin: "-50px" }}
+                          transition={{ duration: 0.4, delay: 0.1 }}
+                          className="space-y-2"
+                          data-testid="section-features"
+                        >
+                          <div className="flex items-center gap-2 mb-3">
+                            <CheckCircle className="w-5 h-5 text-primary" />
+                            <h3 className="text-lg font-semibold text-foreground">
+                              {t("products:sections.keyFeatures")}
+                            </h3>
+                          </div>
+                          {productData.keyBenefits.map((benefit, index) => (
                             <motion.div
                               key={index}
-                              initial={{ opacity: 0, scale: 0.95 }}
-                              whileInView={{ opacity: 1, scale: 1 }}
+                              initial={{ opacity: 0, x: -10 }}
+                              whileInView={{ opacity: 1, x: 0 }}
                               viewport={{ once: true, margin: "-50px" }}
                               transition={{ duration: 0.3, delay: index * 0.02 }}
                               className="group"
-                              data-testid={`spec-${index}`}
+                              data-testid={`feature-${index}`}
                             >
-                              <div className="p-3 rounded-lg border border-border/50 bg-gradient-to-br from-background to-muted/20 hover:border-secondary/30 hover:shadow-md hover:shadow-secondary/5 transition-all duration-300">
-                                <dt className="text-xs font-medium text-muted-foreground mb-1">
-                                  {spec.label}
-                                </dt>
-                                <dd className="text-sm font-semibold text-foreground group-hover:text-secondary transition-colors truncate">
-                                  {spec.value}
-                                </dd>
+                              <div className="flex items-start gap-2 p-2 rounded-md hover:bg-primary/5 transition-all">
+                                <div className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1.5"></div>
+                                <span className="text-xs text-foreground leading-tight">
+                                  {benefit}
+                                </span>
                               </div>
                             </motion.div>
                           ))}
-                        </div>
-                      </TabsContent>
-                    )}
+                        </motion.div>
+                      )}
 
-                  {/* Features Tab */}
-                  {productData.keyBenefits &&
-                    productData.keyBenefits.length > 0 && (
-                      <TabsContent
-                        value="features"
-                        className="space-y-3"
-                        data-testid="content-features"
-                      >
-                        {productData.keyBenefits.map((benefit, index) => (
-                          <motion.div
-                            key={index}
-                            initial={{ opacity: 0, x: -10 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true, margin: "-50px" }}
-                            transition={{ duration: 0.3, delay: index * 0.02 }}
-                            className="group"
-                            data-testid={`feature-${index}`}
-                          >
-                            <div className="flex items-start gap-3 p-3 rounded-lg border border-border/50 bg-background/50 hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
-                              <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 mt-1.5 group-hover:scale-125 transition-transform"></div>
-                              <span className="text-sm text-foreground leading-relaxed">
-                                {benefit}
-                              </span>
-                            </div>
-                          </motion.div>
-                        ))}
-                      </TabsContent>
-                    )}
-
-                  {/* Applications Tab */}
-                  {productData.applications &&
-                    productData.applications.length > 0 && (
-                      <TabsContent
-                        value="applications"
-                        className="space-y-3"
-                        data-testid="content-applications"
-                      >
-                        {productData.applications.map((application, index) => (
-                          <motion.div
-                            key={index}
-                            initial={{ opacity: 0, x: -10 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true, margin: "-50px" }}
-                            transition={{ duration: 0.3, delay: index * 0.02 }}
-                            className="group"
-                            data-testid={`application-${index}`}
-                          >
-                            <div className="flex items-start gap-3 p-3 rounded-lg border border-border/50 bg-background/50 hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
-                              <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 mt-1.5 group-hover:scale-125 transition-transform"></div>
-                              <span className="text-sm text-foreground">
-                                {application}
-                              </span>
-                            </div>
-                          </motion.div>
-                        ))}
-                      </TabsContent>
-                    )}
-
-                  {/* Industries Tab */}
-                  {productData.industries &&
-                    productData.industries.length > 0 && (
-                      <TabsContent
-                        value="industries"
-                        className="space-y-3"
-                        data-testid="content-industries"
-                      >
-                        {productData.industries.map((industry, index) => (
-                          <motion.div
-                            key={index}
-                            initial={{ opacity: 0, x: -10 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true, margin: "-50px" }}
-                            transition={{ duration: 0.3, delay: index * 0.02 }}
-                            className="group"
-                            data-testid={`industry-${index}`}
-                          >
-                            <div className="flex items-start gap-3 p-3 rounded-lg border border-border/50 bg-background/50 hover:border-secondary/30 hover:bg-secondary/5 transition-all duration-300">
-                              <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 mt-1.5 group-hover:scale-125 transition-transform"></div>
-                              <span className="text-sm text-foreground">
-                                {industry}
-                              </span>
-                            </div>
-                          </motion.div>
-                        ))}
-                      </TabsContent>
-                    )}
-
-                  {/* Certifications Tab */}
-                  {productData.certifications &&
-                    productData.certifications.length > 0 && (
-                      <TabsContent
-                        value="certifications"
-                        className="space-y-3"
-                        data-testid="content-certifications"
-                      >
-                        <div className="flex flex-wrap gap-2">
-                          {productData.certifications.map((cert, index) => (
+                    {/* Applications */}
+                    {productData.applications &&
+                      productData.applications.length > 0 && (
+                        <motion.div
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          viewport={{ once: true, margin: "-50px" }}
+                          transition={{ duration: 0.4, delay: 0.15 }}
+                          className="space-y-2"
+                          data-testid="section-applications"
+                        >
+                          <div className="flex items-center gap-2 mb-3">
+                            <Box className="w-5 h-5 text-accent" />
+                            <h3 className="text-lg font-semibold text-foreground">
+                              {t("products:sections.applications")}
+                            </h3>
+                          </div>
+                          {productData.applications.map((application, index) => (
                             <motion.div
                               key={index}
-                              initial={{ opacity: 0, scale: 0.8 }}
-                              whileInView={{ opacity: 1, scale: 1 }}
-                              viewport={{ once: true }}
-                              transition={{
-                                duration: 0.2,
-                                delay: index * 0.03,
-                              }}
+                              initial={{ opacity: 0, x: -10 }}
+                              whileInView={{ opacity: 1, x: 0 }}
+                              viewport={{ once: true, margin: "-50px" }}
+                              transition={{ duration: 0.3, delay: index * 0.02 }}
                               className="group"
-                              data-testid={`cert-${index}`}
+                              data-testid={`application-${index}`}
                             >
-                              <div className="px-4 py-2 rounded-full border border-primary/30 bg-primary/5 font-medium text-sm hover:border-primary/50 hover:bg-primary/10 hover:scale-105 transition-all duration-300">
-                                {cert}
+                              <div className="flex items-start gap-2 p-2 rounded-md hover:bg-accent/5 transition-all">
+                                <div className="h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0 mt-1.5"></div>
+                                <span className="text-xs text-foreground">
+                                  {application}
+                                </span>
                               </div>
                             </motion.div>
                           ))}
-                        </div>
-                      </TabsContent>
-                    )}
-                </Tabs>
+                        </motion.div>
+                      )}
+                  </div>
+
+                  {/* Column 3: Industries & Certifications */}
+                  <div className="space-y-6">
+                    {/* Industries Served */}
+                    {productData.industries &&
+                      productData.industries.length > 0 && (
+                        <motion.div
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          viewport={{ once: true, margin: "-50px" }}
+                          transition={{ duration: 0.4, delay: 0.2 }}
+                          className="space-y-2"
+                          data-testid="section-industries"
+                        >
+                          <div className="flex items-center gap-2 mb-3">
+                            <Building2 className="w-5 h-5 text-warning" />
+                            <h3 className="text-lg font-semibold text-foreground">
+                              {t("products:sections.industriesServed")}
+                            </h3>
+                          </div>
+                          {productData.industries.map((industry, index) => (
+                            <motion.div
+                              key={index}
+                              initial={{ opacity: 0, x: -10 }}
+                              whileInView={{ opacity: 1, x: 0 }}
+                              viewport={{ once: true, margin: "-50px" }}
+                              transition={{ duration: 0.3, delay: index * 0.02 }}
+                              className="group"
+                              data-testid={`industry-${index}`}
+                            >
+                              <div className="flex items-start gap-2 p-2 rounded-md hover:bg-warning/5 transition-all">
+                                <div className="h-1.5 w-1.5 rounded-full bg-warning flex-shrink-0 mt-1.5"></div>
+                                <span className="text-xs text-foreground">
+                                  {industry}
+                                </span>
+                              </div>
+                            </motion.div>
+                          ))}
+                        </motion.div>
+                      )}
+
+                    {/* Certifications & Compliance */}
+                    {productData.certifications &&
+                      productData.certifications.length > 0 && (
+                        <motion.div
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          viewport={{ once: true, margin: "-50px" }}
+                          transition={{ duration: 0.4, delay: 0.25 }}
+                          className="space-y-3"
+                          data-testid="section-certifications"
+                        >
+                          <div className="flex items-center gap-2 mb-3">
+                            <Shield className="w-5 h-5 text-green-600 dark:text-green-400" />
+                            <h3 className="text-lg font-semibold text-foreground">
+                              {t("products:sections.certificationsCompliance")}
+                            </h3>
+                          </div>
+                          <div className="flex flex-wrap gap-1.5">
+                            {productData.certifications.map((cert, index) => (
+                              <motion.div
+                                key={index}
+                                initial={{ opacity: 0, scale: 0.8 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                viewport={{ once: true }}
+                                transition={{
+                                  duration: 0.2,
+                                  delay: index * 0.03,
+                                }}
+                                className="group"
+                                data-testid={`cert-${index}`}
+                              >
+                                <div className="px-2.5 py-1.5 rounded-full border border-green-300/40 dark:border-green-600/40 bg-green-50 dark:bg-green-950/20 font-medium text-xs hover:border-green-400/60 transition-all">
+                                  {cert}
+                                </div>
+                              </motion.div>
+                            ))}
+                          </div>
+                        </motion.div>
+                      )}
+                  </div>
+                </div>
               </div>
             </AnimatedSection>
           </div>
