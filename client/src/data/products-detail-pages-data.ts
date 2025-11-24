@@ -22482,15 +22482,24 @@ export const getProductDetailBySlug = (
     specifications,
     features: Array.isArray(features) ? features : [],
     keyBenefits: Array.isArray(features) ? features.slice(0, 4) : [],
-    applications: t("products-data:utilities.commonData.applications", {
-      returnObjects: true,
-    }) as string[],
-    industries: t("products-data:utilities.commonData.industries", {
-      returnObjects: true,
-    }) as string[],
-    certifications: t("products-data:utilities.commonData.certifications", {
-      returnObjects: true,
-    }) as string[],
+    applications: (() => {
+      const apps = t("products-data:utilities.commonData.applications", {
+        returnObjects: true,
+      });
+      return Array.isArray(apps) ? apps : [];
+    })(),
+    industries: (() => {
+      const inds = t("products-data:utilities.commonData.industries", {
+        returnObjects: true,
+      });
+      return Array.isArray(inds) ? inds : [];
+    })(),
+    certifications: (() => {
+      const certs = t("products-data:utilities.commonData.certifications", {
+        returnObjects: true,
+      });
+      return Array.isArray(certs) ? certs : [];
+    })(),
     datasheetUrl: product.datasheetUrl,
     seo: {
       title: `${title} | ${categoryName} | Powerton Engineering`,

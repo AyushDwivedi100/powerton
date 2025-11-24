@@ -253,7 +253,7 @@ const ProductDetailDynamic: React.FC = () => {
                   <div className="p-1.5 sm:p-2 rounded-xl bg-primary/10 flex-shrink-0">
                     <Zap className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
                   </div>
-                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
+                  <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
                     {t("products:sections.productDetails")}
                   </h2>
                 </div>
@@ -301,7 +301,7 @@ const ProductDetailDynamic: React.FC = () => {
                     )}
 
                   {/* Column 2: Features & Applications */}
-                  <div className="space-y-4 sm:space-y-6">
+                  <div className="space-y-8 sm:space-y-12">
                     {/* Key Features */}
                     {productData.keyBenefits &&
                       productData.keyBenefits.length > 0 && (
@@ -314,7 +314,7 @@ const ProductDetailDynamic: React.FC = () => {
                           data-testid="section-features"
                         >
                           <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
-                            <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0" />
+                            <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-secondary flex-shrink-0" />
                             <h3 className="text-lg sm:text-xl font-semibold text-foreground truncate">
                               {t("products:sections.keyFeatures")}
                             </h3>
@@ -325,13 +325,16 @@ const ProductDetailDynamic: React.FC = () => {
                               initial={{ opacity: 0, x: -10 }}
                               whileInView={{ opacity: 1, x: 0 }}
                               viewport={{ once: true, margin: "-50px" }}
-                              transition={{ duration: 0.3, delay: index * 0.02 }}
+                              transition={{
+                                duration: 0.3,
+                                delay: index * 0.02,
+                              }}
                               className="group"
                               data-testid={`feature-${index}`}
                             >
                               <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-primary/5 transition-all">
                                 <div className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1"></div>
-                                <span className="text-sm text-foreground leading-tight">
+                                <span className="text-md text-foreground leading-tight">
                                   {benefit}
                                 </span>
                               </div>
@@ -352,29 +355,34 @@ const ProductDetailDynamic: React.FC = () => {
                           data-testid="section-applications"
                         >
                           <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
-                            <Box className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" />
+                            <Box className="w-4 h-4 sm:w-5 sm:h-5 text-secondary flex-shrink-0" />
                             <h3 className="text-lg sm:text-xl font-semibold text-foreground truncate">
                               {t("products:sections.applications")}
                             </h3>
                           </div>
-                          {productData.applications.map((application, index) => (
-                            <motion.div
-                              key={index}
-                              initial={{ opacity: 0, x: -10 }}
-                              whileInView={{ opacity: 1, x: 0 }}
-                              viewport={{ once: true, margin: "-50px" }}
-                              transition={{ duration: 0.3, delay: index * 0.02 }}
-                              className="group"
-                              data-testid={`application-${index}`}
-                            >
-                              <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-accent/5 transition-all">
-                                <div className="h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0 mt-1"></div>
-                                <span className="text-sm text-foreground">
-                                  {application}
-                                </span>
-                              </div>
-                            </motion.div>
-                          ))}
+                          {productData.applications.map(
+                            (application, index) => (
+                              <motion.div
+                                key={index}
+                                initial={{ opacity: 0, x: -10 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true, margin: "-50px" }}
+                                transition={{
+                                  duration: 0.3,
+                                  delay: index * 0.02,
+                                }}
+                                className="group"
+                                data-testid={`application-${index}`}
+                              >
+                                <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-accent/5 transition-all">
+                                  <div className="h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0 mt-1"></div>
+                                  <span className="text-md text-foreground">
+                                    {application}
+                                  </span>
+                                </div>
+                              </motion.div>
+                            ),
+                          )}
                         </motion.div>
                       )}
                   </div>
@@ -393,7 +401,7 @@ const ProductDetailDynamic: React.FC = () => {
                           data-testid="section-industries"
                         >
                           <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
-                            <Building2 className="w-4 h-4 sm:w-5 sm:h-5 text-warning flex-shrink-0" />
+                            <Building2 className="w-4 h-4 sm:w-5 sm:h-5 text-secondary flex-shrink-0" />
                             <h3 className="text-lg sm:text-xl font-semibold text-foreground truncate">
                               {t("products:sections.industriesServed")}
                             </h3>
@@ -404,13 +412,16 @@ const ProductDetailDynamic: React.FC = () => {
                               initial={{ opacity: 0, x: -10 }}
                               whileInView={{ opacity: 1, x: 0 }}
                               viewport={{ once: true, margin: "-50px" }}
-                              transition={{ duration: 0.3, delay: index * 0.02 }}
+                              transition={{
+                                duration: 0.3,
+                                delay: index * 0.02,
+                              }}
                               className="group"
                               data-testid={`industry-${index}`}
                             >
                               <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-warning/5 transition-all">
-                                <div className="h-1.5 w-1.5 rounded-full bg-warning flex-shrink-0 mt-1"></div>
-                                <span className="text-sm text-foreground">
+                                <div className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1"></div>
+                                <span className="text-md text-foreground">
                                   {industry}
                                 </span>
                               </div>
@@ -450,7 +461,7 @@ const ProductDetailDynamic: React.FC = () => {
                                 className="group"
                                 data-testid={`cert-${index}`}
                               >
-                                <div className="px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-full border border-green-300/40 dark:border-green-600/40 bg-green-50 dark:bg-green-950/20 font-medium text-sm hover:border-green-400/60 transition-all whitespace-nowrap">
+                                <div className="px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-full border border-green-300/40 dark:border-green-600/40 bg-green-50 dark:bg-green-950/20 font-medium text-md hover:border-green-400/60 transition-all whitespace-nowrap">
                                   {cert}
                                 </div>
                               </motion.div>
