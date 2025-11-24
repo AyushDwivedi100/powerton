@@ -307,9 +307,7 @@ export const getProjects = (t: any): Project[] => PROJECTS.map(project => ({
   technologies: project.technologies.map(tech => 
     t(`pages:projects.technologies.${tech.toLowerCase().replace(/\s+/g, '')}`)
   ),
-  highlights: project.highlights.map((_, index) => 
-    t(`pages:projects.items.${project.id}.highlights.${index}`)
-  ),
+  highlights: project.highlights,
   results: Object.keys(project.results).reduce((acc, key) => ({
     ...acc,
     [key]: t(`pages:projects.items.${project.id}.results.${key}`)
