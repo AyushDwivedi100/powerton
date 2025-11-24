@@ -15508,7 +15508,7 @@ export const products: Product[] = [
       model: "C-2250",
       mechanicalStrength: "25kN",
       spacing: "146mm",
-      creepa geDistance: "320mm",
+      creepageDistance: "320mm",
       impulseVoltage: "110kV",
       material: "Porcelain",
     },
