@@ -567,16 +567,12 @@ export default function Projects() {
                           <span>{t("pages:projects.technologiesUsed")}</span>
                         </div>
                         <div className="flex flex-wrap gap-2.5">
-                          {project.technologies.map((tech) => (
+                          {project.technologies.map((tech, index) => (
                             <span
-                              key={tech}
+                              key={`${project.id}-tech-${index}`}
                               className="text-xs bg-muted px-3 py-1.5 rounded-md text-muted-foreground group-hover:text-foreground font-medium"
                             >
-                              {t(
-                                `pages:projects.technologies.${tech
-                                  .toLowerCase()
-                                  .replace(/\s+/g, "")}`,
-                              )}
+                              {tech}
                             </span>
                           ))}
                         </div>

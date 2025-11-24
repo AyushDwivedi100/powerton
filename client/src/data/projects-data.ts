@@ -305,7 +305,7 @@ export const getProjects = (t: any): Project[] => PROJECTS.map(project => ({
   statusId: project.status.toLowerCase(),
   month: t(`common:months.${project.month.toLowerCase()}`),
   technologies: project.technologies.map(tech => 
-    t(`pages:projects.items.${project.id}.technologies.${tech.toLowerCase().replace(/\s+/g, '-')}`)
+    t(`pages:projects.technologies.${tech.toLowerCase().replace(/\s+/g, '')}`)
   ),
   highlights: project.highlights.map((_, index) => 
     t(`pages:projects.items.${project.id}.highlights.${index}`)
