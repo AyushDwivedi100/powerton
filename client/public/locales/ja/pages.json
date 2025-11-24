@@ -1,1153 +1,1059 @@
 {
   "home": {
     "seo": {
-      "title": "産業オートメーションと制御盤のメーカー | PLC SCADA DCSシステム | Powerton Engineering India",
-      "description": "インドの大手産業オートメーション企業で、電気制御盤の製造、PLCプログラミング、SCADAシステム統合、DCSエンジニアリング、およびプロセスオートメーションソリューションを専門としています。製薬、発電所、石油・ガス、製造、および化学産業にサービスを提供しています。ISO認証を取得し、15年以上の専門知識があります。Siemens、Allen Bradley、Schneider、ABBのオートメーションのエキスパート。24時間年中無休のサポート | 無料相談 | インド、ノイダ",
-      "keywords": "インドの産業オートメーション企業、電気制御盤メーカー、インドの制御盤ビルダー、PLCプログラミングサービス、SCADAシステム統合、DCSエンジニアリングサービス、インドのプロセスオートメーション、産業制御システム、オートメーションエンジニアリングサービス、PLC SCADAトレーニング、HMI開発、制御盤設計、工場オートメーションソリューション、プラントオートメーション、インドの産業用IoT、インダストリー4.0ソリューション、インドのスマート製造、Siemens PLCプログラミング、Allen Bradleyオートメーション、Schneider PLCサービス、ABBオートメーションソリューション、インドの製薬オートメーション、発電所オートメーション、石油およびガスオートメーション、化学プラントオートメーション、食品加工オートメーション、水処理SCADA、セメントプラントオートメーション、インドの製造オートメーション、モーターコントロールセンターMCC、パワーコントロールセンターPCC、VFDパネル、ノイダの電気パネルメーカー、ノイダのオートメーション企業、制御システムインテグレーター、計装サービス、圧力トランスミッター、温度センサー、流量計、レベルセンサー、産業用電気ソリューション、インドのソーラーEPCソリューション、再生可能エネルギーオートメーション、エネルギー管理システム、ビルディングオートメーション、HVACオートメーション、予測メンテナンスソリューション、リモートモニタリングシステム、PLCレトロフィットサービス、SCADA移行、インドのオートメーションコンサルティング、制御盤製造、ULリストされた制御盤、NEMA定格パネル、IEC準拠パネル、ノイダの産業オートメーション、デリーNCRのオートメーションサービス、ウッタルプラデーシュの制御盤、インドの電気エンジニアリング会社、プロセス制御システム、分散制御システム、スーパーバイザリー制御、データ収集システム、産業用制御盤コンポーネント、オートメーショントレーニングインスティテュート、PLC SCADA DCS認定、産業オートメーショントレーニング、電気制御システムトレーニング"
+      "title": "Industrial Automation & Control Panel Manufacturer | PLC SCADA DCS Systems | Powerton Engineering India",
+      "description": "Leading industrial automation company in India specializing in electrical control panel manufacturing, PLC programming, SCADA system integration, DCS engineering, and process automation solutions. Serving pharmaceutical, power plant, oil & gas, manufacturing, and chemical industries. ISO certified with 15+ years expertise. Expert in Siemens, Allen Bradley, Schneider, ABB automation. 24/7 support | Free consultation | Noida, India",
+      "keywords": "industrial automation companies in India, electrical control panel manufacturer, control panel builders India, PLC programming services, SCADA system integration, DCS engineering services, process automation India, industrial control systems, automation engineering services, PLC SCADA training, HMI development, control panel design, factory automation solutions, plant automation, industrial IoT India, Industry 4.0 solutions, smart manufacturing India, Siemens PLC programming, Allen Bradley automation, Schneider PLC services, ABB automation solutions, pharmaceutical automation India, power plant automation, oil and gas automation, chemical plant automation, food processing automation, water treatment SCADA, cement plant automation, manufacturing automation India, motor control center MCC, power control center PCC, VFD panel, electrical panel manufacturers Noida, automation companies Noida, control system integrator, instrumentation services, pressure transmitters, temperature sensors, flow meters, level sensors, industrial electrical solutions, solar EPC solutions India, renewable energy automation, energy management systems, building automation, HVAC automation, predictive maintenance solutions, remote monitoring systems, PLC retrofitting services, SCADA migration, automation consulting India, control panel manufacturing, UL listed control panels, NEMA rated panels, IEC compliant panels, industrial automation Noida, automation services Delhi NCR, control panels Uttar Pradesh, electrical engineering company India, process control systems, distributed control systems, supervisory control, data acquisition systems, industrial control panel components, automation training institute, PLC SCADA DCS certification, industrial automation training, electrical control systems training"
     },
     "hero": {
       "title": {
-        "main": "包括的なソリューション",
-        "highlight": "産業の成功"
+        "main": "Comprehensive Solutions for",
+        "highlight": "Industrial Success"
       },
-      "subtitle": "当社の幅広い製品とサービスのポートフォリオは、産業の成功を推進し、エンジニアリングニーズのあらゆる側面が確実にカバーされるように、完全なソリューションを提供します。",
+      "subtitle": "Our extensive portfolio of products and services provides a full spectrum of solutions, driving industrial success and ensuring every aspect of your engineering needs is covered.",
       "buttons": {
-        "exploreServices": "当社のサービスを探る",
-        "requestConsultation": "コンサルテーションをリクエスト"
+        "exploreServices": "Explore Our Services",
+        "requestConsultation": "Request Consultation"
       },
       "features": {
-        "experience": "15年以上の経験",
-        "support": "24時間年中無休のテクニカルサポート",
-        "service": "グローバルサービスカバレッジ"
+        "experience": "15+ Years Experience",
+        "support": "24/7 Technical Support",
+        "service": "Global Service Coverage"
       },
       "stats": {
-        "yearsExperience": "長年の経験",
-        "projectsCompleted": "完了したプロジェクト",
-        "happyClients": "満足しているクライアント",
-        "supportAvailable": "利用可能なサポート",
-        "heading": "会社の統計と実績"
+        "yearsExperience": "Years Experience",
+        "projectsCompleted": "Projects Completed",
+        "happyClients": "Happy Clients",
+        "supportAvailable": "Support Available",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "about": {
-      "label": "当社について",
-      "title": "Powerton Engineering Pvt. Ltd.へようこそ",
-      "description": "高品質のエンジニアリングソリューションとサービスを提供する信頼できるパートナー。イノベーションと卓越性を通じて業界を強化するというビジョンを持って設立され、電気および計装製品の包括的な範囲の提供を専門としています。",
-      "visualHeading": "プロフェッショナルエンジニアリング",
-      "visualDescription": "産業オートメーションおよび制御システムに取り組むプロの中国人エンジニア",
+      "label": "About Us",
+      "title": "Welcome to Powerton Engineering Pvt. Ltd.",
+      "description": "Your trusted partner in providing high-quality engineering solutions and services. Founded with a vision to empower industries through innovation and excellence, we specialize in delivering a comprehensive range of electrical and instrumentation products.",
+      "visualHeading": "Professional Engineering",
+      "visualDescription": "Professional Chinese engineers working on industrial automation and control systems",
       "features": {
         "electrical": {
-          "title": "電気および計装",
-          "description": "完全な範囲の制御システム"
+          "title": "Electrical & Instrumentation",
+          "description": "Complete range of control systems"
         },
         "mechanical": {
-          "title": "機械ポンプ",
-          "description": "耐久性のあるポンプソリューションとスペア"
+          "title": "Mechanical Pumps",
+          "description": "Durable pump solutions and spares"
         },
         "solar": {
-          "title": "ソーラーソリューション",
-          "description": "持続可能なエネルギー設備"
+          "title": "Solar Solutions",
+          "description": "Sustainable energy installations"
         },
         "tools": {
-          "title": "産業用ツール",
-          "description": "プロ仕様の機器"
+          "title": "Industrial Tools",
+          "description": "Professional-grade equipment"
         }
       },
-      "button": "当社についてもっと詳しく知る"
+      "button": "Learn More About Us"
     },
     "services": {
-      "label": "当社のサービス",
-      "title": "卓越したケアで提供される、すべてのニーズに対応する専門家によるソリューション",
-      "description": "プロセスオートメーションからメンテナンス契約まで、お客様の産業ニーズに合わせて調整された包括的なエンジニアリングソリューションを提供します。"
+      "label": "Our Services",
+      "title": "Expert Solutions for All Needs, Delivered with Exceptional Care",
+      "description": "From process automation to maintenance contracts, we deliver comprehensive engineering solutions tailored to your industrial needs."
     },
     "products": {
-      "label": "当社の製品",
-      "title": "産業オートメーション機器ソリューション",
-      "description": "産業環境での信頼性、効率、および優れたパフォーマンスのために設計された、幅広い電気およびオートメーション製品。",
-      "viewProducts": "製品を見る",
-      "viewCatalog": "完全な製品カタログを見る"
+      "label": "Our Products",
+      "title": "Industrial Automation Equipment Solutions",
+      "description": "A comprehensive range of electrical and automation products designed for reliability, efficiency, and superior performance in industrial environments.",
+      "viewProducts": "View Products",
+      "viewCatalog": "View Full Product Catalog"
     },
     "contact": {
-      "label": "お問い合わせ",
-      "title": "お客様のエンジニアリングニーズについて話し合いましょう",
-      "description": "次のプロジェクトを開始する準備はできましたか？カスタムソリューションと専門家によるコンサルテーションについては、当社の専門家チームにお問い合わせください。",
+      "label": "Contact Us",
+      "title": "Let's Discuss Your Engineering Needs",
+      "description": "Ready to start your next project? Contact our expert team for custom solutions and professional consultation.",
       "hero": {
-        "title": "当社のエンジニアリング専門家にお問い合わせください",
-        "subtitle": "産業オートメーションおよび電気エンジニアリングプロジェクトに関する専門家のサポートを受けてください。当社の経験豊富なチームがお客様の成功を支援します。",
+        "title": "Contact Our Engineering Experts",
+        "subtitle": "Get expert support for your industrial automation and electrical engineering projects. Our experienced team is ready to help you succeed.",
         "benefits": {
-          "consultation": "無料の専門家によるコンサルテーション",
-          "support": "24時間年中無休のテクニカルサポート",
-          "experience": "15年以上の経験"
+          "consultation": "Free Expert Consultation",
+          "support": "24/7 Technical Support",
+          "experience": "15+ Years Experience"
         }
       },
-      "getInTouch": "連絡を取り合う",
+      "getInTouch": "Get In Touch",
       "methods": {
         "phone": {
-          "title": "電話",
-          "description": "24時間年中無休の緊急サポート"
+          "title": "Phone",
+          "description": "24/7 Emergency Support"
         },
         "email": {
-          "title": "メール",
-          "description": "24時間以内に返信いたします"
+          "title": "Email",
+          "description": "We will respond within 24 hours"
         },
         "address": {
-          "title": "住所",
-          "metro": "最寄りの地下鉄駅"
+          "title": "Address",
+          "metro": "Nearest Metro Station"
         }
       }
     },
     "clients": {
-      "label": "当社のクライアント",
-      "title": "大手ブランドや組織から信頼されています",
-      "description": "当社はさまざまなセクターの業界リーダーと提携し、卓越したエンジニアリングソリューションを提供しています。",
-      "testimonialsTitle": "お客様の声"
+      "label": "Our Clients",
+      "title": "Trusted by Leading Brands and Organizations",
+      "description": "We partner with industry leaders across various sectors, delivering exceptional engineering solutions.",
+      "testimonialsTitle": "What Our Clients Say"
     },
     "projects": {
-      "label": "当社のプロジェクト",
-      "title": " успешноに提供されたエンジニアリングソリューション",
-      "featured": "注目",
-      "description": "産業オートメーションおよび電気エンジニアリングにおける当社の専門知識を紹介する、完了したプロジェクトのポートフォリオをご覧ください。",
-      "keyFeatures": "主な機能：",
-      "completed": "完了",
-      "viewDetails": "詳細を見る",
-      "viewAllProjects": "すべてのプロジェクトを見る",
-      "downloadPortfolio": "ポートフォリオをダウンロード",
-      "categories": {
-        "process-automation": "プロセスオートメーション",
-        "solar-solutions": "ソーラーソリューション",
-        "power-systems": "電力システム",
-        "water-systems": "水システム"
-      },
-      "industries": {
-        "beverage-manufacturing": "飲料製造",
-        "renewable-energy": "再生可能エネルギー",
-        "sugar-distillery": "砂糖・蒸留所",
-        "beverage-distillery": "飲料・蒸留所",
-        "steel-manufacturing": "鉄鋼製造",
-        "ev-infrastructure": "EVインフラ",
-        "water-treatment": "水処理"
-      },
-      "status": {
-        "completed": "完了"
-      },
-      "complexity": {
-        "advanced": "高度",
-        "intermediate": "中級"
-      },
-      "items": {
-        "sikkim-spirit-bottling": {
-          "title": "ボトリングプラントの自動化および制御システム",
-          "description": "自動化されたボトリング操作のための高度なHMI、PLC、およびSCADAシステムを備えた完全な計装設備。リアルタイムのプロセス視覚化により、正確な充填、キャッピング、および品質監視を保証する統合制御システム。",
-          "technologies": {
-            "plc-programming": "PLCプログラミング",
-            "scada-systems": "SCADAシステム",
-            "hmi-interface": "HMIインターフェース",
-            "instrumentation": "計装",
-            "process-control": "プロセス制御"
-          },
-          "highlights": {
-            "0": "高度なSCADAの実装",
-            "1": "リアルタイムプロセス監視",
-            "2": "自動化された品質管理",
-            "3": "リモートシステム管理"
-          },
-          "results": {
-            "efficiency": "35％の生産効率の向上",
-            "accuracy": "99.5％の充填精度を達成",
-            "uptime": "98％の稼働時間"
-          }
-        },
-        "hindustan-cocacola-odisha": {
-          "title": "飲料プラントの設置と試運転",
-          "description": "大規模な飲料製造施設向けの電気および計装システムの包括的な設置および試運転。高度なプロセス制御および監視システムを備えた完全な自動化インフラストラクチャを実装。",
-          "technologies": {
-            "installation-commissioning": "設置と試運転",
-            "electrical-systems": "電気システム",
-            "instrumentation": "計装",
-            "control-panels": "制御盤",
-            "automation-networks": "自動化ネットワーク"
-          },
-          "highlights": {
-            "0": "フル設備の試運転",
-            "1": "統合制御システム",
-            "2": "プロセス最適化",
-            "3": "安全システム統合"
-          },
-          "results": {
-            "timeline": "予定通りに完了",
-            "compliance": "100％の安全基準を満たす",
-            "reliability": "99.2％のシステム信頼性"
-          }
-        },
-        "iocl-solar-jasidih": {
-          "title": "太陽光発電所の電気および計装",
-          "description": "太陽光パネルの設置、包括的な接地システム、および高度な監視機器を含む、太陽光発電施設向けの完全な電気および計装セットアップ。リアルタイムのパフォーマンストラッキングを備えたグリッド同期再生可能エネルギーソリューション。",
-          "technologies": {
-            "solar-panel-systems": "ソーラーパネルシステム",
-            "earthing-protection": "接地と保護",
-            "grid-synchronization": "グリッド同期",
-            "electrical-infrastructure": "電気インフラ",
-            "monitoring-systems": "監視システム"
-          },
-          "highlights": {
-            "0": "ソーラーアレイの設置",
-            "1": "高度な接地システム",
-            "2": "グリッド統合",
-            "3": "パフォーマンス監視"
-          },
-          "results": {
-            "capacity": "マルチMWソーラー設置",
-            "safety": "安全事故ゼロ",
-            "efficiency": "最適なエネルギー生成"
-          }
-        },
-        "dalmia-sugar-distillery": {
-          "title": "蒸留所プラントの電気およびプログラミング",
-          "description": "蒸留所運営のための高度なPLCプログラミングと完全な電気・計装ソリューション。最適な生産効率のために、正確な温度、圧力、および流量監視を備えた自動化されたプロセス制御システムを実装。",
-          "technologies": {
-            "plc-programming": "PLCプログラミング",
-            "process-automation": "プロセスオートメーション",
-            "electrical-systems": "電気システム",
-            "instrumentation": "計装",
-            "control-logic": "制御ロジック"
-          },
-          "highlights": {
-            "0": "カスタムPLCプログラミング",
-            "1": "プロセスパラメータ制御",
-            "2": "安全インターロック",
-            "3": "品質監視システム"
-          },
-          "results": {
-            "automation": "90％のプロセス自動化を達成",
-            "consistency": "製品の一貫性の向上",
-            "efficiency": "25％の効率向上"
-          }
-        },
-        "bokaro-spirit-jharkhand": {
-          "title": "蒸留所の電気および計装",
-          "description": "配電、制御システム、およびプロセス計装を含む、蒸留所施設向けの完全な電気および計装パッケージ。安全で効率的な蒸留操作を保証する統合ソリューション。",
-          "technologies": {
-            "electrical-infrastructure": "電気インフラ",
-            "process-instrumentation": "プロセス計装",
-            "control-systems": "制御システム",
-            "power-distribution": "配電",
-            "safety-systems": "安全システム"
-          },
-          "highlights": {
-            "0": "配電設定",
-            "1": "計装の設置",
-            "2": "プロセス制御の統合",
-            "3": "安全コンプライアンス"
-          },
-          "results": {
-            "reliability": "98％のシステム稼働時間",
-            "safety": "強化された安全プロトコル",
-            "operations": "合理化されたオペレーション"
-          }
-        },
-        "vanya-steel-turbine": {
-          "title": "タービンの電気および計装システム",
-          "description": "鉄鋼製造における産業用タービンの運転のための特殊な電気および計装システム。タービン制御システム、監視機器、および電力管理ソリューションの完全な統合。",
-          "technologies": {
-            "turbine-control-systems": "タービン制御システム",
-            "electrical-infrastructure": "電気インフラ",
-            "instrumentation": "計装",
-            "vibration-monitoring": "振動監視",
-            "power-management": "電力管理"
-          },
-          "highlights": {
-            "0": "タービン制御の統合",
-            "1": "振動監視システム",
-            "2": "電力の最適化",
-            "3": "予防メンテナンスの設定"
-          },
-          "results": {
-            "performance": "最適化されたタービン性能",
-            "monitoring": "リアルタイムの状態監視",
-            "efficiency": "発電効率の向上"
-          }
-        },
-        "reliance-ev-charging-meerut": {
-          "title": "EV充電ステーションのインフラストラクチャ",
-          "description": "土木構造、電気パネルの設置、およびEV充電機器の統合を含む、エンドツーエンドのEV充電ステーションのセットアップ。最新の電気自動車充電施設向けの完全なインフラストラクチャソリューション。",
-          "technologies": {
-            "civil-infrastructure": "土木インフラ",
-            "ev-charging-systems": "EV充電システム",
-            "electrical-panels": "電気パネル",
-            "power-distribution": "配電",
-            "smart-metering": "スマートメーター"
-          },
-          "highlights": {
-            "0": "土木構造の建設",
-            "1": "EV充電器の設置",
-            "2": "電気パネルの統合",
-            "3": "スマート充電管理"
-          },
-          "results": {
-            "capacity": "複数車両の充電機能",
-            "efficiency": "急速充電の実装",
-            "compliance": "すべての安全基準を満たす"
-          }
-        },
-        "bk-builder-distillery-bihar": {
-          "title": "蒸留所プラントの電気および計装",
-          "description": "蒸留所プラントの運転のための包括的な電気および計装ソリューション。効率的で安全な生産プロセスを保証する完全な電気インフラストラクチャおよびプロセス計装を実装。",
-          "technologies": {
-            "electrical-systems": "電気システム",
-            "process-instrumentation": "プロセス計装",
-            "control-panels": "制御盤",
-            "distribution-systems": "配電システム",
-            "monitoring-equipment": "監視装置"
-          },
-          "highlights": {
-            "0": "電気インフラストラクチャのセットアップ",
-            "1": "プロセス計装",
-            "2": "制御盤の設置",
-            "3": "安全システム統合"
-          },
-          "results": {
-            "commissioning": "試運転の成功",
-            "safety": "強化された安全対策",
-            "reliability": "高いシステム信頼性"
-          }
-        },
-        "iit-bhubaneswar-stp": {
-          "title": "下水処理プラントの自動化",
-          "description": "完全な電気および計装セットアップを備えた下水処理プラント用の高度なPLCベースの自動化システム。リアルタイムの監視と制御による効率的な廃水処理のためのインテリジェントなプロセス制御を実装。",
-          "technologies": {
-            "plc-systems": "PLCシステム",
-            "electrical-infrastructure": "電気インフラ",
-            "process-instrumentation": "プロセス計装",
-            "scada": "SCADA",
-            "water-quality-monitoring": "水質監視"
-          },
-          "highlights": {
-            "0": "PLCベースの自動化",
-            "1": "プロセス最適化",
-            "2": "水質監視",
-            "3": "リモート管理システム"
-          },
-          "results": {
-            "automation": "完全なプロセス自動化",
-            "efficiency": "処理効率の向上",
-            "monitoring": "24時間365日のシステム監視"
-          }
-        }
-      }
+      "label": "Our Projects",
+      "title": "Successfully Delivered Engineering Solutions",
+      "featured": "Featured",
+      "description": "Explore our portfolio of completed projects, showcasing our expertise in industrial automation and electrical engineering.",
+      "keyFeatures": "Key Features:",
+      "completed": "Completed",
+      "viewDetails": "View Details",
+      "viewAllProjects": "View All Projects",
+      "downloadPortfolio": "Download Portfolio"
     }
   },
-  "backToProducts": "製品に戻る",
+  "backToProducts": "Back to Products",
   "about": {
     "seo": {
-      "title": "Powerton Engineeringについて | 2008年以来のISO認証取得済み産業オートメーションおよび制御盤メーカー",
-      "description": "Powerton Engineering Pvt. Ltd. - 電気制御盤の製造、PLC SCADA DCSシステム、計装、およびプロセスオートメーションにおける15年以上の専門知識を持つISO 9001：2015認証取得済みの産業オートメーション会社。インド全土の製薬、発電所、石油・ガス、化学、製造、および水処理産業にサービスを提供する主要なオートメーションシステムインテグレーター。1200以上のプロジェクトを成功させた、受賞歴のあるエンジニアリングソリューションプロバイダー。Siemens、Allen Bradley、Schneider、Honeywell、ABBオートメーションテクノロジーのエキスパートチーム。ノイダに本社を置き、インド全土でサービスを提供しています。",
-      "keywords": "powerton engineeringについて、ISO認証取得済みのオートメーション会社、インドの電気制御盤メーカー、ノイダの産業オートメーション会社、2008年以来の制御盤ビルダー、インドのオートメーションソリューションプロバイダー、デリーNCRの電気エンジニアリング会社、インドの計装会社、プロセスオートメーションスペシャリスト、オートメーションシステムインテグレーター、PLC SCADA DCSエキスパート、制御システム統合会社、受賞歴のあるオートメーション会社、インドの製造オートメーション、ファクトリーオートメーションプロバイダー、製薬オートメーション会社、発電所オートメーションスペシャリスト、石油およびガスオートメーションエキスパート、化学プラントオートメーション、水処理オートメーション、インドの制御盤製造、ULリストされたパネルメーカー、NEMA定格制御盤、IEC準拠オートメーションシステム、認定制御盤ショップ、インドの産業電気請負業者、オートメーションエンジニアリングサービス、産業用IoTソリューションプロバイダー、インダストリー4.0の実装、スマート製造ソリューション、予測メンテナンスサービス、SCADAシステムインテグレーター、DCSエンジニアリング会社、HMI開発サービス、VFDパネルメーカー、モーターコントロールセンターMCCサプライヤー、オートメーションコンサルティング会社、電気設計サービス、ターンキーオートメーションプロジェクト、オートメーショントレーニングインスティテュート、経験豊富なオートメーションエンジニア、インドの産業オートメーションの専門知識、制御盤の設計構築、オートメーションプロジェクト管理、インドのエンジニアリングサービス会社"
+      "title": "About Powerton Engineering | ISO Certified Industrial Automation & Control Panel Manufacturer Since 2008",
+      "description": "Powerton Engineering Pvt. Ltd. - ISO 9001:2015 certified industrial automation company with 15+ years expertise in electrical control panel manufacturing, PLC SCADA DCS systems, instrumentation, and process automation. Premier automation systems integrator serving pharmaceutical, power plant, oil & gas, chemical, manufacturing, and water treatment industries across India. Award-winning engineering solutions provider with 1200+ successful projects. Expert team in Siemens, Allen Bradley, Schneider, Honeywell, ABB automation technologies. Headquartered in Noida with pan-India service coverage.",
+      "keywords": "about powerton engineering, ISO certified automation company, electrical control panel manufacturer India, industrial automation company Noida, control panel builders since 2008, automation solutions provider India, electrical engineering company Delhi NCR, instrumentation company India, process automation specialists, automation systems integrator, PLC SCADA DCS experts, control system integration company, award winning automation company, manufacturing automation India, factory automation provider, pharmaceutical automation company, power plant automation specialists, oil and gas automation experts, chemical plant automation, water treatment automation, control panel fabrication India, UL listed panel manufacturer, NEMA rated control panels, IEC compliant automation systems, certified control panel shop, industrial electrical contractor India, automation engineering services, industrial IoT solutions provider, Industry 4.0 implementation, smart manufacturing solutions, predictive maintenance services, SCADA system integrators, DCS engineering company, HMI development services, VFD panel manufacturers, motor control center MCC suppliers, automation consulting firm, electrical design services, turnkey automation projects, automation training institute, experienced automation engineers, industrial automation expertise India, control panel design build, automation project management, engineering services company India"
+    },
+    "seo_old": {
+      "title": "About Powerton Engineering - 15+ Years of Industrial Automation Excellence",
+      "description": "Learn about Powerton Engineering's journey in industrial automation, electrical engineering, and instrumentation solutions. Expert team serving industries across India since 2008.",
+      "keywords": "About Powerton Engineering, Industrial Automation Company, Electrical Engineering Company, Instrumentation Services, China Automation Experts"
     },
     "hero": {
-      "title": "2008年以来のエンジニアリングの卓越性",
-      "subtitle": "産業オートメーションおよび電気エンジニアリングソリューションにおける信頼できるパートナー"
+      "title": "Engineering Excellence Since 2008",
+      "subtitle": "Your Trusted Partner in Industrial Automation and Electrical Engineering Solutions"
     },
     "story": {
-      "title": "私たちの旅とビジョン",
-      "description1": "イノベーションと卓越性を通じて業界を強化するというビジョンを持って2008年に設立されたPowerton Engineeringは、産業オートメーションおよび電気エンジニアリングソリューションの最前線に立ってきました。私たちの旅は、産業の成長と運用効率を促進する最先端のエンジニアリングソリューションを提供するという、シンプルでありながら強力なミッションから始まりました。",
-      "description2": "長年にわたり、私たちは小さなエンジニアリング会社から、中国および世界中の業界にとって信頼できるパートナーに成長しました。当社の経験豊富なエンジニアと技術専門家のチームは、お客様の期待に応えるだけでなく、それを上回るソリューションを提供するためにたゆまぬ努力を続けています。"
+      "title": "Our Journey and Vision",
+      "description1": "Founded in 2008 with a vision to empower industries through innovation and excellence, Powerton Engineering has been at the forefront of industrial automation and electrical engineering solutions. Our journey began with a simple yet powerful mission: to deliver cutting-edge engineering solutions that drive industrial growth and operational efficiency.",
+      "description2": "Over the years, we have grown from a small engineering firm to a trusted partner for industries across China and globally. Our team of experienced engineers and technical experts work tirelessly to deliver solutions that not only meet but exceed our clients' expectations."
     },
     "mission": {
-      "title": "私たちのミッション",
-      "description": "お客様が卓越した運用を実現し、産業の成長を促進できるように、革新的で信頼性が高く、持続可能なエンジニアリングソリューションを提供すること。"
+      "title": "Our Mission",
+      "description": "To provide innovative, reliable, and sustainable engineering solutions that enable our clients to achieve operational excellence and drive industrial growth."
     },
     "vision": {
-      "title": "私たちのビジョン",
-      "description": "技術的な専門知識、品質、およびお客様の成功への取り組みで認められる、産業オートメーションおよび電気エンジニアリングソリューションの大手プロバイダーになること。"
+      "title": "Our Vision",
+      "description": "To be the leading provider of industrial automation and electrical engineering solutions, recognized for our technical expertise, quality, and commitment to client success."
     },
     "coreValues": {
-      "title": "私たちのコアバリュー",
-      "subtitle": "私たちが行うすべてのことを導く原則"
+      "title": "Our Core Values",
+      "subtitle": "Principles that guide everything we do"
     },
     "values": {
       "quality": {
-        "title": "品質の卓越性",
-        "description": "私たちは、提供するすべてのプロジェクトで最高の基準を維持します"
+        "title": "Quality Excellence",
+        "description": "We uphold the highest standards in every project we deliver"
       },
       "customer": {
-        "title": "顧客中心主義",
-        "description": "お客様の成功は私たちの優先事項です - 私たちは永続的なパートナーシップを築きます"
+        "title": "Customer Centricity",
+        "description": "Your success is our priority - we build lasting partnerships"
       },
       "innovation": {
-        "title": "イノベーションと卓越性",
-        "description": "最新の業界技術を使用した最先端のソリューション"
+        "title": "Innovation & Excellence",
+        "description": "Cutting-edge solutions using the latest industry technologies"
       },
       "reliability": {
-        "title": "信頼性と信頼",
-        "description": "重要な運用に信頼できる信頼性の高いソリューション"
+        "title": "Reliability & Trust",
+        "description": "Dependable solutions you can trust for critical operations"
       }
     },
     "stats": {
-      "engineers": "エンジニア",
-      "staff": "サポートスタッフ",
-      "experience": "長年の経験",
-      "support": "サポート"
+      "engineers": "Engineers",
+      "staff": "Support Staff",
+      "experience": "Years Experience",
+      "support": "Support"
     },
     "certifications": {
-      "title": "認証と規格",
-      "subtitle": "品質への当社の取り組みは、業界で認められた認証およびコンプライアンス規格を通じて検証されています。",
+      "title": "Certifications & Standards",
+      "subtitle": "Our commitment to quality is validated through industry-recognized certifications and compliance standards.",
       "iso9001": "ISO 9001",
       "iso14001": "ISO 14001",
       "ohsas18001": "ISO 45001",
-      "ceMarking": "CEマーキング",
-      "ulListed": "ULリスト",
-      "cpriApproved": "CPRI承認済み"
+      "ceMarking": "CE Marking",
+      "ulListed": "UL Listed",
+      "cpriApproved": "CPRI Approved"
     },
     "licenses": {
-      "title": "政府Aクラス請負業者証明書",
-      "subtitle": "州政府からの認可されたAクラス電気請負業者のライセンス。",
-      "upAClass": "ウッタルプラデーシュ州政府 - Aクラス電気請負業者ライセンス",
-      "gjAClass": "グジャラート州政府 - Aクラス電気請負業者ライセンス",
-      "AClassBadge": "Aクラス請負業者",
-      "viewLicense": "証明書を見る"
+      "title": "Government A Class Contractor Certificates",
+      "subtitle": "Authorized A-class electrical contractor licenses from state governments.",
+      "upAClass": "Uttar Pradesh Government - A Class Electrical Contractor License",
+      "gjAClass": "Gujarat Government - A Class Electrical Contractor License",
+      "AClassBadge": "A-Class Contractor",
+      "viewLicense": "View Certificate"
     },
     "achievements": {
       "2022": {
         "year": "2022",
         "awards": {
-          "0": "エンジニアリングエクセレンス賞 - インド商工会議所連盟",
-          "1": "持続可能な技術賞 - グリーンビジネス評議会",
-          "2": "品質エクセレンス認定 - インド規格局"
+          "0": "Engineering Excellence Award - Federation of Indian Chambers",
+          "1": "Sustainable Technology Award - Green Business Council",
+          "2": "Quality Excellence Recognition - Bureau of Indian Standards"
         }
       },
       "2023": {
         "year": "2023",
         "awards": {
-          "0": "優れたエンジニアリングソリューション - CII製造エクセレンス",
-          "1": "安全エクセレンス賞 - 国家安全評議会",
-          "2": "技術革新賞 - エンジニアリング輸出促進評議会",
-          "3": "オートメーションセクターにおける最高のSME - MSME省"
+          "0": "Outstanding Engineering Solution - CII Manufacturing Excellence",
+          "1": "Safety Excellence Award - National Safety Council",
+          "2": "Technology Innovation Award - Engineering Export Promotion Council",
+          "3": "Best SME in Automation Sector - MSME Ministry"
         }
       },
       "2024": {
         "year": "2024",
         "awards": {
-          "0": "産業オートメーションにおける卓越性賞 - インド工学協会",
-          "1": "プロセス制御における最高のイノベーション - オートメーションインド賞",
-          "2": "ISO 9001:2015品質管理認証",
-          "3": "トップ100のエンジニアリング会社 - India Today"
+          "0": "Excellence in Industrial Automation Award - Indian Engineering Society",
+          "1": "Best Innovation in Process Control - Automation India Awards",
+          "2": "ISO 9001:2015 Quality Management Certification",
+          "3": "Top 100 Engineering Companies - India Today"
         }
       },
-      "title": "賞と実績",
-      "subtitle": "産業オートメーションにおける卓越性、イノベーション、および品質への取り組みの認識。"
+      "title": "Awards & Achievements",
+      "subtitle": "Recognition of our commitment to excellence, innovation, and quality in industrial automation."
     },
     "futureGoals": {
-      "title": "将来の目標とビジョン",
-      "subtitle": "インドを代表する産業オートメーションソリューションプロバイダーになるための戦略的ロードマップ。",
+      "title": "Future Goals & Vision",
+      "subtitle": "Our strategic roadmap towards becoming India's leading industrial automation solutions provider.",
       "marketLeadership": {
-        "goal": "マーケットリーダーシップ",
-        "description": "2026年までに北インドで主要なオートメーションソリューションプロバイダーになる"
+        "goal": "Market Leadership",
+        "description": "Become the leading automation solutions provider in North India by 2026"
       },
       "technologyInnovation": {
-        "goal": "技術革新",
-        "description": "Industry 4.0向けの5つの新しいAI搭載オートメーションソリューションを発表"
+        "goal": "Technology Innovation",
+        "description": "Launch 5 new AI-powered automation solutions for Industry 4.0"
       },
       "geographicExpansion": {
-        "goal": "地理的拡大",
-        "description": "インド全土の3つの新しい州で事業を開始する"
+        "goal": "Geographic Expansion",
+        "description": "Establish operations in 3 new states across India"
       },
       "teamGrowth": {
-        "goal": "チームの成長",
-        "description": "エンジニアリングチームを200人以上の専門家に拡大する"
+        "goal": "Team Growth",
+        "description": "Expand our engineering team to 200+ professionals"
       },
       "revenueMilestone": {
-        "goal": "収益のマイルストーン",
-        "description": "年間収益100クローレのマイルストーンを達成する"
+        "goal": "Revenue Milestone",
+        "description": "Achieve ₹100 Crores annual revenue milestone"
       },
       "sustainabilityFocus": {
-        "goal": "持続可能性への注力",
-        "description": "カーボンニュートラルな運用とグリーンテクノロジーソリューションを実装する"
+        "goal": "Sustainability Focus",
+        "description": "Implement carbon-neutral operations and green technology solutions"
       }
     },
     "cta": {
-      "title": "プロジェクトを開始する準備はできましたか？",
-      "description": "当社の専門家チームが、お客様の産業オートメーションおよび電気エンジニアリングプロジェクトの実現を支援します。",
-      "startProject": "今日からプロジェクトを開始する",
-      "exploreServices": "当社のサービスを探る"
+      "title": "Ready to Start Your Project?",
+      "description": "Our expert team is ready to help you bring your industrial automation and electrical engineering projects to life.",
+      "startProject": "Start Your Project Today",
+      "exploreServices": "Explore Our Services"
     }
   },
   "projects": {
     "seo": {
-      "title": "産業オートメーションプロジェクトポートフォリオ | 制御盤のケーススタディ | PLC SCADAの実装 | Powerton Engineering",
-      "description": "インド全土で1200以上の成功した産業オートメーションプロジェクトを探ります - 製薬プラントの自動化、発電所制御システム、蒸留所自動化、ソーラーEPCプロジェクト、水処理SCADA、飲料製造自動化、EV充電インフラストラクチャ。IOCL、Dalmia、コカ・コーラ、Reliance、IIT Bhubaneswarなどの大手企業向けのPLCプログラミング、SCADAシステム統合、DCS実装、電気制御盤設置を特徴とする実際のケーススタディ。プロセスオートメーション、計装、およびターンキー産業プロジェクトにおける実績のある専門知識。",
-      "keywords": "インドの産業オートメーションプロジェクト、制御盤設置プロジェクト、PLC SCADAプロジェクトのケーススタディ、製薬自動化プロジェクト、発電所自動化ケーススタディ、蒸留所自動化プロジェクト、インドのソーラーEPCプロジェクト、水処理SCADAプロジェクト、飲料プラント自動化、製造自動化プロジェクト、プロセスオートメーションケーススタディ、電気制御盤プロジェクト、インドの計装プロジェクト、自動化プロジェクトポートフォリオ、産業用IoTの実装、工場自動化プロジェクト、自動化システム統合プロジェクト、制御システム近代化、プラント自動化ケーススタディ、SCADA移行プロジェクト、DCS実装プロジェクト、HMI開発プロジェクト、VFDパネル設置、モーター制御センタープロジェクト、ターンキー自動化プロジェクト、インドの電気エンジニアリングプロジェクト、プロセス制御プロジェクト、産業用電気プロジェクト、自動化レトロフィットプロジェクト、制御盤製造プロジェクト、エンジニアリングプロジェクト管理、自動化コンサルティングプロジェクト、産業プロジェクトの実行、自動化試運転プロジェクト、制御システムアップグレード、プラント近代化プロジェクト、自動化トレーニングプロジェクト、成功した自動化の実装、産業オートメーションの参考文献、制御盤メーカーのポートフォリオ、自動化会社のケーススタディ、エンジニアリングソリューションプロジェクト"
+      "title": "Industrial Automation Projects Portfolio | Control Panel Case Studies | PLC SCADA Implementation | Powerton Engineering",
+      "description": "Explore 1200+ successful industrial automation projects across India - pharmaceutical plant automation, power plant control systems, distillery automation, solar EPC projects, water treatment SCADA, beverage manufacturing automation, and EV charging infrastructure. Real case studies featuring PLC programming, SCADA system integration, DCS implementation, and electrical control panel installations for leading companies like IOCL, Dalmia, Coca-Cola, Reliance, IIT Bhubaneswar. Proven expertise in process automation, instrumentation, and turnkey industrial projects.",
+      "keywords": "industrial automation projects India, control panel installation projects, PLC SCADA project case studies, pharmaceutical automation projects, power plant automation case studies, distillery automation projects, solar EPC projects India, water treatment SCADA projects, beverage plant automation, manufacturing automation projects, process automation case studies, electrical control panel projects, instrumentation projects India, automation project portfolio, industrial IoT implementation, factory automation projects, automation system integration projects, control system modernization, plant automation case studies, SCADA migration projects, DCS implementation projects, HMI development projects, VFD panel installation, motor control center projects, turnkey automation projects, electrical engineering projects India, process control projects, industrial electrical projects, automation retrofitting projects, control panel fabrication projects, engineering project management, automation consulting projects, industrial project execution, automation commissioning projects, control system upgrades, plant modernization projects, automation training projects, successful automation implementations, industrial automation references, control panel manufacturer portfolio, automation company case studies, engineering solutions projects"
     },
-    "portfolioDescription": "さまざまな業界にわたる革新的なソリューションを紹介するデモンストレーションプロジェクトを通じて、当社のエンジニアリング能力を探ります。真のプロジェクトポートフォリオは近日公開予定です。",
-    "featured": "注目",
-    "keyFeatures": "主な機能：",
-    "moreItems": "+{{count}} その他",
+    "portfolioDescription": "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across industries. A true project portfolio is coming soon.",
+    "featured": "Featured",
+    "keyFeatures": "Key Features:",
+    "moreItems": "+{{count}} More",
     "cta": {
-      "title": "次のプロジェクトを開始する準備はできましたか？",
-      "description": "当社の経験豊富なエンジニアが、お客様の産業オートメーションおよび電気エンジニアリングのニーズに合わせてカスタムソリューションを設計できます。",
-      "getProjectQuote": "プロジェクトの見積もりを取得",
-      "contactTeam": "チームに連絡"
+      "title": "Ready to Start Your Next Project?",
+      "description": "Our experienced engineers can design custom solutions for your industrial automation and electrical engineering needs.",
+      "getProjectQuote": "Get Project Quote",
+      "contactTeam": "Contact Team"
     },
-    "showing": "{{total}}件中{{count}}件のプロジェクトを表示",
+    "showing": "Showing {{count}} projects of {{total}}",
     "filters": {
       "industries": {
-        "all": "すべて",
-        "beverageManufacturing": "飲料製造",
-        "beverageDistillery": "飲料/蒸留所",
-        "sugarDistillery": "砂糖および蒸留所",
-        "renewableEnergy": "再生可能エネルギー",
-        "evInfrastructure": "EVインフラストラクチャ",
-        "steelManufacturing": "鉄鋼製造",
-        "waterTreatment": "水処理"
+        "all": "All",
+        "beverageManufacturing": "Beverage Manufacturing",
+        "beverageDistillery": "Beverage/Distillery",
+        "sugarDistillery": "Sugar & Distillery",
+        "renewableEnergy": "Renewable Energy",
+        "evInfrastructure": "EV Infrastructure",
+        "steelManufacturing": "Steel Manufacturing",
+        "waterTreatment": "Water Treatment"
       },
       "categories": {
-        "all": "すべて",
-        "processAutomation": "プロセスオートメーション",
-        "powerSystems": "電力システム",
-        "solarSolutions": "ソーラーソリューション",
-        "waterSystems": "水システム"
+        "all": "All",
+        "processAutomation": "Process Automation",
+        "powerSystems": "Power Systems",
+        "solarSolutions": "Solar Solutions",
+        "waterSystems": "Water Systems"
       },
       "statuses": {
-        "all": "すべて",
-        "completed": "完了"
+        "all": "All",
+        "completed": "Completed"
       }
     },
     "items": {
       "sikkim-spirit-bottling": {
-        "title": "ボトリングプラントの自動化および制御システム",
+        "title": "Bottling Plant Automation & Control System",
         "client": "Sikkim Spirit Pvt. Ltd.",
-        "description": "自動化されたボトリング操作のための高度なHMI、PLC、およびSCADAシステムを備えた完全な計装設備",
-        "location": "シッキム"
+        "description": "Complete instrumentation installation with advanced HMI, PLC, and SCADA systems for automated bottling operations",
+        "location": "Sikkim"
       },
       "hindustan-cocacola-odisha": {
-        "title": "飲料プラントの設置と試運転",
+        "title": "Beverage Plant Installation & Commissioning",
         "client": "Hindustan Coca-Cola Beverage Pvt. Ltd.",
-        "description": "大規模な飲料製造施設向けの電気および計装システムの包括的な設置および試運転",
-        "location": "オリッサ"
+        "description": "Comprehensive installation and commissioning of electrical and instrumentation systems for large-scale beverage manufacturing facility",
+        "location": "Odisha"
       },
       "iocl-solar-jasidih": {
-        "title": "太陽光発電所の電気および計装",
+        "title": "Solar Power Plant Electrical & Instrumentation",
         "client": "Indian Oil Corporation Limited (IOCL)",
-        "description": "太陽光パネルの設置および接地システムを含む、太陽光発電施設向けの完全な電気および計装設定",
-        "location": "ジャシディ、ジャールカンド"
+        "description": "Complete electrical and instrumentation setup for solar power generation facility including solar panel installation and earthing systems",
+        "location": "Jasidih, Jharkhand"
       },
       "dalmia-sugar-distillery": {
-        "title": "蒸留所プラントの自動化とプログラミング",
+        "title": "Distillery Plant Electrical & Programming",
         "client": "Dalmia Sugar & Distillery",
-        "description": "蒸留所運営のための高度なPLCプログラミングと完全な電気および計装ソリューション",
-        "location": "ハルドイ、ウッタルプラデーシュ"
+        "description": "Advanced PLC programming and complete electrical & instrumentation solution for distillery operations",
+        "location": "Hardoi, Uttar Pradesh"
       },
       "bokaro-spirit-jharkhand": {
-        "title": "蒸留所の電気および計装",
+        "title": "Distillery Electrical & Instrumentation",
         "client": "Bokaro Spirit",
-        "description": "配電および制御システムを含む、蒸留所施設向けの完全な電気および計装パッケージ",
-        "location": "ジャールカンド"
+        "description": "Complete electrical and instrumentation package for distillery facility including power distribution and control systems",
+        "location": "Jharkhand"
       },
       "vanya-steel-turbine": {
-        "title": "タービンの電気および計装システム",
+        "title": "Turbine Electrical & Instrumentation Systems",
         "client": "Vanya Steel Pvt. Ltd.",
-        "description": "鉄鋼製造における産業用タービンの運転のための特殊な電気および計装システム",
-        "location": "コッパル、カルナタカ"
+        "description": "Specialized electrical and instrumentation systems for industrial turbine operations in steel manufacturing",
+        "location": "Koppal, Karnataka"
       },
       "reliance-ev-charging-meerut": {
-        "title": "EV充電ステーションのインフラストラクチャ",
+        "title": "EV Charging Station Infrastructure",
         "client": "Reliance Industries Limited",
-        "description": "土木構造、電気パネルの設置、およびEV充電機器の統合を含む、エンドツーエンドのEV充電ステーションのセットアップ",
-        "location": "メールト、ウッタルプラデーシュ"
+        "description": "End-to-end EV charging station setup including civil structure, electrical panel installation, and EV charging equipment integration",
+        "location": "Meerut, Uttar Pradesh"
       },
       "bk-builder-distillery-bihar": {
-        "title": "蒸留所プラントの電気および計装",
+        "title": "Distillery Plant Electrical & Instrumentation",
         "client": "B.K. Builder",
-        "description": "蒸留所プラントの運転のための包括的な電気および計装ソリューション",
-        "location": "モカマ、パトナ、ビハール"
+        "description": "Comprehensive electrical and instrumentation solution for distillery plant operations",
+        "location": "Mokama, Patna, Bihar"
       },
       "iit-bhubaneswar-stp": {
-        "title": "下水処理プラントの自動化",
+        "title": "Sewage Treatment Plant Automation",
         "client": "IIT Bhubaneswar",
-        "description": "完全な電気および計装セットアップを備えた下水処理プラント用の高度なPLCベースの自動化システム",
-        "location": "ブバネーシュワル、オリッサ"
+        "description": "Advanced PLC-based automation system for sewage treatment plant with complete electrical and instrumentation setup",
+        "location": "Bhubaneswar, Odisha"
       }
     },
     "technologies": {
-      "mccpanels": "MCCパネル",
-      "protectionsystems": "保護システム",
-      "energymanagement": "エネルギー管理",
-      "remotemonitoring": "リモート監視",
-      "solarinverters": "ソーラーインバーター",
-      "gridsync": "グリッド同期",
-      "weathermonitoring": "気象監視",
-      "dataanalytics": "データ分析",
-      "processcontrol": "プロセス制御",
-      "safetysystems": "安全システム",
-      "plcprogramming": "PLCプログラミング",
-      "scadasystems": "SCADAシステム",
+      "mccpanels": "MCC Panels",
+      "protectionsystems": "Protection Systems",
+      "energymanagement": "Energy Management",
+      "remotemonitoring": "Remote Monitoring",
+      "solarinverters": "Solar Inverters",
+      "gridsync": "Grid Sync",
+      "weathermonitoring": "Weather Monitoring",
+      "dataanalytics": "Data Analytics",
+      "processcontrol": "Process Control",
+      "safetysystems": "Safety Systems",
+      "plcprogramming": "PLC Programming",
+      "scadasystems": "SCADA Systems",
       "scada": "SCADA",
       "hmi": "HMI",
-      "hmiinterface": "HMIインターフェース",
-      "industrialiot": "産業用IoT",
-      "environmentalmonitoring": "環境モニタリング",
-      "predictiveanalytics": "予測分析",
-      "edgecomputing": "エッジコンピューティング",
-      "instrumentation": "計装",
-      "installation&commissioning": "設置と試運転",
-      "electricalsystems": "電気システム",
-      "controlpanels": "制御パネル",
-      "automationnetworks": "自動化ネットワーク",
-      "solarpanelsystems": "ソーラーパネルシステム",
-      "earthing&protection": "接地と保護",
-      "gridsynchronization": "グリッド同期",
-      "electricalinfrastructure": "電気インフラストラクチャ",
-      "monitoringsystems": "監視システム",
-      "processautomation": "プロセスオートメーション",
-      "controllogic": "制御ロジック",
-      "powerdistribution": "配電",
-      "turbinecontrolsystems": "タービン制御システム",
-      "vibrationmonitoring": "振動監視",
-      "powermanagement": "電力管理",
-      "civilinfrastructure": "土木インフラストラクチャ",
-      "evchargingsystems": "EV充電システム",
-      "electricalpanels": "電気パネル",
-      "smartmetering": "スマートメーター",
-      "processinstrumentation": "プロセス計装",
-      "controlsystems": "制御システム",
-      "distributionsystems": "配電システム",
-      "monitoringequipment": "監視装置",
-      "plcsystems": "PLCシステム",
-      "waterqualitymonitoring": "水質モニタリング"
+      "hmiinterface": "HMI Interface",
+      "industrialiot": "Industrial IoT",
+      "environmentalmonitoring": "Environmental Monitoring",
+      "predictiveanalytics": "Predictive Analytics",
+      "edgecomputing": "Edge Computing",
+      "instrumentation": "Instrumentation",
+      "installation&commissioning": "Installation & Commissioning",
+      "electricalsystems": "Electrical Systems",
+      "controlpanels": "Control Panels",
+      "automationnetworks": "Automation Networks",
+      "solarpanelsystems": "Solar Panel Systems",
+      "earthing&protection": "Earthing & Protection",
+      "gridsynchronization": "Grid Synchronization",
+      "electricalinfrastructure": "Electrical Infrastructure",
+      "monitoringsystems": "Monitoring Systems",
+      "processautomation": "Process Automation",
+      "controllogic": "Control Logic",
+      "powerdistribution": "Power Distribution",
+      "turbinecontrolsystems": "Turbine Control Systems",
+      "vibrationmonitoring": "Vibration Monitoring",
+      "powermanagement": "Power Management",
+      "civilinfrastructure": "Civil Infrastructure",
+      "evchargingsystems": "EV Charging Systems",
+      "electricalpanels": "Electrical Panels",
+      "smartmetering": "Smart Metering",
+      "processinstrumentation": "Process Instrumentation",
+      "controlsystems": "Control Systems",
+      "distributionsystems": "Distribution Systems",
+      "monitoringequipment": "Monitoring Equipment",
+      "plcsystems": "PLC Systems",
+      "waterqualitymonitoring": "Water Quality Monitoring"
     },
-    "technologiesUsed": "使用されるテクノロジー",
-    "completedDate": "完了日",
+    "technologiesUsed": "Technologies Used",
+    "completedDate": "Completed",
     "tabs": {
-      "portfolio": "プロジェクトポートフォリオ",
-      "showcase": "注目のプロジェクト"
+      "portfolio": "Project Portfolio",
+      "showcase": "Featured Projects"
     },
     "hero": {
-      "title": "当社のプロジェクト",
-      "subtitle": "さまざまな業界にわたる1200以上の成功したプロジェクトを通じて、当社のエンジニアリングの卓越性を探り、イノベーション、品質、信頼性を紹介します。"
+      "title": "Our Projects",
+      "subtitle": "Explore our engineering excellence through 1200+ successful projects across various industries, showcasing innovation, quality, and reliability."
     },
-    "statuses": {
-      "capabilitydemo": "能力デモ",
-      "inprogress": "進行中",
-      "completed": "完了",
-      "planning": "計画段階",
-      "contractsigned": "契約締結",
-      "engineeringphase": "エンジニアリング段階"
+    "status": {
+      "capabilitydemo": "Capability Demo",
+      "inprogress": "In Progress",
+      "completed": "Completed",
+      "planning": "Planning Phase",
+      "contractsigned": "Contract Signed",
+      "engineeringphase": "Engineering Phase"
     },
     "categories": {
-      "processautomation": "プロセスオートメーション",
-      "powersystems": "電力システム",
-      "solarsolutions": "ソーラーソリューション",
-      "manufacturing": "製造",
-      "watertreatment": "水処理",
-      "watersystems": "水システム",
-      "powerplant": "発電所"
+      "processautomation": "Process Automation",
+      "powersystems": "Power Systems",
+      "solarsolutions": "Solar Solutions",
+      "manufacturing": "Manufacturing",
+      "watertreatment": "Water Treatment",
+      "watersystems": "Water Systems",
+      "powerplant": "Power Plant",
+      "process-automation": "Process Automation",
+      "solar-solutions": "Solar Solutions",
+      "power-systems": "Power Systems",
+      "water-systems": "Water Systems"
+    },
+    "industries": {
+      "beverage-manufacturing": "Beverage Manufacturing",
+      "renewable-energy": "Renewable Energy",
+      "sugar-distillery": "Sugar & Distillery",
+      "beverage-distillery": "Beverage/Distillery",
+      "steel-manufacturing": "Steel Manufacturing",
+      "ev-infrastructure": "EV Infrastructure",
+      "water-treatment": "Water Treatment"
     },
     "highlights": {
-      "plcintegration": "PLC統合",
-      "scadasystems": "SCADAシステム",
-      "realtimemonitoring": "リアルタイム監視",
-      "processoptimization": "プロセス最適化",
-      "loadbalancing": "負荷分散",
-      "protectionsystems": "保護システム",
-      "energymanagement": "エネルギー管理",
-      "remotecontrol": "リモートコントロール",
-      "advancedscadaimplementation": "高度なSCADAの実装",
-      "real-timeprocessmonitoring": "リアルタイムプロセス監視",
-      "automatedqualitycontrol": "自動化された品質管理",
-      "remotesystemmanagement": "リモートシステム管理",
-      "fullfacilitycommissioning": "完全な施設試運転",
-      "integratedcontrolsystems": "統合制御システム",
-      "safetysystemintegration": "安全システム統合"
+      "plcintegration": "PLC Integration",
+      "scadasystems": "SCADA Systems",
+      "realtimemonitoring": "Real-Time Monitoring",
+      "processoptimization": "Process Optimization",
+      "loadbalancing": "Load Balancing",
+      "protectionsystems": "Protection Systems",
+      "energymanagement": "Energy Management",
+      "remotecontrol": "Remote Control",
+      "advancedscadaimplementation": "Advanced SCADA Implementation",
+      "real-timeprocessmonitoring": "Real-Time Process Monitoring",
+      "automatedqualitycontrol": "Automated Quality Control",
+      "remotesystemmanagement": "Remote System Management",
+      "fullfacilitycommissioning": "Full Facility Commissioning",
+      "integratedcontrolsystems": "Integrated Control Systems",
+      "safetysystemintegration": "Safety System Integration"
+    }
+  },
+  "products": {
+    "seo": {
+      "title": "Industrial Products and Automation Equipment - Powerton Engineering",
+      "description": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.",
+      "keywords": "industrial products, automation equipment, electrical components, instrumentation products, solar panels, industrial pumps, measurement instruments, safety equipment"
+    },
+    "sections": {
+      "industrialProducts": "Industrial Products Categories",
+      "hmiSolutions": "HMI Solutions",
+      "heatingSolutions": "Heating Solutions",
+      "handToolCategories": "Hand Tool Categories",
+      "diaphragmPumpTypes": "Diaphragm Pump Types",
+      "calibrationSolutions": "Calibration Solutions"
+    },
+    "cta": {
+      "needExpertSolutions": "Need Expert Industrial Solutions?",
+      "expertDescription": "Our technical experts are ready to assist you in selecting the perfect industrial products and engineering solutions for your automation and electrical needs.",
+      "needHmiSolutions": "Need HMI Solutions?",
+      "hmiDescription": "Our HMI experts can design intuitive operator interfaces for your automation systems.",
+      "contactHmiExperts": "Contact HMI Experts",
+      "requestQuote": "Request a Quote",
+      "needHeatingolutions": "Need Industrial Heating Solutions?",
+      "heatingDescription": "Our heating experts can design custom heating systems for your industrial processes.",
+      "contactHeatingExperts": "Contact Heating Experts",
+      "needDiaphragmPumps": "Need Diaphragm Pump Solutions?",
+      "diaphragmDescription": "Our pump engineers can help you select the right diaphragm pump for your chemical handling needs.",
+      "contactPumpExperts": "Contact Pump Experts",
+      "needCalibration": "Need Calibration Services?",
+      "calibrationDescription": "Our calibration experts ensure your instruments meet the highest standards of accuracy.",
+      "contactCalibrationExperts": "Contact Calibration Experts"
+    },
+    "badges": {
+      "handTools": "Hand Tools",
+      "powerTools": "Power Tools",
+      "liftingEquipment": "Lifting Equipment",
+      "safetyGear": "Safety Gear",
+      "touchscreen": "Touchscreen",
+      "industrialGrade": "Industrial Grade",
+      "realTimeDisplay": "Real-Time Display",
+      "multiProtocol": "Multi-Protocol",
+      "heatingElements": "Heating Elements",
+      "industrialOvens": "Industrial Ovens",
+      "heatTracing": "Heat Tracing",
+      "temperatureControl": "Temperature Control",
+      "precisionTools": "Precision Tools",
+      "durableConstruction": "Durable Construction",
+      "ergonomicDesign": "Ergonomic Design",
+      "professionalGrade": "Professional Grade"
+    }
+  },
+  "services": {
+    "relatedServices": {
+      "description": "Explore our other professional services that complement"
+    },
+    "seo": {
+      "title": "Industrial Engineering Services - Automation, Installation & Maintenance | Powerton Engineering",
+      "description": "Comprehensive engineering services including industrial automation, PLC programming, SCADA implementation, electrical panel installation, commissioning, calibration, maintenance, technical support, and solar EPC solutions. Serving manufacturing, power, oil & gas, and process industries across India with 15+ years expertise.",
+      "keywords": "industrial automation services, PLC programming services, SCADA implementation, HMI development, DCS installation, electrical panel installation, control panel commissioning, instrumentation calibration, preventive maintenance, technical support services, automation consulting, custom automation solutions, solar EPC contractor, electrical engineering services, process automation services, factory automation, building management systems, energy management services, automation system integration, control system installation, industrial electrical contractor, automation maintenance services, 24/7 technical support, emergency breakdown services, automation training, engineering consultation india"
+    },
+    "hero": {
+      "title": "Professional Engineering Services",
+      "subtitle": "Comprehensive industrial automation, electrical engineering, and instrumentation solutions designed to optimize your operations and drive business success."
+    },
+    "whyChoose": {
+      "title": "Why Choose Powerton Engineering?",
+      "description": "Our team of certified professionals delivers exceptional engineering solutions tailored to your specific needs."
+    },
+    "benefits": {
+      "expertTeam": {
+        "title": "Expert Team",
+        "description": "Certified professionals with extensive industry experience"
+      },
+      "rapidResponse": {
+        "title": "Rapid Response",
+        "description": "Average 2-hour response time for all support requests"
+      },
+      "qualityAssured": {
+        "title": "Quality Assured",
+        "description": "ISO-certified processes and guaranteed quality standards"
+      },
+      "clientFocused": {
+        "title": "Client-Focused",
+        "description": "Solutions tailored to your specific requirements"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Contact us today to discuss your project needs and receive a custom solution."
+    }
+  },
+  "notFound": {
+    "seo": {
+      "title": "Page Not Found (404) - Powerton Engineering",
+      "description": "The page you are looking for does not exist. Return to the Powerton Engineering homepage or explore our industrial automation services and products."
+    },
+    "title": "404",
+    "heading": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist. It may have been moved, deleted, or an incorrect URL was entered.",
+    "buttons": {
+      "homepage": "Back to Homepage",
+      "support": "Contact Support"
+    },
+    "quickLinks": "Quick Links",
+    "links": {
+      "products": "Products",
+      "services": "Services",
+      "projects": "Projects",
+      "about": "About Us"
     }
   },
   "quote": {
     "seo": {
-      "title": "見積もりとコスト計算ツールを入手 - 産業オートメーションソリューション | Powerton Engineering",
-      "description": "プロセスオートメーション、電気制御盤、計装、SCADAシステム、PLCプログラミング、およびカスタムエンジニアリングソリューションの詳細な見積もりをリクエストしてください。業界固有の価格設定で即座に見積もりを提供するインタラクティブなコスト計算ツールを使用してください。無料相談が可能です。インド全土に対応し、競争力のある価格設定と24〜48時間以内の対応時間を提供します。",
-      "keywords": "産業オートメーションの見積もり、電気制御盤の価格、プロセスオートメーションのコスト、PLCプログラミングの見積もり、SCADAシステムの価格、計装の見積もり、エンジニアリングソリューションのコスト計算ツール、産業制御システムの引用、自動化プロジェクトのコスト見積もり、電気パネルメーカーの見積もり、インドの産業オートメーションの価格設定、制御盤のコスト計算ツール、エンジニアリングコンサルテーションの見積もり、製造オートメーションの価格設定"
+      "title": "Get Quote & Cost Calculator - Industrial Automation Solutions | Powerton Engineering",
+      "description": "Request a detailed quote for process automation, electrical control panels, instrumentation, SCADA systems, PLC programming, and custom engineering solutions. Use our interactive cost calculator for instant estimates with industry-specific pricing. Free consultation available. Serving all of India with competitive pricing and 24-48 hour response time.",
+      "keywords": "industrial automation quote, electrical control panel pricing, process automation cost, PLC programming quote, SCADA system pricing, instrumentation quote, engineering solutions cost calculator, industrial control systems quote, automation project cost estimator, electrical panel manufacturer quote, India industrial automation pricing, control panel cost calculator, engineering consultation quote, manufacturing automation pricing"
     },
     "form": {
-      "title": "カスタム見積もりをリクエスト",
-      "description": "当社のエンジニアリング専門家から、特定のプロジェクト要件に合わせて調整された詳細な見積もりを入手してください。"
+      "title": "Request Custom Quote",
+      "description": "Get a detailed quote tailored to your specific project requirements from our engineering experts."
     },
     "hero": {
-      "title": "プロフェッショナルエンジニアリングの見積もりを入手",
-      "subtitle": "お客様の産業ニーズに合わせた自動化および計装ソリューションについて、当社の専門家チームにお問い合わせください。",
-      "estimates": "コスト見積もり",
+      "title": "Get a Professional Engineering Quote",
+      "subtitle": "Contact our expert team for tailored automation and instrumentation solutions for your industrial needs.",
+      "estimates": "Cost Estimate",
       "benefits": {
-        "consultation": "無料の技術コンサルテーション",
-        "response": "24〜48時間以内の対応時間",
-        "estimates": "詳細なコスト見積もり",
-        "noCosts": "隠れたコストなし"
+        "consultation": "Free Technical Consultation",
+        "response": "24-48 Hour Response Time",
+        "estimates": "Detailed Cost Estimates",
+        "noCosts": "No Hidden Costs"
       }
     },
     "benefits": {
-      "title": "当社の見積もりサービスを選ぶ理由",
-      "description": "当社の包括的な見積もりサービスで、お客様のエンジニアリングプロジェクトの正確な価格設定と専門的なコンサルテーションを入手してください。",
+      "title": "Why Choose Our Quote Service?",
+      "description": "Get accurate pricing and professional consultation for your engineering projects with our comprehensive quote service.",
       "assessment": {
-        "title": "詳細な評価",
-        "description": "包括的なプロジェクト評価と技術仕様"
+        "title": "Detailed Assessment",
+        "description": "Comprehensive project evaluation and technical specifications"
       },
       "response": {
-        "title": "迅速な対応",
-        "description": "24〜48時間以内に詳細な見積もりを受け取ります"
+        "title": "Rapid Response",
+        "description": "Receive your detailed quote within 24-48 hours"
       },
       "consultation": {
-        "title": "専門家によるコンサルテーション",
-        "description": "当社のエンジニアリングチームとの無料の技術コンサルテーション"
+        "title": "Expert Consultation",
+        "description": "Free technical consultation with our engineering team"
       },
       "solutions": {
-        "title": "カスタムソリューション",
-        "description": "お客様の特定のニーズに合わせたエンジニアリングソリューション"
+        "title": "Custom Solutions",
+        "description": "Tailored engineering solutions for your specific needs"
       }
     },
     "method": {
-      "title": "見積もり方法を選択してください",
-      "description": "プロジェクトの見積もりを取得する最も便利な方法を選択してください。どちらのオプションも、包括的な価格設定と技術仕様を提供します。",
-      "calculator": "スマート計算ツール",
-      "request": "見積もり依頼"
+      "title": "Choose Your Quote Method",
+      "description": "Select the most convenient way to get a project quote. Both options provide comprehensive pricing and technical specifications.",
+      "calculator": "Smart Calculator",
+      "request": "Quote Request"
     },
     "calculator": {
-      "title": "高度なコスト計算ツール",
-      "description": "スマートコスト見積もりツールの改良に取り組んでいます。この機能は、自動化プロジェクトの即時かつ正確な価格設定を提供します。",
-      "launchingSoon": "近日公開",
-      "useQuoteForm": "すぐに見積もりが必要な場合は、詳細な見積もりフォームを使用してください",
-      "getQuoteNow": "今すぐ見積もりを入手",
-      "projectTitle": "プロジェクトコスト計算ツール",
-      "stepOf": "{{current}} / {{total}} ステップ"
+      "title": "Advanced Cost Calculator",
+      "description": "We're refining our smart cost estimation tool. This feature will provide instant, accurate pricing for your automation projects.",
+      "launchingSoon": "Launching Soon",
+      "useQuoteForm": "For an immediate quote, please use our detailed quote form",
+      "getQuoteNow": "Get Quote Now",
+      "projectTitle": "Project Cost Calculator",
+      "stepOf": "Step {{current}} of {{total}}"
     },
     "process": {
-      "title": "見積もりプロセス",
-      "description": "最初のリクエストから詳細な提案まで、スムーズで透明性の高いプロセスを保証します。",
+      "title": "Our Quote Process",
+      "description": "From initial request to detailed proposal, we ensure a smooth and transparent process.",
       "submit": {
-        "title": "リクエストを送信",
-        "description": "包括的な見積もりフォームに記入するか、コスト計算ツールを使用してください"
+        "title": "Submit Request",
+        "description": "Fill out our comprehensive quote form or use our cost calculator"
       },
       "review": {
-        "title": "技術レビュー",
-        "description": "当社のエンジニアリングチームがお客様の要件と仕様を分析します"
+        "title": "Technical Review",
+        "description": "Our engineering team analyzes your requirements and specifications"
       },
       "assessment": {
-        "title": "オンサイト評価",
-        "description": "必要に応じて、複雑なプロジェクトのオプションのオンサイト訪問"
+        "title": "On-Site Assessment",
+        "description": "Optional on-site visit for complex projects, if required"
       },
       "quote": {
-        "title": "詳細な見積もり",
-        "description": "タイムラインと成果物を含む包括的な価格設定を受け取ります"
+        "title": "Detailed Quote",
+        "description": "Receive comprehensive pricing with timelines and deliverables"
       }
     },
     "cta": {
-      "tryCalculator": "コスト計算ツールを試す",
-      "requestQuote": "カスタム見積もりをリクエスト",
-      "title": "始める準備はできましたか？",
-      "description": "今すぐお問い合わせいただき、カスタムエンジニアリングソリューションを入手してください。当社のチームは、お客様のプロジェクトの実現をお手伝いする準備ができています。",
-      "projectTypes": {
-        "processAutomation": "プロセスオートメーション",
-        "powerControlSystems": "電力制御システム",
-        "instrumentationControl": "計装および制御",
-        "solarAutomation": "ソーラーオートメーション",
-        "buildingAutomation": "ビルディングオートメーション",
-        "manufacturingAutomation": "製造オートメーション"
-      },
-      "industries": {
-        "manufacturing": "製造",
-        "powerGeneration": "発電",
-        "oilGas": "石油・ガス",
-        "chemicalProcessing": "化学処理",
-        "waterTreatment": "水処理",
-        "foodBeverage": "食品および飲料",
-        "pharmaceutical": "製薬",
-        "renewableEnergy": "再生可能エネルギー"
-      },
-      "projectSizes": {
-        "small": "小（1〜10個のI / Oポイント）",
-        "medium": "中（11〜100個のI / Oポイント）",
-        "large": "大（101〜500個のI / Oポイント）",
-        "enterprise": "エンタープライズ（500個以上のI / Oポイント）"
-      },
-      "timelines": {
-        "urgent": "緊急（3か月未満）",
-        "standard": "標準（3〜6か月）",
-        "extended": "拡張（6〜12か月）",
-        "longTerm": "長期（12か月以上）"
-      },
-      "requirements": {
-        "plcProgramming": "PLCプログラミング",
-        "scadaDevelopment": "SCADA開発",
-        "hmiDesign": "HMI設計",
-        "networkIntegration": "ネットワーク統合",
-        "safetySystems": "安全システム",
-        "remoteMonitoring": "リモート監視",
-        "dataAnalytics": "データ分析",
-        "mobileApp": "モバイルアプリインターフェース"
-      },
-      "additionalFeatures": {
-        "redundancy": "システム冗長性",
-        "cybersecurity": "高度なサイバーセキュリティ",
-        "iotIntegration": "IoT統合",
-        "aiMl": "AI / ML分析",
-        "predictiveMaintenance": "予測メンテナンス",
-        "energyManagement": "エネルギー管理",
-        "cloudIntegration": "クラウド統合",
-        "trainingSupport": "トレーニングと拡張サポート"
-      }
+      "tryCalculator": "Try Cost Calculator",
+      "requestQuote": "Request Custom Quote",
+      "title": "Ready to Get Started?",
+      "description": "Contact us today to get your custom engineering solutions. Our team is ready to help you bring your project to life."
+    },
+    "projectTypes": {
+      "processAutomation": "Process Automation",
+      "powerControlSystems": "Power Control Systems",
+      "instrumentationControl": "Instrumentation & Control",
+      "solarAutomation": "Solar Automation",
+      "buildingAutomation": "Building Automation",
+      "manufacturingAutomation": "Manufacturing Automation"
+    },
+    "industries": {
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "oilGas": "Oil & Gas",
+      "chemicalProcessing": "Chemical Processing",
+      "waterTreatment": "Water Treatment",
+      "foodBeverage": "Food & Beverage",
+      "pharmaceutical": "Pharmaceutical",
+      "renewableEnergy": "Renewable Energy"
+    },
+    "projectSizes": {
+      "small": "Small (1-10 I/O Points)",
+      "medium": "Medium (11-100 I/O Points)",
+      "large": "Large (101-500 I/O Points)",
+      "enterprise": "Enterprise (500+ I/O Points)"
+    },
+    "timelines": {
+      "urgent": "Urgent (< 3 Months)",
+      "standard": "Standard (3-6 Months)",
+      "extended": "Extended (6-12 Months)",
+      "longTerm": "Long Term (12+ Months)"
+    },
+    "requirements": {
+      "plcProgramming": "PLC Programming",
+      "scadaDevelopment": "SCADA Development",
+      "hmiDesign": "HMI Design",
+      "networkIntegration": "Network Integration",
+      "safetySystems": "Safety Systems",
+      "remoteMonitoring": "Remote Monitoring",
+      "dataAnalytics": "Data Analytics",
+      "mobileApp": "Mobile App Interface"
+    },
+    "additionalFeatures": {
+      "redundancy": "System Redundancy",
+      "cybersecurity": "Advanced Cybersecurity",
+      "iotIntegration": "IoT Integration",
+      "aiMl": "AI/ML Analytics",
+      "predictiveMaintenance": "Predictive Maintenance",
+      "energyManagement": "Energy Management",
+      "cloudIntegration": "Cloud Integration",
+      "trainingSupport": "Training and Extended Support"
     }
   },
   "gallery": {
     "seo": {
-      "title": "ギャラリー - Powerton Engineeringのプロジェクト、製品、チーム",
-      "description": "Powerton Engineeringのギャラリーをご覧ください。チーム、完了した産業オートメーションプロジェクト、包括的な製品範囲を紹介しています。透明性を通じて信頼を構築します。",
-      "keywords": "powerton engineeringギャラリー、産業プロジェクトギャラリー、自動化プロジェクト、電気エンジニアリングチーム、製品ショーケース、会社施設"
+      "title": "Project Gallery & Portfolio - Industrial Automation, Control Panels & Engineering Projects | Powerton",
+      "description": "Browse Powerton Engineering's project gallery featuring completed industrial automation installations, control panels, SCADA systems, solar projects, instrumentation work, and our expert engineering team. Real projects, real results across manufacturing, power, and process industries.",
+      "keywords": "industrial automation projects gallery, control panel installation photos, SCADA system projects, PLC programming portfolio, electrical panel installations, instrumentation projects, solar EPC projects, automation project portfolio, engineering team, manufacturing automation projects, process automation installations, power plant projects, factory automation gallery, industrial electrical projects, engineering company portfolio, completed automation projects, control system installations india"
     },
     "hero": {
-      "title": "当社のギャラリー",
-      "subtitle": "画像を通して私たちの旅を発見してください-私たちの献身的なチームと最新の施設から、成功したプロジェクトと包括的な製品範囲まで。"
+      "title": "Our Gallery",
+      "subtitle": "Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
     },
     "tabs": {
-      "company": "会社チーム",
-      "projects": "プロジェクト",
-      "products": "製品"
+      "company": "Company Team",
+      "projects": "Projects",
+      "products": "Products"
     },
     "company": {
       "images": {
         "modernFacility": {
-          "title": "最新のエンジニアリング施設",
-          "description": "最新の試験装置を備えたノイダの最先端施設"
+          "title": "Modern Engineering Facility",
+          "description": "Our state-of-the-art facility in Noida, equipped with the latest testing equipment"
         },
         "expertTeam": {
-          "title": "専門エンジニアリングチーム",
-          "description": "産業オートメーションソリューションに専念する高度なスキルを持つエンジニア"
+          "title": "Expert Engineering Team",
+          "description": "Our highly skilled engineers dedicated to industrial automation solutions"
         },
         "qualityLab": {
-          "title": "品質管理ラボ",
-          "description": "製品の品質と信頼性を保証する高度な試験ラボ"
+          "title": "Quality Control Lab",
+          "description": "Advanced testing laboratory ensuring product quality and reliability"
         },
         "trainingCenter": {
-          "title": "トレーニングおよび開発センター",
-          "description": "技術チームの継続的なスキル開発"
+          "title": "Training and Development Center",
+          "description": "Continuous skill development for our technical team"
         },
         "supportCenter": {
-          "title": "カスタマーサポートセンター",
-          "description": "プロフェッショナルな24時間年中無休のカスタマーサポートと技術支援"
+          "title": "Customer Support Center",
+          "description": "Professional 24/7 customer support and technical assistance"
         },
         "rdWing": {
-          "title": "R＆D部門",
-          "description": "最先端の自動化ソリューションを開発するイノベーションハブ"
+          "title": "R&D Department",
+          "description": "Innovation hub developing cutting-edge automation solutions"
         }
       },
       "categories": {
-        "facility": "施設",
-        "team": "チーム",
-        "training": "トレーニング",
-        "support": "サポート",
-        "rd": "R＆D"
+        "facility": "Facility",
+        "team": "Team",
+        "training": "Training",
+        "support": "Support",
+        "rd": "R&D"
       }
     },
     "sections": {
       "company": {
-        "title": "当社とチーム",
-        "description": "当社の献身的なチームに会い、すべてのプロジェクトで卓越性を提供できるようにする高度な施設をご覧ください。"
+        "title": "Our Company & Team",
+        "description": "Meet our dedicated team and explore our advanced facilities that enable us to deliver excellence in every project."
       },
       "projects": {
-        "title": "完了したプロジェクト",
-        "description": "さまざまな業界でのプロジェクトの成功事例を調査し、当社の専門知識と品質への取り組みを紹介します。"
+        "title": "Our Completed Projects",
+        "description": "Explore our successful project implementations across various industries, showcasing our expertise and commitment to quality."
       },
       "products": {
-        "title": "当社の製品とソリューション",
-        "description": "主要なグローバルメーカーの産業用製品とソリューションの包括的な範囲をご覧ください。"
+        "title": "Our Products & Solutions",
+        "description": "Discover our comprehensive range of industrial products and solutions from leading global manufacturers."
       }
     },
     "projects": {
       "images": {
         "controlPanel": {
-          "title": "産業用制御盤の設置",
-          "description": "製造プラント向けの完全な自動化システムの導入",
-          "client": "製造業"
+          "title": "Industrial Control Panel Installation",
+          "description": "Complete automation system implementation for manufacturing plant",
+          "client": "Manufacturing Industry"
         },
         "solarPlant": {
-          "title": "太陽光発電所-1MW",
-          "description": "監視システムを備えた系統連系太陽光発電設備の設置",
-          "client": "産業団地"
+          "title": "Solar Power Plant - 1MW",
+          "description": "Grid-tied solar installation with monitoring systems",
+          "client": "Industrial Complex"
         },
         "scadaSystem": {
-          "title": "SCADAシステムの導入",
-          "description": "水処理プラント用の中央監視および制御システム",
-          "client": "水道局"
+          "title": "SCADA System Implementation",
+          "description": "Centralized monitoring and control system for water treatment plant",
+          "client": "Water Authority"
         },
         "instrumentation": {
-          "title": "プロセス計装のアップグレード",
-          "description": "化学処理ユニットの完全な計装オーバーホール",
-          "client": "化学工業"
+          "title": "Process Instrumentation Upgrade",
+          "description": "Complete instrumentation overhaul for chemical processing unit",
+          "client": "Chemical Industry"
         },
         "plcProgramming": {
-          "title": "PLCプログラミングと統合",
-          "description": "生産ラインの自動化のための高度なPLCシステム",
-          "client": "自動車セクター"
+          "title": "PLC Programming & Integration",
+          "description": "Advanced PLC systems for production line automation",
+          "client": "Automotive Sector"
         },
         "electricalPanel": {
-          "title": "電気パネルの近代化",
-          "description": "安全コンプライアンスと効率改善プロジェクト",
-          "client": "製造ユニット"
+          "title": "Electrical Panel Modernization",
+          "description": "Safety compliance and efficiency improvement project",
+          "client": "Manufacturing Unit"
         }
       },
       "categories": {
-        "automation": "オートメーション",
-        "solarEpc": "ソーラーEPC",
+        "automation": "Automation",
+        "solarEpc": "Solar EPC",
         "scada": "SCADA",
-        "instrumentation": "計装",
-        "plcProgramming": "PLCプログラミング",
-        "electrical": "電気"
+        "instrumentation": "Instrumentation",
+        "plcProgramming": "PLC Programming",
+        "electrical": "Electrical"
       }
     },
     "products": {
       "images": {
         "controlSystems": {
-          "title": "高度な制御システム",
-          "description": "最先端の自動化および制御ソリューション"
+          "title": "Advanced Control Systems",
+          "description": "State-of-the-art automation and control solutions"
         },
         "electricalPanels": {
-          "title": "電気制御盤",
-          "description": "産業用アプリケーション向けにカスタム設計されたパネル"
+          "title": "Electrical Control Panels",
+          "description": "Custom-designed panels for industrial applications"
         },
         "instrumentation": {
-          "title": "精密計装",
-          "description": "高品質の測定および制御機器"
+          "title": "Precision Instrumentation",
+          "description": "High-quality measurement and control instruments"
         },
         "pumps": {
-          "title": "産業用ポンプおよびモーター",
-          "description": "さまざまなアプリケーション向けの信頼性の高いポンプソリューション"
+          "title": "Industrial Pumps & Motors",
+          "description": "Reliable pump solutions for various applications"
         },
         "solarProducts": {
-          "title": "太陽光発電ソリューション",
-          "description": "完全な太陽エネルギーシステムとコンポーネント"
+          "title": "Solar Power Solutions",
+          "description": "Complete solar energy systems and components"
         },
         "safetyEquipment": {
-          "title": "安全と保護",
-          "description": "産業用安全機器および保護装置"
+          "title": "Safety & Protection",
+          "description": "Industrial safety equipment and protective devices"
         }
       },
       "categories": {
-        "controlSystems": "制御システム",
-        "electricalPanels": "電気パネル",
-        "instrumentation": "計装",
-        "pumps": "ポンプとモーター",
-        "solar": "ソーラー製品",
-        "safety": "安全装置"
+        "controlSystems": "Control Systems",
+        "electricalPanels": "Electrical Panels",
+        "instrumentation": "Instrumentation",
+        "pumps": "Pumps & Motors",
+        "solar": "Solar Products",
+        "safety": "Safety Equipment"
       }
     },
     "ui": {
-      "viewLarger": "大きく表示",
-      "downloadImage": "画像をダウンロード",
-      "requestDownload": "ダウンロードをリクエスト",
-      "needCustomPortfolio": "カスタムポートフォリオが必要ですか？",
-      "contactUs": "お客様の業界に関連する当社の作品を紹介する、パーソナライズされたプロジェクトポートフォリオについては、お問い合わせください。",
-      "imageNotFound": "画像が見つかりません",
-      "noImagesFound": "このカテゴリの画像は見つかりませんでした",
-      "allCategories": "すべてのカテゴリ",
-      "year": "年",
-      "location": "場所",
-      "client": "顧客",
-      "category": "カテゴリー"
+      "viewLarger": "View Larger",
+      "downloadImage": "Download Image",
+      "requestDownload": "Request Download",
+      "needCustomPortfolio": "Need Custom Portfolio?",
+      "contactUs": "Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
+      "imageNotFound": "Image not found",
+      "noImagesFound": "No images found for this category",
+      "allCategories": "All Categories",
+      "year": "Year",
+      "location": "Location",
+      "client": "Client",
+      "category": "Category"
     }
   },
   "contact": {
     "hero": {
-      "title": "当社のエンジニアリング専門家にお問い合わせください",
-      "subtitle": "産業オートメーションおよび電気エンジニアリングプロジェクトに関する専門家のサポートを受けてください。当社の経験豊富なチームがお客様の成功を支援します。",
+      "title": "Contact Our Engineering Experts",
+      "subtitle": "Get expert support for your industrial automation and electrical engineering projects. Our experienced team is ready to help you succeed.",
       "benefits": {
-        "consultation": "無料の専門家によるコンサルテーション",
-        "support": "24時間年中無休のテクニカルサポート",
-        "experience": "15年以上の経験"
+        "consultation": "Free Expert Consultation",
+        "support": "24/7 Technical Support",
+        "experience": "15+ Years Experience"
       }
     },
     "methods": {
-      "title": "当社に連絡する複数の方法",
-      "subtitle": "お客様に最適なコミュニケーション方法を選択してください。緊急サポートのために24時間年中無休で対応しています。"
+      "title": "Multiple Ways to Reach Us",
+      "subtitle": "Choose the communication method that works best for you. We're available 24/7 for emergency support."
     },
     "form": {
-      "title": "メッセージを送信",
-      "subtitle": "一般的なお問い合わせ、サービス情報、または技術的な質問については、お問い合わせください。"
+      "title": "Send Us a Message",
+      "subtitle": "Get in touch with us for general inquiries, service information, or technical questions."
     },
     "contactMethods": {
       "phone": {
-        "title": "直接お電話ください",
-        "subtitle": "サポートのために24時間年中無休で利用可能",
-        "description": "当社の技術チームと直接話してください"
+        "title": "Call Us Directly",
+        "subtitle": "Available 24/7 for support",
+        "description": "Speak directly with our technical team"
       },
       "email": {
-        "title": "メールサポート",
-        "subtitle": "24時間以内の返信",
-        "description": "詳細なプロジェクト要件をお送りください"
+        "title": "Email Support",
+        "subtitle": "Response within 24 hours",
+        "description": "Send us detailed project requirements"
       },
       "whatsapp": {
-        "title": "WhatsAppサポート",
-        "subtitle": "クイックレスポンスチャット",
-        "description": "質問への即答を得る"
+        "title": "WhatsApp Support",
+        "subtitle": "Quick response chat",
+        "description": "Get instant answers to your questions"
       },
       "visit": {
-        "title": "オフィス訪問",
-        "subtitle": "予約制",
-        "description": "ノイダの本社への訪問をスケジュールする"
+        "title": "Visit Our Office",
+        "subtitle": "By appointment only",
+        "description": "Schedule a visit to our headquarters in Noida"
       }
     },
     "map": {
-      "title": "Powerton Engineeringのオフィスの場所"
+      "title": "Powerton Engineering Office Location"
     },
     "office": {
-      "name": "本社",
-      "hours": "月〜土：午前9時〜午後6時"
+      "name": "Corporate Headquarters",
+      "hours": "Mon-Sat: 9:00 AM - 6:00 PM"
     },
     "services": {
       "technical": {
-        "title": "技術サポート",
-        "description": "当社のすべての製品およびサービスに関する専門的な技術支援"
+        "title": "Technical Support",
+        "description": "Expert technical assistance for all our products and services"
       },
       "customer": {
-        "title": "顧客の成功",
-        "description": "プロジェクトの成功を保証するための献身的なサポート"
+        "title": "Customer Success",
+        "description": "Dedicated support to ensure your project success"
       },
       "onsite": {
-        "title": "オンサイトサポート",
-        "description": "お客様の場所でのフィールドエンジニアリングサポート"
+        "title": "On-Site Support",
+        "description": "Field engineering support at your location"
       },
       "remote": {
-        "title": "リモートサポート",
-        "description": "仮想アシスタンスとリモートシステム診断"
+        "title": "Remote Support",
+        "description": "Virtual assistance and remote system diagnostics"
       }
     },
     "sections": {
-      "visitOffice": "オフィス訪問",
-      "officeLocation": "オフィスの場所",
-      "supportServices": "サポートサービス",
-      "businessHours": "営業時間と可用性",
-      "getDirections": "道順を表示"
+      "visitOffice": "Visit Our Office",
+      "officeLocation": "Office Location",
+      "supportServices": "Support Services",
+      "businessHours": "Business Hours & Availability",
+      "getDirections": "Get Directions"
     },
     "formSection": {
-      "title": "一般的なお問い合わせフォーム",
-      "description": "一般的なお問い合わせ、サービス情報、または技術的な質問について"
+      "title": "General Contact Form",
+      "description": "For general inquiries, service information, or technical questions"
     },
     "businessHours": {
       "regular": {
-        "title": "通常の営業時間",
-        "days": "月曜日-土曜日",
-        "time": "午前9時〜午後6時"
+        "title": "Regular Hours",
+        "days": "Monday - Saturday",
+        "time": "9:00 AM - 6:00 PM"
       },
       "emergency": {
-        "title": "緊急サポート",
-        "availability": "24時間365日の可用性",
-        "days": "終日"
+        "title": "Emergency Support",
+        "availability": "24/7 Availability",
+        "days": "All Days"
       },
       "email": {
-        "title": "メールの返信",
-        "time": "24時間以内",
-        "guarantee": "保証"
+        "title": "Email Response",
+        "time": "Within 24 Hours",
+        "guarantee": "Guaranteed"
       }
     },
     "emergency": {
-      "title": "緊急サポート",
-      "description": "重大なシステム障害が発生しましたか？当社の緊急対応チームは、ダウンタイムを最小限に抑えるために24時間年中無休で対応しています。",
-      "hotline": "緊急ホットライン"
+      "title": "Emergency Support",
+      "description": "Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
+      "hotline": "Emergency Hotline"
     },
     "seo": {
-      "title": "Powerton Engineeringにお問い合わせください-専門的なエンジニアリングサポートを入手してください",
-      "description": "産業オートメーション、電気システム、およびテクニカルサポートについては、当社のエンジニアリング専門家にお問い合わせください。+91-94627-71662に電話するか、info@powertonengineering.comにメールしてください",
-      "keywords": "powerton engineeringに連絡する、エンジニアリングサポート、産業オートメーションの連絡先、電気エンジニアリングヘルプ、ノイダエンジニアリング会社の連絡先"
+      "title": "Contact Us - Industrial Automation & Electrical Engineering Support | Powerton Engineering Noida",
+      "description": "Contact Powerton Engineering for industrial automation, PLC programming, SCADA systems, electrical control panels, and technical support. Located in Noida, India. 24/7 emergency support available. Call +91-94627-71662 or email info@powertonengineering.com for free consultation.",
+      "keywords": "contact powerton engineering, industrial automation support noida, electrical engineering contact india, automation company contact, PLC programming support, SCADA technical help, control panel manufacturer contact, engineering consultation noida, automation project inquiry, electrical engineering services contact, industrial automation noida contact, technical support india, automation company india, engineering support phone, control systems contact, process automation inquiry, instrumentation support, 24/7 engineering support, automation emergency support, electrical contractor contact noida"
     },
     "whatsapp": {
-      "defaultMessage": "こんにちは！あなたの産業オートメーションとエンジニアリングソリューションに興味があります。私のプロジェクト要件について話し合いたいです。"
+      "defaultMessage": "Hello! I'm interested in your industrial automation and engineering solutions. I'd like to discuss my project requirements."
     }
   },
   "ui": {
-    "projectPortfolio": "プロジェクトポートフォリオ",
-    "featuredProjects": "注目のプロジェクト"
+    "projectPortfolio": "Project Portfolio",
+    "featuredProjects": "Featured Projects"
   },
   "sitemap": {
     "seo": {
-      "keywords": "サイトマップ、ウェブサイトナビゲーション、パワートンエンジニアリング、産業オートメーション、電気エンジニアリング、製品、サービス、プロジェクト、サイト構造"
+      "keywords": "sitemap, website navigation, powerton engineering, industrial automation, electrical engineering, products, services, projects, site structure"
     },
     "quickActions": {
-      "title": "お探しのものが見つかりませんか？",
-      "description": "お探しのものが見つからない場合は、直接お問い合わせいただくか、すべてのページで利用できるインテリジェントなチャットボットをご利用ください。",
-      "contactUs": "お問い合わせ",
-      "requestQuote": "見積もりをリクエスト"
+      "title": "Need Help Finding Something?",
+      "description": "Can't find what you're looking for? Contact us directly for assistance with your inquiry.",
+      "contactUs": "Contact Us",
+      "requestQuote": "Request Quote"
     }
   },
   "portfolio": {
     "features": {
-      "completedProjects": "さまざまな業界で успешноに完了したプロジェクト",
-      "highQuality": "高品質のドキュメント",
-      "highQualityDesc": "詳細なプロジェクト画像を含むプロフェッショナルポートフォリオ",
-      "verifiedResults": "検証済みの結果",
-      "verifiedResultsDesc": "測定可能な成果と顧客の声を備えた実際のプロジェクト"
+      "completedProjects": "Successfully completed projects across various industries",
+      "highQuality": "High-Quality Documentation",
+      "highQualityDesc": "Professional portfolio with detailed project imagery",
+      "verifiedResults": "Verified Results",
+      "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
   },
   "career": {
     "seo": {
-      "title": "Powerton Engineeringでのキャリア - 当社のエンジニアリングチームに参加してください",
-      "description": "Powerton Engineeringでのキャリアの機会を探ります。熟練したエンジニアのチームに参加し、革新的な産業オートメーションおよび電気エンジニアリングプロジェクトに貢献してください。",
-      "keywords": "powerton engineeringのキャリア、エンジニアリングの仕事、電気エンジニアの仕事、オートメーションエンジニアの仕事、産業エンジニアリングのキャリア、ノイダのエンジニアリングの仕事"
+      "title": "Careers & Jobs - Join Powerton Engineering Team | Automation & Electrical Engineering Jobs Noida",
+      "description": "Explore exciting career opportunities at Powerton Engineering. We're hiring electrical engineers, automation engineers, PLC programmers, SCADA specialists, instrumentation engineers, and field service engineers. Join our growing team in Noida and work on cutting-edge industrial automation projects. Competitive salary, career growth, and excellent benefits.",
+      "keywords": "powerton engineering careers, engineering jobs noida, electrical engineer jobs, automation engineer jobs, PLC programmer jobs, SCADA engineer jobs, instrumentation engineer careers, control systems engineer jobs, field service engineer jobs, industrial automation careers, electrical engineering jobs india, automation jobs noida, engineering jobs uttar pradesh, fresher engineering jobs, experienced engineer jobs, automation specialist careers, control panel design engineer jobs, commissioning engineer jobs, maintenance engineer jobs, project engineer jobs, engineering careers india, industrial engineering jobs"
     },
     "hero": {
-      "title": "当社でエンジニアリングのキャリアを築きましょう",
-      "subtitle": "情熱的なエンジニアのチームに参加し、革新的な産業オートメーションソリューションに貢献してください",
+      "title": "Build Your Engineering Career With Us",
+      "subtitle": "Join our passionate team of engineers and contribute to innovative industrial automation solutions",
       "benefits": {
-        "growth": "成長の機会",
-        "innovation": "革新的なプロジェクト",
-        "culture": "協力的な文化"
+        "growth": "Growth Opportunities",
+        "innovation": "Innovative Projects",
+        "culture": "Collaborative Culture"
       },
-      "imageAlt": "最新の産業施設機器を備えたプロのエンジニアリングワークスペース"
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
       "careerGrowth": {
-        "title": "キャリア成長",
-        "description": "定期的なパフォーマンスレビューと昇進の機会を備えた構造化されたキャリアパス。"
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
       "learningDevelopment": {
-        "title": "学習と開発",
-        "description": "継続的なトレーニングプログラム、認定資格、およびスキル向上の機会。"
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
       "workLifeBalance": {
-        "title": "ワークライフバランス",
-        "description": "従業員と家族のための柔軟な勤務時間と包括的な健康上の利点。"
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
       "teamCulture": {
-        "title": "チーム文化",
-        "description": "支援的なチームメンバーとオープンなコミュニケーションを備えた協力的な作業環境。"
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
       },
       "recognitionRewards": {
-        "title": "認識と報酬",
-        "description": "優れた仕事のための業績に基づくインセンティブ、ボーナス、および表彰プログラム。"
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
       },
       "innovationFocus": {
-        "title": "イノベーションフォーカス",
-        "description": "産業オートメーションにおける最先端技術と革新的なソリューションに取り組みます。"
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
     },
     "whyJoinUs": {
-      "title": "Powerton Engineeringを選ぶ理由",
-      "description": "産業オートメーションと電気エンジニアリングの未来を形作るダイナミックなチームの一員になりましょう"
+      "title": "Why Choose Powerton Engineering?",
+      "description": "Be part of a dynamic team that is shaping the future of industrial automation and electrical engineering"
     },
     "cta": {
-      "title": "エンジニアリングの旅を始める準備はできましたか？",
-      "description": "革新的なエンジニアのチームに参加して、エキサイティングな産業オートメーションプロジェクトの一員になりましょう。Powerton Engineeringであなたのキャリアの次のステップを踏み出してください。",
-      "applyNow": "今すぐ申し込む",
-      "viewOpenings": "現在の募集を表示"
+      "title": "Ready to Start Your Engineering Journey?",
+      "description": "Join our team of innovative engineers and be part of exciting industrial automation projects. Take the next step in your career with Powerton Engineering.",
+      "applyNow": "Apply Now",
+      "viewOpenings": "View Current Openings"
     }
   },
   "seo": {
     "productPages": {
       "plcs": {
-        "title": "PLC（プログラマブルロジックコントローラー）-産業オートメーション| Powerton Engineering",
-        "description": "大手メーカーの高品質PLC：Siemens SIMATIC、Allen-Bradley CompactLogix、Schneider Modicon。インド全土での専門的なPLCプログラミング、設置、サポート。",
-        "keywords": "PLC、プログラマブルロジックコントローラー、Siemens SIMATIC、Allen-Bradley CompactLogix、Schneider Modicon、産業オートメーションコントローラー、PLCプログラミング、ファクトリーオートメーション"
+        "title": "PLCs (Programmable Logic Controllers) - Industrial Automation | Powerton Engineering",
+        "description": "High-quality PLCs from leading manufacturers: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon. Expert PLC programming, installation & support across India.",
+        "keywords": "PLCs, programmable logic controllers, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, industrial automation controllers, PLC programming, factory automation"
       },
       "solarPanels": {
-        "title": "ソーラーパネル-単結晶および多結晶| Powerton Engineering",
-        "description": "高効率ソーラーパネル：単結晶（400W）、多結晶（320W）、両面（450W）。インド全土での設置サポートを備えた完全な太陽エネルギーソリューション。",
-        "keywords": "ソーラーパネル、単結晶ソーラーパネル、多結晶ソーラーパネル、両面ソーラーパネル、太陽エネルギーシステム、再生可能エネルギー、インドでのソーラー設置"
+        "title": "Solar Panels - Monocrystalline & Polycrystalline | Powerton Engineering",
+        "description": "High-efficiency solar panels: Monocrystalline (400W), Polycrystalline (320W), and Bifacial (450W). Complete solar energy solutions with installation support across India.",
+        "keywords": "solar panels, monocrystalline solar panels, polycrystalline solar panels, bifacial solar panels, solar energy systems, renewable energy, solar installation India"
       },
       "scada": {
-        "title": "SCADAシステム-産業用監視および制御| Powerton Engineering",
-        "description": "リアルタイム監視、データ収集、プロセス制御のための高度なSCADAシステム。HMI統合およびリモートアクセス機能を備えた完全なSCADAソリューション。",
-        "keywords": "SCADAシステム、監視制御、データ収集、産業用監視、プロセス制御、HMI統合、リモート監視、SCADAソフトウェア"
+        "title": "SCADA Systems - Industrial Monitoring & Control | Powerton Engineering",
+        "description": "Advanced SCADA systems for real-time monitoring, data acquisition, and process control. Complete SCADA solutions with HMI integration and remote access capabilities.",
+        "keywords": "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, HMI integration, remote monitoring, SCADA software"
       }
     }
   }
