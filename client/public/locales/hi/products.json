@@ -616,6 +616,43 @@
       "description": "वोल्टेज, करंट और बिजली माप के लिए एनालॉग और डिजिटल पैनल मीटर"
     }
   },
+  "sections": {
+    "overview": "अवलोकन",
+    "productDetails": "उत्पाद विवरण",
+    "technicalSpecifications": "तकनीकी विनिर्देश",
+    "keyFeatures": "प्रमुख विशेषताएँ",
+    "applications": "अनुप्रयोग",
+    "industriesServed": "उद्योगों की सेवा की",
+    "certificationsCompliance": "प्रमाणन और अनुपालन",
+    "certifications": "प्रमाणपत्र",
+    "qualityAssurance": "गुणवत्ता आश्वासन",
+    "qualityAssuranceDescription": "उत्पाद अंतर्राष्ट्रीय मानकों और सुरक्षा नियमों का पालन करते हैं।",
+    "completeListDescription": "विशिष्टताओं के साथ {{groupTitle}} उत्पादों की पूरी सूची",
+    "expertsHelpDescription": "हमारे विशेषज्ञ आपके आवेदन के लिए सही {{groupTitle}} का चयन करने में आपकी सहायता करने के लिए यहां हैं।",
+    "products": "हमारे उत्पाद",
+    "productsDescription": "उच्च गुणवत्ता वाले औद्योगिक समाधानों की हमारी विस्तृत श्रृंखला का अन्वेषण करें",
+    "allProducts": "सभी उत्पाद",
+    "needMoreOptions": "क्या आपको अधिक विकल्पों की आवश्यकता है?",
+    "customSolutions": "हम अनुकूलित समाधान प्रदान करते हैं और आपकी विशिष्ट आवश्यकताओं को पूरा करने के लिए अतिरिक्त उत्पाद प्राप्त कर सकते हैं।",
+    "professionalGrade": "पेशेवर ग्रेड समाधान",
+    "keyBenefits": "प्रमुख लाभ:",
+    "professionalConsultation": "एक पेशेवर परामर्श प्राप्त करें",
+    "technicalConsultation": "तकनीकी परामर्श"
+  },
+  "defaults": {
+    "groupDescription": "औद्योगिक स्वचालन अनुप्रयोगों के लिए उच्च गुणवत्ता वाले उत्पाद।"
+  },
+  "filters": {
+    "all": "सभी",
+    "category": "वर्ग",
+    "industry": "उद्योग",
+    "status": "स्थिति"
+  },
+  "status": {
+    "available": "उपलब्ध",
+    "outOfStock": "स्टॉक से बाहर",
+    "discontinued": "बंद कर दिया गया"
+  },
   "productPages": {
     "transmitters": {
       "title": "ट्रांसमीटर",

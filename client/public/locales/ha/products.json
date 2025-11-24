@@ -616,6 +616,43 @@
       "description": "Mitan panel analog da dijital don ƙarfin lantarki, yanzu, da ma'aunin wuta"
     }
   },
+  "sections": {
+    "overview": "Bayanin gabaɗaya",
+    "productDetails": "Cikakkun Bayanan Samfura",
+    "technicalSpecifications": "Ƙayyadaddun Fasaha",
+    "keyFeatures": "Mahimman Siffofi",
+    "applications": "Aikace-aikace",
+    "industriesServed": "Masana'antu Masu Hidima",
+    "certificationsCompliance": "Takaddun shaida da Biyayya",
+    "certifications": "Takaddun shaida",
+    "qualityAssurance": "Tabbatar da Inganci",
+    "qualityAssuranceDescription": "Kayayyakin sun cika ƙa'idodin ƙasa da ƙasa da ƙa'idodin aminci.",
+    "completeListDescription": "Cikakken jerin samfuran {{groupTitle}} tare da ƙayyadaddun bayanai",
+    "expertsHelpDescription": "Kwararrunmu suna nan don taimaka muku zaɓi {{groupTitle}} da ya dace don aikace-aikacenku.",
+    "products": "Kayayyakinmu",
+    "productsDescription": "Bincika babban kewayon hanyoyin samar da masana'antu masu inganci",
+    "allProducts": "Duk Kayayyakin",
+    "needMoreOptions": "Kuna Bukatar Ƙarin Zaɓuɓɓuka?",
+    "customSolutions": "Muna ba da mafita na musamman kuma za mu iya samo ƙarin samfura don biyan takamaiman buƙatunku.",
+    "professionalGrade": "Hanyoyin Magance Matsaloli na Ƙwararru",
+    "keyBenefits": "Mahimman Fa'idodi:",
+    "professionalConsultation": "Samu Shawarar Ƙwararru",
+    "technicalConsultation": "Shawarwari na Fasaha"
+  },
+  "defaults": {
+    "groupDescription": "Kayayyaki masu inganci don aikace-aikacen sarrafa kansa na masana'antu."
+  },
+  "filters": {
+    "all": "Duka",
+    "category": "Nau'i",
+    "industry": "Masana'antu",
+    "status": "Matsayi"
+  },
+  "status": {
+    "available": "Akwai",
+    "outOfStock": "Ba ya nan",
+    "discontinued": "An daina"
+  },
   "productPages": {
     "transmitters": {
       "title": "Masu watsawa",

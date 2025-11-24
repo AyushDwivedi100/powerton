@@ -128,12 +128,12 @@ const ProductDetailDynamic: React.FC = () => {
       </Helmet>
 
       <div className="min-h-screen bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className=" ">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.4 }}
-            className="py-6"
+            className="py-6 mx-auto px-4 sm:px-6 lg:px-36"
           >
             <Button
               variant="ghost"
@@ -148,7 +148,8 @@ const ProductDetailDynamic: React.FC = () => {
             </Button>
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 py-8 lg:py-12">
+          {/* Product Hero Section */}
+          <div className="mx-auto px-4 sm:px-6 lg:px-36 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 py-8 lg:py-12">
             <AnimatedSection>
               <div className="relative">
                 <div className="sticky top-8">
@@ -180,17 +181,6 @@ const ProductDetailDynamic: React.FC = () => {
                   >
                     {productData.title}
                   </motion.h1>
-
-                  {productData.shortDescription && (
-                    <motion.p
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ delay: 0.5 }}
-                      className="text-xl text-muted-foreground leading-relaxed"
-                    >
-                      {productData.shortDescription}
-                    </motion.p>
-                  )}
                 </div>
 
                 <motion.div
@@ -227,7 +217,8 @@ const ProductDetailDynamic: React.FC = () => {
             </AnimatedSection>
           </div>
 
-          <div className="py-16 lg:py-24 space-y-24">
+          <div className="py-8 space-y-24 bg-muted mx-auto px-4 sm:px-6 lg:px-36">
+            {/* Product Overview Section*/}
             {productData.fullDescription && (
               <AnimatedSection>
                 <div className="max-w-4xl">
@@ -332,11 +323,10 @@ const ProductDetailDynamic: React.FC = () => {
                               className="group"
                               data-testid={`feature-${index}`}
                             >
-                              <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-primary/5 transition-all">
-                                <div className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1"></div>
-                                <span className="text-md text-foreground leading-tight">
+                              <div className="p-2 sm:p-2.5 rounded-md border border-border/40 bg-gradient-to-br from-background to-muted/10 hover:border-secondary/40 hover:shadow-sm transition-all duration-300">
+                                <dd className="text-sm font-medium text-foreground truncate">
                                   {benefit}
-                                </span>
+                                </dd>
                               </div>
                             </motion.div>
                           ))}
@@ -374,11 +364,10 @@ const ProductDetailDynamic: React.FC = () => {
                                 className="group"
                                 data-testid={`application-${index}`}
                               >
-                                <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-accent/5 transition-all">
-                                  <div className="h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0 mt-1"></div>
-                                  <span className="text-md text-foreground">
+                                <div className="p-2 sm:p-2.5 rounded-md border border-border/40 bg-gradient-to-br from-background to-muted/10 hover:border-secondary/40 hover:shadow-sm transition-all duration-300">
+                                  <dd className="text-sm font-medium text-foreground truncate">
                                     {application}
-                                  </span>
+                                  </dd>
                                 </div>
                               </motion.div>
                             ),
@@ -388,7 +377,7 @@ const ProductDetailDynamic: React.FC = () => {
                   </div>
 
                   {/* Column 3: Industries & Certifications */}
-                  <div className="space-y-4 sm:space-y-6">
+                  <div className="space-y-8 sm:space-y-12">
                     {/* Industries Served */}
                     {productData.industries &&
                       productData.industries.length > 0 && (
@@ -419,11 +408,10 @@ const ProductDetailDynamic: React.FC = () => {
                               className="group"
                               data-testid={`industry-${index}`}
                             >
-                              <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-warning/5 transition-all">
-                                <div className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1"></div>
-                                <span className="text-md text-foreground">
+                              <div className="p-2 sm:p-2.5 rounded-md border border-border/40 bg-gradient-to-br from-background to-muted/10 hover:border-secondary/40 hover:shadow-sm transition-all duration-300">
+                                <dd className="text-sm font-medium text-foreground truncate">
                                   {industry}
-                                </span>
+                                </dd>
                               </div>
                             </motion.div>
                           ))}

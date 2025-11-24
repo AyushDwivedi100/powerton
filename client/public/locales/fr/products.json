@@ -616,6 +616,43 @@
       "description": "Panneaux de mesure analogiques et numériques pour la mesure de la tension, du courant et de la puissance"
     }
   },
+  "sections": {
+    "overview": "Aperçu",
+    "productDetails": "Détails du produit",
+    "technicalSpecifications": "Spécifications techniques",
+    "keyFeatures": "Caractéristiques principales",
+    "applications": "Applications",
+    "industriesServed": "Secteurs desservis",
+    "certificationsCompliance": "Certifications et conformité",
+    "certifications": "Certifications",
+    "qualityAssurance": "Assurance qualité",
+    "qualityAssuranceDescription": "Les produits sont conformes aux normes internationales et aux réglementations de sécurité.",
+    "completeListDescription": "Liste complète des produits {{groupTitle}} avec spécifications",
+    "expertsHelpDescription": "Nos experts sont là pour vous aider à sélectionner le {{groupTitle}} adapté à votre application.",
+    "products": "Nos produits",
+    "productsDescription": "Explorez notre vaste gamme de solutions industrielles de haute qualité",
+    "allProducts": "Tous les produits",
+    "needMoreOptions": "Besoin de plus d'options ?",
+    "customSolutions": "Nous proposons des solutions personnalisées et pouvons obtenir des produits supplémentaires pour répondre à vos besoins spécifiques.",
+    "professionalGrade": "Solutions de qualité professionnelle",
+    "keyBenefits": "Avantages clés :",
+    "professionalConsultation": "Obtenir une consultation professionnelle",
+    "technicalConsultation": "Consultation technique"
+  },
+  "defaults": {
+    "groupDescription": "Produits de haute qualité pour les applications d'automatisation industrielle."
+  },
+  "filters": {
+    "all": "Tous",
+    "category": "Catégorie",
+    "industry": "Industrie",
+    "status": "Statut"
+  },
+  "status": {
+    "available": "Disponible",
+    "outOfStock": "Rupture de stock",
+    "discontinued": "Abandonné"
+  },
   "productPages": {
     "transmitters": {
       "title": "Transmetteurs",
