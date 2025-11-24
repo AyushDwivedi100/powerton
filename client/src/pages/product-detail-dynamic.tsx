@@ -253,7 +253,7 @@ const ProductDetailDynamic: React.FC = () => {
                   <div className="p-1.5 sm:p-2 rounded-xl bg-primary/10 flex-shrink-0">
                     <Zap className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
                   </div>
-                  <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground">
+                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
                     {t("products:sections.productDetails")}
                   </h2>
                 </div>
@@ -273,7 +273,7 @@ const ProductDetailDynamic: React.FC = () => {
                       >
                         <div className="flex items-center gap-1.5 sm:gap-2 mb-3 sm:mb-4">
                           <Award className="w-4 h-4 sm:w-5 sm:h-5 text-secondary flex-shrink-0" />
-                          <h3 className="text-base sm:text-lg font-semibold text-foreground truncate">
+                          <h3 className="text-lg sm:text-xl font-semibold text-foreground truncate">
                             {t("products:sections.technicalSpecifications")}
                           </h3>
                         </div>
@@ -288,10 +288,10 @@ const ProductDetailDynamic: React.FC = () => {
                             data-testid={`spec-${index}`}
                           >
                             <div className="p-2 sm:p-2.5 rounded-md border border-border/40 bg-gradient-to-br from-background to-muted/10 hover:border-secondary/40 hover:shadow-sm transition-all duration-300">
-                              <dt className="text-xs font-medium text-muted-foreground mb-0.5 truncate">
+                              <dt className="text-sm font-medium text-muted-foreground mb-0.5 truncate">
                                 {spec.label}
                               </dt>
-                              <dd className="text-xs font-medium text-foreground truncate">
+                              <dd className="text-sm font-medium text-foreground truncate">
                                 {spec.value}
                               </dd>
                             </div>
@@ -315,7 +315,7 @@ const ProductDetailDynamic: React.FC = () => {
                         >
                           <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
                             <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0" />
-                            <h3 className="text-base sm:text-lg font-semibold text-foreground truncate">
+                            <h3 className="text-lg sm:text-xl font-semibold text-foreground truncate">
                               {t("products:sections.keyFeatures")}
                             </h3>
                           </div>
@@ -331,7 +331,7 @@ const ProductDetailDynamic: React.FC = () => {
                             >
                               <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-primary/5 transition-all">
                                 <div className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1"></div>
-                                <span className="text-xs text-foreground leading-tight">
+                                <span className="text-sm text-foreground leading-tight">
                                   {benefit}
                                 </span>
                               </div>
@@ -353,7 +353,7 @@ const ProductDetailDynamic: React.FC = () => {
                         >
                           <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
                             <Box className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" />
-                            <h3 className="text-base sm:text-lg font-semibold text-foreground truncate">
+                            <h3 className="text-lg sm:text-xl font-semibold text-foreground truncate">
                               {t("products:sections.applications")}
                             </h3>
                           </div>
@@ -369,7 +369,7 @@ const ProductDetailDynamic: React.FC = () => {
                             >
                               <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-accent/5 transition-all">
                                 <div className="h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0 mt-1"></div>
-                                <span className="text-xs text-foreground">
+                                <span className="text-sm text-foreground">
                                   {application}
                                 </span>
                               </div>
@@ -394,7 +394,7 @@ const ProductDetailDynamic: React.FC = () => {
                         >
                           <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
                             <Building2 className="w-4 h-4 sm:w-5 sm:h-5 text-warning flex-shrink-0" />
-                            <h3 className="text-base sm:text-lg font-semibold text-foreground truncate">
+                            <h3 className="text-lg sm:text-xl font-semibold text-foreground truncate">
                               {t("products:sections.industriesServed")}
                             </h3>
                           </div>
@@ -410,7 +410,7 @@ const ProductDetailDynamic: React.FC = () => {
                             >
                               <div className="flex items-start gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-md hover:bg-warning/5 transition-all">
                                 <div className="h-1.5 w-1.5 rounded-full bg-warning flex-shrink-0 mt-1"></div>
-                                <span className="text-xs text-foreground">
+                                <span className="text-sm text-foreground">
                                   {industry}
                                 </span>
                               </div>
@@ -432,7 +432,7 @@ const ProductDetailDynamic: React.FC = () => {
                         >
                           <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
                             <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-green-600 dark:text-green-400 flex-shrink-0" />
-                            <h3 className="text-base sm:text-lg font-semibold text-foreground truncate">
+                            <h3 className="text-lg sm:text-xl font-semibold text-foreground truncate">
                               {t("products:sections.certificationsCompliance")}
                             </h3>
                           </div>
@@ -450,7 +450,7 @@ const ProductDetailDynamic: React.FC = () => {
                                 className="group"
                                 data-testid={`cert-${index}`}
                               >
-                                <div className="px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-full border border-green-300/40 dark:border-green-600/40 bg-green-50 dark:bg-green-950/20 font-medium text-xs hover:border-green-400/60 transition-all whitespace-nowrap">
+                                <div className="px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-full border border-green-300/40 dark:border-green-600/40 bg-green-50 dark:bg-green-950/20 font-medium text-sm hover:border-green-400/60 transition-all whitespace-nowrap">
                                   {cert}
                                 </div>
                               </motion.div>
