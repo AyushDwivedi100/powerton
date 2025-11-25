@@ -112,16 +112,26 @@ const HeroSection = memo(function HeroSection() {
             <motion.div variants={buttonVariants}>
               <Link href="/services" className="w-full sm:w-auto">
                 <Button
-                  className="bg-secondary hover:bg-primary text-secondary-foreground hover:text-primary-foreground w-full sm:w-auto text-xs sm:text-sm md:text-base lg:text-lg px-3 sm:px-4 md:px-6 lg:px-8 py-2 sm:py-3 md:py-4 transition-all duration-200"
+                  className="bg-secondary group hover:bg-primary text-secondary-foreground hover:text-primary-foreground w-full sm:w-auto text-xs sm:text-sm md:text-base lg:text-lg px-3 sm:px-4 md:px-6 lg:px-8 py-2 sm:py-3 md:py-4 transition-all duration-200"
                   aria-label={t("common:aria.exploreServices")}
                 >
                   <span className="text-wrap-safe">
-                    {t("pages:home.hero.buttons.exploreServices")}
+                    {t("pages:home.hero.buttons.exploreServices")}{" "}
                   </span>
-                  <ArrowRight
-                    className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
-                    aria-hidden="true"
-                  />
+                  <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
+                    <span className="ltr:inline rtl:hidden">
+                      <ArrowRight
+                        className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                        aria-hidden="true"
+                      />
+                    </span>
+                    <span className="ltr:hidden rtl:inline">
+                      <ArrowRight
+                        className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                        aria-hidden="true"
+                      />
+                    </span>
+                  </span>
                 </Button>
               </Link>
             </motion.div>

@@ -15,7 +15,6 @@ export default function ClientsSection() {
   const clientLogos = getClientLogos(t);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const [logoCurrentIndex, setLogoCurrentIndex] = useState(0);
   const [triggerAnimation, setTriggerAnimation] = useState(0);
   const [entryDirection, setEntryDirection] = useState<"left" | "right">(
     "right"
