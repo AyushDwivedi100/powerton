@@ -303,8 +303,7 @@ export default function ProductGroupDynamic() {
                           </td>
                           <td className="px-6 py-4 text-sm text-muted-foreground">
                             <span data-testid={`text-type-${product.id}`}>
-                              {product.specs.type ||
-                                t("products-data:industrialProduct")}
+                              {product.specs.type || groupTitle}
                             </span>
                           </td>
                           <td className="px-6 py-4 text-sm">
