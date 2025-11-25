@@ -654,6 +654,9 @@ export default function Header() {
                         }`}
                         onPointerEnter={handleProductsDropdownEnter}
                         onPointerLeave={handleProductsDropdownLeave}
+                        onClick={() =>
+                          setIsProductsDropdownOpen(!isProductsDropdownOpen)
+                        }
                       >
                         <Link href="/products">
                           {t("navigation:dropdowns.products", "Products")}
