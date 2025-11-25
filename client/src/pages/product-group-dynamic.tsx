@@ -271,9 +271,6 @@ export default function ProductGroupDynamic() {
                           {t("products:table.model")}
                         </th>
                         <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">
-                          {t("products:table.type")}
-                        </th>
-                        <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">
                           {t("products:table.actions")}
                         </th>
                       </tr>
@@ -299,11 +296,6 @@ export default function ProductGroupDynamic() {
                               data-testid={`text-model-${product.id}`}
                             >
                               {product.specs.model || product.id}
-                            </span>
-                          </td>
-                          <td className="px-6 py-4 text-sm text-muted-foreground">
-                            <span data-testid={`text-type-${product.id}`}>
-                              {product.specs.type || groupTitle}
                             </span>
                           </td>
                           <td className="px-6 py-4 text-sm">
