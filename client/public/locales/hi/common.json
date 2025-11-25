@@ -771,7 +771,8 @@
       "productNavigation": "उत्पाद नेविगेशन",
       "viewProductOf": "{{current}} का उत्पाद {{total}} देखें",
       "whatsappUs": "{{phone}} पर व्हाट्सएप पर संदेश भेजें",
-      "openStockSidebar": "उत्पादों को देखने के लिए उपलब्ध स्टॉक साइडबार खोलें"
+      "openStockSidebar": "उत्पादों को देखने के लिए उपलब्ध स्टॉक साइडबार खोलें",
+      "clickViewStock": "उपलब्ध स्टॉक उत्पादों को देखने के लिए क्लिक करें"
     },
     "messages": {
       "whatsappGreeting": "नमस्ते! मैं आपके उत्पादों और सेवाओं में रुचि रखता हूँ।"
@@ -786,13 +787,15 @@
       "availableStock": "उपलब्ध स्टॉक",
       "inStock": "स्टॉक में",
       "productsReady": "{{count}} प्रीमियम उत्पाद भेजने के लिए तैयार हैं",
+      "productCounter": "उत्पाद {{current}} में से {{total}}",
       "contactUs": "संपर्क करें",
       "directCall": "सीधा कॉल",
       "whatsapp": "व्हाट्सएप",
       "sameDayDispatch": "उसी दिन प्रेषण",
       "isoCertified": "आईएसओ प्रमाणित",
       "newStock": "नया स्टॉक",
-      "viewProducts": "उत्पाद देखें"
+      "viewProducts": "उत्पाद देखें",
+      "whatsappMessage": "नमस्ते, मैं आपके प्रीमियम उत्पादों में रुचि रखता हूँ"
     }
   },
   "months": {

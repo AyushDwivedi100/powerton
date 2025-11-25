@@ -78,8 +78,9 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
   };
 
   const handleWhatsApp = () => {
+    const message = encodeURIComponent(t("common:ui.stockAlert.whatsappMessage"));
     window.open(
-      "https://wa.me/919462771662?text=Hi, I'm interested in your premium products",
+      `https://wa.me/919462771662?text=${message}`,
       "_blank",
     );
   };
@@ -224,7 +225,7 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
                         {currentProduct.title}
                       </h3>
                       <p className="text-xs text-muted-foreground mt-1">
-                        Product {currentIndex + 1} of {stockProducts.length}
+                        {t("common:ui.stockAlert.productCounter", { current: currentIndex + 1, total: stockProducts.length })}
                       </p>
                     </div>
                   </div>

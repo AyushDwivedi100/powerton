@@ -787,13 +787,15 @@
       "availableStock": "Hisa Inayopatikana",
       "inStock": "Inapatikana",
       "productsReady": "{{count}} bidhaa bora tayari kwa usafirishaji",
+      "productCounter": "Bidhaa {{current}} kati ya {{total}}",
       "contactUs": "Wasiliana Nasi",
       "directCall": "Piga Simu Moja kwa Moja",
       "whatsapp": "WhatsApp",
       "sameDayDispatch": "Usafirishaji wa siku moja",
       "isoCertified": "Imethibitishwa na ISO",
       "newStock": "Hisa Mpya",
-      "viewProducts": "Angalia Bidhaa"
+      "viewProducts": "Angalia Bidhaa",
+      "whatsappMessage": "Halo, ninavutiwa na bidhaa zako bora"
     }
   },
   "months": {

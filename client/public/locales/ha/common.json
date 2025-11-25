@@ -789,13 +789,15 @@
       "availableStock": "Akwai Kaya",
       "inStock": "Akwai a Kaya",
       "productsReady": "{{count}} kayayyaki masu inganci a shirye don aikawa",
+      "productCounter": "Samfurin {{current}} na {{total}}",
       "contactUs": "Tuntube Mu",
       "directCall": "Kira Kai Tsaye",
       "whatsapp": "WhatsApp",
       "sameDayDispatch": "Aikawa a rana guda",
       "isoCertified": "ISO ta tabbatar",
       "newStock": "Sabuwar Kaya",
-      "viewProducts": "Duba Kayayyaki"
+      "viewProducts": "Duba Kayayyaki",
+      "whatsappMessage": "Sannu, ina sha'awar samfuran ku masu inganci"
     }
   },
   "months": {

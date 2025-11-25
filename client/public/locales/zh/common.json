@@ -788,13 +788,15 @@
       "availableStock": "有现货",
       "inStock": "有库存",
       "productsReady": "{{count}} 高级产品准备发货",
+      "productCounter": "产品 {{current}} / {{total}}",
       "contactUs": "联系我们",
       "directCall": "直接呼叫",
       "whatsapp": "WhatsApp",
       "sameDayDispatch": "当天发货",
       "isoCertified": "ISO 认证",
       "newStock": "新库存",
-      "viewProducts": "查看产品"
+      "viewProducts": "查看产品",
+      "whatsappMessage": "你好，我对贵公司的高级产品感兴趣"
     }
   },
   "months": {

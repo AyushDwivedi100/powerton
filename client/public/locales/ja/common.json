@@ -772,7 +772,8 @@
       "productNavigation": "製品ナビゲーション",
       "viewProductOf": "{{current}} / {{total}} 件目の製品を見る",
       "whatsappUs": "WhatsAppでメッセージを送信: {{phone}}",
-      "clickViewStock": "Click to view available stock products"
+      "openStockSidebar": "利用可能な在庫サイドバーを開いて製品を見る",
+      "clickViewStock": "クリックして利用可能な在庫製品を見る"
     },
     "messages": {
       "whatsappGreeting": "こんにちは！あなたの製品とサービスに興味があります。"
@@ -787,13 +788,15 @@
       "availableStock": "利用可能な在庫",
       "inStock": "在庫あり",
       "productsReady": "{{count}}個のプレミアム製品をすぐに発送できます",
+      "productCounter": "製品 {{current}} / {{total}}",
       "contactUs": "お問い合わせ",
       "directCall": "直接電話",
       "whatsapp": "WhatsApp",
       "sameDayDispatch": "当日発送",
       "isoCertified": "ISO認証済み",
       "newStock": "新しい在庫",
-      "viewProducts": "製品を見る"
+      "viewProducts": "製品を見る",
+      "whatsappMessage": "こんにちは、御社のプレミアム製品に興味があります"
     }
   },
   "months": {

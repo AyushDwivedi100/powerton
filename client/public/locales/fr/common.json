@@ -786,13 +786,15 @@
       "availableStock": "Stock disponible",
       "inStock": "En stock",
       "productsReady": "{{count}} produits premium prêts à être expédiés",
+      "productCounter": "Produit {{current}} sur {{total}}",
       "contactUs": "Contactez-nous",
       "directCall": "Appel direct",
       "whatsapp": "WhatsApp",
       "sameDayDispatch": "Expédition le jour même",
       "isoCertified": "Certifié ISO",
       "newStock": "Nouveau stock",
-      "viewProducts": "Voir les produits"
+      "viewProducts": "Voir les produits",
+      "whatsappMessage": "Bonjour, je suis intéressé par vos produits premium"
     }
   },
   "months": {

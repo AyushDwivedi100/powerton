@@ -771,7 +771,8 @@
       "productNavigation": "Навигация по продуктам",
       "viewProductOf": "Посмотреть продукт {{current}} из {{total}}",
       "whatsappUs": "Напишите нам в WhatsApp по номеру {{phone}}",
-      "openStockSidebar": "Открыть боковую панель доступных товаров на складе для просмотра продуктов"
+      "openStockSidebar": "Открыть боковую панель доступных товаров на складе для просмотра продуктов",
+      "clickViewStock": "Нажмите, чтобы просмотреть доступные товары на складе"
     },
     "messages": {
       "whatsappGreeting": "Здравствуйте! Я заинтересован в ваших продуктах и услугах."
@@ -786,13 +787,15 @@
       "availableStock": "Доступный товар",
       "inStock": "В наличии",
       "productsReady": "{{count}} премиум-товаров готовы к отправке",
+      "productCounter": "Товар {{current}} из {{total}}",
       "contactUs": "Связаться с нами",
       "directCall": "Прямой звонок",
       "whatsapp": "WhatsApp",
       "sameDayDispatch": "Отправка в тот же день",
       "isoCertified": "Сертификация ISO",
       "newStock": "Новый товар",
-      "viewProducts": "Посмотреть товары"
+      "viewProducts": "Посмотреть товары",
+      "whatsappMessage": "Здравствуйте, мне интересны ваши премиум-товары"
     }
   },
   "months": {

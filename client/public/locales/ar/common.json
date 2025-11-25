@@ -788,13 +788,15 @@
       "availableStock": "المخزون المتاح",
       "inStock": "في المخزن",
       "productsReady": "{{count}} منتجات متميزة جاهزة للإرسال",
+      "productCounter": "المنتج {{current}} من {{total}}",
       "contactUs": "اتصل بنا",
       "directCall": "مكالمة مباشرة",
       "whatsapp": "واتساب",
       "sameDayDispatch": "إرسال في نفس اليوم",
       "isoCertified": "حاصلة على شهادة ISO",
       "newStock": "مخزون جديد",
-      "viewProducts": "عرض المنتجات"
+      "viewProducts": "عرض المنتجات",
+      "whatsappMessage": "مرحباً، أنا مهتم بمنتجاتكم المتميزة"
     }
   },
   "months": {
