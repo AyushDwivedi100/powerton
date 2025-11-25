@@ -2195,7 +2195,8 @@ export const getParentCategoryBySubcategoryKey = (
     "heating-elements-appliances": "electrical-accessories",
     "contactors-relays": "electrical-accessories",
     "transformers-power-devices": "electrical-accessories",
-    "led-lighting": "electrical-accessories",    
+    "led-lighting": "electrical-accessories",
+    "industrial-lighting": "electrical-accessories",    
 
     // Solar Products
     "solar-panels": "solar-products",
@@ -2259,6 +2260,7 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "contactors-relays": "contactors-relays",
     "transformers-power-devices": "transformers-power-devices",
     "led-lighting": "led-lighting",
+    "industrial-lighting": "industrial-lighting",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",
     plcs: "plcs",

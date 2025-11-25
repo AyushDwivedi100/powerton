@@ -1,6 +1,36 @@
 # Powerton Engineering Website - Progress Tracker
 
-## Current Session - Header Navigation Fix (November 25, 2025 - 07:50 UTC)
+## Current Session - Product URL Structure Fix (November 25, 2025 - 08:55 UTC)
+
+### 🎯 Task: Fix Product Group URLs Missing Parent Category Slug
+- [x] Identified issue: Product group URLs generating `/products//subcategory/group` instead of `/products/parent/subcategory/group`
+- [x] Root cause: `industrial-lighting` subcategory missing from `getParentCategoryBySubcategoryKey()` mapping
+- [x] Added mapping: `"industrial-lighting": "electrical-accessories"` in both functions
+- [x] Added to `getSubcategoryKeyBySlug()` mapping as well for consistency
+- [x] Tested: Application running successfully with correct URL structure
+- [x] Fix verified: URLs now generate properly with parent category slug
+
+### ✅ Fix Summary
+**Issue**: 
+- URLs like `/products//industrial-lighting/high-bay-lights-weatherproof` (double slash)
+- Should be: `/products/electrical-accessories/industrial-lighting/high-bay-lights-weatherproof`
+
+**Root Cause**: 
+- The `industrial-lighting` subcategory was not mapped in the parent category lookup functions
+- `getParentCategoryBySubcategoryKey()` was returning empty string for unmapped subcategories
+
+**Solution**:
+- Added `"industrial-lighting": "electrical-accessories"` to `getParentCategoryBySubcategoryKey()` mapping (line 2202)
+- Added `"industrial-lighting": "industrial-lighting"` to `getSubcategoryKeyBySlug()` mapping (line 2266)
+
+**Files Modified**: 
+- `client/src/data/products-sub-category-pages-data.ts`
+
+**Status**: ✅ FIXED
+
+---
+
+## Previous Session - Header Navigation Fix (November 25, 2025 - 07:50 UTC)
 
 ### 🎯 Task: Fix Product Navigation in Header
 - [x] Identified issue: Products dropdown wrapper missing onClick handler (unlike Services)
