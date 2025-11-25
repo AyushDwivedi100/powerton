@@ -34,7 +34,7 @@ const ProductDetailDynamic: React.FC = () => {
     groupSlug: string;
     slug: string;
   }>();
-  const { t } = useTranslation(["products", "common"]);
+  const { t } = useTranslation(["products", "common", "products-data"]);
   const productData = getProductDetailBySlug(slug!, t, groupSlug);
   useScrollAnimations();
 

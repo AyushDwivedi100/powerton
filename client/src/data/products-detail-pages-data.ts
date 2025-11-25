@@ -23519,11 +23519,13 @@ export const getProductDetailBySlug = (
       )
     : null;
 
-  // Transform specs into specifications array
+  // Transform specs into specifications array with translations
   const specifications = Object.entries(product.specs).map(([key, value]) => ({
-    label: key
-      .replace(/([A-Z])/g, " $1")
-      .replace(/^./, (str) => str.toUpperCase()),
+    label: t(`products-data:specFields.${key}`, {
+      defaultValue: key
+        .replace(/([A-Z])/g, " $1")
+        .replace(/^./, (str) => str.toUpperCase()),
+    }),
     value: value.toString(),
   }));
 
