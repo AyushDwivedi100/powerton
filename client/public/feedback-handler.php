@@ -31,12 +31,12 @@ if(isset($_POST['rating'])){
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'dharshit265@gmail.com';
-        $mail->Password = 'nfbvcjkehoxobapp';
+        $mail->Username = 'info.powerton@gmail.com';
+        $mail->Password = 'qlhyognuikudpdda';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        $mail->setFrom('dharshit265@gmail.com', 'Powerton Engineering');
+        $mail->setFrom('info.powerton@gmail.com', 'Powerton Engineering');
         $mail->addAddress('dharshit265@gmail.com', 'Dharshit');
         
         if($email !== 'Not provided' && filter_var($email, FILTER_VALIDATE_EMAIL)) {
