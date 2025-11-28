@@ -2255,7 +2255,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "samson-3241-globe-valve",
+    id: "samson-3241-pneumatic-globe",
     slug: "samson-3241-pneumatic-globe-valve",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "valves-actuators",
@@ -10560,7 +10560,7 @@ export const products: Product[] = [
 
   // ANALYZERS SUBCATEGORY PRODUCTS
   {
-    id: "analyzer-gas-chromatography-spectrometry",
+    id: "analyzer-gc-ms-spectrometry",
     slug: "analyzer-gas-chromatography-spectrometry",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
@@ -10590,7 +10590,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: "analyzer-liquid-ph-conductivity",
+    id: "analyzer-liquid-water-quality",
     slug: "analyzer-liquid-ph-conductivity",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
@@ -10610,7 +10610,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "analyzer-oxygen-carbon-dioxide",
+    id: "analyzer-o2-co2-combustion",
     slug: "analyzer-oxygen-carbon-dioxide",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
@@ -10641,7 +10641,7 @@ export const products: Product[] = [
 
   // PLCs SUBCATEGORY PRODUCTS
   {
-    id: "plc-siemens-simatic-s7-1200",
+    id: "plc-siemens-s7-1200-cpu",
     slug: "plc-siemens-simatic-s7-1200",
     categoryKey: "automation-control-systems",
     subcategoryKey: "plcs",
@@ -10662,7 +10662,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "plc-allen-bradley-compactlogix-5380",
+    id: "plc-ab-compactlogix-processor",
     slug: "plc-allen-bradley-compactlogix-5380",
     categoryKey: "automation-control-systems",
     subcategoryKey: "plcs",
@@ -10682,7 +10682,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "plc-schneider-electric-modicon-m580",
+    id: "plc-schneider-m580-controller",
     slug: "plc-schneider-electric-modicon-m580",
     categoryKey: "automation-control-systems",
     subcategoryKey: "plcs",
@@ -10764,7 +10764,7 @@ export const products: Product[] = [
 
   // SCADA SUBCATEGORY PRODUCTS
   {
-    id: "scada-siemens-wincc",
+    id: "scada-siemens-wincc-runtime",
     slug: "scada-siemens-wincc",
     categoryKey: "automation-control-systems",
     subcategoryKey: "scada",
@@ -10784,7 +10784,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "scada-ge-ifix",
+    id: "scada-ge-ifix-historian",
     slug: "scada-ge-ifix",
     categoryKey: "automation-control-systems",
     subcategoryKey: "scada",
@@ -10804,7 +10804,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "scada-wonderware-system-platform",
+    id: "scada-wonderware-intouch",
     slug: "scada-wonderware-system-platform",
     categoryKey: "automation-control-systems",
     subcategoryKey: "scada",
@@ -10886,7 +10886,7 @@ export const products: Product[] = [
 
   // DCS SUBCATEGORY PRODUCTS
   {
-    id: "dcs-abb-system-800xa",
+    id: "dcs-abb-800xa-controller",
     slug: "dcs-abb-system-800xa",
     categoryKey: "automation-control-systems",
     subcategoryKey: "dcs",
@@ -10906,7 +10906,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "dcs-emerson-deltav",
+    id: "dcs-emerson-deltav-controller",
     slug: "dcs-emerson-deltav",
     categoryKey: "automation-control-systems",
     subcategoryKey: "dcs",
@@ -10926,7 +10926,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "dcs-honeywell-experion-pks",
+    id: "dcs-honeywell-pks-controller",
     slug: "dcs-honeywell-experion-pks",
     categoryKey: "automation-control-systems",
     subcategoryKey: "dcs",
@@ -11008,7 +11008,7 @@ export const products: Product[] = [
 
   // HMI SUBCATEGORY PRODUCTS
   {
-    id: "hmi-panel-mount",
+    id: "hmi-panel-touch-display",
     slug: "hmi-panel-mount",
     categoryKey: "automation-control-systems",
     subcategoryKey: "hmi",
@@ -11028,7 +11028,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "hmi-operator-interface-station",
+    id: "hmi-operator-workstation",
     slug: "hmi-operator-interface-station",
     categoryKey: "automation-control-systems",
     subcategoryKey: "hmi",
@@ -11048,7 +11048,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "hmi-mobile",
+    id: "hmi-mobile-tablet",
     slug: "hmi-mobile",
     categoryKey: "automation-control-systems",
     subcategoryKey: "hmi",
@@ -11297,7 +11297,7 @@ export const products: Product[] = [
 
   // MULTIMETERS SUBCATEGORY PRODUCTS
   {
-    id: "multimeter-fluke-87v-industrial",
+    id: "multimeter-fluke-87v-dmm",
     slug: "multimeter-fluke-87v-industrial",
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "multimeters",
@@ -11327,7 +11327,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: "multimeter-keysight-u1272a-handheld",
+    id: "multimeter-keysight-u1272a-ip54",
     slug: "multimeter-keysight-u1272a-handheld",
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "multimeters",
@@ -11357,7 +11357,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: "multimeter-yokogawa-ty720-digital",
+    id: "multimeter-yokogawa-ty720-trms",
     slug: "multimeter-yokogawa-ty720-digital",
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "multimeters",
@@ -11734,7 +11734,7 @@ export const products: Product[] = [
 
   // Milliampere Source Meters
   {
-    id: "fluke-707-loop-calibrator",
+    id: "fluke-707-mA-calibrator",
     slug: "fluke-707-loop-calibrator",
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "multimeters",
@@ -11922,7 +11922,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "centrifugal-pump-multi-stage",
+    id: "centrifugal-pump-vertical-multistage",
     slug: "centrifugal-pump-multi-stage",
     categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "centrifugal-pumps",
@@ -11943,7 +11943,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "centrifugal-pump-chemical-process",
+    id: "centrifugal-pump-corrosion-resistant",
     slug: "centrifugal-pump-chemical-process",
     categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "centrifugal-pumps",
@@ -12030,7 +12030,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "heating-element-industrial-cartridge-band",
+    id: "heating-cartridge-band-heater",
     slug: "heating-element-industrial-cartridge-band",
     categoryKey: "electrical-components",
     subcategoryKey: "heating-elements-appliances",
@@ -12051,7 +12051,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "heating-electric-ovens-furnaces",
+    id: "heating-industrial-oven-furnace",
     slug: "heating-electric-ovens-furnaces",
     categoryKey: "electrical-components",
     subcategoryKey: "heating-elements-appliances",
@@ -12072,7 +12072,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "heating-heat-tracing-systems",
+    id: "heating-cable-tracing-system",
     slug: "heating-heat-tracing-systems",
     categoryKey: "electrical-components",
     subcategoryKey: "heating-elements-appliances",
@@ -18421,7 +18421,7 @@ export const products: Product[] = [
 
   // DIGITAL MULTIMETERS
   {
-    id: "fluke-87v-multimeter",
+    id: "fluke-87v-industrial-dmm",
     slug: "fluke-87v-industrial-multimeter",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "calibration-test-equipment",
