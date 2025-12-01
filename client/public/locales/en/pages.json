@@ -293,60 +293,110 @@
         "completed": "Completed"
       }
     },
+    "complexity": {
+      "advanced": "Advanced",
+      "intermediate": "Intermediate",
+      "basic": "Basic"
+    },
     "items": {
       "sikkim-spirit-bottling": {
         "title": "Bottling Plant Automation & Control System",
         "client": "Sikkim Spirit Pvt. Ltd.",
         "description": "Complete instrumentation installation with advanced HMI, PLC, and SCADA systems for automated bottling operations",
-        "location": "Sikkim"
+        "location": "Sikkim",
+        "results": {
+          "efficiency": "35% production efficiency improvement",
+          "accuracy": "99.5% filling accuracy achieved",
+          "uptime": "98% operational uptime"
+        }
       },
       "hindustan-cocacola-odisha": {
         "title": "Beverage Plant Installation & Commissioning",
         "client": "Hindustan Coca-Cola Beverage Pvt. Ltd.",
         "description": "Comprehensive installation and commissioning of electrical and instrumentation systems for large-scale beverage manufacturing facility",
-        "location": "Odisha"
+        "location": "Odisha",
+        "results": {
+          "timeline": "Completed on schedule",
+          "compliance": "100% safety standards met",
+          "reliability": "99.2% system reliability"
+        }
       },
       "iocl-solar-jasidih": {
         "title": "Solar Power Plant Electrical & Instrumentation",
         "client": "Indian Oil Corporation Limited (IOCL)",
         "description": "Complete electrical and instrumentation setup for solar power generation facility including solar panel installation and earthing systems",
-        "location": "Jasidih, Jharkhand"
+        "location": "Jasidih, Jharkhand",
+        "results": {
+          "capacity": "Multi-MW solar installation",
+          "safety": "Zero safety incidents",
+          "efficiency": "Optimal energy generation"
+        }
       },
       "dalmia-sugar-distillery": {
         "title": "Distillery Plant Electrical & Programming",
         "client": "Dalmia Sugar & Distillery",
         "description": "Advanced PLC programming and complete electrical & instrumentation solution for distillery operations",
-        "location": "Hardoi, Uttar Pradesh"
+        "location": "Hardoi, Uttar Pradesh",
+        "results": {
+          "automation": "90% process automation achieved",
+          "consistency": "Improved product consistency",
+          "efficiency": "25% efficiency improvement"
+        }
       },
       "bokaro-spirit-jharkhand": {
         "title": "Distillery Electrical & Instrumentation",
         "client": "Bokaro Spirit",
         "description": "Complete electrical and instrumentation package for distillery facility including power distribution and control systems",
-        "location": "Jharkhand"
+        "location": "Jharkhand",
+        "results": {
+          "reliability": "98% system uptime",
+          "safety": "Enhanced safety protocols",
+          "operations": "Streamlined operations"
+        }
       },
       "vanya-steel-turbine": {
         "title": "Turbine Electrical & Instrumentation Systems",
         "client": "Vanya Steel Pvt. Ltd.",
         "description": "Specialized electrical and instrumentation systems for industrial turbine operations in steel manufacturing",
-        "location": "Koppal, Karnataka"
+        "location": "Koppal, Karnataka",
+        "results": {
+          "performance": "Optimized turbine performance",
+          "monitoring": "Real-time condition monitoring",
+          "efficiency": "Improved power generation efficiency"
+        }
       },
       "reliance-ev-charging-meerut": {
         "title": "EV Charging Station Infrastructure",
         "client": "Reliance Industries Limited",
         "description": "End-to-end EV charging station setup including civil structure, electrical panel installation, and EV charging equipment integration",
-        "location": "Meerut, Uttar Pradesh"
+        "location": "Meerut, Uttar Pradesh",
+        "results": {
+          "capacity": "Multi-vehicle charging capability",
+          "efficiency": "Fast charging implementation",
+          "compliance": "All safety standards met"
+        }
       },
       "bk-builder-distillery-bihar": {
         "title": "Distillery Plant Electrical & Instrumentation",
         "client": "B.K. Builder",
         "description": "Comprehensive electrical and instrumentation solution for distillery plant operations",
-        "location": "Mokama, Patna, Bihar"
+        "location": "Mokama, Patna, Bihar",
+        "results": {
+          "commissioning": "Successful commissioning",
+          "safety": "Enhanced safety measures",
+          "reliability": "High system reliability"
+        }
       },
       "iit-bhubaneswar-stp": {
         "title": "Sewage Treatment Plant Automation",
         "client": "IIT Bhubaneswar",
         "description": "Advanced PLC-based automation system for sewage treatment plant with complete electrical and instrumentation setup",
-        "location": "Bhubaneswar, Odisha"
+        "location": "Bhubaneswar, Odisha",
+        "results": {
+          "automation": "Full process automation",
+          "efficiency": "Improved treatment efficiency",
+          "monitoring": "24/7 system monitoring"
+        }
       }
     },
     "technologies": {

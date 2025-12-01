@@ -361,9 +361,17 @@
       "title": "Switches & Indicators",
       "description": "Industrial switches and control equipment"
     },
+    "switches": {
+      "title": "Switches & Indicators",
+      "description": "Industrial switches, limit switches, and control indicators for process monitoring"
+    },
     "valves-actuators": {
       "title": "Valves & Actuators",
       "description": "Industrial valves and flow control systems"
+    },
+    "valves": {
+      "title": "Valves & Actuators",
+      "description": "Industrial control valves, actuators, and positioners for flow regulation"
     },
     "analyzers": {
       "title": "Analyzers",
