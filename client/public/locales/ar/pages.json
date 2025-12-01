@@ -293,12 +293,22 @@
         "completed": "مكتمل"
       }
     },
+    "complexity": {
+      "advanced": "متقدم",
+      "intermediate": "متوسط",
+      "basic": "أساسي"
+    },
     "items": {
       "sikkim-spirit-bottling": {
         "title": "نظام أتمتة ومراقبة مصنع التعبئة",
         "client": "Sikkim Spirit Pvt. Ltd.",
         "description": "تركيب كامل للأجهزة مع أنظمة HMI و PLC و SCADA المتقدمة لعمليات التعبئة الآلية",
-        "location": "سيكيم"
+        "location": "سيكيم",
+        "results": {
+          "efficiency": "تحسين كفاءة الإنتاج بنسبة 35٪",
+          "accuracy": "تحقيق دقة تعبئة بنسبة 99.5٪",
+          "uptime": "98٪ وقت تشغيل العمليات"
+        }
       },
       "hindustan-cocacola-odisha": {
         "title": "تركيب وتشغيل مصنع المشروبات",

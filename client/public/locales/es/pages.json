@@ -293,12 +293,22 @@
         "completed": "Completado"
       }
     },
+    "complexity": {
+      "advanced": "Avanzado",
+      "intermediate": "Intermedio",
+      "basic": "Básico"
+    },
     "items": {
       "sikkim-spirit-bottling": {
         "title": "Automatización de Planta de Embotellado y Sistema de Control",
         "client": "Sikkim Spirit Pvt. Ltd.",
         "description": "Instalación completa de instrumentación con sistemas avanzados HMI, PLC y SCADA para operaciones de embotellado automatizadas",
-        "location": "Sikkim"
+        "location": "Sikkim",
+        "results": {
+          "efficiency": "35% production efficiency improvement",
+          "accuracy": "99.5% filling accuracy achieved",
+          "uptime": "98% operational uptime"
+        }
       },
       "hindustan-cocacola-odisha": {
         "title": "Instalación y Puesta en Marcha de Planta de Bebidas",

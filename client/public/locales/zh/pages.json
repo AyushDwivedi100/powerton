@@ -293,12 +293,22 @@
         "completed": "已完成"
       }
     },
+    "complexity": {
+      "advanced": "高级",
+      "intermediate": "中级",
+      "basic": "基础"
+    },
     "items": {
       "sikkim-spirit-bottling": {
         "title": "灌装厂自动化和控制系统",
         "client": "Sikkim Spirit Pvt. Ltd.",
         "description": "完整的仪器仪表安装，具有先进的HMI、PLC和SCADA系统，用于自动化灌装操作",
-        "location": "锡金"
+        "location": "锡金",
+        "results": {
+          "efficiency": "生产效率提高 35%",
+          "accuracy": "实现 99.5% 的灌装精度",
+          "uptime": "98% 的运营正常运行时间"
+        }
       },
       "hindustan-cocacola-odisha": {
         "title": "饮料厂安装与调试",

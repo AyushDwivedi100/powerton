@@ -293,12 +293,22 @@
         "completed": "Imekamilika"
       }
     },
+    "complexity": {
+      "advanced": "Kina",
+      "intermediate": "Kati",
+      "basic": "Msingi"
+    },
     "items": {
       "sikkim-spirit-bottling": {
         "title": "Otomatiki ya Kiwanda cha Chupa na Mfumo wa Kudhibiti",
         "client": "Sikkim Spirit Pvt. Ltd.",
         "description": "Ufungaji kamili wa instrumentation na HMI ya hali ya juu, PLC, na mifumo ya SCADA kwa shughuli za uchapishaji chupa kiotomatiki",
-        "location": "Sikkim"
+        "location": "Sikkim",
+        "results": {
+          "efficiency": "Uboreshaji wa ufanisi wa uzalishaji wa 35%",
+          "accuracy": "Usahihi wa ujazaji wa 99.5% umepatikana",
+          "uptime": "Muda wa kufanya kazi wa 98%"
+        }
       },
       "hindustan-cocacola-odisha": {
         "title": "Ufungaji na Utekelezaji wa Mitambo ya Vinywaji",

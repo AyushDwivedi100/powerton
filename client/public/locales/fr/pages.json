@@ -293,12 +293,22 @@
         "completed": "Terminé"
       }
     },
+    "complexity": {
+      "advanced": "Avancé",
+      "intermediate": "Intermédiaire",
+      "basic": "Basique"
+    },
     "items": {
       "sikkim-spirit-bottling": {
         "title": "Système d'automatisation et de contrôle d'une usine d'embouteillage",
         "client": "Sikkim Spirit Pvt. Ltd.",
         "description": "Installation complète d'instrumentation avec des systèmes HMI, PLC et SCADA avancés pour les opérations d'embouteillage automatisées",
-        "location": "Sikkim"
+        "location": "Sikkim",
+        "results": {
+          "efficiency": "Amélioration de l'efficacité de la production de 35 %",
+          "accuracy": "Précision de remplissage de 99,5 % atteinte",
+          "uptime": "Temps de disponibilité opérationnel de 98 %"
+        }
       },
       "hindustan-cocacola-odisha": {
         "title": "Installation et mise en service d'une usine de boissons",

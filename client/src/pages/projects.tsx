@@ -30,6 +30,7 @@ import {
   Cog,
   Factory,
   ArrowRight,
+  ArrowDown,
   Download,
   Award,
   Target,
@@ -288,9 +289,9 @@ export default function Projects() {
               )}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
-              <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-6 py-3 rounded-lg font-semibold transition-colors">
-                <Download className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
-                {t("common:buttons.downloadPortfolio")}
+              <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-6 py-3 rounded-lg font-semibold transition-colors" onClick={() => document.getElementById('projects-section')?.scrollIntoView({ behavior: 'smooth' })}>
+                <ArrowDown className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
+                Browse Our Projects
               </Button>
               <Link href="/contact" className="mobile-full">
                 <Button
@@ -336,7 +337,7 @@ export default function Projects() {
       </section>
 
       {/* Main Content with Tabs */}
-      <section className="py-12 bg-background">
+      <section id="projects-section" className="py-12 bg-background">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">

@@ -2283,6 +2283,26 @@
       "title": "Relay ɗin Sa ido kan Ƙarfin Lantarki",
       "description": "Relay ɗin sa ido kan ƙarfin lantarki mai matakai uku don kariya daga sama/ƙarƙashin ƙarfin lantarki, gazawar mataki, da kurakuran jerin matakai. Daidaitaccen matakan tafiya tare da saitunan jinkirin lokaci don kariya mai mahimmanci."
     },
+    "overcurrentProtectionRelays": {
+      "title": "Relay ɗin Kariyar Ƙarfin Wucewa",
+      "description": "Relay ɗin kariyar ƙarfin wucewa na dijital mai ci gaba don kariyar hanyar sadarwa ta lantarki. Yana fasalta abubuwan da ke da alaƙa da waɗanda ba su da alaƙa, kariyar kuskuren ƙasa, ayyukan sake rufewa, da sadarwa ta IEC 61850 don cikakken mai ciyarwa da kariyar mota a cikin tsarin watsawa da rarrabawa."
+    },
+    "differentialProtectionRelays": {
+      "title": "Relay ɗin Kariyar Bambanci",
+      "description": "Relay ɗin kariyar bambanci mai sauri don transfoma, janareta, busbars, da motoci. Yin amfani da ƙa'idodin kwatanta na yanzu don gano kurakurai na ciki yayin da yake ci gaba da kwanciyar hankali yayin kurakurai na waje da yanayin gaggawa. Siffofin sun haɗa da hana haɗin gwiwa, gano cikawar CT, da cikakkun ka'idojin sadarwa."
+    },
+    "distanceProtectionRelays": {
+      "title": "Relay ɗin Kariyar Nisa",
+      "description": "Relay ɗin kariyar nisa mai lamba don kariyar layin watsawa. Kariyar yanki da yawa tare da quadrilateral ko halayen mho, katange jujjuyawar wuta, ayyukan gano kuskure, da sadarwa mai ci gaba don tsarin kariyar matuƙi. Muhimmi don kariyar hanyar sadarwa mai girma."
+    },
+    "voltageProtectionRelays": {
+      "title": "Relay ɗin Kariyar Ƙarfin Wuta",
+      "description": "Relay ɗin kariyar ƙarfin lantarki da aka keɓe don kariyar ƙarfin lantarki, ƙarancin ƙarfin lantarki, da tsaka-tsakin ƙarfin lantarki. Matakan ɗagawa masu daidaitawa, saitunan jinkiri na lokaci da yawa, da haɗin kai tare da tsarin daidaita kariya don janareta, transfoma, da aikace-aikacen ciyarwa."
+    },
+    "transformerProtectionRelays": {
+      "title": "Relay ɗin Kariyar Transfoma",
+      "description": "Cikakkun relay ɗin kariyar transfoma tare da bambanci, ƙuntataccen kuskuren ƙasa, kariyar wuce gona da iri, da kariyar wuce gona da iri. Siffofin ci gaba ciki har da hana gaggawa, daidaita cikawar CT, sa ido kan mai canza famfo, da kariyar wuce gona da iri don transfoma mai ƙarfi na kowane girma."
+    },
     "currentTransformers": {
       "title": "Masu Sauya Yanzu (CT)",
       "description": "Masu sauya yanzu don aikace-aikacen auna da kariya. Akwai su a cikin nau'ikan rabo tare da aji 0.5 da 1.0 daidaito don ma'auni, da 5P/10P aji don da'irori masu kariya."

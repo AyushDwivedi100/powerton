@@ -2283,6 +2283,26 @@
       "title": "Relay ya Ufuatiliaji wa Voltage",
       "description": "Relays za ufuatiliaji wa voltage ya awamu tatu kwa ulinzi dhidi ya voltage ya juu/chini, kushindwa kwa awamu, na makosa ya mlolongo wa awamu. Viwango vinavyoweza kubadilishwa na mipangilio ya kuchelewesha muda kwa ulinzi wa vifaa nyeti."
     },
+    "overcurrentProtectionRelays": {
+      "title": "Relays za Ulinzi wa Overcurrent",
+      "description": "Relays za juu za ulinzi wa overcurrent ya dijitali kwa ulinzi wa mtandao wa umeme. Inaangazia vipengele vya mwelekeo na visivyo vya mwelekeo wa overcurrent, ulinzi wa makosa ya ardhi, kazi za kufunga tena, na mawasiliano ya IEC 61850 kwa ulinzi kamili wa feeder na motor katika mifumo ya usambazaji na usambazaji."
+    },
+    "differentialProtectionRelays": {
+      "title": "Relays za Ulinzi Tofauti",
+      "description": "Relays za ulinzi tofauti za kasi ya juu kwa transfoma, jenereta, busbars, na motors. Kutumia kanuni za ulinganisho wa sasa kugundua makosa ya ndani huku zikisalia kuwa thabiti wakati wa makosa ya nje na hali za kuingia. Vipengele ni pamoja na kizuizi cha harmonic, ugunduzi wa kueneza CT, na itifaki kamili za mawasiliano."
+    },
+    "distanceProtectionRelays": {
+      "title": "Relays za Ulinzi wa Umbali",
+      "description": "Relays za ulinzi wa umbali wa nambari kwa ulinzi wa njia ya maambukizi. Ulinzi wa eneo nyingi na sifa za quadrilateral au mho, kuzuia mabadiliko ya nguvu, kazi za locator ya makosa, na mawasiliano ya hali ya juu kwa miradi ya ulinzi wa majaribio. Muhimu kwa ulinzi wa mtandao wa voltage ya juu."
+    },
+    "voltageProtectionRelays": {
+      "title": "Relays za Ulinzi wa Voltage",
+      "description": "Relays za ulinzi wa voltage zilizojitolea kwa overvoltage, undervoltage, na ulinzi wa uhamishaji wa voltage ya neutral. Viwango vya kuchukua vinavyoweza kubadilishwa, mipangilio mingi ya kuchelewesha muda, na ujumuishaji na miradi ya uratibu wa ulinzi kwa matumizi ya jenereta, transfoma, na feeder."
+    },
+    "transformerProtectionRelays": {
+      "title": "Relays za Ulinzi wa Transfoma",
+      "description": "Relays kamili za ulinzi wa transfoma na tofauti, makosa ya ardhi yaliyozuiliwa, overcurrent, na ulinzi wa overfluxing. Vipengele vya hali ya juu ikiwa ni pamoja na kizuizi cha inrush, utulivu wa kueneza CT, ufuatiliaji wa bomba, na ulinzi wa upakiaji wa mafuta kwa transfoma za nguvu za ukubwa wote."
+    },
     "currentTransformers": {
       "title": "Transfoma za Sasa (CT)",
       "description": "Transfoma za sasa za usahihi kwa matumizi ya kupima na ulinzi. Inapatikana katika uwiano mbalimbali na usahihi wa darasa la 0.5 na 1.0 kwa kipimo, na darasa la 5P/10P kwa mizunguko ya ulinzi."

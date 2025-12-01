@@ -293,12 +293,22 @@
         "completed": "Concluído"
       }
     },
+    "complexity": {
+      "advanced": "Avançado",
+      "intermediate": "Intermediário",
+      "basic": "Básico"
+    },
     "items": {
       "sikkim-spirit-bottling": {
         "title": "Sistema de Automação e Controle de Planta de Engarrafamento",
         "client": "Sikkim Spirit Pvt. Ltd.",
         "description": "Instalação completa de instrumentação com sistemas avançados HMI, PLC e SCADA para operações de engarrafamento automatizadas",
-        "location": "Sikkim"
+        "location": "Sikkim",
+        "results": {
+          "efficiency": "Melhoria de 35% na eficiência da produção",
+          "accuracy": "Precisão de enchimento de 99,5% alcançada",
+          "uptime": "98% de tempo de atividade operacional"
+        }
       },
       "hindustan-cocacola-odisha": {
         "title": "Instalação e Comissionamento de Planta de Bebidas",

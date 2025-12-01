@@ -293,12 +293,22 @@
         "completed": "完了"
       }
     },
+    "complexity": {
+      "advanced": "高度",
+      "intermediate": "中級",
+      "basic": "基本"
+    },
     "items": {
       "sikkim-spirit-bottling": {
         "title": "ボトリングプラントの自動化および制御システム",
         "client": "Sikkim Spirit Pvt. Ltd.",
         "description": "自動化されたボトリング操作のための高度なHMI、PLC、およびSCADAシステムを備えた完全な計装設置",
-        "location": "シッキム"
+        "location": "シッキム",
+        "results": {
+          "efficiency": "生産効率が35％向上",
+          "accuracy": "99.5％の充填精度を達成",
+          "uptime": "98％の稼働率"
+        }
       },
       "hindustan-cocacola-odisha": {
         "title": "飲料プラントの設置と試運転",

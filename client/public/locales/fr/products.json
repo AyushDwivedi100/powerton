@@ -2283,6 +2283,26 @@
       "title": "Relais de surveillance de tension",
       "description": "Relais de surveillance de tension triphasés pour la protection contre les surtensions/sous-tensions, la défaillance de phase et les défauts de séquence de phase. Niveaux de déclenchement réglables avec des réglages de temporisation pour la protection des équipements sensibles."
     },
+    "overcurrentProtectionRelays": {
+      "title": "Relais de protection contre les surintensités",
+      "description": "Relais numériques avancés de protection contre les surintensités pour la protection des réseaux électriques. Comprend des éléments de surintensité directionnels et non directionnels, une protection contre les défauts à la terre, des fonctions de réenclenchement et une communication CEI 61850 pour une protection complète des départs et des moteurs dans les systèmes de transport et de distribution."
+    },
+    "differentialProtectionRelays": {
+      "title": "Relais de protection différentielle",
+      "description": "Relais de protection différentielle haute vitesse pour les transformateurs, les générateurs, les barres omnibus et les moteurs. Utilisation des principes de comparaison de courant pour détecter les défauts internes tout en restant stable pendant les défauts externes et les conditions d'appel de courant. Les caractéristiques comprennent la retenue harmonique, la détection de saturation de TC et des protocoles de communication complets."
+    },
+    "distanceProtectionRelays": {
+      "title": "Relais de protection de distance",
+      "description": "Relais numériques de protection de distance pour la protection des lignes de transport. Protection multizone avec caractéristiques quadrilatérales ou mho, blocage d'oscillation de puissance, fonctions de localisation de défauts et communication avancée pour les schémas de protection pilote. Essentiel pour la protection des réseaux haute tension."
+    },
+    "voltageProtectionRelays": {
+      "title": "Relais de protection de tension",
+      "description": "Relais de protection de tension dédiés à la protection contre les surtensions, les sous-tensions et le déplacement de tension neutre. Niveaux de déclenchement réglables, plusieurs réglages de temporisation et intégration aux schémas de coordination de la protection pour les applications de générateur, de transformateur et de départ."
+    },
+    "transformerProtectionRelays": {
+      "title": "Relais de protection de transformateur",
+      "description": "Relais de protection de transformateur complets avec protection différentielle, de défaut à la terre restreint, de surintensité et de surflux. Fonctionnalités avancées, notamment la retenue d'appel de courant, la stabilisation de la saturation du TC, la surveillance du changeur de prises et la protection contre les surcharges thermiques pour les transformateurs de puissance de toutes tailles."
+    },
     "currentTransformers": {
       "title": "Transformateurs de courant (TC)",
       "description": "Transformateurs de courant de précision pour les applications de mesure et de protection. Disponibles en différents rapports avec une précision de classe 0,5 et 1,0 pour la mesure, et une classe 5P/10P pour les circuits de protection."

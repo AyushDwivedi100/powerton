@@ -294,12 +294,22 @@
         "completed": "An Kammala"
       }
     },
+    "complexity": {
+      "advanced": "Na ci gaba",
+      "intermediate": "Matsakaici",
+      "basic": "Na asali"
+    },
     "items": {
       "sikkim-spirit-bottling": {
         "title": "Sarrafa Shuka Bottling & Tsarin Kula",
         "client": "Sikkim Spirit Pvt. Ltd.",
         "description": "Cikakken shigarwa na kayan aiki tare da HMI mai ci gaba, PLC, da tsarin SCADA don ayyukan kwalba ta atomatik",
-        "location": "Sikkim"
+        "location": "Sikkim",
+        "results": {
+          "efficiency": "35% inganta yawan aiki",
+          "accuracy": "An cimma daidaiton cikawa na 99.5%",
+          "uptime": "98% lokacin aiki"
+        }
       },
       "hindustan-cocacola-odisha": {
         "title": "Shigarwa & Aikin Shuka Abin Sha",

@@ -2283,6 +2283,26 @@
       "title": "Relé de Monitoreo de Voltaje",
       "description": "Relés de monitoreo de voltaje trifásico para protección contra sobre/bajo voltaje, falla de fase y fallas de secuencia de fase. Niveles de disparo ajustables con ajustes de retardo de tiempo para la protección de equipos sensibles."
     },
+    "overcurrentProtectionRelays": {
+      "title": "Relés de Protección de Sobrecorriente",
+      "description": "Relés de protección de sobrecorriente digitales avanzados para la protección de redes eléctricas. Cuenta con elementos de sobrecorriente direccionales y no direccionales, protección contra fallas a tierra, funciones de reconexión y comunicación IEC 61850 para una protección integral de alimentadores y motores en sistemas de transmisión y distribución."
+    },
+    "differentialProtectionRelays": {
+      "title": "Relés de Protección Diferencial",
+      "description": "Relés de protección diferencial de alta velocidad para transformadores, generadores, barras colectoras y motores. Utiliza principios de comparación de corriente para detectar fallas internas mientras permanece estable durante fallas externas y condiciones de irrupción. Las características incluyen restricción armónica, detección de saturación de TC y protocolos de comunicación integrales."
+    },
+    "distanceProtectionRelays": {
+      "title": "Relés de Protección de Distancia",
+      "description": "Relés de protección de distancia numéricos para la protección de líneas de transmisión. Protección de zonas múltiples con características cuadriláteras o mho, bloqueo de oscilación de potencia, funciones de localización de fallas y comunicación avanzada para esquemas de protección piloto. Esencial para la protección de redes de alto voltaje."
+    },
+    "voltageProtectionRelays": {
+      "title": "Relés de Protección de Voltaje",
+      "description": "Relés de protección de voltaje dedicados para protección contra sobrevoltaje, bajo voltaje y desplazamiento de voltaje neutro. Niveles de captación ajustables, múltiples configuraciones de retardo de tiempo e integración con esquemas de coordinación de protección para aplicaciones de generadores, transformadores y alimentadores."
+    },
+    "transformerProtectionRelays": {
+      "title": "Relés de Protección de Transformadores",
+      "description": "Relés de protección integral de transformadores con protección diferencial, de falla a tierra restringida, de sobrecorriente y de sobreflujo. Características avanzadas que incluyen restricción de irrupción, estabilización de saturación de TC, monitoreo de cambiador de tomas y protección contra sobrecarga térmica para transformadores de potencia de todos los tamaños."
+    },
     "currentTransformers": {
       "title": "Transformadores de Corriente (TC)",
       "description": "Transformadores de corriente de precisión para aplicaciones de medición y protección. Disponible en varias relaciones con precisión de clase 0.5 y 1.0 para medición, y clase 5P/10P para circuitos de protección."

@@ -91,54 +91,29 @@
     "powerDistribution": {
       "title": "配电电缆",
       "description": "用于电力传输和分配系统的高压电缆",
-      "features": [
-        "XLPE绝缘",
-        "铠装结构",
-        "防火",
-        "高额定电流"
-      ]
+      "features": ["XLPE绝缘", "铠装结构", "防火", "高额定电流"]
     },
     "communication": {
       "title": "通信电缆",
       "description": "用于工业通信网络的数据传输电缆",
-      "features": [
-        "Cat5e/Cat6标准",
-        "光纤选项",
-        "工业级",
-        "电磁干扰屏蔽"
-      ]
+      "features": ["Cat5e/Cat6标准", "光纤选项", "工业级", "电磁干扰屏蔽"]
     }
   },
   "instrumentationCables": {
     "shieldedPair": {
       "title": "屏蔽对线电缆",
       "description": "用于仪器仪表和控制应用的低压屏蔽电缆",
-      "features": [
-        "屏蔽结构",
-        "防潮",
-        "温度等级",
-        "多对配置"
-      ]
+      "features": ["屏蔽结构", "防潮", "温度等级", "多对配置"]
     },
     "thermocouple": {
       "title": "热电偶延伸电缆",
       "description": "用于热电偶温度测量的专用电缆",
-      "features": [
-        "补偿结构",
-        "高温等级",
-        "彩色编码绝缘",
-        "低热电动势"
-      ]
+      "features": ["补偿结构", "高温等级", "彩色编码绝缘", "低热电动势"]
     },
     "rtd": {
       "title": "RTD传感器电缆",
       "description": "用于RTD温度传感器和变送器的精密电缆",
-      "features": [
-        "低电阻",
-        "双绞线设计",
-        "优异的抗噪性",
-        "灵活安装"
-      ]
+      "features": ["低电阻", "双绞线设计", "优异的抗噪性", "灵活安装"]
     }
   },
   "circuitBreakers": {
@@ -308,44 +283,24 @@
     "industrialFuses": {
       "title": "工业保险丝",
       "description": "用于电气设备保护的高速保险丝",
-      "features": [
-        "快速响应",
-        "延时选项",
-        "高额定电压",
-        "陶瓷体结构"
-      ]
+      "features": ["快速响应", "延时选项", "高额定电压", "陶瓷体结构"]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
       "title": "工业接线端子",
       "description": "用于工业线路连接的安全接线端子",
-      "features": [
-        "弹簧夹紧技术",
-        "螺钉式连接",
-        "DIN导轨安装",
-        "多种尺寸选择"
-      ]
+      "features": ["弹簧夹紧技术", "螺钉式连接", "DIN导轨安装", "多种尺寸选择"]
     },
     "industrialConnectors": {
       "title": "工业连接器",
       "description": "适用于苛刻工业应用的重型连接器",
-      "features": [
-        "IP67防护等级",
-        "锁定机制",
-        "多针配置",
-        "电缆密封套集成"
-      ]
+      "features": ["IP67防护等级", "锁定机制", "多针配置", "电缆密封套集成"]
     },
     "signalConnectors": {
       "title": "信号连接器",
       "description": "用于仪器仪表和信号传输的精密连接器",
-      "features": [
-        "低噪声设计",
-        "屏蔽结构",
-        "微型尺寸",
-        "高可靠性性能"
-      ]
+      "features": ["低噪声设计", "屏蔽结构", "微型尺寸", "高可靠性性能"]
     }
   },
   "subcategories": {
@@ -1017,32 +972,17 @@
       "panelMount": {
         "name": "面板安装 HMI 显示器",
         "description": "用于机器界面的工业触摸屏显示器",
-        "features": [
-          "触摸界面",
-          "工业等级",
-          "多种尺寸",
-          "通信协议"
-        ]
+        "features": ["触摸界面", "工业等级", "多种尺寸", "通信协议"]
       },
       "operatorInterface": {
         "name": "操作员界面终端",
         "description": "适用于恶劣环境的坚固型操作员终端",
-        "features": [
-          "IP65/IP67 等级",
-          "不锈钢",
-          "薄膜键盘",
-          "背光显示"
-        ]
+        "features": ["IP65/IP67 等级", "不锈钢", "薄膜键盘", "背光显示"]
       },
       "mobile": {
         "name": "移动 HMI 解决方案",
         "description": "无线和移动人机界面",
-        "features": [
-          "无线连接",
-          "移动应用",
-          "远程访问",
-          "实时数据"
-        ]
+        "features": ["无线连接", "移动应用", "远程访问", "实时数据"]
       }
     },
     "cta": {
@@ -1769,13 +1709,7 @@
     "yokogawaPh": {
       "title": "横河 PH450G pH 传感器",
       "description": "带玻璃电极技术的工业 pH 传感器",
-      "features": [
-        "玻璃电极",
-        "双液接界",
-        "宽 pH 范围",
-        "高精度",
-        "耐压"
-      ]
+      "features": ["玻璃电极", "双液接界", "宽 pH 范围", "高精度", "耐压"]
     }
   },
   "transmitters": {
@@ -1902,7 +1836,7 @@
     },
     "rosemountWireless1420": {
       "title": "罗斯蒙特无线 1420 网关",
-      "description": "用于工业无线网络的无线网关",
+      "description": "":�于工业无线网络的无线网关",
       "features": [
         "Wireless HART 技术",
         "自组织网络",
@@ -2286,6 +2220,26 @@
     "voltageMonitoringRelay": {
       "title": "电压监控继电器",
       "description": "用于保护免受过压/欠压、缺相和相序故障的三相电压监控继电器。可调节跳闸电平，具有时间延迟设置，可实现敏感设备保护。"
+    },
+    "overcurrentProtectionRelays": {
+      "title": "过电流保护继电器",
+      "description": "用于电网保护的先进数字过电流保护继电器。具有定向和非定向过电流元件、接地故障保护、重合闸功能以及 IEC 61850 通信，可在输配电系统中实现全面的馈线和电机保护。"
+    },
+    "differentialProtectionRelays": {
+      "title": "差动保护继电器",
+      "description": "用于变压器、发电机、母线和电机的高速差动保护继电器。利用电流比较原理来检测内部故障，同时在外部故障和涌流情况下保持稳定。功能包括谐波抑制、CT 饱和检测和全面的通信协议。"
+    },
+    "distanceProtectionRelays": {
+      "title": "距离保护继电器",
+      "description": "用于输电线路保护的数字距离保护继电器。具有四边形或姆欧特性的多区域保护、功率摆动闭锁、故障定位器功能以及用于先导保护方案的先进通信。对于高压网络保护至关重要。"
+    },
+    "voltageProtectionRelays": {
+      "title": "电压保护继电器",
+      "description": "用于过压、欠压和中性点电压位移保护的专用电压保护继电器。可调节的启动电平、多个时间延迟设置以及与保护协调方案的集成，适用于发电机、变压器和馈线应用。"
+    },
+    "transformerProtectionRelays": {
+      "title": "变压器保护继电器",
+      "description": "全面的变压器保护继电器，具有差动、限制接地故障、过电流和过励磁保护。先进的功能包括涌流抑制、CT 饱和稳定、抽头切换器监控和热过载保护，适用于各种尺寸的电力变压器。"
     },
     "currentTransformers": {
       "title": "电流互感器 (CT)",
