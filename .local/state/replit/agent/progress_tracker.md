@@ -11,7 +11,9 @@
 
 ### ✅ Implementation Summary
 **Files Modified**:
-1. `client/public/locales/en/products.json` - Added missing `subcategories.switches` and `subcategories.valves` translations
+1. `client/public/locales/en/products.json` - Added:
+   - Missing `subcategories.switches` and `subcategories.valves` translations
+   - Missing `productGroups` translations for 5 protection relay types
 2. `client/public/locales/en/pages.json` - Added:
    - `projects.complexity` section with translations for "advanced", "intermediate", "basic"
    - `results` objects inside each project item containing project-specific result translations
@@ -19,11 +21,17 @@
 **Translation Keys Added**:
 - `products:subcategories.switches` (title + description)
 - `products:subcategories.valves` (title + description)
+- `products:productGroups.overcurrentProtectionRelays` (title + description)
+- `products:productGroups.differentialProtectionRelays` (title + description)
+- `products:productGroups.distanceProtectionRelays` (title + description)
+- `products:productGroups.voltageProtectionRelays` (title + description)
+- `products:productGroups.transformerProtectionRelays` (title + description)
 - `pages:projects.complexity.advanced/intermediate/basic`
 - `pages:projects.items.[1-9].results.*` (efficiency, accuracy, uptime, timeline, compliance, reliability, capacity, safety, automation, consistency, operations, performance, monitoring, commissioning)
 
 **Architect Review**: ✅ PASS
 - All translations align with frontend consumption patterns
+- Protection relay product groups now display proper names in header dropdown
 - No missing-key warnings in browser console
 - Implementation follows existing i18n patterns
 

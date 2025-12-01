@@ -2303,6 +2303,26 @@
       "title": "Voltage Monitoring Relay",
       "description": "Three-phase voltage monitoring relays for protection against over/under voltage, phase failure, and phase sequence faults. Adjustable trip levels with time delay settings for sensitive equipment protection."
     },
+    "overcurrentProtectionRelays": {
+      "title": "Overcurrent Protection Relays",
+      "description": "Advanced digital overcurrent protection relays for electrical network protection. Features directional and non-directional overcurrent elements, earth fault protection, reclosing functions, and IEC 61850 communication for comprehensive feeder and motor protection in transmission and distribution systems."
+    },
+    "differentialProtectionRelays": {
+      "title": "Differential Protection Relays",
+      "description": "High-speed differential protection relays for transformers, generators, busbars, and motors. Utilizing current comparison principles to detect internal faults while remaining stable during external faults and inrush conditions. Features include harmonic restraint, CT saturation detection, and comprehensive communication protocols."
+    },
+    "distanceProtectionRelays": {
+      "title": "Distance Protection Relays",
+      "description": "Numerical distance protection relays for transmission line protection. Multiple zone protection with quadrilateral or mho characteristics, power swing blocking, fault locator functions, and advanced communication for pilot protection schemes. Essential for high-voltage network protection."
+    },
+    "voltageProtectionRelays": {
+      "title": "Voltage Protection Relays",
+      "description": "Dedicated voltage protection relays for overvoltage, undervoltage, and neutral voltage displacement protection. Adjustable pickup levels, multiple time delay settings, and integration with protection coordination schemes for generator, transformer, and feeder applications."
+    },
+    "transformerProtectionRelays": {
+      "title": "Transformer Protection Relays",
+      "description": "Comprehensive transformer protection relays with differential, restricted earth fault, overcurrent, and overfluxing protection. Advanced features including inrush restraint, CT saturation stabilization, tap changer monitoring, and thermal overload protection for power transformers of all sizes."
+    },
     "currentTransformers": {
       "title": "Current Transformers (CT)",
       "description": "Precision current transformers for metering and protection applications. Available in various ratios with class 0.5 and 1.0 accuracy for measurement, and 5P/10P class for protection circuits."
