@@ -21852,7 +21852,7 @@ export const products: Product[] = [
   {
     id: "viking-495-internal-gear",
     slug: "viking-495-internal-gear-pump",
-    categoryKey: "pumps-valves",
+    categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "gear-pumps",
     typeKey: "internal-gear-pumps",
     image: "internal-gear-pump",
@@ -21880,7 +21880,7 @@ export const products: Product[] = [
   {
     id: "viking-universal-seal-internal",
     slug: "viking-universal-seal-internal-gear",
-    categoryKey: "pumps-valves",
+    categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "gear-pumps",
     typeKey: "internal-gear-pumps",
     image: "internal-gear-pump",
@@ -21910,7 +21910,7 @@ export const products: Product[] = [
   {
     id: "roper-3800-helical-gear",
     slug: "roper-3800-helical-gear-oilfield",
-    categoryKey: "pumps-valves",
+    categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "gear-pumps",
     typeKey: "internal-gear-pumps",
     image: "helical-gear-pump",
@@ -21938,7 +21938,7 @@ export const products: Product[] = [
   {
     id: "viking-ke-series-helical",
     slug: "viking-ke-series-helical-gear",
-    categoryKey: "pumps-valves",
+    categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "gear-pumps",
     typeKey: "internal-gear-pumps",
     image: "helical-gear-pump",
@@ -27539,7 +27539,7 @@ export const products: Product[] = [
   {
     id: "roper-3600-internal-gear",
     slug: "roper-3600-internal-gear-pump",
-    categoryKey: "pumps-valves",
+    categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "gear-pumps",
     typeKey: "internal-gear-pumps",
     image: "gear-pump",
@@ -28503,7 +28503,7 @@ export const products: Product[] = [
   {
     id: "tuthill-l-series-gear-pump",
     slug: "tuthill-l-series-helical-gear-pump",
-    categoryKey: "pumps-valves",
+    categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "gear-pumps",
     typeKey: "internal-gear-pumps",
     image: "gear-pump",
@@ -28531,7 +28531,7 @@ export const products: Product[] = [
   {
     id: "busch-cobra-screw-pump",
     slug: "busch-cobra-helical-screw-pump",
-    categoryKey: "pumps-valves",
+    categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "gear-pumps",
     typeKey: "internal-gear-pumps",
     image: "gear-pump",
@@ -28559,7 +28559,7 @@ export const products: Product[] = [
   {
     id: "varisco-v-series-gear-pump",
     slug: "varisco-v-series-internal-gear-pump",
-    categoryKey: "pumps-valves",
+    categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "gear-pumps",
     typeKey: "internal-gear-pumps",
     image: "gear-pump",
