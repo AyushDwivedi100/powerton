@@ -128,7 +128,7 @@ const ProductDetailDynamic: React.FC = () => {
       </Helmet>
 
       <div className="min-h-screen bg-background">
-        <div className=" ">
+        <div>
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -137,7 +137,7 @@ const ProductDetailDynamic: React.FC = () => {
           >
             <Button
               variant="ghost"
-              className="mb-6 hover:bg-black/10 dark:hover:bg-white/10 text-foreground hover:text-foreground group"
+              className="hover:bg-black/10 dark:hover:bg-white/10 text-foreground hover:text-foreground group"
               asChild
               data-testid="link-back-to-parent"
             >
