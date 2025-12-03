@@ -37,10 +37,17 @@ export default function Products() {
   const PRODUCTS = getProducts(t);
 
   const handleDownloadCatalog = () => {
+    const link = document.createElement("a");
+    link.href = "/Powerton-Product-Catalogue.pdf";
+    link.download = "Powerton-Product-Catalogue.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
     toast({
-      title: t("common:messages.comingSoon"),
-      description: t("common:messages.catalogComingSoon"),
-      duration: 4000,
+      title: t("common:messages.downloadStarted"),
+      description: t("common:messages.catalogDownloading"),
+      duration: 3000,
     });
   };
 
