@@ -206,6 +206,130 @@ import technicalSupportHero from "@assets/generated_images/Technical_support_ser
 import solarEpcHero from "@assets/generated_images/Solar_EPC_service_background_dd79a3fb.png";
 import quotePageHero from "@assets/generated_images/Industrial_engineering_office_workspace_37d65e8d.png";
 
+// Product subcategory hero images (ID-1100+)
+import sensorsTransducersHero from "@assets/generated_images/sensors_transducers_hero_banner.png";
+import transmittersFlowMetersHero from "@assets/generated_images/transmitters_flow_meters_hero.png";
+import switchesIndicatorsHero from "@assets/generated_images/switches_indicators_hero_banner.png";
+import valvesActuatorsHero from "@assets/generated_images/valves_actuators_hero_banner.png";
+import analyzersLaboratoryHero from "@assets/generated_images/analyzers_laboratory_hero_banner.png";
+import instrumentTransformersHero from "@assets/generated_images/instrument_transformers_hero.png";
+import electricalCablesHero from "@assets/generated_images/electrical_cables_hero_banner.png";
+import controlCablesHero from "@assets/generated_images/control_cables_hero_banner.png";
+import contactorsRelaysHero from "@assets/generated_images/contactors_relays_hero_banner.png";
+import industrialLightingHero from "@assets/generated_images/industrial_lighting_hero_banner.png";
+import connectorsTerminalsHero from "@assets/generated_images/connectors_terminals_hero_banner.png";
+import circuitBreakersHero from "@assets/generated_images/circuit_breakers_hero_banner.png";
+import powerSuppliesHero from "@assets/generated_images/power_supplies_hero_banner.png";
+import enclosuresCabinetsHero from "@assets/generated_images/enclosures_cabinets_hero_banner.png";
+import heatingElementsHero from "@assets/generated_images/heating_elements_hero_banner.png";
+import solarPanelsHero from "@assets/generated_images/solar_panels_hero_banner.png";
+import solarInvertersHero from "@assets/generated_images/solar_inverters_hero_banner.png";
+import plcsAutomationHero from "@assets/generated_images/plcs_automation_hero_banner.png";
+import scadaSystemsHero from "@assets/generated_images/scada_systems_hero_banner.png";
+import vfdsMotorDrivesHero from "@assets/generated_images/vfds_motor_drives_hero_banner.png";
+import dcsControlRoomHero from "@assets/generated_images/dcs_control_room_hero_banner.png";
+import hmiPanelsHero from "@assets/generated_images/hmi_panels_hero_banner.png";
+import surgeProtectorsHero from "@assets/generated_images/surge_protectors_hero_banner.png";
+import groundingSystemsHero from "@assets/generated_images/grounding_systems_hero_banner.png";
+import safetyRelaysSwitchesHero from "@assets/generated_images/safety_relays_switches_hero.png";
+import intrinsicallySafeEquipmentHero from "@assets/generated_images/intrinsically_safe_equipment_hero.png";
+import safetyEquipmentPpeHero from "@assets/generated_images/safety_equipment_ppe_hero.png";
+import protectionRelaysHero from "@assets/generated_images/protection_relays_hero_banner.png";
+import centrifugalPumpsHero from "@assets/generated_images/centrifugal_pumps_hero_banner.png";
+import diaphragmPumpsHero from "@assets/generated_images/diaphragm_pumps_hero_banner.png";
+import gearPumpsHero from "@assets/generated_images/gear_pumps_hero_banner.png";
+import pumpSparesPartsHero from "@assets/generated_images/pump_spares_parts_hero.png";
+import handToolsHero from "@assets/generated_images/hand_tools_hero_banner.png";
+import powerToolsHero from "@assets/generated_images/power_tools_hero_banner.png";
+import cuttingToolsHero from "@assets/generated_images/cutting_tools_hero_banner.png";
+import liftingEquipmentHero from "@assets/generated_images/lifting_equipment_hero_banner.png";
+import multimetersTestingHero from "@assets/generated_images/multimeters_testing_hero_banner.png";
+import powerQualityAnalyzersHero from "@assets/generated_images/power_quality_analyzers_hero.png";
+import calibrationEquipmentHero from "@assets/generated_images/calibration_equipment_hero.png";
+
+// Product group hero images (ID-1200+)
+import proximitySensorsHero from "@assets/generated_images/proximity_sensors_hero_banner.png";
+import temperatureSensorsHero from "@assets/generated_images/temperature_sensors_hero_banner.png";
+import loadCellsHero from "@assets/generated_images/load_cells_hero_banner.png";
+import phSensorsHero from "@assets/generated_images/ph_sensors_hero_banner.png";
+import dpTransmittersHero from "@assets/generated_images/dp_transmitters_hero_banner.png";
+import pressureTransmittersHero from "@assets/generated_images/pressure_transmitters_hero_banner.png";
+import massFlowMetersHero from "@assets/generated_images/mass_flow_meters_hero_banner.png";
+import vortexFlowMetersHero from "@assets/generated_images/vortex_flow_meters_hero_banner.png";
+import electromagneticFlowmetersHero from "@assets/generated_images/electromagnetic_flowmeters_hero.png";
+import pressureLevelSwitchesHero from "@assets/generated_images/pressure_level_switches_hero.png";
+import controlValvesHero from "@assets/generated_images/control_valves_hero_banner.png";
+import solenoidValvesHero from "@assets/generated_images/solenoid_valves_hero_banner.png";
+import gasAnalyzersHero from "@assets/generated_images/gas_analyzers_hero_banner.png";
+import waterAnalyzersHero from "@assets/generated_images/water_analyzers_hero_banner.png";
+import powerCablesHero from "@assets/generated_images/power_cables_hero_banner.png";
+import industrialNetworkCablesHero from "@assets/generated_images/industrial_network_cables_hero.png";
+import mcbCircuitBreakersHero from "@assets/generated_images/mcb_circuit_breakers_hero.png";
+import mccbBreakersHero from "@assets/generated_images/mccb_breakers_hero_banner.png";
+import acbBreakersHero from "@assets/generated_images/acb_breakers_hero_banner.png";
+import vcbBreakersHero from "@assets/generated_images/vcb_breakers_hero_banner.png";
+import fusesHoldersHero from "@assets/generated_images/fuses_holders_hero_banner.png";
+import rccbBreakersHero from "@assets/generated_images/rccb_breakers_hero_banner.png";
+import smpsPowerSuppliesHero from "@assets/generated_images/smps_power_supplies_hero.png";
+import compactPlcsHero from "@assets/generated_images/compact_plcs_hero_banner.png";
+import modularPlcsHero from "@assets/generated_images/modular_plcs_hero_banner.png";
+import touchscreenHmisHero from "@assets/generated_images/touchscreen_hmis_hero_banner.png";
+import scadaSoftwareHero from "@assets/generated_images/scada_software_hero_banner.png";
+import dcsStationsHero from "@assets/generated_images/dcs_stations_hero_banner.png";
+import vfdInstallationHero from "@assets/generated_images/vfd_installation_hero_banner.png";
+import motorStartersHero from "@assets/generated_images/motor_starters_hero_banner.png";
+import emergencyStopsHero from "@assets/generated_images/emergency_stops_hero_banner.png";
+import explosionProofEquipmentHero from "@assets/generated_images/explosion_proof_equipment_hero.png";
+import singleStagePumpsHero from "@assets/generated_images/single_stage_pumps_hero.png";
+import multiStagePumpsHero from "@assets/generated_images/multi_stage_pumps_hero.png";
+import aoddPumpsHero from "@assets/generated_images/aodd_pumps_hero_banner.png";
+import digitalMultimetersHero from "@assets/generated_images/digital_multimeters_hero.png";
+import clampMetersHero from "@assets/generated_images/clamp_meters_hero_banner.png";
+import processCalibratorsHero from "@assets/generated_images/process_calibrators_hero.png";
+import hartCalibratorsHero from "@assets/generated_images/hart_calibrators_hero_banner.png";
+import terminalBlocksHero from "@assets/generated_images/terminal_blocks_hero_banner.png";
+import industrialConnectorsHero from "@assets/generated_images/industrial_connectors_hero.png";
+import junctionBoxesHero from "@assets/generated_images/junction_boxes_hero_banner.png";
+import timerRelaysHero from "@assets/generated_images/timer_relays_hero_banner.png";
+import voltageMonitoringRelaysHero from "@assets/generated_images/voltage_monitoring_relays_hero.png";
+import upsSystemsHero from "@assets/generated_images/ups_systems_hero_banner.png";
+import monocrystallinePanelsHero from "@assets/generated_images/monocrystalline_panels_hero.png";
+import polycrystallinePanelsHero from "@assets/generated_images/polycrystalline_panels_hero.png";
+import stringInvertersHero from "@assets/generated_images/string_inverters_hero_banner.png";
+import limitSwitchesHero from "@assets/generated_images/limit_switches_hero_banner.png";
+import pushButtonsIndicatorsHero from "@assets/generated_images/push_buttons_indicators_hero.png";
+import hootersBuzzersHero from "@assets/generated_images/hooters_buzzers_hero_banner.png";
+import electricDrillsHero from "@assets/generated_images/electric_drills_hero_banner.png";
+import angleGrindersHero from "@assets/generated_images/angle_grinders_hero_banner.png";
+import weldingMachinesHero from "@assets/generated_images/welding_machines_hero_banner.png";
+import chainHoistsHero from "@assets/generated_images/chain_hoists_hero_banner.png";
+import internalGearPumpsHero from "@assets/generated_images/internal_gear_pumps_hero.png";
+import panelMetersHero from "@assets/generated_images/panel_meters_hero_banner.png";
+import energyLoggersHero from "@assets/generated_images/energy_loggers_hero_banner.png";
+import earthResistanceTestersHero from "@assets/generated_images/earth_resistance_testers_hero.png";
+import photoelectricSensorsHero from "@assets/generated_images/photoelectric_sensors_hero.png";
+import safetyBarriersHero from "@assets/generated_images/safety_barriers_hero_banner.png";
+import lightningArrestorsHero from "@assets/generated_images/lightning_arrestors_hero.png";
+import insulationTestersHero from "@assets/generated_images/insulation_testers_hero.png";
+import controlTransformersHero from "@assets/generated_images/control_transformers_hero.png";
+import currentTransformersHero from "@assets/generated_images/current_transformers_hero.png";
+import powerOptimizersHero from "@assets/generated_images/power_optimizers_hero_banner.png";
+import relayBoardsHero from "@assets/generated_images/relay_boards_hero_banner.png";
+import scadaGatewaysHero from "@assets/generated_images/scada_gateways_hero_banner.png";
+import ledFloodLightsHero from "@assets/generated_images/led_flood_lights_hero.png";
+import highBayLightsHero from "@assets/generated_images/high_bay_lights_hero.png";
+import streetLightsHero from "@assets/generated_images/street_lights_hero_banner.png";
+import wellGlassLightsHero from "@assets/generated_images/well_glass_lights_hero.png";
+import flameproofLightsHero from "@assets/generated_images/flameproof_lights_hero.png";
+import cableDuctsHero from "@assets/generated_images/cable_ducts_hero_banner.png";
+import pumpImpellersSealsHero from "@assets/generated_images/pump_impellers_seals_hero.png";
+import bearingsCouplingsHero from "@assets/generated_images/bearings_couplings_hero.png";
+import overcurrentRelaysHero from "@assets/generated_images/overcurrent_relays_hero.png";
+import differentialRelaysHero from "@assets/generated_images/differential_relays_hero.png";
+import distanceRelaysHero from "@assets/generated_images/distance_relays_hero.png";
+import ioModulesHero from "@assets/generated_images/io_modules_hero_banner.png";
+import insulatorsMaterialsHero from "@assets/generated_images/insulators_materials_hero.png";
+
 // Image category types for better organization
 export type ImageCategory =
   | "logo"
@@ -2341,6 +2465,223 @@ export const SERVICE_HERO_IMAGES = {
     id: IMAGE_IDS.HERO_SOLAR_EPC,
   },
 } as const;
+
+// Product page hero images mapping (subcategories and product groups)
+export const PRODUCT_HERO_IMAGES: Record<string, { src: string; alt: string; id: string }> = {
+  // Instrumentation subcategories
+  "sensors-transducers": { src: sensorsTransducersHero, alt: "Sensors and Transducers - Industrial sensing technology", id: "ID-1100" },
+  "transmitters-flow-meters": { src: transmittersFlowMetersHero, alt: "Transmitters and Flow Meters - Process measurement", id: "ID-1101" },
+  "switches-indicators": { src: switchesIndicatorsHero, alt: "Switches and Indicators - Industrial control", id: "ID-1102" },
+  "valves-actuators": { src: valvesActuatorsHero, alt: "Valves and Actuators - Flow control systems", id: "ID-1103" },
+  "analyzers": { src: analyzersLaboratoryHero, alt: "Analyzers - Laboratory and process analysis", id: "ID-1104" },
+  "instrument-transformers": { src: instrumentTransformersHero, alt: "Instrument Transformers - Current and voltage measurement", id: "ID-1105" },
+  
+  // Electrical subcategories
+  "electrical-cables": { src: electricalCablesHero, alt: "Electrical Cables - Power distribution cables", id: "ID-1106" },
+  "instrumentation-cables": { src: controlCablesHero, alt: "Instrumentation Cables - Control and signal cables", id: "ID-1107" },
+  "contactors-relays": { src: contactorsRelaysHero, alt: "Contactors and Relays - Motor control components", id: "ID-1108" },
+  "transformers-power-devices": { src: controlTransformersHero, alt: "Transformers and Power Devices - Power conversion", id: "ID-1109" },
+  "industrial-lighting": { src: industrialLightingHero, alt: "Industrial Lighting - Factory and hazardous area lights", id: "ID-1110" },
+  "connectors-terminals": { src: connectorsTerminalsHero, alt: "Connectors and Terminals - Electrical connections", id: "ID-1111" },
+  "circuit-breakers-fuses": { src: circuitBreakersHero, alt: "Circuit Breakers and Fuses - Electrical protection", id: "ID-1112" },
+  "power-supplies": { src: powerSuppliesHero, alt: "Power Supplies - DC power conversion", id: "ID-1113" },
+  "enclosures-cabinets": { src: enclosuresCabinetsHero, alt: "Enclosures and Cabinets - Electrical housings", id: "ID-1114" },
+  "heating-elements-appliances": { src: heatingElementsHero, alt: "Heating Elements - Industrial heating", id: "ID-1115" },
+  
+  // Solar subcategories
+  "solar-panels": { src: solarPanelsHero, alt: "Solar Panels - Photovoltaic modules", id: "ID-1116" },
+  "solar-inverters": { src: solarInvertersHero, alt: "Solar Inverters - Power conversion systems", id: "ID-1117" },
+  
+  // Automation subcategories
+  "plcs": { src: plcsAutomationHero, alt: "PLCs - Programmable Logic Controllers", id: "ID-1118" },
+  "scada": { src: scadaSystemsHero, alt: "SCADA - Supervisory Control and Data Acquisition", id: "ID-1119" },
+  "motor-controllers-drives": { src: vfdsMotorDrivesHero, alt: "Motor Controllers and Drives - Variable frequency drives", id: "ID-1120" },
+  "dcs": { src: dcsControlRoomHero, alt: "DCS - Distributed Control Systems", id: "ID-1121" },
+  "hmi": { src: hmiPanelsHero, alt: "HMI - Human Machine Interface panels", id: "ID-1122" },
+  
+  // Safety subcategories
+  "surge-protectors": { src: surgeProtectorsHero, alt: "Surge Protectors - Voltage protection devices", id: "ID-1123" },
+  "grounding-systems": { src: groundingSystemsHero, alt: "Grounding Systems - Earthing and protection", id: "ID-1124" },
+  "safety-relays-switches": { src: safetyRelaysSwitchesHero, alt: "Safety Relays and Switches - Machine safety", id: "ID-1125" },
+  "intrinsically-safe-equipment": { src: intrinsicallySafeEquipmentHero, alt: "Intrinsically Safe Equipment - Hazardous area", id: "ID-1126" },
+  "safety-equipment": { src: safetyEquipmentPpeHero, alt: "Safety Equipment - Personal protective equipment", id: "ID-1127" },
+  "protection-relays": { src: protectionRelaysHero, alt: "Protection Relays - Power system protection", id: "ID-1128" },
+  
+  // Pumps subcategories
+  "centrifugal-pumps": { src: centrifugalPumpsHero, alt: "Centrifugal Pumps - Fluid transfer systems", id: "ID-1129" },
+  "diaphragm-pumps": { src: diaphragmPumpsHero, alt: "Diaphragm Pumps - Chemical and dosing pumps", id: "ID-1130" },
+  "gear-pumps": { src: gearPumpsHero, alt: "Gear Pumps - Positive displacement pumps", id: "ID-1131" },
+  "pump-parts-spares": { src: pumpSparesPartsHero, alt: "Pump Parts and Spares - Replacement components", id: "ID-1132" },
+  
+  // Tools subcategories
+  "hand-tools": { src: handToolsHero, alt: "Hand Tools - Professional hand tools", id: "ID-1133" },
+  "power-tools": { src: powerToolsHero, alt: "Power Tools - Electric and cordless tools", id: "ID-1134" },
+  "cutting-tools": { src: cuttingToolsHero, alt: "Cutting Tools - Industrial cutting equipment", id: "ID-1135" },
+  "lifting-equipment": { src: liftingEquipmentHero, alt: "Lifting Equipment - Hoists and cranes", id: "ID-1136" },
+  
+  // Measurement subcategories
+  "multimeters": { src: multimetersTestingHero, alt: "Multimeters - Electrical testing instruments", id: "ID-1137" },
+  "power-quality-analyzers": { src: powerQualityAnalyzersHero, alt: "Power Quality Analyzers - Energy monitoring", id: "ID-1138" },
+  "calibration-equipment": { src: calibrationEquipmentHero, alt: "Calibration Equipment - Precision instruments", id: "ID-1139" },
+  "panel-meters-indicators": { src: panelMetersHero, alt: "Panel Meters and Indicators - Electrical measurement displays", id: "ID-1140" },
+  
+  // Additional subcategories
+  "io-modules": { src: ioModulesHero, alt: "IO Modules - Field input/output modules for automation", id: "ID-1141" },
+  "insulators-insulation-materials": { src: insulatorsMaterialsHero, alt: "Insulators and Insulation Materials - Electrical insulation", id: "ID-1142" },
+  
+  // Product groups - Sensors
+  "proximity-sensors": { src: proximitySensorsHero, alt: "Proximity Sensors - Inductive and capacitive sensors", id: "ID-1200" },
+  "temperature-sensors": { src: temperatureSensorsHero, alt: "Temperature Sensors - RTD and thermocouples", id: "ID-1201" },
+  "load-cells": { src: loadCellsHero, alt: "Load Cells - Force and weight measurement", id: "ID-1202" },
+  "ph-sensors": { src: phSensorsHero, alt: "pH Sensors - Water quality measurement", id: "ID-1203" },
+  "photoelectric-sensors": { src: photoelectricSensorsHero, alt: "Photoelectric Sensors - Optical detection", id: "ID-1204" },
+  "limit-switches": { src: limitSwitchesHero, alt: "Limit Switches - Position detection", id: "ID-1205" },
+  
+  // Product groups - Transmitters
+  "dp-transmitters": { src: dpTransmittersHero, alt: "DP Transmitters - Differential pressure measurement", id: "ID-1210" },
+  "pressure-transmitters": { src: pressureTransmittersHero, alt: "Pressure Transmitters - Process pressure", id: "ID-1211" },
+  
+  // Product groups - Flow Meters
+  "mass-flow-meters": { src: massFlowMetersHero, alt: "Mass Flow Meters - Coriolis flow measurement", id: "ID-1220" },
+  "vortex-flow-meters": { src: vortexFlowMetersHero, alt: "Vortex Flow Meters - Steam and gas flow", id: "ID-1221" },
+  "electromagnetic-flow-meters": { src: electromagneticFlowmetersHero, alt: "Electromagnetic Flow Meters - Liquid flow", id: "ID-1222" },
+  
+  // Product groups - Switches
+  "pressure-switches": { src: pressureLevelSwitchesHero, alt: "Pressure Switches - Process switching", id: "ID-1230" },
+  "level-switches": { src: pressureLevelSwitchesHero, alt: "Level Switches - Level detection", id: "ID-1231" },
+  "push-buttons": { src: pushButtonsIndicatorsHero, alt: "Push Buttons - Control interface", id: "ID-1232" },
+  "indicators": { src: pushButtonsIndicatorsHero, alt: "Indicators - Status lights", id: "ID-1233" },
+  "hooters-buzzers": { src: hootersBuzzersHero, alt: "Hooters and Buzzers - Audible alarms", id: "ID-1234" },
+  
+  // Product groups - Valves
+  "control-valves": { src: controlValvesHero, alt: "Control Valves - Process control", id: "ID-1240" },
+  "solenoid-valves": { src: solenoidValvesHero, alt: "Solenoid Valves - Pneumatic control", id: "ID-1241" },
+  
+  // Product groups - Analyzers
+  "gas-analyzers": { src: gasAnalyzersHero, alt: "Gas Analyzers - Emissions monitoring", id: "ID-1250" },
+  "water-analyzers": { src: waterAnalyzersHero, alt: "Water Analyzers - Water quality", id: "ID-1251" },
+  
+  // Product groups - Cables
+  "power-cables": { src: powerCablesHero, alt: "Power Cables - LV and MV cables", id: "ID-1260" },
+  "control-cables": { src: controlCablesHero, alt: "Control Cables - Shielded cables", id: "ID-1261" },
+  "network-cables": { src: industrialNetworkCablesHero, alt: "Network Cables - Industrial ethernet", id: "ID-1262" },
+  "profibus-cables": { src: industrialNetworkCablesHero, alt: "Profibus Cables - Field bus", id: "ID-1263" },
+  
+  // Product groups - Circuit Breakers
+  "mcb": { src: mcbCircuitBreakersHero, alt: "MCB - Miniature circuit breakers", id: "ID-1270" },
+  "mccb": { src: mccbBreakersHero, alt: "MCCB - Molded case circuit breakers", id: "ID-1271" },
+  "acb": { src: acbBreakersHero, alt: "ACB - Air circuit breakers", id: "ID-1272" },
+  "vcb": { src: vcbBreakersHero, alt: "VCB - Vacuum circuit breakers", id: "ID-1273" },
+  "fuses": { src: fusesHoldersHero, alt: "Fuses - HRC fuses and holders", id: "ID-1274" },
+  "rccb": { src: rccbBreakersHero, alt: "RCCB - Residual current devices", id: "ID-1275" },
+  
+  // Product groups - Power Supplies
+  "smps": { src: smpsPowerSuppliesHero, alt: "SMPS - Switched mode power supplies", id: "ID-1280" },
+  "ups": { src: upsSystemsHero, alt: "UPS - Uninterruptible power supplies", id: "ID-1281" },
+  
+  // Product groups - Automation
+  "compact-plc": { src: compactPlcsHero, alt: "Compact PLC - Small format controllers", id: "ID-1290" },
+  "modular-plc": { src: modularPlcsHero, alt: "Modular PLC - Large scale automation", id: "ID-1291" },
+  "io-modules": { src: ioModulesHero, alt: "IO Modules - Field IO and expansion", id: "ID-1292" },
+  "touchscreen-hmi": { src: touchscreenHmisHero, alt: "Touchscreen HMI - Operator panels", id: "ID-1293" },
+  "scada-software": { src: scadaSoftwareHero, alt: "SCADA Software - Process visualization", id: "ID-1294" },
+  "scada-gateways": { src: scadaGatewaysHero, alt: "SCADA Gateways - Protocol conversion", id: "ID-1295" },
+  "dcs-stations": { src: dcsStationsHero, alt: "DCS Stations - Control workstations", id: "ID-1296" },
+  "vfds": { src: vfdInstallationHero, alt: "VFDs - Variable frequency drives", id: "ID-1297" },
+  "motor-starters": { src: motorStartersHero, alt: "Motor Starters - DOL and soft starters", id: "ID-1298" },
+  
+  // Product groups - Safety
+  "emergency-stops": { src: emergencyStopsHero, alt: "Emergency Stops - Safety buttons", id: "ID-1300" },
+  "safety-barriers": { src: safetyBarriersHero, alt: "Safety Barriers - IS barriers", id: "ID-1301" },
+  "explosion-proof": { src: explosionProofEquipmentHero, alt: "Explosion Proof - Hazardous area equipment", id: "ID-1302" },
+  "lightning-arrestors": { src: lightningArrestorsHero, alt: "Lightning Arrestors - Surge protection", id: "ID-1303" },
+  
+  // Product groups - Relays
+  "timer-relays": { src: timerRelaysHero, alt: "Timer Relays - Time delay relays", id: "ID-1310" },
+  "voltage-relays": { src: voltageMonitoringRelaysHero, alt: "Voltage Relays - Phase monitoring", id: "ID-1311" },
+  "relay-boards": { src: relayBoardsHero, alt: "Relay Boards - Relay modules", id: "ID-1312" },
+  "overcurrent-relays": { src: overcurrentRelaysHero, alt: "Overcurrent Relays - Protection relays", id: "ID-1313" },
+  "differential-relays": { src: differentialRelaysHero, alt: "Differential Relays - Transformer protection", id: "ID-1314" },
+  "distance-relays": { src: distanceRelaysHero, alt: "Distance Relays - Line protection", id: "ID-1315" },
+  
+  // Product groups - Connectors
+  "terminal-blocks": { src: terminalBlocksHero, alt: "Terminal Blocks - DIN rail terminals", id: "ID-1320" },
+  "industrial-connectors": { src: industrialConnectorsHero, alt: "Industrial Connectors - Circular connectors", id: "ID-1321" },
+  "junction-boxes": { src: junctionBoxesHero, alt: "Junction Boxes - Electrical enclosures", id: "ID-1322" },
+  "cable-ducts": { src: cableDuctsHero, alt: "Cable Ducts - Wire management", id: "ID-1323" },
+  
+  // Product groups - Transformers
+  "control-transformers": { src: controlTransformersHero, alt: "Control Transformers - Isolation transformers", id: "ID-1330" },
+  "current-transformers": { src: currentTransformersHero, alt: "Current Transformers - CT metering", id: "ID-1331" },
+  "insulators": { src: insulatorsMaterialsHero, alt: "Insulators - Electrical insulation", id: "ID-1332" },
+  
+  // Product groups - Solar
+  "monocrystalline": { src: monocrystallinePanelsHero, alt: "Monocrystalline - High efficiency panels", id: "ID-1340" },
+  "polycrystalline": { src: polycrystallinePanelsHero, alt: "Polycrystalline - Cost-effective panels", id: "ID-1341" },
+  "string-inverters": { src: stringInvertersHero, alt: "String Inverters - Solar inverters", id: "ID-1342" },
+  "power-optimizers": { src: powerOptimizersHero, alt: "Power Optimizers - Module optimization", id: "ID-1343" },
+  
+  // Product groups - Pumps
+  "single-stage-pumps": { src: singleStagePumpsHero, alt: "Single Stage Pumps - End suction pumps", id: "ID-1350" },
+  "multi-stage-pumps": { src: multiStagePumpsHero, alt: "Multi Stage Pumps - High pressure pumps", id: "ID-1351" },
+  "aodd-pumps": { src: aoddPumpsHero, alt: "AODD Pumps - Air operated diaphragm pumps", id: "ID-1352" },
+  "internal-gear-pumps": { src: internalGearPumpsHero, alt: "Internal Gear Pumps - Hydraulic pumps", id: "ID-1353" },
+  "pump-impellers": { src: pumpImpellersSealsHero, alt: "Pump Impellers - Replacement parts", id: "ID-1354" },
+  "mechanical-seals": { src: pumpImpellersSealsHero, alt: "Mechanical Seals - Pump seals", id: "ID-1355" },
+  "bearings-couplings": { src: bearingsCouplingsHero, alt: "Bearings and Couplings - Pump parts", id: "ID-1356" },
+  
+  // Product groups - Tools
+  "electric-drills": { src: electricDrillsHero, alt: "Electric Drills - Power drills", id: "ID-1360" },
+  "angle-grinders": { src: angleGrindersHero, alt: "Angle Grinders - Grinding tools", id: "ID-1361" },
+  "welding-machines": { src: weldingMachinesHero, alt: "Welding Machines - MIG TIG welders", id: "ID-1362" },
+  "chain-hoists": { src: chainHoistsHero, alt: "Chain Hoists - Lifting equipment", id: "ID-1363" },
+  
+  // Product groups - Lighting
+  "led-flood-lights": { src: ledFloodLightsHero, alt: "LED Flood Lights - Outdoor lighting", id: "ID-1370" },
+  "high-bay-lights": { src: highBayLightsHero, alt: "High Bay Lights - Warehouse lighting", id: "ID-1371" },
+  "street-lights": { src: streetLightsHero, alt: "Street Lights - Outdoor pole lights", id: "ID-1372" },
+  "well-glass-lights": { src: wellGlassLightsHero, alt: "Well Glass Lights - Marine lighting", id: "ID-1373" },
+  "flameproof-lights": { src: flameproofLightsHero, alt: "Flameproof Lights - Ex-rated lighting", id: "ID-1374" },
+  
+  // Product groups - Measurement
+  "digital-multimeters": { src: digitalMultimetersHero, alt: "Digital Multimeters - DMM testing", id: "ID-1380" },
+  "clamp-meters": { src: clampMetersHero, alt: "Clamp Meters - Current measurement", id: "ID-1381" },
+  "panel-meters": { src: panelMetersHero, alt: "Panel Meters - Electrical indicators", id: "ID-1382" },
+  "energy-loggers": { src: energyLoggersHero, alt: "Energy Loggers - Power monitoring", id: "ID-1383" },
+  "earth-testers": { src: earthResistanceTestersHero, alt: "Earth Testers - Ground resistance", id: "ID-1384" },
+  "insulation-testers": { src: insulationTestersHero, alt: "Insulation Testers - Megohm testing", id: "ID-1385" },
+  "process-calibrators": { src: processCalibratorsHero, alt: "Process Calibrators - Field calibration", id: "ID-1386" },
+  "hart-calibrators": { src: hartCalibratorsHero, alt: "HART Calibrators - Smart transmitter tools", id: "ID-1387" },
+} as const;
+
+/**
+ * Get product page hero image by slug
+ */
+export const getProductHeroImage = (
+  slug: string,
+  options: {
+    preload?: boolean;
+    quality?: "low" | "medium" | "high";
+  } = {}
+): ImageMetadata | null => {
+  const heroImage = PRODUCT_HERO_IMAGES[slug];
+  if (!heroImage) return null;
+
+  const enhancedImage: ImageMetadata = {
+    ...heroImage,
+    category: "product",
+    loading: options.preload ? "eager" : "lazy",
+    optimized: true,
+    sizes: "100vw",
+    dimensions: { width: 1920, height: 1080 },
+  };
+
+  if (options.preload) {
+    preloadImage(heroImage.src).catch(console.warn);
+  }
+
+  return enhancedImage;
+};
 
 /**
  * Enhanced hero image retrieval with optimization
