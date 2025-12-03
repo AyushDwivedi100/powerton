@@ -2604,7 +2604,7 @@ export const products: Product[] = [
   {
     id: "instrumentation-cables",
     slug: "instrumentation-cables",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     image: "electrical-cables",
     translationKeys: {
@@ -2623,7 +2623,7 @@ export const products: Product[] = [
   {
     id: "power-distribution-cables",
     slug: "power-distribution-cables",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     image: "electrical-cables",
     translationKeys: {
@@ -2642,7 +2642,7 @@ export const products: Product[] = [
   {
     id: "communication-cables",
     slug: "communication-cables",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     image: "electrical-cables",
     translationKeys: {
@@ -2663,7 +2663,7 @@ export const products: Product[] = [
   {
     id: "mcb-circuit-breakers",
     slug: "mcb-miniature-circuit-breakers",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     image: "circuit-breakers-fuses",
     translationKeys: {
@@ -2682,7 +2682,7 @@ export const products: Product[] = [
   {
     id: "mccb-circuit-breakers",
     slug: "mccb-molded-case-circuit-breakers",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     image: "circuit-breakers-fuses",
     translationKeys: {
@@ -2701,7 +2701,7 @@ export const products: Product[] = [
   {
     id: "industrial-fuses",
     slug: "industrial-fuses",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     image: "circuit-breakers-fuses",
     translationKeys: {
@@ -2722,7 +2722,7 @@ export const products: Product[] = [
   {
     id: "terminal-blocks",
     slug: "industrial-terminal-blocks",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     image: "connectors-terminals",
     translationKeys: {
@@ -2741,7 +2741,7 @@ export const products: Product[] = [
   {
     id: "industrial-connectors",
     slug: "industrial-connectors",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     image: "connectors-terminals",
     translationKeys: {
@@ -2760,7 +2760,7 @@ export const products: Product[] = [
   {
     id: "signal-connectors",
     slug: "signal-connectors",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     image: "connectors-terminals",
     translationKeys: {
@@ -6723,7 +6723,7 @@ export const products: Product[] = [
   {
     id: "belden-8205",
     slug: "belden-8205-instrumentation-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "instrumentation-cables",
     image: "instrumentation-cable",
@@ -6749,7 +6749,7 @@ export const products: Product[] = [
   {
     id: "belden-8442",
     slug: "belden-8442-instrumentation-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "instrumentation-cables",
     image: "instrumentation-cable",
@@ -6775,7 +6775,7 @@ export const products: Product[] = [
   {
     id: "belden-8725",
     slug: "belden-8725-instrumentation-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "instrumentation-cables",
     image: "instrumentation-cable",
@@ -6802,7 +6802,7 @@ export const products: Product[] = [
   {
     id: "alpha-wire-9174",
     slug: "alpha-wire-9174-instrumentation-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "instrumentation-cables",
     image: "instrumentation-cable",
@@ -6828,7 +6828,7 @@ export const products: Product[] = [
   {
     id: "alpha-wire-xtra-guard-4",
     slug: "alpha-wire-xtra-guard-4-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "instrumentation-cables",
     image: "instrumentation-cable",
@@ -6856,7 +6856,7 @@ export const products: Product[] = [
   {
     id: "phoenix-contact-m12-oneclick",
     slug: "phoenix-contact-m12-oneclick-connector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "electrical-connectors",
     image: "electrical-connector",
@@ -6881,7 +6881,7 @@ export const products: Product[] = [
   {
     id: "phoenix-contact-m23",
     slug: "phoenix-contact-m23-hybrid-connector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "electrical-connectors",
     image: "electrical-connector",
@@ -6906,7 +6906,7 @@ export const products: Product[] = [
   {
     id: "weidmuller-rockstar-moduplug",
     slug: "weidmuller-rockstar-moduplug-connector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "electrical-connectors",
     image: "electrical-connector",
@@ -6931,7 +6931,7 @@ export const products: Product[] = [
   {
     id: "amphenol-m12-industrial",
     slug: "amphenol-m12-industrial-connector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "electrical-connectors",
     image: "electrical-connector",
@@ -6956,7 +6956,7 @@ export const products: Product[] = [
   {
     id: "amphenol-mil-dtl-5015",
     slug: "amphenol-mil-dtl-5015-connector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "electrical-connectors",
     image: "electrical-connector",
@@ -6983,7 +6983,7 @@ export const products: Product[] = [
   {
     id: "mennekes-powertop-xtra-16a",
     slug: "mennekes-powertop-xtra-16a-plug",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "industrial-plugs",
     image: "industrial-plug",
@@ -7008,7 +7008,7 @@ export const products: Product[] = [
   {
     id: "mennekes-powertop-xtra-32a",
     slug: "mennekes-powertop-xtra-32a-plug",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "industrial-plugs",
     image: "industrial-plug",
@@ -7033,7 +7033,7 @@ export const products: Product[] = [
   {
     id: "mennekes-552",
     slug: "mennekes-552-waterproof-plug",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "industrial-plugs",
     image: "industrial-plug",
@@ -7058,7 +7058,7 @@ export const products: Product[] = [
   {
     id: "hubbell-hbl2621",
     slug: "hubbell-hubbellock-hbl2621-plug",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "industrial-plugs",
     image: "industrial-plug",
@@ -7083,7 +7083,7 @@ export const products: Product[] = [
   {
     id: "legrand-cee-16a",
     slug: "legrand-cee-16a-industrial-plug",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "industrial-plugs",
     image: "industrial-plug",
@@ -7110,7 +7110,7 @@ export const products: Product[] = [
   {
     id: "bussmann-lp-cc-30",
     slug: "bussmann-lp-cc-30-fuse",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "fuses-fuses-holders",
     image: "fuse",
@@ -7135,7 +7135,7 @@ export const products: Product[] = [
   {
     id: "bussmann-fnq-r-60",
     slug: "bussmann-fnq-r-60-fuse",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "fuses-fuses-holders",
     image: "fuse",
@@ -7160,7 +7160,7 @@ export const products: Product[] = [
   {
     id: "littelfuse-l60030c",
     slug: "littelfuse-l60030c-fuse-block",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "fuses-fuses-holders",
     image: "fuse",
@@ -7185,7 +7185,7 @@ export const products: Product[] = [
   {
     id: "littelfuse-ato-30",
     slug: "littelfuse-ato-30-blade-fuse",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "fuses-fuses-holders",
     image: "fuse",
@@ -7209,7 +7209,7 @@ export const products: Product[] = [
   {
     id: "mersen-a70p100-4",
     slug: "mersen-a70p100-4-class-j-fuse",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "fuses-fuses-holders",
     image: "fuse",
@@ -7236,7 +7236,7 @@ export const products: Product[] = [
   {
     id: "tdk-lambda-i1c-120w",
     slug: "tdk-lambda-i1c-120w-converter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "dc-dc-converters",
     image: "dc-dc-converter",
@@ -7261,7 +7261,7 @@ export const products: Product[] = [
   {
     id: "tdk-lambda-cn-b110",
     slug: "tdk-lambda-cn-b110-converter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "dc-dc-converters",
     image: "dc-dc-converter",
@@ -7286,7 +7286,7 @@ export const products: Product[] = [
   {
     id: "vicor-dcm-2322",
     slug: "vicor-dcm-2322-zvs-converter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "dc-dc-converters",
     image: "dc-dc-converter",
@@ -7311,7 +7311,7 @@ export const products: Product[] = [
   {
     id: "vicor-dcm-3623",
     slug: "vicor-dcm-3623-via-converter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "dc-dc-converters",
     image: "dc-dc-converter",
@@ -7336,7 +7336,7 @@ export const products: Product[] = [
   {
     id: "murata-dcs6-12",
     slug: "murata-dcs6-12-isolated-converter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "dc-dc-converters",
     image: "dc-dc-converter",
@@ -7364,7 +7364,7 @@ export const products: Product[] = [
   {
     id: "eaton-9px1500rt",
     slug: "eaton-9px1500rt-ups",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "ups-systems",
     image: "ups",
@@ -7389,7 +7389,7 @@ export const products: Product[] = [
   {
     id: "eaton-9px3000rt",
     slug: "eaton-9px3000rt-ups",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "ups-systems",
     image: "ups",
@@ -7414,7 +7414,7 @@ export const products: Product[] = [
   {
     id: "apc-smt1500rm2u",
     slug: "apc-smart-ups-smt1500rm2u",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "ups-systems",
     image: "ups",
@@ -7439,7 +7439,7 @@ export const products: Product[] = [
   {
     id: "apc-srt8kxlt",
     slug: "apc-smart-ups-srt8kxlt",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "ups-systems",
     image: "ups",
@@ -7464,7 +7464,7 @@ export const products: Product[] = [
   {
     id: "schneider-galaxy-vs",
     slug: "schneider-galaxy-vs-ups",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "ups-systems",
     image: "ups",
@@ -7491,7 +7491,7 @@ export const products: Product[] = [
   {
     id: "cable-instrumentation-shielded",
     slug: "cable-instrumentation-shielded",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     image: "electrical-cables",
     specs: {
@@ -7519,7 +7519,7 @@ export const products: Product[] = [
   {
     id: "cable-power-distribution-medium-voltage",
     slug: "cable-power-distribution-medium-voltage",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     image: "electrical-cables",
     specs: {
@@ -7547,7 +7547,7 @@ export const products: Product[] = [
   {
     id: "cable-communication-fieldbus-ethernet",
     slug: "cable-communication-fieldbus-ethernet",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     image: "electrical-cables",
     specs: {
@@ -7577,7 +7577,7 @@ export const products: Product[] = [
   {
     id: "circuit-breaker-mcb-miniature",
     slug: "circuit-breaker-mcb-miniature",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     image: "circuit-breakers-fuses",
     specs: {
@@ -7605,7 +7605,7 @@ export const products: Product[] = [
   {
     id: "circuit-breaker-mccb-molded-case",
     slug: "circuit-breaker-mccb-molded-case",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     image: "circuit-breakers-fuses",
     specs: {
@@ -7633,7 +7633,7 @@ export const products: Product[] = [
   {
     id: "electrical-fuses-industrial-protection",
     slug: "electrical-fuses-industrial-protection",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     image: "circuit-breakers-fuses",
     specs: {
@@ -7654,7 +7654,7 @@ export const products: Product[] = [
   {
     id: "connector-terminal-blocks-industrial",
     slug: "connector-terminal-blocks-industrial",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     image: "connectors-terminals",
     specs: {
@@ -7682,7 +7682,7 @@ export const products: Product[] = [
   {
     id: "connector-industrial-heavy-duty",
     slug: "connector-industrial-heavy-duty",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     image: "connectors-terminals",
     specs: {
@@ -7710,7 +7710,7 @@ export const products: Product[] = [
   {
     id: "connector-signal-precision-miniature",
     slug: "connector-signal-precision-miniature",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     image: "connectors-terminals",
     specs: {
@@ -7731,7 +7731,7 @@ export const products: Product[] = [
   {
     id: "power-supply-dc-regulated-laboratory",
     slug: "power-supply-dc-regulated-laboratory",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     image: "power-supplies",
     specs: {
@@ -7759,7 +7759,7 @@ export const products: Product[] = [
   {
     id: "power-supply-industrial-switched-mode",
     slug: "power-supply-industrial-switched-mode",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     image: "power-supplies",
     specs: {
@@ -7787,7 +7787,7 @@ export const products: Product[] = [
   {
     id: "power-supply-ups-uninterruptible",
     slug: "power-supply-ups-uninterruptible",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     image: "power-supplies",
     specs: {
@@ -7808,7 +7808,7 @@ export const products: Product[] = [
   {
     id: "enclosure-control-panel-cabinets",
     slug: "enclosure-control-panel-cabinets",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     image: "enclosures-cabinets",
     specs: {
@@ -7827,7 +7827,7 @@ export const products: Product[] = [
   {
     id: "enclosure-electrical-nema-rated",
     slug: "enclosure-electrical-nema-rated",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     image: "enclosures-cabinets",
     specs: {
@@ -7846,7 +7846,7 @@ export const products: Product[] = [
   {
     id: "enclosure-junction-boxes-weatherproof",
     slug: "enclosure-junction-boxes-weatherproof",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     image: "enclosures-cabinets",
     specs: {
@@ -7867,7 +7867,7 @@ export const products: Product[] = [
   {
     id: "rittal-jb121406",
     slug: "rittal-jb121406-junction-box",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "junction-boxes",
     image: "junction-box",
@@ -7889,7 +7889,7 @@ export const products: Product[] = [
   {
     id: "hoffman-a6044ch",
     slug: "hoffman-a6044ch-junction-box",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "junction-boxes",
     image: "junction-box",
@@ -7911,7 +7911,7 @@ export const products: Product[] = [
   {
     id: "hoffman-a1086chscfg",
     slug: "hoffman-a1086chscfg-junction-box",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "junction-boxes",
     image: "junction-box",
@@ -7933,7 +7933,7 @@ export const products: Product[] = [
   {
     id: "fibox-arca-806030",
     slug: "fibox-arca-806030-junction-box",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "junction-boxes",
     image: "junction-box",
@@ -7954,7 +7954,7 @@ export const products: Product[] = [
   {
     id: "fibox-tempo-tam302515",
     slug: "fibox-tempo-tam302515-junction-box",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "junction-boxes",
     image: "junction-box",
@@ -7977,7 +7977,7 @@ export const products: Product[] = [
   {
     id: "phoenix-bc-35-6",
     slug: "phoenix-bc-35-6-din-rail",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "din-rail-enclosures",
     image: "din-rail-enclosure",
@@ -7998,7 +7998,7 @@ export const products: Product[] = [
   {
     id: "phoenix-mcs-ip67",
     slug: "phoenix-mcs-ip67-din-rail",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "din-rail-enclosures",
     image: "din-rail-enclosure",
@@ -8019,7 +8019,7 @@ export const products: Product[] = [
   {
     id: "abb-mistral36",
     slug: "abb-mistral36-din-rail",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "din-rail-enclosures",
     image: "din-rail-enclosure",
@@ -8040,7 +8040,7 @@ export const products: Product[] = [
   {
     id: "abb-mistral54",
     slug: "abb-mistral54-din-rail",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "din-rail-enclosures",
     image: "din-rail-enclosure",
@@ -8061,7 +8061,7 @@ export const products: Product[] = [
   {
     id: "phoenix-ics-77",
     slug: "phoenix-ics-77-din-rail",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "din-rail-enclosures",
     image: "din-rail-enclosure",
@@ -8083,7 +8083,7 @@ export const products: Product[] = [
   {
     id: "heating-element-industrial-cartridge-band",
     slug: "heating-element-industrial-cartridge-band",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-elements",
     specs: {
@@ -8102,7 +8102,7 @@ export const products: Product[] = [
   {
     id: "heating-electric-ovens-furnaces",
     slug: "heating-electric-ovens-furnaces",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-elements",
     specs: {
@@ -8121,7 +8121,7 @@ export const products: Product[] = [
   {
     id: "heating-heat-tracing-systems",
     slug: "heating-heat-tracing-systems",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-elements",
     specs: {
@@ -11968,7 +11968,7 @@ export const products: Product[] = [
   {
     id: "heating-immersion-heater-flanged",
     slug: "heating-immersion-heater-flanged",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-elements",
     specs: {
@@ -11990,7 +11990,7 @@ export const products: Product[] = [
   {
     id: "heating-strip-heater-mica",
     slug: "heating-strip-heater-mica",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-elements",
     specs: {
@@ -12011,7 +12011,7 @@ export const products: Product[] = [
   {
     id: "heating-coil-heater-air-duct",
     slug: "heating-coil-heater-air-duct",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-elements",
     specs: {
@@ -12032,7 +12032,7 @@ export const products: Product[] = [
   {
     id: "heating-cartridge-band-heater",
     slug: "heating-element-industrial-cartridge-band",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-elements",
     specs: {
@@ -12053,7 +12053,7 @@ export const products: Product[] = [
   {
     id: "heating-industrial-oven-furnace",
     slug: "heating-electric-ovens-furnaces",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-elements",
     specs: {
@@ -12074,7 +12074,7 @@ export const products: Product[] = [
   {
     id: "heating-cable-tracing-system",
     slug: "heating-heat-tracing-systems",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-elements",
     specs: {
@@ -12097,7 +12097,7 @@ export const products: Product[] = [
   {
     id: "watlow-firerod-1-4-500",
     slug: "watlow-firerod-1-4-500-cartridge-heater",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-coils",
     image: "heating-coil",
@@ -12118,7 +12118,7 @@ export const products: Product[] = [
   {
     id: "chromalox-tlo-20",
     slug: "chromalox-tlo-20-tubular-immersion",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-coils",
     image: "heating-coil",
@@ -12139,7 +12139,7 @@ export const products: Product[] = [
   {
     id: "watlow-watrod-430-10",
     slug: "watlow-watrod-430-10-tubular-heater",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-coils",
     image: "heating-coil",
@@ -12159,7 +12159,7 @@ export const products: Product[] = [
   {
     id: "chromalox-sre-10",
     slug: "chromalox-sre-10-electric-coil",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-coils",
     image: "heating-coil",
@@ -12180,7 +12180,7 @@ export const products: Product[] = [
   {
     id: "omega-csh-102",
     slug: "omega-csh-102-coil-heater",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-coils",
     image: "heating-coil",
@@ -12202,7 +12202,7 @@ export const products: Product[] = [
   {
     id: "watlow-firebar-fb15",
     slug: "watlow-firebar-fb15-tubular",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-elements",
     image: "heating-element",
@@ -12223,7 +12223,7 @@ export const products: Product[] = [
   {
     id: "chromalox-ces-028",
     slug: "chromalox-ces-028-cartridge",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-elements",
     image: "heating-element",
@@ -12244,7 +12244,7 @@ export const products: Product[] = [
   {
     id: "watlow-ultramic-aln-250",
     slug: "watlow-ultramic-aln-250-ceramic",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-elements",
     image: "heating-element",
@@ -12265,7 +12265,7 @@ export const products: Product[] = [
   {
     id: "omega-css-01250",
     slug: "omega-css-01250-strip-heater",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-elements",
     image: "heating-element",
@@ -12286,7 +12286,7 @@ export const products: Product[] = [
   {
     id: "chromalox-tmo-10",
     slug: "chromalox-tmo-10-tubular",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-elements",
     image: "heating-element",
@@ -12309,7 +12309,7 @@ export const products: Product[] = [
   {
     id: "watlow-circulation-ch-50",
     slug: "watlow-circulation-ch-50-heater",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "industrial-heaters",
     image: "industrial-heater",
@@ -12330,7 +12330,7 @@ export const products: Product[] = [
   {
     id: "chromalox-cvep-15",
     slug: "chromalox-cvep-15-hazardous",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "industrial-heaters",
     image: "industrial-heater",
@@ -12351,7 +12351,7 @@ export const products: Product[] = [
   {
     id: "watlow-duct-dh-30",
     slug: "watlow-duct-dh-30-heater",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "industrial-heaters",
     image: "industrial-heater",
@@ -12372,7 +12372,7 @@ export const products: Product[] = [
   {
     id: "chromalox-immersion-pmh-25",
     slug: "chromalox-immersion-pmh-25",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "industrial-heaters",
     image: "industrial-heater",
@@ -12393,7 +12393,7 @@ export const products: Product[] = [
   {
     id: "omega-fma-1020",
     slug: "omega-fma-1020-air-heater",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "industrial-heaters",
     image: "industrial-heater",
@@ -13566,7 +13566,7 @@ export const products: Product[] = [
   {
     id: "schneider-m9r31240-rccb",
     slug: "schneider-m9r31240-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13598,7 +13598,7 @@ export const products: Product[] = [
   {
     id: "schneider-m9r14463-rccb",
     slug: "schneider-m9r14463-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13630,7 +13630,7 @@ export const products: Product[] = [
   {
     id: "abb-f204-a63-003-rccb",
     slug: "abb-f204-a63-003-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13662,7 +13662,7 @@ export const products: Product[] = [
   {
     id: "abb-f204-ac25-rccb",
     slug: "abb-f204-ac25-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13694,7 +13694,7 @@ export const products: Product[] = [
   {
     id: "abb-f202-a40-003-rccb",
     slug: "abb-f202-a40-003-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13726,7 +13726,7 @@ export const products: Product[] = [
   {
     id: "abb-f204-ac40-01-rccb",
     slug: "abb-f204-ac40-01-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13758,7 +13758,7 @@ export const products: Product[] = [
   {
     id: "abb-f204-a80-003-rccb",
     slug: "abb-f204-a80-003-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13790,7 +13790,7 @@ export const products: Product[] = [
   {
     id: "abb-f204-ac100-03-rccb",
     slug: "abb-f204-ac100-03-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13822,7 +13822,7 @@ export const products: Product[] = [
   {
     id: "abb-f204-ac125-03-rccb",
     slug: "abb-f204-ac125-03-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13854,7 +13854,7 @@ export const products: Product[] = [
   {
     id: "abb-f204-b-s63-05-rccb",
     slug: "abb-f204-b-s63-05-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13886,7 +13886,7 @@ export const products: Product[] = [
   {
     id: "abb-f202-ac25-003-rccb",
     slug: "abb-f202-ac25-003-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13918,7 +13918,7 @@ export const products: Product[] = [
   {
     id: "abb-f202-a63-003-rccb",
     slug: "abb-f202-a63-003-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13950,7 +13950,7 @@ export const products: Product[] = [
   {
     id: "abb-f204-a-s40-03-rccb",
     slug: "abb-f204-a-s40-03-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -13982,7 +13982,7 @@ export const products: Product[] = [
   {
     id: "abb-f204-ac63-05-rccb",
     slug: "abb-f204-ac63-05-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -14014,7 +14014,7 @@ export const products: Product[] = [
   {
     id: "abb-fx200-a40-003-rccb",
     slug: "abb-fx200-a40-003-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -14046,7 +14046,7 @@ export const products: Product[] = [
   {
     id: "abb-f202-ac40-003-rccb",
     slug: "abb-f202-ac40-003-rccb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
@@ -14080,7 +14080,7 @@ export const products: Product[] = [
   {
     id: "abb-emax-e12-1250a-acb",
     slug: "abb-emax-e12-1250a-acb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "acb-circuit-breakers",
     image: "acb",
@@ -14112,7 +14112,7 @@ export const products: Product[] = [
   {
     id: "abb-emax-e22-2000a-acb",
     slug: "abb-emax-e22-2000a-acb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "acb-circuit-breakers",
     image: "acb",
@@ -14144,7 +14144,7 @@ export const products: Product[] = [
   {
     id: "schneider-masterpact-nw1600-acb",
     slug: "schneider-masterpact-nw1600-acb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "acb-circuit-breakers",
     image: "acb",
@@ -14175,7 +14175,7 @@ export const products: Product[] = [
   {
     id: "schneider-masterpact-mtz-2500a-acb",
     slug: "schneider-masterpact-mtz-2500a-acb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "acb-circuit-breakers",
     image: "acb",
@@ -14206,7 +14206,7 @@ export const products: Product[] = [
   {
     id: "abb-emax2-e2n-1600a-acb",
     slug: "abb-emax2-e2n-1600a-air-circuit-breaker",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "acb-circuit-breakers",
     image: "acb",
@@ -14240,7 +14240,7 @@ export const products: Product[] = [
   {
     id: "abb-vd4-12kv-1250a-vcb",
     slug: "abb-vd4-12kv-1250a-vcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "vcb-circuit-breakers",
     image: "vcb",
@@ -14272,7 +14272,7 @@ export const products: Product[] = [
   {
     id: "abb-vd4-24kv-2000a-vcb",
     slug: "abb-vd4-24kv-2000a-vcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "vcb-circuit-breakers",
     image: "vcb",
@@ -14304,7 +14304,7 @@ export const products: Product[] = [
   {
     id: "schneider-evopact-15kv-2000a-vcb",
     slug: "schneider-evopact-15kv-2000a-vcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "vcb-circuit-breakers",
     image: "vcb",
@@ -14336,7 +14336,7 @@ export const products: Product[] = [
   {
     id: "schneider-evopact-hvx-33kv-1250a-vcb",
     slug: "schneider-evopact-hvx-33kv-1250a-vcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "vcb-circuit-breakers",
     image: "vcb",
@@ -14367,7 +14367,7 @@ export const products: Product[] = [
   {
     id: "siemens-3ah4-12kv-1600a-vcb",
     slug: "siemens-3ah4-12kv-1600a-vcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "vcb-circuit-breakers",
     image: "vcb",
@@ -14752,7 +14752,7 @@ export const products: Product[] = [
   {
     id: "schneider-xc60-6a",
     slug: "schneider-electric-xc60-6a-mcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
     image: "mcb",
@@ -14782,7 +14782,7 @@ export const products: Product[] = [
   {
     id: "schneider-ic60-32a",
     slug: "schneider-electric-ic60-32a-mcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
     image: "mcb",
@@ -14811,7 +14811,7 @@ export const products: Product[] = [
   {
     id: "abb-s200-16a",
     slug: "abb-s200-16a-mcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
     image: "mcb",
@@ -14840,7 +14840,7 @@ export const products: Product[] = [
   {
     id: "abb-s200-63a-4p",
     slug: "abb-s200-63a-4p-mcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
     image: "mcb",
@@ -14869,7 +14869,7 @@ export const products: Product[] = [
   {
     id: "siemens-5sy-20a",
     slug: "siemens-5sy-20a-mcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
     image: "mcb",
@@ -14898,7 +14898,7 @@ export const products: Product[] = [
   {
     id: "siemens-5sl-40a-3p",
     slug: "siemens-5sl-40a-3p-mcb",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
     image: "mcb",
@@ -14929,7 +14929,7 @@ export const products: Product[] = [
   {
     id: "polycab-lt-xlpe-25sqmm",
     slug: "polycab-lt-xlpe-25sqmm-power-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "power-cables",
     image: "power-cable",
@@ -14958,7 +14958,7 @@ export const products: Product[] = [
   {
     id: "havells-ht-xlpe-95sqmm",
     slug: "havells-ht-xlpe-95sqmm-power-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "power-cables",
     image: "power-cable",
@@ -14987,7 +14987,7 @@ export const products: Product[] = [
   {
     id: "kei-lt-pvc-16sqmm",
     slug: "kei-lt-pvc-16sqmm-power-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "power-cables",
     image: "power-cable",
@@ -15016,7 +15016,7 @@ export const products: Product[] = [
   {
     id: "rr-kabel-frls-35sqmm",
     slug: "rr-kabel-frls-35sqmm-power-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "power-cables",
     image: "power-cable",
@@ -15045,7 +15045,7 @@ export const products: Product[] = [
   {
     id: "havells-armoured-50sqmm",
     slug: "havells-armoured-50sqmm-power-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "armoured-cables",
     image: "armoured-cable",
@@ -15074,7 +15074,7 @@ export const products: Product[] = [
   {
     id: "polycab-armoured-120sqmm-ht",
     slug: "polycab-armoured-120sqmm-ht-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "armoured-cables",
     image: "armoured-cable",
@@ -15103,7 +15103,7 @@ export const products: Product[] = [
   {
     id: "kei-armoured-70sqmm-lt",
     slug: "kei-armoured-70sqmm-lt-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "armoured-cables",
     image: "armoured-cable",
@@ -15132,7 +15132,7 @@ export const products: Product[] = [
   {
     id: "rr-kabel-armoured-185sqmm",
     slug: "rr-kabel-armoured-185sqmm-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "armoured-cables",
     image: "armoured-cable",
@@ -15163,7 +15163,7 @@ export const products: Product[] = [
   {
     id: "kei-control-2.5sqmm",
     slug: "kei-control-2.5sqmm-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "control-cables",
     image: "control-cable",
@@ -15192,7 +15192,7 @@ export const products: Product[] = [
   {
     id: "polycab-control-1.5sqmm-12c",
     slug: "polycab-control-1.5sqmm-12c-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "control-cables",
     image: "control-cable",
@@ -15221,7 +15221,7 @@ export const products: Product[] = [
   {
     id: "havells-control-4sqmm-armoured",
     slug: "havells-control-4sqmm-armoured-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "control-cables",
     image: "control-cable",
@@ -15250,7 +15250,7 @@ export const products: Product[] = [
   {
     id: "rr-kabel-control-6sqmm-frls",
     slug: "rr-kabel-control-6sqmm-frls-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "control-cables",
     image: "control-cable",
@@ -15279,7 +15279,7 @@ export const products: Product[] = [
   {
     id: "polycab-flexible-1.5sqmm",
     slug: "polycab-flexible-1.5sqmm-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "flexible-cables",
     image: "flexible-cable",
@@ -15308,7 +15308,7 @@ export const products: Product[] = [
   {
     id: "havells-flexible-2.5sqmm-4c",
     slug: "havells-flexible-2.5sqmm-4c-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "flexible-cables",
     image: "flexible-cable",
@@ -15337,7 +15337,7 @@ export const products: Product[] = [
   {
     id: "kei-flexible-4sqmm-rubber",
     slug: "kei-flexible-4sqmm-rubber-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "flexible-cables",
     image: "flexible-cable",
@@ -15366,7 +15366,7 @@ export const products: Product[] = [
   {
     id: "rr-kabel-flexible-6sqmm-hffrls",
     slug: "rr-kabel-flexible-6sqmm-hffrls-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "flexible-cables",
     image: "flexible-cable",
@@ -15842,7 +15842,7 @@ export const products: Product[] = [
   {
     id: "phoenix-ptfix-6x2.5",
     slug: "phoenix-ptfix-6x2.5-terminal-block",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "terminal-blocks",
     image: "terminal-block",
@@ -15871,7 +15871,7 @@ export const products: Product[] = [
   {
     id: "phoenix-ptfix-12x2.5",
     slug: "phoenix-ptfix-12x2.5-terminal-block",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "terminal-blocks",
     image: "terminal-block",
@@ -15902,7 +15902,7 @@ export const products: Product[] = [
   {
     id: "siemens-sitop-psu100s-5a",
     slug: "siemens-sitop-psu100s-5a-power-supply",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "ac-dc-converters",
     image: "ac-dc-converter",
@@ -15930,7 +15930,7 @@ export const products: Product[] = [
   {
     id: "phoenix-contact-quint-ps-10a",
     slug: "phoenix-contact-quint-ps-10a-power-supply",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "ac-dc-converters",
     image: "ac-dc-converter",
@@ -15958,7 +15958,7 @@ export const products: Product[] = [
   {
     id: "abb-cp-e-24-2.5",
     slug: "abb-cp-e-24-2.5-power-supply",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "ac-dc-converters",
     image: "ac-dc-converter",
@@ -15986,7 +15986,7 @@ export const products: Product[] = [
   {
     id: "schneider-abl7re24050",
     slug: "schneider-abl7re24050-power-supply",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "ac-dc-converters",
     image: "ac-dc-converter",
@@ -16015,7 +16015,7 @@ export const products: Product[] = [
   {
     id: "phoenix-contact-step-ps",
     slug: "phoenix-contact-step-ps-dc-dc-converter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "dc-dc-converters",
     image: "dc-dc-converter",
@@ -16044,7 +16044,7 @@ export const products: Product[] = [
   {
     id: "schneider-abl8rps24100",
     slug: "schneider-abl8rps24100-smps",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "smps",
     image: "ac-dc-converter",
@@ -16071,7 +16071,7 @@ export const products: Product[] = [
   {
     id: "siemens-sitop-psu8200-20a",
     slug: "siemens-sitop-psu8200-20a-smps",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "smps",
     image: "ac-dc-converter",
@@ -16099,7 +16099,7 @@ export const products: Product[] = [
   {
     id: "mean-well-dr-120-24",
     slug: "mean-well-dr-120-24-smps",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "smps",
     image: "ac-dc-converter",
@@ -16126,7 +16126,7 @@ export const products: Product[] = [
   {
     id: "phoenix-quint4-ps-20a",
     slug: "phoenix-quint4-ps-20a-smps",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "smps",
     image: "ac-dc-converter",
@@ -16156,7 +16156,7 @@ export const products: Product[] = [
   {
     id: "phoenix-quint-diode",
     slug: "phoenix-quint-diode-module",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "diode-units",
     image: "dc-dc-converter",
@@ -16184,7 +16184,7 @@ export const products: Product[] = [
   {
     id: "abb-x4100psf1",
     slug: "abb-x4100psf1-control-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "control-transformers",
     image: "control-transformer",
@@ -16211,7 +16211,7 @@ export const products: Product[] = [
   {
     id: "schneider-9070tf500d1",
     slug: "schneider-9070tf500d1-control-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "control-transformers",
     image: "control-transformer",
@@ -16238,7 +16238,7 @@ export const products: Product[] = [
   {
     id: "siemens-mt0500a-control",
     slug: "siemens-mt0500a-control-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "control-transformers",
     image: "control-transformer",
@@ -16265,7 +16265,7 @@ export const products: Product[] = [
   {
     id: "hammond-c1f002les",
     slug: "hammond-c1f002les-control-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "control-transformers",
     image: "control-transformer",
@@ -16294,7 +16294,7 @@ export const products: Product[] = [
   {
     id: "schneider-accutech-ct",
     slug: "schneider-accutech-ct-current-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "current-transformers",
     image: "current-transformer",
@@ -16321,7 +16321,7 @@ export const products: Product[] = [
   {
     id: "abb-ctk-200-5",
     slug: "abb-ctk-200-5-current-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "current-transformers",
     image: "current-transformer",
@@ -16348,7 +16348,7 @@ export const products: Product[] = [
   {
     id: "siemens-7kl1-ct-400",
     slug: "siemens-7kl1-ct-400-current-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "current-transformers",
     image: "current-transformer",
@@ -16375,7 +16375,7 @@ export const products: Product[] = [
   {
     id: "littelfuse-lct-1000",
     slug: "littelfuse-lct-1000-current-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "current-transformers",
     image: "current-transformer",
@@ -16404,7 +16404,7 @@ export const products: Product[] = [
   {
     id: "abb-vt-480-120",
     slug: "abb-vt-480-120-potential-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "potential-transformers",
     image: "potential-transformer",
@@ -16431,7 +16431,7 @@ export const products: Product[] = [
   {
     id: "siemens-7sr-pt-240",
     slug: "siemens-7sr-pt-240-potential-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "potential-transformers",
     image: "potential-transformer",
@@ -16458,7 +16458,7 @@ export const products: Product[] = [
   {
     id: "schneider-pt-11000",
     slug: "schneider-pt-11000-potential-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "potential-transformers",
     image: "potential-transformer",
@@ -16485,7 +16485,7 @@ export const products: Product[] = [
   {
     id: "ge-jvm-3-pt",
     slug: "ge-jvm-3-pt-potential-transformer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "potential-transformers",
     image: "potential-transformer",
@@ -16514,7 +16514,7 @@ export const products: Product[] = [
   {
     id: "schneider-lc1d25-contactor",
     slug: "schneider-lc1d25-power-contactor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "power-contactors",
     image: "power-contactor",
@@ -16543,7 +16543,7 @@ export const products: Product[] = [
   {
     id: "omron-h3cr-timer",
     slug: "omron-h3cr-timer-relay",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "timer-relays",
     image: "timer-relay",
@@ -16572,7 +16572,7 @@ export const products: Product[] = [
   {
     id: "abb-cm-pv-voltage-relay",
     slug: "abb-cm-pv-voltage-monitoring-relay",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "voltage-monitoring-relay",
     image: "voltage-monitoring-relay",
@@ -16601,7 +16601,7 @@ export const products: Product[] = [
   {
     id: "siemens-3rw44-motor-relay",
     slug: "siemens-3rw44-motor-protection-relay",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "digital-motor-protection-relay",
     image: "motor-protection-relay",
@@ -16630,7 +16630,7 @@ export const products: Product[] = [
   {
     id: "phoenix-plc-rsc-relay-board",
     slug: "phoenix-plc-rsc-relay-board",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "relay-boards",
     image: "relay-board",
@@ -16659,7 +16659,7 @@ export const products: Product[] = [
   {
     id: "ngk-c-2250-insulator",
     slug: "ngk-c-2250-disc-insulator",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "insulators-insulation-materials",
     typeKey: "insulators",
     image: "disc-insulator",
@@ -16688,7 +16688,7 @@ export const products: Product[] = [
   {
     id: "polycab-earth-cable-16mm",
     slug: "polycab-earthing-cable-16mm",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "earthing-cables",
     image: "earthing-cable",
@@ -16715,7 +16715,7 @@ export const products: Product[] = [
   {
     id: "havells-earth-cable-25mm",
     slug: "havells-earthing-cable-25mm",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "earthing-cables",
     image: "earthing-cable",
@@ -16742,7 +16742,7 @@ export const products: Product[] = [
   {
     id: "rr-kabel-earth-cable-35mm",
     slug: "rr-kabel-earthing-cable-35mm",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "earthing-cables",
     image: "earthing-cable",
@@ -16771,7 +16771,7 @@ export const products: Product[] = [
   {
     id: "havells-frls-3core-cable",
     slug: "havells-frls-3core-appliance-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "home-appliance-cables",
     image: "home-appliance-cable",
@@ -16798,7 +16798,7 @@ export const products: Product[] = [
   {
     id: "polycab-submersible-flat-cable",
     slug: "polycab-submersible-flat-3core-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "home-appliance-cables",
     image: "home-appliance-cable",
@@ -16825,7 +16825,7 @@ export const products: Product[] = [
   {
     id: "finolex-appliance-cable-2core",
     slug: "finolex-appliance-cable-2core-1mm",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "home-appliance-cables",
     image: "home-appliance-cable",
@@ -16854,7 +16854,7 @@ export const products: Product[] = [
   {
     id: "kei-multicore-10x1.5mm",
     slug: "kei-multicore-10core-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "multicore-cables-electrical",
     image: "multicore-cable-electrical",
@@ -16881,7 +16881,7 @@ export const products: Product[] = [
   {
     id: "polycab-multicore-19x2.5mm",
     slug: "polycab-multicore-19core-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "multicore-cables-electrical",
     image: "multicore-cable-electrical",
@@ -16908,7 +16908,7 @@ export const products: Product[] = [
   {
     id: "havells-multicore-7x1mm",
     slug: "havells-multicore-7core-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "multicore-cables-electrical",
     image: "multicore-cable-electrical",
@@ -16937,7 +16937,7 @@ export const products: Product[] = [
   {
     id: "belden-cat6a-ethernet",
     slug: "belden-cat6a-10gx-ethernet-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "ethernet-cables",
     image: "ethernet-cable",
@@ -16964,7 +16964,7 @@ export const products: Product[] = [
   {
     id: "lapp-cat7-ethernet",
     slug: "lapp-etherline-cat7-ethernet-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "ethernet-cables",
     image: "ethernet-cable",
@@ -16991,7 +16991,7 @@ export const products: Product[] = [
   {
     id: "siemens-cat6-ethernet",
     slug: "siemens-ie-fc-cat6-ethernet-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "ethernet-cables",
     image: "ethernet-cable",
@@ -17020,7 +17020,7 @@ export const products: Product[] = [
   {
     id: "siemens-profibus-cable",
     slug: "siemens-profibus-dp-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "profibus-cables",
     image: "profibus-cable",
@@ -17047,7 +17047,7 @@ export const products: Product[] = [
   {
     id: "belden-3079a-profibus",
     slug: "belden-3079a-profibus-dp-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "profibus-cables",
     image: "profibus-cable",
@@ -17074,7 +17074,7 @@ export const products: Product[] = [
   {
     id: "lapp-unitronic-profibus",
     slug: "lapp-unitronic-profibus-dp-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "profibus-cables",
     image: "profibus-cable",
@@ -17103,7 +17103,7 @@ export const products: Product[] = [
   {
     id: "lapp-profinet-cable",
     slug: "lapp-etherline-profinet-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "profinet-cables",
     image: "profinet-cable",
@@ -17130,7 +17130,7 @@ export const products: Product[] = [
   {
     id: "siemens-profinet-type-c",
     slug: "siemens-profinet-fc-type-c-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "profinet-cables",
     image: "profinet-cable",
@@ -17157,7 +17157,7 @@ export const products: Product[] = [
   {
     id: "belden-profinet-industrial",
     slug: "belden-profinet-industrial-ethernet-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "profinet-cables",
     image: "profinet-cable",
@@ -17186,7 +17186,7 @@ export const products: Product[] = [
   {
     id: "belden-8761-shielded-pair",
     slug: "belden-8761-1pair-shielded-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "shielded-pair-cables-1p",
     image: "shielded-pair-1p-cable",
@@ -17213,7 +17213,7 @@ export const products: Product[] = [
   {
     id: "alpha-wire-5191c-1pair",
     slug: "alpha-wire-5191c-1pair-shielded-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "shielded-pair-cables-1p",
     image: "shielded-pair-1p-cable",
@@ -17240,7 +17240,7 @@ export const products: Product[] = [
   {
     id: "lapp-unitronic-li2ycy-1p",
     slug: "lapp-unitronic-li2ycy-1pair-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "shielded-pair-cables-1p",
     image: "shielded-pair-1p-cable",
@@ -17269,7 +17269,7 @@ export const products: Product[] = [
   {
     id: "belden-9502-shielded-pair",
     slug: "belden-9502-2pair-shielded-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "shielded-pair-cables-2p",
     image: "shielded-pair-2p-cable",
@@ -17296,7 +17296,7 @@ export const products: Product[] = [
   {
     id: "alpha-wire-5192c-2pair",
     slug: "alpha-wire-5192c-2pair-shielded-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "shielded-pair-cables-2p",
     image: "shielded-pair-2p-cable",
@@ -17323,7 +17323,7 @@ export const products: Product[] = [
   {
     id: "lapp-unitronic-li2ycy-2p",
     slug: "lapp-unitronic-li2ycy-2pair-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "shielded-pair-cables-2p",
     image: "shielded-pair-2p-cable",
@@ -17352,7 +17352,7 @@ export const products: Product[] = [
   {
     id: "belden-9538-shielded-8pair",
     slug: "belden-9538-8pair-shielded-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "shielded-pair-cables-8p",
     image: "shielded-pair-8p-cable",
@@ -17379,7 +17379,7 @@ export const products: Product[] = [
   {
     id: "alpha-wire-5198c-8pair",
     slug: "alpha-wire-5198c-8pair-shielded-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "shielded-pair-cables-8p",
     image: "shielded-pair-8p-cable",
@@ -17406,7 +17406,7 @@ export const products: Product[] = [
   {
     id: "lapp-unitronic-li2ycy-8p",
     slug: "lapp-unitronic-li2ycy-8pair-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "shielded-pair-cables-8p",
     image: "shielded-pair-8p-cable",
@@ -17435,7 +17435,7 @@ export const products: Product[] = [
   {
     id: "eland-multicore-12x0.75mm",
     slug: "eland-multicore-12core-instrument-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "multicore-cables-instrumentation",
     image: "multicore-cable-instrumentation",
@@ -17462,7 +17462,7 @@ export const products: Product[] = [
   {
     id: "belden-8723-multicore-instrument",
     slug: "belden-8723-multicore-instrument-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "multicore-cables-instrumentation",
     image: "multicore-cable-instrumentation",
@@ -17489,7 +17489,7 @@ export const products: Product[] = [
   {
     id: "lapp-olflex-classic-100cy",
     slug: "lapp-olflex-classic-100cy-multicore-cable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "multicore-cables-instrumentation",
     image: "multicore-cable-instrumentation",
@@ -17518,7 +17518,7 @@ export const products: Product[] = [
   {
     id: "rittal-ae-cabinet-600x800",
     slug: "rittal-ae-wall-mount-cabinet",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "electrical-cabinets",
     image: "electrical-cabinet",
@@ -17547,7 +17547,7 @@ export const products: Product[] = [
   {
     id: "legrand-dkc-pvc-duct",
     slug: "legrand-dkc-pvc-cable-duct",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "pvc-duct",
     image: "pvc-duct",
@@ -17576,7 +17576,7 @@ export const products: Product[] = [
   {
     id: "phoenix-st-uk-isolator",
     slug: "phoenix-st-uk-fuse-terminal-isolator",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "fuse-terminal-block-isolators",
     image: "terminal-block",
@@ -17605,7 +17605,7 @@ export const products: Product[] = [
   {
     id: "wago-281-knife-disconnect",
     slug: "wago-281-disconnect-terminal-block",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "non-fuse-terminal-block-isolators",
     image: "terminal-block",
@@ -17634,7 +17634,7 @@ export const products: Product[] = [
   {
     id: "phoenix-ptpower-motor-terminal",
     slug: "phoenix-ptpower-motor-terminal-block",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "motor-terminal-blocks",
     image: "terminal-block",
@@ -17663,7 +17663,7 @@ export const products: Product[] = [
   {
     id: "schneider-nsx250-mccb",
     slug: "schneider-nsx250-molded-case-breaker",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "molded-case-breakers",
     image: "mccb",
@@ -17692,7 +17692,7 @@ export const products: Product[] = [
   {
     id: "bussmann-fwh-hrc-fuse",
     slug: "bussmann-fwh-200a-hrc-fuse",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "hrc-fuses",
     image: "hrc-fuse",
@@ -17721,7 +17721,7 @@ export const products: Product[] = [
   {
     id: "littelfuse-5x20mm-glass",
     slug: "littelfuse-5x20mm-glass-fuse",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "glass-fuses",
     image: "fuse",
@@ -17750,7 +17750,7 @@ export const products: Product[] = [
   {
     id: "littelfuse-spd2-350-4p0",
     slug: "littelfuse-spd2-ac-surge-protector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "ac-surge-protectors",
     image: "surge-protector",
@@ -17777,7 +17777,7 @@ export const products: Product[] = [
   {
     id: "abb-ovr-t2-40ka-spd",
     slug: "abb-ovr-t2-3n-40ka-surge-protector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "ac-surge-protectors",
     image: "surge-protector",
@@ -17804,7 +17804,7 @@ export const products: Product[] = [
   {
     id: "schneider-iprd40-acti9-spd",
     slug: "schneider-acti9-iprd40-surge-protector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "ac-surge-protectors",
     image: "surge-protector",
@@ -17833,7 +17833,7 @@ export const products: Product[] = [
   {
     id: "phoenix-pt-2-be",
     slug: "phoenix-pt-2-be-dc-surge-protector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "dc-surge-protectors",
     image: "surge-protector",
@@ -17859,7 +17859,7 @@ export const products: Product[] = [
   {
     id: "phoenix-val-ms-1000dc-pv",
     slug: "phoenix-val-ms-1000dc-pv-solar-spd",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "dc-surge-protectors",
     image: "surge-protector",
@@ -17885,7 +17885,7 @@ export const products: Product[] = [
   {
     id: "weidmuller-vpu-pv-1000",
     slug: "weidmuller-varitector-pv-1000vdc-spd",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "dc-surge-protectors",
     image: "surge-protector",
@@ -17913,7 +17913,7 @@ export const products: Product[] = [
   {
     id: "phoenix-tt-st-m-diode",
     slug: "phoenix-tt-st-m-signal-surge-protector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "signal-surge-protectors",
     image: "surge-protector",
@@ -17939,7 +17939,7 @@ export const products: Product[] = [
   {
     id: "phoenix-ttc-6-24dc-ut",
     slug: "phoenix-ttc-6-24dc-signal-spd",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "signal-surge-protectors",
     image: "surge-protector",
@@ -17965,7 +17965,7 @@ export const products: Product[] = [
   {
     id: "weidmuller-vspc-rs485",
     slug: "weidmuller-vspc-rs485-data-spd",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "signal-surge-protectors",
     image: "surge-protector",
@@ -17993,7 +17993,7 @@ export const products: Product[] = [
   {
     id: "schneider-copper-earth-strip",
     slug: "schneider-copper-earthing-strip",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "earthing-strips",
     image: "earthing-strip",
@@ -18019,7 +18019,7 @@ export const products: Product[] = [
   {
     id: "erico-copper-earth-bar",
     slug: "erico-copper-earth-bar-busbar",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "earthing-strips",
     image: "earthing-strip",
@@ -18045,7 +18045,7 @@ export const products: Product[] = [
   {
     id: "weidmuller-klippon-earth-terminal",
     slug: "weidmuller-klippon-earth-terminal-strip",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "earthing-strips",
     image: "earthing-strip",
@@ -18073,7 +18073,7 @@ export const products: Product[] = [
   {
     id: "panduit-grj6-ground-jumper",
     slug: "panduit-grj6-equipment-ground-jumper",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "equipment-grounding",
     image: "ground-jumper",
@@ -18099,7 +18099,7 @@ export const products: Product[] = [
   {
     id: "burndy-bgc-ground-clamp",
     slug: "burndy-bgc-equipment-ground-clamp",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "equipment-grounding",
     image: "ground-jumper",
@@ -18125,7 +18125,7 @@ export const products: Product[] = [
   {
     id: "ilsco-igb-insulated-ground",
     slug: "ilsco-igb-insulated-grounding-busbar",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "equipment-grounding",
     image: "ground-jumper",
@@ -18153,7 +18153,7 @@ export const products: Product[] = [
   {
     id: "erico-cadweld-ground-rod",
     slug: "erico-cadweld-ground-rod-system",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "system-grounding",
     image: "ground-rod",
@@ -18179,7 +18179,7 @@ export const products: Product[] = [
   {
     id: "lyncole-xlt-grounding-electrode",
     slug: "lyncole-xlt-enhanced-grounding-electrode",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "system-grounding",
     image: "ground-rod",
@@ -18205,7 +18205,7 @@ export const products: Product[] = [
   {
     id: "galvan-copper-ground-plate",
     slug: "galvan-solid-copper-ground-plate",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "system-grounding",
     image: "ground-rod",
@@ -18233,7 +18233,7 @@ export const products: Product[] = [
   {
     id: "abb-obo-v20-arrestor",
     slug: "abb-obo-v20-lightning-arrestor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "lightning-arrestors",
     image: "lightning-arrestor",
@@ -18259,7 +18259,7 @@ export const products: Product[] = [
   {
     id: "phoenix-flashtrab-lightning-arrestor",
     slug: "phoenix-flashtrab-type1-lightning-arrestor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "lightning-arrestors",
     image: "lightning-arrestor",
@@ -18285,7 +18285,7 @@ export const products: Product[] = [
   {
     id: "dehn-dg-lightning-arrestor",
     slug: "dehn-dg-modular-lightning-arrestor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "lightning-arrestors",
     image: "lightning-arrestor",
@@ -18313,7 +18313,7 @@ export const products: Product[] = [
   {
     id: "erico-eritech-air-terminal",
     slug: "erico-eritech-air-terminal-rod",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "lightning-protection",
     image: "lightning-rod",
@@ -18339,7 +18339,7 @@ export const products: Product[] = [
   {
     id: "erico-cadweld-exothermic-weld",
     slug: "erico-cadweld-exothermic-welding-kit",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "lightning-protection",
     image: "lightning-rod",
@@ -18365,7 +18365,7 @@ export const products: Product[] = [
   {
     id: "dehn-hvi-conductor",
     slug: "dehn-hvi-isolated-lightning-conductor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "lightning-protection",
     image: "lightning-rod",
@@ -18393,7 +18393,7 @@ export const products: Product[] = [
   {
     id: "wheelock-hn-series-horn",
     slug: "wheelock-hn-series-industrial-horn",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "alarms-indicators",
     typeKey: "hooter-buzzer",
     image: "hooter-buzzer",
@@ -18419,7 +18419,7 @@ export const products: Product[] = [
   {
     id: "patlite-ewh-24-industrial-buzzer",
     slug: "patlite-ewh-24-industrial-buzzer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "alarms-indicators",
     typeKey: "hooter-buzzer",
     image: "hooter-buzzer",
@@ -18445,7 +18445,7 @@ export const products: Product[] = [
   {
     id: "federal-signal-300gc-horn",
     slug: "federal-signal-300gc-selectone-horn",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "alarms-indicators",
     typeKey: "hooter-buzzer",
     image: "hooter-buzzer",
@@ -18473,7 +18473,7 @@ export const products: Product[] = [
   {
     id: "schneider-xb4bs8442-estop",
     slug: "schneider-xb4bs8442-emergency-stop",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "push-buttons-switches",
     typeKey: "emergency-stops",
     image: "emergency-stop",
@@ -18500,7 +18500,7 @@ export const products: Product[] = [
   {
     id: "siemens-3su1150-emergency-stop",
     slug: "siemens-3su1150-emergency-stop-button",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "push-buttons-switches",
     typeKey: "emergency-stops",
     image: "emergency-stop",
@@ -18527,7 +18527,7 @@ export const products: Product[] = [
   {
     id: "abb-ce4t-emergency-stop",
     slug: "abb-ce4t-compact-emergency-stop",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "push-buttons-switches",
     typeKey: "emergency-stops",
     image: "emergency-stop",
@@ -18556,7 +18556,7 @@ export const products: Product[] = [
   {
     id: "brady-emergency-eyewash-station",
     slug: "brady-emergency-eyewash-portable",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "safety-equipment",
     typeKey: "emergency-equipment",
     image: "emergency-eyewash",
@@ -18582,7 +18582,7 @@ export const products: Product[] = [
   {
     id: "speakman-se-505-eyewash",
     slug: "speakman-se-505-emergency-eyewash-shower",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "safety-equipment",
     typeKey: "emergency-equipment",
     image: "emergency-eyewash",
@@ -18608,7 +18608,7 @@ export const products: Product[] = [
   {
     id: "honeywell-first-aid-kit",
     slug: "honeywell-industrial-first-aid-kit",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "safety-equipment",
     typeKey: "emergency-equipment",
     image: "first-aid-kit",
@@ -18636,7 +18636,7 @@ export const products: Product[] = [
   {
     id: "appleton-axn100-explosion-proof",
     slug: "appleton-axn100-junction-box-explosion-proof",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "explosion-proof-equipment",
     image: "explosion-proof-junction",
@@ -18662,7 +18662,7 @@ export const products: Product[] = [
   {
     id: "eaton-crouse-hinds-gub-junction",
     slug: "eaton-crouse-hinds-gub-explosion-proof-junction",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "explosion-proof-equipment",
     image: "explosion-proof-junction",
@@ -18688,7 +18688,7 @@ export const products: Product[] = [
   {
     id: "pepperl-fuchs-sr-enclosure",
     slug: "pepperl-fuchs-sr-stainless-steel-enclosure",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "explosion-proof-equipment",
     image: "explosion-proof-junction",
@@ -18852,7 +18852,7 @@ export const products: Product[] = [
   {
     id: "philips-bvp130-floodlight",
     slug: "philips-bvp130-led-floodlight",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "lighting-fixtures",
     typeKey: "flood-lights",
     image: "flood-light",
@@ -18881,7 +18881,7 @@ export const products: Product[] = [
   {
     id: "philips-bvp130-wp-floodlight",
     slug: "philips-bvp130-weatherproof-floodlight",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "lighting-fixtures",
     typeKey: "flood-lights-weatherproof",
     image: "flood-light",
@@ -18910,7 +18910,7 @@ export const products: Product[] = [
   {
     id: "appleton-mlxl-flameproof-flood",
     slug: "appleton-mlxl-flameproof-floodlight",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "lighting-fixtures",
     typeKey: "flood-lights-flameproof",
     image: "flameproof-flood",
@@ -19742,7 +19742,7 @@ export const products: Product[] = [
   {
     id: "philips-led-street-60w",
     slug: "philips-led-street-light-60w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "street-lights",
     image: "street-light",
@@ -19770,7 +19770,7 @@ export const products: Product[] = [
   {
     id: "crompton-led-street-50w",
     slug: "crompton-led-street-light-50w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "street-lights",
     image: "street-light",
@@ -19798,7 +19798,7 @@ export const products: Product[] = [
   {
     id: "havells-led-street-100w",
     slug: "havells-led-street-light-100w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "street-lights",
     image: "street-light",
@@ -19828,7 +19828,7 @@ export const products: Product[] = [
   {
     id: "eetamax-flameproof-street-100w",
     slug: "eetamax-flameproof-street-light-100w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "street-lights-flameproof",
     image: "flameproof-street-light",
@@ -19856,7 +19856,7 @@ export const products: Product[] = [
   {
     id: "bharat-flameproof-street-150w",
     slug: "bharat-flameproof-street-light-150w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "street-lights-flameproof",
     image: "flameproof-street-light",
@@ -19886,7 +19886,7 @@ export const products: Product[] = [
   {
     id: "aster-weatherproof-street-75w",
     slug: "aster-weatherproof-street-light-75w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "street-lights-weatherproof",
     image: "weatherproof-street-light",
@@ -19914,7 +19914,7 @@ export const products: Product[] = [
   {
     id: "pyrotech-weatherproof-street-120w",
     slug: "pyrotech-weatherproof-street-light-120w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "street-lights-weatherproof",
     image: "weatherproof-street-light",
@@ -19944,7 +19944,7 @@ export const products: Product[] = [
   {
     id: "aster-ufo-highbay-100w",
     slug: "aster-ufo-high-bay-100w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "high-bay-lights",
     image: "high-bay-light",
@@ -19972,7 +19972,7 @@ export const products: Product[] = [
   {
     id: "eetamax-cob-highbay-150w",
     slug: "eetamax-cob-high-bay-150w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "high-bay-lights",
     image: "high-bay-light",
@@ -20000,7 +20000,7 @@ export const products: Product[] = [
   {
     id: "ideal-highbay-200w",
     slug: "ideal-high-bay-200w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "high-bay-lights",
     image: "high-bay-light",
@@ -20030,7 +20030,7 @@ export const products: Product[] = [
   {
     id: "aster-flameproof-highbay-100w",
     slug: "aster-flameproof-high-bay-100w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "high-bay-lights-flameproof",
     image: "flameproof-high-bay",
@@ -20058,7 +20058,7 @@ export const products: Product[] = [
   {
     id: "eetamax-flameproof-highbay-150w",
     slug: "eetamax-flameproof-high-bay-150w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "high-bay-lights-flameproof",
     image: "flameproof-high-bay",
@@ -20088,7 +20088,7 @@ export const products: Product[] = [
   {
     id: "ideal-weatherproof-highbay-100w",
     slug: "ideal-weatherproof-high-bay-100w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "high-bay-lights-weatherproof",
     image: "weatherproof-high-bay",
@@ -20116,7 +20116,7 @@ export const products: Product[] = [
   {
     id: "shine-weatherproof-highbay-150w",
     slug: "shine-weatherproof-high-bay-150w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "high-bay-lights-weatherproof",
     image: "weatherproof-high-bay",
@@ -20146,7 +20146,7 @@ export const products: Product[] = [
   {
     id: "ameico-vessel-light-40w",
     slug: "ameico-weatherproof-vessel-light-40w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "vessel-lights",
     image: "vessel-light",
@@ -20174,7 +20174,7 @@ export const products: Product[] = [
   {
     id: "btc-vessel-wall-light-60w",
     slug: "btc-weatherproof-vessel-wall-light-60w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "vessel-lights",
     image: "vessel-light",
@@ -20204,7 +20204,7 @@ export const products: Product[] = [
   {
     id: "instec-flameproof-vessel-45w",
     slug: "instec-flameproof-vessel-light-45w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "vessel-lights-flameproof",
     image: "flameproof-vessel-light",
@@ -20232,7 +20232,7 @@ export const products: Product[] = [
   {
     id: "veksler-flameproof-vessel-60w",
     slug: "veksler-flameproof-vessel-light-60w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "vessel-lights-flameproof",
     image: "flameproof-vessel-light",
@@ -20262,7 +20262,7 @@ export const products: Product[] = [
   {
     id: "ameico-weatherproof-vessel-mini-30w",
     slug: "ameico-weatherproof-vessel-mini-30w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "vessel-lights-weatherproof",
     image: "weatherproof-vessel-light",
@@ -20290,7 +20290,7 @@ export const products: Product[] = [
   {
     id: "holloways-weatherproof-vessel-50w",
     slug: "holloways-weatherproof-vessel-light-50w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "vessel-lights-weatherproof",
     image: "weatherproof-vessel-light",
@@ -20320,7 +20320,7 @@ export const products: Product[] = [
   {
     id: "aster-wellglass-40w",
     slug: "aster-led-well-glass-40w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "well-glass-lights",
     image: "well-glass-light",
@@ -20348,7 +20348,7 @@ export const products: Product[] = [
   {
     id: "fos-wellglass-70w",
     slug: "fos-led-well-glass-70w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "well-glass-lights",
     image: "well-glass-light",
@@ -20376,7 +20376,7 @@ export const products: Product[] = [
   {
     id: "lightronix-wellglass-50w",
     slug: "lightronix-well-glass-50w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "well-glass-lights",
     image: "well-glass-light",
@@ -20406,7 +20406,7 @@ export const products: Product[] = [
   {
     id: "pyrotech-flameproof-wellglass-60w",
     slug: "pyrotech-flameproof-well-glass-60w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "well-glass-lights-flameproof",
     image: "flameproof-well-glass",
@@ -20434,7 +20434,7 @@ export const products: Product[] = [
   {
     id: "sepl-flameproof-wellglass-45w",
     slug: "sepl-flameproof-well-glass-45w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "well-glass-lights-flameproof",
     image: "flameproof-well-glass",
@@ -20464,7 +20464,7 @@ export const products: Product[] = [
   {
     id: "veksler-weatherproof-wellglass-60w",
     slug: "veksler-weatherproof-well-glass-60w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "well-glass-lights-weatherproof",
     image: "weatherproof-well-glass",
@@ -20492,7 +20492,7 @@ export const products: Product[] = [
   {
     id: "instec-weatherproof-wellglass-70w",
     slug: "instec-weatherproof-well-glass-70w",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "well-glass-lights-weatherproof",
     image: "weatherproof-well-glass",
@@ -24468,7 +24468,7 @@ export const products: Product[] = [
   {
     id: "phoenix-ut-25-mt-motor-terminal",
     slug: "phoenix-ut-25-mt-motor-terminal-block",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "motor-terminal-blocks",
     image: "terminal-block",
@@ -24495,7 +24495,7 @@ export const products: Product[] = [
   {
     id: "weidmuller-wmf-25-motor-terminal",
     slug: "weidmuller-wmf-25-motor-terminal-block",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "motor-terminal-blocks",
     image: "terminal-block",
@@ -24524,7 +24524,7 @@ export const products: Product[] = [
   {
     id: "weidmuller-wsi-6-fuse-terminal",
     slug: "weidmuller-wsi-6-fuse-terminal-block",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "fuse-terminal-block-isolators",
     image: "fuse-terminal-block",
@@ -24551,7 +24551,7 @@ export const products: Product[] = [
   {
     id: "phoenix-ut-4-hesiled-fuse-terminal",
     slug: "phoenix-ut-4-hesiled-fuse-terminal-block",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "fuse-terminal-block-isolators",
     image: "fuse-terminal-block",
@@ -24580,7 +24580,7 @@ export const products: Product[] = [
   {
     id: "phoenix-uk-5-twin-disconnect",
     slug: "phoenix-uk-5-twin-disconnect-terminal",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "non-fuse-terminal-block-isolators",
     image: "disconnect-terminal-block",
@@ -24607,7 +24607,7 @@ export const products: Product[] = [
   {
     id: "weidmuller-wdu-25-disconnect",
     slug: "weidmuller-wdu-25-disconnect-terminal",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "non-fuse-terminal-block-isolators",
     image: "disconnect-terminal-block",
@@ -24636,7 +24636,7 @@ export const products: Product[] = [
   {
     id: "siemens-3va2-mccb",
     slug: "siemens-3va2-molded-case-breaker",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "molded-case-breakers",
     image: "mccb",
@@ -24663,7 +24663,7 @@ export const products: Product[] = [
   {
     id: "abb-tmax-xt-mccb",
     slug: "abb-tmax-xt-molded-case-breaker",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "molded-case-breakers",
     image: "mccb",
@@ -24692,7 +24692,7 @@ export const products: Product[] = [
   {
     id: "abb-ofaf-hrc-fuse",
     slug: "abb-ofaf-500v-hrc-fuse",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "hrc-fuses",
     image: "hrc-fuse",
@@ -24719,7 +24719,7 @@ export const products: Product[] = [
   {
     id: "siemens-3na3-hrc-fuse",
     slug: "siemens-3na3-hrc-fuse-link",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "hrc-fuses",
     image: "hrc-fuse",
@@ -24748,7 +24748,7 @@ export const products: Product[] = [
   {
     id: "schurter-fsf-glass-fuse",
     slug: "schurter-fsf-6x32-glass-fuse",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "glass-fuses",
     image: "fuse",
@@ -24775,7 +24775,7 @@ export const products: Product[] = [
   {
     id: "eaton-agc-glass-fuse",
     slug: "eaton-agc-6x30-glass-fuse",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "glass-fuses",
     image: "fuse",
@@ -24804,7 +24804,7 @@ export const products: Product[] = [
   {
     id: "phoenix-quint-diode-module",
     slug: "phoenix-quint-diode-redundancy-module",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-distribution",
     typeKey: "diode-units",
     image: "diode-module",
@@ -24831,7 +24831,7 @@ export const products: Product[] = [
   {
     id: "siemens-sitop-pse200u-diode",
     slug: "siemens-sitop-pse200u-diode-module",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "power-distribution",
     typeKey: "diode-units",
     image: "diode-module",
@@ -24860,7 +24860,7 @@ export const products: Product[] = [
   {
     id: "rittal-ax-compact-enclosure",
     slug: "rittal-ax-compact-electrical-cabinet",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "electrical-cabinets",
     image: "electrical-cabinet",
@@ -24887,7 +24887,7 @@ export const products: Product[] = [
   {
     id: "schneider-spacial-sm-enclosure",
     slug: "schneider-spacial-sm-electrical-cabinet",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "electrical-cabinets",
     image: "electrical-cabinet",
@@ -24916,7 +24916,7 @@ export const products: Product[] = [
   {
     id: "panduit-panduct-pvc-duct",
     slug: "panduit-panduct-pvc-wiring-duct",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "pvc-duct",
     image: "pvc-duct",
@@ -24943,7 +24943,7 @@ export const products: Product[] = [
   {
     id: "thomas-betts-ty-duct",
     slug: "thomas-betts-ty-duct-pvc-wiring",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "pvc-duct",
     image: "pvc-duct",
@@ -24972,7 +24972,7 @@ export const products: Product[] = [
   {
     id: "abb-a50-30-11-contactor",
     slug: "abb-a50-30-11-power-contactor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "power-contactors",
     image: "power-contactor",
@@ -24999,7 +24999,7 @@ export const products: Product[] = [
   {
     id: "siemens-3rt2-contactor",
     slug: "siemens-3rt2-power-contactor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "power-contactors",
     image: "power-contactor",
@@ -25033,7 +25033,7 @@ export const products: Product[] = [
   {
     id: "abb-ct-mfd-timer",
     slug: "abb-ct-mfd-multifunction-timer",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "timer-relays",
     image: "timer-relay",
@@ -25060,7 +25060,7 @@ export const products: Product[] = [
   {
     id: "siemens-3rp25-timer",
     slug: "siemens-3rp25-timer-relay",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "timer-relays",
     image: "timer-relay",
@@ -25089,7 +25089,7 @@ export const products: Product[] = [
   {
     id: "siemens-3ug4-voltage-relay",
     slug: "siemens-3ug4-voltage-monitoring-relay",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "voltage-monitoring-relay",
     image: "voltage-monitoring-relay",
@@ -25116,7 +25116,7 @@ export const products: Product[] = [
   {
     id: "schneider-rm35-voltage-relay",
     slug: "schneider-rm35-voltage-monitoring-relay",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "voltage-monitoring-relay",
     image: "voltage-monitoring-relay",
@@ -25145,7 +25145,7 @@ export const products: Product[] = [
   {
     id: "abb-umc100-motor-relay",
     slug: "abb-umc100-motor-protection-relay",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "digital-motor-protection-relay",
     image: "motor-protection-relay",
@@ -25172,7 +25172,7 @@ export const products: Product[] = [
   {
     id: "schneider-ltmr-motor-relay",
     slug: "schneider-ltmr-motor-protection-relay",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "digital-motor-protection-relay",
     image: "motor-protection-relay",
@@ -25201,7 +25201,7 @@ export const products: Product[] = [
   {
     id: "wago-857-relay-module",
     slug: "wago-857-relay-module",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "relay-boards",
     image: "relay-board",
@@ -25228,7 +25228,7 @@ export const products: Product[] = [
   {
     id: "finder-38-relay-board",
     slug: "finder-38-51-relay-interface",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "contactors-relays",
     typeKey: "relay-boards",
     image: "relay-board",
@@ -25257,7 +25257,7 @@ export const products: Product[] = [
   {
     id: "lapp-polymer-insulator",
     slug: "lapp-polymer-composite-insulator",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "insulators-insulation-materials",
     typeKey: "insulators",
     image: "polymer-insulator",
@@ -25284,7 +25284,7 @@ export const products: Product[] = [
   {
     id: "seves-glass-insulator",
     slug: "seves-glass-disc-insulator",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "insulators-insulation-materials",
     typeKey: "insulators",
     image: "disc-insulator",
@@ -25313,7 +25313,7 @@ export const products: Product[] = [
   {
     id: "philips-bvp-flood-light",
     slug: "philips-bvp-150-led-flood-light",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "flood-lights",
     image: "flood-light",
@@ -25340,7 +25340,7 @@ export const products: Product[] = [
   {
     id: "osram-floodlight-led",
     slug: "osram-ledvance-flood-light",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "flood-lights",
     image: "flood-light",
@@ -25369,7 +25369,7 @@ export const products: Product[] = [
   {
     id: "r-stahl-ex-flood",
     slug: "r-stahl-ex-flameproof-flood-light",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "flood-lights-flameproof",
     image: "flameproof-flood-light",
@@ -25396,7 +25396,7 @@ export const products: Product[] = [
   {
     id: "crouse-hinds-ex-flood",
     slug: "crouse-hinds-champ-flameproof-flood",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "flood-lights-flameproof",
     image: "flameproof-flood-light",
@@ -25425,7 +25425,7 @@ export const products: Product[] = [
   {
     id: "hubbell-outdoor-flood",
     slug: "hubbell-outdoor-weatherproof-flood",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "flood-lights-weatherproof",
     image: "weatherproof-flood-light",
@@ -25452,7 +25452,7 @@ export const products: Product[] = [
   {
     id: "rab-ffled-weatherproof",
     slug: "rab-ffled-weatherproof-flood-light",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "industrial-lighting",
     typeKey: "flood-lights-weatherproof",
     image: "weatherproof-flood-light",
@@ -25481,7 +25481,7 @@ export const products: Product[] = [
   {
     id: "abb-pstx-soft-starter",
     slug: "abb-pstx-170-soft-starter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "soft-starter",
     image: "soft-starter",
@@ -25508,7 +25508,7 @@ export const products: Product[] = [
   {
     id: "siemens-3rw50-soft-starter",
     slug: "siemens-3rw50-soft-starter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "soft-starter",
     image: "soft-starter",
@@ -25537,7 +25537,7 @@ export const products: Product[] = [
   {
     id: "siemens-3rm1-dol-starter",
     slug: "siemens-3rm1-dol-starter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "dol-starter",
     image: "dol-starter",
@@ -25564,7 +25564,7 @@ export const products: Product[] = [
   {
     id: "schneider-lc1d-dol-starter",
     slug: "schneider-lc1d-dol-motor-starter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "dol-starter",
     image: "dol-starter",
@@ -25598,7 +25598,7 @@ export const products: Product[] = [
   {
     id: "siemens-3ra22-star-delta",
     slug: "siemens-3ra22-star-delta-starter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "star-delta-starter",
     image: "star-delta-starter",
@@ -25625,7 +25625,7 @@ export const products: Product[] = [
   {
     id: "schneider-lc3d32-star-delta",
     slug: "schneider-lc3d32-star-delta-starter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "star-delta-starter",
     image: "star-delta-starter",
@@ -25652,7 +25652,7 @@ export const products: Product[] = [
   {
     id: "abb-af38-star-delta",
     slug: "abb-af38-star-delta-starter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "star-delta-starter",
     image: "star-delta-starter",
@@ -25681,7 +25681,7 @@ export const products: Product[] = [
   {
     id: "siemens-3ra23-reversing",
     slug: "siemens-3ra23-reversing-starter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "forward-reverse-starter",
     image: "reversing-starter",
@@ -25708,7 +25708,7 @@ export const products: Product[] = [
   {
     id: "schneider-lc2d-reversing",
     slug: "schneider-lc2d-reversing-starter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "forward-reverse-starter",
     image: "reversing-starter",
@@ -25735,7 +25735,7 @@ export const products: Product[] = [
   {
     id: "abb-af26-reversing",
     slug: "abb-af26-reversing-starter",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "forward-reverse-starter",
     image: "reversing-starter",
@@ -25764,7 +25764,7 @@ export const products: Product[] = [
   {
     id: "siemens-3rt2-reversing-contactor",
     slug: "siemens-3rt2-reversing-contactor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "reversing-contactor",
     image: "reversing-contactor",
@@ -25791,7 +25791,7 @@ export const products: Product[] = [
   {
     id: "schneider-lc2k-reversing-contactor",
     slug: "schneider-lc2k-reversing-contactor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "reversing-contactor",
     image: "reversing-contactor",
@@ -25818,7 +25818,7 @@ export const products: Product[] = [
   {
     id: "abb-af09-reversing-contactor",
     slug: "abb-af09-reversing-contactor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
     typeKey: "reversing-contactor",
     image: "reversing-contactor",
@@ -25847,7 +25847,7 @@ export const products: Product[] = [
   {
     id: "phoenix-vt2-plus-spd",
     slug: "phoenix-vt2-plus-surge-protector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "surge-protection",
     typeKey: "surge-protection-devices",
     image: "surge-protector",
@@ -25874,7 +25874,7 @@ export const products: Product[] = [
   {
     id: "schneider-iprd-spd",
     slug: "schneider-iprd-surge-protector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "surge-protection",
     typeKey: "surge-protection-devices",
     image: "surge-protector",
@@ -25901,7 +25901,7 @@ export const products: Product[] = [
   {
     id: "abb-ovr-t2-spd",
     slug: "abb-ovr-t2-surge-protector",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "surge-protection",
     typeKey: "surge-protection-devices",
     image: "surge-protector",
@@ -25930,7 +25930,7 @@ export const products: Product[] = [
   {
     id: "eritech-ground-bar",
     slug: "eritech-ground-bar-copper",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "grounding-materials",
     image: "ground-bar",
@@ -25957,7 +25957,7 @@ export const products: Product[] = [
   {
     id: "galmar-ground-conductor",
     slug: "galmar-copper-ground-conductor",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "grounding-materials",
     image: "ground-conductor",
@@ -25984,7 +25984,7 @@ export const products: Product[] = [
   {
     id: "erico-ground-clamp",
     slug: "erico-ground-rod-clamp",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "grounding-materials",
     image: "ground-clamp",
@@ -26013,7 +26013,7 @@ export const products: Product[] = [
   {
     id: "eritech-copper-earth-rod",
     slug: "eritech-copper-bonded-earth-rod",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "earthing-rods",
     image: "earth-rod",
@@ -26040,7 +26040,7 @@ export const products: Product[] = [
   {
     id: "galmar-solid-copper-rod",
     slug: "galmar-solid-copper-earth-rod",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "earthing-rods",
     image: "earth-rod",
@@ -26067,7 +26067,7 @@ export const products: Product[] = [
   {
     id: "copperweld-earth-rod",
     slug: "copperweld-earth-electrode-rod",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "earthing-rods",
     image: "earth-rod",
@@ -26989,7 +26989,7 @@ export const products: Product[] = [
   {
     id: "siemens-8wd44-indicator",
     slug: "siemens-8wd44-led-indicator",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
     typeKey: "led-indicating-lights",
     image: "led-indicator",
@@ -27016,7 +27016,7 @@ export const products: Product[] = [
   {
     id: "patlite-lr6-signal-tower",
     slug: "patlite-lr6-led-signal-tower",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
     typeKey: "led-indicating-lights",
     image: "led-indicator",
@@ -27043,7 +27043,7 @@ export const products: Product[] = [
   {
     id: "werma-kombi-sign-led",
     slug: "werma-kombi-sign-led-beacon",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
     typeKey: "led-indicating-lights",
     image: "led-indicator",
@@ -27072,7 +27072,7 @@ export const products: Product[] = [
   {
     id: "siemens-3su1-selector",
     slug: "siemens-3su1-selector-switch",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
     typeKey: "selector-switches",
     image: "selector-switch",
@@ -27099,7 +27099,7 @@ export const products: Product[] = [
   {
     id: "schneider-xb4-selector",
     slug: "schneider-xb4-selector-switch",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
     typeKey: "selector-switches",
     image: "selector-switch",
@@ -27126,7 +27126,7 @@ export const products: Product[] = [
   {
     id: "eaton-m22-selector",
     slug: "eaton-m22-selector-switch",
-    categoryKey: "electrical-components",
+    categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
     typeKey: "selector-switches",
     image: "selector-switch",
@@ -29233,7 +29233,7 @@ export const categories: Category[] = [
     ],
   },
   {
-    key: "electrical-components",
+    key: "electrical-accessories",
     translationKey: "products:categories.electricalComponents",
     subcategories: [
       {

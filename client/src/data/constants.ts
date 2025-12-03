@@ -140,7 +140,7 @@ export const getProducts = (t: any) => [
     title: t("products:categories.electrical-accessories.title"),
     description: t("products:categories.electrical-accessories.description"),
     icon: "Zap",
-    image: getProductImage("electrical-components")?.src || "",
+    image: getProductImage("electrical-accessories")?.src || "",
     features: [
       t("products:categories.electrical-accessories.features.circuit-breakers"),
       t("products:categories.electrical-accessories.features.contactors"),

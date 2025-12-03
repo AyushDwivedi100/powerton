@@ -66,10 +66,10 @@ export default function Products() {
       "flow-meters": "/products/analyzers",
       "level-indicators": "/products/switches",
 
-      // Electrical Components features
+      // Electrical Accessories features
       "circuit-breakers": "/products/circuit-breakers-fuses",
-      contactors: "/products/electrical-components",
-      relays: "/products/electrical-components",
+      contactors: "/products/electrical-accessories",
+      relays: "/products/electrical-accessories",
       "power-supplies": "/products/power-supplies",
 
       // Measurement Instruments features

@@ -65,7 +65,7 @@ export default function ProductSubCategoryDynamic() {
             asChild
           >
             <Link
-              href={product.parentCategory}
+              href="/products"
               data-testid="link-back-to-category"
             >
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
@@ -314,7 +314,7 @@ export default function ProductSubCategoryDynamic() {
                       {t("products:sections.keyBenefits")}
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                      {product.keyBenefits.map((benefit, index) => (
+                      {Array.isArray(product.keyBenefits) && product.keyBenefits.map((benefit, index) => (
                         <div
                           key={index}
                           className="flex items-center text-sm text-muted-foreground group-hover:text-foreground hover:bg-secondary/5 p-2 rounded-lg transition-all duration-300 group cursor-default"
@@ -379,7 +379,7 @@ export default function ProductSubCategoryDynamic() {
                   {t("products:sections.applications")}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                  {product.applications.map((application, index) => (
+                  {Array.isArray(product.applications) && product.applications.map((application, index) => (
                     <div
                       key={index}
                       className="flex items-center space-x-2 p-2 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
@@ -399,7 +399,7 @@ export default function ProductSubCategoryDynamic() {
                   {t("products:sections.technicalSpecifications")}
                 </h3>
                 <div className="grid grid-cols-1 gap-2">
-                  {product.specifications.map((spec, index) => (
+                  {Array.isArray(product.specifications) && product.specifications.map((spec, index) => (
                     <div
                       key={index}
                       className="flex items-center space-x-2 p-1 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
@@ -419,7 +419,7 @@ export default function ProductSubCategoryDynamic() {
                   {t("products:sections.industriesServed")}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                  {product.industries.map((industry, index) => (
+                  {Array.isArray(product.industries) && product.industries.map((industry, index) => (
                     <div
                       key={index}
                       className="flex items-center space-x-2 p-3 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
@@ -449,7 +449,7 @@ export default function ProductSubCategoryDynamic() {
                     {t("products:sections.keyFeatures")}
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                    {product.features.map((feature, index) => (
+                    {Array.isArray(product.features) && product.features.map((feature, index) => (
                       <div
                         key={index}
                         className="flex items-start space-x-2 p-1 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default"
@@ -470,7 +470,7 @@ export default function ProductSubCategoryDynamic() {
                   </h3>
                   <div className="space-y-4">
                     <div className="flex flex-wrap gap-1">
-                      {product.certifications.map((certification, index) => (
+                      {Array.isArray(product.certifications) && product.certifications.map((certification, index) => (
                         <Badge
                           key={index}
                           variant="outline"

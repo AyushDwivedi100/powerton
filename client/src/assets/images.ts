@@ -509,9 +509,9 @@ export const PRODUCT_IMAGE_MAPPING = {
     alt: `${IMAGE_IDS.INSTRUMENTATION_COMPONENTS}: Industrial instrumentation components - High-precision components for measurement and control`,
     id: IMAGE_IDS.INSTRUMENTATION_COMPONENTS,
   },
-  "electrical-components": {
+  "electrical-accessories": {
     src: electricalComponentsImage,
-    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Electrical components - Circuit breakers, contactors, relays and power supplies`,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Electrical accessories - Circuit breakers, contactors, relays and power supplies`,
     id: IMAGE_IDS.ELECTRICAL_COMPONENTS,
   },
   "industrial-measuring-tools": {

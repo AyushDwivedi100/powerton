@@ -411,7 +411,7 @@ export const getProductsSubCategoryData = (
       "products-data:subcategories.electrical-cables.fullDescription"
     ),
     image: cablesWiresImage,
-    parentCategory: "/products/electrical-components",
+    parentCategory: "/products/electrical-accessories",
     parentCategoryTitle: t(
       "products-data:subcategories.electrical-cables.parentCategoryTitle"
     ),
@@ -443,7 +443,7 @@ export const getProductsSubCategoryData = (
       ),
       keywords: t("products-data:subcategories.electrical-cables.seo.keywords"),
       canonicalUrl:
-        "https://powertonengineering.in/products/electrical-components/electrical-cables",
+        "https://powertonengineering.in/products/electrical-accessories/electrical-cables",
     },
   },
   {
@@ -673,7 +673,7 @@ export const getProductsSubCategoryData = (
         "products-data:subcategories.connectors-terminals.seo.keywords"
       ),
       canonicalUrl:
-        "https://powertonengineering.in/products/electrical-components/connectors-terminals",
+        "https://powertonengineering.in/products/electrical-accessories/connectors-terminals",
     },
   },
   {
@@ -723,7 +723,7 @@ export const getProductsSubCategoryData = (
         "products-data:subcategories.circuit-breakers-fuses.seo.keywords"
       ),
       canonicalUrl:
-        "https://powertonengineering.in/products/electrical-components/circuit-breakers-fuses",
+        "https://powertonengineering.in/products/electrical-accessories/circuit-breakers-fuses",
     },
   },
   {
@@ -2185,8 +2185,8 @@ export const getParentCategoryBySubcategoryKey = (
     analyzers: "instrumentation-accessories",
     "instrument-transformers": "instrumentation-accessories",
 
-    // Electrical Components
-    "electrical-cables": "electrical-components",
+    // Electrical Accessories
+    "electrical-cables": "electrical-accessories",
     "instrumentation-cables": "instrumentation-accessories",
     "connectors-terminals": "electrical-accessories",
     "circuit-breakers-fuses": "electrical-accessories",
