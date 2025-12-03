@@ -220,10 +220,9 @@ export function getTranslatedAllProductsForStockAlert(t: any): ProductImage[] {
   );
 }
 
-// Helper function to check if popup should be shown
+// Helper function to check if popup should be shown (always show if products exist)
 export function shouldShowPopup(): boolean {
-  const newestProducts = getNewestProducts(1);
-  return newestProducts.length > 0;
+  return productImages.length > 0;
 }
 
 // Helper function to get all products for gallery (sorted by newest first)
