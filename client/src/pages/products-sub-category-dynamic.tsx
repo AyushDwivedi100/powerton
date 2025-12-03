@@ -88,7 +88,7 @@ export default function ProductSubCategoryDynamic() {
             asChild
           >
             <Link
-              href={product.parentCategory}
+              href="/products"
               data-testid="link-back-to-category"
             >
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
@@ -100,7 +100,7 @@ export default function ProductSubCategoryDynamic() {
     );
   }
 
-  const expectedParentSlug = product.parentCategory.split("/").pop();
+  const expectedParentSlug = product.parentCategory?.split("/").pop() || "";
 
   // Use expectedParentSlug instead of parentSlug from URL params to avoid empty/incorrect slugs
   const correctParentSlug = expectedParentSlug || parentSlug;
@@ -126,11 +126,11 @@ export default function ProductSubCategoryDynamic() {
             asChild
           >
             <Link
-              href={product.parentCategory}
+              href={product.parentCategory || "/products"}
               data-testid="link-back-to-category"
             >
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
-              {t("common:buttons.backTo")} {product.parentCategoryTitle}
+              {t("common:buttons.backTo")} {product.parentCategoryTitle || t("common:buttons.products")}
             </Link>
           </Button>
         </motion.div>

@@ -330,6 +330,71 @@ import distanceRelaysHero from "@assets/generated_images/distance_relays_hero.pn
 import ioModulesHero from "@assets/generated_images/io_modules_hero_banner.png";
 import insulatorsMaterialsHero from "@assets/generated_images/insulators_materials_hero.png";
 
+// Additional unique hero images (ID-1400+)
+import pnpNpnProximitySensorsHero from "@assets/generated_images/pnp_npn_proximity_sensors_hero.png";
+import rtdThermocoupleSensorsHero from "@assets/generated_images/rtd_thermocouple_sensors_hero.png";
+import loadCellsForceSensorsHero from "@assets/generated_images/load_cells_force_sensors_hero.png";
+import phSensorsWaterQualityHero from "@assets/generated_images/ph_sensors_water_quality_hero.png";
+import photoelectricOpticalSensorsHero from "@assets/generated_images/photoelectric_optical_sensors_hero.png";
+import dpPressureTransmittersHero from "@assets/generated_images/dp_pressure_transmitters_hero.png";
+import massFlowCoriolisMetersHero from "@assets/generated_images/mass_flow_coriolis_meters_hero.png";
+import vortexFlowmetersSteamGasHero from "@assets/generated_images/vortex_flowmeters_steam_gas_hero.png";
+import controlValvesActuatorsHero from "@assets/generated_images/control_valves_actuators_hero.png";
+import solenoidValvesAutomationHero from "@assets/generated_images/solenoid_valves_automation_hero.png";
+import ballButterflyValvesHero from "@assets/generated_images/ball_butterfly_valves_hero.png";
+import gasAnalyzersEmissionsHero from "@assets/generated_images/gas_analyzers_emissions_hero.png";
+import waterAnalyzersTreatmentHero from "@assets/generated_images/water_analyzers_treatment_hero.png";
+import powerArmouredCablesHero from "@assets/generated_images/power_armoured_cables_hero.png";
+import controlInstrumentationCablesHero from "@assets/generated_images/control_instrumentation_cables_hero.png";
+import mccbMoldedBreakersHero from "@assets/generated_images/mccb_molded_breakers_hero.png";
+import compactModularPlcsHero from "@assets/generated_images/compact_modular_plcs_hero.png";
+import hmiTouchscreenPanelsHero from "@assets/generated_images/hmi_touchscreen_panels_hero.png";
+import scadaSoftwareSystemHero from "@assets/generated_images/scada_software_system_hero.png";
+import dcsDistributedControlHero from "@assets/generated_images/dcs_distributed_control_hero.png";
+import vfdMotorDrivesHero from "@assets/generated_images/vfd_motor_drives_hero.png";
+import diaphragmAoddPumpsHero from "@assets/generated_images/diaphragm_aodd_pumps_hero.png";
+import gearPositiveDisplacementPumpsHero from "@assets/generated_images/gear_positive_displacement_pumps_hero.png";
+import pumpSparesImpellersSealsHero from "@assets/generated_images/pump_spares_impellers_seals_hero.png";
+import digitalMultimetersClampMetersHero from "@assets/generated_images/digital_multimeters_clamp_meters_hero.png";
+import processLoopCalibratorsHero from "@assets/generated_images/process_loop_calibrators_hero.png";
+import powerQualityEnergyLoggersHero from "@assets/generated_images/power_quality_energy_loggers_hero.png";
+import panelMetersIndicatorsHero from "@assets/generated_images/panel_meters_indicators_hero.png";
+import safetyRelaysEmergencyStopHero from "@assets/generated_images/safety_relays_emergency_stop_hero.png";
+import intrinsicallySafeBarriersHero from "@assets/generated_images/intrinsically_safe_barriers_hero.png";
+import surgeProtectorsLightningHero from "@assets/generated_images/surge_protectors_lightning_hero.png";
+import handMechanicalToolsWorkshopHero from "@assets/generated_images/hand_mechanical_tools_workshop_hero.png";
+import powerElectricToolsHero from "@assets/generated_images/power_electric_tools_hero.png";
+import cuttingWeldingToolsHero from "@assets/generated_images/cutting_welding_tools_hero.png";
+import ledHighBayFloodLightsHero from "@assets/generated_images/led_high_bay_flood_lights_hero.png";
+import flameproofExplosionProofLightsHero from "@assets/generated_images/flameproof_explosion_proof_lights_hero.png";
+import industrialStreetOutdoorLightsHero from "@assets/generated_images/industrial_street_outdoor_lights_hero.png";
+import terminalBlocksConnectorsHero from "@assets/generated_images/terminal_blocks_connectors_hero.png";
+import industrialPlugsSocketsHero from "@assets/generated_images/industrial_plugs_sockets_hero.png";
+import monocrystallineSolarPanelsHero from "@assets/generated_images/monocrystalline_solar_panels_hero.png";
+import solarStringInvertersHero from "@assets/generated_images/solar_string_inverters_hero.png";
+import protectionNumericalRelaysHero from "@assets/generated_images/protection_numerical_relays_hero.png";
+import currentVoltageTransformersHero from "@assets/generated_images/current_voltage_transformers_hero.png";
+import controlPowerTransformersHero from "@assets/generated_images/control_power_transformers_hero.png";
+import powerAuxiliaryContactorsHero from "@assets/generated_images/power_auxiliary_contactors_hero.png";
+import timerMonitoringRelaysHero from "@assets/generated_images/timer_monitoring_relays_hero.png";
+import industrialFusesHoldersHero from "@assets/generated_images/industrial_fuses_holders_hero.png";
+import rccbResidualCurrentBreakersHero from "@assets/generated_images/rccb_residual_current_breakers_hero.png";
+import acbAirCircuitBreakersHero from "@assets/generated_images/acb_air_circuit_breakers_hero.png";
+import vcbVacuumCircuitBreakersHero from "@assets/generated_images/vcb_vacuum_circuit_breakers_hero.png";
+import upsBackupPowerSystemsHero from "@assets/generated_images/ups_backup_power_systems_hero.png";
+import electricalEnclosuresJunctionBoxesHero from "@assets/generated_images/electrical_enclosures_junction_boxes_hero.png";
+import industrialHeatingElementsHero from "@assets/generated_images/industrial_heating_elements_hero.png";
+import chainWireRopeHoistsHero from "@assets/generated_images/chain_wire_rope_hoists_hero.png";
+import jibWorkstationCranesHero from "@assets/generated_images/jib_workstation_cranes_hero.png";
+import pushButtonsPilotLightsHero from "@assets/generated_images/push_buttons_pilot_lights_hero.png";
+import limitPositionSwitchesHero from "@assets/generated_images/limit_position_switches_hero.png";
+import motorSoftStartersHero from "@assets/generated_images/motor_soft_starters_hero.png";
+import ioModulesRemoteUnitsHero from "@assets/generated_images/io_modules_remote_units_hero.png";
+import groundingEarthingSystemsHero from "@assets/generated_images/grounding_earthing_systems_hero.png";
+import hootersBuzzersAlarmsHero from "@assets/generated_images/hooters_buzzers_alarms_hero.png";
+import insulatorsInsulationMaterialsHero from "@assets/generated_images/insulators_insulation_materials_hero.png";
+import wellGlassVesselLightsHero from "@assets/generated_images/well_glass_vessel_lights_hero.png";
+
 // Image category types for better organization
 export type ImageCategory =
   | "logo"
@@ -2652,6 +2717,161 @@ export const PRODUCT_HERO_IMAGES: Record<string, { src: string; alt: string; id:
   "insulation-testers": { src: insulationTestersHero, alt: "Insulation Testers - Megohm testing", id: "ID-1385" },
   "process-calibrators": { src: processCalibratorsHero, alt: "Process Calibrators - Field calibration", id: "ID-1386" },
   "hart-calibrators": { src: hartCalibratorsHero, alt: "HART Calibrators - Smart transmitter tools", id: "ID-1387" },
+  
+  // Additional product groups with new unique hero images (ID-1400+)
+  "pnp-sensors": { src: pnpNpnProximitySensorsHero, alt: "PNP Sensors - Industrial proximity detection", id: "ID-1400" },
+  "npn-sensors": { src: pnpNpnProximitySensorsHero, alt: "NPN Sensors - Industrial proximity detection", id: "ID-1401" },
+  "inductive-sensors": { src: pnpNpnProximitySensorsHero, alt: "Inductive Sensors - Metal detection sensors", id: "ID-1402" },
+  "capacitive-sensors": { src: pnpNpnProximitySensorsHero, alt: "Capacitive Sensors - Level detection", id: "ID-1403" },
+  "rtd-sensors": { src: rtdThermocoupleSensorsHero, alt: "RTD Sensors - Precision temperature measurement", id: "ID-1404" },
+  "thermocouple-sensors": { src: rtdThermocoupleSensorsHero, alt: "Thermocouple Sensors - High temperature measurement", id: "ID-1405" },
+  "temperature-transmitters": { src: rtdThermocoupleSensorsHero, alt: "Temperature Transmitters - Temp signal conversion", id: "ID-1406" },
+  "force-sensors": { src: loadCellsForceSensorsHero, alt: "Force Sensors - Load measurement devices", id: "ID-1407" },
+  "strain-gauges": { src: loadCellsForceSensorsHero, alt: "Strain Gauges - Deformation measurement", id: "ID-1408" },
+  "weighing-systems": { src: loadCellsForceSensorsHero, alt: "Weighing Systems - Industrial scales", id: "ID-1409" },
+  "ph-electrodes": { src: phSensorsWaterQualityHero, alt: "pH Electrodes - Water quality sensors", id: "ID-1410" },
+  "conductivity-sensors": { src: phSensorsWaterQualityHero, alt: "Conductivity Sensors - Water analysis", id: "ID-1411" },
+  "orp-sensors": { src: phSensorsWaterQualityHero, alt: "ORP Sensors - Oxidation-reduction measurement", id: "ID-1412" },
+  "through-beam-sensors": { src: photoelectricOpticalSensorsHero, alt: "Through-beam Sensors - Optical detection", id: "ID-1413" },
+  "retro-reflective-sensors": { src: photoelectricOpticalSensorsHero, alt: "Retro-reflective Sensors - Reflection detection", id: "ID-1414" },
+  "diffuse-sensors": { src: photoelectricOpticalSensorsHero, alt: "Diffuse Sensors - Background suppression", id: "ID-1415" },
+  "differential-pressure-transmitters": { src: dpPressureTransmittersHero, alt: "Differential Pressure Transmitters - Flow measurement", id: "ID-1416" },
+  "gauge-pressure-transmitters": { src: dpPressureTransmittersHero, alt: "Gauge Pressure Transmitters - Process pressure", id: "ID-1417" },
+  "absolute-pressure-transmitters": { src: dpPressureTransmittersHero, alt: "Absolute Pressure Transmitters - Vacuum measurement", id: "ID-1418" },
+  "coriolis-flow-meters": { src: massFlowCoriolisMetersHero, alt: "Coriolis Flow Meters - Mass flow measurement", id: "ID-1419" },
+  "thermal-mass-flow-meters": { src: massFlowCoriolisMetersHero, alt: "Thermal Mass Flow Meters - Gas flow", id: "ID-1420" },
+  "vortex-shedding-meters": { src: vortexFlowmetersSteamGasHero, alt: "Vortex Shedding Meters - Steam measurement", id: "ID-1421" },
+  "inline-vortex-meters": { src: vortexFlowmetersSteamGasHero, alt: "Inline Vortex Meters - Gas and liquid flow", id: "ID-1422" },
+  "pressure-level-switches": { src: pressureLevelSwitchesHero, alt: "Pressure Level Switches - Process switching", id: "ID-1423" },
+  "float-level-switches": { src: pressureLevelSwitchesHero, alt: "Float Level Switches - Tank level detection", id: "ID-1424" },
+  "globe-control-valves": { src: controlValvesActuatorsHero, alt: "Globe Control Valves - Flow regulation", id: "ID-1425" },
+  "butterfly-control-valves": { src: controlValvesActuatorsHero, alt: "Butterfly Control Valves - Large flow control", id: "ID-1426" },
+  "2-way-solenoid-valves": { src: solenoidValvesAutomationHero, alt: "2-Way Solenoid Valves - On/Off control", id: "ID-1427" },
+  "3-way-solenoid-valves": { src: solenoidValvesAutomationHero, alt: "3-Way Solenoid Valves - Diverting flow", id: "ID-1428" },
+  "ball-valves": { src: ballButterflyValvesHero, alt: "Ball Valves - Quarter turn valves", id: "ID-1429" },
+  "butterfly-valves": { src: ballButterflyValvesHero, alt: "Butterfly Valves - Throttling valves", id: "ID-1430" },
+  "oxygen-analyzers": { src: gasAnalyzersEmissionsHero, alt: "Oxygen Analyzers - O2 monitoring", id: "ID-1431" },
+  "emissions-analyzers": { src: gasAnalyzersEmissionsHero, alt: "Emissions Analyzers - Stack monitoring", id: "ID-1432" },
+  "cod-analyzers": { src: waterAnalyzersTreatmentHero, alt: "COD Analyzers - Chemical oxygen demand", id: "ID-1433" },
+  "bod-analyzers": { src: waterAnalyzersTreatmentHero, alt: "BOD Analyzers - Biological oxygen demand", id: "ID-1434" },
+  "turbidity-analyzers": { src: waterAnalyzersTreatmentHero, alt: "Turbidity Analyzers - Water clarity", id: "ID-1435" },
+  "armored-cables": { src: powerArmouredCablesHero, alt: "Armored Cables - Steel wire protection", id: "ID-1436" },
+  "mv-cables": { src: powerArmouredCablesHero, alt: "MV Cables - Medium voltage power", id: "ID-1437" },
+  "lv-cables": { src: powerArmouredCablesHero, alt: "LV Cables - Low voltage distribution", id: "ID-1438" },
+  "shielded-cables": { src: controlInstrumentationCablesHero, alt: "Shielded Cables - EMI protected", id: "ID-1439" },
+  "thermocouple-cables": { src: controlInstrumentationCablesHero, alt: "Thermocouple Cables - Temperature sensing", id: "ID-1440" },
+  "ethernet-cables": { src: industrialNetworkCablesHero, alt: "Ethernet Cables - Network connectivity", id: "ID-1441" },
+  "fieldbus-cables": { src: industrialNetworkCablesHero, alt: "Fieldbus Cables - Industrial communication", id: "ID-1442" },
+  "sp-mcb": { src: mcbCircuitBreakersHero, alt: "SP MCB - Single pole breakers", id: "ID-1443" },
+  "dp-mcb": { src: mcbCircuitBreakersHero, alt: "DP MCB - Double pole breakers", id: "ID-1444" },
+  "tp-mcb": { src: mcbCircuitBreakersHero, alt: "TP MCB - Triple pole breakers", id: "ID-1445" },
+  "tpn-mccb": { src: mccbMoldedBreakersHero, alt: "TPN MCCB - Four pole molded case", id: "ID-1446" },
+  "adjustable-mccb": { src: mccbMoldedBreakersHero, alt: "Adjustable MCCB - Configurable protection", id: "ID-1447" },
+  "compact-plcs": { src: compactModularPlcsHero, alt: "Compact PLCs - Small format automation", id: "ID-1448" },
+  "modular-plcs": { src: compactModularPlcsHero, alt: "Modular PLCs - Expandable controllers", id: "ID-1449" },
+  "safety-plcs": { src: compactModularPlcsHero, alt: "Safety PLCs - SIL rated controllers", id: "ID-1450" },
+  "text-hmi": { src: hmiTouchscreenPanelsHero, alt: "Text HMI - Simple operator interface", id: "ID-1451" },
+  "graphic-hmi": { src: hmiTouchscreenPanelsHero, alt: "Graphic HMI - Visual control panels", id: "ID-1452" },
+  "scada-servers": { src: scadaSoftwareSystemHero, alt: "SCADA Servers - Central data collection", id: "ID-1453" },
+  "scada-rtus": { src: scadaSoftwareSystemHero, alt: "SCADA RTUs - Remote terminal units", id: "ID-1454" },
+  "dcs-controllers": { src: dcsDistributedControlHero, alt: "DCS Controllers - Process controllers", id: "ID-1455" },
+  "dcs-io-modules": { src: dcsDistributedControlHero, alt: "DCS IO Modules - Field interface", id: "ID-1456" },
+  "ac-vfds": { src: vfdMotorDrivesHero, alt: "AC VFDs - AC motor control", id: "ID-1457" },
+  "dc-drives": { src: vfdMotorDrivesHero, alt: "DC Drives - DC motor control", id: "ID-1458" },
+  "regenerative-drives": { src: vfdMotorDrivesHero, alt: "Regenerative Drives - Energy recovery", id: "ID-1459" },
+  "end-suction-pumps": { src: singleStagePumpsHero, alt: "End Suction Pumps - Standard centrifugal", id: "ID-1460" },
+  "self-priming-pumps": { src: singleStagePumpsHero, alt: "Self Priming Pumps - Air handling", id: "ID-1461" },
+  "vertical-multistage": { src: multiStagePumpsHero, alt: "Vertical Multistage - High pressure boost", id: "ID-1462" },
+  "horizontal-multistage": { src: multiStagePumpsHero, alt: "Horizontal Multistage - Water supply", id: "ID-1463" },
+  "metallic-aodd": { src: diaphragmAoddPumpsHero, alt: "Metallic AODD - Heavy duty transfer", id: "ID-1464" },
+  "plastic-aodd": { src: diaphragmAoddPumpsHero, alt: "Plastic AODD - Chemical handling", id: "ID-1465" },
+  "external-gear-pumps": { src: gearPositiveDisplacementPumpsHero, alt: "External Gear Pumps - Oil transfer", id: "ID-1466" },
+  "progressive-cavity": { src: gearPositiveDisplacementPumpsHero, alt: "Progressive Cavity - Viscous fluids", id: "ID-1467" },
+  "pump-mechanical-seals": { src: pumpSparesImpellersSealsHero, alt: "Pump Mechanical Seals - Shaft sealing", id: "ID-1468" },
+  "pump-impellers-parts": { src: pumpSparesImpellersSealsHero, alt: "Pump Impellers - Replacement parts", id: "ID-1469" },
+  "benchtop-dmm": { src: digitalMultimetersClampMetersHero, alt: "Benchtop DMM - Laboratory testing", id: "ID-1470" },
+  "handheld-dmm": { src: digitalMultimetersClampMetersHero, alt: "Handheld DMM - Field testing", id: "ID-1471" },
+  "ac-clamp-meters": { src: digitalMultimetersClampMetersHero, alt: "AC Clamp Meters - Current measurement", id: "ID-1472" },
+  "loop-calibrators": { src: processLoopCalibratorsHero, alt: "Loop Calibrators - 4-20mA testing", id: "ID-1473" },
+  "pressure-calibrators": { src: processLoopCalibratorsHero, alt: "Pressure Calibrators - Gauge testing", id: "ID-1474" },
+  "power-analyzers": { src: powerQualityEnergyLoggersHero, alt: "Power Analyzers - Energy analysis", id: "ID-1475" },
+  "harmonics-analyzers": { src: powerQualityEnergyLoggersHero, alt: "Harmonics Analyzers - Power quality", id: "ID-1476" },
+  "digital-panel-meters": { src: panelMetersIndicatorsHero, alt: "Digital Panel Meters - Display instruments", id: "ID-1477" },
+  "analog-panel-meters": { src: panelMetersIndicatorsHero, alt: "Analog Panel Meters - Moving coil", id: "ID-1478" },
+  "safety-light-curtains": { src: safetyRelaysEmergencyStopHero, alt: "Safety Light Curtains - Area protection", id: "ID-1479" },
+  "safety-mats": { src: safetyRelaysEmergencyStopHero, alt: "Safety Mats - Floor sensing", id: "ID-1480" },
+  "is-barriers": { src: intrinsicallySafeBarriersHero, alt: "IS Barriers - Zener barriers", id: "ID-1481" },
+  "is-isolators": { src: intrinsicallySafeBarriersHero, alt: "IS Isolators - Galvanic isolation", id: "ID-1482" },
+  "type-1-spd": { src: surgeProtectorsLightningHero, alt: "Type 1 SPD - Main protection", id: "ID-1483" },
+  "type-2-spd": { src: surgeProtectorsLightningHero, alt: "Type 2 SPD - Distribution protection", id: "ID-1484" },
+  "screwdrivers": { src: handMechanicalToolsWorkshopHero, alt: "Screwdrivers - Hand tools", id: "ID-1485" },
+  "wrenches-spanners": { src: handMechanicalToolsWorkshopHero, alt: "Wrenches and Spanners - Fastening tools", id: "ID-1486" },
+  "hammer-drills": { src: powerElectricToolsHero, alt: "Hammer Drills - Impact drilling", id: "ID-1487" },
+  "impact-wrenches": { src: powerElectricToolsHero, alt: "Impact Wrenches - Power fastening", id: "ID-1488" },
+  "chop-saws": { src: cuttingWeldingToolsHero, alt: "Chop Saws - Metal cutting", id: "ID-1489" },
+  "mig-welders": { src: cuttingWeldingToolsHero, alt: "MIG Welders - Metal inert gas", id: "ID-1490" },
+  "tig-welders": { src: cuttingWeldingToolsHero, alt: "TIG Welders - Tungsten inert gas", id: "ID-1491" },
+  "led-industrial-lights": { src: ledHighBayFloodLightsHero, alt: "LED Industrial Lights - Factory lighting", id: "ID-1492" },
+  "led-linear-lights": { src: ledHighBayFloodLightsHero, alt: "LED Linear Lights - Strip lighting", id: "ID-1493" },
+  "ex-proof-lights": { src: flameproofExplosionProofLightsHero, alt: "Ex Proof Lights - Hazardous area", id: "ID-1494" },
+  "atex-lights": { src: flameproofExplosionProofLightsHero, alt: "ATEX Lights - Zone rated", id: "ID-1495" },
+  "solar-street-lights": { src: industrialStreetOutdoorLightsHero, alt: "Solar Street Lights - Off-grid lighting", id: "ID-1496" },
+  "pole-mounted-lights": { src: industrialStreetOutdoorLightsHero, alt: "Pole Mounted Lights - Outdoor illumination", id: "ID-1497" },
+  "din-rail-terminals": { src: terminalBlocksConnectorsHero, alt: "DIN Rail Terminals - Panel wiring", id: "ID-1498" },
+  "fuse-terminals": { src: terminalBlocksConnectorsHero, alt: "Fuse Terminals - Protected connections", id: "ID-1499" },
+  "industrial-plugs": { src: industrialPlugsSocketsHero, alt: "Industrial Plugs - Heavy duty connectors", id: "ID-1500" },
+  "industrial-sockets": { src: industrialPlugsSocketsHero, alt: "Industrial Sockets - Power outlets", id: "ID-1501" },
+  "mono-panels": { src: monocrystallineSolarPanelsHero, alt: "Mono Panels - High efficiency solar", id: "ID-1502" },
+  "bifacial-panels": { src: monocrystallineSolarPanelsHero, alt: "Bifacial Panels - Double-sided solar", id: "ID-1503" },
+  "grid-tie-inverters": { src: solarStringInvertersHero, alt: "Grid Tie Inverters - On-grid solar", id: "ID-1504" },
+  "hybrid-inverters": { src: solarStringInvertersHero, alt: "Hybrid Inverters - Battery compatible", id: "ID-1505" },
+  "feeder-protection": { src: protectionNumericalRelaysHero, alt: "Feeder Protection - Line relays", id: "ID-1506" },
+  "motor-protection": { src: protectionNumericalRelaysHero, alt: "Motor Protection - Machine safety", id: "ID-1507" },
+  "metering-cts": { src: currentVoltageTransformersHero, alt: "Metering CTs - Revenue metering", id: "ID-1508" },
+  "protection-cts": { src: currentVoltageTransformersHero, alt: "Protection CTs - Relay grade", id: "ID-1509" },
+  "isolation-transformers": { src: controlPowerTransformersHero, alt: "Isolation Transformers - Galvanic isolation", id: "ID-1510" },
+  "step-down-transformers": { src: controlPowerTransformersHero, alt: "Step Down Transformers - Voltage reduction", id: "ID-1511" },
+  "power-contactors": { src: powerAuxiliaryContactorsHero, alt: "Power Contactors - Motor switching", id: "ID-1512" },
+  "auxiliary-contactors": { src: powerAuxiliaryContactorsHero, alt: "Auxiliary Contactors - Control circuits", id: "ID-1513" },
+  "on-delay-timers": { src: timerMonitoringRelaysHero, alt: "On Delay Timers - Start timing", id: "ID-1514" },
+  "off-delay-timers": { src: timerMonitoringRelaysHero, alt: "Off Delay Timers - Stop timing", id: "ID-1515" },
+  "hrc-fuses": { src: industrialFusesHoldersHero, alt: "HRC Fuses - High rupture capacity", id: "ID-1516" },
+  "semiconductor-fuses": { src: industrialFusesHoldersHero, alt: "Semiconductor Fuses - Fast acting", id: "ID-1517" },
+  "2p-rccb": { src: rccbResidualCurrentBreakersHero, alt: "2P RCCB - Two pole protection", id: "ID-1518" },
+  "4p-rccb": { src: rccbResidualCurrentBreakersHero, alt: "4P RCCB - Four pole protection", id: "ID-1519" },
+  "draw-out-acb": { src: acbAirCircuitBreakersHero, alt: "Draw Out ACB - Removable breakers", id: "ID-1520" },
+  "fixed-acb": { src: acbAirCircuitBreakersHero, alt: "Fixed ACB - Permanent installation", id: "ID-1521" },
+  "indoor-vcb": { src: vcbVacuumCircuitBreakersHero, alt: "Indoor VCB - Building switchgear", id: "ID-1522" },
+  "outdoor-vcb": { src: vcbVacuumCircuitBreakersHero, alt: "Outdoor VCB - Substation breakers", id: "ID-1523" },
+  "din-rail-smps": { src: smpsPowerSuppliesHero, alt: "DIN Rail SMPS - Panel mount", id: "ID-1524" },
+  "enclosed-smps": { src: smpsPowerSuppliesHero, alt: "Enclosed SMPS - Chassis mount", id: "ID-1525" },
+  "online-ups": { src: upsBackupPowerSystemsHero, alt: "Online UPS - Double conversion", id: "ID-1526" },
+  "line-interactive-ups": { src: upsBackupPowerSystemsHero, alt: "Line Interactive UPS - Voltage regulation", id: "ID-1527" },
+  "wall-mount-enclosures": { src: electricalEnclosuresJunctionBoxesHero, alt: "Wall Mount Enclosures - Surface boxes", id: "ID-1528" },
+  "floor-standing-enclosures": { src: electricalEnclosuresJunctionBoxesHero, alt: "Floor Standing Enclosures - Cabinet panels", id: "ID-1529" },
+  "tubular-heaters": { src: industrialHeatingElementsHero, alt: "Tubular Heaters - Immersion heating", id: "ID-1530" },
+  "band-heaters": { src: industrialHeatingElementsHero, alt: "Band Heaters - Barrel heating", id: "ID-1531" },
+  "electric-chain-hoists": { src: chainWireRopeHoistsHero, alt: "Electric Chain Hoists - Powered lifting", id: "ID-1532" },
+  "manual-chain-hoists": { src: chainWireRopeHoistsHero, alt: "Manual Chain Hoists - Hand operation", id: "ID-1533" },
+  "jib-cranes": { src: jibWorkstationCranesHero, alt: "Jib Cranes - Articulating arm", id: "ID-1534" },
+  "gantry-cranes": { src: jibWorkstationCranesHero, alt: "Gantry Cranes - Overhead lifting", id: "ID-1535" },
+  "illuminated-buttons": { src: pushButtonsPilotLightsHero, alt: "Illuminated Buttons - Lit controls", id: "ID-1536" },
+  "mushroom-buttons": { src: pushButtonsPilotLightsHero, alt: "Mushroom Buttons - E-stop buttons", id: "ID-1537" },
+  "rotary-limit-switches": { src: limitPositionSwitchesHero, alt: "Rotary Limit Switches - Angular position", id: "ID-1538" },
+  "plunger-limit-switches": { src: limitPositionSwitchesHero, alt: "Plunger Limit Switches - Linear detection", id: "ID-1539" },
+  "dol-starters": { src: motorSoftStartersHero, alt: "DOL Starters - Direct on line", id: "ID-1540" },
+  "star-delta-starters": { src: motorSoftStartersHero, alt: "Star Delta Starters - Reduced voltage", id: "ID-1541" },
+  "soft-starters": { src: motorSoftStartersHero, alt: "Soft Starters - Ramp control", id: "ID-1542" },
+  "digital-io-modules": { src: ioModulesRemoteUnitsHero, alt: "Digital IO Modules - Discrete signals", id: "ID-1543" },
+  "analog-io-modules": { src: ioModulesRemoteUnitsHero, alt: "Analog IO Modules - Process signals", id: "ID-1544" },
+  "ground-rods": { src: groundingEarthingSystemsHero, alt: "Ground Rods - Earth electrodes", id: "ID-1545" },
+  "earth-pits": { src: groundingEarthingSystemsHero, alt: "Earth Pits - Grounding systems", id: "ID-1546" },
+  "electronic-hooters": { src: hootersBuzzersAlarmsHero, alt: "Electronic Hooters - Audible alarms", id: "ID-1547" },
+  "piezo-buzzers": { src: hootersBuzzersAlarmsHero, alt: "Piezo Buzzers - Alert signals", id: "ID-1548" },
+  "porcelain-insulators": { src: insulatorsInsulationMaterialsHero, alt: "Porcelain Insulators - Ceramic isolation", id: "ID-1549" },
+  "polymer-insulators": { src: insulatorsInsulationMaterialsHero, alt: "Polymer Insulators - Composite isolation", id: "ID-1550" },
+  "marine-lights": { src: wellGlassVesselLightsHero, alt: "Marine Lights - Ship lighting", id: "ID-1551" },
+  "bulkhead-lights": { src: wellGlassVesselLightsHero, alt: "Bulkhead Lights - Wall mount outdoor", id: "ID-1552" },
 } as const;
 
 /**
