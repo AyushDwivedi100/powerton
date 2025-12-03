@@ -27,22 +27,13 @@ import {
   ArrowRight,
   ArrowLeft,
   FileText,
-  Settings,
-  Zap,
-  Shield,
-  TrendingUp,
   Users,
-  Phone,
-  Mail,
   Download,
   Star,
-  Award,
 } from "lucide-react";
 import {
   AnimatedSection,
   useScrollAnimations,
-  useScrollAnimation,
-  getAnimationClass,
 } from "@/hooks/use-scroll-animation";
 import { getHeroImage } from "@/assets/images";
 import { useLazyNamespace } from "@/lib/lazy-i18n";
@@ -1136,13 +1127,13 @@ export default function Quote() {
                       <div className="hidden lg:block absolute left-[15%] right-[15%] top-1/2 -translate-y-1/2 z-0">
                         <div className="h-0.5 bg-gradient-to-r from-primary to-secondary opacity-30"></div>
                       </div>
-                      
+
                       {/* Circle */}
                       <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-primary-foreground font-bold text-xl relative z-10">
                         {step.step}
                       </div>
                     </div>
-                    
+
                     <h3 className="text-xl md:text-2xl font-semibold text-foreground mb-3">
                       {step.title}
                     </h3>

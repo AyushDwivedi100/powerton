@@ -176,13 +176,16 @@ export default function Gallery() {
       whileHover={{ y: -10, scale: 1.03 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
     >
-      <Card className="group bg-card border border-border overflow-hidden cursor-pointer" data-testid={`card-gallery-${type}-${image.id}`}>
+      <Card
+        className="group bg-card border border-border overflow-hidden cursor-pointer"
+        data-testid={`card-gallery-${type}-${image.id}`}
+      >
         <div className="relative">
           {/* Image or placeholder */}
           {type === "products" && image.image ? (
             <div className="w-full h-48 overflow-hidden bg-white dark:bg-gray-900">
-              <img 
-                src={image.image} 
+              <img
+                src={image.image}
                 alt={image.title}
                 className="w-full h-full object-contain hover:scale-110 transition-transform duration-300"
                 data-testid={`img-product-${image.id}`}
@@ -294,7 +297,7 @@ export default function Gallery() {
                 <span>
                   {t(
                     "common:buttons.successfulProjects",
-                    "Successful Projects"
+                    "Successful Projects",
                   )}
                 </span>
               </div>

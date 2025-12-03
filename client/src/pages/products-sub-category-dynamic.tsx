@@ -1,31 +1,22 @@
 import { useParams } from "wouter";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import {
-  AnimatedSection,
-  useScrollAnimations,
-} from "@/hooks/use-scroll-animation";
+import { AnimatedSection } from "@/hooks/use-scroll-animation";
 import {
   ArrowRight,
   ArrowLeft,
   CheckCircle,
-  Star,
   Phone,
   Mail,
   Download,
-  ShoppingCart,
-  Eye,
 } from "lucide-react";
-import { motion, useInView, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import { getProductSubCategoryBySlug } from "@/data/products-sub-category-pages-data";
-import {
-  getProductsForSubcategoryPage,
-  getGroupsForSubcategory,
-} from "@/data/products-detail-pages-data";
+import { getGroupsForSubcategory } from "@/data/products-detail-pages-data";
 import { getProductImageSrc } from "@/assets/images";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
@@ -64,10 +55,7 @@ export default function ProductSubCategoryDynamic() {
             className="bg-primary hover:bg-primary/90 text-primary-foreground group"
             asChild
           >
-            <Link
-              href="/products"
-              data-testid="link-back-to-category"
-            >
+            <Link href="/products" data-testid="link-back-to-category">
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
               {t("common:buttons.backToProducts")}
             </Link>
@@ -314,15 +302,16 @@ export default function ProductSubCategoryDynamic() {
                       {t("products:sections.keyBenefits")}
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                      {Array.isArray(product.keyBenefits) && product.keyBenefits.map((benefit, index) => (
-                        <div
-                          key={index}
-                          className="flex items-center text-sm text-muted-foreground group-hover:text-foreground hover:bg-secondary/5 p-2 rounded-lg transition-all duration-300 group cursor-default"
-                        >
-                          <CheckCircle className="w-4 h-4 text-secondary mr-2 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                          {benefit}
-                        </div>
-                      ))}
+                      {Array.isArray(product.keyBenefits) &&
+                        product.keyBenefits.map((benefit, index) => (
+                          <div
+                            key={index}
+                            className="flex items-center text-sm text-muted-foreground group-hover:text-foreground hover:bg-secondary/5 p-2 rounded-lg transition-all duration-300 group cursor-default"
+                          >
+                            <CheckCircle className="w-4 h-4 text-secondary mr-2 flex-shrink-0 group-hover:scale-110 transition-transform" />
+                            {benefit}
+                          </div>
+                        ))}
                     </div>
                   </div>
                 </div>
@@ -379,17 +368,18 @@ export default function ProductSubCategoryDynamic() {
                   {t("products:sections.applications")}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                  {Array.isArray(product.applications) && product.applications.map((application, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center space-x-2 p-2 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
-                    >
-                      <div className="w-1.5 h-1.5 bg-secondary rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
-                        {application}
-                      </span>
-                    </div>
-                  ))}
+                  {Array.isArray(product.applications) &&
+                    product.applications.map((application, index) => (
+                      <div
+                        key={index}
+                        className="flex items-center space-x-2 p-2 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
+                      >
+                        <div className="w-1.5 h-1.5 bg-secondary rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                        <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
+                          {application}
+                        </span>
+                      </div>
+                    ))}
                 </div>
               </div>
 
@@ -399,17 +389,18 @@ export default function ProductSubCategoryDynamic() {
                   {t("products:sections.technicalSpecifications")}
                 </h3>
                 <div className="grid grid-cols-1 gap-2">
-                  {Array.isArray(product.specifications) && product.specifications.map((spec, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center space-x-2 p-1 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
-                    >
-                      <div className="w-1.5 h-1.5 bg-secondary rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
-                        {spec}
-                      </span>
-                    </div>
-                  ))}
+                  {Array.isArray(product.specifications) &&
+                    product.specifications.map((spec, index) => (
+                      <div
+                        key={index}
+                        className="flex items-center space-x-2 p-1 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
+                      >
+                        <div className="w-1.5 h-1.5 bg-secondary rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                        <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
+                          {spec}
+                        </span>
+                      </div>
+                    ))}
                 </div>
               </div>
 
@@ -419,17 +410,18 @@ export default function ProductSubCategoryDynamic() {
                   {t("products:sections.industriesServed")}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                  {Array.isArray(product.industries) && product.industries.map((industry, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center space-x-2 p-3 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
-                    >
-                      <div className="w-1.5 h-1.5 bg-secondary rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
-                        {industry}
-                      </span>
-                    </div>
-                  ))}
+                  {Array.isArray(product.industries) &&
+                    product.industries.map((industry, index) => (
+                      <div
+                        key={index}
+                        className="flex items-center space-x-2 p-3 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
+                      >
+                        <div className="w-1.5 h-1.5 bg-secondary rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                        <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
+                          {industry}
+                        </span>
+                      </div>
+                    ))}
                 </div>
               </div>
             </div>
@@ -449,17 +441,18 @@ export default function ProductSubCategoryDynamic() {
                     {t("products:sections.keyFeatures")}
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                    {Array.isArray(product.features) && product.features.map((feature, index) => (
-                      <div
-                        key={index}
-                        className="flex items-start space-x-2 p-1 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default"
-                      >
-                        <CheckCircle className="w-3 h-3 text-secondary mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                        <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
-                          {feature}
-                        </span>
-                      </div>
-                    ))}
+                    {Array.isArray(product.features) &&
+                      product.features.map((feature, index) => (
+                        <div
+                          key={index}
+                          className="flex items-start space-x-2 p-1 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default"
+                        >
+                          <CheckCircle className="w-3 h-3 text-secondary mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
+                          <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
+                            {feature}
+                          </span>
+                        </div>
+                      ))}
                   </div>
                 </div>
 
@@ -470,15 +463,16 @@ export default function ProductSubCategoryDynamic() {
                   </h3>
                   <div className="space-y-4">
                     <div className="flex flex-wrap gap-1">
-                      {Array.isArray(product.certifications) && product.certifications.map((certification, index) => (
-                        <Badge
-                          key={index}
-                          variant="outline"
-                          className="text-xs text-muted-foreground group-hover:text-foreground py-1 px-2 hover:bg-secondary/10 hover:border-secondary/30 transition-colors cursor-default"
-                        >
-                          {certification}
-                        </Badge>
-                      ))}
+                      {Array.isArray(product.certifications) &&
+                        product.certifications.map((certification, index) => (
+                          <Badge
+                            key={index}
+                            variant="outline"
+                            className="text-xs text-muted-foreground group-hover:text-foreground py-1 px-2 hover:bg-secondary/10 hover:border-secondary/30 transition-colors cursor-default"
+                          >
+                            {certification}
+                          </Badge>
+                        ))}
                     </div>
                     <div className="p-3 bg-gradient-to-r from-secondary/5 to-primary/5 rounded-lg border-l-3 border-l-secondary hover:border-l-primary transition-colors">
                       <h4 className="text-md font-semibold text-foreground mb-1 group-hover:text-secondary">

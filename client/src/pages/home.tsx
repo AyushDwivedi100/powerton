@@ -3,7 +3,6 @@ import {
   AnimatedSection,
   useScrollAnimations,
 } from "@/hooks/use-scroll-animation";
-import { useEffect } from "react";
 import HeroSection from "@/components/sections/hero-section";
 import AboutSection from "@/components/sections/about-section";
 import ServicesSection from "@/components/sections/services-section";

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
   AnimatedSection,
@@ -10,9 +10,6 @@ import {
 import { getProducts } from "@/data/constants";
 import {
   Download,
-  ArrowRight,
-  Star,
-  CheckCircle,
   Thermometer,
   Radio,
   Cpu,
@@ -38,12 +35,12 @@ export default function Products() {
 
   const handleDownloadCatalog = () => {
     const link = document.createElement("a");
-    link.href = "/Powerton-Product-Catalogue.pdf";
+    link.href = "/pdfs/Powerton-Product-Catalogue.pdf";
     link.download = "Powerton-Product-Catalogue.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    
+
     toast({
       title: t("common:messages.downloadStarted"),
       description: t("common:messages.catalogDownloading"),
@@ -109,7 +106,6 @@ export default function Products() {
       "power-tools": "/products/power-tools",
       "cutting-tools": "/products/cutting-tools",
       "lifting-equipment": "/products/lifting-equipment",
-
     };
 
     return featureRoutes[featureId] || `/products/${featureId}`;

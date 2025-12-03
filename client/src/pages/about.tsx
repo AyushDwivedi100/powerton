@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
   Dialog,
@@ -17,17 +17,12 @@ import {
   Globe,
   Target,
   Eye,
-  Trophy,
-  FileText,
-  ExternalLink,
   Download,
-  X,
   Maximize2,
 } from "lucide-react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import { AnimatedCounter } from "@/components/ui/animated-counter";
-import { COMPANY_INFO } from "@/data/constants";
 import { getHeroImage } from "@/assets/images";
 import {
   AnimatedSection,
@@ -39,16 +34,19 @@ import { generateBreadcrumbData } from "@/utils/seo-enhancements";
 export default function About() {
   useScrollAnimations();
   const { t } = useTranslation(["pages", "common"]);
-  const [selectedPdf, setSelectedPdf] = useState<{url: string; title: string} | null>(null);
+  const [selectedPdf, setSelectedPdf] = useState<{
+    url: string;
+    title: string;
+  } | null>(null);
 
   const pdfLicenses = [
     {
-      url: "/certificates/up-license-a-class.pdf",
+      url: "/pdfs/up-license-a-class.pdf",
       title: t("pages:about.licenses.upAClass"),
       badge: t("pages:about.licenses.AClassBadge"),
     },
     {
-      url: "/certificates/pepl-license-2.pdf",
+      url: "/pdfs/pepl-license-2.pdf",
       title: t("pages:about.licenses.gjAClass"),
       badge: t("pages:about.licenses.AClassBadge"),
     },
@@ -256,7 +254,12 @@ export default function About() {
                     <CardContent className="p-0">
                       <div
                         className="block group cursor-pointer"
-                        onClick={() => setSelectedPdf({ url: license.url, title: license.title })}
+                        onClick={() =>
+                          setSelectedPdf({
+                            url: license.url,
+                            title: license.title,
+                          })
+                        }
                         data-testid={`link-pdf-${index}`}
                       >
                         <div className="relative w-full h-[350px] bg-muted overflow-hidden">
@@ -269,7 +272,10 @@ export default function About() {
                           <div className="absolute bottom-4 left-0 right-0 flex justify-center">
                             <div className="bg-primary text-primary-foreground px-4 py-2 rounded-md flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity shadow-lg">
                               <Maximize2 className="w-4 h-4" />
-                              {t("pages:about.licenses.viewDocument", "View Document")}
+                              {t(
+                                "pages:about.licenses.viewDocument",
+                                "View Document",
+                              )}
                             </div>
                           </div>
                         </div>
@@ -282,7 +288,10 @@ export default function About() {
                               <h3 className="text-sm font-bold text-foreground truncate">
                                 {license.title}
                               </h3>
-                              <Badge variant="secondary" className="text-xs mt-1">
+                              <Badge
+                                variant="secondary"
+                                className="text-xs mt-1"
+                              >
                                 {license.badge}
                               </Badge>
                             </div>
@@ -311,7 +320,10 @@ export default function About() {
             </div>
 
             {/* PDF Viewer Modal */}
-            <Dialog open={!!selectedPdf} onOpenChange={(open) => !open && setSelectedPdf(null)}>
+            <Dialog
+              open={!!selectedPdf}
+              onOpenChange={(open) => !open && setSelectedPdf(null)}
+            >
               <DialogContent className="max-w-5xl w-[95vw] h-[90vh] p-0 overflow-hidden">
                 <DialogHeader className="p-4 pb-2 border-b bg-card">
                   <div className="flex items-center justify-between gap-4 pr-8">

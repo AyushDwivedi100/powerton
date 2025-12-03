@@ -1,11 +1,8 @@
 import { motion } from "framer-motion";
 import { SEO } from "@/lib/seo";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ContactForm from "@/components/forms/contact-form";
-import QuotationForm from "@/components/forms/quotation-form";
 import {
-  AnimatedSection,
   useScrollAnimations,
   getAnimationClass,
 } from "@/hooks/use-scroll-animation";

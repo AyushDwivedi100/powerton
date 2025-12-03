@@ -9,25 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import {
-  AnimatedSection,
-  useScrollAnimations,
-} from "@/hooks/use-scroll-animation";
-import {
-  Download,
-  ArrowRight,
-  Star,
-  CheckCircle,
-  Thermometer,
-  Radio,
-  Cpu,
-  ToggleLeft,
-  Gauge,
-  FlaskConical,
-  Zap,
-  Phone,
-  Mail,
-} from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft } from "lucide-react";
 import { getCategoryBySlug } from "@/data/products-category-page";

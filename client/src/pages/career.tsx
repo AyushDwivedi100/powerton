@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Users,
   GraduationCap,
@@ -14,7 +13,6 @@ import {
 } from "lucide-react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
-import { COMPANY_INFO } from "@/data/constants";
 import {
   AnimatedSection,
   useScrollAnimations,

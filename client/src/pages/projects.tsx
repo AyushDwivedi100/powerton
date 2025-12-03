@@ -2,7 +2,7 @@ import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import {
@@ -12,26 +12,20 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useTranslation } from "react-i18next";
 import { AnimatedCounter } from "@/components/ui/animated-counter";
-import projectsHeroImage from "@assets/generated_images/Automation_Project_Showcase_c9ed4237.png";
 import {
   Filter,
   Search,
   MapPin,
   Calendar,
   Users,
-  IndianRupee,
   CheckCircle,
-  Clock,
   Building,
   Zap,
   Cog,
   Factory,
-  ArrowRight,
   ArrowDown,
-  Download,
   Award,
   Target,
   TrendingUp,
@@ -43,12 +37,7 @@ import {
   getAnimationClass,
 } from "@/hooks/use-scroll-animation";
 import { getHeroImage } from "@/assets/images";
-import {
-  getAllProjects,
-  getFeaturedProjects,
-  getTranslatedAllProjects,
-  Project,
-} from "@/data/projects-data";
+import { getTranslatedAllProjects } from "@/data/projects-data";
 
 // Stable identifiers for filtering (kebab-case slugs that match project data IDs)
 const FILTER_IDS = {
@@ -148,10 +137,10 @@ const getFilterOptions = (t: any) => ({
 export default function Projects() {
   const { t, i18n, ready } = useTranslation(["pages", "common"]);
   const filterOptions = getFilterOptions(t);
-  
+
   // Use translated projects data
   const PORTFOLIO_PROJECTS = getTranslatedAllProjects(t);
-  
+
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedIndustry, setSelectedIndustry] = useState(
     filterOptions.industries[0].id,
@@ -289,7 +278,14 @@ export default function Projects() {
               )}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
-              <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-6 py-3 rounded-lg font-semibold transition-colors" onClick={() => document.getElementById('projects-section')?.scrollIntoView({ behavior: 'smooth' })}>
+              <Button
+                className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-6 py-3 rounded-lg font-semibold transition-colors"
+                onClick={() =>
+                  document
+                    .getElementById("projects-section")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }
+              >
                 <ArrowDown className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
                 Browse Our Projects
               </Button>
@@ -483,7 +479,7 @@ export default function Projects() {
           {/* Project Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-6 xl:gap-6">
             {filteredProjects.map((project, index) => {
-              const Icon = getCategoryIcon(project.categoryId || '');
+              const Icon = getCategoryIcon(project.categoryId || "");
               return (
                 <motion.div
                   whileHover={{ y: -8, scale: 1.02 }}
@@ -529,7 +525,7 @@ export default function Projects() {
                           </div>
                           <span className="text-muted-foreground/40">•</span>
                           <div className="flex items-center gap-2">
-                            {getStatusIcon(project.statusId || '')}
+                            {getStatusIcon(project.statusId || "")}
                             <span className="text-green-600 font-medium">
                               {project.status}
                             </span>
