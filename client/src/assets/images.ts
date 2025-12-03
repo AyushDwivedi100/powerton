@@ -347,6 +347,12 @@ import hootersBuzzersAlarmsHero from "@assets/generated_images/hooters_buzzers_a
 import insulatorsInsulationMaterialsHero from "@assets/generated_images/insulators_insulation_materials_hero.png";
 import wellGlassVesselLightsHero from "@assets/generated_images/well_glass_vessel_lights_hero.png";
 
+import currentTransformerProductImage from "@assets/generated_images/current_transformer_product_photo.png";
+import voltageTransformerProductImage from "@assets/generated_images/voltage_transformer_product_photo.png";
+import combinedInstrumentTransformerImage from "@assets/generated_images/combined_instrument_transformer_photo.png";
+import zeroSequenceCtImage from "@assets/generated_images/zero-sequence_ct_product_photo.png";
+import summationCtImage from "@assets/generated_images/summation_ct_product_photo.png";
+
 
 export type ImageCategory =
   | "logo"
@@ -373,7 +379,7 @@ export interface ImageMetadata {
   readonly id: string;
   readonly src: string;
   readonly alt: string;
-  readonly category: ImageCategory;
+  readonly category?: ImageCategory;
   readonly format?: ImageFormat;
   readonly dimensions?: { width: number; height: number };
   readonly fileSize?: string;
@@ -2631,6 +2637,13 @@ export const PRODUCT_HERO_IMAGES: Record<string, { src: string; alt: string; id:
   "control-transformers": { src: controlTransformersHero, alt: "Control Transformers - Isolation transformers", id: "ID-1330" },
   "current-transformers": { src: currentTransformersHero, alt: "Current Transformers - CT metering", id: "ID-1331" },
   "insulators": { src: insulatorsMaterialsHero, alt: "Insulators - Electrical insulation", id: "ID-1332" },
+  
+  // Instrument Transformer product group images
+  "current-transformer": { src: currentTransformerProductImage, alt: "Current Transformer - Ring-type CT for measurement and protection", id: "ID-1500" },
+  "voltage-transformer": { src: voltageTransformerProductImage, alt: "Voltage Transformer - Potential transformer for voltage measurement", id: "ID-1501" },
+  "combined-instrument-transformer": { src: combinedInstrumentTransformerImage, alt: "Combined Instrument Transformer - Integrated CT/VT unit", id: "ID-1502" },
+  "zero-sequence-ct": { src: zeroSequenceCtImage, alt: "Zero-Sequence Current Transformer - Core balance CT for ground fault detection", id: "ID-1503" },
+  "summation-ct": { src: summationCtImage, alt: "Summation Current Transformer - Multi-ratio CT for load summation", id: "ID-1504" },
   
   // Product groups - Solar
   "monocrystalline": { src: monocrystallinePanelsHero, alt: "Monocrystalline - High efficiency panels", id: "ID-1340" },

@@ -2155,6 +2155,26 @@
       "title": "BOD Analyzers",
       "description": "Biochemical Oxygen Demand analyzers for organic pollution measurement in water samples. MANTECH, Hach, and YSI automated systems with optical DO sensors and temperature control."
     },
+    "currentTransformers": {
+      "title": "Current Transformers",
+      "description": "Industrial current transformers (CTs) for accurate current measurement and protection in electrical power systems. Ring-type and wound primary designs with various accuracy classes for metering and protection applications."
+    },
+    "voltageTransformers": {
+      "title": "Voltage Transformers",
+      "description": "Precision voltage transformers (VTs/PTs) for voltage measurement and protection in medium and high voltage power systems. Resin-cast and oil-immersed designs with high accuracy for metering and protection applications."
+    },
+    "combinedInstrumentTransformers": {
+      "title": "Combined Instrument Transformers",
+      "description": "Integrated current and voltage transformer units for outdoor substations and transmission systems. SF6 gas-insulated and oil-immersed designs combining CT and VT functionality in a single unit for space-saving installation."
+    },
+    "zeroSequenceCurrentTransformers": {
+      "title": "Zero-Sequence Current Transformers",
+      "description": "Core-balance current transformers (CBCTs) for ground fault and earth leakage detection in power systems. Toroidal design with high sensitivity for detecting small residual currents and providing earth fault protection."
+    },
+    "summationCurrentTransformers": {
+      "title": "Summation Current Transformers",
+      "description": "Multi-input summation current transformers for combining multiple CT outputs into a single metering circuit. Ideal for load aggregation and centralized energy metering in industrial installations."
+    },
     "standardCeilingFans": {
       "title": "Standard Ceiling Fans",
       "description": "Energy-efficient brushless DC ceiling fans with variable speed control and silent operation. Featuring modern designs, remote control operation, and exceptional energy savings compared to traditional AC motors."
