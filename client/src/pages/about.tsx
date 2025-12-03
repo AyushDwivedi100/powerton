@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
@@ -13,7 +12,8 @@ import {
   Eye,
   Trophy,
   FileText,
-  Maximize2,
+  ExternalLink,
+  Download,
 } from "lucide-react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
@@ -27,15 +27,9 @@ import {
 import industryFacilityImage from "@assets/generated_images/Industrial_automation_facility_interior_3c4562ec.png";
 import { Helmet } from "react-helmet-async";
 import { generateBreadcrumbData } from "@/utils/seo-enhancements";
-import { PDFViewerModal } from "@/components/ui/pdf-viewer-modal";
-
 export default function About() {
   useScrollAnimations();
   const { t } = useTranslation(["pages", "common"]);
-  const [selectedPdf, setSelectedPdf] = useState<{
-    url: string;
-    title: string;
-  } | null>(null);
 
   const pdfLicenses = [
     {
@@ -250,57 +244,53 @@ export default function About() {
                 >
                   <Card className="border-none shadow-lg h-full overflow-hidden">
                     <CardContent className="p-0">
-                      <div className="flex items-center justify-between gap-2 p-4 bg-card border-b">
-                        <div className="flex items-center gap-3 min-w-0">
-                          <div className="w-10 h-10 bg-gradient-to-br from-secondary to-accent rounded-lg flex items-center justify-center flex-shrink-0">
-                            <FileText className="w-5 h-5 text-white" />
-                          </div>
-                          <div className="min-w-0">
-                            <h3 className="text-sm font-bold text-foreground truncate">
-                              {license.title}
-                            </h3>
-                            <Badge variant="secondary" className="text-xs mt-1">
-                              {license.badge}
-                            </Badge>
-                          </div>
-                        </div>
-                        <Button
-                          variant="ghost"
-                          size="icon"
-                          onClick={() =>
-                            setSelectedPdf({
-                              url: license.url,
-                              title: license.title,
-                            })
-                          }
-                          className="flex-shrink-0"
-                          data-testid={`button-expand-pdf-${index}`}
-                        >
-                          <Maximize2 className="w-4 h-4" />
-                        </Button>
-                      </div>
-                      <div
-                        className="relative w-full h-[400px] bg-muted cursor-pointer group"
-                        onClick={() =>
-                          setSelectedPdf({
-                            url: license.url,
-                            title: license.title,
-                          })
-                        }
-                        data-testid={`pdf-preview-${index}`}
+                      <a
+                        href={license.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block group"
+                        data-testid={`link-pdf-${index}`}
                       >
-                        <iframe
-                          src={license.url}
-                          className="w-full h-full border-0 pointer-events-none"
-                          title={license.title}
-                        />
-                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors flex items-center justify-center">
-                          <div className="opacity-0 group-hover:opacity-100 transition-opacity bg-primary text-primary-foreground px-4 py-2 rounded-md flex items-center gap-2">
-                            <Maximize2 className="w-4 h-4" />
-                            {t("pages:about.licenses.clickToExpand", "Click to expand")}
+                        <div className="relative w-full h-[300px] bg-gradient-to-br from-muted to-muted/50 flex flex-col items-center justify-center p-8">
+                          <div className="w-24 h-32 bg-card rounded-lg shadow-lg flex flex-col items-center justify-center mb-6 group-hover:shadow-xl transition-shadow">
+                            <FileText className="w-12 h-12 text-primary mb-2" />
+                            <span className="text-xs font-bold text-muted-foreground uppercase">PDF</span>
+                          </div>
+                          <div className="absolute bottom-6 left-0 right-0 flex justify-center">
+                            <div className="bg-primary text-primary-foreground px-4 py-2 rounded-md flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity shadow-lg">
+                              <ExternalLink className="w-4 h-4" />
+                              {t("pages:about.licenses.viewDocument", "View Document")}
+                            </div>
                           </div>
                         </div>
-                      </div>
+                        <div className="flex items-center justify-between gap-2 p-4 bg-card border-t">
+                          <div className="flex items-center gap-3 min-w-0">
+                            <div className="w-10 h-10 bg-gradient-to-br from-secondary to-accent rounded-lg flex items-center justify-center flex-shrink-0">
+                              <Award className="w-5 h-5 text-white" />
+                            </div>
+                            <div className="min-w-0">
+                              <h3 className="text-sm font-bold text-foreground truncate">
+                                {license.title}
+                              </h3>
+                              <Badge variant="secondary" className="text-xs mt-1">
+                                {license.badge}
+                              </Badge>
+                            </div>
+                          </div>
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            asChild
+                            className="flex-shrink-0"
+                            data-testid={`button-download-pdf-${index}`}
+                          >
+                            <span>
+                              <Download className="w-4 h-4 mr-1" />
+                              {t("pages:about.licenses.download", "Download")}
+                            </span>
+                          </Button>
+                        </div>
+                      </a>
                     </CardContent>
                   </Card>
                 </motion.div>
@@ -309,14 +299,6 @@ export default function About() {
           </div>
         </section>
       </AnimatedSection>
-
-      {/* PDF Viewer Modal */}
-      <PDFViewerModal
-        isOpen={selectedPdf !== null}
-        onClose={() => setSelectedPdf(null)}
-        pdfUrl={selectedPdf?.url || ""}
-        title={selectedPdf?.title}
-      />
 
       {/* Mission & Vision */}
       <AnimatedSection animation="fadeInLeft" delay={0.2} duration={0.9}>

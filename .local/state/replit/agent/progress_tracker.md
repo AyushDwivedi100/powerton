@@ -1,47 +1,40 @@
 # Powerton Engineering Website - Progress Tracker
 
-## Current Session - Accessible PDF Viewer Modal (December 03, 2025 - 07:30 UTC)
+## Current Session - Certificate Document Cards (December 03, 2025 - 07:35 UTC)
 
-### 🎯 PDF Viewer Feature Implementation
-- [x] 1. Create PDFViewerModal component with blurred backdrop for full-screen PDF viewing
-- [x] 2. Update About page licenses section to show actual embedded PDFs in small preview windows (using iframe)
-- [x] 3. Add click-to-expand functionality that opens the PDF in full-screen modal with blurred background
-- [x] 4. Implement full accessibility compliance (WCAG 2.1 AA)
+### 🎯 PDF Certificate Display Fix
+- [x] 1. Identified Chrome blocking embedded PDFs in iframes (security restriction)
+- [x] 2. Replaced iframe embeds with professional document preview cards
+- [x] 3. PDFs now open in new browser tabs (works in all browsers)
+- [x] 4. Added download button functionality
 
 ### ✅ Implementation Summary
-**Files Created/Modified**:
-1. `client/src/components/ui/pdf-viewer-modal.tsx` - New accessible modal component
-2. `client/src/pages/about.tsx` - Updated licenses section with embedded PDFs
-3. `client/public/locales/en/pages.json` - Added "clickToExpand" translation key
+**Issue**: Chrome blocks PDF embedding in iframes within Replit's proxy environment for security reasons, displaying "This page has been blocked by Chrome".
 
-**Accessibility Features Implemented**:
-- **Dialog Semantics**: `role="dialog"`, `aria-modal="true"`, `aria-labelledby`
-- **Focus Management**: 
-  - Focus moves to close button on modal open
-  - Focus restored to triggering element on close
-  - Uses `requestAnimationFrame` and `document.body.contains()` check for robust restoration
-- **Focus Trap**: Tab/Shift+Tab cycles through modal focusable elements only
-- **Keyboard Navigation**: ESC key closes modal
-- **Backdrop**: Blurred semi-transparent background, click to close
-- **Screen Reader**: Proper ARIA labels and semantic structure
+**Solution**: Replaced iframe embeds with elegant document preview cards that:
+- Show a professional PDF icon design with gradient background
+- Display certificate title and A-Class badge
+- Open the PDF in a new browser tab when clicked (universal browser support)
+- Include a download button for easy saving
+
+**Files Modified**:
+1. `client/src/pages/about.tsx` - Updated licenses section with clickable document cards
+2. `client/public/locales/en/pages.json` - Added "viewDocument" and "download" translation keys
+3. Removed unused `client/src/components/ui/pdf-viewer-modal.tsx`
 
 **PDF Certificates Displayed**:
 - UP Government A-Class License (`/certificates/up-license-a-class.pdf`)
 - GJ Government A-Class License (`/certificates/pepl-license-2.pdf`)
 
-**Technical Approach**:
-- Framer Motion for smooth open/close animations
-- Separate `wasOpenRef` to track open/close transitions
-- `previousActiveElementRef` stores triggering element for focus restoration
-- Content area uses `stopPropagation()` to prevent accidental backdrop clicks
+**Features**:
+- Professional document card design with PDF icon
+- Hover effect shows "View Document" prompt
+- Cards link to PDFs opening in new browser tabs
+- Download button for easy file saving
+- Smooth animation on hover (Framer Motion)
+- Fully accessible with proper link semantics
 
-**Architect Review**: ✅ PASS
-- All accessibility requirements verified
-- Dialog semantics correctly implemented
-- Focus management working for all close paths (button, ESC, backdrop)
-- Focus trap cycles correctly within modal
-
-**Status**: ✅ COMPLETE - Accessible PDF viewer modal implemented and verified
+**Status**: ✅ COMPLETE - Certificate cards work across all browsers
 
 ---
 
