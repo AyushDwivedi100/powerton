@@ -237,20 +237,15 @@ const ProductCategoryDynamic: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="flex flex-wrap justify-center gap-2 mb-8"
             >
-              {Array.isArray(categoryData.badges) && categoryData.badges.map((badge, index) => (
-                <motion.div
-                  key={badge}
-                  variants={badgeVariants}
-                  initial="hidden"
-                  animate={heroInView ? "visible" : "hidden"}
-                  whileHover="hover"
-                  transition={{ delay: 0.6 + index * 0.1 }}
-                >
-                  <Badge variant="secondary" className="cursor-default">
+              {Array.isArray(categoryData.badges) &&
+                categoryData.badges.map((badge, index) => (
+                  <Badge
+                    variant="secondary"
+                    className="cursor-default hover:bg-white"
+                  >
                     {badge}
                   </Badge>
-                </motion.div>
-              ))}
+                ))}
             </motion.div>
           </div>
         </motion.div>
@@ -269,81 +264,86 @@ const ProductCategoryDynamic: React.FC = () => {
           variants={containerVariants}
           className={`grid ${categoryData.gridCols} gap-8`}
         >
-          {Array.isArray(categoryData.subcategories) && categoryData.subcategories.map((subcategory, index) => {
-            const IconComponent = subcategory.icon;
-            // Get parent category slug from subcategory data
-            const subcategorySlug =
-              getSubcategorySlugById(subcategory.id) || subcategory.id;
-            const subcategoryData = getProductSubCategoryBySlug(
-              subcategorySlug,
-              t
-            );
-            const parentCategorySlug =
-              subcategoryData?.parentCategory.split("/").pop() ||
-              categoryData.slug;
-            return (
-              <Link
-                key={subcategory.id}
-                href={`/products/${parentCategorySlug}/${
-                  getSubcategorySlugById(subcategory.id) || subcategory.id
-                }`}
-              >
-                <motion.div
-                  variants={cardVariants}
-                  initial="hidden"
-                  animate="visible"
-                  whileHover="hover"
-                  transition={{ delay: index * 0.1 }}
-                  className="h-full"
+          {Array.isArray(categoryData.subcategories) &&
+            categoryData.subcategories.map((subcategory, index) => {
+              const IconComponent = subcategory.icon;
+              // Get parent category slug from subcategory data
+              const subcategorySlug =
+                getSubcategorySlugById(subcategory.id) || subcategory.id;
+              const subcategoryData = getProductSubCategoryBySlug(
+                subcategorySlug,
+                t,
+              );
+              const parentCategorySlug =
+                subcategoryData?.parentCategory.split("/").pop() ||
+                categoryData.slug;
+              return (
+                <Link
+                  key={subcategory.id}
+                  href={`/products/${parentCategorySlug}/${
+                    getSubcategorySlugById(subcategory.id) || subcategory.id
+                  }`}
                 >
-                  <Card className="group cursor-pointer border border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl h-full flex flex-col">
-                    <CardHeader className="pb-4 flex-shrink-0">
-                      <motion.div
-                        className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-300"
-                        whileHover={{ scale: 1.1, rotate: 5 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <IconComponent className="w-8 h-8 text-primary group-hover:scale-110 transition-transform duration-300" />
-                      </motion.div>
-                      <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary dark:group-hover:text-secondary transition-colors text-center">
-                        {subcategory.title}
-                      </CardTitle>
-                      <CardDescription className="text-muted-foreground text-center">
-                        {subcategory.description}
-                      </CardDescription>
-                    </CardHeader>
-                    <CardContent className="flex-1 flex flex-col">
-                      <div className="space-y-2 flex-1">
-                        <h4 className="font-medium text-sm text-foreground mb-3 group-hover:text-secondary">
-                          {t("common:common.keyFeatures")}:
-                        </h4>
-                        <ul className="space-y-1">
-                          {Array.isArray(subcategory.features) && subcategory.features.map((feature, featureIndex) => (
-                            <motion.li
-                              key={featureIndex}
-                              className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors duration-300"
-                              initial={{ opacity: 0, x: -10 }}
-                              animate={{ opacity: 1, x: 0 }}
-                              transition={{
-                                delay: 0.5 + index * 0.1 + featureIndex * 0.05,
-                              }}
-                            >
-                              <motion.div
-                                className="w-1.5 h-1.5 bg-secondary rounded-full mr-2"
-                                whileHover={{ scale: 1.5 }}
-                                transition={{ duration: 0.2 }}
-                              />
-                              {feature}
-                            </motion.li>
-                          ))}
-                        </ul>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </motion.div>
-              </Link>
-            );
-          })}
+                  <motion.div
+                    variants={cardVariants}
+                    initial="hidden"
+                    animate="visible"
+                    whileHover="hover"
+                    transition={{ delay: index * 0.1 }}
+                    className="h-full"
+                  >
+                    <Card className="group cursor-pointer border border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl h-full flex flex-col">
+                      <CardHeader className="pb-4 flex-shrink-0">
+                        <motion.div
+                          className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-300"
+                          whileHover={{ scale: 1.1, rotate: 5 }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <IconComponent className="w-8 h-8 text-primary group-hover:scale-110 transition-transform duration-300" />
+                        </motion.div>
+                        <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary dark:group-hover:text-secondary transition-colors text-center">
+                          {subcategory.title}
+                        </CardTitle>
+                        <CardDescription className="text-muted-foreground text-center">
+                          {subcategory.description}
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className="flex-1 flex flex-col">
+                        <div className="space-y-2 flex-1">
+                          <h4 className="font-medium text-sm text-foreground mb-3 group-hover:text-secondary">
+                            {t("common:common.keyFeatures")}:
+                          </h4>
+                          <ul className="space-y-1">
+                            {Array.isArray(subcategory.features) &&
+                              subcategory.features.map(
+                                (feature, featureIndex) => (
+                                  <motion.li
+                                    key={featureIndex}
+                                    className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors duration-300"
+                                    initial={{ opacity: 0, x: -10 }}
+                                    animate={{ opacity: 1, x: 0 }}
+                                    transition={{
+                                      delay:
+                                        0.5 + index * 0.1 + featureIndex * 0.05,
+                                    }}
+                                  >
+                                    <motion.div
+                                      className="w-1.5 h-1.5 bg-secondary rounded-full mr-2"
+                                      whileHover={{ scale: 1.5 }}
+                                      transition={{ duration: 0.2 }}
+                                    />
+                                    {feature}
+                                  </motion.li>
+                                ),
+                              )}
+                          </ul>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </motion.div>
+                </Link>
+              );
+            })}
         </motion.div>
       </ScrollAnimatedSection>
 
