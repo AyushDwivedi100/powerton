@@ -2582,7 +2582,7 @@ export const PRODUCT_HERO_IMAGES: Record<string, { src: string; alt: string; id:
   // Product groups - Automation
   "compact-plc": { src: compactPlcsHero, alt: "Compact PLC - Small format controllers", id: "ID-1290" },
   "modular-plc": { src: modularPlcsHero, alt: "Modular PLC - Large scale automation", id: "ID-1291" },
-  "io-modules": { src: ioModulesHero, alt: "IO Modules - Field IO and expansion", id: "ID-1292" },
+  "io-expansion-modules": { src: ioModulesHero, alt: "IO Expansion Modules - Field IO and expansion cards", id: "ID-1292" },
   "touchscreen-hmi": { src: touchscreenHmisHero, alt: "Touchscreen HMI - Operator panels", id: "ID-1293" },
   "scada-software": { src: scadaSoftwareHero, alt: "SCADA Software - Process visualization", id: "ID-1294" },
   "scada-gateways": { src: scadaGatewaysHero, alt: "SCADA Gateways - Protocol conversion", id: "ID-1295" },
