@@ -1,6 +1,51 @@
 # Powerton Engineering Website - Progress Tracker
 
-## Current Session - Import Re-verification (December 03, 2025 - 07:20 UTC)
+## Current Session - Accessible PDF Viewer Modal (December 03, 2025 - 07:30 UTC)
+
+### 🎯 PDF Viewer Feature Implementation
+- [x] 1. Create PDFViewerModal component with blurred backdrop for full-screen PDF viewing
+- [x] 2. Update About page licenses section to show actual embedded PDFs in small preview windows (using iframe)
+- [x] 3. Add click-to-expand functionality that opens the PDF in full-screen modal with blurred background
+- [x] 4. Implement full accessibility compliance (WCAG 2.1 AA)
+
+### ✅ Implementation Summary
+**Files Created/Modified**:
+1. `client/src/components/ui/pdf-viewer-modal.tsx` - New accessible modal component
+2. `client/src/pages/about.tsx` - Updated licenses section with embedded PDFs
+3. `client/public/locales/en/pages.json` - Added "clickToExpand" translation key
+
+**Accessibility Features Implemented**:
+- **Dialog Semantics**: `role="dialog"`, `aria-modal="true"`, `aria-labelledby`
+- **Focus Management**: 
+  - Focus moves to close button on modal open
+  - Focus restored to triggering element on close
+  - Uses `requestAnimationFrame` and `document.body.contains()` check for robust restoration
+- **Focus Trap**: Tab/Shift+Tab cycles through modal focusable elements only
+- **Keyboard Navigation**: ESC key closes modal
+- **Backdrop**: Blurred semi-transparent background, click to close
+- **Screen Reader**: Proper ARIA labels and semantic structure
+
+**PDF Certificates Displayed**:
+- UP Government A-Class License (`/certificates/up-license-a-class.pdf`)
+- GJ Government A-Class License (`/certificates/pepl-license-2.pdf`)
+
+**Technical Approach**:
+- Framer Motion for smooth open/close animations
+- Separate `wasOpenRef` to track open/close transitions
+- `previousActiveElementRef` stores triggering element for focus restoration
+- Content area uses `stopPropagation()` to prevent accidental backdrop clicks
+
+**Architect Review**: ✅ PASS
+- All accessibility requirements verified
+- Dialog semantics correctly implemented
+- Focus management working for all close paths (button, ESC, backdrop)
+- Focus trap cycles correctly within modal
+
+**Status**: ✅ COMPLETE - Accessible PDF viewer modal implemented and verified
+
+---
+
+## Previous Session - Import Re-verification (December 03, 2025 - 07:20 UTC)
 
 ### 🎯 Import Completion Tasks
 - [x] 1. Install the required packages
