@@ -167,7 +167,7 @@ export default function ServiceCategoryPage() {
                 <Link href="/quote">
                   <Button
                     size="lg"
-                    className="bg-secondary hover:bg-secondary/90 text-white"
+                    className="bg-secondary group hover:bg-secondary/90 text-white"
                     data-testid="button-get-quote"
                   >
                     {t("common:buttons.getQuote")}{" "}
@@ -326,7 +326,7 @@ export default function ServiceCategoryPage() {
                                 {t(industry)}
                               </span>
                             </div>
-                          )
+                          ),
                         )}
                       </div>
                     </CardContent>
@@ -388,7 +388,7 @@ export default function ServiceCategoryPage() {
               {(() => {
                 // Get current service index
                 const currentIndex = SERVICES_CATEGORY_PAGES.findIndex(
-                  (s) => s.id === serviceData.id
+                  (s) => s.id === serviceData.id,
                 );
                 const totalServices = SERVICES_CATEGORY_PAGES.length;
 
