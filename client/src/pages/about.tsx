@@ -1,8 +1,15 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import {
   CheckCircle,
   Users,
@@ -14,6 +21,8 @@ import {
   FileText,
   ExternalLink,
   Download,
+  X,
+  Maximize2,
 } from "lucide-react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
@@ -30,6 +39,7 @@ import { generateBreadcrumbData } from "@/utils/seo-enhancements";
 export default function About() {
   useScrollAnimations();
   const { t } = useTranslation(["pages", "common"]);
+  const [selectedPdf, setSelectedPdf] = useState<{url: string; title: string} | null>(null);
 
   const pdfLicenses = [
     {
@@ -244,21 +254,21 @@ export default function About() {
                 >
                   <Card className="border-none shadow-lg h-full overflow-hidden">
                     <CardContent className="p-0">
-                      <a
-                        href={license.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block group"
+                      <div
+                        className="block group cursor-pointer"
+                        onClick={() => setSelectedPdf({ url: license.url, title: license.title })}
                         data-testid={`link-pdf-${index}`}
                       >
-                        <div className="relative w-full h-[300px] bg-gradient-to-br from-muted to-muted/50 flex flex-col items-center justify-center p-8">
-                          <div className="w-24 h-32 bg-card rounded-lg shadow-lg flex flex-col items-center justify-center mb-6 group-hover:shadow-xl transition-shadow">
-                            <FileText className="w-12 h-12 text-primary mb-2" />
-                            <span className="text-xs font-bold text-muted-foreground uppercase">PDF</span>
-                          </div>
-                          <div className="absolute bottom-6 left-0 right-0 flex justify-center">
+                        <div className="relative w-full h-[350px] bg-muted overflow-hidden">
+                          <iframe
+                            src={`${license.url}#toolbar=0&navpanes=0&scrollbar=0`}
+                            className="w-full h-full border-0 pointer-events-none"
+                            title={license.title}
+                          />
+                          <div className="absolute inset-0 bg-transparent group-hover:bg-black/10 transition-colors" />
+                          <div className="absolute bottom-4 left-0 right-0 flex justify-center">
                             <div className="bg-primary text-primary-foreground px-4 py-2 rounded-md flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity shadow-lg">
-                              <ExternalLink className="w-4 h-4" />
+                              <Maximize2 className="w-4 h-4" />
                               {t("pages:about.licenses.viewDocument", "View Document")}
                             </div>
                           </div>
@@ -277,25 +287,63 @@ export default function About() {
                               </Badge>
                             </div>
                           </div>
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            asChild
-                            className="flex-shrink-0"
+                          <a
+                            href={license.url}
+                            download
+                            onClick={(e) => e.stopPropagation()}
                             data-testid={`button-download-pdf-${index}`}
                           >
-                            <span>
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              className="flex-shrink-0"
+                            >
                               <Download className="w-4 h-4 mr-1" />
                               {t("pages:about.licenses.download", "Download")}
-                            </span>
-                          </Button>
+                            </Button>
+                          </a>
                         </div>
-                      </a>
+                      </div>
                     </CardContent>
                   </Card>
                 </motion.div>
               ))}
             </div>
+
+            {/* PDF Viewer Modal */}
+            <Dialog open={!!selectedPdf} onOpenChange={(open) => !open && setSelectedPdf(null)}>
+              <DialogContent className="max-w-5xl w-[95vw] h-[90vh] p-0 overflow-hidden">
+                <DialogHeader className="p-4 pb-2 border-b bg-card">
+                  <div className="flex items-center justify-between gap-4 pr-8">
+                    <DialogTitle className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-gradient-to-br from-secondary to-accent rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Award className="w-5 h-5 text-white" />
+                      </div>
+                      <span>{selectedPdf?.title}</span>
+                    </DialogTitle>
+                    <a
+                      href={selectedPdf?.url}
+                      download
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      <Button variant="outline" size="sm">
+                        <Download className="w-4 h-4 mr-2" />
+                        {t("pages:about.licenses.download", "Download")}
+                      </Button>
+                    </a>
+                  </div>
+                </DialogHeader>
+                <div className="flex-1 h-[calc(90vh-80px)] bg-muted">
+                  {selectedPdf && (
+                    <iframe
+                      src={selectedPdf.url}
+                      className="w-full h-full border-0"
+                      title={selectedPdf.title}
+                    />
+                  )}
+                </div>
+              </DialogContent>
+            </Dialog>
           </div>
         </section>
       </AnimatedSection>

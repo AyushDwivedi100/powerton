@@ -1,6 +1,36 @@
 # Powerton Engineering Website - Progress Tracker
 
-## Current Session - Import Verification & PDF Catalog Download (December 03, 2025 - 08:43 UTC)
+## Current Session - PDF Certificate Preview Modal (December 03, 2025 - 08:54 UTC)
+
+### 🎯 Certificate PDF Preview Enhancement
+- [x] 1. Added PDF preview using iframe in the certificate cards (instead of thumbnail icon)
+- [x] 2. Created modal overlay to view PDF when card is clicked
+- [x] 3. Used Dialog component with backdrop-blur for blurred background effect
+- [x] 4. Added download button in both card and modal
+
+### ✅ Implementation Summary
+**Changes Made to About Page Certificates Section**:
+
+1. **PDF Preview in Cards**: Replaced the thumbnail icon with an embedded PDF preview using iframe
+2. **Modal Viewer**: When clicking on a certificate card, it opens a full-screen modal with the PDF
+3. **Blurred Background**: The modal uses Dialog component which has `backdrop-blur-sm` for blur effect
+4. **Download Button**: Separate download button that doesn't interfere with the card click
+
+**Files Modified**:
+- `client/src/pages/about.tsx` - Complete redesign of certificate section
+
+**Technical Details**:
+- Added `useState` hook to track selected PDF for modal
+- Used Dialog, DialogContent, DialogHeader, DialogTitle components
+- Added Maximize2 icon for "View Document" hover overlay
+- Download buttons use `e.stopPropagation()` to prevent modal opening
+- PDF viewer uses iframe with full PDF controls in modal
+
+**Status**: ✅ COMPLETE - Certificate cards show PDF preview and open in modal
+
+---
+
+## Previous Session - Import Verification & PDF Catalog Download (December 03, 2025 - 08:43 UTC)
 
 ### 🎯 Import Completion Tasks
 - [x] 1. Install the required packages
