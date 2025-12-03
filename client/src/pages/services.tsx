@@ -83,10 +83,23 @@ export default function Services() {
                 <Link href="/quote">
                   <Button
                     size="lg"
-                    className="bg-secondary hover:bg-secondary/90 text-white text-wrap-safe"
+                    className="group bg-secondary hover:bg-secondary/90 text-white text-wrap-safe"
                   >
                     {t("common:buttons.getQuote")}{" "}
-                    <ArrowRight className="ms-2 h-5 w-5 rtl-flip" />
+                    <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
+                      <span className="ltr:inline rtl:hidden">
+                        <ArrowRight
+                          className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                          aria-hidden="true"
+                        />
+                      </span>
+                      <span className="ltr:hidden rtl:inline">
+                        <ArrowRight
+                          className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                          aria-hidden="true"
+                        />
+                      </span>
+                    </span>
                   </Button>
                 </Link>
               </AnimatedSection>
@@ -174,10 +187,7 @@ export default function Services() {
 
                             <div className="mt-auto space-y-3 pt-4">
                               <div className="flex gap-2">
-                                <Link
-                                  href={`/quote`}
-                                  className="flex-1"
-                                >
+                                <Link href={`/quote`} className="flex-1">
                                   <Button
                                     size="sm"
                                     className="w-full bg-primary hover:bg-primary/90 text-xs text-wrap-safe text-white"
@@ -200,13 +210,19 @@ export default function Services() {
                                 variant="ghost"
                                 className="text-secondary hover:bg-transparent hover:text-secondary p-0 font-semibold transition-all duration-300 w-full justify-center"
                               >
-                                {t("common:buttons.learnMore")}
+                                {t("common:buttons.learnMore")}{" "}
                                 <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
                                   <span className="ltr:inline rtl:hidden">
-                                    →
+                                    <ArrowRight
+                                      className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                                      aria-hidden="true"
+                                    />
                                   </span>
                                   <span className="ltr:hidden rtl:inline">
-                                    ←
+                                    <ArrowRight
+                                      className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                                      aria-hidden="true"
+                                    />
                                   </span>
                                 </span>
                               </Button>
@@ -273,7 +289,11 @@ export default function Services() {
             </AnimatedSection>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch grid-equal-rows">
-              <AnimatedSection animation="fadeInUp" delay={0.3} className="h-full">
+              <AnimatedSection
+                animation="fadeInUp"
+                delay={0.3}
+                className="h-full"
+              >
                 <Card className="text-center border-border h-full min-h-[220px]">
                   <CardContent className="p-6 flex flex-col h-full justify-between">
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -289,7 +309,11 @@ export default function Services() {
                 </Card>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeInUp" delay={0.4} className="h-full">
+              <AnimatedSection
+                animation="fadeInUp"
+                delay={0.4}
+                className="h-full"
+              >
                 <Card className="text-center border-border h-full min-h-[220px]">
                   <CardContent className="p-6 flex flex-col h-full justify-between">
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -305,7 +329,11 @@ export default function Services() {
                 </Card>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeInUp" delay={0.5} className="h-full">
+              <AnimatedSection
+                animation="fadeInUp"
+                delay={0.5}
+                className="h-full"
+              >
                 <Card className="text-center border-border h-full min-h-[220px]">
                   <CardContent className="p-6 flex flex-col h-full justify-between">
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -321,7 +349,11 @@ export default function Services() {
                 </Card>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeInUp" delay={0.6} className="h-full">
+              <AnimatedSection
+                animation="fadeInUp"
+                delay={0.6}
+                className="h-full"
+              >
                 <Card className="text-center border-border h-full min-h-[220px]">
                   <CardContent className="p-6 flex flex-col h-full justify-between">
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">

@@ -10,6 +10,7 @@ import {
   Truck,
   Sun,
   Hammer,
+  ArrowRight,
 } from "lucide-react";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
@@ -158,10 +159,20 @@ export default function ServicesSection() {
                             variant="ghost"
                             className="text-secondary hover:text-secondary hover:bg-transparent p-0 font-semibold transition-all duration-300"
                           >
-                            {t("common:buttons.learnMore")}
+                            {t("common:buttons.learnMore")}{" "}
                             <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
-                              <span className="ltr:inline rtl:hidden">→</span>
-                              <span className="ltr:hidden rtl:inline">←</span>
+                              <span className="ltr:inline rtl:hidden">
+                                <ArrowRight
+                                  className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                                  aria-hidden="true"
+                                />
+                              </span>
+                              <span className="ltr:hidden rtl:inline">
+                                <ArrowRight
+                                  className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                                  aria-hidden="true"
+                                />
+                              </span>
                             </span>
                           </Button>
                         </div>

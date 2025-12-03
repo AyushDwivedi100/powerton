@@ -19,6 +19,7 @@ import {
   Zap,
   Phone,
   Mail,
+  ArrowRight,
 } from "lucide-react";
 import { Link } from "wouter";
 import { getHeroImage } from "@/assets/images";
@@ -373,9 +374,23 @@ export default function Products() {
               <Link href="/quote">
                 <Button
                   variant="outline"
-                  className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+                  className="border-2 group border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
-                  {t("common:buttons.getQuote")}
+                  {t("common:buttons.getQuote")}{" "}
+                  <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
+                    <span className="ltr:inline rtl:hidden">
+                      <ArrowRight
+                        className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                        aria-hidden="true"
+                      />
+                    </span>
+                    <span className="ltr:hidden rtl:inline">
+                      <ArrowRight
+                        className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                        aria-hidden="true"
+                      />
+                    </span>
+                  </span>
                 </Button>
               </Link>
             </div>
@@ -448,10 +463,16 @@ export default function Products() {
                                   {t("common:buttons.viewDetails")}{" "}
                                   <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
                                     <span className="ltr:inline rtl:hidden">
-                                      →
+                                      <ArrowRight
+                                        className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                                        aria-hidden="true"
+                                      />
                                     </span>
                                     <span className="ltr:hidden rtl:inline">
-                                      ←
+                                      <ArrowRight
+                                        className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                                        aria-hidden="true"
+                                      />
                                     </span>
                                   </span>
                                 </Button>

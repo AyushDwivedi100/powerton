@@ -171,7 +171,20 @@ export default function ServiceCategoryPage() {
                     data-testid="button-get-quote"
                   >
                     {t("common:buttons.getQuote")}{" "}
-                    <ArrowRight className="ml-2 h-5 w-5" />
+                    <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
+                      <span className="ltr:inline rtl:hidden">
+                        <ArrowRight
+                          className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                          aria-hidden="true"
+                        />
+                      </span>
+                      <span className="ltr:hidden rtl:inline">
+                        <ArrowRight
+                          className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                          aria-hidden="true"
+                        />
+                      </span>
+                    </span>
                   </Button>
                 </Link>
               </AnimatedSection>
@@ -425,10 +438,16 @@ export default function ServiceCategoryPage() {
                                 {t("common:buttons.learnMore")}
                                 <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
                                   <span className="ltr:inline rtl:hidden">
-                                    →
+                                    <ArrowRight
+                                      className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                                      aria-hidden="true"
+                                    />
                                   </span>
                                   <span className="ltr:hidden rtl:inline">
-                                    ←
+                                    <ArrowRight
+                                      className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                                      aria-hidden="true"
+                                    />
                                   </span>
                                 </span>
                               </Button>

@@ -87,10 +87,7 @@ export default function ProductSubCategoryDynamic() {
             className="bg-primary hover:bg-primary/90 text-primary-foreground group"
             asChild
           >
-            <Link
-              href="/products"
-              data-testid="link-back-to-category"
-            >
+            <Link href="/products" data-testid="link-back-to-category">
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
               {t("common:buttons.backToProducts")}
             </Link>
@@ -130,7 +127,8 @@ export default function ProductSubCategoryDynamic() {
               data-testid="link-back-to-category"
             >
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
-              {t("common:buttons.backTo")} {product.parentCategoryTitle || t("common:buttons.products")}
+              {t("common:buttons.backTo")}{" "}
+              {product.parentCategoryTitle || t("common:buttons.products")}
             </Link>
           </Button>
         </motion.div>
@@ -191,7 +189,20 @@ export default function ProductSubCategoryDynamic() {
               <Link href="/quote">
                 <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto group">
                   {t("common:buttons.getQuote")}{" "}
-                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-3 transition-transform duration-200" />
+                  <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
+                    <span className="ltr:inline rtl:hidden">
+                      <ArrowRight
+                        className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                        aria-hidden="true"
+                      />
+                    </span>
+                    <span className="ltr:hidden rtl:inline">
+                      <ArrowRight
+                        className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip"
+                        aria-hidden="true"
+                      />
+                    </span>
+                  </span>
                 </Button>
               </Link>
               <Link href="/contact">
