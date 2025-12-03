@@ -1,27 +1,9 @@
-/**
- * Modern Image Management System v2.0
- *
- * Features:
- * - Type-safe image handling with TypeScript
- * - Automatic ID generation and tracking
- * - Performance optimizations (lazy loading, srcset)
- * - Accessibility enhancements
- * - Error handling and fallbacks
- * - Image metadata tracking
- * - Modern helper functions
- *
- * Following AI-AGENT-RULES.md image ID system
- */
-
-// Existing asset imports
 import automationProjectImage from "@assets/generated_images/Automation_Project_Showcase_c9ed4237.png";
 import corporateClientImage from "@assets/generated_images/Corporate_Client_Building_10ddd5dd.png";
 import engineeringTeamImage from "@assets/generated_images/Engineering_Team_Working_82b3dac7.png";
 import companyLogoImage from "@assets/logos/main-logo-powerton.png";
 import industrialAutomationImage from "@assets/generated_images/Industrial_Automation_Factory_54a2a6f1.png";
 import powerPlantControlImage from "@assets/generated_images/Power_Plant_Control_Room_0bd716bf.png";
-
-// New product category images (ID-837+)
 import instrumentationComponentsImage from "@assets/generated_images/Industrial_instrumentation_components_showcase_69897e6b.png";
 import electricalComponentsImage from "@assets/generated_images/Electrical_components_product_showcase_2ba0ce40.png";
 import measurementInstrumentsImage from "@assets/generated_images/Industrial_measuring_tools_showcase_da4b17c0.png";
@@ -30,8 +12,6 @@ import automationControlSystemsImage from "@assets/generated_images/Automation_c
 import safetyProtectiveDevicesImage from "@assets/generated_images/Safety_protective_devices_showcase_5e4ee724.png";
 import pumpsMotorsImage from "@assets/generated_images/Pumps_and_motors_showcase_798de33e.png";
 import industrialToolsImage from "@assets/generated_images/Industrial_tools_and_equipment_showcase_bf6580b0.png";
-
-// Hero background images (ID-846+)
 import industrialAutomationFacilityHero from "@assets/generated_images/Industrial_Automation_Facility_Interior_32e6d2d7.png";
 import engineeringServicesHero from "@assets/generated_images/Engineering_Services_Professional_Environment_d0cae776.png";
 import industrialProjectHero from "@assets/generated_images/Industrial_Project_Construction_Site_1ae76aba.png";
@@ -39,16 +19,12 @@ import corporateOfficeHero from "@assets/generated_images/Corporate_Office_Meeti
 import industrialFacilityHero from "@assets/generated_images/Industrial_facility_hero_background_e1a1fcd5.png";
 import darkIndustrialFacilityHero from "@assets/generated_images/Dark_industrial_facility_hero_c9350380.png";
 import productsShowcaseHero from "@assets/generated_images/Products_showcase_hero_background_5d7918eb.png";
-
-// Product-specific images for sensors and transmitters
 import proximitySesorImage from "@assets/generated_images/PNP_proximity_sensor_industrial_769713a2.png";
 import rtdTemperatureSensorImage from "@assets/generated_images/RTD_temperature_sensor_industrial_9892ebfa.png";
 import thermocoupleTemperatureSensorImage from "@assets/generated_images/Thermocouple_temperature_sensor_industrial_eda275f6.png";
 import phSensorImage from "@assets/generated_images/pH_sensor_industrial_measurement_9c3260ae.png";
 import loadCellImage from "@assets/generated_images/Load_cell_force_transducer_3b31c1d3.png";
 import pressureTransmitterImage from "@assets/generated_images/Pressure_transmitter_industrial_automation_bb913552.png";
-
-// Specific product images for individual product types
 import npnProximitySensorImage from "@assets/generated_images/NPN_proximity_sensor_black_6e0a73a1.png";
 import pt100RtdSensorImage from "@assets/generated_images/PT100_RTD_sensor_probe_14f7e01d.png";
 import pt500RtdSensorImage from "@assets/generated_images/PT500_RTD_compact_sensor_0bc68a6f.png";
@@ -67,22 +43,16 @@ import photoelectricThroughBeamImage from "@assets/generated_images/Photoelectri
 import safetyProximitySensorImage from "@assets/generated_images/Safety_proximity_sensor_yellow_1a3b7ac2.png";
 import laserPhotoelectricSensorImage from "@assets/generated_images/Laser_photoelectric_sensor_precision_6899d990.png";
 import retroreflectiveSensorImage from "@assets/generated_images/Retroreflective_sensor_cubic_design_b1a7d7ab.png";
-
-// VFD product images
 import abbAcs355Image from "@assets/generated_images/ABB_ACS355_VFD_product_fa9d5e0b.png";
 import siemensG120cImage from "@assets/generated_images/Siemens_G120C_VFD_product_ee5db277.png";
 import danfossVltImage from "@assets/generated_images/Danfoss_VLT_VFD_product_00a61361.png";
 import allenBradleyPowerFlexImage from "@assets/generated_images/Allen-Bradley_PowerFlex_VFD_product_9f1515af.png";
 import schneiderAltivarImage from "@assets/generated_images/Schneider_Altivar_VFD_product_f7861776.png";
-
-// Centrifugal pump product images
 import grundfosCrPumpImage from "@assets/generated_images/Grundfos_CR_centrifugal_pump_bea3dfe1.png";
 import ksbEtanormPumpImage from "@assets/generated_images/KSB_Etanorm_centrifugal_pump_d5694450.png";
 import flowserveDurcoPumpImage from "@assets/generated_images/Flowserve_Durco_chemical_pump_5d0bbc90.png";
 import sulzerCptPumpImage from "@assets/generated_images/Sulzer_CPT_process_pump_ab4228ad.png";
 import xylemGouldsPumpImage from "@assets/generated_images/Xylem_Goulds_industrial_pump_6220826e.png";
-
-// Transmitter and flow meter images - using generated images as fallbacks
 const dpTransmitterImage = smartPressureTransmitterImage;
 const pTypeTransmitterImage = pressureTransmitterImage;
 const rsTransmitterImage = smartPressureTransmitterImage;
@@ -92,8 +62,6 @@ const vortexFlowMeterImage = electromagneticFlowMeterImage;
 const pdFlowMeterImage = electromagneticFlowMeterImage;
 const endressHauserProwirl200Image = electromagneticFlowMeterImage;
 const abbSwirlMeterImage = electromagneticFlowMeterImage;
-
-// Additional product images needed for fallbacks
 import industrialValvesImage from "@assets/generated_images/Industrial_valves_actuators_laboratory_c6f8afe0.png";
 import industrialPlcImage from "@assets/generated_images/Industrial_PLC_Control_Panel_54555fe9.png";
 import hmiTouchscreenImage from "@assets/generated_images/HMI_touchscreen_control_room_35274d6e.png";
@@ -103,8 +71,6 @@ import solarEnergySystemsImage from "@assets/generated_images/Solar_Energy_Syste
 import surgeProtectorsImage from "@assets/generated_images/Surge_protectors_electrical_showcase_ade53f8f.png";
 import precisionMeasurementLabImage from "@assets/generated_images/Precision_measurement_instruments_lab_b82030f8.png";
 import measurementInstrumentsShowcaseImage from "@assets/generated_images/Measurement_instruments_product_showcase_9fe64a2b.png";
-
-// Stock image fallback constants
 const solenoidValveStockImage = industrialValvesImage;
 const plcStockImage = industrialPlcImage;
 const hmiPanelStockImage = hmiTouchscreenImage;
@@ -116,8 +82,6 @@ const surgeProtectorStockImage = surgeProtectorsImage;
 const processCalibratorStockImage = precisionMeasurementLabImage;
 const onOffValveStockImage = industrialValvesImage;
 const multimeterStockImage = measurementInstrumentsShowcaseImage;
-
-// Numbered stock image fallbacks for variants
 const pressureTransmitter1 = smartPressureTransmitterImage;
 const pressureTransmitter2 = smartPressureTransmitterImage;
 const pressureTransmitter3 = smartPressureTransmitterImage;
@@ -187,15 +151,9 @@ const centrifugalPump3 = pumpsMotorsImage;
 const heatingElement1 = industrialToolsImage;
 const heatingElement2 = industrialToolsImage;
 const heatingElement3 = industrialToolsImage;
-
-// Real product images will be generated based on manufacturer specifications
-
-// Circuit breaker images
 import rccbImage from "@assets/generated_images/RCCB_industrial_electrical_device_7d6444e2.png";
 import acbImage from "@assets/generated_images/ACB_air_circuit_breaker_01e20a8c.png";
 import vcbImage from "@assets/generated_images/VCB_vacuum_circuit_breaker_d6b1217e.png";
-
-// Service-specific hero background images (ID-856+)
 import installationCommissioningHero from "@assets/generated_images/Installation_commissioning_service_background_a1bcbda4.png";
 import maintenanceRepairHero from "@assets/generated_images/Maintenance_repair_service_background_f0334dc5.png";
 import calibrationTestingHero from "@assets/generated_images/Calibration_testing_service_background_a45cbbb0.png";
@@ -205,8 +163,6 @@ import supplyChainManagementHero from "@assets/generated_images/Supply_chain_man
 import technicalSupportHero from "@assets/generated_images/Technical_support_service_background_2987f5ae.png";
 import solarEpcHero from "@assets/generated_images/Solar_EPC_service_background_dd79a3fb.png";
 import quotePageHero from "@assets/generated_images/Industrial_engineering_office_workspace_37d65e8d.png";
-
-// Product subcategory hero images (ID-1100+)
 import sensorsTransducersHero from "@assets/generated_images/sensors_transducers_hero_banner.png";
 import transmittersFlowMetersHero from "@assets/generated_images/transmitters_flow_meters_hero.png";
 import switchesIndicatorsHero from "@assets/generated_images/switches_indicators_hero_banner.png";
@@ -246,8 +202,6 @@ import liftingEquipmentHero from "@assets/generated_images/lifting_equipment_her
 import multimetersTestingHero from "@assets/generated_images/multimeters_testing_hero_banner.png";
 import powerQualityAnalyzersHero from "@assets/generated_images/power_quality_analyzers_hero.png";
 import calibrationEquipmentHero from "@assets/generated_images/calibration_equipment_hero.png";
-
-// Product group hero images (ID-1200+)
 import proximitySensorsHero from "@assets/generated_images/proximity_sensors_hero_banner.png";
 import temperatureSensorsHero from "@assets/generated_images/temperature_sensors_hero_banner.png";
 import loadCellsHero from "@assets/generated_images/load_cells_hero_banner.png";
@@ -329,8 +283,6 @@ import differentialRelaysHero from "@assets/generated_images/differential_relays
 import distanceRelaysHero from "@assets/generated_images/distance_relays_hero.png";
 import ioModulesHero from "@assets/generated_images/io_modules_hero_banner.png";
 import insulatorsMaterialsHero from "@assets/generated_images/insulators_materials_hero.png";
-
-// Additional unique hero images (ID-1400+)
 import pnpNpnProximitySensorsHero from "@assets/generated_images/pnp_npn_proximity_sensors_hero.png";
 import rtdThermocoupleSensorsHero from "@assets/generated_images/rtd_thermocouple_sensors_hero.png";
 import loadCellsForceSensorsHero from "@assets/generated_images/load_cells_force_sensors_hero.png";
@@ -395,7 +347,7 @@ import hootersBuzzersAlarmsHero from "@assets/generated_images/hooters_buzzers_a
 import insulatorsInsulationMaterialsHero from "@assets/generated_images/insulators_insulation_materials_hero.png";
 import wellGlassVesselLightsHero from "@assets/generated_images/well_glass_vessel_lights_hero.png";
 
-// Image category types for better organization
+
 export type ImageCategory =
   | "logo"
   | "hero"
@@ -416,7 +368,7 @@ export type ImageSize =
   | "xlarge"
   | "hero";
 
-// Enhanced image metadata interface
+
 export interface ImageMetadata {
   readonly id: string;
   readonly src: string;
@@ -431,7 +383,7 @@ export interface ImageMetadata {
   readonly srcSet?: string;
 }
 
-// Modern ID management with automatic tracking
+
 export const IMAGE_ID_RANGES = {
   LOGO: { start: 1, end: 10, prefix: "ID-" },
   ABOUT: { start: 11, end: 20, prefix: "ID-" },
