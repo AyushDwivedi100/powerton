@@ -1,6 +1,37 @@
 # Powerton Engineering Website - Progress Tracker
 
-## Current Session - Import Migration Completion (December 03, 2025 - 06:15 UTC)
+## Current Session - Sidebar Logic Fix (December 03, 2025 - 06:20 UTC)
+
+### 🎯 Sidebar Always Visible Fix
+- [x] 1. Update shouldShowPopup() function to always show sidebar when products exist
+- [x] 2. Restart workflow and verify the sidebar appears on the homepage
+
+### ✅ Fix Summary
+- **Issue**: Sidebar was not showing because all products had `dateAdded` older than 30 days
+- **Root Cause**: `shouldShowPopup()` function was calling `getNewestProducts(1)` which filters products to only those added in the last 30 days
+- **Solution**: Changed `shouldShowPopup()` to simply check if `productImages.length > 0`
+- **Result**: Sidebar now appears on every page load showing all available stock products
+
+### 📝 Code Change
+**File**: `client/src/data/productImages.ts`
+```typescript
+// Before:
+export function shouldShowPopup(): boolean {
+  const newestProducts = getNewestProducts(1);
+  return newestProducts.length > 0;
+}
+
+// After:
+export function shouldShowPopup(): boolean {
+  return productImages.length > 0;
+}
+```
+
+**Status**: ✅ COMPLETE - Sidebar now always displays when products exist
+
+---
+
+## Previous Session - Import Migration Completion (December 03, 2025 - 06:15 UTC)
 
 ### 🎯 Import Completion Tasks
 - [x] 1. Install the required packages
