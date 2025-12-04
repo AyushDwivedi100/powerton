@@ -347,6 +347,111 @@ import hootersBuzzersAlarmsHero from "@assets/generated_images/hooters_buzzers_a
 import insulatorsInsulationMaterialsHero from "@assets/generated_images/insulators_insulation_materials_hero.png";
 import wellGlassVesselLightsHero from "@assets/generated_images/well_glass_vessel_lights_hero.png";
 
+// Additional hero/banner images for unique product group mappings
+import acbCircuitBreakersBanner from "@assets/generated_images/acb_circuit_breakers_banner.png";
+import acDcConvertersBanner from "@assets/generated_images/ac_dc_converters_banner.png";
+import acSurgeProtectorsBanner from "@assets/generated_images/ac_surge_protectors_banner.png";
+import analogAmmetersHeroBanner from "@assets/generated_images/analog_ammeters_hero_banner.png";
+import analogVoltmetersHeroBanner from "@assets/generated_images/analog_voltmeters_hero_banner.png";
+import armouredPowerCablesBanner from "@assets/generated_images/armoured_power_cables_banner.png";
+import calibrationInstrumentsBanner from "@assets/generated_images/calibration_instruments_banner.png";
+import dcDcConvertersBanner from "@assets/generated_images/dc_dc_converters_banner.png";
+import dcsEngineeringStationsBanner from "@assets/generated_images/dcs_engineering_stations_banner.png";
+import dcsOperatorStationsBanner from "@assets/generated_images/dcs_operator_stations_banner.png";
+import dcSurgeProtectorsBanner from "@assets/generated_images/dc_surge_protectors_banner.png";
+import differentialProtectionRelaysBanner from "@assets/generated_images/differential_protection_relays_banner.png";
+import digitalMegohmmetersBanner from "@assets/generated_images/digital_megohmmeters_banner.png";
+import dinRailEnclosuresBanner from "@assets/generated_images/din_rail_enclosures_banner.png";
+import distanceProtectionRelaysBanner from "@assets/generated_images/distance_protection_relays_banner.png";
+import dpTypeTransmittersBanner from "@assets/generated_images/dp_type_transmitters_banner.png";
+import earthingCablesHeroBanner from "@assets/generated_images/earthing_cables_hero_banner.png";
+import earthingStripsConductorsBanner from "@assets/generated_images/earthing_strips_conductors_banner.png";
+import earthResistanceTestersBanner from "@assets/generated_images/earth_resistance_testers_banner.png";
+import electricalCabinetsPanelsBanner from "@assets/generated_images/electrical_cabinets_panels_banner.png";
+import electricDiaphragmPumpsBanner from "@assets/generated_images/electric_diaphragm_pumps_banner.png";
+import equipmentGroundingSystemsBanner from "@assets/generated_images/equipment_grounding_systems_banner.png";
+import explosionProofEquipmentBanner from "@assets/generated_images/explosion_proof_equipment_banner.png";
+import flameproofFloodLightsBanner from "@assets/generated_images/flameproof_flood_lights_banner.png";
+import flameproofStreetLightsBanner from "@assets/generated_images/flameproof_street_lights_banner.png";
+import flameproofVesselLightsBanner from "@assets/generated_images/flameproof_vessel_lights_banner.png";
+import flexibleCablesHeroBanner from "@assets/generated_images/flexible_cables_hero_banner.png";
+import forwardReverseStartersBanner from "@assets/generated_images/forward_reverse_starters_banner.png";
+import glassFusesElectronicBanner from "@assets/generated_images/glass_fuses_electronic_banner.png";
+import groundingMaterialsRodsBanner from "@assets/generated_images/grounding_materials_rods_banner.png";
+import heatingCoilsElementsBanner from "@assets/generated_images/heating_coils_elements_banner.png";
+import heatingElementsIndustryBanner from "@assets/generated_images/heating_elements_industry_banner.png";
+import homeApplianceCablesBanner from "@assets/generated_images/home_appliance_cables_banner.png";
+import hooterBuzzersSoundersBanner from "@assets/generated_images/hooter_buzzers_sounders_banner.png";
+import humiditySensorsHeroBanner from "@assets/generated_images/humidity_sensors_hero_banner.png";
+import hydraulicDiaphragmPumpsBanner from "@assets/generated_images/hydraulic_diaphragm_pumps_banner.png";
+import hydrogenGasAnalyzersBanner from "@assets/generated_images/hydrogen_gas_analyzers_banner.png";
+import industrialFloodLightsBanner from "@assets/generated_images/industrial_flood_lights_banner.png";
+import industrialPlugsSocketsBanner from "@assets/generated_images/industrial_plugs_sockets_banner.png";
+import ledIndicatingLightsBanner from "@assets/generated_images/led_indicating_lights_banner.png";
+import levelGaugesHeroBanner from "@assets/generated_images/level_gauges_hero_banner.png";
+import lightningProtectionSystemsBanner from "@assets/generated_images/lightning_protection_systems_banner.png";
+import liquidAnalyzersProcessBanner from "@assets/generated_images/liquid_analyzers_process_banner.png";
+import loadCellForceSensorsBanner from "@assets/generated_images/load_cell_force_sensors_banner.png";
+import magneticGearPumpsBanner from "@assets/generated_images/magnetic_gear_pumps_banner.png";
+import mechanicalToolsWrenchesBanner from "@assets/generated_images/mechanical_tools_wrenches_banner.png";
+import microInvertersSolarBanner from "@assets/generated_images/micro_inverters_solar_banner.png";
+import microPlcsAutomationBanner from "@assets/generated_images/micro_plcs_automation_banner.png";
+import milliampereSourceMetersBanner from "@assets/generated_images/milliampere_source_meters_banner.png";
+import miniatureCircuitBreakersBanner from "@assets/generated_images/miniature_circuit_breakers_banner.png";
+import moldedCaseBreakersBanner from "@assets/generated_images/molded_case_breakers_banner.png";
+import monocrystallineSolarPanelsBanner from "@assets/generated_images/monocrystalline_solar_panels_banner.png";
+import motorTerminalBlocksBanner from "@assets/generated_images/motor_terminal_blocks_banner.png";
+import multicoreElectricalCablesBanner from "@assets/generated_images/multicore_electrical_cables_banner.png";
+import multicoreInstrumentationCablesBanner from "@assets/generated_images/multicore_instrumentation_cables_banner.png";
+import multiFunctionMetersBanner from "@assets/generated_images/multi-function_meters_banner.png";
+import multistageCentrifugalPumpsBanner from "@assets/generated_images/multistage_centrifugal_pumps_banner.png";
+import multiStagePumpsHeroBanner from "@assets/generated_images/multi-stage_pumps_hero.png";
+import nitrogenGasAnalyzersBanner from "@assets/generated_images/nitrogen_gas_analyzers_banner.png";
+import onOffIsolationValvesBanner from "@assets/generated_images/on-off_isolation_valves_banner.png";
+import overcurrentProtectionRelaysBanner from "@assets/generated_images/overcurrent_protection_relays_banner.png";
+import oxygenGasAnalyzersBanner from "@assets/generated_images/oxygen_gas_analyzers_banner.png";
+import panelMountHmisBanner from "@assets/generated_images/panel_mount_hmis_banner.png";
+import pdFlowMetersHeroBanner from "@assets/generated_images/pd_flow_meters_hero_banner.png";
+import phaseSequenceCheckersBanner from "@assets/generated_images/phase_sequence_checkers_banner.png";
+import pnpNpnProximitySensorsBanner from "@assets/generated_images/pnp_npn_proximity_sensors_banner.png";
+import polycrystallineSolarPanelsBanner from "@assets/generated_images/polycrystalline_solar_panels_banner.png";
+import potentialTransformersPtBanner from "@assets/generated_images/potential_transformers_pt_banner.png";
+import powerFactorMetersBanner from "@assets/generated_images/power_factor_meters_banner.png";
+import precisionToolsMeasuringBanner from "@assets/generated_images/precision_tools_measuring_banner.png";
+import pressureGaugesHeroBanner from "@assets/generated_images/pressure_gauges_hero_banner.png";
+import profinetCablesHeroBanner from "@assets/generated_images/profinet_cables_hero_banner.png";
+import proximitySwitchesIndustrialBanner from "@assets/generated_images/proximity_switches_industrial_banner.png";
+import pTypeTransmittersHeroBanner from "@assets/generated_images/p_type_transmitters_hero_banner.png";
+import pumpImpellersCasingsBanner from "@assets/generated_images/pump_impellers_casings_banner.png";
+import rccbCircuitBreakersBanner from "@assets/generated_images/rccb_circuit_breakers_banner.png";
+import reversingContactorsBanner from "@assets/generated_images/reversing_contactors_banner.png";
+import rsTypeTransmittersHeroBanner from "@assets/generated_images/rs_type_transmitters_hero_banner.png";
+import rtdThermocoupleSensorsBanner from "@assets/generated_images/rtd_thermocouple_sensors_banner.png";
+import safetyControllersSilBanner from "@assets/generated_images/safety_controllers_sil_banner.png";
+import safetyInterlocksGuardsBanner from "@assets/generated_images/safety_interlocks_guards_banner.png";
+import safetySwitchesInterlocksBanner from "@assets/generated_images/safety_switches_interlocks_banner.png";
+import scadaHardwareSystemsBanner from "@assets/generated_images/scada_hardware_systems_banner.png";
+import selectorSwitchesRotaryBanner from "@assets/generated_images/selector_switches_rotary_banner.png";
+import shieldedPairCables1pBanner from "@assets/generated_images/shielded_pair_cables_1p_banner.png";
+import shieldedPairCables2pBanner from "@assets/generated_images/shielded_pair_cables_2p_banner.png";
+import shieldedPairCables8pBanner from "@assets/generated_images/shielded_pair_cables_8p_banner.png";
+import signalSurgeProtectorsBanner from "@assets/generated_images/signal_surge_protectors_banner.png";
+import softStartersMotorsBanner from "@assets/generated_images/soft_starters_motors_banner.png";
+import starDeltaStartersBanner from "@assets/generated_images/star_delta_starters_banner.png";
+import testEquipmentCalibrationBanner from "@assets/generated_images/test_equipment_calibration_banner.png";
+import thinFilmSolarPanelsBanner from "@assets/generated_images/thin_film_solar_panels_banner.png";
+import touchscreenHmisBanner from "@assets/generated_images/touchscreen_hmis_banner.png";
+import transformerProtectionRelaysBanner from "@assets/generated_images/transformer_protection_relays_banner.png";
+import ultrasonicSensorsHeroBanner from "@assets/generated_images/ultrasonic_sensors_hero_banner.png";
+import vcbCircuitBreakersBanner from "@assets/generated_images/vcb_circuit_breakers_banner.png";
+import verticalCentrifugalPumpsBanner from "@assets/generated_images/vertical_centrifugal_pumps_banner.png";
+import voltageMonitoringRelaysBanner from "@assets/generated_images/voltage_monitoring_relays_banner.png";
+import voltageProtectionRelaysBanner from "@assets/generated_images/voltage_protection_relays_banner.png";
+import volumetricFlowMetersBanner from "@assets/generated_images/volumetric_flow_meters_banner.png";
+import weatherproofFloodLightsBanner from "@assets/generated_images/weatherproof_flood_lights_banner.png";
+import weatherproofStreetLightsBanner from "@assets/generated_images/weatherproof_street_lights_banner.png";
+import weatherproofVesselLightsBanner from "@assets/generated_images/weatherproof_vessel_lights_banner.png";
+
 import currentTransformerProductImage from "@assets/generated_images/current_transformer_product_photo.png";
 import voltageTransformerProductImage from "@assets/generated_images/voltage_transformer_product_photo.png";
 import combinedInstrumentTransformerImage from "@assets/generated_images/combined_instrument_transformer_photo.png";
@@ -2309,6 +2414,672 @@ export const PRODUCT_IMAGE_MAPPING = {
     src: instrumentationComponentsImage,
     alt: `${IMAGE_IDS.INSTRUMENTATION_COMPONENTS}: Industrial product - High quality industrial equipment`,
     id: IMAGE_IDS.INSTRUMENTATION_COMPONENTS,
+  },
+
+  // Unique mappings for previously duplicated image keys
+  // Gas Analyzers - unique images for each type
+  "oxygen-gas-analyzer": {
+    src: oxygenGasAnalyzersBanner,
+    alt: "Oxygen Gas Analyzer - O2 monitoring and measurement equipment",
+    id: "ID-2001",
+  },
+  "nitrogen-gas-analyzer": {
+    src: nitrogenGasAnalyzersBanner,
+    alt: "Nitrogen Gas Analyzer - N2 monitoring and measurement equipment",
+    id: "ID-2002",
+  },
+  "hydrogen-gas-analyzer": {
+    src: hydrogenGasAnalyzersBanner,
+    alt: "Hydrogen Gas Analyzer - H2 monitoring and measurement equipment",
+    id: "ID-2003",
+  },
+  "carbon-dioxide-gas-analyzer": {
+    src: gasAnalyzersEmissionsHero,
+    alt: "Carbon Dioxide Gas Analyzer - CO2 monitoring and emissions measurement",
+    id: "ID-2004",
+  },
+  "cod-analyzer": {
+    src: liquidAnalyzersProcessBanner,
+    alt: "COD Analyzer - Chemical Oxygen Demand water analysis",
+    id: "ID-2005",
+  },
+  "bod-analyzer": {
+    src: waterAnalyzersTreatmentHero,
+    alt: "BOD Analyzer - Biological Oxygen Demand water analysis",
+    id: "ID-2006",
+  },
+
+  // Hooters and Buzzers - unique image
+  "hooter-buzzer-alarm": {
+    src: hooterBuzzersSoundersBanner,
+    alt: "Hooter Buzzer Alarm - Industrial audible signaling device",
+    id: "ID-2007",
+  },
+
+  // Terminal Blocks - unique variants
+  "motor-terminal-block": {
+    src: motorTerminalBlocksBanner,
+    alt: "Motor Terminal Block - High current motor connection terminals",
+    id: "ID-2008",
+  },
+  "fuse-terminal-block": {
+    src: terminalBlocksConnectorsHero,
+    alt: "Fuse Terminal Block - Fused connection terminal",
+    id: "ID-2009",
+  },
+  "non-fuse-terminal-block": {
+    src: terminalBlocksHero,
+    alt: "Non-Fuse Terminal Block - Standard connection terminal",
+    id: "ID-2010",
+  },
+
+  // Glass Fuses - unique image
+  "glass-fuse": {
+    src: glassFusesElectronicBanner,
+    alt: "Glass Fuse - Electronic glass tube fuse protection",
+    id: "ID-2011",
+  },
+
+  // SMPS - unique image
+  "smps-power-supply": {
+    src: smpsPowerSuppliesHero,
+    alt: "SMPS Power Supply - Switch Mode Power Supply unit",
+    id: "ID-2012",
+  },
+
+  // Diode Units - unique image
+  "diode-unit": {
+    src: dcDcConvertersBanner,
+    alt: "Diode Unit - DC power diode module",
+    id: "ID-2013",
+  },
+
+  // Hart Calibrators - unique image
+  "hart-calibrator": {
+    src: hartCalibratorsHero,
+    alt: "HART Calibrator - Smart transmitter calibration tool",
+    id: "ID-2014",
+  },
+
+  // DIN Rail Enclosures - unique image
+  "din-rail-enclosure-small": {
+    src: dinRailEnclosuresBanner,
+    alt: "DIN Rail Enclosure - Small modular electrical housing",
+    id: "ID-2015",
+  },
+
+  // PVC Duct - unique image
+  "pvc-duct-channel": {
+    src: cableDuctsHero,
+    alt: "PVC Duct Channel - Cable management trunking",
+    id: "ID-2016",
+  },
+
+  // Relay Boards - unique image
+  "relay-board-module": {
+    src: relayBoardsHero,
+    alt: "Relay Board Module - Multi-channel relay module",
+    id: "ID-2017",
+  },
+
+  // Control Transformers (insulators variant)
+  "control-transformer-isolator": {
+    src: controlPowerTransformersHero,
+    alt: "Control Transformer Isolator - Isolation transformer for control circuits",
+    id: "ID-2018",
+  },
+
+  // Flameproof Lighting variants
+  "vessel-light-flameproof": {
+    src: flameproofVesselLightsBanner,
+    alt: "Flameproof Vessel Light - Ex-rated marine lighting",
+    id: "ID-2019",
+  },
+  "vessel-light-weatherproof": {
+    src: weatherproofVesselLightsBanner,
+    alt: "Weatherproof Vessel Light - IP65 marine lighting",
+    id: "ID-2020",
+  },
+  "flood-light-flameproof": {
+    src: flameproofFloodLightsBanner,
+    alt: "Flameproof Flood Light - Ex-rated high power lighting",
+    id: "ID-2021",
+  },
+  "flood-light-weatherproof": {
+    src: weatherproofFloodLightsBanner,
+    alt: "Weatherproof Flood Light - IP65 outdoor lighting",
+    id: "ID-2022",
+  },
+  "well-glass-light-flameproof": {
+    src: flameproofVesselLightsBanner,
+    alt: "Flameproof Well Glass Light - Ex-rated enclosure lighting",
+    id: "ID-2023",
+  },
+  "well-glass-light-weatherproof": {
+    src: weatherproofVesselLightsBanner,
+    alt: "Weatherproof Well Glass Light - IP65 enclosure lighting",
+    id: "ID-2024",
+  },
+  "street-light-flameproof": {
+    src: flameproofStreetLightsBanner,
+    alt: "Flameproof Street Light - Ex-rated outdoor pole light",
+    id: "ID-2025",
+  },
+  "street-light-weatherproof": {
+    src: weatherproofStreetLightsBanner,
+    alt: "Weatherproof Street Light - IP65 outdoor pole light",
+    id: "ID-2026",
+  },
+  "high-bay-light-flameproof": {
+    src: flameproofFloodLightsBanner,
+    alt: "Flameproof High Bay Light - Ex-rated industrial ceiling light",
+    id: "ID-2027",
+  },
+  "high-bay-light-weatherproof": {
+    src: weatherproofFloodLightsBanner,
+    alt: "Weatherproof High Bay Light - IP65 industrial ceiling light",
+    id: "ID-2028",
+  },
+
+  // DCS Stations - enhanced unique variants (with banner images)
+  "dcs-engineering-station-banner": {
+    src: dcsEngineeringStationsBanner,
+    alt: "DCS Engineering Station - Control system engineering workstation",
+    id: "ID-2029",
+  },
+  "dcs-operator-station-banner": {
+    src: dcsOperatorStationsBanner,
+    alt: "DCS Operator Station - Control system operator interface",
+    id: "ID-2030",
+  },
+
+  // AC/DC Converters - unique variants
+  "ac-dc-converter-module": {
+    src: acDcConvertersBanner,
+    alt: "AC-DC Converter Module - Power supply conversion unit",
+    id: "ID-2031",
+  },
+  "dc-dc-converter-module": {
+    src: dcDcConvertersBanner,
+    alt: "DC-DC Converter Module - Voltage conversion unit",
+    id: "ID-2032",
+  },
+
+  // Surge Protectors - enhanced unique variants (with banner images)
+  "ac-surge-protector-banner": {
+    src: acSurgeProtectorsBanner,
+    alt: "AC Surge Protector - AC power line protection device",
+    id: "ID-2033",
+  },
+  "dc-surge-protector-banner": {
+    src: dcSurgeProtectorsBanner,
+    alt: "DC Surge Protector - DC power line protection device",
+    id: "ID-2034",
+  },
+  "signal-surge-protector-banner": {
+    src: signalSurgeProtectorsBanner,
+    alt: "Signal Surge Protector - Signal line protection device",
+    id: "ID-2035",
+  },
+
+  // Analog Meters - unique images
+  "analog-ammeter-panel": {
+    src: analogAmmetersHeroBanner,
+    alt: "Analog Ammeter - Panel mount current meter",
+    id: "ID-2036",
+  },
+  "analog-voltmeter-panel": {
+    src: analogVoltmetersHeroBanner,
+    alt: "Analog Voltmeter - Panel mount voltage meter",
+    id: "ID-2037",
+  },
+
+  // Multi-function Meters
+  "multi-function-meter-digital": {
+    src: multiFunctionMetersBanner,
+    alt: "Multi-Function Meter - Digital power quality analyzer",
+    id: "ID-2038",
+  },
+
+  // Transmitters - unique variants
+  "dp-type-transmitter-specific": {
+    src: dpTypeTransmittersBanner,
+    alt: "DP Type Transmitter - Differential pressure measurement",
+    id: "ID-2039",
+  },
+  "p-type-transmitter-specific": {
+    src: pTypeTransmittersHeroBanner,
+    alt: "P Type Transmitter - Gauge pressure measurement",
+    id: "ID-2040",
+  },
+  "rs-type-transmitter-specific": {
+    src: rsTypeTransmittersHeroBanner,
+    alt: "RS Type Transmitter - Remote seal pressure measurement",
+    id: "ID-2041",
+  },
+
+  // Flow Meters - unique variant
+  "pd-flow-meter-specific": {
+    src: pdFlowMetersHeroBanner,
+    alt: "PD Flow Meter - Positive displacement flow measurement",
+    id: "ID-2042",
+  },
+  "volumetric-flow-meter-specific": {
+    src: volumetricFlowMetersBanner,
+    alt: "Volumetric Flow Meter - Volume-based flow measurement",
+    id: "ID-2043",
+  },
+
+  // Circuit Breakers - unique banners
+  "mcb-circuit-breaker": {
+    src: miniatureCircuitBreakersBanner,
+    alt: "MCB Circuit Breaker - Miniature circuit protection",
+    id: "ID-2044",
+  },
+  "mccb-circuit-breaker": {
+    src: moldedCaseBreakersBanner,
+    alt: "MCCB Circuit Breaker - Molded case protection",
+    id: "ID-2045",
+  },
+  "acb-circuit-breaker": {
+    src: acbCircuitBreakersBanner,
+    alt: "ACB Circuit Breaker - Air circuit breaker",
+    id: "ID-2046",
+  },
+  "vcb-circuit-breaker": {
+    src: vcbCircuitBreakersBanner,
+    alt: "VCB Circuit Breaker - Vacuum circuit breaker",
+    id: "ID-2047",
+  },
+  "rccb-circuit-breaker": {
+    src: rccbCircuitBreakersBanner,
+    alt: "RCCB Circuit Breaker - Residual current device",
+    id: "ID-2048",
+  },
+
+  // Cables - unique variants
+  "earthing-cable-specific": {
+    src: earthingCablesHeroBanner,
+    alt: "Earthing Cable - Ground connection cable",
+    id: "ID-2049",
+  },
+  "flexible-cable-specific": {
+    src: flexibleCablesHeroBanner,
+    alt: "Flexible Cable - Multi-strand flexible power cable",
+    id: "ID-2050",
+  },
+  "armoured-cable-specific": {
+    src: armouredPowerCablesBanner,
+    alt: "Armoured Cable - Steel wire armoured power cable",
+    id: "ID-2051",
+  },
+  "profinet-cable-specific": {
+    src: profinetCablesHeroBanner,
+    alt: "Profinet Cable - Industrial Ethernet communication cable",
+    id: "ID-2052",
+  },
+  "shielded-pair-1p-cable": {
+    src: shieldedPairCables1pBanner,
+    alt: "Shielded Pair 1P Cable - Single pair instrumentation cable",
+    id: "ID-2053",
+  },
+  "shielded-pair-2p-cable": {
+    src: shieldedPairCables2pBanner,
+    alt: "Shielded Pair 2P Cable - Two pair instrumentation cable",
+    id: "ID-2054",
+  },
+  "shielded-pair-8p-cable": {
+    src: shieldedPairCables8pBanner,
+    alt: "Shielded Pair 8P Cable - Eight pair instrumentation cable",
+    id: "ID-2055",
+  },
+  "multicore-electrical-cable": {
+    src: multicoreElectricalCablesBanner,
+    alt: "Multicore Electrical Cable - Multi-conductor power cable",
+    id: "ID-2056",
+  },
+  "multicore-instrumentation-cable": {
+    src: multicoreInstrumentationCablesBanner,
+    alt: "Multicore Instrumentation Cable - Multi-pair signal cable",
+    id: "ID-2057",
+  },
+  "home-appliance-cable-specific": {
+    src: homeApplianceCablesBanner,
+    alt: "Home Appliance Cable - Domestic electrical cable",
+    id: "ID-2058",
+  },
+
+  // Motor Starters - unique variants
+  "soft-starter-motor": {
+    src: softStartersMotorsBanner,
+    alt: "Soft Starter - Motor soft start controller",
+    id: "ID-2059",
+  },
+  "star-delta-starter-motor": {
+    src: starDeltaStartersBanner,
+    alt: "Star Delta Starter - Reduced voltage motor starter",
+    id: "ID-2060",
+  },
+  "forward-reverse-starter": {
+    src: forwardReverseStartersBanner,
+    alt: "Forward Reverse Starter - Bi-directional motor control",
+    id: "ID-2061",
+  },
+
+  // HMI Panels - unique variants
+  "touchscreen-hmi-panel": {
+    src: touchscreenHmisBanner,
+    alt: "Touchscreen HMI Panel - Touch interface control panel",
+    id: "ID-2062",
+  },
+  "panel-mount-hmi-banner": {
+    src: panelMountHmisBanner,
+    alt: "Panel Mount HMI - Industrial control panel interface",
+    id: "ID-2063",
+  },
+
+  // Pumps - unique variants
+  "multistage-centrifugal-pump": {
+    src: multistageCentrifugalPumpsBanner,
+    alt: "Multistage Centrifugal Pump - High pressure booster pump",
+    id: "ID-2064",
+  },
+  "vertical-centrifugal-pump": {
+    src: verticalCentrifugalPumpsBanner,
+    alt: "Vertical Centrifugal Pump - Vertical mount fluid pump",
+    id: "ID-2065",
+  },
+  "electric-diaphragm-pump": {
+    src: electricDiaphragmPumpsBanner,
+    alt: "Electric Diaphragm Pump - Motor driven diaphragm pump",
+    id: "ID-2066",
+  },
+  "hydraulic-diaphragm-pump": {
+    src: hydraulicDiaphragmPumpsBanner,
+    alt: "Hydraulic Diaphragm Pump - Hydraulic driven metering pump",
+    id: "ID-2067",
+  },
+  "magnetic-gear-pump-banner": {
+    src: magneticGearPumpsBanner,
+    alt: "Magnetic Gear Pump - Seal-less magnetic drive pump",
+    id: "ID-2068",
+  },
+  "multi-stage-pump-specific": {
+    src: multiStagePumpsHeroBanner,
+    alt: "Multi-Stage Pump - High pressure multi-stage pumping system",
+    id: "ID-2069",
+  },
+  "pump-impeller-casing": {
+    src: pumpImpellersCasingsBanner,
+    alt: "Pump Impeller Casing - Pump spare parts and components",
+    id: "ID-2070",
+  },
+
+  // PLCs and Automation - unique variants
+  "micro-plc-automation": {
+    src: microPlcsAutomationBanner,
+    alt: "Micro PLC - Compact programmable logic controller",
+    id: "ID-2071",
+  },
+  "scada-hardware-system": {
+    src: scadaHardwareSystemsBanner,
+    alt: "SCADA Hardware System - Supervisory control hardware",
+    id: "ID-2072",
+  },
+
+  // Protection Relays - unique variants
+  "differential-protection-relay": {
+    src: differentialProtectionRelaysBanner,
+    alt: "Differential Protection Relay - Current differential protection",
+    id: "ID-2073",
+  },
+  "distance-protection-relay": {
+    src: distanceProtectionRelaysBanner,
+    alt: "Distance Protection Relay - Impedance-based line protection",
+    id: "ID-2074",
+  },
+  "overcurrent-protection-relay": {
+    src: overcurrentProtectionRelaysBanner,
+    alt: "Overcurrent Protection Relay - Current overload protection",
+    id: "ID-2075",
+  },
+  "transformer-protection-relay": {
+    src: transformerProtectionRelaysBanner,
+    alt: "Transformer Protection Relay - Transformer fault protection",
+    id: "ID-2076",
+  },
+  "voltage-protection-relay": {
+    src: voltageProtectionRelaysBanner,
+    alt: "Voltage Protection Relay - Voltage monitoring and protection",
+    id: "ID-2077",
+  },
+  "voltage-monitoring-relay-specific": {
+    src: voltageMonitoringRelaysBanner,
+    alt: "Voltage Monitoring Relay - Phase voltage monitoring",
+    id: "ID-2078",
+  },
+
+  // Transformers - unique variants
+  "potential-transformer-specific": {
+    src: potentialTransformersPtBanner,
+    alt: "Potential Transformer - Voltage measurement transformer",
+    id: "ID-2079",
+  },
+
+  // Sensors - unique variants
+  "humidity-sensor": {
+    src: humiditySensorsHeroBanner,
+    alt: "Humidity Sensor - Air moisture measurement sensor",
+    id: "ID-2080",
+  },
+  "ultrasonic-sensor": {
+    src: ultrasonicSensorsHeroBanner,
+    alt: "Ultrasonic Sensor - Non-contact distance sensor",
+    id: "ID-2081",
+  },
+  "proximity-switch": {
+    src: proximitySwitchesIndustrialBanner,
+    alt: "Proximity Switch - Industrial position detection switch",
+    id: "ID-2082",
+  },
+  "selector-switch": {
+    src: selectorSwitchesRotaryBanner,
+    alt: "Selector Switch - Rotary position selector",
+    id: "ID-2083",
+  },
+  "rtd-thermocouple-sensor": {
+    src: rtdThermocoupleSensorsBanner,
+    alt: "RTD Thermocouple Sensor - Temperature measurement probe",
+    id: "ID-2084",
+  },
+  "pnp-npn-proximity-sensor": {
+    src: pnpNpnProximitySensorsBanner,
+    alt: "PNP NPN Proximity Sensor - Industrial proximity detection",
+    id: "ID-2085",
+  },
+  "load-cell-force-sensor": {
+    src: loadCellForceSensorsBanner,
+    alt: "Load Cell Force Sensor - Weight and force measurement",
+    id: "ID-2086",
+  },
+  "pressure-gauge-specific": {
+    src: pressureGaugesHeroBanner,
+    alt: "Pressure Gauge - Mechanical pressure indicator",
+    id: "ID-2087",
+  },
+  "level-gauge-specific": {
+    src: levelGaugesHeroBanner,
+    alt: "Level Gauge - Tank level indicator",
+    id: "ID-2088",
+  },
+
+  // Safety Equipment - unique variants
+  "safety-controller-sil": {
+    src: safetyControllersSilBanner,
+    alt: "Safety Controller SIL - Safety integrity level controller",
+    id: "ID-2089",
+  },
+  "safety-interlock-guard": {
+    src: safetyInterlocksGuardsBanner,
+    alt: "Safety Interlock Guard - Machine safety interlock",
+    id: "ID-2090",
+  },
+  "safety-switch-interlock": {
+    src: safetySwitchesInterlocksBanner,
+    alt: "Safety Switch Interlock - Safety door switch",
+    id: "ID-2091",
+  },
+
+  // Grounding - unique variants
+  "grounding-material-rod": {
+    src: groundingMaterialsRodsBanner,
+    alt: "Grounding Material Rod - Earth grounding electrode",
+    id: "ID-2092",
+  },
+  "equipment-grounding-system": {
+    src: equipmentGroundingSystemsBanner,
+    alt: "Equipment Grounding System - Electrical equipment earthing",
+    id: "ID-2093",
+  },
+  "earthing-strip-conductor": {
+    src: earthingStripsConductorsBanner,
+    alt: "Earthing Strip Conductor - Flat earth conductor strip",
+    id: "ID-2094",
+  },
+
+  // Heating Elements - unique variants
+  "heating-coil-element": {
+    src: heatingCoilsElementsBanner,
+    alt: "Heating Coil Element - Industrial heating coil",
+    id: "ID-2095",
+  },
+  "heating-element-industry": {
+    src: heatingElementsIndustryBanner,
+    alt: "Industrial Heating Element - Process heating equipment",
+    id: "ID-2096",
+  },
+
+  // Enclosures and Cabinets - unique variant
+  "electrical-cabinet-panel": {
+    src: electricalCabinetsPanelsBanner,
+    alt: "Electrical Cabinet Panel - Power distribution enclosure",
+    id: "ID-2097",
+  },
+
+  // Inverters - unique variants
+  "micro-inverter-solar": {
+    src: microInvertersSolarBanner,
+    alt: "Micro Inverter Solar - Module-level solar inverter",
+    id: "ID-2098",
+  },
+  "polycrystalline-solar-panel": {
+    src: polycrystallineSolarPanelsBanner,
+    alt: "Polycrystalline Solar Panel - Multi-crystalline PV module",
+    id: "ID-2099",
+  },
+  "monocrystalline-solar-panel": {
+    src: monocrystallineSolarPanelsBanner,
+    alt: "Monocrystalline Solar Panel - Single crystal PV module",
+    id: "ID-2100",
+  },
+  "thin-film-solar-panel": {
+    src: thinFilmSolarPanelsBanner,
+    alt: "Thin Film Solar Panel - Amorphous silicon PV module",
+    id: "ID-2101",
+  },
+
+  // Tools - unique variants
+  "mechanical-tool-wrench": {
+    src: mechanicalToolsWrenchesBanner,
+    alt: "Mechanical Tool Wrench - Hand tool for fasteners",
+    id: "ID-2102",
+  },
+  "precision-tool-measuring": {
+    src: precisionToolsMeasuringBanner,
+    alt: "Precision Tool Measuring - Accurate measurement instruments",
+    id: "ID-2103",
+  },
+
+  // Industrial Plugs and Lighting
+  "industrial-plug-socket": {
+    src: industrialPlugsSocketsBanner,
+    alt: "Industrial Plug Socket - Heavy duty electrical connector",
+    id: "ID-2104",
+  },
+  "industrial-flood-light": {
+    src: industrialFloodLightsBanner,
+    alt: "Industrial Flood Light - High power area lighting",
+    id: "ID-2105",
+  },
+  "led-indicating-light": {
+    src: ledIndicatingLightsBanner,
+    alt: "LED Indicating Light - Panel mount indicator lamp",
+    id: "ID-2106",
+  },
+
+  // Test and Calibration Equipment
+  "calibration-instrument-specific": {
+    src: calibrationInstrumentsBanner,
+    alt: "Calibration Instrument - Precision calibration equipment",
+    id: "ID-2107",
+  },
+  "test-equipment-calibration": {
+    src: testEquipmentCalibrationBanner,
+    alt: "Test Equipment Calibration - Testing and verification tools",
+    id: "ID-2108",
+  },
+  "digital-megohmmeter": {
+    src: digitalMegohmmetersBanner,
+    alt: "Digital Megohmmeter - Insulation resistance tester",
+    id: "ID-2109",
+  },
+  "earth-resistance-tester-specific": {
+    src: earthResistanceTestersBanner,
+    alt: "Earth Resistance Tester - Ground resistance measurement",
+    id: "ID-2110",
+  },
+  "phase-sequence-checker": {
+    src: phaseSequenceCheckersBanner,
+    alt: "Phase Sequence Checker - Three phase rotation tester",
+    id: "ID-2111",
+  },
+  "milliampere-source-meter": {
+    src: milliampereSourceMetersBanner,
+    alt: "Milliampere Source Meter - Current loop calibrator",
+    id: "ID-2112",
+  },
+  "power-factor-meter-specific": {
+    src: powerFactorMetersBanner,
+    alt: "Power Factor Meter - Power quality measurement",
+    id: "ID-2113",
+  },
+
+  // Contactors - unique variant
+  "reversing-contactor": {
+    src: reversingContactorsBanner,
+    alt: "Reversing Contactor - Motor direction control contactor",
+    id: "ID-2114",
+  },
+
+  // Valves - unique variant
+  "on-off-isolation-valve": {
+    src: onOffIsolationValvesBanner,
+    alt: "On-Off Isolation Valve - Process isolation valve",
+    id: "ID-2115",
+  },
+
+  // Explosion Proof Equipment
+  "explosion-proof-equipment-specific": {
+    src: explosionProofEquipmentBanner,
+    alt: "Explosion Proof Equipment - Hazardous area rated devices",
+    id: "ID-2116",
+  },
+
+  // Lightning Protection
+  "lightning-protection-system": {
+    src: lightningProtectionSystemsBanner,
+    alt: "Lightning Protection System - Surge and lightning arrestor",
+    id: "ID-2117",
   },
 } as const;
 

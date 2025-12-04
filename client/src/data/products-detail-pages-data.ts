@@ -77,7 +77,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.loadCell.title",
     descriptionKey: "products:productGroups.loadCell.description",
     subcategoryKey: "sensors-transducers",
-    image: "load-cell",
+    image: "load-cell-force-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
@@ -187,7 +187,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.pushButtons.title",
     descriptionKey: "products:productGroups.pushButtons.description",
     subcategoryKey: "switches-indicators",
-    image: "push-button",
+    image: "hooter-buzzer-alarm",
     featuredSpecs: ["manufacturer", "model", "size", "contactType"],
   },
   {
@@ -196,7 +196,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.hooterBuzzer.title",
     descriptionKey: "products:productGroups.hooterBuzzer.description",
     subcategoryKey: "switches-indicators",
-    image: "push-button",
+    image: "hooter-buzzer-alarm",
     featuredSpecs: ["voltage", "sound", "type"],
   },
   // Valves & Actuators subcategory groups
@@ -300,7 +300,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.currentTransformers.title",
     descriptionKey: "products:productGroups.currentTransformers.description",
     subcategoryKey: "instrument-transformers",
-    image: "current-transformer",
+    image: "current-transformer-product",
     featuredSpecs: ["manufacturer", "model", "ratio", "accuracy"],
   },
   {
@@ -535,7 +535,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey:
       "products:productGroups.miniatureCircuitBreakers.description",
     subcategoryKey: "circuit-breakers-fuses",
-    image: "mcb",
+    image: "mcb-circuit-breaker",
     featuredSpecs: ["current", "voltage", "poles"],
   },
   {
@@ -553,7 +553,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.fusesFusesHolders.title",
     descriptionKey: "products:productGroups.fusesFusesHolders.description",
     subcategoryKey: "circuit-breakers-fuses",
-    image: "fuse",
+    image: "glass-fuse",
     featuredSpecs: ["current", "voltage", "type"],
   },
   {
@@ -571,7 +571,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.acbCircuitBreakers.title",
     descriptionKey: "products:productGroups.acbCircuitBreakers.description",
     subcategoryKey: "circuit-breakers-fuses",
-    image: "acb",
+    image: "acb-circuit-breaker",
     featuredSpecs: ["current", "voltage", "breaking"],
   },
   {
@@ -580,7 +580,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.vcbCircuitBreakers.title",
     descriptionKey: "products:productGroups.vcbCircuitBreakers.description",
     subcategoryKey: "circuit-breakers-fuses",
-    image: "vcb",
+    image: "vcb-circuit-breaker",
     featuredSpecs: ["current", "voltage", "operations"],
   },
   {
@@ -598,7 +598,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.glassFuses.title",
     descriptionKey: "products:productGroups.glassFuses.description",
     subcategoryKey: "circuit-breakers-fuses",
-    image: "fuse",
+    image: "glass-fuse",
     featuredSpecs: ["current", "voltage", "size"],
   },
   // Power Supplies subcategory groups
@@ -663,7 +663,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.junctionBoxes.title",
     descriptionKey: "products:productGroups.junctionBoxes.description",
     subcategoryKey: "enclosures-cabinets",
-    image: "junction-box",
+    image: "electrical-cabinet-panel",
     featuredSpecs: ["dimensions", "material", "protection"],
   },
   {
@@ -681,7 +681,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.pvcDuct.title",
     descriptionKey: "products:productGroups.pvcDuct.description",
     subcategoryKey: "enclosures-cabinets",
-    image: "junction-box",
+    image: "electrical-cabinet-panel",
     featuredSpecs: ["size", "length", "material"],
   },
   // Heating Elements & Appliances subcategory groups
@@ -780,7 +780,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.currentTransformers.title",
     descriptionKey: "products:productGroups.currentTransformers.description",
     subcategoryKey: "transformers-power-devices",
-    image: "current-transformer",
+    image: "current-transformer-product",
     featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
   },
   {
@@ -789,7 +789,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.potentialTransformers.title",
     descriptionKey: "products:productGroups.potentialTransformers.description",
     subcategoryKey: "transformers-power-devices",
-    image: "potential-transformer",
+    image: "potential-transformer-specific",
     featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
   },
   // Insulators & Insulation Materials subcategory groups
@@ -1547,7 +1547,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.weldingMachines.title",
     descriptionKey: "products:productGroups.weldingMachines.description",
     subcategoryKey: "power-tools",
-    image: "welding-machine",
+    image: "mechanical-tool-wrench",
     featuredSpecs: ["manufacturer", "model", "amperage"],
   },
   // Cutting Tools subcategory groups
@@ -1584,7 +1584,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.chopSaws.title",
     descriptionKey: "products:productGroups.chopSaws.description",
     subcategoryKey: "cutting-tools",
-    image: "chop-saw",
+    image: "precision-tool-measuring",
     featuredSpecs: ["manufacturer", "model", "bladeSize"],
   },
   // Lifting Equipment subcategory groups
@@ -1622,7 +1622,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.digitalMultimeters.title",
     descriptionKey: "products:productGroups.digitalMultimeters.description",
     subcategoryKey: "multimeters",
-    image: "digital-multimeter",
+    image: "multi-function-meter-digital",
     featuredSpecs: ["accuracy", "range", "features"],
   },
   {
@@ -2175,7 +2175,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "switches-indicators",
     typeKey: "push-buttons",
-    image: "push-button",
+    image: "hooter-buzzer-alarm",
     translationKeys: {
       title: "products-data:schneiderXb4ba21.title",
       description: "products-data:schneiderXb4ba21.description",
@@ -2197,7 +2197,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "switches-indicators",
     typeKey: "push-buttons",
-    image: "push-button",
+    image: "hooter-buzzer-alarm",
     translationKeys: {
       title: "products-data:eatonM22DrR.title",
       description: "products-data:eatonM22DrR.description",
@@ -2219,7 +2219,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "switches-indicators",
     typeKey: "push-buttons",
-    image: "push-button",
+    image: "hooter-buzzer-alarm",
     translationKeys: {
       title: "products-data:schneiderXb5Harmony.title",
       description: "products-data:schneiderXb5Harmony.description",
@@ -2242,7 +2242,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "switches-indicators",
     typeKey: "push-buttons",
-    image: "push-button",
+    image: "hooter-buzzer-alarm",
     translationKeys: {
       title: "products-data:abbCp110g.title",
       description: "products-data:abbCp110g.description",
@@ -2265,7 +2265,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "switches-indicators",
     typeKey: "push-buttons",
-    image: "push-button",
+    image: "hooter-buzzer-alarm",
     translationKeys: {
       title: "products-data:siemens3su1Pushbutton.title",
       description: "products-data:siemens3su1Pushbutton.description",
@@ -2521,7 +2521,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "valves-actuators",
     typeKey: "on-off-valves",
-    image: "on-off-valve",
+    image: "on-off-isolation-valve",
     datasheetUrl:
       "https://www.emerson.com/documents/automation/fisher-vee-ball-v150-v200-v300-rotary-control-valves-en-11739128.pdf",
     translationKeys: {
@@ -2544,7 +2544,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "valves-actuators",
     typeKey: "on-off-valves",
-    image: "on-off-valve",
+    image: "on-off-isolation-valve",
     datasheetUrl: "https://www.emerson.com/en-us/catalog/fisher-v280",
     translationKeys: {
       title: "products-data:fisherV280BallValve.title",
@@ -2566,7 +2566,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "valves-actuators",
     typeKey: "on-off-valves",
-    image: "on-off-valve",
+    image: "on-off-isolation-valve",
     datasheetUrl:
       "https://www.flowserve.com/en/products/products-catalog/valves/ball-valves/",
     translationKeys: {
@@ -2589,7 +2589,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "valves-actuators",
     typeKey: "on-off-valves",
-    image: "on-off-valve",
+    image: "on-off-isolation-valve",
     datasheetUrl: "https://www.flowserve.com/en/products/brands/worcester/",
     translationKeys: {
       title: "products-data:flowserveWorcesterSeries44BallValve.title",
@@ -2612,7 +2612,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "valves-actuators",
     typeKey: "on-off-valves",
-    image: "on-off-valve",
+    image: "on-off-isolation-valve",
     datasheetUrl:
       "https://www.swagelok.com/downloads/webcatalogs/en/ms-02-331.pdf",
     translationKeys: {
@@ -2635,7 +2635,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "valves-actuators",
     typeKey: "on-off-valves",
-    image: "on-off-valve",
+    image: "on-off-isolation-valve",
     datasheetUrl: "https://www.burkert.com/en/type/2655",
     translationKeys: {
       title: "products-data:burkert2655BallValve.title",
@@ -3401,7 +3401,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "dp-type-transmitter",
-    image: "dp-transmitter-rosemount",
+    image: "dp-type-transmitter-specific",
     specs: {
       type: "Smart Differential Pressure Transmitter",
       manufacturer: "Emerson/Rosemount",
@@ -3439,7 +3439,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "dp-type-transmitter",
-    image: "dp-transmitter-endress",
+    image: "dp-type-transmitter-specific",
     specs: {
       type: "HART DP Transmitter with Remote Seals",
       manufacturer: "Endress+Hauser",
@@ -3477,7 +3477,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "dp-type-transmitter",
-    image: "dp-transmitter-yokogawa",
+    image: "dp-type-transmitter-specific",
     specs: {
       type: "DPharp Digital DP Transmitter",
       manufacturer: "Yokogawa",
@@ -3515,7 +3515,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "dp-type-transmitter",
-    image: "dp-transmitter-honeywell",
+    image: "dp-type-transmitter-specific",
     specs: {
       type: "Smart Differential Pressure Transmitter",
       manufacturer: "Honeywell",
@@ -3633,7 +3633,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "p-type-transmitter",
-    image: "p-transmitter-siemens",
+    image: "p-type-transmitter-specific",
     specs: {
       type: "Absolute/Gauge Pressure Transmitter",
       manufacturer: "Siemens",
@@ -3671,7 +3671,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "p-type-transmitter",
-    image: "p-transmitter-abb",
+    image: "p-type-transmitter-specific",
     specs: {
       type: "Gauge/Absolute Pressure Transmitter",
       manufacturer: "ABB",
@@ -3709,7 +3709,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "p-type-transmitter",
-    image: "p-transmitter-wika",
+    image: "p-type-transmitter-specific",
     specs: {
       type: "General Purpose Pressure Transmitter",
       manufacturer: "WIKA",
@@ -3747,7 +3747,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "p-type-transmitter",
-    image: "p-transmitter-fuji",
+    image: "p-type-transmitter-specific",
     specs: {
       type: "Smart Pressure Transmitter",
       manufacturer: "Fuji Electric",
@@ -3787,7 +3787,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "rs-type-transmitter",
-    image: "rs-transmitter-rosemount",
+    image: "rs-type-transmitter-specific",
     specs: {
       type: "Remote Seal Pressure Transmitter",
       manufacturer: "Emerson/Rosemount",
@@ -3827,7 +3827,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "rs-type-transmitter",
-    image: "rs-transmitter-endress",
+    image: "rs-type-transmitter-specific",
     specs: {
       type: "Ceramic Remote Seal Transmitter",
       manufacturer: "Endress+Hauser",
@@ -3867,7 +3867,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "rs-type-transmitter",
-    image: "rs-transmitter-yokogawa",
+    image: "rs-type-transmitter-specific",
     specs: {
       type: "DPharp Remote Seal Transmitter",
       manufacturer: "Yokogawa",
@@ -3907,7 +3907,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "rs-type-transmitter",
-    image: "rs-transmitter-honeywell",
+    image: "rs-type-transmitter-specific",
     specs: {
       type: "Smart Remote Seal Transmitter",
       manufacturer: "Honeywell",
@@ -3949,7 +3949,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "volumetric-flow-meter",
-    image: "magnetic-flowmeter-endress",
+    image: "volumetric-flow-meter-specific",
     specs: {
       type: "Electromagnetic Flow Meter",
       manufacturer: "Endress+Hauser",
@@ -3989,7 +3989,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "volumetric-flow-meter",
-    image: "magnetic-flowmeter-rosemount",
+    image: "volumetric-flow-meter-specific",
     specs: {
       type: "Magnetic Flow Meter with Advanced Diagnostics",
       manufacturer: "Emerson/Rosemount",
@@ -4029,7 +4029,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "volumetric-flow-meter",
-    image: "magnetic-flowmeter-abb",
+    image: "volumetric-flow-meter-specific",
     specs: {
       type: "Electromagnetic Flow Meter",
       manufacturer: "ABB",
@@ -4069,7 +4069,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "volumetric-flow-meter",
-    image: "magnetic-flowmeter-yokogawa",
+    image: "volumetric-flow-meter-specific",
     specs: {
       type: "Magnetic Flow Meter with Dual Frequency Excitation",
       manufacturer: "Yokogawa",
@@ -4435,7 +4435,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "volumetric-flow-meter",
-    image: "volumetric-flowmeter-bronkhorst",
+    image: "volumetric-flow-meter-specific",
     specs: {
       type: "Ultrasonic Gas/Liquid Flow Meter",
       manufacturer: "Bronkhorst",
@@ -4476,7 +4476,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "volumetric-flow-meter",
-    image: "magnetic-flowmeter-rosemount",
+    image: "volumetric-flow-meter-specific",
     specs: {
       type: "Flanged Magnetic Flow Meter Sensor",
       manufacturer: "Emerson/Rosemount",
@@ -4516,7 +4516,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "volumetric-flow-meter",
-    image: "volumetric-flowmeter-siemens",
+    image: "volumetric-flow-meter-specific",
     specs: {
       type: "Clamp-on Ultrasonic Flow Meter",
       manufacturer: "Siemens",
@@ -4557,7 +4557,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "volumetric-flow-meter",
-    image: "magnetic-flowmeter-badger",
+    image: "volumetric-flow-meter-specific",
     specs: {
       type: "Modular Electromagnetic Flow Meter",
       manufacturer: "Badger Meter",
@@ -4598,7 +4598,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
     typeKey: "volumetric-flow-meter",
-    image: "magnetic-flowmeter-krohne",
+    image: "volumetric-flow-meter-specific",
     specs: {
       type: "Electromagnetic Flow Meter",
       manufacturer: "KROHNE",
@@ -6064,7 +6064,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "oxygen-gas-analyzers",
-    image: "analyzers",
+    image: "oxygen-gas-analyzer",
     specs: {
       manufacturer: "Systech (Industrial Physics)",
       model: "EC900 Series",
@@ -6094,7 +6094,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "oxygen-gas-analyzers",
-    image: "analyzers",
+    image: "oxygen-gas-analyzer",
     specs: {
       manufacturer: "Panametrics (Baker Hughes)",
       model: "XMO2pro",
@@ -6124,7 +6124,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "oxygen-gas-analyzers",
-    image: "analyzers",
+    image: "oxygen-gas-analyzer",
     specs: {
       manufacturer: "Endress+Hauser",
       model: "OXY5500",
@@ -6156,7 +6156,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "nitrogen-gas-analyzers",
-    image: "analyzers",
+    image: "nitrogen-gas-analyzer",
     specs: {
       manufacturer: "LECO Corporation",
       model: "ONH836",
@@ -6186,7 +6186,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "nitrogen-gas-analyzers",
-    image: "analyzers",
+    image: "nitrogen-gas-analyzer",
     specs: {
       manufacturer: "HORIBA Scientific",
       model: "EMGA Series",
@@ -6216,7 +6216,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "nitrogen-gas-analyzers",
-    image: "analyzers",
+    image: "nitrogen-gas-analyzer",
     title: "Teledyne 3000TA Trace Nitrogen Analyzer",
     description:
       "Trace oxygen and dew point analyzer for nitrogen purity monitoring with 0-1000ppm measurement range for quality control applications.",
@@ -6244,7 +6244,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "nitrogen-gas-analyzers",
-    image: "analyzers",
+    image: "nitrogen-gas-analyzer",
     title: "Servomex 4900 Multi-Gas Nitrogen Analyzer",
     description:
       "Multi-component gas analyzer with nitrogen balance measurement using paramagnetic oxygen detection for industrial gas analysis.",
@@ -6272,7 +6272,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "nitrogen-gas-analyzers",
-    image: "analyzers",
+    image: "nitrogen-gas-analyzer",
     title: "California Analytical 102E O2 in N2 Analyzer",
     description:
       "Oxygen in nitrogen analyzer with 0-1% measurement range and LCD display for nitrogen purity verification in industrial applications.",
@@ -6302,7 +6302,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "hydrogen-gas-analyzers",
-    image: "analyzers",
+    image: "hydrogen-gas-analyzer",
     specs: {
       manufacturer: "Nova Analytical Systems",
       model: "H2 Analyzer Series",
@@ -6332,7 +6332,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "hydrogen-gas-analyzers",
-    image: "analyzers",
+    image: "hydrogen-gas-analyzer",
     specs: {
       manufacturer: "Endress+Hauser",
       model: "SS2100a",
@@ -6362,7 +6362,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "hydrogen-gas-analyzers",
-    image: "analyzers",
+    image: "hydrogen-gas-analyzer",
     title: "Systech EC96 Hydrogen Gas Analyzer",
     description:
       "Thermal conductivity hydrogen analyzer with 0-100% H2 measurement range and explosion-proof enclosure for safe hydrogen monitoring.",
@@ -6390,7 +6390,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "hydrogen-gas-analyzers",
-    image: "analyzers",
+    image: "hydrogen-gas-analyzer",
     title: "ABB Uras26 H2 in CO2/N2 Analyzer",
     description:
       "NDIR hydrogen analyzer for H2 measurement in CO2/N2 background with 0-100% range and automatic calibration features.",
@@ -6418,7 +6418,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "hydrogen-gas-analyzers",
-    image: "analyzers",
+    image: "hydrogen-gas-analyzer",
     title: "H2Scan HY-OPTIMA 700 Hydrogen Analyzer",
     description:
       "Solid-state hydrogen analyzer with 0-100% H2 range and fast response time for real-time hydrogen monitoring in industrial processes.",
@@ -6448,7 +6448,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "carbon-dioxide-gas-analyzers",
-    image: "analyzers",
+    image: "carbon-dioxide-gas-analyzer",
     specs: {
       manufacturer: "Endress+Hauser",
       model: "SS2100 CO2",
@@ -6478,7 +6478,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "carbon-dioxide-gas-analyzers",
-    image: "analyzers",
+    image: "carbon-dioxide-gas-analyzer",
     specs: {
       manufacturer: "Nova Analytical Systems",
       model: "Multi-Gas CO2",
@@ -6508,7 +6508,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "carbon-dioxide-gas-analyzers",
-    image: "analyzers",
+    image: "carbon-dioxide-gas-analyzer",
     title: "ABB AO2020 CO2 NDIR Analyzer",
     description:
       "NDIR CO2 analyzer with 0-100% measurement range, automatic zero function, and IP54 protection for industrial CO2 monitoring.",
@@ -6536,7 +6536,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "carbon-dioxide-gas-analyzers",
-    image: "analyzers",
+    image: "carbon-dioxide-gas-analyzer",
     title: "Vaisala GMP252 CARBOCAP CO2 Analyzer",
     description:
       "CARBOCAP CO2 analyzer with 0-30% measurement range and NIST traceable calibration for precision CO2 measurement.",
@@ -6564,7 +6564,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "carbon-dioxide-gas-analyzers",
-    image: "analyzers",
+    image: "carbon-dioxide-gas-analyzer",
     title: "California Analytical 602P Process CO2 Analyzer",
     description:
       "Process CO2 analyzer with 0-50% NDIR measurement for industrial CO2 monitoring and control applications.",
@@ -6594,7 +6594,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "cod-analyzers",
-    image: "analyzers",
+    image: "cod-analyzer",
     specs: {
       manufacturer: "Hach (Danaher)",
       model: "EZ Series COD",
@@ -6624,7 +6624,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "cod-analyzers",
-    image: "analyzers",
+    image: "cod-analyzer",
     specs: {
       manufacturer: "MANTECH Inc.",
       model: "PeCOD L50",
@@ -6654,7 +6654,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "cod-analyzers",
-    image: "analyzers",
+    image: "cod-analyzer",
     specs: {
       manufacturer: "LAR Process Analysers",
       model: "QuickCODlab",
@@ -6686,7 +6686,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "bod-analyzers",
-    image: "analyzers",
+    image: "bod-analyzer",
     specs: {
       manufacturer: "MANTECH Inc.",
       model: "AM400 BOD Analyzer",
@@ -6716,7 +6716,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "bod-analyzers",
-    image: "analyzers",
+    image: "bod-analyzer",
     specs: {
       manufacturer: "Hach Company",
       model: "BODTrak II",
@@ -6746,7 +6746,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "analyzers",
     typeKey: "bod-analyzers",
-    image: "analyzers",
+    image: "bod-analyzer",
     specs: {
       manufacturer: "YSI/Xylem Analytics",
       model: "YSI 2900",
@@ -7165,7 +7165,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "fuses-fuses-holders",
-    image: "fuse",
+    image: "glass-fuse",
     translationKeys: {
       title: "products-data:bussmannLpCc30.title",
       description: "products-data:bussmannLpCc30.description",
@@ -7190,7 +7190,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "fuses-fuses-holders",
-    image: "fuse",
+    image: "glass-fuse",
     translationKeys: {
       title: "products-data:bussmannFnqR60.title",
       description: "products-data:bussmannFnqR60.description",
@@ -7215,7 +7215,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "fuses-fuses-holders",
-    image: "fuse",
+    image: "glass-fuse",
     translationKeys: {
       title: "products-data:littelfuseL60030c.title",
       description: "products-data:littelfuseL60030c.description",
@@ -7240,7 +7240,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "fuses-fuses-holders",
-    image: "fuse",
+    image: "glass-fuse",
     translationKeys: {
       title: "products-data:littelfuseAto30.title",
       description: "products-data:littelfuseAto30.description",
@@ -7264,7 +7264,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "fuses-fuses-holders",
-    image: "fuse",
+    image: "glass-fuse",
     translationKeys: {
       title: "products-data:mersenA70p1004.title",
       description: "products-data:mersenA70p1004.description",
@@ -7922,7 +7922,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "junction-boxes",
-    image: "junction-box",
+    image: "electrical-cabinet-panel",
     translationKeys: {
       title: "products-data:rittalJb121406.title",
       description: "products-data:rittalJb121406.description",
@@ -7944,7 +7944,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "junction-boxes",
-    image: "junction-box",
+    image: "electrical-cabinet-panel",
     translationKeys: {
       title: "products-data:hoffmanA6044ch.title",
       description: "products-data:hoffmanA6044ch.description",
@@ -7966,7 +7966,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "junction-boxes",
-    image: "junction-box",
+    image: "electrical-cabinet-panel",
     translationKeys: {
       title: "products-data:hoffmanA1086chscfg.title",
       description: "products-data:hoffmanA1086chscfg.description",
@@ -7988,7 +7988,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "junction-boxes",
-    image: "junction-box",
+    image: "electrical-cabinet-panel",
     translationKeys: {
       title: "products-data:fiboxArca806030.title",
       description: "products-data:fiboxArca806030.description",
@@ -8009,7 +8009,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "junction-boxes",
-    image: "junction-box",
+    image: "electrical-cabinet-panel",
     translationKeys: {
       title: "products-data:fiboxTempoTam302515.title",
       description: "products-data:fiboxTempoTam302515.description",
@@ -8032,7 +8032,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "din-rail-enclosures",
-    image: "din-rail-enclosure",
+    image: "din-rail-enclosure-small",
     translationKeys: {
       title: "products-data:phoenixBc356.title",
       description: "products-data:phoenixBc356.description",
@@ -8053,7 +8053,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "din-rail-enclosures",
-    image: "din-rail-enclosure",
+    image: "din-rail-enclosure-small",
     translationKeys: {
       title: "products-data:phoenixMcsIp67.title",
       description: "products-data:phoenixMcsIp67.description",
@@ -8074,7 +8074,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "din-rail-enclosures",
-    image: "din-rail-enclosure",
+    image: "din-rail-enclosure-small",
     translationKeys: {
       title: "products-data:abbMistral36.title",
       description: "products-data:abbMistral36.description",
@@ -8095,7 +8095,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "din-rail-enclosures",
-    image: "din-rail-enclosure",
+    image: "din-rail-enclosure-small",
     translationKeys: {
       title: "products-data:abbMistral54.title",
       description: "products-data:abbMistral54.description",
@@ -8116,7 +8116,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "din-rail-enclosures",
-    image: "din-rail-enclosure",
+    image: "din-rail-enclosure-small",
     translationKeys: {
       title: "products-data:phoenixIcs77.title",
       description: "products-data:phoenixIcs77.description",
@@ -10251,7 +10251,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "overcurrent-protection-relays",
-    image: "protection-relay",
+    image: "overcurrent-protection-relay",
     specs: {
       manufacturer: "Siemens",
       zones: "4 protection zones",
@@ -10274,7 +10274,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "overcurrent-protection-relays",
-    image: "protection-relay",
+    image: "overcurrent-protection-relay",
     specs: {
       manufacturer: "ABB",
       zones: "Non-directional overcurrent",
@@ -10296,7 +10296,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "overcurrent-protection-relays",
-    image: "protection-relay",
+    image: "overcurrent-protection-relay",
     specs: {
       manufacturer: "Schneider Electric",
       zones: "Multiple overcurrent stages",
@@ -10318,7 +10318,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "overcurrent-protection-relays",
-    image: "protection-relay",
+    image: "overcurrent-protection-relay",
     specs: {
       manufacturer: "Siemens",
       zones: "Numerical overcurrent & ground fault",
@@ -10342,7 +10342,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "differential-protection-relays",
-    image: "protection-relay",
+    image: "differential-protection-relay",
     specs: {
       manufacturer: "Siemens",
       application: "Multi-winding transformer (up to 5 sides)",
@@ -10364,7 +10364,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "differential-protection-relays",
-    image: "protection-relay",
+    image: "differential-protection-relay",
     specs: {
       manufacturer: "Siemens",
       application: "Transformer, generator, motor protection",
@@ -10387,7 +10387,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "differential-protection-relays",
-    image: "protection-relay",
+    image: "differential-protection-relay",
     specs: {
       manufacturer: "ABB",
       application: "Two or three winding transformers",
@@ -10411,7 +10411,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "distance-protection-relays",
-    image: "protection-relay",
+    image: "distance-protection-relay",
     specs: {
       manufacturer: "SEL (Schweitzer Engineering Laboratories)",
       zones: "5 zones (mho + quadrilateral)",
@@ -10434,7 +10434,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "distance-protection-relays",
-    image: "protection-relay",
+    image: "distance-protection-relay",
     specs: {
       manufacturer: "Siemens",
       zones: "Up to 6 independent measuring loops",
@@ -10457,7 +10457,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "distance-protection-relays",
-    image: "protection-relay",
+    image: "distance-protection-relay",
     specs: {
       manufacturer: "ABB",
       zones: "Multiple distance protection zones",
@@ -10481,7 +10481,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "voltage-protection-relays",
-    image: "voltage-monitoring-relay",
+    image: "voltage-protection-relay",
     specs: {
       manufacturer: "ABB",
       voltageRange: "Medium voltage substations",
@@ -10503,7 +10503,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "voltage-protection-relays",
-    image: "voltage-monitoring-relay",
+    image: "voltage-protection-relay",
     specs: {
       manufacturer: "Schneider Electric",
       voltageRange: "MV feeder protection",
@@ -10527,7 +10527,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "voltage-protection-relays",
-    image: "voltage-monitoring-relay",
+    image: "voltage-protection-relay",
     specs: {
       manufacturer: "ABB",
       voltageRange: "Secondary relay for VT connection",
@@ -10551,7 +10551,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "transformer-protection-relays",
-    image: "protection-relay",
+    image: "transformer-protection-relay",
     specs: {
       manufacturer: "Siemens",
       windings: "Two-winding transformer (2 sides)",
@@ -10574,7 +10574,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "transformer-protection-relays",
-    image: "protection-relay",
+    image: "transformer-protection-relay",
     specs: {
       manufacturer: "ABB",
       windings: "Two or three winding transformers",
@@ -10596,7 +10596,7 @@ export const products: Product[] = [
     categoryKey: "safety-protective-devices",
     subcategoryKey: "protection-relays",
     typeKey: "transformer-protection-relays",
-    image: "protection-relay",
+    image: "transformer-protection-relay",
     specs: {
       manufacturer: "GE Multilin",
       windings: "Up to 3-winding transformers",
@@ -11503,7 +11503,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "multimeters",
     typeKey: "earth-resistance-testers",
-    image: "multimeters",
+    image: "earth-resistance-tester-specific",
     specs: {
       manufacturer: "Fluke",
       model: "1623-2 GEO",
@@ -11528,7 +11528,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "multimeters",
     typeKey: "earth-resistance-testers",
-    image: "multimeters",
+    image: "earth-resistance-tester-specific",
     specs: {
       manufacturer: "Fluke",
       model: "1625-2 GEO",
@@ -11554,7 +11554,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "multimeters",
     typeKey: "earth-resistance-testers",
-    image: "multimeters",
+    image: "earth-resistance-tester-specific",
     specs: {
       manufacturer: "Megger",
       model: "DET4TC2",
@@ -11582,7 +11582,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "multimeters",
     typeKey: "phase-sequence-checkers",
-    image: "multimeters",
+    image: "phase-sequence-checker",
     specs: {
       manufacturer: "Fluke",
       model: "9040",
@@ -11607,7 +11607,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "multimeters",
     typeKey: "phase-sequence-checkers",
-    image: "multimeters",
+    image: "phase-sequence-checker",
     specs: {
       manufacturer: "Hioki",
       model: "PD3259",
@@ -11633,7 +11633,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "multimeters",
     typeKey: "phase-sequence-checkers",
-    image: "multimeters",
+    image: "phase-sequence-checker",
     specs: {
       manufacturer: "Hioki",
       model: "PD3129-10",
@@ -12155,7 +12155,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-coils",
-    image: "heating-coil",
+    image: "heating-coil-element",
     translationKeys: {
       title: "products-data:watlowFirerod14500.title",
       description: "products-data:watlowFirerod14500.description",
@@ -12176,7 +12176,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-coils",
-    image: "heating-coil",
+    image: "heating-coil-element",
     translationKeys: {
       title: "products-data:chromaloxTlo20.title",
       description: "products-data:chromaloxTlo20.description",
@@ -12197,7 +12197,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-coils",
-    image: "heating-coil",
+    image: "heating-coil-element",
     translationKeys: {
       title: "products-data:watlowWatrod43010.title",
       description: "products-data:watlowWatrod43010.description",
@@ -12217,7 +12217,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-coils",
-    image: "heating-coil",
+    image: "heating-coil-element",
     translationKeys: {
       title: "products-data:chromaloxSre10.title",
       description: "products-data:chromaloxSre10.description",
@@ -12238,7 +12238,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "heating-elements-appliances",
     typeKey: "heating-coils",
-    image: "heating-coil",
+    image: "heating-coil-element",
     translationKeys: {
       title: "products-data:omegaCsh102.title",
       description: "products-data:omegaCsh102.description",
@@ -12730,7 +12730,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "power-tools",
     typeKey: "welding-machines",
-    image: "welding-machine",
+    image: "mechanical-tool-wrench",
     datasheetUrl: "https://www.lincolnelectric.com/en/Products/k6080-1",
     specs: {
       manufacturer: "Lincoln Electric",
@@ -12759,7 +12759,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "power-tools",
     typeKey: "welding-machines",
-    image: "welding-machine",
+    image: "mechanical-tool-wrench",
     datasheetUrl:
       "https://www.millerwelds.com/equipment/welders/multiprocess/multimatic-220-ac-dc-907757",
     specs: {
@@ -12789,7 +12789,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "power-tools",
     typeKey: "welding-machines",
-    image: "welding-machine",
+    image: "mechanical-tool-wrench",
     datasheetUrl:
       "https://esab.com/us/nam_en/products-solutions/product/welding-equipment/multi-process-welders/rebel-emp-215ic/",
     specs: {
@@ -12819,7 +12819,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "power-tools",
     typeKey: "welding-machines",
-    image: "welding-machine",
+    image: "mechanical-tool-wrench",
     datasheetUrl: "https://www.lincolnelectric.com/en/Products/k5376-1",
     specs: {
       manufacturer: "Lincoln Electric",
@@ -12847,7 +12847,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "power-tools",
     typeKey: "welding-machines",
-    image: "welding-machine",
+    image: "mechanical-tool-wrench",
     datasheetUrl:
       "https://www.millerwelds.com/equipment/welders/tig-gtaw/dynasty-210-907789",
     specs: {
@@ -12876,7 +12876,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "power-tools",
     typeKey: "welding-machines",
-    image: "welding-machine",
+    image: "mechanical-tool-wrench",
     datasheetUrl:
       "https://esab.com/us/nam_en/products-solutions/product/welding-equipment/mig-welders-gmaw/rebel-emp-285ic/",
     specs: {
@@ -13036,7 +13036,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "cutting-tools",
     typeKey: "chop-saws",
-    image: "chop-saw",
+    image: "precision-tool-measuring",
     datasheetUrl:
       "https://www.dewalt.com/product/dw872/14-355mm-multi-cutter-saw",
     specs: {
@@ -13065,7 +13065,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "cutting-tools",
     typeKey: "chop-saws",
-    image: "chop-saw",
+    image: "precision-tool-measuring",
     datasheetUrl: "https://www.makitatools.com/products/details/XWL01Z",
     specs: {
       manufacturer: "Makita",
@@ -13093,7 +13093,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "cutting-tools",
     typeKey: "chop-saws",
-    image: "chop-saw",
+    image: "precision-tool-measuring",
     datasheetUrl:
       "https://store.evolutionpowertools.com/products/evolution-s355mcs-mitre-chop-saw-heavy-duty-metal-cutting",
     specs: {
@@ -13122,7 +13122,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "cutting-tools",
     typeKey: "chop-saws",
-    image: "chop-saw",
+    image: "precision-tool-measuring",
     datasheetUrl: "https://store.evolutionpowertools.com/products/evosaw380",
     specs: {
       manufacturer: "Evolution",
@@ -13150,7 +13150,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "cutting-tools",
     typeKey: "chop-saws",
-    image: "chop-saw",
+    image: "precision-tool-measuring",
     datasheetUrl:
       "https://www.kakaindustrial.com/products/chs-14-metal-tct-cut-off-saw",
     specs: {
@@ -13179,7 +13179,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "cutting-tools",
     typeKey: "chop-saws",
-    image: "chop-saw",
+    image: "precision-tool-measuring",
     datasheetUrl:
       "https://www.metabo-hpt.com/us/main-navigation/item/cc14sfs-14-portable-chop-saw-Metabo-HPT",
     specs: {
@@ -13624,7 +13624,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "Schneider Electric M9R31240 RCCB",
     description:
       "Schneider Electric Multi9 ID residual current circuit breaker, 2-pole, 40A current rating, A-SI type with 30mA sensitivity for enhanced electrical safety and shock protection.",
@@ -13656,7 +13656,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "Schneider Electric M9R14463 RCCB",
     description:
       "Schneider Electric Multi9 ID residual current circuit breaker, 4-pole, 63A current rating, AC type with 300mA sensitivity for equipment protection and fire safety.",
@@ -13688,7 +13688,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F204 A-63/0.03 RCCB",
     description:
       "ABB F200 series residual current circuit breaker, 4-pole, 63A current rating, A-type with 30mA sensitivity. Advanced protection against electrical shock and enhanced safety features.",
@@ -13720,7 +13720,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F204 AC-25 RCCB",
     description:
       "ABB F200 series residual current circuit breaker, 4-pole, 25A current rating, AC type with 30mA sensitivity. Reliable earth leakage protection for residential and light commercial applications.",
@@ -13752,7 +13752,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F202 A-40/0.03 RCCB",
     description:
       "ABB F200 series 2-pole residual current circuit breaker with 40A rating and 30mA sensitivity. Type A protection for single-phase applications with AC and pulsating DC fault detection.",
@@ -13784,7 +13784,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F204 AC-40/0.1 RCCB",
     description:
       "ABB F200 series 4-pole residual current circuit breaker with 40A rating and 100mA sensitivity. AC type protection for three-phase applications with reliable earth fault detection.",
@@ -13816,7 +13816,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F204 A-80/0.03 RCCB",
     description:
       "ABB F200 series 4-pole residual current circuit breaker with 80A rating and 30mA sensitivity. Enhanced A-type protection for industrial applications with electronic equipment.",
@@ -13848,7 +13848,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F204 AC-100/0.3 RCCB",
     description:
       "ABB F200 series 4-pole residual current circuit breaker with 100A rating and 300mA sensitivity. AC type protection optimized for fire hazard prevention in commercial installations.",
@@ -13880,7 +13880,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F204 AC-125/0.3 RCCB",
     description:
       "ABB F200 series 4-pole residual current circuit breaker with 125A rating and 300mA sensitivity. High-capacity AC type protection for large commercial and light industrial applications.",
@@ -13912,7 +13912,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F204 B S-63/0.5 RCCB",
     description:
       "ABB F200 Type B selective residual current circuit breaker with 63A rating and 500mA sensitivity. Universal protection for VFDs, solar inverters, EV charging stations, and medical equipment detecting AC, pulsating DC, and smooth DC leakage currents.",
@@ -13944,7 +13944,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F202 AC-25/0.03 RCCB",
     description:
       "ABB F200 series 2-pole residual current circuit breaker with 25A rating and 30mA sensitivity. Compact AC type protection for residential single-phase circuits and basic appliances.",
@@ -13976,7 +13976,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F202 A-63/0.03 RCCB",
     description:
       "ABB F200 series 2-pole residual current circuit breaker with 63A rating and 30mA sensitivity. Type A protection for single-phase circuits with washing machines, computers, and LED lighting.",
@@ -14008,7 +14008,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F204 A S-40/0.03 RCCB",
     description:
       "ABB F200 series selective 4-pole residual current circuit breaker with 40A rating and 30mA sensitivity. Type A-S (selective) provides time-delayed tripping for upstream protection and coordination with downstream RCCBs.",
@@ -14040,7 +14040,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F204 AC-63/0.5 RCCB",
     description:
       "ABB F200 series 4-pole residual current circuit breaker with 63A rating and 500mA sensitivity. AC type protection for equipment and fire safety in commercial installations with extended leakage tolerance.",
@@ -14072,7 +14072,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB FX200 A-40/0.03 FlexLine RCCB",
     description:
       "ABB FlexLine FX200 series 4-pole residual current circuit breaker with 40A rating and 30mA sensitivity. Modern design with enhanced reliability and flexibility for demanding environments.",
@@ -14104,7 +14104,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "rccb-circuit-breakers",
-    image: "rccb",
+    image: "rccb-circuit-breaker",
     title: "ABB F202 AC-40/0.03 RCCB",
     description:
       "ABB F200 series 2-pole residual current circuit breaker with 40A rating and 30mA sensitivity. Standard AC type protection for single-phase residential circuits and general-purpose applications.",
@@ -14138,7 +14138,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "acb-circuit-breakers",
-    image: "acb",
+    image: "acb-circuit-breaker",
     title: "ABB SACE Emax E1.2 1250A ACB",
     description:
       "ABB SACE Emax E1.2 air circuit breaker with 1250A current rating and enhanced protection features. Advanced electronic trip units and high breaking capacity for demanding industrial applications.",
@@ -14170,7 +14170,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "acb-circuit-breakers",
-    image: "acb",
+    image: "acb-circuit-breaker",
     title: "ABB SACE Emax E2.2 2000A ACB",
     description:
       "ABB SACE Emax E2.2 air circuit breaker rated for 2000A continuous current. High-performance protection with advanced electronic trip units for large industrial and commercial installations.",
@@ -14202,7 +14202,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "acb-circuit-breakers",
-    image: "acb",
+    image: "acb-circuit-breaker",
     title: "Schneider Electric MasterPact NW 1600A ACB",
     description:
       "Schneider Electric MasterPact NW air circuit breaker with 1600A rating and Micrologic trip units. Advanced protection and monitoring capabilities for critical power distribution systems.",
@@ -14233,7 +14233,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "acb-circuit-breakers",
-    image: "acb",
+    image: "acb-circuit-breaker",
     title: "Schneider Electric MasterPact MTZ 2500A ACB",
     description:
       "Schneider Electric MasterPact MTZ air circuit breaker rated for 2500A with advanced digital protection. Next-generation ACB with IoT connectivity and energy management features.",
@@ -14264,7 +14264,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "acb-circuit-breakers",
-    image: "acb",
+    image: "acb-circuit-breaker",
     title: "ABB EMAX2 E2N 1600A ACB",
     description:
       "ABB EMAX2 air circuit breaker rated for 1600A with Ekip electronic trip units. Low-voltage ACB with exceptional breaking capacity and advanced digital features for power distribution.",
@@ -14298,7 +14298,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "vcb-circuit-breakers",
-    image: "vcb",
+    image: "vcb-circuit-breaker",
     title: "ABB VD4 12kV 1250A VCB",
     description:
       "ABB VD4 medium voltage vacuum circuit breaker for 12kV applications with 1250A current rating. Superior arc quenching technology with maintenance-free operation for reliable power distribution.",
@@ -14330,7 +14330,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "vcb-circuit-breakers",
-    image: "vcb",
+    image: "vcb-circuit-breaker",
     title: "ABB VD4 24kV 2000A VCB",
     description:
       "ABB VD4 medium voltage vacuum circuit breaker for 24kV systems with 2000A rating. Advanced vacuum technology providing reliable switching and protection for demanding power applications.",
@@ -14362,7 +14362,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "vcb-circuit-breakers",
-    image: "vcb",
+    image: "vcb-circuit-breaker",
     title: "Schneider Electric EvoPacT 15kV 2000A VCB",
     description:
       "Schneider Electric EvoPacT medium voltage vacuum circuit breaker with 15kV rating and 2000A capacity. Drawout design for SureSeT switchgear with advanced protection and control features.",
@@ -14394,7 +14394,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "vcb-circuit-breakers",
-    image: "vcb",
+    image: "vcb-circuit-breaker",
     title: "Schneider Electric EvoPacT HVX-O 33kV 1250A VCB",
     description:
       "Schneider Electric EvoPacT HVX-O high voltage vacuum circuit breaker with 33kV rating and 1250A capacity. Advanced digital MV circuit breaker with superior performance characteristics.",
@@ -14425,7 +14425,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "vcb-circuit-breakers",
-    image: "vcb",
+    image: "vcb-circuit-breaker",
     title: "Siemens 3AH4 12kV 1600A VCB",
     description:
       "Siemens 3AH4 series medium voltage vacuum circuit breaker with 12kV rating and 1600A current capacity. Reliable vacuum switching technology for standard distribution and special applications.",
@@ -14458,7 +14458,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     typeKey: "load-cell",
-    image: "load-cell",
+    image: "load-cell-force-sensor",
     title: "HBM Z6 Bending Beam Load Cell",
     description:
       "Original bending beam load cell from HBM ensuring precise measurement results with high protection rating IP68 and flexible use in various industrial applications.",
@@ -14487,7 +14487,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     typeKey: "load-cell",
-    image: "load-cell",
+    image: "load-cell-force-sensor",
     title: "HBM C16 Rocker Column Load Cell",
     description:
       "Rocker column pin load cell in stainless steel with hermetically sealed IP68 protection for truck scales, tank weighing, and silo applications.",
@@ -14516,7 +14516,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     typeKey: "load-cell",
-    image: "load-cell",
+    image: "load-cell-force-sensor",
     title: "Flintec RC3 Compression Load Cell",
     description:
       "High capacity compression load cell for truck scales, railroad scales, and silo weighing systems. Robust stainless steel design for harsh industrial environments.",
@@ -14545,7 +14545,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     typeKey: "load-cell",
-    image: "load-cell",
+    image: "load-cell-force-sensor",
     title: "Flintec SB9 Beam Load Cell",
     description:
       "Beam load cell for industrial platform scales, IBC bagging machinery, pallet truck scales, and vessel weighing. Capacities from 250kg to 2000kg.",
@@ -14574,7 +14574,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     typeKey: "load-cell",
-    image: "load-cell",
+    image: "load-cell-force-sensor",
     title: "Zemic L6G Single Point Load Cell",
     description:
       "Aluminum alloy single point load cell for pricing scales, counting scales, bench scales, and platform scales. OIML R60 C3 approved with IP65 protection.",
@@ -14603,7 +14603,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     typeKey: "load-cell",
-    image: "load-cell",
+    image: "load-cell-force-sensor",
     title: "Zemic BM14G Compression Load Cell",
     description:
       "Stainless steel hermetically sealed compression load cell for hopper scales, truck scales, and train scales. C3/C4 accuracy class with built-in surge arrestors.",
@@ -14810,7 +14810,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
-    image: "mcb",
+    image: "mcb-circuit-breaker",
     title: "Schneider Electric Acti 9 xC60 6A MCB",
     description:
       "Single pole miniature circuit breaker from Schneider Electric Acti 9 range with 6A rating, C-curve characteristic, and 10kA breaking capacity for residential and commercial applications.",
@@ -14840,7 +14840,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
-    image: "mcb",
+    image: "mcb-circuit-breaker",
     title: "Schneider Electric Acti 9 iC60 32A MCB",
     description:
       "Double pole miniature circuit breaker with 32A rating and enhanced 36kA breaking capacity for demanding commercial and industrial applications.",
@@ -14869,7 +14869,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
-    image: "mcb",
+    image: "mcb-circuit-breaker",
     title: "ABB System pro M S200 16A MCB",
     description:
       "ABB S200 series miniature circuit breaker with 16A rating, C-curve characteristic, and 10kA breaking capacity. Thermal-magnetic trip with current limiting technology.",
@@ -14898,7 +14898,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
-    image: "mcb",
+    image: "mcb-circuit-breaker",
     title: "ABB System pro M S200 63A 4-Pole MCB",
     description:
       "Four-pole miniature circuit breaker with 63A maximum current rating. Complete protection for three-phase systems with neutral protection.",
@@ -14927,7 +14927,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
-    image: "mcb",
+    image: "mcb-circuit-breaker",
     title: "Siemens 5SY Series 20A MCB",
     description:
       "Siemens 5SY series miniature circuit breaker with 20A rating, C-characteristic, and 10kA breaking capacity. Reliable protection for residential and commercial installations.",
@@ -14956,7 +14956,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "miniature-circuit-breakers",
-    image: "mcb",
+    image: "mcb-circuit-breaker",
     title: "Siemens 5SL Series 40A 3-Pole MCB",
     description:
       "Three-pole miniature circuit breaker for three-phase applications with 40A rating and enhanced protection features.",
@@ -15103,7 +15103,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "armoured-cables",
-    image: "armoured-cable",
+    image: "armoured-cable-specific",
     title: "Havells 50 sq.mm Armoured LT Cable",
     description:
       "Havells aluminium conductor XLPE insulated armoured cable with galvanized steel armor for enhanced mechanical protection.",
@@ -15132,7 +15132,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "armoured-cables",
-    image: "armoured-cable",
+    image: "armoured-cable-specific",
     title: "Polycab 120 sq.mm HT Armoured Cable",
     description:
       "Polycab 11kV high tension armoured cable with 120 sq.mm copper conductor, XLPE insulation, and galvanized steel wire armor for heavy-duty applications.",
@@ -15161,7 +15161,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "armoured-cables",
-    image: "armoured-cable",
+    image: "armoured-cable-specific",
     title: "KEI 70 sq.mm LT Armoured Cable",
     description:
       "KEI Industries aluminum conductor armoured cable with XLPE insulation and steel tape armor for underground power distribution networks.",
@@ -15190,7 +15190,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "armoured-cables",
-    image: "armoured-cable",
+    image: "armoured-cable-specific",
     title: "RR Kabel 185 sq.mm Armoured Power Cable",
     description:
       "RR Kabel heavy-duty armoured cable with 185 sq.mm copper conductor, XLPE insulation, and double steel wire armor for industrial power distribution.",
@@ -15337,7 +15337,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "flexible-cables",
-    image: "flexible-cable",
+    image: "flexible-cable-specific",
     title: "Polycab 1.5 sq.mm Flexible Industrial Cable",
     description:
       "Polycab PVC insulated industrial flexible cable with bright annealed copper conductor for machinery and control applications.",
@@ -15366,7 +15366,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "flexible-cables",
-    image: "flexible-cable",
+    image: "flexible-cable-specific",
     title: "Havells 2.5 sq.mm 4 Core Flexible Cable",
     description:
       "Havells multi-core flexible cable with 2.5 sq.mm conductors for portable equipment, machinery, and temporary installations.",
@@ -15395,7 +15395,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "flexible-cables",
-    image: "flexible-cable",
+    image: "flexible-cable-specific",
     title: "KEI 4 sq.mm Rubber Flexible Cable",
     description:
       "KEI rubber insulated flexible cable with 4 sq.mm copper conductor for welding equipment, portable tools, and harsh environments.",
@@ -15424,7 +15424,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "flexible-cables",
-    image: "flexible-cable",
+    image: "flexible-cable-specific",
     title: "RR Kabel 6 sq.mm HF-FRLS Flexible Cable",
     description:
       "RR Kabel halogen-free flame retardant low smoke flexible cable with 6 sq.mm conductors for safety-critical portable applications.",
@@ -15633,7 +15633,7 @@ export const products: Product[] = [
     categoryKey: "solar-products",
     subcategoryKey: "solar-panels",
     typeKey: "monocrystalline-panels",
-    image: "solar-panel",
+    image: "monocrystalline-solar-panel",
     title: "Tata Power TP540 Mono PERC Solar Panel",
     description:
       "Tata Power 540W monocrystalline PERC half-cut solar panel with 20.92% efficiency, ALMM certified, and 25-year linear warranty.",
@@ -15662,7 +15662,7 @@ export const products: Product[] = [
     categoryKey: "solar-products",
     subcategoryKey: "solar-panels",
     typeKey: "monocrystalline-panels",
-    image: "solar-panel",
+    image: "monocrystalline-solar-panel",
     title: "Tata Power TP550 Mono PERC Solar Panel",
     description:
       "Tata Power 550W monocrystalline PERC solar panel with 144 half-cut cells, IP67 junction box, and superior low-light performance.",
@@ -15691,7 +15691,7 @@ export const products: Product[] = [
     categoryKey: "solar-products",
     subcategoryKey: "solar-panels",
     typeKey: "monocrystalline-panels",
-    image: "solar-panel",
+    image: "monocrystalline-solar-panel",
     title: "Tata Power TP650 TOPCon Solar Panel",
     description:
       "Tata Power 650W TOPCon N-type monocrystalline bifacial solar panel with 22.8% efficiency and enhanced performance in extreme conditions.",
@@ -15811,7 +15811,7 @@ export const products: Product[] = [
     categoryKey: "automation-control-systems",
     subcategoryKey: "hmi",
     typeKey: "touchscreen-hmis",
-    image: "touchscreen-hmi",
+    image: "touchscreen-hmi-panel",
     title: 'Schneider Magelis HMISTU855 5.7" Touchscreen HMI',
     description:
       'Schneider Magelis STU855 5.7" TFT touchscreen HMI with 320x240 resolution, Ethernet connectivity, and Vijeo Designer programming for industrial automation.',
@@ -15840,7 +15840,7 @@ export const products: Product[] = [
     categoryKey: "automation-control-systems",
     subcategoryKey: "hmi",
     typeKey: "touchscreen-hmis",
-    image: "touchscreen-hmi",
+    image: "touchscreen-hmi-panel",
     title: 'Schneider Magelis HMIGTO2300 5.7" Touchscreen HMI',
     description:
       'Schneider Magelis GTO2300 5.7" resistive touchscreen HMI with ATEX certification, digital I/O, and high-pressure wash rating for harsh environments.',
@@ -15869,7 +15869,7 @@ export const products: Product[] = [
     categoryKey: "automation-control-systems",
     subcategoryKey: "hmi",
     typeKey: "touchscreen-hmis",
-    image: "touchscreen-hmi",
+    image: "touchscreen-hmi-panel",
     title: 'Schneider Magelis HMIGTO5310 10.4" Touchscreen HMI',
     description:
       'Schneider Magelis GTO5310 10.4" TFT touchscreen HMI with 96 MB flash memory, multiple communication ports, and Vijeo Designer 6.2 support for advanced applications.',
@@ -16107,7 +16107,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "smps",
-    image: "ac-dc-converter",
+    image: "smps-power-supply",
     title: "Schneider Electric ABL8RPS24100 Universal SMPS",
     description:
       "Schneider Electric Phaseo ABL8 universal regulated SMPS with 1 or 2-phase input capability, 24V DC output, power factor correction, and comprehensive diagnostics.",
@@ -16135,7 +16135,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "smps",
-    image: "ac-dc-converter",
+    image: "smps-power-supply",
     title: "Siemens SITOP PSU8200 24V/20A SMPS",
     description:
       "Siemens SITOP PSU8200 high-performance switch-mode power supply with 20A output, active power factor correction, and global certifications.",
@@ -16164,7 +16164,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "smps",
-    image: "ac-dc-converter",
+    image: "smps-power-supply",
     title: "Mean Well DR-120-24 DIN Rail SMPS",
     description:
       "Mean Well DR-120 series DIN rail mounted switching power supply with 120W output, universal input, and high reliability for industrial automation.",
@@ -16192,7 +16192,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "smps",
-    image: "ac-dc-converter",
+    image: "smps-power-supply",
     title: "Phoenix Contact QUINT4-PS/3AC/24DC/20 SMPS",
     description:
       "Phoenix Contact QUINT4 three-phase power supply with 20A output, SFB technology, preventive function monitoring, and Industry 4.0 connectivity.",
@@ -16223,7 +16223,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "power-supplies",
     typeKey: "diode-units",
-    image: "dc-dc-converter",
+    image: "diode-unit",
     title: "Phoenix Contact QUINT-DIODE/12-24DC/2X20 Diode Module",
     description:
       "Phoenix Contact QUINT diode module for redundant power supply configurations with two 20A diode paths for reliable power distribution.",
@@ -16366,7 +16366,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "current-transformers",
-    image: "current-transformer",
+    image: "current-transformer-product",
     title: "Schneider Electric AccuTech Solid Core CT 100:5",
     description:
       "Schneider Electric AccuTech solid core current transformer with 100:5A ratio, 600V insulation, and 0.3% accuracy class for metering applications.",
@@ -16394,7 +16394,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "current-transformers",
-    image: "current-transformer",
+    image: "current-transformer-product",
     title: "ABB CTK 200/5A Split-Core Current Transformer",
     description:
       "ABB split-core current transformer with 200:5A ratio, opening core for easy retrofit installation without disconnecting primary conductor.",
@@ -16422,7 +16422,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "current-transformers",
-    image: "current-transformer",
+    image: "current-transformer-product",
     title: "Siemens 7KL1 400/5A Current Transformer",
     description:
       "Siemens 7KL1 high-accuracy current transformer with 400:5A ratio, Class 0.2S accuracy for precision metering and billing applications.",
@@ -16450,7 +16450,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "current-transformers",
-    image: "current-transformer",
+    image: "current-transformer-product",
     title: "Littelfuse LCT-1000 Window-Type CT",
     description:
       "Littelfuse window-type current transformer with 1000:5A ratio, large aperture for multiple conductors or bus bars, and Class 1 protection accuracy.",
@@ -16480,7 +16480,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "potential-transformers",
-    image: "potential-transformer",
+    image: "potential-transformer-specific",
     title: "ABB VT 480:120 Potential Transformer",
     description:
       "ABB voltage transformer with 480:120V ratio, 60VA burden capacity, and Class 1 accuracy for voltage monitoring and protection applications.",
@@ -16508,7 +16508,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "potential-transformers",
-    image: "potential-transformer",
+    image: "potential-transformer-specific",
     title: "Siemens 7SR 240:120V Potential Transformer",
     description:
       "Siemens precision voltage transformer with 240:120V ratio, Class 0.3 metering accuracy, and 75VA burden for revenue metering applications.",
@@ -16536,7 +16536,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "potential-transformers",
-    image: "potential-transformer",
+    image: "potential-transformer-specific",
     title: "Schneider Electric 11kV:110V Potential Transformer",
     description:
       "Schneider Electric medium voltage potential transformer with 11000:110V ratio for high voltage metering and protection in distribution networks.",
@@ -16564,7 +16564,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "transformers-power-devices",
     typeKey: "potential-transformers",
-    image: "potential-transformer",
+    image: "potential-transformer-specific",
     title: "GE JVM-3 Voltage Transformer",
     description:
       "GE JVM-3 three-phase voltage transformer with 4160:120V ratio, 200VA burden, and dual secondary windings for protection and metering.",
@@ -16774,7 +16774,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "earthing-cables",
-    image: "earthing-cable",
+    image: "earthing-cable-specific",
     title: "Polycab 16mm² Earthing Cable Green",
     description:
       "Polycab single-core earthing cable with 16mm² tinned copper conductor and green PVC insulation for electrical grounding applications.",
@@ -16802,7 +16802,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "earthing-cables",
-    image: "earthing-cable",
+    image: "earthing-cable-specific",
     title: "Havells 25mm² Earthing Cable Green-Yellow",
     description:
       "Havells industrial grade earthing cable with 25mm² bare copper conductor and green-yellow striped PVC insulation for heavy-duty grounding.",
@@ -16830,7 +16830,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
     typeKey: "earthing-cables",
-    image: "earthing-cable",
+    image: "earthing-cable-specific",
     title: "RR Kabel 35mm² Earthing Cable XLPE",
     description:
       "RR Kabel heavy-duty earthing cable with 35mm² tinned copper conductor and XLPE insulation for industrial and substation grounding systems.",
@@ -17204,7 +17204,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "profinet-cables",
-    image: "profinet-cable",
+    image: "profinet-cable-specific",
     title: "LAPP ETHERLINE PN Cat.5 PROFINET Cable",
     description:
       "LAPP ETHERLINE CAT5 PROFINET cable with 2-pair design, overall screening, and green jacket specifically for PROFINET industrial Ethernet.",
@@ -17232,7 +17232,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "profinet-cables",
-    image: "profinet-cable",
+    image: "profinet-cable-specific",
     title: "Siemens PROFINET Type C Trailing Cable",
     description:
       "Siemens PROFINET Type C cable for continuous flexing applications with 4 million bending cycles capability and PUR jacket.",
@@ -17260,7 +17260,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "instrumentation-cables",
     typeKey: "profinet-cables",
-    image: "profinet-cable",
+    image: "profinet-cable-specific",
     title: "Belden Industrial PROFINET Cable Cat.6A",
     description:
       "Belden industrial PROFINET Cat.6A cable with superior EMI protection and oil-resistant jacket for harsh manufacturing environments.",
@@ -17634,7 +17634,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "electrical-cabinets",
-    image: "electrical-cabinet",
+    image: "electrical-cabinet-panel",
     title: "Rittal AE Compact Enclosure 600x800x300mm",
     description:
       "Rittal AE compact wall-mount steel enclosure with IP55 protection, single door, mounting plate, and RAL 7035 light grey finish.",
@@ -17754,7 +17754,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "motor-terminal-blocks",
-    image: "terminal-block",
+    image: "motor-terminal-block",
     title: "Phoenix Contact PTPOWER 95-3L/N/FE Motor Terminal",
     description:
       "Phoenix Contact high-current motor terminal block with 95mm² capacity for U, V, W phases plus neutral and PE connections.",
@@ -17844,7 +17844,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "glass-fuses",
-    image: "fuse",
+    image: "glass-fuse",
     title: "Littelfuse 5x20mm 5A Fast-Acting Glass Fuse",
     description:
       "Littelfuse 218 series 5x20mm fast-acting glass cartridge fuse rated 5A/250V for electronic circuit protection with high visibility.",
@@ -17874,7 +17874,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "ac-surge-protectors",
-    image: "surge-protector",
+    image: "ac-surge-protector-banner",
     title: "Littelfuse SPD2-350-4P0-R AC Surge Protector",
     description:
       "Littelfuse SPD2 Type 2 AC surge protective device with 4-pole configuration, 20kA discharge current, and remote contact for 277V systems.",
@@ -17902,7 +17902,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "ac-surge-protectors",
-    image: "surge-protector",
+    image: "ac-surge-protector-banner",
     title: "ABB OVR T2 3N 40kA AC Surge Protector",
     description:
       "ABB OVR Type 2 surge protective device with 40kA discharge capacity, 3-phase + neutral configuration, thermal disconnector, and LED status indication.",
@@ -17930,7 +17930,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "ac-surge-protectors",
-    image: "surge-protector",
+    image: "ac-surge-protector-banner",
     title: "Schneider Acti9 iPRD40 Type 2 Surge Protector",
     description:
       "Schneider Electric Acti9 iPRD40 Type 2 SPD with 40kA discharge capacity, integrated backup fuse, and pluggable cartridge for quick replacement.",
@@ -17960,7 +17960,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "dc-surge-protectors",
-    image: "surge-protector",
+    image: "dc-surge-protector-banner",
     title: "Phoenix Contact PT 2-BE DC Surge Protector",
     description:
       "Phoenix Contact pluggable surge protection device for 24V DC systems with gas discharge tube technology and visual status indication.",
@@ -17987,7 +17987,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "dc-surge-protectors",
-    image: "surge-protector",
+    image: "dc-surge-protector-banner",
     title: "Phoenix Contact VAL-MS 1000DC-PV Solar SPD",
     description:
       "Phoenix Contact VAL-MS Type 1+2 combined surge arrester for 1000V DC photovoltaic systems with pluggable temperature-monitored modules.",
@@ -18014,7 +18014,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "dc-surge-protectors",
-    image: "surge-protector",
+    image: "dc-surge-protector-banner",
     title: "Weidmuller VARITECTOR VPU PV 1000V DC SPD",
     description:
       "Weidmuller VARITECTOR VPU Type 2 DC surge protector for photovoltaic installations up to 1000V with fuseless operation to 315A.",
@@ -18043,7 +18043,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "signal-surge-protectors",
-    image: "surge-protector",
+    image: "signal-surge-protector-banner",
     title: "Phoenix Contact TT-ST-M-DIODE Signal Surge Protector",
     description:
       "Phoenix Contact pluggable signal surge protector with diode technology for 4-20mA analog signals and sensor circuits.",
@@ -18070,7 +18070,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "signal-surge-protectors",
-    image: "surge-protector",
+    image: "signal-surge-protector-banner",
     title: "Phoenix Contact TTC-6-1X2-24DC-UT Signal SPD",
     description:
       "Phoenix Contact TERMITRAB Complete series 3.5mm ultra-thin signal surge protector for 4-20mA loops with SIL 3 rating and HART compatibility.",
@@ -18097,7 +18097,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "protection-devices",
     typeKey: "signal-surge-protectors",
-    image: "surge-protector",
+    image: "signal-surge-protector-banner",
     title: "Weidmuller VSPC RS485 Data Line Surge Protector",
     description:
       "Weidmuller VSPC series pluggable data line surge protector for RS485 Modbus and serial communication with tool-free replacement.",
@@ -18126,7 +18126,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "earthing-strips",
-    image: "earthing-strip",
+    image: "earthing-strip-conductor",
     title: "Schneider Electric Copper Earthing Strip 25x3mm",
     description:
       "Schneider Electric tinned copper earthing strip with 25x3mm cross-section for electrical panel grounding and bonding applications.",
@@ -18153,7 +18153,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "earthing-strips",
-    image: "earthing-strip",
+    image: "earthing-strip-conductor",
     title: "ERICO Copper Earthing Busbar 40x5mm",
     description:
       "ERICO high-conductivity copper earthing busbar with 40x5mm cross-section, pre-drilled holes, and electrolytic copper construction for panel grounding.",
@@ -18180,7 +18180,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "earthing-strips",
-    image: "earthing-strip",
+    image: "earthing-strip-conductor",
     title: "Weidmuller KLIPPON Ground Terminal Strip",
     description:
       "Weidmuller KLIPPON connect modular ground terminal strip with PE connection, DIN rail mounting, and spring-cage clamping for panel grounding applications.",
@@ -18209,7 +18209,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "equipment-grounding",
-    image: "ground-jumper",
+    image: "equipment-grounding-system",
     title: "Panduit GRJ6-Q Equipment Grounding Jumper",
     description:
       "Panduit 6 AWG equipment grounding jumper with lug terminals for bonding electrical equipment to ground bus.",
@@ -18236,7 +18236,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "equipment-grounding",
-    image: "ground-jumper",
+    image: "equipment-grounding-system",
     title: "Burndy BGC Bronze Ground Clamp",
     description:
       "Burndy BGC series silicon bronze equipment grounding clamp with compression design for direct burial and above-ground bonding applications.",
@@ -18263,7 +18263,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
     typeKey: "equipment-grounding",
-    image: "ground-jumper",
+    image: "equipment-grounding-system",
     title: "ILSCO IGB Insulated Grounding Busbar",
     description:
       "ILSCO IGB series insulated equipment grounding busbar with multiple taps, UL listed design, and optional mounting brackets for panel applications.",
@@ -18541,7 +18541,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "alarms-indicators",
     typeKey: "hooter-buzzer",
-    image: "hooter-buzzer",
+    image: "hooter-buzzer-alarm",
     title: "Wheelock HN Series Exceder Industrial Horn",
     description:
       "Wheelock Exceder HN series industrial alarm horn with 3 selectable sound levels (90/95/99dB), 12/24V DC operation, and low current draw.",
@@ -18568,7 +18568,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "alarms-indicators",
     typeKey: "hooter-buzzer",
-    image: "hooter-buzzer",
+    image: "hooter-buzzer-alarm",
     title: "PATLITE EWH-24 Industrial Electronic Horn",
     description:
       "PATLITE EWH-24 electronic horn with 95dB output, 24V DC operation, and IP65 weather-resistant housing for factory and warehouse applications.",
@@ -18595,7 +18595,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "alarms-indicators",
     typeKey: "hooter-buzzer",
-    image: "hooter-buzzer",
+    image: "hooter-buzzer-alarm",
     title: "Federal Signal 300GC Selectone Horn",
     description:
       "Federal Signal 300GC Selectone stackable signal horn with 6 tone options, 105dB output, and NEMA 4X enclosure for hazardous industrial environments.",
@@ -19107,7 +19107,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "panel-meters-indicators",
     typeKey: "analog-ammeters",
-    image: "analog-ammeter",
+    image: "analog-ammeter-panel",
     title: "Selec AM-I-4-150/5A Analog Ammeter",
     description:
       "Selec 96x96mm analog panel ammeter with 0-150/5A range via CT input, moving coil movement, and 1.5% accuracy class.",
@@ -19134,7 +19134,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "panel-meters-indicators",
     typeKey: "analog-ammeters",
-    image: "analog-ammeter",
+    image: "analog-ammeter-panel",
     title: "Yokogawa 250 New Big Look AC Ammeter",
     description:
       "Yokogawa New Big Look 250 series taut-band analog AC ammeter with 100G shock resistance, 2% accuracy, and IP54 protection for harsh environments.",
@@ -19161,7 +19161,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "panel-meters-indicators",
     typeKey: "analog-ammeters",
-    image: "analog-ammeter",
+    image: "analog-ammeter-panel",
     title: "Crompton 012 Saxon AC Ammeter",
     description:
       "Crompton Instruments 012 Saxon series analog AC ammeter with CT-rated input, moving iron movement, 1.5% accuracy class, and 96x96mm DIN size.",
@@ -19190,7 +19190,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "panel-meters-indicators",
     typeKey: "analog-voltmeters",
-    image: "analog-voltmeter",
+    image: "analog-voltmeter-panel",
     title: "Selec VM-I-2-500V Analog Voltmeter",
     description:
       "Selec 96x96mm analog panel voltmeter with 0-500V AC range, moving iron movement, and 1.5% accuracy.",
@@ -19217,7 +19217,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "panel-meters-indicators",
     typeKey: "analog-voltmeters",
-    image: "analog-voltmeter",
+    image: "analog-voltmeter-panel",
     title: "Yokogawa 264 Stylist AC Voltmeter",
     description:
       "Yokogawa Stylist Line 264 series analog AC voltmeter with pivot and jewel movement, 2% accuracy, and 2600V hi-pot insulation.",
@@ -19244,7 +19244,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "panel-meters-indicators",
     typeKey: "analog-voltmeters",
-    image: "analog-voltmeter",
+    image: "analog-voltmeter-panel",
     title: "Crompton E244 DIN Panel Voltmeter",
     description:
       "Crompton Instruments E244 DIN96 analog voltmeter with moving iron movement, Class 1.5 accuracy, and 40mm max panel thickness support.",
@@ -19439,7 +19439,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "calibration-test-equipment",
     typeKey: "digital-multimeters",
-    image: "digital-multimeter",
+    image: "multi-function-meter-digital",
     title: "Fluke 87V Industrial Multimeter",
     description:
       "Fluke 87V True-RMS industrial multimeter with 0.05% accuracy, temperature measurement, frequency counter, and rugged construction.",
@@ -19467,7 +19467,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "calibration-test-equipment",
     typeKey: "digital-multimeters",
-    image: "digital-multimeter",
+    image: "multi-function-meter-digital",
     title: "Hioki DT4282 High-Precision Digital Multimeter",
     description:
       "Hioki DT4282 5-digit 60,000-count digital multimeter with conductance measurement, low-pass filter, and CAT IV 600V safety rating for laboratory and R&D applications.",
@@ -19495,7 +19495,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "calibration-test-equipment",
     typeKey: "digital-multimeters",
-    image: "digital-multimeter",
+    image: "multi-function-meter-digital",
     title: "Fluke 179 True-RMS Digital Multimeter",
     description:
       "Fluke 179 True-RMS digital multimeter with 6000-count display, temperature measurement, lifetime warranty, and CAT IV 600V safety rating.",
@@ -20896,7 +20896,7 @@ export const products: Product[] = [
     categoryKey: "solar-products",
     subcategoryKey: "solar-inverters",
     typeKey: "micro-inverters",
-    image: "micro-inverter",
+    image: "micro-inverter-solar",
     title: "Enphase IQ8HC Microinverter 384W",
     description:
       "Enphase IQ8HC 384W microinverter with grid-forming capability, module-level MPPT, and 25-year warranty for residential and commercial installations.",
@@ -20925,7 +20925,7 @@ export const products: Product[] = [
     categoryKey: "solar-products",
     subcategoryKey: "solar-inverters",
     typeKey: "micro-inverters",
-    image: "micro-inverter",
+    image: "micro-inverter-solar",
     title: "Enphase IQ8P Microinverter 480W",
     description:
       "Enphase IQ8P 480W high-power microinverter compatible with up to 670W solar panels, featuring advanced monitoring and remote grid updates.",
@@ -20954,7 +20954,7 @@ export const products: Product[] = [
     categoryKey: "solar-products",
     subcategoryKey: "solar-inverters",
     typeKey: "micro-inverters",
-    image: "micro-inverter",
+    image: "micro-inverter-solar",
     title: "Deye Microinverter 1000W Dual MPPT",
     description:
       "Deye 1000W microinverter with dual MPPT, Wi-Fi/PLC communication, and BIS certification for 2-panel installations in Indian grid conditions.",
@@ -20983,7 +20983,7 @@ export const products: Product[] = [
     categoryKey: "solar-products",
     subcategoryKey: "solar-inverters",
     typeKey: "micro-inverters",
-    image: "micro-inverter",
+    image: "micro-inverter-solar",
     title: "Gronsol Microinverter 800W Make in India",
     description:
       "Gronsol 800W Make in India microinverter with remote shutdown capability, independent MPPT, and BIS certification for residential rooftop systems.",
@@ -21163,7 +21163,7 @@ export const products: Product[] = [
     categoryKey: "automation-control",
     subcategoryKey: "scada-systems",
     typeKey: "scada-hardware",
-    image: "scada-rtu",
+    image: "scada-hardware-system",
     title: "Schneider SCADAPack 474 Smart RTU",
     description:
       "Schneider SCADAPack 474 smart RTU with IEC 61131-3 programming, DNP3/Modbus protocols, and operation from -40°C to +70°C.",
@@ -21192,7 +21192,7 @@ export const products: Product[] = [
     categoryKey: "automation-control",
     subcategoryKey: "scada-systems",
     typeKey: "scada-hardware",
-    image: "scada-rtu",
+    image: "scada-hardware-system",
     title: "ABB RTU500 Series Remote Terminal Unit",
     description:
       "ABB RTU500 series RTU with fleet management, IEC 62351-5 secure authentication, and web-based runtime configuration.",
@@ -21343,7 +21343,7 @@ export const products: Product[] = [
     categoryKey: "automation-control",
     subcategoryKey: "dcs-systems",
     typeKey: "dcs-operator-stations",
-    image: "dcs-operator-station",
+    image: "dcs-operator-station-banner",
     title: "ABB Symphony Plus Operator Station",
     description:
       "ABB Symphony Plus operator workstation with multi-monitor support, advanced graphics, and unified alarm management for process control.",
@@ -21372,7 +21372,7 @@ export const products: Product[] = [
     categoryKey: "automation-control",
     subcategoryKey: "dcs-systems",
     typeKey: "dcs-operator-stations",
-    image: "dcs-operator-station",
+    image: "dcs-operator-station-banner",
     title: "Yokogawa CENTUM VP HIS Operator Station",
     description:
       "Yokogawa CENTUM VP HIS operator station with intuitive graphics, touch operation, and integrated batch management capabilities.",
@@ -21403,7 +21403,7 @@ export const products: Product[] = [
     categoryKey: "automation-control",
     subcategoryKey: "dcs-systems",
     typeKey: "dcs-engineering-stations",
-    image: "dcs-engineering-station",
+    image: "dcs-engineering-station-banner",
     title: "ABB Symphony Plus Engineering Station",
     description:
       "ABB Symphony Plus engineering workstation for system configuration, diagnostics, simulation, and lifecycle management of DCS systems.",
@@ -21432,7 +21432,7 @@ export const products: Product[] = [
     categoryKey: "automation-control",
     subcategoryKey: "dcs-systems",
     typeKey: "dcs-engineering-stations",
-    image: "dcs-engineering-station",
+    image: "dcs-engineering-station-banner",
     title: "Yokogawa CENTUM VP Engineering Station",
     description:
       "Yokogawa CENTUM VP engineering station with offline configuration, online maintenance, and comprehensive diagnostic capabilities.",
@@ -21523,7 +21523,7 @@ export const products: Product[] = [
     categoryKey: "automation-control",
     subcategoryKey: "plc-systems",
     typeKey: "micro-plcs",
-    image: "micro-plc",
+    image: "micro-plc-automation",
     title: "Siemens LOGO! 8 12/24RC Logic Module",
     description:
       "Siemens LOGO! 8 logic module with 8 digital inputs, 4 relay outputs, integrated display, Ethernet port, and web server for simple automation tasks.",
@@ -21552,7 +21552,7 @@ export const products: Product[] = [
     categoryKey: "automation-control",
     subcategoryKey: "plc-systems",
     typeKey: "micro-plcs",
-    image: "micro-plc",
+    image: "micro-plc-automation",
     title: "Schneider Zelio Logic SR2B201BD Smart Relay",
     description:
       "Schneider Zelio Logic SR2B201BD compact smart relay with 20 I/O, LCD display, and 24V DC operation for lighting, HVAC, and simple automation.",
@@ -21583,7 +21583,7 @@ export const products: Product[] = [
     categoryKey: "automation-control",
     subcategoryKey: "hmi-systems",
     typeKey: "panel-mount-hmis",
-    image: "panel-hmi",
+    image: "panel-mount-hmi-banner",
     title: "Siemens KTP700 Basic PN Touch Panel",
     description:
       "Siemens KTP700 Basic 7-inch PROFINET touch panel with TIA Portal integration, 65K colors, and portrait/landscape mounting options.",
@@ -21612,7 +21612,7 @@ export const products: Product[] = [
     categoryKey: "automation-control",
     subcategoryKey: "hmi-systems",
     typeKey: "panel-mount-hmis",
-    image: "panel-hmi",
+    image: "panel-mount-hmi-banner",
     title: "Allen-Bradley PanelView Plus 7 Performance 10-inch",
     description:
       "Allen-Bradley PanelView Plus 7 Performance 10.4-inch HMI with multi-touch display, FactoryTalk View SE, and EtherNet/IP connectivity.",
@@ -22243,7 +22243,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts",
     typeKey: "seals-gaskets",
-    image: "mechanical-seal",
+    image: "pump-impeller-casing",
     title: "John Crane Type 21 Mechanical Seal",
     description:
       "John Crane Type 21 single-cartridge mechanical seal with balanced design, temperature range -40°C to +200°C, and API 682 compliance.",
@@ -22272,7 +22272,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts",
     typeKey: "seals-gaskets",
-    image: "mechanical-seal",
+    image: "pump-impeller-casing",
     title: "Flowserve PAC-Seal 5610 Component Seal",
     description:
       "Flowserve PAC-Seal 5610 component mechanical seal with spring design, multipurpose application, and various face material combinations.",
@@ -22303,7 +22303,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts",
     typeKey: "impellers-casings",
-    image: "pump-impeller",
+    image: "pump-impeller-casing",
     title: "Sulzer Ahlstar Closed Impeller",
     description:
       "Sulzer Ahlstar precision-cast closed impeller with hydraulic balancing, available in various materials including 316SS, CD4MCu, and Duplex.",
@@ -22332,7 +22332,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts",
     typeKey: "impellers-casings",
-    image: "pump-impeller",
+    image: "pump-impeller-casing",
     title: "Ruhrpumpen RO Series Impeller",
     description:
       "Ruhrpumpen RO series OEM impeller with exact tolerances, guaranteed fit, and available in open, semi-open, and closed configurations.",
@@ -22483,7 +22483,7 @@ export const products: Product[] = [
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-systems",
     typeKey: "safety-switches",
-    image: "safety-switch",
+    image: "safety-switch-interlock",
     title: "ABB JSL Safety Interlock Switch",
     description:
       "ABB JSL coded magnetic safety interlock switch with high coding level, IP67 protection, and SIL 3/PL e rating for guard door monitoring.",
@@ -22512,7 +22512,7 @@ export const products: Product[] = [
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-systems",
     typeKey: "safety-switches",
-    image: "safety-switch",
+    image: "safety-switch-interlock",
     title: "Schmersal AES Safety Switch with Solenoid Lock",
     description:
       "Schmersal AES coded safety switch with integrated solenoid guard locking, PLe/SIL3 rating, and robust metal housing.",
@@ -22783,7 +22783,7 @@ export const products: Product[] = [
     categoryKey: "measurement-equipment",
     subcategoryKey: "test-measurement",
     typeKey: "digital-multimeters",
-    image: "digital-multimeter",
+    image: "multi-function-meter-digital",
     title: "Fluke 87V True-RMS Industrial Multimeter",
     description:
       "Fluke 87V True-RMS industrial multimeter with 6000 count display, CAT III 1000V/CAT IV 600V rating, and VFD low-pass filter.",
@@ -22812,7 +22812,7 @@ export const products: Product[] = [
     categoryKey: "measurement-equipment",
     subcategoryKey: "test-measurement",
     typeKey: "digital-multimeters",
-    image: "digital-multimeter",
+    image: "multi-function-meter-digital",
     title: "Megger AVO850 True-RMS Multimeter with Bluetooth",
     description:
       "Megger AVO850 50,000 count True-RMS multimeter with Bluetooth connectivity, TFT color display, and AVO Link app integration.",
@@ -22903,7 +22903,7 @@ export const products: Product[] = [
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
     typeKey: "multi-function-meters",
-    image: "panel-meter",
+    image: "multi-function-meter-digital",
     title: "Red Lion PAXD Digital Panel Meter",
     description:
       "Red Lion PAXD 5-digit panel meter with universal input (DC V/I, AC V/I, TC, RTD, frequency), dual relay outputs, and bright LED display.",
@@ -22932,7 +22932,7 @@ export const products: Product[] = [
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
     typeKey: "multi-function-meters",
-    image: "panel-meter",
+    image: "multi-function-meter-digital",
     title: "Carlo Gavazzi DPM Energy Panel Meter",
     description:
       "Carlo Gavazzi DPM multifunction energy panel meter with kWh measurement, RS485 Modbus, and backlit LCD display.",
@@ -23391,7 +23391,7 @@ export const products: Product[] = [
     categoryKey: "pump-spares",
     subcategoryKey: "pump-parts-spares",
     typeKey: "impellers-casings",
-    image: "pump-impeller",
+    image: "pump-impeller-casing",
     title: "Flowserve Mark 3 Closed Impeller Assembly",
     description:
       "Flowserve Mark 3 ANSI B73.1 closed impeller assembly in CF-8M stainless steel, fits 2x1-10 size pumps, 3600 RPM rated, balanced to ISO 1940 G2.5.",
@@ -23451,7 +23451,7 @@ export const products: Product[] = [
     categoryKey: "pump-spares",
     subcategoryKey: "pump-parts-spares",
     typeKey: "seals-gaskets",
-    image: "mechanical-seal",
+    image: "pump-impeller-casing",
     title: "John Crane Type 1 Elastomer Bellows Seal",
     description:
       "John Crane Type 1 single spring mechanical seal with elastomer bellows, carbon/ceramic faces, 160°C max temp, shaft sizes 12-100mm, industry standard design.",
@@ -23481,7 +23481,7 @@ export const products: Product[] = [
     categoryKey: "pump-spares",
     subcategoryKey: "pump-parts-spares",
     typeKey: "seals-gaskets",
-    image: "mechanical-seal",
+    image: "pump-impeller-casing",
     title: "John Crane Type 9 PTFE Wedge Seal",
     description:
       "John Crane Type 9 multiple spring mechanical seal with PTFE wedge, silicon carbide/carbon faces, 250°C max temp, for aggressive chemical service.",
@@ -24557,7 +24557,7 @@ export const products: Product[] = [
     categoryKey: "measurement-equipment",
     subcategoryKey: "calibration-equipment",
     typeKey: "calibration-instruments",
-    image: "calibrator",
+    image: "calibration-instrument-specific",
     title: "Fluke 5560A Multi-Product Calibrator",
     description:
       "Fluke 5560A benchtop multifunction calibrator for 6.5-digit DMMs (4:1 TUR), oscilloscopes to 2 GHz, 30 A continuous, 6000 A capability, lab-grade precision.",
@@ -24586,7 +24586,7 @@ export const products: Product[] = [
     categoryKey: "measurement-equipment",
     subcategoryKey: "calibration-equipment",
     typeKey: "calibration-instruments",
-    image: "process-calibrator",
+    image: "calibration-instrument-specific",
     title: "Fluke 725 Multifunction Process Calibrator",
     description:
       "Fluke 725 handheld multifunction process calibrator for mA, volts, RTDs, thermocouples, frequency, ohms, pressure, field and industrial calibration.",
@@ -24615,7 +24615,7 @@ export const products: Product[] = [
     categoryKey: "measurement-equipment",
     subcategoryKey: "calibration-equipment",
     typeKey: "calibration-instruments",
-    image: "calibrator",
+    image: "calibration-instrument-specific",
     title: "Keysight Multifunction Calibrator",
     description:
       "Keysight precision multifunction calibrator for voltage, current, resistance calibration, high accuracy, benchtop design, GPIB/USB/LAN connectivity.",
@@ -24735,7 +24735,7 @@ export const products: Product[] = [
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
     typeKey: "multi-function-meters",
-    image: "panel-meter",
+    image: "multi-function-meter-digital",
     title: "Schneider PowerLogic PM5300 Multi-Function Meter",
     description:
       "Schneider PM5300 3-phase advanced power meter with Class 0.5S accuracy, backlit LCD, 6 lines, power/demand/energy/frequency/PF, Modbus RTU/Ethernet.",
@@ -24764,7 +24764,7 @@ export const products: Product[] = [
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
     typeKey: "multi-function-meters",
-    image: "panel-meter",
+    image: "multi-function-meter-digital",
     title: "ABB M1M 20 Multi-Function Power Meter",
     description:
       "ABB M1M 20 power meter with advanced monitoring, power quality analysis, 96×96mm panel mount, IP51 front, Modbus RTU, 100-230VAC/DC supply.",
@@ -24793,7 +24793,7 @@ export const products: Product[] = [
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
     typeKey: "multi-function-meters",
-    image: "panel-meter",
+    image: "multi-function-meter-digital",
     title: "Siemens SENTRON PAC3200 Multi-Function Meter",
     description:
       "Siemens SENTRON PAC3200 intermediate multi-function meter with Class 0.5-1.0 accuracy, Modbus RTU/TCP, PROFIBUS, DIN rail/panel mount, data logging.",
@@ -24829,7 +24829,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "motor-terminal-blocks",
-    image: "terminal-block",
+    image: "motor-terminal-block",
     title: "Phoenix Contact UT 2,5-MT Motor Terminal Block",
     description:
       "Phoenix Contact UT 2,5-MT knife-disconnect motor terminal block with 2.5mm² capacity, 400V rating, and deliberate-action knife for motor circuit isolation.",
@@ -24857,7 +24857,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "connectors-terminals",
     typeKey: "motor-terminal-blocks",
-    image: "terminal-block",
+    image: "motor-terminal-block",
     title: "Weidmuller WMF 2.5 Motor Terminal Block",
     description:
       "Weidmuller WMF 2.5 multi-level motor terminal block with integrated knife disconnect, 2.5mm² capacity, and space-saving design for three-phase motor connections.",
@@ -25119,7 +25119,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "glass-fuses",
-    image: "fuse",
+    image: "glass-fuse",
     title: "Schurter FSF 6.3x32mm 10A Glass Fuse",
     description:
       "Schurter FSF series 6.3x32mm slow-blow glass cartridge fuse rated 10A/250V with nickel-plated brass endcaps for industrial equipment protection.",
@@ -25147,7 +25147,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "circuit-breakers-fuses",
     typeKey: "glass-fuses",
-    image: "fuse",
+    image: "glass-fuse",
     title: "Eaton Bussmann AGC-15 Glass Fuse",
     description:
       "Eaton Bussmann AGC-15 1/4x1-1/4 inch fast-acting glass fuse rated 15A/32V for automotive and electronic equipment protection.",
@@ -25177,7 +25177,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "power-distribution",
     typeKey: "diode-units",
-    image: "diode-module",
+    image: "diode-unit",
     title: "Phoenix Contact QUINT-DIODE Redundancy Module",
     description:
       "Phoenix Contact QUINT-DIODE redundancy module for 12-24V DC systems, 2x20A or 1x40A output, with low power loss and DIN rail mounting for power supply decoupling.",
@@ -25205,7 +25205,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "power-distribution",
     typeKey: "diode-units",
-    image: "diode-module",
+    image: "diode-unit",
     title: "Siemens SITOP PSE200U Redundancy Module",
     description:
       "Siemens SITOP PSE200U diode redundancy module for 24V DC power supplies, 40A total output, with signaling contact and hot-swap capability.",
@@ -25235,7 +25235,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "electrical-cabinets",
-    image: "electrical-cabinet",
+    image: "electrical-cabinet-panel",
     title: "Rittal AX Compact Enclosure",
     description:
       "Rittal AX compact steel enclosure with IP66 / NEMA 4 protection, 600x800x300mm dimensions, single door, and 25mm mounting grid system.",
@@ -25263,7 +25263,7 @@ export const products: Product[] = [
     categoryKey: "electrical-accessories",
     subcategoryKey: "enclosures-cabinets",
     typeKey: "electrical-cabinets",
-    image: "electrical-cabinet",
+    image: "electrical-cabinet-panel",
     title: "Schneider Electric Spacial SM Floor-Standing Enclosure",
     description:
       "Schneider Electric Spacial SM floor-standing enclosure with 2000x800x400mm dimensions, IP55 protection, and modular design for industrial applications.",
@@ -26515,7 +26515,7 @@ export const products: Product[] = [
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
     typeKey: "safety-switches",
-    image: "safety-switch",
+    image: "safety-switch-interlock",
     title: "Allen-Bradley 440C-S Safety Interlock Switch",
     description:
       "Allen-Bradley Guardmaster 440C-S safety interlock switch with positive break contacts, solenoid locking, IP67 protection, and SIL3/PLe rating for machine guarding.",
@@ -26631,7 +26631,7 @@ export const products: Product[] = [
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
     typeKey: "safety-controllers",
-    image: "safety-controller",
+    image: "safety-controller-sil",
     title: "Pilz PNOZ s5 C Safety Relay",
     description:
       "Pilz PNOZ s5 C configurable safety relay with dual-channel input, expandable outputs, PL e/SIL 3 rating, and compact design for E-stop monitoring.",
@@ -26659,7 +26659,7 @@ export const products: Product[] = [
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
     typeKey: "safety-controllers",
-    image: "safety-controller",
+    image: "safety-controller-sil",
     title: "Allen-Bradley MSR57P Safety Relay",
     description:
       "Allen-Bradley Guardmaster MSR57P configurable safety relay with programmable logic, 8 safety inputs, 4 safety outputs, and USB configuration interface.",
@@ -26687,7 +26687,7 @@ export const products: Product[] = [
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
     typeKey: "safety-controllers",
-    image: "safety-controller",
+    image: "safety-controller-sil",
     title: "Siemens 3SK1 Safety Relay",
     description:
       "Siemens SIRIUS 3SK1 modular safety relay with flexible configuration, 4 safety outputs, SIL 3/PL e rating, and integration with TIA Portal for E-stop applications.",
@@ -26717,7 +26717,7 @@ export const products: Product[] = [
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
     typeKey: "safety-interlocks",
-    image: "safety-interlock",
+    image: "safety-interlock-guard",
     title: "Schmersal AZM 161 Safety Interlock",
     description:
       "Schmersal AZM 161 solenoid safety interlock switch with 2000N holding force, power-to-lock operation, RFID coded actuator, and IP67 protection rating.",
@@ -26745,7 +26745,7 @@ export const products: Product[] = [
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
     typeKey: "safety-interlocks",
-    image: "safety-interlock",
+    image: "safety-interlock-guard",
     title: "Euchner CTP Safety Interlock",
     description:
       "Euchner CTP transponder-coded safety interlock with 2600N locking force, integrated OSSD outputs, tamper-proof design, and compact stainless steel housing.",
@@ -26773,7 +26773,7 @@ export const products: Product[] = [
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
     typeKey: "safety-interlocks",
-    image: "safety-interlock",
+    image: "safety-interlock-guard",
     title: "SICK i14 Safety Locking Device",
     description:
       "SICK i14 electro-mechanical safety locking device with 1800N holding force, compact design, bi-stable lock monitoring, and high tolerance to misalignment.",
@@ -26838,7 +26838,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     typeKey: "proximity-switches",
-    image: "proximity-sensor",
+    image: "proximity-switch",
     title: "Turck Ni15-M30 Inductive Proximity Switch",
     description:
       "Turck Ni15-M30 inductive proximity sensor with 15mm sensing distance, M30 barrel, PNP normally open output, and IP67 protection for metal detection.",
@@ -26866,7 +26866,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     typeKey: "proximity-switches",
-    image: "proximity-sensor",
+    image: "proximity-switch",
     title: "ifm IE5 Inductive Proximity Sensor",
     description:
       "ifm IE5 efector inductive proximity sensor with 4mm sensing distance, M12 barrel, NPN output, and IO-Link communication for Industry 4.0 applications.",
@@ -26894,7 +26894,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     typeKey: "proximity-switches",
-    image: "proximity-sensor",
+    image: "proximity-switch",
     title: "Pepperl+Fuchs NBB5 Inductive Sensor",
     description:
       "Pepperl+Fuchs NBB5-18GM50-E2-V1 inductive sensor with 5mm sensing distance, M18 barrel, and Namur 2-wire output for intrinsic safety applications.",
@@ -28022,7 +28022,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts-spares",
     typeKey: "impellers-casings",
-    image: "pump-impeller",
+    image: "pump-impeller-casing",
     title: "Goulds 3196 Impeller & Casing Set",
     description:
       "Goulds 3196 STX replacement impeller and casing set with 316 stainless steel construction, enclosed impeller design, and ANSI B73.1 dimensional compliance for chemical pumps.",
@@ -28052,7 +28052,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts-spares",
     typeKey: "seals-gaskets",
-    image: "mechanical-seal",
+    image: "pump-impeller-casing",
     title: "John Crane Type 21 Mechanical Seal",
     description:
       "John Crane Type 21 single cartridge mechanical seal with silicon carbide faces, Viton O-rings, and universal fit design for centrifugal pumps and mixers up to 300°F.",
@@ -28144,7 +28144,7 @@ export const products: Product[] = [
     categoryKey: "automation-systems",
     subcategoryKey: "dcs",
     typeKey: "dcs-operator-stations",
-    image: "dcs-hmi",
+    image: "dcs-operator-station-banner",
     title: "Emerson DeltaV Operator Station",
     description:
       "Emerson DeltaV OS operator workstation with DeltaV Operate graphics, alarm management, historian integration, and multi-monitor support for process control visualization.",
@@ -28172,7 +28172,7 @@ export const products: Product[] = [
     categoryKey: "automation-systems",
     subcategoryKey: "dcs",
     typeKey: "dcs-engineering-stations",
-    image: "dcs-engineering",
+    image: "dcs-engineering-station-banner",
     title: "Siemens PCS 7 Engineering Station",
     description:
       "Siemens SIMATIC PCS 7 engineering station with CFC/SFC programming, simulation environment, and integrated asset management for complete DCS configuration and commissioning.",
@@ -28230,7 +28230,7 @@ export const products: Product[] = [
     categoryKey: "automation-systems",
     subcategoryKey: "scada",
     typeKey: "scada-hardware",
-    image: "scada-hardware",
+    image: "scada-hardware-system",
     title: "Schneider Electric ClearSCADA RTU",
     description:
       "Schneider Electric ClearSCADA remote terminal unit with DNP3/IEC 61850 protocols, integrated I/O, and cellular communication for pipeline and utility SCADA systems.",
@@ -28318,7 +28318,7 @@ export const products: Product[] = [
     categoryKey: "automation-systems",
     subcategoryKey: "plcs",
     typeKey: "micro-plcs",
-    image: "micro-plc",
+    image: "micro-plc-automation",
     title: "Omron CP2E Micro PLC",
     description:
       "Omron CP2E compact micro PLC with 24 built-in I/O, Ethernet port, and pulse outputs for packaging machines, conveyors, and small-scale automation applications.",
@@ -28346,7 +28346,7 @@ export const products: Product[] = [
     categoryKey: "automation-systems",
     subcategoryKey: "hmi",
     typeKey: "panel-mount-hmis",
-    image: "panel-hmi",
+    image: "panel-mount-hmi-banner",
     title: "Pro-face GP4000 Panel Mount HMI",
     description:
       "Pro-face GP4000 series 12.1-inch panel mount HMI with multi-touch display, ARM processor, and GP-Pro EX software for machine control and factory automation visualization.",
@@ -28612,7 +28612,7 @@ export const products: Product[] = [
     categoryKey: "solar-power",
     subcategoryKey: "solar-panels",
     typeKey: "thin-film-panels",
-    image: "thin-film-solar",
+    image: "thin-film-solar-panel",
     title: "First Solar Series 6 Thin Film Panel",
     description:
       "First Solar Series 6 CdTe thin film photovoltaic module with 445W output, superior temperature coefficient, and low degradation rate for utility-scale solar installations.",
@@ -29058,7 +29058,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts-spares",
     typeKey: "seals-gaskets",
-    image: "mechanical-seal",
+    image: "pump-impeller-casing",
     title: "EagleBurgmann CARTEX Cartridge Seal",
     description:
       "EagleBurgmann CARTEX-DN single cartridge mechanical seal with balanced design, modular construction, and API 682 compliance for pumps and agitators.",
@@ -29087,7 +29087,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts-spares",
     typeKey: "seals-gaskets",
-    image: "mechanical-seal",
+    image: "pump-impeller-casing",
     title: "Chesterton 442 Split Seal",
     description:
       "Chesterton 442 split mechanical seal with patented self-aligning technology, no special tools required, and retrofit capability for existing pumps without disassembly.",
@@ -29116,7 +29116,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts-spares",
     typeKey: "seals-gaskets",
-    image: "mechanical-seal",
+    image: "pump-impeller-casing",
     title: "Flowserve ISC2 Cartridge Seal",
     description:
       "Flowserve ISC2 double cartridge seal with bidirectional capability, API 682 Cat 2/3 compliance, and integrated monitoring for critical pump applications.",
@@ -29147,7 +29147,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts-spares",
     typeKey: "impellers-casings",
-    image: "pump-impeller",
+    image: "pump-impeller-casing",
     title: "Grundfos CR Series Replacement Impeller",
     description:
       "Grundfos CR series replacement impeller in AISI 304/316 stainless steel with precision-machined hydraulics and corrosion resistance for multistage pump applications.",
@@ -29176,7 +29176,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts-spares",
     typeKey: "impellers-casings",
-    image: "pump-impeller",
+    image: "pump-impeller-casing",
     title: "KSB Etanorm Pump Impeller",
     description:
       "KSB Etanorm replacement impeller with closed radial design, dynamically balanced construction, and multiple material options for standard and corrosive applications.",
@@ -29205,7 +29205,7 @@ export const products: Product[] = [
     categoryKey: "pumps-valves",
     subcategoryKey: "pump-parts-spares",
     typeKey: "impellers-casings",
-    image: "pump-impeller",
+    image: "pump-impeller-casing",
     title: "Sulzer AHLSTAR Process Pump Impeller",
     description:
       "Sulzer AHLSTAR closed impeller in duplex stainless steel with CFD-optimized hydraulics and API 610 compliance for demanding chemical and process applications.",
@@ -29327,7 +29327,7 @@ export const products: Product[] = [
     categoryKey: "tools-equipment",
     subcategoryKey: "test-measurement",
     typeKey: "digital-multimeters",
-    image: "digital-multimeter",
+    image: "multi-function-meter-digital",
     title: "Fluke 87V MAX Industrial Multimeter",
     description:
       "Fluke 87V MAX true-RMS industrial multimeter with IP67 waterproof rating, 1000V CAT III/600V CAT IV safety, and low-pass filter for VFD measurements.",
@@ -29356,7 +29356,7 @@ export const products: Product[] = [
     categoryKey: "tools-equipment",
     subcategoryKey: "test-measurement",
     typeKey: "digital-multimeters",
-    image: "digital-multimeter",
+    image: "multi-function-meter-digital",
     title: "Hioki DT4282 Digital Multimeter",
     description:
       "Hioki DT4282 high-precision digital multimeter with 60,000 count display, 0.025% DCV accuracy, and wireless Bluetooth connectivity for data logging.",
@@ -29385,7 +29385,7 @@ export const products: Product[] = [
     categoryKey: "tools-equipment",
     subcategoryKey: "test-measurement",
     typeKey: "digital-multimeters",
-    image: "digital-multimeter",
+    image: "multi-function-meter-digital",
     title: "Keysight U1282A Handheld Multimeter",
     description:
       "Keysight U1282A 4.5-digit handheld multimeter with dual display, harmonic ratio measurement, and IP54 rating for industrial field applications.",
@@ -29505,7 +29505,7 @@ export const products: Product[] = [
     categoryKey: "tools-equipment",
     subcategoryKey: "test-measurement",
     typeKey: "multi-function-meters",
-    image: "panel-meter",
+    image: "multi-function-meter-digital",
     title: "Yokogawa UM330 Digital Indicator Controller",
     description:
       "Yokogawa UM330 digital indicating controller with universal input, 2-loop PID control, and Ethernet communication for process monitoring and control applications.",
@@ -29534,7 +29534,7 @@ export const products: Product[] = [
     categoryKey: "tools-equipment",
     subcategoryKey: "test-measurement",
     typeKey: "multi-function-meters",
-    image: "panel-meter",
+    image: "multi-function-meter-digital",
     title: "ABB M1M Multifunction Meter",
     description:
       "ABB M1M multifunction meter with power quality analysis, 0.2S accuracy class, and Modbus/Ethernet communication for commercial and industrial metering applications.",
@@ -29563,7 +29563,7 @@ export const products: Product[] = [
     categoryKey: "tools-equipment",
     subcategoryKey: "test-measurement",
     typeKey: "multi-function-meters",
-    image: "panel-meter",
+    image: "multi-function-meter-digital",
     title: "Schneider Electric PM5560 Power Meter",
     description:
       "Schneider Electric PM5560 power and energy meter with 0.2S accuracy, integrated web server, and 63rd harmonic analysis for critical power monitoring applications.",
@@ -29593,7 +29593,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "instrument-transformers",
     typeKey: "current-transformers",
-    image: "current-transformer",
+    image: "current-transformer-product",
     title: "ABB TPN Current Transformer",
     description:
       "ABB TPN series ring-type current transformer with 0.5 accuracy class, designed for indoor metering and protection applications in low voltage systems.",
@@ -29622,7 +29622,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "instrument-transformers",
     typeKey: "current-transformers",
-    image: "current-transformer",
+    image: "current-transformer-product",
     title: "Schneider Electric Ti Current Transformer",
     description:
       "Schneider Electric Ti series wound primary current transformer for accurate current measurement in industrial and commercial electrical systems.",
@@ -29651,7 +29651,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "instrument-transformers",
     typeKey: "current-transformers",
-    image: "current-transformer",
+    image: "current-transformer-product",
     title: "Siemens 4NC1 Current Transformer",
     description:
       "Siemens 4NC1 series bar primary current transformer with high accuracy for revenue metering and protection in medium voltage applications.",
