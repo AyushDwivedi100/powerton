@@ -95,6 +95,16 @@ export default function ContactSection() {
                     </h4>
                     <div className="space-y-1">
                       <a
+                        href={`tel:${COMPANY_INFO.phoneNumbers.marketing}`}
+                        className="opacity-90 hover:opacity-100 transition-opacity block"
+                        data-testid="link-contact-phone-marketing"
+                      >
+                        {COMPANY_INFO.phoneNumbers.marketing}
+                        <span className="text-xs opacity-70 ms-1">
+                          ({t("common:company.marketingTeam")})
+                        </span>
+                      </a>
+                      <a
                         href={`tel:${COMPANY_INFO.phoneNumbers.primary}`}
                         className="opacity-90 hover:opacity-100 transition-opacity block"
                       >
@@ -105,16 +115,6 @@ export default function ContactSection() {
                         className="opacity-90 hover:opacity-100 transition-opacity block"
                       >
                         {COMPANY_INFO.phoneNumbers.secondary}
-                      </a>
-                      <a
-                        href={`tel:${COMPANY_INFO.phoneNumbers.marketing}`}
-                        className="opacity-90 hover:opacity-100 transition-opacity block"
-                        data-testid="link-contact-phone-marketing"
-                      >
-                        {COMPANY_INFO.phoneNumbers.marketing}
-                        <span className="text-xs opacity-70 ms-1">
-                          ({t("common:company.marketingTeam")})
-                        </span>
                       </a>
                     </div>
                     <p className="text-sm opacity-70">

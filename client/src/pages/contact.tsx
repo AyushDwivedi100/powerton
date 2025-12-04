@@ -57,11 +57,11 @@ export default function Contact() {
       title: t("pages:contact.contactMethods.phone.title"),
       subtitle: t("pages:contact.contactMethods.phone.subtitle"),
       content: {
+        marketing: COMPANY_INFO.phoneNumbers.marketing,
         primary: COMPANY_INFO.phoneNumbers.primary,
         secondary: COMPANY_INFO.phoneNumbers.secondary,
-        marketing: COMPANY_INFO.phoneNumbers.marketing,
       },
-      action: `tel:${COMPANY_INFO.phoneNumbers.primary}`,
+      action: `tel:${COMPANY_INFO.phoneNumbers.marketing}`,
       description: t("pages:contact.contactMethods.phone.description"),
     },
     {
@@ -77,11 +77,11 @@ export default function Contact() {
       title: t("pages:contact.contactMethods.whatsapp.title"),
       subtitle: t("pages:contact.contactMethods.whatsapp.subtitle"),
       content: {
+        marketing: COMPANY_INFO.phoneNumbers.marketing,
         primary: COMPANY_INFO.phoneNumbers.primary,
         secondary: COMPANY_INFO.phoneNumbers.secondary,
-        marketing: COMPANY_INFO.phoneNumbers.marketing,
       },
-      action: "https://wa.me/919462771662",
+      action: `https://wa.me/${COMPANY_INFO.phoneNumbers.marketing.replace(/[^0-9]/g, "")}`,
       description: t("pages:contact.contactMethods.whatsapp.description"),
     },
     {
@@ -101,9 +101,9 @@ export default function Contact() {
       city: `${COMPANY_INFO.address.city}, ${COMPANY_INFO.address.state} ${COMPANY_INFO.address.pincode}`,
       landmark: COMPANY_INFO.address.landmark,
       phoneNumbers: {
+        marketing: COMPANY_INFO.phoneNumbers.marketing,
         primary: COMPANY_INFO.phoneNumbers.primary,
         secondary: COMPANY_INFO.phoneNumbers.secondary,
-        marketing: COMPANY_INFO.phoneNumbers.marketing,
       },
       email: COMPANY_INFO.email,
       hours: t("pages:contact.office.hours"),
@@ -234,8 +234,38 @@ export default function Contact() {
                         {method.subtitle}
                       </p>
                       {typeof method.content === "object" &&
-                      "primary" in method.content ? (
+                      "marketing" in method.content ? (
                         <div className="space-y-2 mb-3">
+                          <a
+                            href={
+                              method.icon === MessageCircle
+                                ? `https://wa.me/${method.content.marketing.replace(
+                                    /[^0-9]/g,
+                                    "",
+                                  )}?text=${encodeURIComponent(
+                                    t("pages:contact.whatsapp.defaultMessage"),
+                                  )}`
+                                : `tel:${method.content.marketing}`
+                            }
+                            target={
+                              method.icon === MessageCircle
+                                ? "_blank"
+                                : undefined
+                            }
+                            rel={
+                              method.icon === MessageCircle
+                                ? "noopener noreferrer"
+                                : undefined
+                            }
+                            className="text-base font-semibold text-primary hover:text-secondary transition-colors break-words flex items-center justify-center"
+                            data-testid="link-methods-phone-marketing"
+                          >
+                            <Phone className="w-4 h-4 mr-2" />
+                            {method.content.marketing}
+                            <span className="text-xs text-muted-foreground ms-1">
+                              ({t("common:company.marketingTeam")})
+                            </span>
+                          </a>
                           <a
                             href={
                               method.icon === MessageCircle
@@ -288,38 +318,6 @@ export default function Contact() {
                             <Phone className="w-4 h-4 mr-2" />
                             {method.content.secondary}
                           </a>
-                          {"marketing" in method.content && (
-                            <a
-                              href={
-                                method.icon === MessageCircle
-                                  ? `https://wa.me/${method.content.marketing.replace(
-                                      /[^0-9]/g,
-                                      "",
-                                    )}?text=${encodeURIComponent(
-                                      t("pages:contact.whatsapp.defaultMessage"),
-                                    )}`
-                                  : `tel:${method.content.marketing}`
-                              }
-                              target={
-                                method.icon === MessageCircle
-                                  ? "_blank"
-                                  : undefined
-                              }
-                              rel={
-                                method.icon === MessageCircle
-                                  ? "noopener noreferrer"
-                                  : undefined
-                              }
-                              className="text-base font-semibold text-primary hover:text-secondary transition-colors break-words flex items-center justify-center"
-                              data-testid="link-methods-phone-marketing"
-                            >
-                              <Phone className="w-4 h-4 mr-2" />
-                              {method.content.marketing}
-                              <span className="text-xs text-muted-foreground ms-1">
-                                ({t("common:company.marketingTeam")})
-                              </span>
-                            </a>
-                          )}
                         </div>
                       ) : (
                         <a
@@ -418,6 +416,16 @@ export default function Contact() {
                         </div>
                         <div className="ml-6 sm:ml-8 space-y-1">
                           <a
+                            href={`tel:${location.phoneNumbers.marketing}`}
+                            className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors block"
+                            data-testid="link-office-phone-marketing"
+                          >
+                            {location.phoneNumbers.marketing}
+                            <span className="text-xs text-muted-foreground ms-1">
+                              ({t("common:company.marketingTeam")})
+                            </span>
+                          </a>
+                          <a
                             href={`tel:${location.phoneNumbers.primary}`}
                             className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors block"
                           >
@@ -428,16 +436,6 @@ export default function Contact() {
                             className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors block"
                           >
                             {location.phoneNumbers.secondary}
-                          </a>
-                          <a
-                            href={`tel:${location.phoneNumbers.marketing}`}
-                            className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors block"
-                            data-testid="link-office-phone-marketing"
-                          >
-                            {location.phoneNumbers.marketing}
-                            <span className="text-xs text-muted-foreground ms-1">
-                              ({t("common:company.marketingTeam")})
-                            </span>
                           </a>
                         </div>
                       </div>
