@@ -225,6 +225,20 @@ export default function Footer() {
                         {COMPANY_INFO.phoneNumbers.secondary}
                       </a>
                     </div>
+                    <div>
+                      <a
+                        href={`tel:${COMPANY_INFO.phoneNumbers.marketing}`}
+                        className="hover:text-orange-400 transition-colors block text-wrap-safe"
+                        itemProp="telephone"
+                        aria-label={t("common:ui.ariaLabels.callMarketing")}
+                        data-testid="link-footer-phone-marketing"
+                      >
+                        {COMPANY_INFO.phoneNumbers.marketing}
+                        <span className="text-xs text-slate-400 ms-1">
+                          ({t("common:company.marketingTeam")})
+                        </span>
+                      </a>
+                    </div>
                   </div>
                 </li>
                 <li className="flex items-center" role="listitem">

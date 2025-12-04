@@ -106,6 +106,16 @@ export default function ContactSection() {
                       >
                         {COMPANY_INFO.phoneNumbers.secondary}
                       </a>
+                      <a
+                        href={`tel:${COMPANY_INFO.phoneNumbers.marketing}`}
+                        className="opacity-90 hover:opacity-100 transition-opacity block"
+                        data-testid="link-contact-phone-marketing"
+                      >
+                        {COMPANY_INFO.phoneNumbers.marketing}
+                        <span className="text-xs opacity-70 ms-1">
+                          ({t("common:company.marketingTeam")})
+                        </span>
+                      </a>
                     </div>
                     <p className="text-sm opacity-70">
                       {t("pages:home.contact.methods.phone.description")}

@@ -14,6 +14,7 @@ export const COMPANY_INFO = {
   phoneNumbers: {
     primary: "+91-94627-71662",
     secondary: "+91-82997-27291",
+    marketing: "+91-92119-91243",
     combined: "+91-94627-71662 / +91-82997-27291",
   },
   email: "info@powertonengineering.com",

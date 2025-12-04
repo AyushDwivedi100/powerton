@@ -20,6 +20,7 @@ export const FRONTEND_CONFIG = {
     fallbackEmail: "info@powertonengineering.com",
     fallbackPhone: "+91-94627-71662",
     fallbackPhoneSecondary: "+91-82997-27291",
+    fallbackPhoneMarketing: "+91-92119-91243",
   },
 
   // Company information (static data - actual values come from translations)
@@ -27,6 +28,7 @@ export const FRONTEND_CONFIG = {
     name: "Powerton Engineering Pvt. Ltd.",
     email: "info@powertonengineering.com",
     phone: "+91-94627-71662 / +91-82997-27291",
+    marketingPhone: "+91-92119-91243",
     website: "https://powertonengineering.in",
     logo: "https://powertonengineering.in/assets/img/logo-new.jpg",
   },

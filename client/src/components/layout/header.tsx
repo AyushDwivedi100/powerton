@@ -452,7 +452,7 @@ export default function Header() {
               rtl.justifyStart,
             )}
           >
-            <div className="flex items-center gap-2 md:gap-3">
+            <div className="flex items-center gap-2 md:gap-3 flex-wrap">
               <a
                 href={`tel:${COMPANY_INFO.phoneNumbers.primary}`}
                 className="flex items-center hover:text-secondary transition-colors shrink-0"
@@ -482,6 +482,26 @@ export default function Header() {
                 />
                 <span className="text-wrap-safe text-sm md:text-base">
                   {COMPANY_INFO.phoneNumbers.secondary}
+                </span>
+              </a>
+
+              <a
+                href={`tel:${COMPANY_INFO.phoneNumbers.marketing}`}
+                className="flex items-center hover:text-secondary transition-colors shrink-0"
+                aria-label={t("common:ui.ariaLabels.callUs", {
+                  phone: COMPANY_INFO.phoneNumbers.marketing,
+                })}
+                data-testid="link-phone-marketing"
+              >
+                <Phone
+                  className="w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0 rtl-flip me-1"
+                  aria-hidden="true"
+                />
+                <span className="text-wrap-safe text-sm md:text-base">
+                  {COMPANY_INFO.phoneNumbers.marketing}
+                </span>
+                <span className="text-xs text-secondary/80 ms-1 hidden sm:inline">
+                  ({t("common:company.marketingTeam")})
                 </span>
               </a>
             </div>
