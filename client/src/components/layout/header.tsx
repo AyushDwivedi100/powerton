@@ -549,7 +549,7 @@ export default function Header() {
             >
               <span className="flex items-center">
                 <MapPin
-                  className="w-5 h-5 text-secondary rtl-flip me-2"
+                  className="w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0 rtl-flip me-2"
                   aria-hidden="true"
                 />
                 <span className="text-wrap-safe text-base md:text-sm">
