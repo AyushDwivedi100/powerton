@@ -67,18 +67,21 @@ export default function ProductSubCategoryDynamic() {
   }>();
   const { t } = useTranslation(["products", "common", "products-data"]);
   useScrollAnimation();
-  
+
   const [expandedGroupKey, setExpandedGroupKey] = useState<string | null>(null);
   const expandedCardRef = useRef<HTMLDivElement>(null);
 
   const handleGroupClick = (groupKey: string) => {
-    setExpandedGroupKey(prevKey => prevKey === groupKey ? null : groupKey);
+    setExpandedGroupKey((prevKey) => (prevKey === groupKey ? null : groupKey));
   };
 
   useEffect(() => {
     if (expandedGroupKey && expandedCardRef.current) {
       setTimeout(() => {
-        expandedCardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        expandedCardRef.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
       }, 100);
     }
   }, [expandedGroupKey]);
@@ -296,7 +299,11 @@ export default function ProductSubCategoryDynamic() {
                     <div
                       key={group.key}
                       ref={isExpanded ? expandedCardRef : null}
-                      className={isExpanded ? "col-span-1 md:col-span-2 lg:col-span-3" : ""}
+                      className={
+                        isExpanded
+                          ? "col-span-1 md:col-span-2 lg:col-span-3"
+                          : ""
+                      }
                     >
                       <motion.div
                         variants={cardVariants}
@@ -309,8 +316,8 @@ export default function ProductSubCategoryDynamic() {
                       >
                         <Card
                           className={`group cursor-pointer border transition-all duration-300 h-full flex flex-col ${
-                            isExpanded 
-                              ? "border-primary shadow-xl bg-card" 
+                            isExpanded
+                              ? "border-primary shadow-xl bg-card"
                               : "border-border/50 hover:border-primary/50 hover:shadow-xl"
                           }`}
                           data-testid={`card-group-${group.key}`}
@@ -320,8 +327,8 @@ export default function ProductSubCategoryDynamic() {
                               <div className="flex items-center gap-4 flex-1">
                                 <motion.div
                                   className={`w-14 h-14 rounded-full flex items-center justify-center transition-colors duration-300 ${
-                                    isExpanded 
-                                      ? "bg-primary/20" 
+                                    isExpanded
+                                      ? "bg-primary/20"
                                       : "bg-primary/10 group-hover:bg-primary/20"
                                   }`}
                                   whileHover={{ scale: 1.1, rotate: 5 }}
@@ -330,11 +337,13 @@ export default function ProductSubCategoryDynamic() {
                                   <GroupIconComponent className="w-7 h-7 text-primary" />
                                 </motion.div>
                                 <div className="flex-1 text-left">
-                                  <CardTitle className={`text-lg font-semibold transition-colors ${
-                                    isExpanded 
-                                      ? "text-primary dark:text-secondary" 
-                                      : "text-foreground group-hover:text-primary dark:group-hover:text-secondary"
-                                  }`}>
+                                  <CardTitle
+                                    className={`text-lg font-semibold transition-colors ${
+                                      isExpanded
+                                        ? "text-primary dark:text-secondary"
+                                        : "text-foreground group-hover:text-primary dark:group-hover:text-secondary"
+                                    }`}
+                                  >
                                     {groupTitle}
                                   </CardTitle>
                                   <CardDescription className="text-muted-foreground text-sm mt-1">
@@ -342,48 +351,45 @@ export default function ProductSubCategoryDynamic() {
                                   </CardDescription>
                                 </div>
                               </div>
-                              <Button
-                                variant="ghost"
-                                size="icon"
-                                className="ml-2 shrink-0"
-                                data-testid={`button-toggle-${group.key}`}
-                              >
-                                {isExpanded ? (
-                                  <ChevronUp className="w-5 h-5 text-primary" />
-                                ) : (
-                                  <ChevronDown className="w-5 h-5 text-muted-foreground group-hover:text-primary" />
-                                )}
-                              </Button>
                             </div>
                           </CardHeader>
-                          
-                          {!isExpanded && group.featuredSpecs && group.featuredSpecs.length > 0 && (
-                            <CardContent className="flex-1 flex flex-col pt-0">
-                              <div className="space-y-2 flex-1">
-                                <h4 className="font-medium text-sm text-foreground mb-2 group-hover:text-secondary">
-                                  {t("common:common.keyFeatures")}:
-                                </h4>
-                                <ul className="space-y-1">
-                                  {group.featuredSpecs.slice(0, 3).map((spec, specIndex) => (
-                                    <motion.li
-                                      key={specIndex}
-                                      className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors duration-300"
-                                      initial={{ opacity: 0, x: -10 }}
-                                      animate={{ opacity: 1, x: 0 }}
-                                      transition={{ delay: 0.5 + index * 0.1 + specIndex * 0.05 }}
-                                    >
-                                      <motion.div
-                                        className="w-1.5 h-1.5 bg-secondary rounded-full mr-2"
-                                        whileHover={{ scale: 1.5 }}
-                                        transition={{ duration: 0.2 }}
-                                      />
-                                      {spec}
-                                    </motion.li>
-                                  ))}
-                                </ul>
-                              </div>
-                            </CardContent>
-                          )}
+
+                          {!isExpanded &&
+                            group.featuredSpecs &&
+                            group.featuredSpecs.length > 0 && (
+                              <CardContent className="flex-1 flex flex-col pt-0">
+                                <div className="space-y-2 flex-1">
+                                  <h4 className="font-medium text-sm text-foreground mb-2 group-hover:text-secondary">
+                                    {t("common:common.keyFeatures")}:
+                                  </h4>
+                                  <ul className="space-y-1">
+                                    {group.featuredSpecs
+                                      .slice(0, 3)
+                                      .map((spec, specIndex) => (
+                                        <motion.li
+                                          key={specIndex}
+                                          className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors duration-300"
+                                          initial={{ opacity: 0, x: -10 }}
+                                          animate={{ opacity: 1, x: 0 }}
+                                          transition={{
+                                            delay:
+                                              0.5 +
+                                              index * 0.1 +
+                                              specIndex * 0.05,
+                                          }}
+                                        >
+                                          <motion.div
+                                            className="w-1.5 h-1.5 bg-secondary rounded-full mr-2"
+                                            whileHover={{ scale: 1.5 }}
+                                            transition={{ duration: 0.2 }}
+                                          />
+                                          {spec}
+                                        </motion.li>
+                                      ))}
+                                  </ul>
+                                </div>
+                              </CardContent>
+                            )}
 
                           {isExpanded && (
                             <CardContent className="pt-0">

@@ -587,6 +587,9 @@
     "products": "我们的产品",
     "productsDescription": "探索我们全面的高品质工业解决方案",
     "allProducts": "所有产品",
+    "productsInGroup": "{{count}} 产品可用",
+    "productsInGroup_one": "{{count}} 产品可用",
+    "productsInGroup_other": "{{count}} 产品可用",
     "needMoreOptions": "需要更多选择？",
     "customSolutions": "我们提供定制解决方案，并可以采购其他产品以满足您的特定要求。",
     "professionalGrade": "专业级解决方案",
@@ -1836,7 +1839,7 @@
     },
     "rosemountWireless1420": {
       "title": "罗斯蒙特无线 1420 网关",
-      "description": "":�于工业无线网络的无线网关",
+      "description": "用于工业无线网络的无线网关",
       "features": [
         "Wireless HART 技术",
         "自组织网络",
