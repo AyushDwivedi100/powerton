@@ -1,3 +1,4 @@
+import { useState, useRef, useEffect } from "react";
 import { useParams } from "wouter";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
@@ -18,6 +19,8 @@ import {
   Mail,
   Download,
   Settings,
+  ChevronDown,
+  ChevronUp,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
@@ -26,6 +29,7 @@ import { getProductSubCategoryBySlug } from "@/data/products-sub-category-pages-
 import { getGroupsForSubcategory } from "@/data/products-detail-pages-data";
 import { getProductImageSrc } from "@/assets/images";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+import { ProductGroupPanel } from "@/components/ProductGroupPanel";
 
 // Utility function to truncate text by word count
 const truncateText = (text: string, maxWords: number = 20): string => {
@@ -63,6 +67,21 @@ export default function ProductSubCategoryDynamic() {
   }>();
   const { t } = useTranslation(["products", "common", "products-data"]);
   useScrollAnimation();
+  
+  const [expandedGroupKey, setExpandedGroupKey] = useState<string | null>(null);
+  const expandedCardRef = useRef<HTMLDivElement>(null);
+
+  const handleGroupClick = (groupKey: string) => {
+    setExpandedGroupKey(prevKey => prevKey === groupKey ? null : groupKey);
+  };
+
+  useEffect(() => {
+    if (expandedGroupKey && expandedCardRef.current) {
+      setTimeout(() => {
+        expandedCardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
+  }, [expandedGroupKey]);
 
   if (!slug || !parentSlug) {
     return (
@@ -265,85 +284,121 @@ export default function ProductSubCategoryDynamic() {
               {/* Render product groups for subcategories that have them */}
               {productGroups.length > 0 &&
                 productGroups.map((group, index) => {
-                  // Use the title and description from the ProductGroup
                   const groupTitle =
                     group.title || group.key.toUpperCase().replace("-", " ");
                   const groupDescription =
                     group.description ||
                     t("products-data:defaults.groupDescription");
-                  // Use the subcategory's icon for all product groups, or Settings as fallback
                   const GroupIconComponent = IconComponent || Settings;
+                  const isExpanded = expandedGroupKey === group.key;
 
                   return (
-                    <Link
+                    <div
                       key={group.key}
-                      href={`/products/${correctParentSlug}/${slug}/${group.slug}`}
+                      ref={isExpanded ? expandedCardRef : null}
+                      className={isExpanded ? "col-span-1 md:col-span-2 lg:col-span-3" : ""}
                     >
                       <motion.div
                         variants={cardVariants}
                         initial="hidden"
                         animate="visible"
-                        whileHover="hover"
+                        whileHover={isExpanded ? undefined : "hover"}
                         transition={{ delay: index * 0.1 }}
                         className="h-full"
+                        onClick={() => handleGroupClick(group.key)}
                       >
                         <Card
-                          className="group cursor-pointer border border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl h-full flex flex-col"
+                          className={`group cursor-pointer border transition-all duration-300 h-full flex flex-col ${
+                            isExpanded 
+                              ? "border-primary shadow-xl bg-card" 
+                              : "border-border/50 hover:border-primary/50 hover:shadow-xl"
+                          }`}
                           data-testid={`card-group-${group.key}`}
                         >
                           <CardHeader className="pb-4 flex-shrink-0">
-                            <motion.div
-                              className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-300"
-                              whileHover={{ scale: 1.1, rotate: 5 }}
-                              transition={{ duration: 0.3 }}
-                            >
-                              <GroupIconComponent className="w-8 h-8 text-primary group-hover:scale-110 transition-transform duration-300" />
-                            </motion.div>
-                            <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary dark:group-hover:text-secondary transition-colors text-center">
-                              {groupTitle}
-                            </CardTitle>
-                            <CardDescription className="text-muted-foreground text-center">
-                              {truncateText(groupDescription)}
-                            </CardDescription>
-                          </CardHeader>
-                          <CardContent className="flex-1 flex flex-col">
-                            {group.featuredSpecs &&
-                              group.featuredSpecs.length > 0 && (
-                                <div className="space-y-2 flex-1">
-                                  <h4 className="font-medium text-sm text-foreground mb-3 group-hover:text-secondary">
-                                    {t("common:common.keyFeatures")}:
-                                  </h4>
-                                  <ul className="space-y-1">
-                                    {group.featuredSpecs
-                                      .slice(0, 4)
-                                      .map((spec, specIndex) => (
-                                        <motion.li
-                                          key={specIndex}
-                                          className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors duration-300"
-                                          initial={{ opacity: 0, x: -10 }}
-                                          animate={{ opacity: 1, x: 0 }}
-                                          transition={{
-                                            delay:
-                                              0.5 +
-                                              index * 0.1 +
-                                              specIndex * 0.05,
-                                          }}
-                                        >
-                                          <motion.div
-                                            className="w-1.5 h-1.5 bg-secondary rounded-full mr-2"
-                                            whileHover={{ scale: 1.5 }}
-                                            transition={{ duration: 0.2 }}
-                                          />
-                                          {spec}
-                                        </motion.li>
-                                      ))}
-                                  </ul>
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center gap-4 flex-1">
+                                <motion.div
+                                  className={`w-14 h-14 rounded-full flex items-center justify-center transition-colors duration-300 ${
+                                    isExpanded 
+                                      ? "bg-primary/20" 
+                                      : "bg-primary/10 group-hover:bg-primary/20"
+                                  }`}
+                                  whileHover={{ scale: 1.1, rotate: 5 }}
+                                  transition={{ duration: 0.3 }}
+                                >
+                                  <GroupIconComponent className="w-7 h-7 text-primary" />
+                                </motion.div>
+                                <div className="flex-1 text-left">
+                                  <CardTitle className={`text-lg font-semibold transition-colors ${
+                                    isExpanded 
+                                      ? "text-primary dark:text-secondary" 
+                                      : "text-foreground group-hover:text-primary dark:group-hover:text-secondary"
+                                  }`}>
+                                    {groupTitle}
+                                  </CardTitle>
+                                  <CardDescription className="text-muted-foreground text-sm mt-1">
+                                    {truncateText(groupDescription, 15)}
+                                  </CardDescription>
                                 </div>
-                              )}
-                          </CardContent>
+                              </div>
+                              <Button
+                                variant="ghost"
+                                size="icon"
+                                className="ml-2 shrink-0"
+                                data-testid={`button-toggle-${group.key}`}
+                              >
+                                {isExpanded ? (
+                                  <ChevronUp className="w-5 h-5 text-primary" />
+                                ) : (
+                                  <ChevronDown className="w-5 h-5 text-muted-foreground group-hover:text-primary" />
+                                )}
+                              </Button>
+                            </div>
+                          </CardHeader>
+                          
+                          {!isExpanded && group.featuredSpecs && group.featuredSpecs.length > 0 && (
+                            <CardContent className="flex-1 flex flex-col pt-0">
+                              <div className="space-y-2 flex-1">
+                                <h4 className="font-medium text-sm text-foreground mb-2 group-hover:text-secondary">
+                                  {t("common:common.keyFeatures")}:
+                                </h4>
+                                <ul className="space-y-1">
+                                  {group.featuredSpecs.slice(0, 3).map((spec, specIndex) => (
+                                    <motion.li
+                                      key={specIndex}
+                                      className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors duration-300"
+                                      initial={{ opacity: 0, x: -10 }}
+                                      animate={{ opacity: 1, x: 0 }}
+                                      transition={{ delay: 0.5 + index * 0.1 + specIndex * 0.05 }}
+                                    >
+                                      <motion.div
+                                        className="w-1.5 h-1.5 bg-secondary rounded-full mr-2"
+                                        whileHover={{ scale: 1.5 }}
+                                        transition={{ duration: 0.2 }}
+                                      />
+                                      {spec}
+                                    </motion.li>
+                                  ))}
+                                </ul>
+                              </div>
+                            </CardContent>
+                          )}
+
+                          {isExpanded && (
+                            <CardContent className="pt-0">
+                              <ProductGroupPanel
+                                productGroup={group}
+                                parentSlug={correctParentSlug}
+                                subcategorySlug={slug}
+                                isExpanded={isExpanded}
+                                onToggle={() => handleGroupClick(group.key)}
+                              />
+                            </CardContent>
+                          )}
                         </Card>
                       </motion.div>
-                    </Link>
+                    </div>
                   );
                 })}
 

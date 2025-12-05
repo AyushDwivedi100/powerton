@@ -37,9 +37,6 @@ const ProductSubCategoryDynamic = lazy(
   () => import("@/pages/products-sub-category-dynamic"),
 );
 
-// Lazy load dynamic product group page
-const ProductGroupDynamic = lazy(() => import("@/pages/product-group-dynamic"));
-
 // Lazy load dynamic product detail page
 const ProductDetailDynamic = lazy(
   () => import("@/pages/product-detail-dynamic"),
@@ -92,12 +89,6 @@ function Router() {
           <Route
             path="/products/:parentSlug/:subcategorySlug/:groupSlug/:slug"
             component={ProductDetailDynamic}
-          />
-
-          {/* Dynamic Product Group Route (hierarchical) - 3 segments */}
-          <Route
-            path="/products/:parentSlug/:subcategorySlug/:groupSlug"
-            component={ProductGroupDynamic}
           />
 
           {/* Dynamic Product Sub-Category Route (hierarchical) - 2 segments */}
