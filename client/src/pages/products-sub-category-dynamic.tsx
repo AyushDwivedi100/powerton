@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { useParams } from "wouter";
+import { useParams, useSearch } from "wouter";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import {
@@ -65,6 +65,7 @@ export default function ProductSubCategoryDynamic() {
     parentSlug: string;
     slug: string;
   }>();
+  const searchString = useSearch();
   const { t } = useTranslation(["products", "common", "products-data"]);
   useScrollAnimation();
 
@@ -74,6 +75,13 @@ export default function ProductSubCategoryDynamic() {
   const handleGroupClick = (groupKey: string) => {
     setExpandedGroupKey((prevKey) => (prevKey === groupKey ? null : groupKey));
   };
+
+  // Auto-expand group from URL query parameter (e.g., ?group=flow-meters)
+  useEffect(() => {
+    const params = new URLSearchParams(searchString);
+    const groupParam = params.get("group");
+    setExpandedGroupKey(groupParam);
+  }, [searchString, slug]);
 
   useEffect(() => {
     if (expandedGroupKey && expandedCardRef.current) {

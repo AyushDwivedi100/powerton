@@ -251,7 +251,7 @@ function searchProductGroups(query: string, t: TFunction, categoryFilter?: strin
         title,
         description: description.slice(0, 150) + (description.length > 150 ? '...' : ''),
         image: group.image,
-        url: `/products/${categorySlug}/${group.subcategoryKey}/${group.slug}`,
+        url: `/products/${categorySlug}/${group.subcategoryKey}?group=${group.key}`,
         subcategory: group.subcategoryKey,
         relevanceScore
       });

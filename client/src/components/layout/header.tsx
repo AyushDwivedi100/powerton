@@ -842,7 +842,7 @@ export default function Header() {
                                     key={group.key}
                                     href={`/products/${getParentCategoryBySubcategoryKey(
                                       group.subcategoryKey,
-                                    )}/${group.subcategoryKey}/${group.slug}`}
+                                    )}/${group.subcategoryKey}?group=${group.key}`}
                                     className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group border-rounded border-transparent hover:border-gray-200 dark:hover:border-gray-700 bg-blue-500/10 dark:bg-blue-900/20"
                                     onClick={() => {
                                       setIsProductsDropdownOpen(false);
