@@ -1,7 +1,7 @@
 import { useParams } from "wouter";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedSection } from "@/hooks/use-scroll-animation";
 import {
@@ -11,6 +11,7 @@ import {
   Phone,
   Mail,
   Download,
+  Settings,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
@@ -25,6 +26,28 @@ const truncateText = (text: string, maxWords: number = 20): string => {
   const words = text.split(" ");
   if (words.length <= maxWords) return text;
   return words.slice(0, maxWords).join(" ") + "...";
+};
+
+// Animation variants for cards (matching subcategory cards)
+const cardVariants = {
+  hidden: { opacity: 0, y: 30, scale: 0.95 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.5,
+      ease: "easeOut",
+    },
+  },
+  hover: {
+    y: -8,
+    scale: 1.05,
+    transition: {
+      duration: 0.3,
+      ease: "easeOut",
+    },
+  },
 };
 
 export default function ProductSubCategoryDynamic() {
@@ -232,7 +255,7 @@ export default function ProductSubCategoryDynamic() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Render product groups for subcategories that have them */}
               {productGroups.length > 0 &&
                 productGroups.map((group, index) => {
@@ -242,36 +265,72 @@ export default function ProductSubCategoryDynamic() {
                   const groupDescription =
                     group.description ||
                     t("products-data:defaults.groupDescription");
+                  // Use the subcategory's icon for all product groups, or Settings as fallback
+                  const GroupIconComponent = IconComponent || Settings;
 
                   return (
                     <Link
                       key={group.key}
                       href={`/products/${correctParentSlug}/${slug}/${group.slug}`}
                     >
-                      <Card
-                        className="group hover:shadow-lg transition-all duration-300"
-                        data-testid={`card-group-${group.key}`}
+                      <motion.div
+                        variants={cardVariants}
+                        initial="hidden"
+                        animate="visible"
+                        whileHover="hover"
+                        transition={{ delay: index * 0.1 }}
+                        className="h-full"
                       >
-                        <div className="relative overflow-hidden rounded-t-lg">
-                          <img
-                            src={getProductImageSrc(group.image)}
-                            alt={`${groupTitle} - ${groupDescription}`}
-                            className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                            loading="lazy"
-                            data-testid={`img-group-${group.key}`}
-                          />
-                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
-                        </div>
-
-                        <CardContent className="p-6">
-                          <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-primary dark:group-hover:text-secondary  transition-colors">
-                            {groupTitle}
-                          </h3>
-                          <p className="text-muted-foreground mb-4">
-                            {truncateText(groupDescription)}
-                          </p>
-                        </CardContent>
-                      </Card>
+                        <Card 
+                          className="group cursor-pointer border border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl h-full flex flex-col"
+                          data-testid={`card-group-${group.key}`}
+                        >
+                          <CardHeader className="pb-4 flex-shrink-0">
+                            <motion.div
+                              className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-300"
+                              whileHover={{ scale: 1.1, rotate: 5 }}
+                              transition={{ duration: 0.3 }}
+                            >
+                              <GroupIconComponent className="w-8 h-8 text-primary group-hover:scale-110 transition-transform duration-300" />
+                            </motion.div>
+                            <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary dark:group-hover:text-secondary transition-colors text-center">
+                              {groupTitle}
+                            </CardTitle>
+                            <CardDescription className="text-muted-foreground text-center">
+                              {truncateText(groupDescription)}
+                            </CardDescription>
+                          </CardHeader>
+                          <CardContent className="flex-1 flex flex-col">
+                            {group.featuredSpecs && group.featuredSpecs.length > 0 && (
+                              <div className="space-y-2 flex-1">
+                                <h4 className="font-medium text-sm text-foreground mb-3 group-hover:text-secondary">
+                                  {t("common:common.keyFeatures")}:
+                                </h4>
+                                <ul className="space-y-1">
+                                  {group.featuredSpecs.slice(0, 4).map((spec, specIndex) => (
+                                    <motion.li
+                                      key={specIndex}
+                                      className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors duration-300"
+                                      initial={{ opacity: 0, x: -10 }}
+                                      animate={{ opacity: 1, x: 0 }}
+                                      transition={{
+                                        delay: 0.5 + index * 0.1 + specIndex * 0.05,
+                                      }}
+                                    >
+                                      <motion.div
+                                        className="w-1.5 h-1.5 bg-secondary rounded-full mr-2"
+                                        whileHover={{ scale: 1.5 }}
+                                        transition={{ duration: 0.2 }}
+                                      />
+                                      {spec}
+                                    </motion.li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
+                          </CardContent>
+                        </Card>
+                      </motion.div>
                     </Link>
                   );
                 })}
