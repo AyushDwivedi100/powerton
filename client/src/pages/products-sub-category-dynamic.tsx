@@ -1,7 +1,13 @@
 import { useParams } from "wouter";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedSection } from "@/hooks/use-scroll-animation";
 import {
@@ -281,7 +287,7 @@ export default function ProductSubCategoryDynamic() {
                         transition={{ delay: index * 0.1 }}
                         className="h-full"
                       >
-                        <Card 
+                        <Card
                           className="group cursor-pointer border border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl h-full flex flex-col"
                           data-testid={`card-group-${group.key}`}
                         >
@@ -301,33 +307,39 @@ export default function ProductSubCategoryDynamic() {
                             </CardDescription>
                           </CardHeader>
                           <CardContent className="flex-1 flex flex-col">
-                            {group.featuredSpecs && group.featuredSpecs.length > 0 && (
-                              <div className="space-y-2 flex-1">
-                                <h4 className="font-medium text-sm text-foreground mb-3 group-hover:text-secondary">
-                                  {t("common:common.keyFeatures")}:
-                                </h4>
-                                <ul className="space-y-1">
-                                  {group.featuredSpecs.slice(0, 4).map((spec, specIndex) => (
-                                    <motion.li
-                                      key={specIndex}
-                                      className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors duration-300"
-                                      initial={{ opacity: 0, x: -10 }}
-                                      animate={{ opacity: 1, x: 0 }}
-                                      transition={{
-                                        delay: 0.5 + index * 0.1 + specIndex * 0.05,
-                                      }}
-                                    >
-                                      <motion.div
-                                        className="w-1.5 h-1.5 bg-secondary rounded-full mr-2"
-                                        whileHover={{ scale: 1.5 }}
-                                        transition={{ duration: 0.2 }}
-                                      />
-                                      {spec}
-                                    </motion.li>
-                                  ))}
-                                </ul>
-                              </div>
-                            )}
+                            {group.featuredSpecs &&
+                              group.featuredSpecs.length > 0 && (
+                                <div className="space-y-2 flex-1">
+                                  <h4 className="font-medium text-sm text-foreground mb-3 group-hover:text-secondary">
+                                    {t("common:common.keyFeatures")}:
+                                  </h4>
+                                  <ul className="space-y-1">
+                                    {group.featuredSpecs
+                                      .slice(0, 4)
+                                      .map((spec, specIndex) => (
+                                        <motion.li
+                                          key={specIndex}
+                                          className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors duration-300"
+                                          initial={{ opacity: 0, x: -10 }}
+                                          animate={{ opacity: 1, x: 0 }}
+                                          transition={{
+                                            delay:
+                                              0.5 +
+                                              index * 0.1 +
+                                              specIndex * 0.05,
+                                          }}
+                                        >
+                                          <motion.div
+                                            className="w-1.5 h-1.5 bg-secondary rounded-full mr-2"
+                                            whileHover={{ scale: 1.5 }}
+                                            transition={{ duration: 0.2 }}
+                                          />
+                                          {spec}
+                                        </motion.li>
+                                      ))}
+                                  </ul>
+                                </div>
+                              )}
                           </CardContent>
                         </Card>
                       </motion.div>
@@ -349,212 +361,6 @@ export default function ProductSubCategoryDynamic() {
                   </Link>
                 </div>
               )}
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
-
-      {/* Compact Overview Section */}
-      <section className="py-4 bg-background/50">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-          <AnimatedSection>
-            <div className="bg-background/80 backdrop-blur-sm rounded-2xl border border-border/50 p-6 md:p-8 hover:shadow-lg transition-all duration-500 hover:border-secondary/20 group">
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
-                <div className="lg:col-span-2 space-y-4">
-                  <h2 className="text-2xl md:text-3xl font-bold text-foreground group-hover:text-secondary transition-colors">
-                    {t("products:sections.professionalGrade")}
-                  </h2>
-                  <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                    {product.fullDescription}
-                  </p>
-                  <div className="space-y-3">
-                    <h3 className="text-lg font-semibold text-foreground group-hover:text-secondary">
-                      {t("products:sections.keyBenefits")}
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                      {Array.isArray(product.keyBenefits) &&
-                        product.keyBenefits.map((benefit, index) => (
-                          <div
-                            key={index}
-                            className="flex items-center text-sm text-muted-foreground group-hover:text-foreground hover:bg-secondary/5 p-2 rounded-lg transition-all duration-300 group cursor-default"
-                          >
-                            <CheckCircle className="w-4 h-4 text-secondary mr-2 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                            {benefit}
-                          </div>
-                        ))}
-                    </div>
-                  </div>
-                </div>
-                <div className="lg:pl-4">
-                  <Card className="border-secondary/20 hover:border-secondary/40 transition-all duration-300 hover:shadow-md">
-                    <CardContent className="p-4 md:p-6 text-center">
-                      <h3 className="text-lg font-bold mb-3 text-foreground">
-                        {t("products:sections.professionalConsultation")}
-                      </h3>
-                      <div className="mb-4">
-                        <div className="text-2xl font-bold text-secondary">
-                          {t("common:labels.free")}
-                        </div>
-                        <div className="text-xs text-muted-foreground">
-                          {t("products:sections.technicalConsultation")}
-                        </div>
-                      </div>
-                      <div className="space-y-2">
-                        <Link href="/quote" className="block">
-                          <Button
-                            size="sm"
-                            className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground py-2 text-sm"
-                          >
-                            Request Quote <Download className="ml-1 w-3 h-3" />
-                          </Button>
-                        </Link>
-                        <Link href="/contact" className="block">
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            className="w-full py-2 text-sm"
-                          >
-                            Contact <Mail className="ml-1 w-3 h-3" />
-                          </Button>
-                        </Link>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
-              </div>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
-
-      {/* Compact Applications & Industries */}
-      <section className="py-4 bg-background">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-          <AnimatedSection>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-              {/* Applications */}
-              <div className="bg-gradient-to-br from-background to-muted/30 rounded-xl border border-border/50 p-4 md:p-6 hover:shadow-md hover:border-secondary/20 transition-all duration-500 group">
-                <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary transition-colors">
-                  {t("products:sections.applications")}
-                </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                  {Array.isArray(product.applications) &&
-                    product.applications.map((application, index) => (
-                      <div
-                        key={index}
-                        className="flex items-center space-x-2 p-2 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
-                      >
-                        <div className="w-1.5 h-1.5 bg-secondary rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                        <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
-                          {application}
-                        </span>
-                      </div>
-                    ))}
-                </div>
-              </div>
-
-              {/* Technical Specifications */}
-              <div className="bg-gradient-to-br from-background to-muted/30 rounded-xl border border-border/50 p-4 md:p-6 hover:shadow-md hover:border-secondary/20 transition-all duration-500 group">
-                <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary transition-colors">
-                  {t("products:sections.technicalSpecifications")}
-                </h3>
-                <div className="grid grid-cols-1 gap-2">
-                  {Array.isArray(product.specifications) &&
-                    product.specifications.map((spec, index) => (
-                      <div
-                        key={index}
-                        className="flex items-center space-x-2 p-1 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
-                      >
-                        <div className="w-1.5 h-1.5 bg-secondary rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                        <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
-                          {spec}
-                        </span>
-                      </div>
-                    ))}
-                </div>
-              </div>
-
-              {/* Industries */}
-              <div className="bg-gradient-to-br from-background to-muted/30 rounded-xl border border-border/50 p-4 md:p-6 hover:shadow-md hover:border-secondary/20 transition-all duration-500 group">
-                <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary transition-colors">
-                  {t("products:sections.industriesServed")}
-                </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                  {Array.isArray(product.industries) &&
-                    product.industries.map((industry, index) => (
-                      <div
-                        key={index}
-                        className="flex items-center space-x-2 p-3 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default group/item"
-                      >
-                        <div className="w-1.5 h-1.5 bg-secondary rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                        <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
-                          {industry}
-                        </span>
-                      </div>
-                    ))}
-                </div>
-              </div>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
-
-      {/* Compact Features & Certifications */}
-      <section className="pb-16 py-4 bg-muted/20">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-          <AnimatedSection>
-            <div className="bg-background/90 backdrop-blur-sm rounded-2xl border border-border/50 p-4 md:p-6 hover:shadow-lg transition-all duration-500">
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 group">
-                {/* Features */}
-                <div className="lg:col-span-2">
-                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary">
-                    {t("products:sections.keyFeatures")}
-                  </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                    {Array.isArray(product.features) &&
-                      product.features.map((feature, index) => (
-                        <div
-                          key={index}
-                          className="flex items-start space-x-2 p-1 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default"
-                        >
-                          <CheckCircle className="w-3 h-3 text-secondary mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                          <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
-                            {feature}
-                          </span>
-                        </div>
-                      ))}
-                  </div>
-                </div>
-
-                {/* Certifications */}
-                <div>
-                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary">
-                    {t("products:sections.certifications")}
-                  </h3>
-                  <div className="space-y-4">
-                    <div className="flex flex-wrap gap-1">
-                      {Array.isArray(product.certifications) &&
-                        product.certifications.map((certification, index) => (
-                          <Badge
-                            key={index}
-                            variant="outline"
-                            className="text-xs text-muted-foreground group-hover:text-foreground py-1 px-2 hover:bg-secondary/10 hover:border-secondary/30 transition-colors cursor-default"
-                          >
-                            {certification}
-                          </Badge>
-                        ))}
-                    </div>
-                    <div className="p-3 bg-gradient-to-r from-secondary/5 to-primary/5 rounded-lg border-l-3 border-l-secondary hover:border-l-primary transition-colors">
-                      <h4 className="text-md font-semibold text-foreground mb-1 group-hover:text-secondary">
-                        {t("products:sections.qualityAssurance")}
-                      </h4>
-                      <p className="text-sm text-muted-foreground leading-relaxed group-hover:text-foreground">
-                        {t("products:sections.qualityAssuranceDescription")}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </AnimatedSection>
         </div>
