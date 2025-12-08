@@ -1,6 +1,38 @@
 # Powerton Engineering Website - Progress Tracker
 
-## Current Session - Import Re-verification (December 08, 2025 - 07:34 UTC)
+## Current Session - Product Detail Back Button Fix (December 08, 2025 - 08:09 UTC)
+
+### 🎯 Fix Tasks
+- [x] 1. Fix back button on product detail page to navigate to subcategory with group expanded
+
+### ✅ Implementation Summary
+**Issue**: The back button on product detail pages was navigating to the subcategory page without the specific product group expanded.
+
+**Solution**: Modified the back button link in `client/src/pages/product-detail-dynamic.tsx` to include the `?group={groupSlug}` query parameter when navigating back to the subcategory page.
+
+**Code Change**:
+```tsx
+// Before:
+<Link href={productData.categoryPath}>
+
+// After:
+<Link href={groupSlug ? `${productData.categoryPath}?group=${groupSlug}` : productData.categoryPath}>
+```
+
+**How it works**:
+- The subcategory page already has support for auto-expanding groups via the `?group=` URL query parameter (lines 79-84 of `products-sub-category-dynamic.tsx`)
+- The `groupSlug` is already available from the URL params in the product detail page
+- Now when clicking the back button, it appends `?group={groupSlug}` to the URL
+- The subcategory page reads this parameter and automatically expands that specific group
+
+**Files Modified**:
+- `client/src/pages/product-detail-dynamic.tsx` - Updated back button link
+
+**Status**: ✅ COMPLETE - Back button now leads to subcategory with group expanded
+
+---
+
+## Previous Session - Import Re-verification (December 08, 2025 - 07:34 UTC)
 
 ### 🎯 Import Completion Tasks
 - [x] 1. Install the required packages
