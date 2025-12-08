@@ -9124,7 +9124,7 @@ export const products: Product[] = [
     slug: "grundfos-cr-5-8-vertical-multistage-pump",
     categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "centrifugal-pumps",
-    typeKey: "centrifugal-pumps",
+    typeKey: "single-stage-centrifugal",
     image: "grundfos-cr-pump",
     specs: {
       manufacturer: "Grundfos",
@@ -9153,7 +9153,7 @@ export const products: Product[] = [
     slug: "ksb-etanorm-125-250-horizontal-pump",
     categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "centrifugal-pumps",
-    typeKey: "centrifugal-pumps",
+    typeKey: "single-stage-centrifugal",
     image: "ksb-etanorm-pump",
     specs: {
       manufacturer: "KSB",
@@ -9182,7 +9182,7 @@ export const products: Product[] = [
     slug: "flowserve-durco-mark-3-chemical-pump",
     categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "centrifugal-pumps",
-    typeKey: "centrifugal-pumps",
+    typeKey: "single-stage-centrifugal",
     image: "centrifugal-pump-1",
     specs: {
       manufacturer: "Flowserve",
@@ -9211,7 +9211,7 @@ export const products: Product[] = [
     slug: "sulzer-cpt-100-250-process-pump",
     categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "centrifugal-pumps",
-    typeKey: "centrifugal-pumps",
+    typeKey: "single-stage-centrifugal",
     image: "sulzer-cpt-pump",
     specs: {
       manufacturer: "Sulzer",
@@ -9239,7 +9239,7 @@ export const products: Product[] = [
     slug: "xylem-goulds-3196-heavy-duty-pump",
     categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "centrifugal-pumps",
-    typeKey: "centrifugal-pumps",
+    typeKey: "single-stage-centrifugal",
     image: "xylem-goulds-pump",
     specs: {
       manufacturer: "Xylem",
@@ -21702,7 +21702,7 @@ export const products: Product[] = [
     slug: "ksb-etanorm-c-end-suction-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "end-suction-centrifugal",
+    typeKey: "single-stage-centrifugal",
     image: "end-suction-pump",
     title: "KSB Etanorm C 050-125 End Suction Pump",
     description:
@@ -21731,7 +21731,7 @@ export const products: Product[] = [
     slug: "grundfos-tp-end-suction-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "end-suction-centrifugal",
+    typeKey: "single-stage-centrifugal",
     image: "end-suction-pump",
     title: "Grundfos TP 100-340/4 Vertical In-Line Pump",
     description:
@@ -21762,7 +21762,7 @@ export const products: Product[] = [
     slug: "grundfos-hs-split-case-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "split-case-centrifugal",
+    typeKey: "single-stage-centrifugal",
     image: "split-case-pump",
     title: "Grundfos HS 200-280 Horizontal Split Case Pump",
     description:
@@ -21791,7 +21791,7 @@ export const products: Product[] = [
     slug: "flowserve-mark-3-split-case-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "split-case-centrifugal",
+    typeKey: "single-stage-centrifugal",
     image: "split-case-pump",
     title: "Flowserve Mark 3 Split Case Pump",
     description:
@@ -21822,7 +21822,7 @@ export const products: Product[] = [
     slug: "grundfos-cr-multistage-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "multistage-centrifugal",
+    typeKey: "multi-stage-centrifugal",
     image: "multistage-pump",
     title: "Grundfos CR 15-6 Vertical Multistage Pump",
     description:
@@ -21851,7 +21851,7 @@ export const products: Product[] = [
     slug: "ksb-multitec-multistage-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "multistage-centrifugal",
+    typeKey: "multi-stage-centrifugal",
     image: "multistage-pump",
     title: "KSB Multitec 50-5 Ring-Section Pump",
     description:
@@ -28699,7 +28699,7 @@ export const products: Product[] = [
     slug: "flowserve-3180-end-suction-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "end-suction-centrifugal",
+    typeKey: "single-stage-centrifugal",
     image: "end-suction-pump",
     title: "Flowserve 3180 End Suction Pump",
     description:
@@ -28728,7 +28728,7 @@ export const products: Product[] = [
     slug: "patterson-20-series-end-suction-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "end-suction-centrifugal",
+    typeKey: "single-stage-centrifugal",
     image: "end-suction-pump",
     title: "Patterson 20 Series End Suction Pump",
     description:
@@ -28757,7 +28757,7 @@ export const products: Product[] = [
     slug: "xylem-lowara-esh-end-suction-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "end-suction-centrifugal",
+    typeKey: "single-stage-centrifugal",
     image: "end-suction-pump",
     title: "Xylem Lowara e-SH End Suction Pump",
     description:
@@ -28788,7 +28788,7 @@ export const products: Product[] = [
     slug: "ksb-omega-split-case-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "split-case-centrifugal",
+    typeKey: "single-stage-centrifugal",
     image: "split-case-pump",
     title: "KSB Omega Split Case Pump",
     description:
@@ -28817,7 +28817,7 @@ export const products: Product[] = [
     slug: "patterson-split-case-hvac-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "split-case-centrifugal",
+    typeKey: "single-stage-centrifugal",
     image: "split-case-pump",
     title: "Patterson Split Case HVAC Pump",
     description:
@@ -28846,7 +28846,7 @@ export const products: Product[] = [
     slug: "peerless-8tsc-split-case-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "split-case-centrifugal",
+    typeKey: "single-stage-centrifugal",
     image: "split-case-pump",
     title: "Peerless Pump 8TSC Split Case",
     description:
@@ -28877,7 +28877,7 @@ export const products: Product[] = [
     slug: "flowserve-dmx-multistage-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "multistage-centrifugal",
+    typeKey: "multi-stage-centrifugal",
     image: "multistage-pump",
     title: "Flowserve DMX Multistage Pump",
     description:
@@ -28906,7 +28906,7 @@ export const products: Product[] = [
     slug: "sulzer-msd-ro-multistage-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "multistage-centrifugal",
+    typeKey: "multi-stage-centrifugal",
     image: "multistage-pump",
     title: "Sulzer MSD-RO Multistage Pump",
     description:
@@ -28935,7 +28935,7 @@ export const products: Product[] = [
     slug: "ebara-evm-vertical-multistage-pump",
     categoryKey: "pumps-valves",
     subcategoryKey: "industrial-pumps",
-    typeKey: "multistage-centrifugal",
+    typeKey: "multi-stage-centrifugal",
     image: "multistage-pump",
     title: "Ebara EVM Vertical Multistage Pump",
     description:
