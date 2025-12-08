@@ -141,7 +141,7 @@ const ProductDetailDynamic: React.FC = () => {
               asChild
               data-testid="link-back-to-parent"
             >
-              <Link href={groupSlug ? `${productData.categoryPath}?group=${groupSlug}` : productData.categoryPath}>
+              <Link href={groupSlug ? `/products/${parentSlug}/${subcategorySlug}?group=${groupSlug}` : productData.categoryPath}>
                 <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
                 {t("common:buttons.backTo")} {productData.backLabel}
               </Link>

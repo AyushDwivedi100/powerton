@@ -1,34 +1,42 @@
 # Powerton Engineering Website - Progress Tracker
 
-## Current Session - Product Detail Back Button Fix (December 08, 2025 - 08:09 UTC)
+## Current Session - Product Detail Back Button Fix (December 08, 2025 - 08:14 UTC)
 
 ### 🎯 Fix Tasks
 - [x] 1. Fix back button on product detail page to navigate to subcategory with group expanded
 
 ### ✅ Implementation Summary
-**Issue**: The back button on product detail pages was navigating to the subcategory page without the specific product group expanded.
+**Issue**: The back button on product detail pages was navigating to the subcategory page without the specific product group expanded. Additionally, the initial fix caused duplicate group slugs in the URL because `productData.categoryPath` already included the group in the path.
 
-**Solution**: Modified the back button link in `client/src/pages/product-detail-dynamic.tsx` to include the `?group={groupSlug}` query parameter when navigating back to the subcategory page.
+**Solution**: Modified the back button link in `client/src/pages/product-detail-dynamic.tsx` to construct the correct subcategory URL using `parentSlug` and `subcategorySlug` from URL params (instead of using `productData.categoryPath` which includes the group).
 
 **Code Change**:
 ```tsx
-// Before:
+// Before (original):
 <Link href={productData.categoryPath}>
 
-// After:
+// First attempt (wrong - caused duplicate group in URL):
 <Link href={groupSlug ? `${productData.categoryPath}?group=${groupSlug}` : productData.categoryPath}>
+
+// Final fix (correct):
+<Link href={groupSlug ? `/products/${parentSlug}/${subcategorySlug}?group=${groupSlug}` : productData.categoryPath}>
 ```
 
+**URL Examples**:
+- **Before**: `/products/electrical-accessories/heating-elements-appliances/heating-elements` (no auto-expand)
+- **Wrong (first attempt)**: `/products/electrical-accessories/heating-elements-appliances/heating-elements?group=heating-elements` (duplicate group)
+- **Correct (final)**: `/products/electrical-accessories/heating-elements-appliances?group=heating-elements` (subcategory with group expanded)
+
 **How it works**:
-- The subcategory page already has support for auto-expanding groups via the `?group=` URL query parameter (lines 79-84 of `products-sub-category-dynamic.tsx`)
-- The `groupSlug` is already available from the URL params in the product detail page
-- Now when clicking the back button, it appends `?group={groupSlug}` to the URL
-- The subcategory page reads this parameter and automatically expands that specific group
+- The subcategory page already has support for auto-expanding groups via the `?group=` URL query parameter
+- Instead of using `productData.categoryPath` (which includes the group), we construct the URL manually using `parentSlug` and `subcategorySlug` from useParams
+- The subcategory page reads the `?group=` parameter and automatically expands that specific group
+- The page also scrolls to the expanded group
 
 **Files Modified**:
 - `client/src/pages/product-detail-dynamic.tsx` - Updated back button link
 
-**Status**: ✅ COMPLETE - Back button now leads to subcategory with group expanded
+**Status**: ✅ COMPLETE - Back button now correctly leads to subcategory with group expanded
 
 ---
 
