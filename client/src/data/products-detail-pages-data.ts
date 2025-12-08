@@ -6777,7 +6777,7 @@ export const products: Product[] = [
     slug: "belden-8205-instrumentation-cable",
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
-    typeKey: "instrumentation-cables",
+    typeKey: "shielded-pair-cables-2p",
     image: "instrumentation-cable",
     translationKeys: {
       title: "products-data:belden8205.title",
@@ -6803,7 +6803,7 @@ export const products: Product[] = [
     slug: "belden-8442-instrumentation-cable",
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
-    typeKey: "instrumentation-cables",
+    typeKey: "shielded-pair-cables-2p",
     image: "instrumentation-cable",
     translationKeys: {
       title: "products-data:belden8442.title",
@@ -6829,7 +6829,7 @@ export const products: Product[] = [
     slug: "belden-8725-instrumentation-cable",
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
-    typeKey: "instrumentation-cables",
+    typeKey: "shielded-pair-cables-2p",
     image: "instrumentation-cable",
     translationKeys: {
       title: "products-data:belden8725.title",
@@ -6856,7 +6856,7 @@ export const products: Product[] = [
     slug: "alpha-wire-9174-instrumentation-cable",
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
-    typeKey: "instrumentation-cables",
+    typeKey: "shielded-pair-cables-2p",
     image: "instrumentation-cable",
     translationKeys: {
       title: "products-data:alphaWire9174.title",
@@ -6882,7 +6882,7 @@ export const products: Product[] = [
     slug: "alpha-wire-xtra-guard-4-cable",
     categoryKey: "electrical-accessories",
     subcategoryKey: "electrical-cables",
-    typeKey: "instrumentation-cables",
+    typeKey: "shielded-pair-cables-2p",
     image: "instrumentation-cable",
     translationKeys: {
       title: "products-data:alphaWireXtraGuard4.title",
@@ -25998,7 +25998,7 @@ export const products: Product[] = [
     slug: "siemens-3ra22-star-delta-starter",
     categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
-    typeKey: "star-delta-starter",
+    typeKey: "soft-starter",
     image: "star-delta-starter",
     title: "Siemens SIRIUS 3RA22 Star-Delta Starter",
     description:
@@ -26026,7 +26026,7 @@ export const products: Product[] = [
     slug: "schneider-lc3d32-star-delta-starter",
     categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
-    typeKey: "star-delta-starter",
+    typeKey: "soft-starter",
     image: "star-delta-starter",
     title: "Schneider Electric TeSys D Star-Delta Starter",
     description:
@@ -26054,7 +26054,7 @@ export const products: Product[] = [
     slug: "abb-af38-star-delta-starter",
     categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
-    typeKey: "star-delta-starter",
+    typeKey: "soft-starter",
     image: "star-delta-starter",
     title: "ABB AF38 Star-Delta Starter Assembly",
     description:
@@ -26084,7 +26084,7 @@ export const products: Product[] = [
     slug: "siemens-3ra23-reversing-starter",
     categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
-    typeKey: "forward-reverse-starter",
+    typeKey: "soft-starter",
     image: "reversing-starter",
     title: "Siemens SIRIUS 3RA23 Reversing Starter",
     description:
@@ -26112,7 +26112,7 @@ export const products: Product[] = [
     slug: "schneider-lc2d-reversing-starter",
     categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
-    typeKey: "forward-reverse-starter",
+    typeKey: "soft-starter",
     image: "reversing-starter",
     title: "Schneider Electric TeSys D Reversing Starter",
     description:
@@ -26140,7 +26140,7 @@ export const products: Product[] = [
     slug: "abb-af26-reversing-starter",
     categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
-    typeKey: "forward-reverse-starter",
+    typeKey: "soft-starter",
     image: "reversing-starter",
     title: "ABB AF26 Reversing Contactor Assembly",
     description:
@@ -26170,7 +26170,7 @@ export const products: Product[] = [
     slug: "siemens-3rt2-reversing-contactor",
     categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
-    typeKey: "reversing-contactor",
+    typeKey: "power-contactors",
     image: "reversing-contactor",
     title: "Siemens 3RT20 Reversing Contactor",
     description:
@@ -26198,7 +26198,7 @@ export const products: Product[] = [
     slug: "schneider-lc2k-reversing-contactor",
     categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
-    typeKey: "reversing-contactor",
+    typeKey: "power-contactors",
     image: "reversing-contactor",
     title: "Schneider Electric TeSys K Reversing Contactor",
     description:
@@ -26226,7 +26226,7 @@ export const products: Product[] = [
     slug: "abb-af09-reversing-contactor",
     categoryKey: "electrical-accessories",
     subcategoryKey: "motor-starters",
-    typeKey: "reversing-contactor",
+    typeKey: "power-contactors",
     image: "reversing-contactor",
     title: "ABB AF09-R Reversing Contactor",
     description:
@@ -26256,7 +26256,7 @@ export const products: Product[] = [
     slug: "phoenix-vt2-plus-surge-protector",
     categoryKey: "electrical-accessories",
     subcategoryKey: "surge-protection",
-    typeKey: "surge-protection-devices",
+    typeKey: "ac-surge-protectors",
     image: "surge-protector",
     title: "Phoenix Contact VAL-MS-T1/T2 Surge Protector",
     description:
@@ -26284,7 +26284,7 @@ export const products: Product[] = [
     slug: "schneider-iprd-surge-protector",
     categoryKey: "electrical-accessories",
     subcategoryKey: "surge-protection",
-    typeKey: "surge-protection-devices",
+    typeKey: "ac-surge-protectors",
     image: "surge-protector",
     title: "Schneider Electric iPRD 40r Surge Protector",
     description:
@@ -26312,7 +26312,7 @@ export const products: Product[] = [
     slug: "abb-ovr-t2-surge-protector",
     categoryKey: "electrical-accessories",
     subcategoryKey: "surge-protection",
-    typeKey: "surge-protection-devices",
+    typeKey: "ac-surge-protectors",
     image: "surge-protector",
     title: "ABB OVR T2 Surge Protective Device",
     description:
@@ -26342,7 +26342,7 @@ export const products: Product[] = [
     slug: "eritech-ground-bar-copper",
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
-    typeKey: "grounding-materials",
+    typeKey: "equipment-grounding",
     image: "ground-bar",
     title: "ERITECH Copper Ground Bar",
     description:
@@ -26370,7 +26370,7 @@ export const products: Product[] = [
     slug: "galmar-copper-ground-conductor",
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
-    typeKey: "grounding-materials",
+    typeKey: "equipment-grounding",
     image: "ground-conductor",
     title: "Galmar Copper Flat Conductor",
     description:
@@ -26398,7 +26398,7 @@ export const products: Product[] = [
     slug: "erico-ground-rod-clamp",
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
-    typeKey: "grounding-materials",
+    typeKey: "equipment-grounding",
     image: "ground-clamp",
     title: "ERICO Ground Rod Clamp",
     description:
@@ -26428,7 +26428,7 @@ export const products: Product[] = [
     slug: "eritech-copper-bonded-earth-rod",
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
-    typeKey: "earthing-rods",
+    typeKey: "earthing-strips",
     image: "earth-rod",
     title: "ERITECH Copper-Bonded Earth Rod",
     description:
@@ -26456,7 +26456,7 @@ export const products: Product[] = [
     slug: "galmar-solid-copper-earth-rod",
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
-    typeKey: "earthing-rods",
+    typeKey: "earthing-strips",
     image: "earth-rod",
     title: "Galmar Solid Copper Earth Rod",
     description:
@@ -26484,7 +26484,7 @@ export const products: Product[] = [
     slug: "copperweld-earth-electrode-rod",
     categoryKey: "electrical-accessories",
     subcategoryKey: "grounding-earthing",
-    typeKey: "earthing-rods",
+    typeKey: "earthing-strips",
     image: "earth-rod",
     title: "Copperweld Ground Rod Electrode",
     description:
@@ -26544,7 +26544,7 @@ export const products: Product[] = [
     slug: "sick-c4000-safety-light-curtain",
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
-    typeKey: "safety-light-curtains",
+    typeKey: "safety-barriers",
     image: "light-curtain",
     title: "SICK C4000 Palletizer Safety Light Curtain",
     description:
@@ -26572,7 +26572,7 @@ export const products: Product[] = [
     slug: "banner-slse-safety-light-curtain",
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
-    typeKey: "safety-light-curtains",
+    typeKey: "safety-barriers",
     image: "light-curtain",
     title: "Banner SL-SE30 Safety Light Curtain",
     description:
@@ -26600,7 +26600,7 @@ export const products: Product[] = [
     slug: "omron-f3sg-safety-light-curtain",
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
-    typeKey: "safety-light-curtains",
+    typeKey: "safety-barriers",
     image: "light-curtain",
     title: "Omron F3SG-R Safety Light Curtain",
     description:
@@ -26630,7 +26630,7 @@ export const products: Product[] = [
     slug: "pilz-pnoz-s5c-safety-controller",
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
-    typeKey: "safety-controllers",
+    typeKey: "safety-relays",
     image: "safety-controller-sil",
     title: "Pilz PNOZ s5 C Safety Relay",
     description:
@@ -26658,7 +26658,7 @@ export const products: Product[] = [
     slug: "allen-bradley-msr57p-safety-relay",
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
-    typeKey: "safety-controllers",
+    typeKey: "safety-relays",
     image: "safety-controller-sil",
     title: "Allen-Bradley MSR57P Safety Relay",
     description:
@@ -26686,7 +26686,7 @@ export const products: Product[] = [
     slug: "siemens-3sk1-safety-controller",
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
-    typeKey: "safety-controllers",
+    typeKey: "safety-relays",
     image: "safety-controller-sil",
     title: "Siemens 3SK1 Safety Relay",
     description:
@@ -26716,7 +26716,7 @@ export const products: Product[] = [
     slug: "schmersal-azm-161-safety-interlock",
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
-    typeKey: "safety-interlocks",
+    typeKey: "safety-switches",
     image: "safety-interlock-guard",
     title: "Schmersal AZM 161 Safety Interlock",
     description:
@@ -26744,7 +26744,7 @@ export const products: Product[] = [
     slug: "euchner-ctp-safety-interlock",
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
-    typeKey: "safety-interlocks",
+    typeKey: "safety-switches",
     image: "safety-interlock-guard",
     title: "Euchner CTP Safety Interlock",
     description:
@@ -26772,7 +26772,7 @@ export const products: Product[] = [
     slug: "sick-i14-safety-interlock",
     categoryKey: "safety-equipment",
     subcategoryKey: "safety-devices",
-    typeKey: "safety-interlocks",
+    typeKey: "safety-switches",
     image: "safety-interlock-guard",
     title: "SICK i14 Safety Locking Device",
     description:
@@ -26837,7 +26837,7 @@ export const products: Product[] = [
     slug: "turck-ni15-m30-proximity-switch",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "proximity-switches",
+    typeKey: "pnp-npn-sensors",
     image: "proximity-switch",
     title: "Turck Ni15-M30 Inductive Proximity Switch",
     description:
@@ -26865,7 +26865,7 @@ export const products: Product[] = [
     slug: "ifm-ie5-inductive-proximity-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "proximity-switches",
+    typeKey: "pnp-npn-sensors",
     image: "proximity-switch",
     title: "ifm IE5 Inductive Proximity Sensor",
     description:
@@ -26893,7 +26893,7 @@ export const products: Product[] = [
     slug: "pepperl-fuchs-nbb-proximity-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "proximity-switches",
+    typeKey: "pnp-npn-sensors",
     image: "proximity-switch",
     title: "Pepperl+Fuchs NBB5 Inductive Sensor",
     description:
@@ -26923,7 +26923,7 @@ export const products: Product[] = [
     slug: "siemens-3rg62-ultrasonic-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "ultrasonic-sensors",
+    typeKey: "pnp-npn-sensors",
     image: "ultrasonic-sensor",
     title: "Siemens SIRIUS 3RG6 Ultrasonic Sensor",
     description:
@@ -26951,7 +26951,7 @@ export const products: Product[] = [
     slug: "banner-t30uxua-ultrasonic-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "ultrasonic-sensors",
+    typeKey: "pnp-npn-sensors",
     image: "ultrasonic-sensor",
     title: "Banner T30UXUA Ultrasonic Sensor",
     description:
@@ -26979,7 +26979,7 @@ export const products: Product[] = [
     slug: "turck-ru-ultrasonic-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "ultrasonic-sensors",
+    typeKey: "pnp-npn-sensors",
     image: "ultrasonic-sensor",
     title: "Turck RU40U Ultrasonic Sensor",
     description:
@@ -27009,7 +27009,7 @@ export const products: Product[] = [
     slug: "keyence-pr-photoelectric-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "photoelectric-sensors",
+    typeKey: "pnp-npn-sensors",
     image: "photoelectric-sensor",
     title: "Keyence PR-M51N3 Photoelectric Sensor",
     description:
@@ -27037,7 +27037,7 @@ export const products: Product[] = [
     slug: "allen-bradley-42ef-photoelectric-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "photoelectric-sensors",
+    typeKey: "pnp-npn-sensors",
     image: "photoelectric-sensor",
     title: "Allen-Bradley 42EF RightSight Sensor",
     description:
@@ -27065,7 +27065,7 @@ export const products: Product[] = [
     slug: "leuze-hrtr-photoelectric-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "photoelectric-sensors",
+    typeKey: "pnp-npn-sensors",
     image: "photoelectric-sensor",
     title: "Leuze HRTR 3B Retro-Reflective Sensor",
     description:
@@ -27095,7 +27095,7 @@ export const products: Product[] = [
     slug: "wika-en837-pressure-gauge",
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
-    typeKey: "pressure-gauges",
+    typeKey: "pressure-switches",
     image: "pressure-gauge",
     title: "WIKA EN837-1 Bourdon Tube Pressure Gauge",
     description:
@@ -27123,7 +27123,7 @@ export const products: Product[] = [
     slug: "ashcroft-1279-pressure-gauge",
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
-    typeKey: "pressure-gauges",
+    typeKey: "pressure-switches",
     image: "pressure-gauge",
     title: "Ashcroft 1279 Industrial Pressure Gauge",
     description:
@@ -27151,7 +27151,7 @@ export const products: Product[] = [
     slug: "emerson-rosemount-pressure-gauge",
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
-    typeKey: "pressure-gauges",
+    typeKey: "pressure-switches",
     image: "pressure-gauge",
     title: "Emerson Rosemount Tank Pressure Gauge",
     description:
@@ -27179,7 +27179,7 @@ export const products: Product[] = [
     slug: "wika-a52-temperature-gauge",
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
-    typeKey: "temperature-gauges",
+    typeKey: "rtd-thermocouples-sensors",
     image: "temperature-gauge",
     title: "WIKA A52 Bimetal Temperature Gauge",
     description:
@@ -27207,7 +27207,7 @@ export const products: Product[] = [
     slug: "ashcroft-c-450a-temperature-gauge",
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
-    typeKey: "temperature-gauges",
+    typeKey: "rtd-thermocouples-sensors",
     image: "temperature-gauge",
     title: "Ashcroft C-450A Industrial Thermometer",
     description:
@@ -27235,7 +27235,7 @@ export const products: Product[] = [
     slug: "yokogawa-yt-temperature-gauge",
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
-    typeKey: "temperature-gauges",
+    typeKey: "rtd-thermocouples-sensors",
     image: "temperature-gauge",
     title: "Yokogawa YT-100 Digital Temperature Gauge",
     description:
@@ -27265,7 +27265,7 @@ export const products: Product[] = [
     slug: "wika-mlg-magnetic-level-gauge",
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
-    typeKey: "level-gauges",
+    typeKey: "level-switches",
     image: "level-gauge",
     title: "WIKA MLG Magnetic Level Gauge",
     description:
@@ -27293,7 +27293,7 @@ export const products: Product[] = [
     slug: "krohne-bm26-magnetic-level-gauge",
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
-    typeKey: "level-gauges",
+    typeKey: "level-switches",
     image: "level-gauge",
     title: "KROHNE BM26 Level Gauge",
     description:
@@ -27321,7 +27321,7 @@ export const products: Product[] = [
     slug: "emerson-magnetic-level-gauge",
     categoryKey: "measurement-equipment",
     subcategoryKey: "panel-indicators",
-    typeKey: "level-gauges",
+    typeKey: "level-switches",
     image: "level-gauge",
     title: "Emerson Gemini Magnetic Level Gauge",
     description:
@@ -27351,7 +27351,7 @@ export const products: Product[] = [
     slug: "vaisala-hmp7-humidity-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "humidity-sensors",
+    typeKey: "rtd-thermocouples-sensors",
     image: "humidity-sensor",
     title: "Vaisala HMP7 Humidity Probe",
     description:
@@ -27379,7 +27379,7 @@ export const products: Product[] = [
     slug: "e-plus-e-ee210-humidity-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "humidity-sensors",
+    typeKey: "rtd-thermocouples-sensors",
     image: "humidity-sensor",
     title: "E+E Elektronik EE210 Humidity Transmitter",
     description:
@@ -27407,7 +27407,7 @@ export const products: Product[] = [
     slug: "siemens-qfm-humidity-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    typeKey: "humidity-sensors",
+    typeKey: "rtd-thermocouples-sensors",
     image: "humidity-sensor",
     title: "Siemens QFM2160 Duct Humidity Sensor",
     description:
@@ -27435,7 +27435,7 @@ export const products: Product[] = [
     slug: "siemens-8wd44-led-indicator",
     categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
-    typeKey: "led-indicating-lights",
+    typeKey: "push-buttons",
     image: "led-indicator",
     title: "Siemens 8WD44 LED Indicator Light",
     description:
@@ -27463,7 +27463,7 @@ export const products: Product[] = [
     slug: "patlite-lr6-led-signal-tower",
     categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
-    typeKey: "led-indicating-lights",
+    typeKey: "push-buttons",
     image: "led-indicator",
     title: "Patlite LR6 LED Signal Tower",
     description:
@@ -27491,7 +27491,7 @@ export const products: Product[] = [
     slug: "werma-kombi-sign-led-beacon",
     categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
-    typeKey: "led-indicating-lights",
+    typeKey: "push-buttons",
     image: "led-indicator",
     title: "WERMA KombiSIGN 40 LED Beacon",
     description:
@@ -27521,7 +27521,7 @@ export const products: Product[] = [
     slug: "siemens-3su1-selector-switch",
     categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
-    typeKey: "selector-switches",
+    typeKey: "push-buttons",
     image: "selector-switch",
     title: "Siemens 3SU1 Selector Switch",
     description:
@@ -27549,7 +27549,7 @@ export const products: Product[] = [
     slug: "schneider-xb4-selector-switch",
     categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
-    typeKey: "selector-switches",
+    typeKey: "push-buttons",
     image: "selector-switch",
     title: "Schneider Electric XB4 Selector Switch",
     description:
@@ -27577,7 +27577,7 @@ export const products: Product[] = [
     slug: "eaton-m22-selector-switch",
     categoryKey: "electrical-accessories",
     subcategoryKey: "controls-switches",
-    typeKey: "selector-switches",
+    typeKey: "push-buttons",
     image: "selector-switch",
     title: "Eaton M22 Selector Switch",
     description:
