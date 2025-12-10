@@ -17,7 +17,7 @@ import {
   AnimatedSection,
   useScrollAnimations,
 } from "@/hooks/use-scroll-animation";
-import careerHeroImage from "@assets/generated_images/Engineering_Team_Working_82b3dac7.png";
+import careerHeroImage from "@assets/generated_images/engineering_workplace_career_hero.png";
 import CareerApplicationForm from "@/components/forms/career-application-form";
 
 export default function Career() {

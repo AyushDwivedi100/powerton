@@ -5,24 +5,28 @@
 ### Fix Tasks
 - [x] 1. Fix career page not opening
 - [x] 2. Fix contact page not opening
+- [x] 3. Generate unique hero image for career page
 
 ### Fix Summary
 
 **Issue 1**: Career page was failing to load with error "Failed to resolve import @assets/generated_images/Career_hero_background_no_people_e9264eb4.png"
 
-**Solution 1**: Fixed the image import in `career.tsx` by replacing the missing image with an available one:
-- `Career_hero_background_no_people_e9264eb4.png` (missing) -> `Engineering_Team_Working_82b3dac7.png` (available)
+**Solution 1**: Initially fixed with existing image, then generated a custom unique image for the career page hero section.
 
 **Issue 2**: Contact page was failing to load with error "Failed to resolve import @assets/generated_images/Contact_Center_Industrial_Office_456e0bfc.png"
 
 **Solution 2**: Fixed the image import in `contact.tsx` by replacing the missing image with an available one:
 - `Contact_Center_Industrial_Office_456e0bfc.png` (missing) -> `Corporate_Office_Meeting_Environment_5f01f890.png` (available)
 
-**Files Modified**:
-- `client/src/pages/career.tsx` - Fixed hero image import
-- `client/src/pages/contact.tsx` - Fixed hero image import
+**Task 3**: Generated a unique hero image for career page showing a modern engineering workplace with industrial automation equipment, computer workstations, and robotic arms.
+- New image: `engineering_workplace_career_hero.png`
 
-**Status**: COMPLETE - Both career and contact pages now loading correctly
+**Files Modified**:
+- `client/src/pages/career.tsx` - Updated to use new custom-generated hero image
+- `client/src/pages/contact.tsx` - Fixed hero image import
+- `attached_assets/generated_images/engineering_workplace_career_hero.png` - New generated image
+
+**Status**: COMPLETE - Career page has unique generated hero image, contact page fixed
 
 ---
 
