@@ -29,7 +29,7 @@ import { getProductSubCategoryBySlug } from "@/data/products-sub-category-pages-
 import { getGroupsForSubcategory } from "@/data/products-detail-pages-data";
 import { getProductImageSrc } from "@/assets/images";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
-import { ProductGroupPanel } from "@/components/ProductGroupPanel";
+import { ProductGroupPanel } from "@/components/ui/ProductGroupPanel";
 
 // Utility function to truncate text by word count
 const truncateText = (text: string, maxWords: number = 20): string => {
