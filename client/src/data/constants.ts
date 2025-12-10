@@ -669,12 +669,6 @@ export const getClientLogos = (t: any) => [
     fallback: corporateClientImage,
   },
   {
-    id: "ankur",
-    name: t("common:clients.ankur"),
-    logo: "https://www.ankurscientific.com/image/logo.png",
-    fallback: corporateClientImage,
-  },
-  {
     id: "dls",
     name: t("common:clients.dls"),
     logo: "https://dlsenvirotech.com/assets/dls-envirotech-logo-BvPrpv-6.png",
@@ -702,12 +696,6 @@ export const getClientLogos = (t: any) => [
     id: "nv-group",
     name: t("common:clients.nv-group"),
     logo: "https://www.nvgroup.co.in/cdn/shop/files/nv-logo-new.png",
-    fallback: corporateClientImage,
-  },
-  {
-    id: "anand-nv",
-    name: t("common:clients.anand-nv"),
-    logo: "https://www.anandnvh.com/images/logo.png",
     fallback: corporateClientImage,
   },
   {
@@ -779,7 +767,7 @@ export const getClientLogos = (t: any) => [
   {
     id: "bkBuilder",
     name: t("common:clients.bkBuilder"),
-    logo: "http://bkbuilders.in/images/logo-3-min.png",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdGjjZ4csTbKyRXthwqDBtQD6SFT9b6J5yPQ&s",
     fallback: corporateClientImage,
   },
 ];

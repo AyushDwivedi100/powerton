@@ -635,21 +635,27 @@
     }
   },
   "clients": {
-    "sci-group": "Shirika la Usafirishaji la India",
-    "agribio": "AgriBio Ujerumani",
-    "motherson": "Kikundi cha Motherson",
-    "praj": "Viwanda vya Praj",
+    "agribio": "Agribiotech Industries Ltd.",
+    "motherson": "Motherson Group",
+    "praj": "Praj Industries",
     "thermax": "Thermax Limited",
-    "ankur": "Teknolojia ya Nishati ya Sayansi ya Ankur",
-    "dls": "DLS India",
-    "boudh": "Kiwanda cha Pombe cha Boudh",
-    "lokmangal": "Kikundi cha Lokmangal",
-    "marcuras": "Udhibiti wa Maji wa Marcuras",
-    "nv-group": "Kikundi cha NV",
-    "anand-nv": "Anand NV",
-    "dhanuka": "Dhanuka Agritech",
-    "mjson": "MJSON",
-    "procient": "Procient"
+    "dls": "DLS Envirotech Corporation Pvt. Ltd.",
+    "boudh": "Boudh Distillery Pvt. Ltd.",
+    "lokmangal": "Lokmangal Group",
+    "marcuras": "Marcuras Water Treatment (I) Pvt. Ltd.",
+    "nv-group": "NV Distilleries and Breweries Pvt. Ltd.",
+    "dhanuka": "Dhanuka Soya Pvt. Ltd.",
+    "procient": "Procient Engineering Pvt. Ltd.",
+    "excel": "Regreen Excel EPC India Ltd.",
+    "globusSpirits": "Globus Spirits Limited",
+    "bkBuilder": "BK Builder Pvt. Ltd.",
+    "reps": "REPS En-Tech Pvt. Ltd.",
+    "patelAgri": "Patel Agri Industries Pvt. Ltd.",
+    "bottmac": "Bottmac India Pvt. Ltd.",
+    "proIndustries": "Pro Industries Pte. Ltd.",
+    "muzaffarpur": "Muzaffarpur Bio Fuels Pvt. Ltd.",
+    "kribhco": "Krishak Bharati Co-Op Ltd.",
+    "lugazi": "Sugar Corporation of Uganda Ltd."
   },
   "copyright": {
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. Haki zote zimehifadhiwa.",
@@ -741,8 +747,8 @@
     "selectLanguage": "Chagua Lugha",
     "close": "Funga",
     "dismiss": "Ondoa",
-    "toast": "Toast",  
-    "contactBadges":{
+    "toast": "Toast",
+    "contactBadges": {
       "whatsapp": "WhatsApp",
       "justDial": "Just Dial"
     },
