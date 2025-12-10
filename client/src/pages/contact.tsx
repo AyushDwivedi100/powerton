@@ -9,7 +9,7 @@ import {
 import { useTheme } from "@/hooks/use-theme";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
-import contactHeroImage from "@assets/generated_images/Contact_Center_Industrial_Office_456e0bfc.png";
+import contactHeroImage from "@assets/generated_images/Corporate_Office_Meeting_Environment_5f01f890.png";
 import {
   Phone,
   Mail,
