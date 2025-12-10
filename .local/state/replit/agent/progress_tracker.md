@@ -1,6 +1,25 @@
 # Powerton Engineering Website - Progress Tracker
 
-## Current Session - Import Migration (December 10, 2025 - 08:54 UTC)
+## Current Session - Career Page Fix (December 10, 2025 - 08:58 UTC)
+
+### Fix Tasks
+- [x] 1. Fix career page not opening
+
+### Fix Summary
+
+**Issue**: Career page was failing to load with error "Failed to resolve import @assets/generated_images/Career_hero_background_no_people_e9264eb4.png"
+
+**Solution**: Fixed the image import in `career.tsx` by replacing the missing image with an available one:
+- `Career_hero_background_no_people_e9264eb4.png` (missing) -> `Engineering_Team_Working_82b3dac7.png` (available)
+
+**Files Modified**:
+- `client/src/pages/career.tsx` - Fixed hero image import
+
+**Status**: COMPLETE - Career page now loading correctly with team engineering background
+
+---
+
+## Previous Session - Import Migration (December 10, 2025 - 08:54 UTC)
 
 ### Import Completion Tasks
 - [x] 1. Install the required packages
