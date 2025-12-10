@@ -128,7 +128,7 @@ export default function ClientsSection() {
                   : "animate-infinite-scroll"
               } ${isHovered ? "paused" : ""}`}
               style={{
-                width: `${clientLogos.length * 2 * 162}px`, // Double width for seamless loop (162px per card)
+                width: `${clientLogos.length * 2 * 182}px`, // Double width for seamless loop (182px per card)
               }}
             >
               {/* Render clients twice for seamless infinite loop */}
@@ -137,10 +137,10 @@ export default function ClientsSection() {
                   key={`${client.id}-${Math.floor(
                     index / clientLogos.length
                   )}`}
-                  className="flex-shrink-0 bg-card rounded-lg border border-border p-2 md:p-3 lg:p-4 flex items-center justify-center hover:shadow-lg transition-all duration-300 mx-2 md:mx-3 lg:mx-4"
+                  className="flex-shrink-0 bg-white dark:bg-white rounded-lg border border-border p-3 md:p-4 lg:p-5 flex items-center justify-center hover:shadow-lg transition-all duration-300 mx-2 md:mx-3 lg:mx-4"
                   style={{
-                    width: "130px",
-                    minWidth: "130px",
+                    width: "150px",
+                    minWidth: "150px",
                   }}
                 >
                   <div className="text-center w-full">
@@ -150,13 +150,13 @@ export default function ClientsSection() {
                         `common:clients.${client.id}`,
                         client.name
                       )} company logo`}
-                      className="w-full h-8 md:h-10 lg:h-12 object-contain mb-1"
+                      className="w-full h-12 md:h-14 lg:h-16 object-contain mb-1"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         target.src = client.fallback;
                       }}
                     />
-                    <span className="text-xs md:text-xs lg:text-sm font-medium text-muted-foreground block text-center">
+                    <span className="text-xs md:text-xs lg:text-sm font-medium text-gray-700 dark:text-gray-700 block text-center">
                       {t(`common:clients.${client.id}`, client.name)}
                     </span>
                   </div>

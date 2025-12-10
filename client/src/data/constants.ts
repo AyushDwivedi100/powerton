@@ -81,20 +81,20 @@ export const getProducts = (t: any) => [
     id: "instrumentation-accessories",
     title: t("products:categories.instrumentation-accessories.title"),
     description: t(
-      "products:categories.instrumentation-accessories.description"
+      "products:categories.instrumentation-accessories.description",
     ),
     icon: "Gauge",
     image: getProductImage("instrumentation-accessories")?.src || "",
     features: [
       t(
-        "products:categories.instrumentation-accessories.features.pressure-transmitters"
+        "products:categories.instrumentation-accessories.features.pressure-transmitters",
       ),
       t(
-        "products:categories.instrumentation-accessories.features.temperature-sensors"
+        "products:categories.instrumentation-accessories.features.temperature-sensors",
       ),
       t("products:categories.instrumentation-accessories.features.flow-meters"),
       t(
-        "products:categories.instrumentation-accessories.features.level-indicators"
+        "products:categories.instrumentation-accessories.features.level-indicators",
       ),
       t("products:categories.instrumentation-accessories.features.analyzers"),
     ],
@@ -102,12 +102,16 @@ export const getProducts = (t: any) => [
       {
         id: "sensors-transducers",
         title: t("products:subcategories.sensors-transducers.title"),
-        description: t("products:subcategories.sensors-transducers.description"),
+        description: t(
+          "products:subcategories.sensors-transducers.description",
+        ),
       },
       {
         id: "transmitters-flow-meters",
         title: t("products:subcategories.transmitters-flow-meters.title"),
-        description: t("products:subcategories.transmitters-flow-meters.description"),
+        description: t(
+          "products:subcategories.transmitters-flow-meters.description",
+        ),
       },
       {
         id: "switches-indicators",
@@ -127,12 +131,16 @@ export const getProducts = (t: any) => [
       {
         id: "instrument-transformers",
         title: t("products:subcategories.instrument-transformers.title"),
-        description: t("products:subcategories.instrument-transformers.description"),
+        description: t(
+          "products:subcategories.instrument-transformers.description",
+        ),
       },
       {
         id: "instrumentation-cables",
         title: t("products:subcategories.instrumentation-cables.title"),
-        description: t("products:subcategories.instrumentation-cables.description"),
+        description: t(
+          "products:subcategories.instrumentation-cables.description",
+        ),
       },
     ],
   },
@@ -158,14 +166,14 @@ export const getProducts = (t: any) => [
         id: "connectors-terminals",
         title: t("products:subcategories.connectors-terminals.title"),
         description: t(
-          "products:subcategories.connectors-terminals.description"
+          "products:subcategories.connectors-terminals.description",
         ),
       },
       {
         id: "circuit-breakers-fuses",
         title: t("products:subcategories.circuit-breakers-fuses.title"),
         description: t(
-          "products:subcategories.circuit-breakers-fuses.description"
+          "products:subcategories.circuit-breakers-fuses.description",
         ),
       },
       {
@@ -177,14 +185,14 @@ export const getProducts = (t: any) => [
         id: "enclosures-cabinets",
         title: t("products:subcategories.enclosures-cabinets.title"),
         description: t(
-          "products:subcategories.enclosures-cabinets.description"
+          "products:subcategories.enclosures-cabinets.description",
         ),
       },
       {
         id: "heating-elements-appliances",
         title: t("products:subcategories.heating-elements-appliances.title"),
         description: t(
-          "products:subcategories.heating-elements-appliances.description"
+          "products:subcategories.heating-elements-appliances.description",
         ),
       },
       {
@@ -195,17 +203,25 @@ export const getProducts = (t: any) => [
       {
         id: "transformers-power-devices",
         title: t("products:subcategories.transformers-power-devices.title"),
-        description: t("products:subcategories.transformers-power-devices.description"),
+        description: t(
+          "products:subcategories.transformers-power-devices.description",
+        ),
       },
       {
         id: "industrial-lighting",
         title: t("products:subcategories.industrial-lighting.title"),
-        description: t("products:subcategories.industrial-lighting.description"),
+        description: t(
+          "products:subcategories.industrial-lighting.description",
+        ),
       },
       {
         id: "insulators-insulation-materials",
-        title: t("products:subcategories.insulators-insulation-materials.title"),
-        description: t("products:subcategories.insulators-insulation-materials.description"),
+        title: t(
+          "products:subcategories.insulators-insulation-materials.title",
+        ),
+        description: t(
+          "products:subcategories.insulators-insulation-materials.description",
+        ),
       },
     ],
   },
@@ -238,7 +254,7 @@ export const getProducts = (t: any) => [
     id: "automation-control-systems",
     title: t("products:categories.automation-control-systems.title"),
     description: t(
-      "products:categories.automation-control-systems.description"
+      "products:categories.automation-control-systems.description",
     ),
     icon: "Settings",
     image: getProductImage("automation-control-systems")?.src || "",
@@ -246,10 +262,10 @@ export const getProducts = (t: any) => [
       t("acronyms:plc"),
       t("products:categories.automation-control-systems.features.hmi-systems"),
       t(
-        "products:categories.automation-control-systems.features.scada-software"
+        "products:categories.automation-control-systems.features.scada-software",
       ),
       t(
-        "products:categories.automation-control-systems.features.industrial-networks"
+        "products:categories.automation-control-systems.features.industrial-networks",
       ),
     ],
     subcategories: [
@@ -276,7 +292,9 @@ export const getProducts = (t: any) => [
       {
         id: "motor-controllers-drives",
         title: t("products:subcategories.motor-controllers-drives.title"),
-        description: t("products:subcategories.motor-controllers-drives.description"),
+        description: t(
+          "products:subcategories.motor-controllers-drives.description",
+        ),
       },
       {
         id: "io-modules",
@@ -293,16 +311,16 @@ export const getProducts = (t: any) => [
     image: getProductImage("safety-protective-devices")?.src || "",
     features: [
       t(
-        "products:categories.safety-protective-devices.features.safety-switches"
+        "products:categories.safety-protective-devices.features.safety-switches",
       ),
       t(
-        "products:categories.safety-protective-devices.features.emergency-stops"
+        "products:categories.safety-protective-devices.features.emergency-stops",
       ),
       t(
-        "products:categories.safety-protective-devices.features.light-curtains"
+        "products:categories.safety-protective-devices.features.light-curtains",
       ),
       t(
-        "products:categories.safety-protective-devices.features.protective-barriers"
+        "products:categories.safety-protective-devices.features.protective-barriers",
       ),
     ],
     subcategories: [
@@ -320,14 +338,14 @@ export const getProducts = (t: any) => [
         id: "safety-relays-switches",
         title: t("products:subcategories.safety-relays-switches.title"),
         description: t(
-          "products:subcategories.safety-relays-switches.description"
+          "products:subcategories.safety-relays-switches.description",
         ),
       },
       {
         id: "intrinsically-safe-equipment",
         title: t("products:subcategories.intrinsically-safe-equipment.title"),
         description: t(
-          "products:subcategories.intrinsically-safe-equipment.description"
+          "products:subcategories.intrinsically-safe-equipment.description",
         ),
       },
       {
@@ -350,14 +368,14 @@ export const getProducts = (t: any) => [
     image: getProductImage("mechanical-pumps-spares")?.src || "",
     features: [
       t(
-        "products:categories.mechanical-pumps-spares.features.centrifugal-pumps"
+        "products:categories.mechanical-pumps-spares.features.centrifugal-pumps",
       ),
       t(
-        "products:categories.mechanical-pumps-spares.features.positive-displacement-pumps"
+        "products:categories.mechanical-pumps-spares.features.positive-displacement-pumps",
       ),
       t("products:categories.mechanical-pumps-spares.features.pump-components"),
       t(
-        "products:categories.mechanical-pumps-spares.features.maintenance-kits"
+        "products:categories.mechanical-pumps-spares.features.maintenance-kits",
       ),
     ],
     subcategories: [
@@ -387,7 +405,7 @@ export const getProducts = (t: any) => [
     id: "industrial-measuring-tools",
     title: t("products:categories.industrial-measuring-tools.title"),
     description: t(
-      "products:categories.industrial-measuring-tools.description"
+      "products:categories.industrial-measuring-tools.description",
     ),
     icon: "Wrench",
     image: getProductImage("measurement-instruments")?.src || "",
@@ -395,10 +413,10 @@ export const getProducts = (t: any) => [
       t("products:categories.industrial-measuring-tools.features.hand-tools"),
       t("products:categories.industrial-measuring-tools.features.power-tools"),
       t(
-        "products:categories.industrial-measuring-tools.features.digital-multimeters"
+        "products:categories.industrial-measuring-tools.features.digital-multimeters",
       ),
       t(
-        "products:categories.industrial-measuring-tools.features.power-quality-analyzers"
+        "products:categories.industrial-measuring-tools.features.power-quality-analyzers",
       ),
       t("products:categories.industrial-measuring-tools.features.calibrators"),
     ],
@@ -432,20 +450,22 @@ export const getProducts = (t: any) => [
         id: "power-quality-analyzers",
         title: t("products:subcategories.power-quality-analyzers.title"),
         description: t(
-          "products:subcategories.power-quality-analyzers.description"
+          "products:subcategories.power-quality-analyzers.description",
         ),
       },
       {
         id: "calibration-equipment",
         title: t("products:subcategories.calibration-equipment.title"),
         description: t(
-          "products:subcategories.calibration-equipment.description"
+          "products:subcategories.calibration-equipment.description",
         ),
       },
       {
         id: "panel-meters-indicators",
         title: t("products:subcategories.panel-meters-indicators.title"),
-        description: t("products:subcategories.panel-meters-indicators.description"),
+        description: t(
+          "products:subcategories.panel-meters-indicators.description",
+        ),
       },
     ],
   },
@@ -502,7 +522,6 @@ export const getTestimonials = (t: any) => [
   },
 ];
 
-
 export const getServiceOptions = (t: any) => [
   {
     value: "installation-commissioning",
@@ -539,7 +558,7 @@ export const getServices = (t: any) => [
       t("services:features.installation-commissioning.system-integration"),
       t("services:features.installation-commissioning.performance-testing"),
       t(
-        "services:features.installation-commissioning.compliance-certification"
+        "services:features.installation-commissioning.compliance-certification",
       ),
     ],
   },
@@ -626,63 +645,57 @@ export const getServices = (t: any) => [
 
 export const getClientLogos = (t: any) => [
   {
-    id: "sci-group",
-    name: t("common:clients.sci-group"),
-    logo: "https://logo.clearbit.com/shipindia.com",
-    fallback: corporateClientImage,
-  },
-  {
     id: "agribio",
     name: t("common:clients.agribio"),
-    logo: "https://logo.clearbit.com/agribiogermany.com",
+    logo: "https://abil.co.in/img/logo.png",
     fallback: corporateClientImage,
   },
   {
     id: "motherson",
     name: t("common:clients.motherson"),
-    logo: "https://logo.clearbit.com/motherson.com",
+    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHJdjrU_Eu0BQ/company-logo_200_200/company-logo_200_200/0/1630572287113/mothersongroup_logo?e=1767225600&v=beta&t=-BuL0oXMgDyrdsmaR2bfvuOhcCn1vjQ-GS6tPjPaKEg",
     fallback: corporateClientImage,
   },
   {
     id: "praj",
     name: t("common:clients.praj"),
-    logo: "https://logo.clearbit.com/praj.net",
+    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Praj_industries_logo.svg/1200px-Praj_industries_logo.svg.png",
     fallback: corporateClientImage,
   },
   {
     id: "thermax",
     name: t("common:clients.thermax"),
-    logo: "https://logo.clearbit.com/thermaxglobal.com",
+    logo: "https://www.thermaxglobal.com/wp-content/uploads/2020/09/Thermax-Europe-UK.jpg",
     fallback: corporateClientImage,
   },
   {
     id: "ankur",
     name: t("common:clients.ankur"),
-    logo: "https://logo.clearbit.com/ankurscientific.com",
+    logo: "https://www.ankurscientific.com/image/logo.png",
     fallback: corporateClientImage,
   },
   {
     id: "dls",
     name: t("common:clients.dls"),
-    logo: "https://dlsenvirotech.com/assets/img/logo.png",
+    logo: "https://dlsenvirotech.com/assets/dls-envirotech-logo-BvPrpv-6.png",
     fallback: corporateClientImage,
   },
   {
     id: "boudh",
     name: t("common:clients.boudh"),
-    logo: "https://logo.clearbit.com/boudhdistillery.com",
+    logo: "https://www.boudhdistillery.com/img/logo.png",
     fallback: corporateClientImage,
   },
   {
     id: "lokmangal",
     name: t("common:clients.lokmangal"),
-    logo: "https://logo.clearbit.com/lokmangal.com",
+    logo: "https://lokmangal.com/assets/img/logo/Lokmangal.png",
     fallback: corporateClientImage,
   },
   {
     id: "marcuras",
     name: t("common:clients.marcuras"),
-    logo: "https://logo.clearbit.com/marcuras.com",
+    logo: "https://www.marcuras.com/images/hex0.jpg",
     fallback: corporateClientImage,
   },
   {
@@ -700,19 +713,73 @@ export const getClientLogos = (t: any) => [
   {
     id: "dhanuka",
     name: t("common:clients.dhanuka"),
-    logo: "https://logo.clearbit.com/dhanuka.com",
+    logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFZTGIYB6h79w/company-logo_200_200/company-logo_200_200/0/1633449703985?e=2147483647&v=beta&t=T8hWi_ctrtJfkpPmqbar3YWxB8HIS8KTB0h7WJfCZrU",
     fallback: corporateClientImage,
   },
   {
-    id: "mjson",
-    name: t("common:clients.mjson"),
-    logo: "https://www.thecompanycheck.com/Images/default-com-logo.webp",
+    id: "excel",
+    name: t("common:clients.excel"),
+    logo: "https://www.regreenexcel.com/images/regreen-logo.svg",
     fallback: corporateClientImage,
   },
   {
     id: "procient",
     name: t("common:clients.procient"),
     logo: "https://lh3.googleusercontent.com/p/AF1QipMdv-ooQHBKA6uJlgi4FbBJjERkT8iamCpM3Fih=s1360-w1360-h1020-rw",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "lugazi",
+    name: t("common:clients.lugazi"),
+    logo: "https://www.mehtagroup.com/lugazi.png",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "kribhco",
+    name: t("common:clients.kribhco"),
+    logo: "https://www.kribhco.net/assets/img/logo.png",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "muzaffarpur",
+    name: t("common:clients.muzaffarpur"),
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXWQML1K08ci0sFeMXf9HMN_qGj4JgvZo4tg&s",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "globusSpirits",
+    name: t("common:clients.globusSpirits"),
+    logo: "https://www.globusspirits.com/images/logo_top.png",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "proIndustries",
+    name: t("common:clients.proIndustries"),
+    logo: "https://static.wixstatic.com/media/ebe177_b9af4e9dc4c046369e55843e2abeb141~mv2.png/v1/fill/w_584,h_240,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/PRO%20LOGO%20(1)_PNG.png",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "bottmac",
+    name: t("common:clients.bottmac"),
+    logo: "https://media.licdn.com/dms/image/v2/C560BAQGu8nWec9PPvQ/company-logo_200_200/company-logo_200_200/0/1638790723298/bottmac_india_pvt_ltd_logo?e=1767225600&v=beta&t=gp6bp7soUo51EO-up26_ZFJPSRDp_fC-OARMZdCe10s",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "patelAgri",
+    name: t("common:clients.patelAgri"),
+    logo: "https://patelgroupofindustries.com/wp-content/uploads/2024/08/patel-agriculture-Dangro-logo.webp",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "reps",
+    name: t("common:clients.reps"),
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQHTpVOIMVfOlg/company-logo_200_200/company-logo_200_200/0/1709290380885/reps_en_tech_logo?e=2147483647&v=beta&t=sNm_ueYrkyHAwOsB7J8-HkKqrw_c8T5wWU1ETse6tro",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "bkBuilder",
+    name: t("common:clients.bkBuilder"),
+    logo: "http://bkbuilders.in/images/logo-3-min.png",
     fallback: corporateClientImage,
   },
 ];
@@ -735,13 +802,12 @@ export const getClients = (t: any) => [
   t("common:clients.procient"),
 ];
 
-
 // Product Groups Helper Functions for Navigation Popup Menu
 export const getProductGroupsBySubcategory = (
-  subcategoryKey: string
+  subcategoryKey: string,
 ): ProductGroup[] => {
   return productGroups.filter(
-    (group) => group.subcategoryKey === subcategoryKey
+    (group) => group.subcategoryKey === subcategoryKey,
   );
 };
 
