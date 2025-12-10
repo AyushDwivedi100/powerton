@@ -33,13 +33,13 @@ import {
   AlertTriangle,
 } from "lucide-react";
 
-// Import background images
+// Import background images - mapped to available images
 import automationBgImage from "@assets/generated_images/Industrial_PLC_Control_Panel_54555fe9.png";
-import electricalBgImage from "@assets/generated_images/Electrical_Components_Warehouse_31ec85d7.png";
-import instrumentationLabImage from "@assets/generated_images/Instrumentation_components_laboratory_58f97192.png";
+import electricalBgImage from "@assets/generated_images/Electrical_components_product_showcase_2ba0ce40.png";
+import instrumentationLabImage from "@assets/generated_images/Industrial_instrumentation_components_showcase_69897e6b.png";
 import measurementLabImage from "@assets/generated_images/Precision_measurement_instruments_lab_b82030f8.png";
-import pumpSparesImage from "@assets/generated_images/Industrial_pump_spare_parts_8de15f4f.png";
-import safetyEquipmentImage from "@assets/generated_images/Industrial_safety_equipment_showcase_ef36d76c.png";
+import pumpSparesImage from "@assets/generated_images/Pumps_and_motors_showcase_798de33e.png";
+import safetyEquipmentImage from "@assets/generated_images/Safety_protective_devices_showcase_5e4ee724.png";
 import solarProductsImage from "@assets/generated_images/Solar_products_technology_showcase_82907203.png";
 
 export interface ProductSubcategory {
