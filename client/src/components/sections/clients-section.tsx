@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { getTestimonials, getClientLogos } from "@/data/constants";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -12,8 +12,9 @@ export default function ClientsSection() {
   const clientLogos = getClientLogos(t);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [triggerAnimation, setTriggerAnimation] = useState(0);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [entryDirection, setEntryDirection] = useState<"left" | "right">(
-    "right",
+    "right"
   );
   const [exitDirection, setExitDirection] = useState<"left" | "right">("right");
 
@@ -22,6 +23,49 @@ export default function ClientsSection() {
 
   // Pure CSS-based infinite scroll - no JavaScript state updates
   const [isHovered, setIsHovered] = useState(false);
+
+  const goToPrevious = useCallback(() => {
+    setIsAutoPlaying(false); // Stop autoplay immediately
+    const newIndex =
+      currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1;
+    setExitDirection("right"); // Current review should exit RIGHT (opposite of left arrow)
+    setTimeout(() => {
+      setEntryDirection("left"); // New review enters from LEFT
+      setCurrentIndex(newIndex);
+      setTriggerAnimation((prev) => prev + 1);
+    }, 10);
+    // Resume auto-play after 8 seconds
+    setTimeout(() => {
+      try {
+        setIsAutoPlaying(true);
+      } catch (error) {
+        console.log(
+          "Previous button auto-play resume handled gracefully:",
+          error
+        );
+      }
+    }, 8000);
+  }, [currentIndex, testimonials.length]);
+
+  const goToNext = useCallback(() => {
+    setIsAutoPlaying(false); // Stop autoplay immediately
+    const newIndex =
+      currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1;
+    setExitDirection("left"); // Current review should exit LEFT (opposite of right arrow)
+    setTimeout(() => {
+      setEntryDirection("right"); // New review enters from RIGHT
+      setCurrentIndex(newIndex);
+      setTriggerAnimation((prev) => prev + 1);
+    }, 10);
+    // Resume auto-play after 8 seconds
+    setTimeout(() => {
+      try {
+        setIsAutoPlaying(true);
+      } catch (error) {
+        console.log("Next button auto-play resume handled gracefully:", error);
+      }
+    }, 8000);
+  }, [currentIndex, testimonials.length]);
 
   return (
     <section className="py-12 md:py-16 lg:py-20 bg-background" role="main">
@@ -70,7 +114,7 @@ export default function ClientsSection() {
                       src={client.logo}
                       alt={`ID-820-${index}: ${t(
                         `common:clients.${client.id}`,
-                        client.name,
+                        client.name
                       )} company logo`}
                       className="w-full h-12 md:h-14 lg:h-16 object-contain mb-1"
                       onError={(e) => {
@@ -154,7 +198,7 @@ export default function ClientsSection() {
                                   className="w-5 h-5 fill-current"
                                   aria-hidden="true"
                                 />
-                              ),
+                              )
                             )}
                           </div>
                         </div>
@@ -218,7 +262,7 @@ export default function ClientsSection() {
                     } catch (error) {
                       console.log(
                         "Pagination dot auto-play resume handled gracefully:",
-                        error,
+                        error
                       );
                     }
                   }, 8000);
