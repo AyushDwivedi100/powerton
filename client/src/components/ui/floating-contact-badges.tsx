@@ -32,6 +32,22 @@ const JustDialLogo = () => (
   </div>
 );
 
+// Indiamart Logo Component - Using full badge space with cropped logo
+const IndiamartLogo = () => (
+  <div
+    className="w-14 h-14 rounded-full flex items-center justify-center overflow-hidden inset-0"
+    style={{
+      backgroundImage: `url(https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/indiamart-app-icon.png)`,
+      backgroundSize: "75px 75px", // Scale up more to crop center logo for full badge
+      backgroundPosition: "center center", // Center the logo
+      backgroundRepeat: "no-repeat",
+    }}
+  >
+    {/* Clean overlay for logo on white background */}
+    <div className="w-full h-full bg-transparent" />
+  </div>
+);
+
 export default function FloatingContactBadges() {
   const { t } = useTranslation("common");
   const [whatsappHovered, setWhatsappHovered] = useState(false);
@@ -50,125 +66,206 @@ export default function FloatingContactBadges() {
     window.open("https://jsdl.in/DT-23ETWWE2VJP", "_blank");
   };
 
+  const handleIndiamartClick = () => {
+    window.open(
+      "https://www.indiamart.com/powertonengineering-noida/",
+      "_blank"
+    );
+  };
+
   return (
-    <div className="fixed bottom-6 left-6 z-50 flex flex-col gap-3">
-      {/* WhatsApp Badge */}
-      <div className="relative flex items-center gap-3">
-        <div className="relative">
-          {/* Ripple effects */}
-          <span className="absolute inset-0 rounded-full bg-green-500/30 animate-ripple" />
-          <span className="absolute inset-0 rounded-full bg-green-500/30 animate-ripple" style={{ animationDelay: '0.7s' }} />
-          
-          <motion.button
-            onClick={handleWhatsAppClick}
-            onMouseEnter={() => setWhatsappHovered(true)}
-            onMouseLeave={() => setWhatsappHovered(false)}
-            className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white transition-colors relative z-10"
-            data-testid="button-whatsapp-contact"
-            whileHover={{
-              scale: 1.3,
-              boxShadow: "0 12px 40px rgba(34, 197, 94, 0.45), 0 0 0 1px rgba(34, 197, 94, 0.3)",
-              transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
-            }}
-            animate={{
-              scale: [1, 1.1, 1.05, 1.1, 1],
-              boxShadow: [
-                "0 4px 14px rgba(34, 197, 94, 0.3)",
-                "0 8px 28px rgba(34, 197, 94, 0.5)",
-                "0 6px 20px rgba(34, 197, 94, 0.4)",
-                "0 8px 28px rgba(34, 197, 94, 0.5)",
-                "0 4px 14px rgba(34, 197, 94, 0.3)",
-              ],
-            }}
-            whileTap={{ scale: 0.96 }}
-            transition={{
-              duration: 2.5,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-            aria-label={t("ui.ariaLabels.contactWhatsApp")}
-            style={{
-              filter: "drop-shadow(0 2px 8px rgba(34, 197, 94, 0.2))",
-            }}
-          >
-            <WhatsAppLogo />
-          </motion.button>
+    <>
+      <div className="fixed bottom-6 left-6 z-50 flex flex-col gap-3">
+        {/* WhatsApp Badge */}
+        <div className="relative flex items-center gap-3">
+          <div className="relative">
+            {/* Ripple effects */}
+            <span className="absolute inset-0 rounded-full bg-green-500/30 animate-ripple" />
+            <span
+              className="absolute inset-0 rounded-full bg-green-500/30 animate-ripple"
+              style={{ animationDelay: "0.7s" }}
+            />
+
+            <motion.button
+              onClick={handleWhatsAppClick}
+              onMouseEnter={() => setWhatsappHovered(true)}
+              onMouseLeave={() => setWhatsappHovered(false)}
+              className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white transition-colors relative z-10"
+              data-testid="button-whatsapp-contact"
+              whileHover={{
+                scale: 1.3,
+                boxShadow:
+                  "0 12px 40px rgba(34, 197, 94, 0.45), 0 0 0 1px rgba(34, 197, 94, 0.3)",
+                transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
+              }}
+              animate={{
+                scale: [1, 1.1, 1.05, 1.1, 1],
+                boxShadow: [
+                  "0 4px 14px rgba(34, 197, 94, 0.3)",
+                  "0 8px 28px rgba(34, 197, 94, 0.5)",
+                  "0 6px 20px rgba(34, 197, 94, 0.4)",
+                  "0 8px 28px rgba(34, 197, 94, 0.5)",
+                  "0 4px 14px rgba(34, 197, 94, 0.3)",
+                ],
+              }}
+              whileTap={{ scale: 0.96 }}
+              transition={{
+                duration: 2.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              aria-label={t("ui.ariaLabels.contactWhatsApp")}
+              style={{
+                filter: "drop-shadow(0 2px 8px rgba(34, 197, 94, 0.2))",
+              }}
+            >
+              <WhatsAppLogo />
+            </motion.button>
+          </div>
+
+          <AnimatePresence>
+            {whatsappHovered && (
+              <motion.div
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -10 }}
+                transition={{ duration: 0.2 }}
+                className="absolute left-[70px] bg-green-600 text-white px-3 py-1.5 rounded-md text-sm font-medium shadow-lg whitespace-nowrap"
+              >
+                {t("ui.contactBadges.whatsapp")}
+                <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1 w-2 h-2 bg-green-600 rotate-45"></div>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
 
-        <AnimatePresence>
-          {whatsappHovered && (
-            <motion.div
-              initial={{ opacity: 0, x: -10 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -10 }}
-              transition={{ duration: 0.2 }}
-              className="absolute left-[70px] bg-green-600 text-white px-3 py-1.5 rounded-md text-sm font-medium shadow-lg whitespace-nowrap"
-            >
-              {t("ui.contactBadges.whatsapp")}
-              <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1 w-2 h-2 bg-green-600 rotate-45"></div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </div>
+        {/* Just Dial Badge */}
+        <div className="relative flex items-center gap-3">
+          <div className="relative">
+            {/* Ripple effects */}
+            <span className="absolute inset-0 rounded-full bg-white/40 animate-ripple" />
+            <span
+              className="absolute inset-0 rounded-full bg-white/40 animate-ripple"
+              style={{ animationDelay: "0.7s" }}
+            />
 
-      {/* Just Dial Badge */}
-      <div className="relative flex items-center gap-3">
-        <div className="relative">
-          {/* Ripple effects */}
-          <span className="absolute inset-0 rounded-full bg-white/40 animate-ripple" />
-          <span className="absolute inset-0 rounded-full bg-white/40 animate-ripple" style={{ animationDelay: '0.7s' }} />
-          
-          <motion.button
-            onClick={handleJustDialClick}
-            onMouseEnter={() => setJustDialHovered(true)}
-            onMouseLeave={() => setJustDialHovered(false)}
-            className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white transition-colors relative z-10"
-            data-testid="button-justdial-contact"
-            whileHover={{
-              scale: 1.3,
-              boxShadow: "0 12px 40px rgba(255, 255, 255, 0.5), 0 0 0 1px rgba(200, 200, 200, 0.35)",
-              transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
-            }}
-            animate={{
-              scale: [1, 1.1, 1.05, 1.1, 1],
-              boxShadow: [
-                "0 4px 14px rgba(255, 255, 255, 0.35)",
-                "0 8px 28px rgba(255, 255, 255, 0.55)",
-                "0 6px 20px rgba(255, 255, 255, 0.45)",
-                "0 8px 28px rgba(255, 255, 255, 0.55)",
-                "0 4px 14px rgba(255, 255, 255, 0.35)",
-              ],
-            }}
-            whileTap={{ scale: 0.96 }}
-            transition={{
-              duration: 2.5,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-            aria-label={t("ui.ariaLabels.contactJustDial")}
-            style={{
-              filter: "drop-shadow(0 2px 8px rgba(255, 255, 255, 0.25))",
-            }}
-          >
-            <JustDialLogo />
-          </motion.button>
+            <motion.button
+              onClick={handleJustDialClick}
+              onMouseEnter={() => setJustDialHovered(true)}
+              onMouseLeave={() => setJustDialHovered(false)}
+              className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white transition-colors relative z-10"
+              data-testid="button-justdial-contact"
+              whileHover={{
+                scale: 1.3,
+                boxShadow:
+                  "0 12px 40px rgba(255, 255, 255, 0.5), 0 0 0 1px rgba(200, 200, 200, 0.35)",
+                transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
+              }}
+              animate={{
+                scale: [1, 1.1, 1.05, 1.1, 1],
+                boxShadow: [
+                  "0 4px 14px rgba(255, 255, 255, 0.35)",
+                  "0 8px 28px rgba(255, 255, 255, 0.55)",
+                  "0 6px 20px rgba(255, 255, 255, 0.45)",
+                  "0 8px 28px rgba(255, 255, 255, 0.55)",
+                  "0 4px 14px rgba(255, 255, 255, 0.35)",
+                ],
+              }}
+              whileTap={{ scale: 0.96 }}
+              transition={{
+                duration: 2.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              aria-label={t("ui.ariaLabels.contactJustDial")}
+              style={{
+                filter: "drop-shadow(0 2px 8px rgba(255, 255, 255, 0.25))",
+              }}
+            >
+              <JustDialLogo />
+            </motion.button>
+          </div>
+
+          <AnimatePresence>
+            {justDialHovered && (
+              <motion.div
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -10 }}
+                transition={{ duration: 0.2 }}
+                className="absolute left-[70px] bg-white text-black px-3 py-1.5 rounded-md text-sm font-medium shadow-lg whitespace-nowrap"
+              >
+                {t("ui.contactBadges.justDial")}
+                <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1 w-2 h-2 bg-white rotate-45"></div>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
-
-        <AnimatePresence>
-          {justDialHovered && (
-            <motion.div
-              initial={{ opacity: 0, x: -10 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -10 }}
-              transition={{ duration: 0.2 }}
-              className="absolute left-[70px] bg-white text-black px-3 py-1.5 rounded-md text-sm font-medium shadow-lg whitespace-nowrap"
-            >
-              {t("ui.contactBadges.justDial")}
-              <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1 w-2 h-2 bg-white rotate-45"></div>
-            </motion.div>
-          )}
-        </AnimatePresence>
       </div>
-    </div>
+      <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        {/* Indiamart Badge */}
+        <div className="relative flex items-center gap-3">
+          <div className="relative">
+            {/* Ripple effects */}
+            <span className="absolute inset-0 rounded-full bg-red-500/40 animate-ripple" />
+            <span
+              className="absolute inset-0 rounded-full bg-red-500/40 animate-ripple"
+              style={{ animationDelay: "0.7s" }}
+            />
+
+            <motion.button
+              onClick={handleJustDialClick}
+              onMouseEnter={() => setJustDialHovered(true)}
+              onMouseLeave={() => setJustDialHovered(false)}
+              className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white transition-colors relative z-10"
+              data-testid="button-justdial-contact"
+              whileHover={{
+                scale: 1.3,
+                boxShadow:
+                  "0 12px 40px rgba(255, 255, 255, 0.5), 0 0 0 1px rgba(200, 200, 200, 0.35)",
+                transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
+              }}
+              animate={{
+                scale: [1, 1.1, 1.05, 1.1, 1],
+                boxShadow: [
+                  "0 4px 14px rgba(255, 255, 255, 0.35)",
+                  "0 8px 28px rgba(255, 255, 255, 0.55)",
+                  "0 6px 20px rgba(255, 255, 255, 0.45)",
+                  "0 8px 28px rgba(255, 255, 255, 0.55)",
+                  "0 4px 14px rgba(255, 255, 255, 0.35)",
+                ],
+              }}
+              whileTap={{ scale: 0.96 }}
+              transition={{
+                duration: 2.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              aria-label={t("ui.ariaLabels.contactJustDial")}
+              style={{
+                filter: "drop-shadow(0 2px 8px rgba(255, 255, 255, 0.25))",
+              }}
+            >
+              <IndiamartLogo />
+            </motion.button>
+          </div>
+
+          <AnimatePresence>
+            {justDialHovered && (
+              <motion.div
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -10 }}
+                transition={{ duration: 0.2 }}
+                className="absolute left-[70px] bg-white text-black px-3 py-1.5 rounded-md text-sm font-medium shadow-lg whitespace-nowrap"
+              >
+                {t("ui.contactBadges.justDial")}
+                <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1 w-2 h-2 bg-white rotate-45"></div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+      </div>
+    </>
   );
 }
