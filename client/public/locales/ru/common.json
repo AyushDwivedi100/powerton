@@ -748,9 +748,10 @@
     "close": "Закрыть",
     "dismiss": "Отклонить",
     "toast": "Уведомление",
-    "contactBadges":{
+    "contactBadges": {
       "whatsapp": "WhatsApp",
-      "justDial": "Just Dial"
+      "justDial": "Просто наберите",
+      "indiaMart": "ИндияМарт"
     },
     "ariaLabels": {
       "callUs": "Позвоните нам по телефону {{phone}}",

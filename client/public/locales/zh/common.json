@@ -749,9 +749,10 @@
     "close": "关闭",
     "dismiss": "解雇",
     "toast": "提示",
-    "contactBadges":{
+    "contactBadges": {
       "whatsapp": "WhatsApp",
-      "justDial": "Just Dial"
+      "justDial": "只需拨打",
+      "indiaMart": "印度商城"
     },
     "ariaLabels": {
       "callUs": "致电我们：{{phone}}",

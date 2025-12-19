@@ -14,7 +14,7 @@ export default function ClientsSection() {
   const [triggerAnimation, setTriggerAnimation] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [entryDirection, setEntryDirection] = useState<"left" | "right">(
-    "right"
+    "right",
   );
   const [exitDirection, setExitDirection] = useState<"left" | "right">("right");
 
@@ -41,7 +41,7 @@ export default function ClientsSection() {
       } catch (error) {
         console.log(
           "Previous button auto-play resume handled gracefully:",
-          error
+          error,
         );
       }
     }, 8000);
@@ -103,26 +103,29 @@ export default function ClientsSection() {
               {[...clientLogos, ...clientLogos].map((client, index) => (
                 <div
                   key={`${client.id}-${Math.floor(index / clientLogos.length)}`}
-                  className="flex-shrink-0 bg-white dark:bg-white rounded-lg border border-border p-3 md:p-4 lg:p-5 flex items-center justify-center hover:shadow-lg transition-all duration-300 mx-2 md:mx-3 lg:mx-4"
+                  className="flex-shrink-0 bg-white dark:bg-muted rounded-lg border border-border p-3 md:p-4 lg:p-5 flex items-center justify-center hover:shadow-lg transition-all duration-300 mx-2 md:mx-3 lg:mx-4"
                   style={{
                     width: "150px",
                     minWidth: "150px",
                   }}
                 >
                   <div className="text-center w-full">
-                    <img
-                      src={client.logo}
-                      alt={`ID-820-${index}: ${t(
-                        `common:clients.${client.id}`,
-                        client.name
-                      )} company logo`}
-                      className="w-full h-12 md:h-14 lg:h-16 object-contain mb-1"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.src = client.fallback;
-                      }}
-                    />
-                    <span className="text-xs md:text-xs lg:text-sm font-medium text-gray-700 dark:text-gray-700 block text-center">
+                    <div className="bg-white rounded-md p-1 flex items-center justify-center mb-3">
+                      <img
+                        src={client.logo}
+                        alt={`ID-820-${index}: ${t(
+                          `common:clients.${client.id}`,
+                          client.name,
+                        )} company logo`}
+                        className="max-h-12 sm:max-h-32 w-auto object-contain"
+                        loading="lazy"
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement;
+                          target.src = client.fallback;
+                        }}
+                      />
+                    </div>
+                    <span className="text-xs md:text-xs lg:text-sm font-medium text-foreground block leading-tight line-clamp-2 mb-1 text-center">
                       {t(`common:clients.${client.id}`, client.name)}
                     </span>
                   </div>
@@ -198,7 +201,7 @@ export default function ClientsSection() {
                                   className="w-5 h-5 fill-current"
                                   aria-hidden="true"
                                 />
-                              )
+                              ),
                             )}
                           </div>
                         </div>
@@ -262,7 +265,7 @@ export default function ClientsSection() {
                     } catch (error) {
                       console.log(
                         "Pagination dot auto-play resume handled gracefully:",
-                        error
+                        error,
                       );
                     }
                   }, 8000);

@@ -52,12 +52,13 @@ export default function FloatingContactBadges() {
   const { t } = useTranslation("common");
   const [whatsappHovered, setWhatsappHovered] = useState(false);
   const [justDialHovered, setJustDialHovered] = useState(false);
+  const [indiamartHovered, setIndiamartHovered] = useState(false);
 
   const handleWhatsAppClick = () => {
     const phoneNumber = "919462771662";
     const message = t("ui.messages.whatsappGreeting");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-      message
+      message,
     )}`;
     window.open(whatsappUrl, "_blank");
   };
@@ -69,7 +70,7 @@ export default function FloatingContactBadges() {
   const handleIndiamartClick = () => {
     window.open(
       "https://www.indiamart.com/powertonengineering-noida/",
-      "_blank"
+      "_blank",
     );
   };
 
@@ -202,6 +203,7 @@ export default function FloatingContactBadges() {
           </AnimatePresence>
         </div>
       </div>
+
       <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
         {/* Indiamart Badge */}
         <div className="relative flex items-center gap-3">
@@ -214,11 +216,11 @@ export default function FloatingContactBadges() {
             />
 
             <motion.button
-              onClick={handleJustDialClick}
-              onMouseEnter={() => setJustDialHovered(true)}
-              onMouseLeave={() => setJustDialHovered(false)}
+              onClick={handleIndiamartClick}
+              onMouseEnter={() => setIndiamartHovered(true)}
+              onMouseLeave={() => setIndiamartHovered(false)}
               className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white transition-colors relative z-10"
-              data-testid="button-justdial-contact"
+              data-testid="button-indiamart-contact"
               whileHover={{
                 scale: 1.3,
                 boxShadow:
@@ -241,7 +243,7 @@ export default function FloatingContactBadges() {
                 repeat: Infinity,
                 ease: "easeInOut",
               }}
-              aria-label={t("ui.ariaLabels.contactJustDial")}
+              aria-label={t("ui.ariaLabels.contactIndiamart")}
               style={{
                 filter: "drop-shadow(0 2px 8px rgba(255, 255, 255, 0.25))",
               }}
@@ -251,16 +253,16 @@ export default function FloatingContactBadges() {
           </div>
 
           <AnimatePresence>
-            {justDialHovered && (
+            {indiamartHovered && (
               <motion.div
                 initial={{ opacity: 0, x: -10 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -10 }}
                 transition={{ duration: 0.2 }}
-                className="absolute left-[70px] bg-white text-black px-3 py-1.5 rounded-md text-sm font-medium shadow-lg whitespace-nowrap"
+                className="absolute right-[70px] bg-red-600 text-white px-3 py-1.5 rounded-md text-sm font-medium shadow-lg whitespace-nowrap"
               >
-                {t("ui.contactBadges.justDial")}
-                <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1 w-2 h-2 bg-white rotate-45"></div>
+                {t("ui.contactBadges.indiaMart")}
+                <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1 w-2 h-2 bg-red-600 rotate-45"></div>
               </motion.div>
             )}
           </AnimatePresence>

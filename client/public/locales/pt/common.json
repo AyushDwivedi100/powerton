@@ -748,9 +748,10 @@
     "close": "Fechar",
     "dismiss": "Ignorar",
     "toast": "Torrada",
-    "contactBadges":{
+    "contactBadges": {
       "whatsapp": "WhatsApp",
-      "justDial": "Just Dial"
+      "justDial": "Just Dial",
+      "indiaMart": "IndiaMart"
     },
     "ariaLabels": {
       "callUs": "Ligue para nós em {{phone}}",
