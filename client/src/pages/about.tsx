@@ -296,21 +296,6 @@ export default function About() {
                               </Badge>
                             </div>
                           </div>
-                          <a
-                            href={license.url}
-                            download
-                            onClick={(e) => e.stopPropagation()}
-                            data-testid={`button-download-pdf-${index}`}
-                          >
-                            <Button
-                              variant="outline"
-                              size="sm"
-                              className="flex-shrink-0"
-                            >
-                              <Download className="w-4 h-4 mr-1" />
-                              {t("pages:about.licenses.download", "Download")}
-                            </Button>
-                          </a>
                         </div>
                       </div>
                     </CardContent>
@@ -333,16 +318,6 @@ export default function About() {
                       </div>
                       <span>{selectedPdf?.title}</span>
                     </DialogTitle>
-                    <a
-                      href={selectedPdf?.url}
-                      download
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      <Button variant="outline" size="sm">
-                        <Download className="w-4 h-4 mr-2" />
-                        {t("pages:about.licenses.download", "Download")}
-                      </Button>
-                    </a>
                   </div>
                 </DialogHeader>
                 <div className="flex-1 h-[calc(90vh-80px)] bg-muted">
